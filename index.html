@@ -3,42 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TN Waste — Tennessee Landfill Watch | Community Advocacy for Responsible Waste Management</title>
-    <meta name="description" content="Join the grassroots movement for responsible waste management in Tennessee. Track landfills, file FOIA requests, attend meetings, and hold operators accountable.">
-    <meta name="keywords" content="Tennessee landfill, waste management, environmental advocacy, FOIA, community organizing, Republic Services, Matlock Bend, TDEC">
-    <meta name="author" content="TN Waste Community">
-    <meta property="og:title" content="TN Waste — Tennessee Landfill Watch">
-    <meta property="og:description" content="Grassroots advocacy for responsible waste management across Tennessee's 95 counties.">
+    <title>TN Waste Watch — Tennessee Landfill Accountability</title>
+    <meta name="description" content="Independent community oversight of Tennessee landfill operations. Public records, meeting schedules, and tools for civic engagement.">
+    <meta name="keywords" content="Tennessee landfill, waste management, public records, TDEC, Loudon County, Republic Services, Matlock Bend">
+    <meta name="author" content="TN Waste Watch">
+    <meta property="og:title" content="TN Waste Watch — Tennessee Landfill Accountability">
+    <meta property="og:description" content="Independent community oversight of Tennessee landfill operations.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://tnwaste.org">
-    <meta property="og:image" content="https://tnwaste.org/assets/og-image.png">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="canonical" href="https://tnwaste.org">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Organization",
-        "name": "TN Waste — Tennessee Landfill Watch",
+        "name": "TN Waste Watch",
         "url": "https://tnwaste.org",
-        "description": "Grassroots community advocacy for responsible waste management in Tennessee",
-        "sameAs": [
-            "https://github.com/mfethe1/matlockbendalliance"
-        ]
+        "description": "Independent community oversight of Tennessee landfill operations"
     }
     </script>
     <style>
         :root {
             --forest: #1a472a;
-            --forest-dark: #0f2e1a;
+            --forest-dark: #0d2818;
             --forest-light: #2d6a3e;
-            --sky: #3b82f6;
+            --sky: #2563eb;
             --sky-dark: #1d4ed8;
-            --amber: #f59e0b;
-            --amber-dark: #d97706;
-            --rose: #e11d48;
-            --rose-dark: #be123c;
+            --amber: #d97706;
+            --rose: #be123c;
             --slate-50: #f8fafc;
             --slate-100: #f1f5f9;
             --slate-200: #e2e8f0;
@@ -50,30 +44,33 @@
             --slate-800: #1e293b;
             --slate-900: #0f172a;
             --max-width: 1200px;
+            --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            --font-serif: 'Source Serif 4', Georgia, serif;
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-family: var(--font-sans);
             color: var(--slate-800);
             line-height: 1.6;
-            background: var(--slate-50);
+            background: white;
+            -webkit-font-smoothing: antialiased;
         }
 
         /* Navigation */
         .nav {
             position: fixed;
             top: 0; left: 0; right: 0;
-            background: rgba(255,255,255,0.95);
-            backdrop-filter: blur(10px);
+            background: rgba(255,255,255,0.96);
+            backdrop-filter: blur(12px);
             border-bottom: 1px solid var(--slate-200);
             z-index: 1000;
         }
         .nav-inner {
             max-width: var(--max-width);
             margin: 0 auto;
-            padding: 0 1.5rem;
+            padding: 0 2rem;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -81,14 +78,15 @@
         }
         .nav-logo {
             font-weight: 800;
-            font-size: 1.25rem;
-            color: var(--forest);
+            font-size: 1.125rem;
+            color: var(--forest-dark);
             text-decoration: none;
             display: flex;
             align-items: center;
             gap: 0.5rem;
+            letter-spacing: -0.02em;
         }
-        .nav-logo svg { width: 28px; height: 28px; }
+        .nav-logo svg { width: 24px; height: 24px; }
         .nav-links {
             display: flex;
             gap: 2rem;
@@ -100,6 +98,7 @@
             font-weight: 500;
             font-size: 0.875rem;
             transition: color 0.2s;
+            letter-spacing: -0.01em;
         }
         .nav-links a:hover { color: var(--forest); }
         .nav-cta {
@@ -113,18 +112,11 @@
             transition: background 0.2s;
         }
         .nav-cta:hover { background: var(--forest-dark); }
-        .nav-toggle {
-            display: none;
-            background: none;
-            border: none;
-            cursor: pointer;
-            padding: 0.5rem;
-        }
 
         /* Hero */
         .hero {
-            padding: 140px 1.5rem 80px;
-            background: linear-gradient(135deg, var(--forest-dark) 0%, var(--forest) 50%, var(--forest-light) 100%);
+            padding: 140px 2rem 100px;
+            background: var(--forest-dark);
             color: white;
             position: relative;
             overflow: hidden;
@@ -133,8 +125,13 @@
             content: '';
             position: absolute;
             top: 0; left: 0; right: 0; bottom: 0;
-            background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-            opacity: 0.5;
+            background: linear-gradient(135deg, rgba(26,71,42,0.95) 0%, rgba(13,40,24,0.9) 100%);
+        }
+        .hero-pattern {
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            opacity: 0.04;
+            background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10-10-4.477-10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10S10 15.523 10 10zM10 70c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10S10 75.523 10 70zM70 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10S70 15.523 70 10z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
         }
         .hero-inner {
             max-width: var(--max-width);
@@ -144,27 +141,31 @@
         }
         .hero-label {
             display: inline-block;
-            background: rgba(255,255,255,0.15);
+            border: 1px solid rgba(255,255,255,0.2);
             padding: 0.375rem 1rem;
             border-radius: 100px;
             font-size: 0.75rem;
             font-weight: 600;
             text-transform: uppercase;
-            letter-spacing: 0.1em;
+            letter-spacing: 0.12em;
             margin-bottom: 1.5rem;
+            color: rgba(255,255,255,0.8);
         }
         .hero h1 {
             font-size: clamp(2.5rem, 5vw, 4rem);
             font-weight: 800;
-            line-height: 1.1;
+            line-height: 1.05;
             margin-bottom: 1.5rem;
             max-width: 800px;
+            letter-spacing: -0.03em;
         }
         .hero p {
+            font-family: var(--font-serif);
             font-size: 1.25rem;
-            opacity: 0.9;
+            opacity: 0.85;
             max-width: 600px;
-            margin-bottom: 2rem;
+            margin-bottom: 2.5rem;
+            line-height: 1.7;
         }
         .hero-ctas {
             display: flex;
@@ -183,10 +184,10 @@
         }
         .hero-cta-primary:hover {
             transform: translateY(-2px);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            box-shadow: 0 12px 40px rgba(0,0,0,0.25);
         }
         .hero-cta-secondary {
-            background: rgba(255,255,255,0.15);
+            background: transparent;
             color: white;
             padding: 1rem 2rem;
             border-radius: 8px;
@@ -194,15 +195,15 @@
             font-size: 1rem;
             text-decoration: none;
             border: 1px solid rgba(255,255,255,0.3);
-            transition: background 0.2s;
+            transition: background 0.2s, border-color 0.2s;
         }
-        .hero-cta-secondary:hover { background: rgba(255,255,255,0.25); }
+        .hero-cta-secondary:hover { background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.5); }
 
         /* Alert Banner */
         .alert-banner {
             background: var(--rose);
             color: white;
-            padding: 1rem 1.5rem;
+            padding: 1rem 2rem;
             text-align: center;
             font-weight: 600;
             font-size: 0.9375rem;
@@ -217,7 +218,7 @@
         .stats-bar {
             background: white;
             border-bottom: 1px solid var(--slate-200);
-            padding: 2rem 1.5rem;
+            padding: 2.5rem 2rem;
         }
         .stats-inner {
             max-width: var(--max-width);
@@ -234,6 +235,7 @@
             font-weight: 800;
             color: var(--forest);
             line-height: 1;
+            letter-spacing: -0.03em;
         }
         .stat-label {
             font-size: 0.875rem;
@@ -244,25 +246,51 @@
 
         /* Sections */
         .section {
-            padding: 5rem 1.5rem;
+            padding: 5rem 2rem;
             max-width: var(--max-width);
             margin: 0 auto;
         }
         .section-header {
-            text-align: center;
             margin-bottom: 3rem;
         }
         .section-header h2 {
-            font-size: 2.25rem;
+            font-size: 2rem;
             font-weight: 800;
             color: var(--slate-900);
-            margin-bottom: 1rem;
+            margin-bottom: 0.75rem;
+            letter-spacing: -0.02em;
         }
         .section-header p {
             font-size: 1.125rem;
             color: var(--slate-500);
             max-width: 600px;
-            margin: 0 auto;
+            font-family: var(--font-serif);
+            line-height: 1.6;
+        }
+
+        /* Citation */
+        .citation {
+            font-size: 0.75rem;
+            color: var(--slate-400);
+            margin-top: 0.75rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .citation a {
+            color: var(--sky);
+            text-decoration: none;
+        }
+        .citation a:hover { text-decoration: underline; }
+        .citation-tag {
+            background: var(--slate-100);
+            padding: 0.125rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.6875rem;
+            font-weight: 600;
+            color: var(--slate-500);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
         }
 
         /* Problem Cards */
@@ -276,21 +304,10 @@
             border-radius: 12px;
             padding: 2rem;
             border: 1px solid var(--slate-200);
-            transition: box-shadow 0.2s, transform 0.2s;
+            transition: box-shadow 0.2s;
         }
         .problem-card:hover {
-            box-shadow: 0 10px 40px rgba(0,0,0,0.08);
-            transform: translateY(-4px);
-        }
-        .problem-icon {
-            width: 48px;
-            height: 48px;
-            border-radius: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 1rem;
-            font-size: 1.5rem;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.06);
         }
         .problem-card h3 {
             font-size: 1.125rem;
@@ -301,7 +318,8 @@
         .problem-card p {
             font-size: 0.9375rem;
             color: var(--slate-600);
-            line-height: 1.6;
+            line-height: 1.7;
+            font-family: var(--font-serif);
         }
         .problem-tag {
             display: inline-block;
@@ -311,9 +329,9 @@
             font-weight: 600;
             margin-top: 1rem;
         }
-        .tag-danger { background: #fee2e2; color: var(--rose-dark); }
-        .tag-warning { background: #fef3c7; color: var(--amber-dark); }
-        .tag-info { background: #dbeafe; color: var(--sky-dark); }
+        .tag-danger { background: #fef2f2; color: var(--rose); }
+        .tag-warning { background: #fffbeb; color: var(--amber); }
+        .tag-info { background: #eff6ff; color: var(--sky); }
 
         /* Timeline */
         .timeline {
@@ -324,7 +342,7 @@
         }
         .timeline-item {
             display: flex;
-            gap: 1.5rem;
+            gap: 2rem;
             padding: 1.5rem 0;
             border-bottom: 1px solid var(--slate-100);
         }
@@ -334,15 +352,19 @@
             font-weight: 700;
             color: var(--forest);
             font-size: 0.875rem;
+            text-align: right;
         }
         .timeline-content h4 {
             font-weight: 700;
             margin-bottom: 0.5rem;
             color: var(--slate-900);
+            font-size: 1rem;
         }
         .timeline-content p {
             color: var(--slate-600);
             font-size: 0.9375rem;
+            font-family: var(--font-serif);
+            line-height: 1.7;
         }
         .timeline-badge {
             display: inline-block;
@@ -352,10 +374,10 @@
             font-weight: 600;
             margin-left: 0.5rem;
         }
-        .badge-contract { background: #dbeafe; color: var(--sky-dark); }
-        .badge-violation { background: #fee2e2; color: var(--rose-dark); }
-        .badge-permit { background: #fef3c7; color: var(--amber-dark); }
-        .badge-expansion { background: #d1fae5; color: var(--forest); }
+        .badge-contract { background: #eff6ff; color: var(--sky); }
+        .badge-violation { background: #fef2f2; color: var(--rose); }
+        .badge-permit { background: #fffbeb; color: var(--amber); }
+        .badge-expansion { background: #f0fdf4; color: var(--forest); }
 
         /* Documents */
         .docs-grid {
@@ -371,12 +393,13 @@
             display: flex;
             align-items: flex-start;
             gap: 1rem;
-            transition: box-shadow 0.2s;
+            transition: box-shadow 0.2s, border-color 0.2s;
             text-decoration: none;
             color: inherit;
         }
         .doc-card:hover {
-            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+            border-color: var(--slate-300);
         }
         .doc-icon {
             width: 40px;
@@ -387,7 +410,9 @@
             align-items: center;
             justify-content: center;
             flex-shrink: 0;
-            font-size: 1.25rem;
+            font-size: 0.875rem;
+            font-weight: 700;
+            color: var(--slate-500);
         }
         .doc-info h4 {
             font-weight: 600;
@@ -418,18 +443,19 @@
             border-radius: 12px;
             padding: 2rem;
             border: 1px solid var(--slate-200);
-            text-align: center;
         }
         .rep-avatar {
-            width: 64px;
-            height: 64px;
+            width: 48px;
+            height: 48px;
             border-radius: 50%;
             background: var(--slate-100);
             display: flex;
             align-items: center;
             justify-content: center;
-            margin: 0 auto 1rem;
-            font-size: 1.75rem;
+            margin-bottom: 1rem;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--slate-500);
         }
         .rep-card h3 {
             font-weight: 700;
@@ -477,12 +503,10 @@
             border: 1px solid var(--slate-200);
         }
         .action-card h3 {
-            font-size: 1.25rem;
+            font-size: 1.125rem;
             font-weight: 700;
             margin-bottom: 1rem;
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
+            color: var(--slate-900);
         }
         .action-card ol {
             padding-left: 1.25rem;
@@ -490,159 +514,12 @@
         }
         .action-card li {
             margin-bottom: 0.75rem;
-            line-height: 1.6;
+            line-height: 1.7;
+            font-family: var(--font-serif);
         }
         .action-card li strong {
             color: var(--slate-900);
-        }
-
-        /* Community Board */
-        .community-board {
-            background: white;
-            border-radius: 16px;
-            padding: 2rem;
-            border: 1px solid var(--slate-200);
-            margin-bottom: 2rem;
-        }
-        .community-board h3 {
-            font-size: 1.25rem;
-            font-weight: 700;
-            margin-bottom: 1rem;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-        .comment-form {
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-            margin-bottom: 1.5rem;
-        }
-        .comment-form input,
-        .comment-form textarea {
-            padding: 0.75rem 1rem;
-            border: 1px solid var(--slate-200);
-            border-radius: 8px;
-            font-family: inherit;
-            font-size: 0.9375rem;
-        }
-        .comment-form textarea {
-            min-height: 100px;
-            resize: vertical;
-        }
-        .comment-form button {
-            padding: 0.75rem 1.5rem;
-            background: var(--forest);
-            color: white;
-            border: none;
-            border-radius: 8px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: background 0.2s;
-        }
-        .comment-form button:hover { background: var(--forest-dark); }
-        .comment-list {
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-        }
-        .comment-item {
-            padding: 1rem;
-            background: var(--slate-50);
-            border-radius: 8px;
-            border-left: 3px solid var(--forest);
-        }
-        .comment-header {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 0.5rem;
-        }
-        .comment-author {
-            font-weight: 600;
-            color: var(--slate-900);
-        }
-        .comment-date {
-            font-size: 0.75rem;
-            color: var(--slate-400);
-        }
-        .comment-text {
-            color: var(--slate-600);
-            font-size: 0.9375rem;
-        }
-        .comment-verified {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.25rem;
-            background: #d1fae5;
-            color: var(--forest);
-            padding: 0.125rem 0.5rem;
-            border-radius: 4px;
-            font-size: 0.75rem;
-            font-weight: 600;
-            margin-left: 0.5rem;
-        }
-
-        /* Kanban Board */
-        .kanban-board {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 1rem;
-            margin-top: 1.5rem;
-        }
-        .kanban-column {
-            background: var(--slate-100);
-            border-radius: 12px;
-            padding: 1rem;
-            min-height: 200px;
-        }
-        .kanban-column h4 {
-            font-size: 0.875rem;
-            font-weight: 700;
-            color: var(--slate-700);
-            margin-bottom: 1rem;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-        .kanban-card {
-            background: white;
-            border-radius: 8px;
-            padding: 1rem;
-            margin-bottom: 0.75rem;
-            border: 1px solid var(--slate-200);
-            cursor: pointer;
-            transition: box-shadow 0.2s;
-        }
-        .kanban-card:hover {
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-        }
-        .kanban-card-title {
-            font-weight: 600;
-            font-size: 0.875rem;
-            margin-bottom: 0.5rem;
-        }
-        .kanban-card-meta {
-            display: flex;
-            gap: 0.5rem;
-            flex-wrap: wrap;
-        }
-        .kanban-tag {
-            font-size: 0.6875rem;
-            padding: 0.125rem 0.5rem;
-            border-radius: 4px;
-            font-weight: 600;
-        }
-        .kanban-tag-verification {
-            background: #fee2e2;
-            color: var(--rose-dark);
-        }
-        .kanban-tag-community {
-            background: #dbeafe;
-            color: var(--sky-dark);
-        }
-        .kanban-tag-progress {
-            background: #fef3c7;
-            color: var(--amber-dark);
+            font-family: var(--font-sans);
         }
 
         /* Meeting Tracker */
@@ -656,13 +533,14 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 1rem 0;
+            padding: 1.25rem 0;
             border-bottom: 1px solid var(--slate-100);
         }
         .meeting-item:last-child { border-bottom: none; }
         .meeting-info h4 {
             font-weight: 600;
             margin-bottom: 0.25rem;
+            font-size: 1rem;
         }
         .meeting-info p {
             font-size: 0.875rem;
@@ -674,9 +552,9 @@
             font-size: 0.75rem;
             font-weight: 600;
         }
-        .status-upcoming { background: #dbeafe; color: var(--sky-dark); }
+        .status-upcoming { background: #eff6ff; color: var(--sky); }
         .status-past { background: var(--slate-100); color: var(--slate-500); }
-        .status-urgent { background: #fee2e2; color: var(--rose-dark); }
+        .status-urgent { background: #fef2f2; color: var(--rose); }
 
         /* FOIA Tool */
         .foia-tool {
@@ -690,86 +568,53 @@
             border-radius: 8px;
             padding: 1.5rem;
             margin-top: 1rem;
-            font-family: 'Merriweather', serif;
+            font-family: var(--font-serif);
             font-size: 0.9375rem;
             line-height: 1.8;
+            border: 1px solid var(--slate-200);
         }
-        .foia-template p {
-            margin-bottom: 1rem;
-        }
-        .foia-template .signature {
-            margin-top: 2rem;
-        }
+        .foia-template p { margin-bottom: 1rem; }
+        .foia-template .signature { margin-top: 2rem; }
         .copy-btn {
             padding: 0.5rem 1rem;
-            background: var(--slate-100);
+            background: white;
             border: 1px solid var(--slate-200);
             border-radius: 6px;
             font-size: 0.875rem;
             cursor: pointer;
             transition: background 0.2s;
+            font-weight: 500;
         }
-        .copy-btn:hover { background: var(--slate-200); }
-
-        /* County Database */
-        .county-search {
-            display: flex;
-            gap: 0.75rem;
-            margin-bottom: 1.5rem;
-        }
-        .county-search input {
-            flex: 1;
-            padding: 0.75rem 1rem;
-            border: 1px solid var(--slate-200);
-            border-radius: 8px;
-            font-size: 0.9375rem;
-        }
-        .county-search button {
-            padding: 0.75rem 1.5rem;
-            background: var(--forest);
-            color: white;
-            border: none;
-            border-radius: 8px;
-            font-weight: 600;
-            cursor: pointer;
-        }
-        .county-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 1rem;
-        }
-        .county-card {
-            background: white;
-            border-radius: 8px;
-            padding: 1rem;
-            border: 1px solid var(--slate-200);
-        }
-        .county-card h4 {
-            font-weight: 600;
-            margin-bottom: 0.5rem;
-        }
-        .county-card p {
-            font-size: 0.875rem;
-            color: var(--slate-500);
-        }
+        .copy-btn:hover { background: var(--slate-50); }
 
         /* Newsletter */
         .newsletter {
-            background: linear-gradient(135deg, var(--forest) 0%, var(--forest-light) 100%);
+            background: var(--forest-dark);
             border-radius: 16px;
             padding: 4rem 2rem;
             text-align: center;
             color: white;
+            position: relative;
+            overflow: hidden;
         }
+        .newsletter::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: linear-gradient(135deg, rgba(26,71,42,0.9) 0%, rgba(13,40,24,0.95) 100%);
+        }
+        .newsletter > * { position: relative; z-index: 1; }
         .newsletter h2 {
             font-size: 2rem;
             font-weight: 800;
             margin-bottom: 1rem;
+            letter-spacing: -0.02em;
         }
         .newsletter p {
-            opacity: 0.9;
+            opacity: 0.85;
             max-width: 500px;
             margin: 0 auto 2rem;
+            font-family: var(--font-serif);
         }
         .newsletter-form {
             display: flex;
@@ -788,8 +633,8 @@
         .newsletter-form input::placeholder { color: var(--slate-400); }
         .newsletter-form button {
             padding: 1rem 1.5rem;
-            background: var(--slate-900);
-            color: white;
+            background: white;
+            color: var(--forest-dark);
             border: none;
             border-radius: 8px;
             font-weight: 700;
@@ -797,13 +642,13 @@
             cursor: pointer;
             transition: background 0.2s;
         }
-        .newsletter-form button:hover { background: black; }
+        .newsletter-form button:hover { background: var(--slate-100); }
 
         /* Footer */
         .footer {
             background: var(--slate-900);
             color: var(--slate-400);
-            padding: 3rem 1.5rem;
+            padding: 3rem 2rem;
             text-align: center;
         }
         .footer-inner {
@@ -822,14 +667,11 @@
         /* Responsive */
         @media (max-width: 900px) {
             .nav-links { display: none; }
-            .nav-toggle { display: block; }
             .stats-inner { grid-template-columns: repeat(2, 1fr); }
             .problems-grid { grid-template-columns: 1fr; }
             .reps-grid { grid-template-columns: 1fr; }
             .docs-grid { grid-template-columns: 1fr; }
             .actions-grid { grid-template-columns: 1fr; }
-            .kanban-board { grid-template-columns: repeat(2, 1fr); }
-            .county-grid { grid-template-columns: 1fr; }
             .newsletter-form { flex-direction: column; }
         }
 
@@ -840,7 +682,7 @@
             .section { padding: 3rem 1rem; }
             .timeline { padding: 1.5rem; }
             .timeline-item { flex-direction: column; gap: 0.5rem; }
-            .kanban-board { grid-template-columns: 1fr; }
+            .timeline-date { text-align: left; }
         }
     </style>
 </head>
@@ -850,17 +692,16 @@
     <nav class="nav">
         <div class="nav-inner">
             <a href="#" class="nav-logo">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
                     <path d="M12 2L2 7l10 5 10-5-10-5z"/>
                     <path d="M2 17l10 5 10-5"/>
                     <path d="M2 12l10 5 10-5"/>
                 </svg>
-                TN Waste
+                TN Waste Watch
             </a>
             <ul class="nav-links">
-                <li><a href="#problems">The Problem</a></li>
                 <li><a href="#documents">Documents</a></li>
-                <li><a href="#community">Community</a></li>
+                <li><a href="#timeline">Timeline</a></li>
                 <li><a href="#tools">Tools</a></li>
                 <li><a href="#action">Take Action</a></li>
             </ul>
@@ -870,18 +711,19 @@
 
     <!-- Alert Banner -->
     <div class="alert-banner" style="margin-top:64px;">
-        URGENT: Republic Services is seeking a 7-acre expansion permit from TDEC. The next LCSWDC meeting is your chance to be heard. <a href="#action">Learn how to attend →</a>
+        TDEC permit SNL530000203 expansion is under review. Public comment period open. <a href="#action">Learn how to comment &rarr;</a>
     </div>
 
     <!-- Hero -->
     <section class="hero">
+        <div class="hero-pattern"></div>
         <div class="hero-inner">
-            <div class="hero-label">Loudon County, Tennessee</div>
-            <h1>Your Landfill. Your Water. Your Future.</h1>
-            <p>Republic Services operates the Matlock Bend Landfill with zero real recycling, no reporting on hazardous waste, and a 7-acre expansion in the works. We're demanding transparency, accountability, and safe waste practices for our community.</p>
+            <div class="hero-label">Independent Community Oversight</div>
+            <h1>Holding Tennessee Landfills Accountable</h1>
+            <p>We collect, organize, and publish public records about landfill operations across Tennessee. Our goal is transparency: every citizen deserves to know what waste is being buried in their community and who is responsible.</p>
             <div class="hero-ctas">
-                <a href="#documents" class="hero-cta-primary">View the Evidence</a>
-                <a href="#action" class="hero-cta-secondary">Take Action Now</a>
+                <a href="#documents" class="hero-cta-primary">Browse Public Records</a>
+                <a href="#tools" class="hero-cta-secondary">Use Our Tools</a>
             </div>
         </div>
     </section>
@@ -890,20 +732,20 @@
     <div class="stats-bar">
         <div class="stats-inner">
             <div class="stat">
-                <div class="stat-number">0%</div>
-                <div class="stat-label">Real Recycling Rate</div>
+                <div class="stat-number">17</div>
+                <div class="stat-label">Public Documents Archived</div>
             </div>
             <div class="stat">
-                <div class="stat-number">75</div>
-                <div class="stat-label">Miles Waste Imported From</div>
+                <div class="stat-number">3</div>
+                <div class="stat-label">TDEC Inspections (2025)</div>
             </div>
             <div class="stat">
-                <div class="stat-number">26</div>
-                <div class="stat-label">Acres Proposed for Expansion</div>
+                <div class="stat-number">1</div>
+                <div class="stat-label">Active Permit Under Review</div>
             </div>
             <div class="stat">
-                <div class="stat-number">~15</div>
-                <div class="stat-label">Years of TN Landfill Capacity Left</div>
+                <div class="stat-number">95</div>
+                <div class="stat-label">Tennessee Counties</div>
             </div>
         </div>
     </div>
@@ -911,45 +753,66 @@
     <!-- The Problem -->
     <section class="section" id="problems">
         <div class="section-header">
-            <h2>What's Happening at Matlock Bend</h2>
-            <p>Republic Services is driving the bus — and Loudon County is along for the ride. Here's what we know.</p>
+            <h2>What the Public Records Show</h2>
+            <p>Every claim below is sourced from official documents. Click citations to view the original records.</p>
         </div>
         <div class="problems-grid">
             <div class="problem-card">
-                <div class="problem-icon" style="background:#fee2e2;">📄</div>
-                <h3>A Bad Contract</h3>
-                <p>The 2022 Operating Agreement between Loudon County and Republic Services is poorly written, giving Republic significant control over expansion decisions while the county owns the property but has limited oversight.</p>
-                <span class="problem-tag tag-danger">Contract Issue</span>
+                <h3>Operating Agreement Gives Republic Broad Authority</h3>
+                <p>The 2022 Second Amended Operating Agreement between Loudon County and Republic Services grants the operator significant discretion over expansion decisions, while the county retains property ownership with limited operational oversight provisions.</p>
+                <span class="problem-tag tag-danger">Contract Review</span>
+                <div class="citation">
+                    <span class="citation-tag">Source</span>
+                    <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/20220412_Second_Amended_Operating_Agreement.pdf" target="_blank">2022 Operating Agreement (11 MB PDF)</a>
+                </div>
             </div>
             <div class="problem-card">
-                <div class="problem-icon" style="background:#fef3c7;">♻️</div>
-                <h3>Zero Real Recycling</h3>
-                <p>Loudon County currently recycles almost nothing. Republic charges recycling fees in surrounding counties, but those bins are mixed with regular garbage and dumped in the landfill. Only cardboard gets separated.</p>
-                <span class="problem-tag tag-warning">Environmental</span>
+                <h3>Recycling Diversion Data Not Publicly Reported</h3>
+                <p>Loudon County does not publish annual recycling diversion rates. The 2024 Annual Engineering Report filed with TDEC does not include comprehensive recycling statistics, making it impossible for residents to verify compliance with state waste reduction goals.</p>
+                <span class="problem-tag tag-warning">Transparency Gap</span>
+                <div class="citation">
+                    <span class="citation-tag">Source</span>
+                    <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/2024_MatlockBendLandfill_AnnualEngineeringReport.pdf" target="_blank">2024 Annual Engineering Report (1.7 MB PDF)</a>
+                </div>
             </div>
             <div class="problem-card">
-                <div class="problem-icon" style="background:#fee2e2;">☢️</div>
-                <h3>Hazardous Waste Accepted</h3>
-                <p>The landfill accepts PFAS, medical waste (often containing Teflon), and commercial nuclear/radioactive waste from hospitals within a 75-mile radius. There are no statistics, limits, or reporting requirements.</p>
-                <span class="problem-tag tag-danger">Public Health</span>
+                <h3>Notice of Violation Issued January 2025</h3>
+                <p>A formal Notice of Violation was issued to Republic Services on January 16, 2025. Republic responded on January 31, 2025. The specific violations and corrective actions are documented in the public record.</p>
+                <span class="problem-tag tag-danger">Enforcement Action</span>
+                <div class="citation">
+                    <span class="citation-tag">Source</span>
+                    <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/20250116_Notice_Of_Violation_Letter_To_Republic.pdf" target="_blank">NOV Letter (2.6 MB PDF)</a> &middot; 
+                    <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/20250131_Republic_Response_To_Notice_Of_Violation.pdf" target="_blank">Republic Response (207 KB PDF)</a>
+                </div>
             </div>
             <div class="problem-card">
-                <div class="problem-icon" style="background:#dbeafe;">🚛</div>
-                <h3>Importing Other Counties' Worst Waste</h3>
-                <p>Republic brings waste from up to 75 miles away to increase tipping fees. Other counties selectively ship their worst waste to Loudon County — not organics, but the hazardous and hard-to-process materials.</p>
-                <span class="problem-tag tag-info">Inter-County</span>
+                <h3>7-Acre Expansion Under TDEC Review</h3>
+                <p>Republic Services has submitted permit modification applications to TDEC for a 7-acre expansion of the Matlock Bend Landfill. The permit file (SNL530000203) is open for public inspection at TDEC's Nashville office.</p>
+                <span class="problem-tag tag-info">Permit Activity</span>
+                <div class="citation">
+                    <span class="citation-tag">Source</span>
+                    <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/20241121_Public_Hearing_Powerpoint.pdf" target="_blank">Public Hearing Presentation (22 MB PDF)</a>
+                </div>
             </div>
             <div class="problem-card">
-                <div class="problem-icon" style="background:#fef3c7;">📏</div>
-                <h3>26-Acre Expansion Pending</h3>
-                <p>Republic is currently seeking TDEC permits for a 7-acre expansion, with an additional 19 acres available for future expansion. This increases capacity for decades more waste — including imports from other counties.</p>
-                <span class="problem-tag tag-warning">Expansion</span>
+                <h3>Three TDEC Inspections in 2025</h3>
+                <p>TDEC conducted Class I inspections on June 9, July 21, and July 29, 2025. Inspection reports detail compliance status with permit conditions. These reports are public records available upon request.</p>
+                <span class="problem-tag tag-info">Regulatory Oversight</span>
+                <div class="citation">
+                    <span class="citation-tag">Source</span>
+                    <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/TDEC_Loudon_ClassI_Initial_Inspection_20250609.pdf" target="_blank">June 9 Inspection</a> &middot;
+                    <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/TDEC_Loudon_ClassI_Inspection_20250721.pdf" target="_blank">July 21 Inspection</a> &middot;
+                    <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/TDEC_Loudon_ClassI_Construction_Inspection_20250729.pdf" target="_blank">July 29 Inspection</a>
+                </div>
             </div>
             <div class="problem-card">
-                <div class="problem-icon" style="background:#dbeafe;">🏛️</div>
-                <h3>State Mandate Being Ignored</h3>
-                <p>Tennessee has mandated that all counties reduce landfill inflow and increase recycling. Loudon County is not complying. Meanwhile, the entire state has only about 15 years of landfill capacity remaining.</p>
-                <span class="problem-tag tag-info">Policy</span>
+                <h3>Waste Accepted from Multiple Counties</h3>
+                <p>The operating agreement and public hearing materials indicate that the landfill accepts waste from jurisdictions beyond Loudon County. The specific volume and origin of imported waste is not published in readily accessible form.</p>
+                <span class="problem-tag tag-warning">Data Gap</span>
+                <div class="citation">
+                    <span class="citation-tag">Source</span>
+                    <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/20241121_Public_Hearing_Powerpoint.pdf" target="_blank">Public Hearing Materials</a>
+                </div>
             </div>
         </div>
     </section>
@@ -957,443 +820,367 @@
     <!-- Timeline -->
     <section class="section" id="timeline">
         <div class="section-header">
-            <h2>Timeline of Events</h2>
-            <p>Key milestones in the Matlock Bend Landfill story.</p>
+            <h2>Documented Timeline</h2>
+            <p>Key events sourced from official records. Dates are as stated in the documents.</p>
         </div>
         <div class="timeline">
             <div class="timeline-item">
-                <div class="timeline-date">2007</div>
+                <div class="timeline-date">January 2007</div>
                 <div class="timeline-content">
-                    <h4>Santek Operating Agreement Signed <span class="timeline-badge badge-contract">Contract</span></h4>
-                    <p>Original agreement between Loudon County Solid Waste Disposal Commission and Santek (later acquired by Republic Services).</p>
+                    <h4>Original Operating Agreement Executed <span class="timeline-badge badge-contract">Contract</span></h4>
+                    <p>Loudon County Solid Waste Disposal Commission entered into an operating agreement with Santek Environmental Services for the Matlock Bend Landfill.</p>
+                    <div class="citation">
+                        <span class="citation-tag">Source</span>
+                        <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/20070107_Santek_Operation_Agreement.pdf" target="_blank">2007 Agreement (4.4 MB PDF)</a>
+                    </div>
                 </div>
             </div>
             <div class="timeline-item">
-                <div class="timeline-date">2022</div>
+                <div class="timeline-date">April 2022</div>
                 <div class="timeline-content">
                     <h4>Second Amended Operating Agreement <span class="timeline-badge badge-contract">Contract</span></h4>
-                    <p>Current contract with Republic Services. Community members have identified issues with how it's written, giving Republic outsized control.</p>
+                    <p>Current operating agreement between Loudon County and Republic Services (successor to Santek). Governs current operations and expansion procedures.</p>
+                    <div class="citation">
+                        <span class="citation-tag">Source</span>
+                        <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/20220412_Second_Amended_Operating_Agreement.pdf" target="_blank">2022 Agreement (11 MB PDF)</a>
+                    </div>
                 </div>
             </div>
             <div class="timeline-item">
-                <div class="timeline-date">Nov 2024</div>
+                <div class="timeline-date">November 21, 2024</div>
                 <div class="timeline-content">
-                    <h4>Public Hearing on Expansion <span class="timeline-badge badge-expansion">Expansion</span></h4>
-                    <p>Public hearing held for the proposed expansion. Strong community turnout from Tinsley National and surrounding areas.</p>
+                    <h4>Public Hearing on Expansion <span class="timeline-badge badge-expansion">Permit</span></h4>
+                    <p>Public hearing held regarding the proposed landfill expansion. Presentation materials filed with the record.</p>
+                    <div class="citation">
+                        <span class="citation-tag">Source</span>
+                        <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/20241121_Public_Hearing_Powerpoint.pdf" target="_blank">Hearing Presentation (22 MB PDF)</a>
+                    </div>
                 </div>
             </div>
             <div class="timeline-item">
-                <div class="timeline-date">Jan 2025</div>
+                <div class="timeline-date">January 16, 2025</div>
                 <div class="timeline-content">
-                    <h4>Notice of Violation Issued to Republic <span class="timeline-badge badge-violation">Violation</span></h4>
-                    <p>TDEC or LCSWDC issued a formal Notice of Violation to Republic Services for operational issues. Republic responded on January 31, 2025.</p>
+                    <h4>Notice of Violation Issued <span class="timeline-badge badge-violation">Enforcement</span></h4>
+                    <p>Formal Notice of Violation issued to Republic Services. Republic filed a response on January 31, 2025.</p>
+                    <div class="citation">
+                        <span class="citation-tag">Source</span>
+                        <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/20250116_Notice_Of_Violation_Letter_To_Republic.pdf" target="_blank">NOV (2.6 MB)</a> &middot;
+                        <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/20250131_Republic_Response_To_Notice_Of_Violation.pdf" target="_blank">Response (207 KB)</a>
+                    </div>
                 </div>
             </div>
             <div class="timeline-item">
-                <div class="timeline-date">Jun–Jul 2025</div>
+                <div class="timeline-date">June 9, 2025</div>
                 <div class="timeline-content">
-                    <h4>TDEC Class I Inspections <span class="timeline-badge badge-permit">Permit</span></h4>
-                    <p>TDEC conducted multiple Class I inspections (June 9, July 21, July 29, 2025) for Permit SNL530000203. Reports detail compliance status.</p>
+                    <h4>TDEC Class I Inspection <span class="timeline-badge badge-permit">Inspection</span></h4>
+                    <p>Initial Class I inspection conducted by TDEC Division of Solid Waste Management for Permit SNL530000203.</p>
+                    <div class="citation">
+                        <span class="citation-tag">Source</span>
+                        <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/TDEC_Loudon_ClassI_Initial_Inspection_20250609.pdf" target="_blank">Inspection Report</a>
+                    </div>
                 </div>
             </div>
             <div class="timeline-item">
-                <div class="timeline-date">2025–2026</div>
+                <div class="timeline-date">July 21, 2025</div>
                 <div class="timeline-content">
-                    <h4>7-Acre Expansion in Permitting <span class="timeline-badge badge-expansion">Expansion</span></h4>
-                    <p>Republic Services is actively seeking TDEC approval for a 7-acre expansion, with 19 additional acres available for future phases.</p>
+                    <h4>TDEC Class I Inspection <span class="timeline-badge badge-permit">Inspection</span></h4>
+                    <p>Follow-up Class I inspection conducted. Report documents compliance status with permit conditions.</p>
+                    <div class="citation">
+                        <span class="citation-tag">Source</span>
+                        <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/TDEC_Loudon_ClassI_Inspection_20250721.pdf" target="_blank">Inspection Report (20 MB PDF)</a>
+                    </div>
                 </div>
             </div>
             <div class="timeline-item">
-                <div class="timeline-date">Now</div>
+                <div class="timeline-date">July 29, 2025</div>
                 <div class="timeline-content">
-                    <h4>Community Organizing Begins <span class="timeline-badge badge-contract">Action</span></h4>
-                    <p>Residents are coming together to demand transparency, real recycling, and an end to hazardous waste acceptance. Meeting attendance has dropped — your presence matters.</p>
+                    <h4>TDEC Construction Inspection <span class="timeline-badge badge-permit">Inspection</span></h4>
+                    <p>Construction inspection for permit compliance. Report filed with TDEC.</p>
+                    <div class="citation">
+                        <span class="citation-tag">Source</span>
+                        <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/TDEC_Loudon_ClassI_Construction_Inspection_20250729.pdf" target="_blank">Inspection Report (19 MB PDF)</a>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2025-2026</div>
+                <div class="timeline-content">
+                    <h4>Permit Modification Under Review <span class="timeline-badge badge-expansion">Permit</span></h4>
+                    <p>TDEC is reviewing permit modification applications for the 7-acre expansion. Public comment may be submitted during the review period.</p>
+                    <div class="citation">
+                        <span class="citation-tag">Source</span>
+                        Contact TDEC Division of Solid Waste Management at (615) 532-0780 or visit <a href="https://www.tn.gov/environment/program-areas/solid-waste-management.html" target="_blank">tn.gov/environment</a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Documents -->
-    <section class="section" id="documents" style="background:var(--slate-100); margin:0 -1.5rem; padding:5rem 1.5rem; max-width:none;">
+    <section class="section" id="documents" style="background:var(--slate-50); margin:0 -2rem; padding:5rem 2rem; max-width:none;">
         <div style="max-width:var(--max-width); margin:0 auto;">
             <div class="section-header">
-                <h2>Public Documents</h2>
-                <p>All documents sourced from Loudon County Solid Waste Disposal Commission, TDEC, and public records. Download and review for yourself.</p>
+                <h2>Public Document Archive</h2>
+                <p>All documents obtained through public records requests or downloaded from official government websites. Last updated: May 24, 2026.</p>
             </div>
             <div class="docs-grid">
                 <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/20220412_Second_Amended_Operating_Agreement.pdf" class="doc-card" target="_blank">
-                    <div class="doc-icon">📄</div>
+                    <div class="doc-icon">PDF</div>
                     <div class="doc-info">
                         <h4>2022 Second Amended Operating Agreement</h4>
-                        <p>The current contract between Loudon County and Republic Services</p>
+                        <p>Loudon County and Republic Services</p>
                         <div class="doc-meta">
-                            <span>11 MB PDF</span>
+                            <span>11 MB</span>
                             <span>April 2022</span>
                         </div>
                     </div>
                 </a>
                 <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/20250116_Notice_Of_Violation_Letter_To_Republic.pdf" class="doc-card" target="_blank">
-                    <div class="doc-icon">⚠️</div>
+                    <div class="doc-icon">PDF</div>
                     <div class="doc-info">
-                        <h4>Notice of Violation to Republic</h4>
-                        <p>Formal violation notice issued January 16, 2025</p>
+                        <h4>Notice of Violation</h4>
+                        <p>Issued to Republic Services</p>
                         <div class="doc-meta">
-                            <span>2.6 MB PDF</span>
-                            <span>Jan 2025</span>
+                            <span>2.6 MB</span>
+                            <span>January 2025</span>
                         </div>
                     </div>
                 </a>
                 <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/20250131_Republic_Response_To_Notice_Of_Violation.pdf" class="doc-card" target="_blank">
-                    <div class="doc-icon">📝</div>
+                    <div class="doc-icon">PDF</div>
                     <div class="doc-info">
-                        <h4>Republic's Response to Violation</h4>
-                        <p>Republic Services' official response to the Notice of Violation</p>
+                        <h4>Republic Response to NOV</h4>
+                        <p>Official response filed January 31, 2025</p>
                         <div class="doc-meta">
-                            <span>207 KB PDF</span>
-                            <span>Jan 2025</span>
+                            <span>207 KB</span>
+                            <span>January 2025</span>
                         </div>
                     </div>
                 </a>
                 <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/20241121_Public_Hearing_Powerpoint.pdf" class="doc-card" target="_blank">
-                    <div class="doc-icon">📊</div>
+                    <div class="doc-icon">PDF</div>
                     <div class="doc-info">
-                        <h4>Public Hearing Powerpoint</h4>
-                        <p>Presentation from the November 21, 2024 public hearing on expansion</p>
+                        <h4>Public Hearing Presentation</h4>
+                        <p>November 21, 2024 expansion hearing</p>
                         <div class="doc-meta">
-                            <span>22 MB PDF</span>
-                            <span>Nov 2024</span>
+                            <span>22 MB</span>
+                            <span>November 2024</span>
                         </div>
                     </div>
                 </a>
                 <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/TDEC_Loudon_ClassI_Inspection_20250721.pdf" class="doc-card" target="_blank">
-                    <div class="doc-icon">🔍</div>
+                    <div class="doc-icon">PDF</div>
                     <div class="doc-info">
-                        <h4>TDEC Class I Inspection — July 2025</h4>
-                        <p>TDEC inspection report for Permit SNL530000203</p>
+                        <h4>TDEC Class I Inspection — July 21, 2025</h4>
+                        <p>Permit SNL530000203 compliance review</p>
                         <div class="doc-meta">
-                            <span>20 MB PDF</span>
-                            <span>Jul 2025</span>
+                            <span>20 MB</span>
+                            <span>July 2025</span>
                         </div>
                     </div>
                 </a>
                 <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/TDEC_Loudon_ClassI_Construction_Inspection_20250729.pdf" class="doc-card" target="_blank">
-                    <div class="doc-icon">🏗️</div>
+                    <div class="doc-icon">PDF</div>
                     <div class="doc-info">
-                        <h4>TDEC Construction Inspection — July 2025</h4>
-                        <p>Construction inspection for the Matlock Bend Landfill</p>
+                        <h4>TDEC Construction Inspection — July 29, 2025</h4>
+                        <p>Construction compliance inspection</p>
                         <div class="doc-meta">
-                            <span>19 MB PDF</span>
-                            <span>Jul 2025</span>
+                            <span>19 MB</span>
+                            <span>July 2025</span>
                         </div>
                     </div>
                 </a>
                 <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/2024_MatlockBendLandfill_AnnualEngineeringReport.pdf" class="doc-card" target="_blank">
-                    <div class="doc-icon">📐</div>
+                    <div class="doc-icon">PDF</div>
                     <div class="doc-info">
                         <h4>2024 Annual Engineering Report</h4>
-                        <p>Annual engineering report for the Matlock Bend Landfill</p>
+                        <p>Matlock Bend Landfill</p>
                         <div class="doc-meta">
-                            <span>1.7 MB PDF</span>
+                            <span>1.7 MB</span>
                             <span>2024</span>
                         </div>
                     </div>
                 </a>
                 <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/20070107_Santek_Operation_Agreement.pdf" class="doc-card" target="_blank">
-                    <div class="doc-icon">📜</div>
+                    <div class="doc-icon">PDF</div>
                     <div class="doc-info">
-                        <h4>2007 Original Santek Agreement</h4>
-                        <p>Original operating agreement with Santek (before Republic acquisition)</p>
+                        <h4>2007 Original Operating Agreement</h4>
+                        <p>Santek Environmental Services</p>
                         <div class="doc-meta">
-                            <span>4.4 MB PDF</span>
-                            <span>Jan 2007</span>
+                            <span>4.4 MB</span>
+                            <span>January 2007</span>
                         </div>
                     </div>
                 </a>
             </div>
             <div style="text-align:center; margin-top:2rem;">
-                <a href="https://github.com/mfethe1/loudoun-landfill-research/tree/main/pdfs" target="_blank" style="color:var(--forest); font-weight:600; text-decoration:none;">View All 17 Documents →</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Community Board -->
-    <section class="section" id="community">
-        <div class="section-header">
-            <h2>Community Board</h2>
-            <p>Share updates, ask questions, and connect with other residents. All posts are moderated for accuracy.</p>
-        </div>
-        
-        <div class="community-board">
-            <h3>💬 Recent Community Updates</h3>
-            <div class="comment-list" id="commentList">
-                <div class="comment-item">
-                    <div class="comment-header">
-                        <span class="comment-author">Sarah M. <span class="comment-verified">✓ Verified Resident</span></span>
-                        <span class="comment-date">2 days ago</span>
-                    </div>
-                    <div class="comment-text">Attended the last LCSWDC meeting — only 6 people showed up. We need to fill these rooms! Republic had 3 representatives present. Next meeting is March 15th.</div>
-                </div>
-                <div class="comment-item">
-                    <div class="comment-header">
-                        <span class="comment-author">James T.</span>
-                        <span class="comment-date">5 days ago</span>
-                    </div>
-                    <div class="comment-text">Filed a FOIA request for recycling data. TDEC responded within 5 business days. The report shows Loudon County recycles less than 2% of waste. This needs to change.</div>
-                </div>
-                <div class="comment-item">
-                    <div class="comment-header">
-                        <span class="comment-author">Community Organizer <span class="comment-verified">✓ Verified</span></span>
-                        <span class="comment-date">1 week ago</span>
-                    </div>
-                    <div class="comment-text">New TDEC inspection report from July 29th is now available in the Documents section. Key finding: groundwater monitoring shows elevated levels near the northern boundary.</div>
-                </div>
-            </div>
-            
-            <div style="margin-top:1.5rem; padding-top:1.5rem; border-top:1px solid var(--slate-200);">
-                <h4 style="margin-bottom:1rem;">Post an Update</h4>
-                <form class="comment-form" id="commentForm">
-                    <input type="text" id="commentName" placeholder="Your name (required)" required>
-                    <input type="email" id="commentEmail" placeholder="Your email (won't be published)">
-                    <textarea id="commentText" placeholder="Share an update, ask a question, or report what you've seen..." required></textarea>
-                    <div style="display:flex; gap:1rem; align-items:center;">
-                        <button type="submit">Post Update</button>
-                        <label style="display:flex; align-items:center; gap:0.5rem; font-size:0.875rem; color:var(--slate-600);">
-                            <input type="checkbox" id="isResident"> I am a Loudon County resident
-                        </label>
-                    </div>
-                </form>
-            </div>
-        </div>
-
-        <!-- Community Kanban -->
-        <div class="community-board">
-            <h3>📋 Community Task Board</h3>
-            <p style="color:var(--slate-500); margin-bottom:1rem;">Track verified community actions. Tasks marked with 🚨 require two-person verification before moving to Done.</p>
-            <div class="kanban-board">
-                <div class="kanban-column">
-                    <h4>📥 To Do</h4>
-                    <div class="kanban-card">
-                        <div class="kanban-card-title">File FOIA for 2024 waste intake data</div>
-                        <div class="kanban-card-meta">
-                            <span class="kanban-tag kanban-tag-verification">🚨 Verify</span>
-                        </div>
-                    </div>
-                    <div class="kanban-card">
-                        <div class="kanban-card-title">Contact Knoxville News Sentinel</div>
-                        <div class="kanban-card-meta">
-                            <span class="kanban-tag kanban-tag-community">Community</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="kanban-column">
-                    <h4>🔄 In Progress</h4>
-                    <div class="kanban-card">
-                        <div class="kanban-card-title">Organize neighborhood meeting for March</div>
-                        <div class="kanban-card-meta">
-                            <span class="kanban-tag kanban-tag-progress">In Progress</span>
-                            <span class="kanban-tag kanban-tag-community">Community</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="kanban-column">
-                    <h4>✅ Done</h4>
-                    <div class="kanban-card">
-                        <div class="kanban-card-title">FOIA request for TDEC inspection reports</div>
-                        <div class="kanban-card-meta">
-                            <span class="kanban-tag kanban-tag-community">Community</span>
-                        </div>
-                    </div>
-                    <div class="kanban-card">
-                        <div class="kanban-card-title">Created community email list (47 members)</div>
-                        <div class="kanban-card-meta">
-                            <span class="kanban-tag kanban-tag-community">Community</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="kanban-column">
-                    <h4>🚨 Verification Required</h4>
-                    <div class="kanban-card">
-                        <div class="kanban-card-title">Verify: Republic importing waste from 5+ counties</div>
-                        <div class="kanban-card-meta">
-                            <span class="kanban-tag kanban-tag-verification">🚨 Verify</span>
-                        </div>
-                    </div>
-                </div>
+                <a href="https://github.com/mfethe1/loudoun-landfill-research/tree/main/pdfs" target="_blank" style="color:var(--forest); font-weight:600; text-decoration:none;">View All 17 Documents on GitHub &rarr;</a>
             </div>
         </div>
     </section>
 
     <!-- Tools Section -->
-    <section class="section" id="tools" style="background:var(--slate-100); margin:0 -1.5rem; padding:5rem 1.5rem; max-width:none;">
-        <div style="max-width:var(--max-width); margin:0 auto;">
-            <div class="section-header">
-                <h2>Community Tools</h2>
-                <p>Free tools to help you organize, advocate, and hold officials accountable.</p>
+    <section class="section" id="tools">
+        <div class="section-header">
+            <h2>Community Tools</h2>
+            <p>Free resources to help you engage with the public process.</p>
+        </div>
+
+        <!-- Meeting Tracker -->
+        <div class="meeting-tracker" style="margin-bottom:2rem;">
+            <h3 style="font-size:1.25rem; font-weight:700; margin-bottom:1.5rem;">Upcoming Meetings & Deadlines</h3>
+            <p style="color:var(--slate-500); margin-bottom:1.5rem; font-size:0.9375rem;">Dates are subject to change. Verify with the hosting body before attending.</p>
+            <div class="meeting-item">
+                <div class="meeting-info">
+                    <h4>LCSWDC Regular Meeting</h4>
+                    <p>Third Thursday monthly, 6:00 PM, Loudon County Courthouse. Check <a href="https://loudoncounty-tn.gov" target="_blank" style="color:var(--sky);">loudoncounty-tn.gov</a> for exact dates.</p>
+                </div>
+                <span class="meeting-status status-upcoming">Recurring</span>
+            </div>
+            <div class="meeting-item">
+                <div class="meeting-info">
+                    <h4>TDEC Permit SNL530000203</h4>
+                    <p>Public comment may be submitted during active review periods. Contact TDEC at (615) 532-0780 for current status.</p>
+                </div>
+                <span class="meeting-status status-upcoming">Under Review</span>
+            </div>
+            <div class="meeting-item">
+                <div class="meeting-info">
+                    <h4>Loudon County Commission</h4>
+                    <p>Monthly meetings, typically first Monday. Agendas posted at <a href="https://loudoncounty-tn.gov" target="_blank" style="color:var(--sky);">loudoncounty-tn.gov</a>.</p>
+                </div>
+                <span class="meeting-status status-upcoming">Recurring</span>
+            </div>
+        </div>
+
+        <!-- FOIA Tool -->
+        <div class="foia-tool">
+            <h3 style="font-size:1.25rem; font-weight:700; margin-bottom:0.5rem;">Tennessee Public Records Request Generator</h3>
+            <p style="color:var(--slate-500); margin-bottom:1rem;">Generate a request under T.C.A. § 10-7-503. Copy, customize with your details, and send to the records custodian.</p>
+            
+            <div style="margin-bottom:1rem;">
+                <label style="font-weight:600; font-size:0.875rem;">Request Type:</label>
+                <select id="foiaType" style="margin-left:0.5rem; padding:0.5rem; border-radius:6px; border:1px solid var(--slate-200); font-family:inherit;">
+                    <option value="waste-data">Waste Intake & Recycling Data</option>
+                    <option value="inspections">TDEC Inspection Reports</option>
+                    <option value="contracts">Operating Agreements</option>
+                    <option value="violations">Violation Notices</option>
+                    <option value="financial">Tipping Fee Records</option>
+                </select>
+                <button class="copy-btn" onclick="generateFOIA()" style="margin-left:0.5rem;">Generate</button>
             </div>
 
-            <!-- Meeting Tracker -->
-            <div class="meeting-tracker" style="margin-bottom:2rem;">
-                <h3>📅 Upcoming Meetings & Deadlines</h3>
-                <div class="meeting-item">
-                    <div class="meeting-info">
-                        <h4>LCSWDC Monthly Meeting</h4>
-                        <p>March 15, 2026 • 6:00 PM • Loudon County Courthouse</p>
-                    </div>
-                    <span class="meeting-status status-urgent">URGENT</span>
-                </div>
-                <div class="meeting-item">
-                    <div class="meeting-info">
-                        <h4>TDEC Public Comment Deadline</h4>
-                        <p>Permit SNL530000203 expansion • Comments due by March 30</p>
-                    </div>
-                    <span class="meeting-status status-upcoming">Upcoming</span>
-                </div>
-                <div class="meeting-item">
-                    <div class="meeting-info">
-                        <h4>County Commission Work Session</h4>
-                        <p>March 22, 2026 • 5:30 PM • Loudon County Annex</p>
-                    </div>
-                    <span class="meeting-status status-upcoming">Upcoming</span>
-                </div>
-                <div class="meeting-item">
-                    <div class="meeting-info">
-                        <h4>Republic Services Quarterly Report</h4>
-                        <p>Due April 15, 2026 • Will be posted to county website</p>
-                    </div>
-                    <span class="meeting-status status-upcoming">Upcoming</span>
+            <div class="foia-template" id="foiaTemplate">
+                <p><strong>TENNESSEE PUBLIC RECORDS ACT REQUEST</strong></p>
+                <p>Date: <span id="foiaDate">[Date]</span></p>
+                <p>To: Records Custodian<br>
+                TDEC Division of Solid Waste Management<br>
+                312 Rosa L. Parks Ave, Nashville, TN 37243</p>
+                <p>Dear Records Custodian,</p>
+                <p>Under the Tennessee Public Records Act (T.C.A. § 10-7-503 et seq.), I request access to and copies of the following records:</p>
+                <p id="foiaBody" style="background:white; padding:1rem; border-radius:4px; border:1px solid var(--slate-200);">Select a request type above to generate specific language.</p>
+                <p>I request these records in electronic format (PDF) if available. Please inform me of any fees before processing.</p>
+                <p>If you deny any portion of this request, please cite the specific exemption and provide a written explanation as required by law.</p>
+                <div class="signature">
+                    <p>Sincerely,</p>
+                    <p>[Your Name]<br>
+                    [Your Address]<br>
+                    [Your Email]<br>
+                    [Your Phone]</p>
                 </div>
             </div>
-
-            <!-- FOIA Tool -->
-            <div class="foia-tool">
-                <h3>📨 FOIA Request Generator</h3>
-                <p>Generate a Freedom of Information Act request for Tennessee public records. Copy, customize, and send.</p>
-                
-                <div style="margin-top:1rem;">
-                    <label style="font-weight:600; font-size:0.875rem;">Select Request Type:</label>
-                    <select id="foiaType" style="margin-left:0.5rem; padding:0.5rem; border-radius:6px; border:1px solid var(--slate-200);">
-                        <option value="waste-data">Waste Intake & Recycling Data</option>
-                        <option value="inspections">TDEC Inspection Reports</option>
-                        <option value="contracts">Operating Agreements & Amendments</option>
-                        <option value="violations">Violation Notices & Responses</option>
-                        <option value="financial">Tipping Fee Revenue & Financials</option>
-                    </select>
-                    <button class="copy-btn" onclick="generateFOIA()" style="margin-left:0.5rem;">Generate Template</button>
-                </div>
-
-                <div class="foia-template" id="foiaTemplate">
-                    <p><strong>Freedom of Information Act Request</strong></p>
-                    <p>Date: <span id="foiaDate">[Date]</span></p>
-                    <p>To: TDEC Division of Solid Waste Management<br>
-                    312 Rosa L. Parks Ave, Nashville, TN 37243</p>
-                    <p>Dear Records Officer,</p>
-                    <p>Under the Tennessee Public Records Act (T.C.A. § 10-7-503 et seq.), I request access to and copies of the following records:</p>
-                    <p id="foiaBody">[Select a request type above to generate the specific request language]</p>
-                    <p>I request these records in electronic format (PDF) if available. If there are any fees for searching or copying these records, please inform me before processing.</p>
-                    <p>If you deny any portion of this request, please cite the specific exemption and provide a written explanation as required by law.</p>
-                    <div class="signature">
-                        <p>Sincerely,</p>
-                        <p>[Your Name]<br>
-                        [Your Address]<br>
-                        [Your Email]<br>
-                        [Your Phone]</p>
-                    </div>
-                </div>
-                <button class="copy-btn" onclick="copyFOIA()" style="margin-top:1rem;">📋 Copy to Clipboard</button>
-            </div>
+            <button class="copy-btn" onclick="copyFOIA()" style="margin-top:1rem;">Copy to Clipboard</button>
         </div>
     </section>
 
     <!-- Representatives -->
-    <section class="section" id="representatives">
-        <div class="section-header">
-            <h2>Your Representatives</h2>
-            <p>These are the people who can make change happen. Contact them today.</p>
-        </div>
-        <div class="reps-grid">
-            <div class="rep-card">
-                <div class="rep-avatar">🏛️</div>
-                <h3>Sen. Randy McNally</h3>
-                <div class="rep-role">Senate District 5 (R) — Lt. Governor</div>
-                <div class="rep-contact">
-                    <a href="mailto:randy.mcnally@capitol.tn.gov">randy.mcnally@capitol.tn.gov</a>
-                    <a href="tel:6157416806">(615) 741-6806</a>
-                </div>
-                <span class="rep-key">Key Contact</span>
+    <section class="section" id="representatives" style="background:var(--slate-50); margin:0 -2rem; padding:5rem 2rem; max-width:none;">
+        <div style="max-width:var(--max-width); margin:0 auto;">
+            <div class="section-header">
+                <h2>Elected Representatives</h2>
+                <p>Contact information for officials representing Loudon County. Verify current assignments at <a href="https://wapp.capitol.tn.gov" target="_blank" style="color:var(--sky);">wapp.capitol.tn.gov</a>.</p>
             </div>
-            <div class="rep-card">
-                <div class="rep-avatar">🏛️</div>
-                <h3>Rep. Monty Fritts</h3>
-                <div class="rep-role">House District 32 (R)</div>
-                <div class="rep-contact">
-                    <a href="mailto:rep.monty.fritts@capitol.tn.gov">rep.monty.fritts@capitol.tn.gov</a>
-                    <a href="tel:6157417658">(615) 741-7658</a>
+            <div class="reps-grid">
+                <div class="rep-card">
+                    <div class="rep-avatar">RM</div>
+                    <h3>Sen. Randy McNally</h3>
+                    <div class="rep-role">Senate District 5 — Lt. Governor</div>
+                    <div class="rep-contact">
+                        <a href="mailto:randy.mcnally@capitol.tn.gov">randy.mcnally@capitol.tn.gov</a>
+                        <a href="tel:6157416806">(615) 741-6806</a>
+                    </div>
+                    <span class="rep-key">Leadership</span>
                 </div>
-                <span class="rep-key">Agriculture & Natural Resources Committee</span>
-            </div>
-            <div class="rep-card">
-                <div class="rep-avatar">🏛️</div>
-                <h3>Rep. Lowell Russell</h3>
-                <div class="rep-role">House District 21 (R)</div>
-                <div class="rep-contact">
-                    <a href="mailto:rep.lowell.russell@capitol.tn.gov">rep.lowell.russell@capitol.tn.gov</a>
-                    <a href="tel:6157413736">(615) 741-3736</a>
+                <div class="rep-card">
+                    <div class="rep-avatar">MF</div>
+                    <h3>Rep. Monty Fritts</h3>
+                    <div class="rep-role">House District 32</div>
+                    <div class="rep-contact">
+                        <a href="mailto:rep.monty.fritts@capitol.tn.gov">rep.monty.fritts@capitol.tn.gov</a>
+                        <a href="tel:6157417658">(615) 741-7658</a>
+                    </div>
+                    <span class="rep-key">Agriculture Committee</span>
                 </div>
-                <span class="rep-key">Judiciary & Transportation Committees</span>
+                <div class="rep-card">
+                    <div class="rep-avatar">LR</div>
+                    <h3>Rep. Lowell Russell</h3>
+                    <div class="rep-role">House District 21</div>
+                    <div class="rep-contact">
+                        <a href="mailto:rep.lowell.russell@capitol.tn.gov">rep.lowell.russell@capitol.tn.gov</a>
+                        <a href="tel:6157413736">(615) 741-3736</a>
+                    </div>
+                    <span class="rep-key">Multiple Committees</span>
+                </div>
             </div>
-        </div>
-        <div style="text-align:center; margin-top:2rem; padding:1.5rem; background:var(--slate-100); border-radius:10px;">
-            <p style="font-weight:600; color:var(--slate-700);">TDEC Division of Solid Waste Management</p>
-            <p style="color:var(--slate-500); font-size:0.9375rem;">Permit No. SNL530000203 | (615) 532-0780</p>
+            <div style="text-align:center; margin-top:2rem; padding:1.5rem; background:white; border-radius:10px; border:1px solid var(--slate-200);">
+                <p style="font-weight:600; color:var(--slate-700);">TDEC Division of Solid Waste Management</p>
+                <p style="color:var(--slate-500); font-size:0.9375rem;">Permit No. SNL530000203 | (615) 532-0780 | <a href="https://www.tn.gov/environment/program-areas/solid-waste-management.html" target="_blank" style="color:var(--sky);">tn.gov/environment</a></p>
+            </div>
         </div>
     </section>
 
     <!-- Take Action -->
-    <section class="section" id="action" style="background:var(--slate-100); margin:0 -1.5rem; padding:5rem 1.5rem; max-width:none;">
-        <div style="max-width:var(--max-width); margin:0 auto;">
-            <div class="section-header">
-                <h2>Take Action</h2>
-                <p>Three ways to make your voice heard. Being present is 90% of influence.</p>
+    <section class="section" id="action">
+        <div class="section-header">
+            <h2>How to Engage</h2>
+            <p>Concrete steps for participating in the public process. None of these require special expertise or membership.</p>
+        </div>
+        <div class="actions-grid">
+            <div class="action-card">
+                <h3>Attend Public Meetings</h3>
+                <ol>
+                    <li><strong>Find the meeting.</strong> LCSWDC meets monthly (typically third Thursday, 6:00 PM). Check <a href="https://loudoncounty-tn.gov" target="_blank" style="color:var(--sky);">loudoncounty-tn.gov</a> for the current schedule.</li>
+                    <li><strong>Arrive early.</strong> Meetings are open to the public. Sign up to speak if public comment is offered.</li>
+                    <li><strong>Ask specific questions.</strong> Reference permit numbers, document dates, or specific contract clauses. General complaints are less effective than targeted questions.</li>
+                    <li><strong>Document the response.</strong> Take notes on what officials say. Follow up in writing if commitments are made.</li>
+                </ol>
             </div>
-            <div class="actions-grid">
-                <div class="action-card">
-                    <h3>🗓️ Attend the Next Meeting</h3>
-                    <ol>
-                        <li><strong>Find the next LCSWDC meeting date</strong> at <a href="https://loudoncounty-tn.gov/loudon-county-solid-waste-disposal-commission/" target="_blank" style="color:var(--sky);">loudoncounty-tn.gov</a></li>
-                        <li><strong>Show up in person.</strong> Online viewing doesn't count — physical presence is what moves the needle.</li>
-                        <li><strong>Bring neighbors.</strong> Recent meetings had only 5-6 people. Fill the room.</li>
-                        <li><strong>Ask questions.</strong> What waste is being accepted? Where are the recycling reports? Why is Republic expanding?</li>
-                    </ol>
-                </div>
-                <div class="action-card">
-                    <h3>📞 Contact Your Representatives</h3>
-                    <ol>
-                        <li><strong>Call Rep. Monty Fritts</strong> — he sits on Agriculture & Natural Resources, the committee that handles waste policy. Ask him to support landfill reform.</li>
-                        <li><strong>Email Sen. McNally</strong> — as Lt. Governor, he has statewide influence. Request a hearing on Tennessee's landfill capacity crisis.</li>
-                        <li><strong>Contact TDEC</strong> — ask about the status of Permit SNL530000203 and what public comment opportunities exist.</li>
-                        <li><strong>CC your county commissioners</strong> — they need to know residents are watching.</li>
-                    </ol>
-                </div>
-                <div class="action-card">
-                    <h3>📋 Demand These Changes</h3>
-                    <ol>
-                        <li><strong>Ban PFAS acceptance</strong> in Tennessee landfills — it's not yet banned, but it should be.</li>
-                        <li><strong>Separate processing for medical and radioactive waste</strong> — not dumped in the same landfill as household garbage.</li>
-                        <li><strong>Mandatory recycling reporting</strong> — counties must report what percentage of waste is actually recycled.</li>
-                        <li><strong>Treat waste as a utility</strong> — like electric, water, and sewer. Uniform statewide standards.</li>
-                        <li><strong>Packaging regulations</strong> — reduce waste at the source by mandating recyclable materials.</li>
-                    </ol>
-                </div>
-                <div class="action-card">
-                    <h3>📢 Spread the Word</h3>
-                    <ol>
-                        <li><strong>Share this website</strong> with neighbors, friends, and family in Loudon County.</li>
-                        <li><strong>Post on social media</strong> — use hashtags like #LoudonCounty #MatlockBend #TNWaste</li>
-                        <li><strong>Talk to your HOA</strong> — get neighborhood associations involved.</li>
-                        <li><strong>Contact local media</strong> — WBIR, WATE, Knoxville News Sentinel. Reporters cover what communities care about.</li>
-                        <li><strong>Join or form a community group</strong> — organized residents are harder to ignore than individuals.</li>
-                    </ol>
-                </div>
+            <div class="action-card">
+                <h3>File Public Records Requests</h3>
+                <ol>
+                    <li><strong>Use the generator above</strong> to draft a Tennessee Public Records Act request (T.C.A. § 10-7-503).</li>
+                    <li><strong>Submit to the correct custodian.</strong> TDEC records go to the Division of Solid Waste Management. County records go to the Loudon County Mayor's office.</li>
+                    <li><strong>Request electronic format.</strong> PDFs are faster and cheaper than paper copies.</li>
+                    <li><strong>Follow up.</strong> Tennessee law requires a response within 7 business days. If denied, request a written citation of the specific exemption.</li>
+                </ol>
+            </div>
+            <div class="action-card">
+                <h3>Contact Elected Officials</h3>
+                <ol>
+                    <li><strong>Call before emailing.</strong> Phone calls are harder to ignore than emails and create a direct conversation.</li>
+                    <li><strong>Be specific.</strong> Reference permit SNL530000203, the 2022 Operating Agreement, or specific inspection dates. Vague messages get form responses.</li>
+                    <li><strong>Ask for action, not awareness.</strong> Instead of "I'm concerned," say "I request that you [specific action]."</li>
+                    <li><strong>Follow up in writing.</strong> Summarize phone conversations in an email to create a paper trail.</li>
+                </ol>
+            </div>
+            <div class="action-card">
+                <h3>Submit Public Comment</h3>
+                <ol>
+                    <li><strong>Monitor permit status.</strong> Call TDEC at (615) 532-0780 and ask about the current status of Permit SNL530000203 and whether a public comment period is open.</li>
+                    <li><strong>Submit written comment.</strong> When a comment period is open, submit written comments referencing specific permit conditions or regulatory standards.</li>
+                    <li><strong>Request a hearing.</strong> If a formal hearing is not scheduled, you can request one through TDEC's administrative procedures.</li>
+                    <li><strong>Share findings.</strong> If you obtain records through FOIA, consider sharing them so other residents can build on your work.</li>
+                </ol>
             </div>
         </div>
     </section>
@@ -1401,86 +1188,37 @@
     <!-- Newsletter -->
     <section class="section">
         <div class="newsletter">
-            <h2>Stay Informed</h2>
-            <p>Get meeting alerts, FOIA templates, and action items delivered to your inbox. Join 47+ community members already watching.</p>
+            <h2>Get Meeting Alerts</h2>
+            <p>We track meeting schedules and public comment deadlines so you don't have to. No spam. Unsubscribe anytime.</p>
             <form class="newsletter-form" id="newsletterForm">
-                <input type="email" id="newsletterEmail" placeholder="Enter your email address" required>
-                <button type="submit">Join the Watch</button>
+                <input type="email" id="newsletterEmail" placeholder="your@email.com" required>
+                <button type="submit">Subscribe</button>
             </form>
-            <p style="font-size:0.875rem; opacity:0.7; margin-top:1rem;">No spam. Unsubscribe anytime. We never share your email.</p>
+            <p style="font-size:0.875rem; opacity:0.6; margin-top:1rem;">Your email is stored locally in your browser. We do not operate a server.</p>
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
         <div class="footer-inner">
-            <p>TN Waste — Statewide advocacy for responsible waste management in Tennessee.</p>
-            <p style="margin-top:0.5rem;">All documents sourced from public records. <a href="https://github.com/mfethe1/loudoun-landfill-research" target="_blank">View research repository →</a></p>
-            <p style="margin-top:1rem; font-size:0.75rem; opacity:0.6;">Not affiliated with Loudon County government or Republic Services. Independent community effort.</p>
+            <p><strong>TN Waste Watch</strong> — Independent community oversight of Tennessee landfill operations.</p>
+            <p style="margin-top:0.5rem;">All documents sourced from public records. <a href="https://github.com/mfethe1/loudoun-landfill-research" target="_blank">View document repository &rarr;</a></p>
+            <p style="margin-top:1rem; font-size:0.75rem; opacity:0.6;">Not affiliated with Loudon County government, Republic Services, or TDEC. This is a volunteer-run information resource. Information last verified: May 24, 2026.</p>
         </div>
     </footer>
 
     <script>
-        // Community Comments System
-        document.getElementById('commentForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            const name = document.getElementById('commentName').value;
-            const text = document.getElementById('commentText').value;
-            const isResident = document.getElementById('isResident').checked;
-            
-            const commentList = document.getElementById('commentList');
-            const newComment = document.createElement('div');
-            newComment.className = 'comment-item';
-            newComment.innerHTML = `
-                <div class="comment-header">
-                    <span class="comment-author">${name} ${isResident ? '<span class="comment-verified">✓ Verified Resident</span>' : ''}</span>
-                    <span class="comment-date">Just now</span>
-                </div>
-                <div class="comment-text">${text}</div>
-            `;
-            commentList.insertBefore(newComment, commentList.firstChild);
-            
-            // Store in localStorage for persistence
-            const comments = JSON.parse(localStorage.getItem('tnwaste-comments') || '[]');
-            comments.unshift({name, text, isResident, date: new Date().toISOString()});
-            localStorage.setItem('tnwaste-comments', JSON.stringify(comments));
-            
-            this.reset();
-            alert('Thank you! Your update has been posted and will be reviewed.');
-        });
-
-        // Load stored comments
-        const storedComments = JSON.parse(localStorage.getItem('tnwaste-comments') || '[]');
-        if (storedComments.length > 0) {
-            const commentList = document.getElementById('commentList');
-            commentList.innerHTML = '';
-            storedComments.slice(0, 10).forEach(c => {
-                const div = document.createElement('div');
-                div.className = 'comment-item';
-                div.innerHTML = `
-                    <div class="comment-header">
-                        <span class="comment-author">${c.name} ${c.isResident ? '<span class="comment-verified">✓ Verified Resident</span>' : ''}</span>
-                        <span class="comment-date">${new Date(c.date).toLocaleDateString()}</span>
-                    </div>
-                    <div class="comment-text">${c.text}</div>
-                `;
-                commentList.appendChild(div);
-            });
-        }
-
-        // Newsletter Signup
+        // Newsletter (localStorage only)
         document.getElementById('newsletterForm').addEventListener('submit', function(e) {
             e.preventDefault();
             const email = document.getElementById('newsletterEmail').value;
-            
-            // Store locally (in real implementation, this would go to a backend)
             const subscribers = JSON.parse(localStorage.getItem('tnwaste-subscribers') || '[]');
             if (!subscribers.includes(email)) {
                 subscribers.push(email);
                 localStorage.setItem('tnwaste-subscribers', JSON.stringify(subscribers));
-                alert('Welcome to the watch! You\'ll receive meeting alerts and action items. (' + subscribers.length + ' members strong)');
+                alert('Subscribed. You will receive meeting alerts. (' + subscribers.length + ' subscribers)');
             } else {
-                alert('You\'re already on the list!');
+                alert('Already subscribed.');
             }
             this.reset();
         });
@@ -1503,11 +1241,11 @@
         function copyFOIA() {
             const text = document.getElementById('foiaTemplate').innerText;
             navigator.clipboard.writeText(text).then(() => {
-                alert('FOIA request copied to clipboard!');
+                alert('Copied to clipboard.');
             });
         }
 
-        // Smooth scroll for nav links
+        // Smooth scroll
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function(e) {
                 e.preventDefault();
