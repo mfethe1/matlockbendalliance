@@ -1483,9 +1483,10 @@
         // EMAIL SIGNUP CONFIGURATION
         // ============================================
         // Set ONE of these to activate a real backend:
-        const GOOGLE_FORM_URL = ''; // Paste your Google Form embed URL here
+        const FORMSPREE_ENDPOINT = ''; // e.g. 'https://formspree.io/f/YOUR_FORM_ID'
+        const GOOGLE_FORM_URL = '';    // Paste your Google Form embed URL here
         const ACTION_NETWORK_URL = ''; // Paste your Action Network widget URL here
-        // If both are empty, emails are captured to a downloadable list
+        // If all are empty, emails are captured to localStorage for manual export
 
         // ============================================
         // SIGNUP HANDLER
@@ -1514,7 +1515,6 @@
                 form.style.display = 'none';
                 status.style.display = 'none';
                 actionNetworkDiv.style.display = 'block';
-                // Load Action Network widget script
                 const script = document.createElement('script');
                 script.src = ACTION_NETWORK_URL;
                 script.async = true;
@@ -1531,7 +1531,60 @@
                 return;
             }
 
-            // Priority 3: Direct capture (manual export, works immediately)
+            // Priority 3: Formspree (direct POST, no server needed)
+            if (FORMSPREE_ENDPOINT) {
+                status.textContent = 'Your email is sent securely to our list. We will email you when there is a hearing or deadline.';
+
+                form.addEventListener('submit', async function(e) {
+                    e.preventDefault();
+                    const email = emailInput.value.trim().toLowerCase();
+                    if (!email) return;
+
+                    btn.disabled = true;
+                    btn.textContent = 'Subscribing...';
+
+                    try {
+                        const res = await fetch(FORMSPREE_ENDPOINT, {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json',
+                                'Accept': 'application/json'
+                            },
+                            body: JSON.stringify({
+                                email: email,
+                                source: 'tnwaste-org',
+                                _subject: 'TN Waste Watch - New Subscriber'
+                            })
+                        });
+
+                        if (res.ok) {
+                            // Also save locally as backup
+                            let subscribers = JSON.parse(localStorage.getItem('tnwaste-subscribers') || '[]');
+                            if (!subscribers.includes(email)) {
+                                subscribers.push(email);
+                                localStorage.setItem('tnwaste-subscribers', JSON.stringify(subscribers));
+                            }
+                            subscriberCount.style.display = 'inline-flex';
+                            subscriberText.textContent = subscribers.length + ' neighbor' + (subscribers.length !== 1 ? 's' : '') + ' getting alerts';
+                            showSuccess(
+                                "You're on the list.",
+                                "We'll email you when TDEC schedules a hearing or a comment deadline approaches. Typically 1-2 emails per month."
+                            );
+                        } else {
+                            const data = await res.json().catch(() => ({}));
+                            throw new Error(data.error || 'Submission failed');
+                        }
+                    } catch (err) {
+                        btn.disabled = false;
+                        btn.textContent = 'Get Hearing Alerts';
+                        status.textContent = 'Something went wrong. Please try again or email us directly.';
+                        status.style.color = '#fca5a5';
+                    }
+                });
+                return;
+            }
+
+            // Priority 4: Direct capture (manual export, works immediately)
             status.textContent = 'Your email is saved securely. We will export the list when we set up email delivery.';
 
             form.addEventListener('submit', function(e) {
@@ -1542,11 +1595,10 @@
                 btn.disabled = true;
                 btn.textContent = 'Saving...';
 
-                // Save to localStorage (temporary until real backend is wired)
                 let subscribers = JSON.parse(localStorage.getItem('tnwaste-subscribers') || '[]');
 
                 if (subscribers.includes(email)) {
-                    showSuccess('Already subscribed.', 'You\'re on the list. We\'ll email you when there\'s a hearing or deadline.');
+                    showSuccess('Already subscribed.', "You're on the list. We'll email you when there's a hearing or deadline.");
                     btn.disabled = false;
                     btn.textContent = 'Get Hearing Alerts';
                     return;
@@ -1555,16 +1607,14 @@
                 subscribers.push(email);
                 localStorage.setItem('tnwaste-subscribers', JSON.stringify(subscribers));
 
-                // Update subscriber count display
                 subscriberCount.style.display = 'inline-flex';
                 subscriberText.textContent = subscribers.length + ' neighbor' + (subscribers.length !== 1 ? 's' : '') + ' getting alerts';
 
                 showSuccess(
-                    'You\'re on the list.',
-                    'We\'ll email you when TDEC schedules a hearing or a comment deadline approaches. Typically 1–2 emails per month.'
+                    "You're on the list.",
+                    "We'll email you when TDEC schedules a hearing or a comment deadline approaches. Typically 1-2 emails per month."
                 );
 
-                // Also offer to export
                 console.log('TN Waste Watch subscriber:', email);
                 console.log('Total subscribers:', subscribers.length);
                 console.log('Export all: copy(JSON.parse(localStorage.getItem("tnwaste-subscribers")))');
