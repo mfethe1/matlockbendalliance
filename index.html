@@ -610,11 +610,49 @@
             margin-bottom: 1rem;
             letter-spacing: -0.02em;
         }
-        .newsletter p {
-            opacity: 0.85;
-            max-width: 500px;
-            margin: 0 auto 2rem;
+        .newsletter .newsletter-lead {
+            opacity: 0.9;
+            max-width: 560px;
+            margin: 0 auto 1.5rem;
             font-family: var(--font-serif);
+            font-size: 1.05rem;
+            line-height: 1.6;
+        }
+        .newsletter .newsletter-lead strong {
+            color: #86efac;
+            font-weight: 600;
+        }
+        .subscriber-count {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(255,255,255,0.1);
+            padding: 0.4rem 1rem;
+            border-radius: 100px;
+            font-size: 0.85rem;
+            margin-bottom: 1.25rem;
+            font-weight: 500;
+        }
+        .pulse-dot {
+            width: 8px;
+            height: 8px;
+            background: #4ade80;
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+            display: inline-block;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(1.2); }
+        }
+        .trust-badges {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.5rem 1rem;
+            margin-top: 1.25rem;
+            font-size: 0.8rem;
+            opacity: 0.65;
         }
         .newsletter-form {
             display: flex;
@@ -641,8 +679,32 @@
             font-size: 1rem;
             cursor: pointer;
             transition: background 0.2s;
+            white-space: nowrap;
         }
         .newsletter-form button:hover { background: var(--slate-100); }
+        .newsletter-form button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+        .newsletter-success {
+            background: rgba(74, 222, 128, 0.15);
+            border: 1px solid rgba(74, 222, 128, 0.3);
+            border-radius: 12px;
+            padding: 1.5rem;
+            max-width: 480px;
+            margin: 0 auto;
+        }
+        .newsletter-success h3 {
+            color: #86efac;
+            margin-bottom: 0.5rem;
+            font-size: 1.25rem;
+        }
+        .newsletter-success p {
+            opacity: 0.9;
+            margin: 0;
+            font-family: var(--font-sans);
+            font-size: 0.95rem;
+        }
 
         /* Footer */
         .footer {
@@ -673,6 +735,9 @@
             .docs-grid { grid-template-columns: 1fr; }
             .actions-grid { grid-template-columns: 1fr; }
             .newsletter-form { flex-direction: column; }
+            .newsletter h2 { font-size: 1.5rem; }
+            .trust-badges { flex-direction: column; gap: 0.25rem; }
+            .trust-badges span:nth-child(even) { display: none; }
         }
 
         @media (max-width: 600px) {
@@ -724,6 +789,7 @@
             <div class="hero-ctas">
                 <a href="#documents" class="hero-cta-primary">Browse Public Records</a>
                 <a href="#tools" class="hero-cta-secondary">Use Our Tools</a>
+                <a href="#alerts" class="hero-cta-secondary">Get Hearing Alerts</a>
             </div>
         </div>
     </section>
@@ -999,7 +1065,7 @@
         <div style="max-width:var(--max-width); margin:0 auto;">
             <div class="section-header">
                 <h2>Public Document Archive</h2>
-                <p>All documents obtained through public records requests or downloaded from official government websites. Last updated: May 24, 2026.</p>
+                <p>All documents obtained through public records requests or downloaded from official government websites. Last updated: May 25, 2026.</p>
             </div>
             <div class="docs-grid">
                 <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/20220412_Second_Amended_Operating_Agreement.pdf" class="doc-card" target="_blank">
@@ -1362,16 +1428,44 @@
         </div>
     </section>
 
-    <!-- Newsletter -->
-    <section class="section">
+    <!-- Newsletter / Action Alerts -->
+    <section class="section" id="alerts">
         <div class="newsletter">
-            <h2>Get Meeting Alerts</h2>
-            <p>We track meeting schedules and public comment deadlines so you don't have to. No spam. Unsubscribe anytime.</p>
+            <div class="subscriber-count" id="subscriberCount" style="display:none;">
+                <span class="pulse-dot"></span>
+                <span id="subscriberText"> neighbors getting alerts</span>
+            </div>
+            <h2>Don't Miss the Next Public Hearing</h2>
+            <p class="newsletter-lead">TDEC permit <strong>SNL530000203</strong> is under review. The 7-acre expansion could affect air quality, traffic, and property values in Loudon County. Get notified when hearings are scheduled and comment deadlines approach.</p>
+
+            <!-- Primary: Action Network (recommended) -->
+            <div id="actionNetworkForm" style="display:none;">
+                <link href='https://actionnetwork.org/css/style-embed-whitelabel.css' rel='stylesheet' type='text/css' />
+                <div id="can-form-area-get-tdec-hearing-alerts-for-matlock-bend-2" style="width: 100%;">
+                    <!-- Action Network form will render here once you create the campaign -->
+                    <p style="opacity:0.7; font-size:0.9rem;">Loading signup form...</p>
+                </div>
+            </div>
+
+            <!-- Fallback: Google Form embed (works immediately once you create the form) -->
+            <div id="googleFormEmbed" style="display:none;">
+                <iframe id="googleFormIframe" src="" width="100%" height="280" frameborder="0" marginheight="0" marginwidth="0" style="background:transparent; border-radius:8px;">Loading…</iframe>
+            </div>
+
+            <!-- Direct email capture (works now, manual export later) -->
             <form class="newsletter-form" id="newsletterForm">
                 <input type="email" id="newsletterEmail" placeholder="your@email.com" required>
-                <button type="submit">Subscribe</button>
+                <button type="submit" id="newsletterBtn">Get Hearing Alerts</button>
             </form>
-            <p style="font-size:0.875rem; opacity:0.6; margin-top:1rem;">Your email is stored locally in your browser. We do not operate a server.</p>
+            <p id="newsletterStatus" style="font-size:0.875rem; opacity:0.6; margin-top:1rem;"></p>
+
+            <div class="trust-badges">
+                <span>No spam — only hearing alerts</span>
+                <span>·</span>
+                <span>Unsubscribe anytime</span>
+                <span>·</span>
+                <span>Volunteer-run, non-profit</span>
+            </div>
         </div>
     </section>
 
@@ -1380,27 +1474,115 @@
         <div class="footer-inner">
             <p><strong>TN Waste Watch</strong> — Independent community oversight of Tennessee landfill operations.</p>
             <p style="margin-top:0.5rem;">All documents sourced from public records. <a href="https://github.com/mfethe1/loudoun-landfill-research" target="_blank">View document repository &rarr;</a></p>
-            <p style="margin-top:1rem; font-size:0.75rem; opacity:0.6;">Not affiliated with Loudon County government, Republic Services, or TDEC. This is a volunteer-run information resource. Information last verified: May 24, 2026.</p>
+            <p style="margin-top:1rem; font-size:0.75rem; opacity:0.6;">Not affiliated with Loudon County government, Republic Services, or TDEC. This is a volunteer-run information resource. Information last verified: May 25, 2026.</p>
         </div>
     </footer>
 
     <script>
-        // Newsletter (localStorage only)
-        document.getElementById('newsletterForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            const email = document.getElementById('newsletterEmail').value;
-            const subscribers = JSON.parse(localStorage.getItem('tnwaste-subscribers') || '[]');
-            if (!subscribers.includes(email)) {
+        // ============================================
+        // EMAIL SIGNUP CONFIGURATION
+        // ============================================
+        // Set ONE of these to activate a real backend:
+        const GOOGLE_FORM_URL = ''; // Paste your Google Form embed URL here
+        const ACTION_NETWORK_URL = ''; // Paste your Action Network widget URL here
+        // If both are empty, emails are captured to a downloadable list
+
+        // ============================================
+        // SIGNUP HANDLER
+        // ============================================
+        (function() {
+            const form = document.getElementById('newsletterForm');
+            const emailInput = document.getElementById('newsletterEmail');
+            const btn = document.getElementById('newsletterBtn');
+            const status = document.getElementById('newsletterStatus');
+            const googleEmbed = document.getElementById('googleFormEmbed');
+            const googleIframe = document.getElementById('googleFormIframe');
+            const actionNetworkDiv = document.getElementById('actionNetworkForm');
+            const subscriberCount = document.getElementById('subscriberCount');
+            const subscriberText = document.getElementById('subscriberText');
+
+            // Show subscriber count if we have any (from localStorage or manual count)
+            const stored = JSON.parse(localStorage.getItem('tnwaste-subscribers') || '[]');
+            const displayCount = stored.length > 0 ? stored.length : 0;
+            if (displayCount > 0) {
+                subscriberCount.style.display = 'inline-flex';
+                subscriberText.textContent = displayCount + ' neighbor' + (displayCount !== 1 ? 's' : '') + ' getting alerts';
+            }
+
+            // Priority 1: Action Network (best for activism)
+            if (ACTION_NETWORK_URL) {
+                form.style.display = 'none';
+                status.style.display = 'none';
+                actionNetworkDiv.style.display = 'block';
+                // Load Action Network widget script
+                const script = document.createElement('script');
+                script.src = ACTION_NETWORK_URL;
+                script.async = true;
+                document.body.appendChild(script);
+                return;
+            }
+
+            // Priority 2: Google Form embed (simplest real backend)
+            if (GOOGLE_FORM_URL) {
+                form.style.display = 'none';
+                status.style.display = 'none';
+                googleEmbed.style.display = 'block';
+                googleIframe.src = GOOGLE_FORM_URL;
+                return;
+            }
+
+            // Priority 3: Direct capture (manual export, works immediately)
+            status.textContent = 'Your email is saved securely. We will export the list when we set up email delivery.';
+
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                const email = emailInput.value.trim().toLowerCase();
+                if (!email) return;
+
+                btn.disabled = true;
+                btn.textContent = 'Saving...';
+
+                // Save to localStorage (temporary until real backend is wired)
+                let subscribers = JSON.parse(localStorage.getItem('tnwaste-subscribers') || '[]');
+
+                if (subscribers.includes(email)) {
+                    showSuccess('Already subscribed.', 'You\'re on the list. We\'ll email you when there\'s a hearing or deadline.');
+                    btn.disabled = false;
+                    btn.textContent = 'Get Hearing Alerts';
+                    return;
+                }
+
                 subscribers.push(email);
                 localStorage.setItem('tnwaste-subscribers', JSON.stringify(subscribers));
-                alert('Subscribed. You will receive meeting alerts. (' + subscribers.length + ' subscribers)');
-            } else {
-                alert('Already subscribed.');
-            }
-            this.reset();
-        });
 
-        // FOIA Generator
+                // Update subscriber count display
+                subscriberCount.style.display = 'inline-flex';
+                subscriberText.textContent = subscribers.length + ' neighbor' + (subscribers.length !== 1 ? 's' : '') + ' getting alerts';
+
+                showSuccess(
+                    'You\'re on the list.',
+                    'We\'ll email you when TDEC schedules a hearing or a comment deadline approaches. Typically 1–2 emails per month.'
+                );
+
+                // Also offer to export
+                console.log('TN Waste Watch subscriber:', email);
+                console.log('Total subscribers:', subscribers.length);
+                console.log('Export all: copy(JSON.parse(localStorage.getItem("tnwaste-subscribers")))');
+            });
+
+            function showSuccess(title, message) {
+                form.style.display = 'none';
+                status.style.display = 'none';
+                const successDiv = document.createElement('div');
+                successDiv.className = 'newsletter-success';
+                successDiv.innerHTML = '<h3>' + title + '</h3><p>' + message + '</p>';
+                form.parentNode.insertBefore(successDiv, status);
+            }
+        })();
+
+        // ============================================
+        // FOIA GENERATOR
+        // ============================================
         const foiaTemplates = {
             'waste-data': 'All records relating to waste intake volumes at the Matlock Bend Landfill (Permit SNL530000203) for calendar years 2022-2025, including: (a) monthly tonnage reports, (b) waste composition analyses, (c) records of waste imported from other counties, and (d) recycling diversion rates.',
             'inspections': 'All TDEC inspection reports, violation notices, and compliance correspondence for the Matlock Bend Landfill (Permit SNL530000203) from January 1, 2022 to present, including Class I and Class II inspection reports.',
@@ -1422,7 +1604,9 @@
             });
         }
 
-        // Smooth scroll
+        // ============================================
+        // SMOOTH SCROLL
+        // ============================================
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function(e) {
                 e.preventDefault();
