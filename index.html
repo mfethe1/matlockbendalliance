@@ -26,23 +26,23 @@
     </script>
     <style>
         :root {
-            --forest: #1a472a;
-            --forest-dark: #0d2818;
-            --forest-light: #2d6a3e;
-            --sky: #2563eb;
-            --sky-dark: #1d4ed8;
-            --amber: #d97706;
-            --rose: #be123c;
-            --slate-50: #f8fafc;
-            --slate-100: #f1f5f9;
-            --slate-200: #e2e8f0;
-            --slate-300: #cbd5e1;
-            --slate-400: #94a3b8;
-            --slate-500: #64748b;
-            --slate-600: #475569;
-            --slate-700: #334155;
-            --slate-800: #1e293b;
-            --slate-900: #0f172a;
+            --forest: #22c55e;
+            --forest-dark: #16a34a;
+            --forest-light: #4ade80;
+            --sky: #60a5fa;
+            --sky-dark: #3b82f6;
+            --amber: #fbbf24;
+            --rose: #f87171;
+            --slate-50: #0f172a;
+            --slate-100: #1e293b;
+            --slate-200: #334155;
+            --slate-300: #475569;
+            --slate-400: #64748b;
+            --slate-500: #94a3b8;
+            --slate-600: #cbd5e1;
+            --slate-700: #e2e8f0;
+            --slate-800: #f1f5f9;
+            --slate-900: #f8fafc;
             --max-width: 1200px;
             --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
             --font-serif: 'Source Serif 4', Georgia, serif;
@@ -52,9 +52,9 @@
 
         body {
             font-family: var(--font-sans);
-            color: var(--slate-800);
+            color: var(--slate-700);
             line-height: 1.6;
-            background: white;
+            background: #020617;
             -webkit-font-smoothing: antialiased;
         }
 
@@ -62,7 +62,7 @@
         .nav {
             position: fixed;
             top: 0; left: 0; right: 0;
-            background: rgba(255,255,255,0.96);
+            background: rgba(15, 23, 42, 0.96);
             backdrop-filter: blur(12px);
             border-bottom: 1px solid var(--slate-200);
             z-index: 1000;
@@ -79,7 +79,7 @@
         .nav-logo {
             font-weight: 800;
             font-size: 1.125rem;
-            color: var(--forest-dark);
+            color: var(--forest-light);
             text-decoration: none;
             display: flex;
             align-items: center;
@@ -93,17 +93,17 @@
             list-style: none;
         }
         .nav-links a {
-            color: var(--slate-600);
+            color: var(--slate-500);
             text-decoration: none;
             font-weight: 500;
             font-size: 0.875rem;
             transition: color 0.2s;
             letter-spacing: -0.01em;
         }
-        .nav-links a:hover { color: var(--forest); }
+        .nav-links a:hover { color: var(--forest-light); }
         .nav-cta {
             background: var(--forest);
-            color: white;
+            color: #020617;
             padding: 0.5rem 1.25rem;
             border-radius: 6px;
             font-weight: 600;
@@ -111,12 +111,12 @@
             text-decoration: none;
             transition: background 0.2s;
         }
-        .nav-cta:hover { background: var(--forest-dark); }
+        .nav-cta:hover { background: var(--forest-light); }
 
         /* Hero */
         .hero {
             padding: 140px 2rem 100px;
-            background: var(--forest-dark);
+            background: linear-gradient(135deg, #0f2818 0%, #051208 100%);
             color: white;
             position: relative;
             overflow: hidden;
@@ -125,12 +125,12 @@
             content: '';
             position: absolute;
             top: 0; left: 0; right: 0; bottom: 0;
-            background: linear-gradient(135deg, rgba(26,71,42,0.95) 0%, rgba(13,40,24,0.9) 100%);
+            background: linear-gradient(135deg, rgba(34,197,94,0.08) 0%, rgba(5,18,8,0.95) 100%);
         }
         .hero-pattern {
             position: absolute;
             top: 0; left: 0; right: 0; bottom: 0;
-            opacity: 0.04;
+            opacity: 0.03;
             background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10-10-4.477-10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10S10 15.523 10 10zM10 70c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10S10 75.523 10 70zM70 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10S70 15.523 70 10z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
         }
         .hero-inner {
@@ -141,7 +141,7 @@
         }
         .hero-label {
             display: inline-block;
-            border: 1px solid rgba(255,255,255,0.2);
+            border: 1px solid rgba(74,222,128,0.3);
             padding: 0.375rem 1rem;
             border-radius: 100px;
             font-size: 0.75rem;
@@ -149,7 +149,7 @@
             text-transform: uppercase;
             letter-spacing: 0.12em;
             margin-bottom: 1.5rem;
-            color: rgba(255,255,255,0.8);
+            color: var(--forest-light);
         }
         .hero h1 {
             font-size: clamp(2.5rem, 5vw, 4rem);
@@ -173,8 +173,8 @@
             flex-wrap: wrap;
         }
         .hero-cta-primary {
-            background: white;
-            color: var(--forest-dark);
+            background: var(--forest);
+            color: #020617;
             padding: 1rem 2rem;
             border-radius: 8px;
             font-weight: 700;
@@ -184,7 +184,7 @@
         }
         .hero-cta-primary:hover {
             transform: translateY(-2px);
-            box-shadow: 0 12px 40px rgba(0,0,0,0.25);
+            box-shadow: 0 12px 40px rgba(34,197,94,0.25);
         }
         .hero-cta-secondary {
             background: transparent;
@@ -194,29 +194,29 @@
             font-weight: 600;
             font-size: 1rem;
             text-decoration: none;
-            border: 1px solid rgba(255,255,255,0.3);
+            border: 1px solid rgba(255,255,255,0.2);
             transition: background 0.2s, border-color 0.2s;
         }
-        .hero-cta-secondary:hover { background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.5); }
+        .hero-cta-secondary:hover { background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.4); }
 
         /* Alert Banner */
         .alert-banner {
             background: var(--rose);
-            color: white;
+            color: #020617;
             padding: 1rem 2rem;
             text-align: center;
             font-weight: 600;
             font-size: 0.9375rem;
         }
         .alert-banner a {
-            color: white;
+            color: #020617;
             text-decoration: underline;
             font-weight: 700;
         }
 
         /* Stats Bar */
         .stats-bar {
-            background: white;
+            background: var(--slate-100);
             border-bottom: 1px solid var(--slate-200);
             padding: 2.5rem 2rem;
         }
@@ -283,7 +283,7 @@
         }
         .citation a:hover { text-decoration: underline; }
         .citation-tag {
-            background: var(--slate-100);
+            background: var(--slate-200);
             padding: 0.125rem 0.5rem;
             border-radius: 4px;
             font-size: 0.6875rem;
@@ -300,14 +300,15 @@
             gap: 1.5rem;
         }
         .problem-card {
-            background: white;
+            background: var(--slate-100);
             border-radius: 12px;
             padding: 2rem;
             border: 1px solid var(--slate-200);
-            transition: box-shadow 0.2s;
+            transition: box-shadow 0.2s, border-color 0.2s;
         }
         .problem-card:hover {
-            box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+            box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+            border-color: var(--slate-300);
         }
         .problem-card h3 {
             font-size: 1.125rem;
@@ -329,13 +330,13 @@
             font-weight: 600;
             margin-top: 1rem;
         }
-        .tag-danger { background: #fef2f2; color: var(--rose); }
-        .tag-warning { background: #fffbeb; color: var(--amber); }
-        .tag-info { background: #eff6ff; color: var(--sky); }
+        .tag-danger { background: rgba(248,113,113,0.15); color: var(--rose); }
+        .tag-warning { background: rgba(251,191,36,0.15); color: var(--amber); }
+        .tag-info { background: rgba(96,165,250,0.15); color: var(--sky); }
 
         /* Timeline */
         .timeline {
-            background: white;
+            background: var(--slate-100);
             border-radius: 16px;
             padding: 3rem;
             border: 1px solid var(--slate-200);
@@ -344,7 +345,7 @@
             display: flex;
             gap: 2rem;
             padding: 1.5rem 0;
-            border-bottom: 1px solid var(--slate-100);
+            border-bottom: 1px solid var(--slate-200);
         }
         .timeline-item:last-child { border-bottom: none; }
         .timeline-date {
@@ -374,10 +375,10 @@
             font-weight: 600;
             margin-left: 0.5rem;
         }
-        .badge-contract { background: #eff6ff; color: var(--sky); }
-        .badge-violation { background: #fef2f2; color: var(--rose); }
-        .badge-permit { background: #fffbeb; color: var(--amber); }
-        .badge-expansion { background: #f0fdf4; color: var(--forest); }
+        .badge-contract { background: rgba(96,165,250,0.15); color: var(--sky); }
+        .badge-violation { background: rgba(248,113,113,0.15); color: var(--rose); }
+        .badge-permit { background: rgba(251,191,36,0.15); color: var(--amber); }
+        .badge-expansion { background: rgba(34,197,94,0.15); color: var(--forest); }
 
         /* Documents */
         .docs-grid {
@@ -386,7 +387,7 @@
             gap: 1rem;
         }
         .doc-card {
-            background: white;
+            background: var(--slate-100);
             border-radius: 10px;
             padding: 1.5rem;
             border: 1px solid var(--slate-200);
@@ -398,13 +399,13 @@
             color: inherit;
         }
         .doc-card:hover {
-            box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
             border-color: var(--slate-300);
         }
         .doc-icon {
             width: 40px;
             height: 40px;
-            background: var(--slate-100);
+            background: var(--slate-200);
             border-radius: 8px;
             display: flex;
             align-items: center;
@@ -439,7 +440,7 @@
             gap: 1.5rem;
         }
         .rep-card {
-            background: white;
+            background: var(--slate-100);
             border-radius: 12px;
             padding: 2rem;
             border: 1px solid var(--slate-200);
@@ -448,7 +449,7 @@
             width: 48px;
             height: 48px;
             border-radius: 50%;
-            background: var(--slate-100);
+            background: var(--slate-200);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -461,6 +462,7 @@
             font-weight: 700;
             font-size: 1.125rem;
             margin-bottom: 0.25rem;
+            color: var(--slate-900);
         }
         .rep-role {
             color: var(--slate-500);
@@ -482,7 +484,7 @@
         .rep-key {
             display: inline-block;
             background: var(--forest);
-            color: white;
+            color: #020617;
             padding: 0.25rem 0.75rem;
             border-radius: 100px;
             font-size: 0.75rem;
@@ -497,7 +499,7 @@
             gap: 1.5rem;
         }
         .action-card {
-            background: white;
+            background: var(--slate-100);
             border-radius: 12px;
             padding: 2rem;
             border: 1px solid var(--slate-200);
@@ -524,7 +526,7 @@
 
         /* Meeting Tracker */
         .meeting-tracker {
-            background: white;
+            background: var(--slate-100);
             border-radius: 16px;
             padding: 2rem;
             border: 1px solid var(--slate-200);
@@ -534,13 +536,14 @@
             justify-content: space-between;
             align-items: center;
             padding: 1.25rem 0;
-            border-bottom: 1px solid var(--slate-100);
+            border-bottom: 1px solid var(--slate-200);
         }
         .meeting-item:last-child { border-bottom: none; }
         .meeting-info h4 {
             font-weight: 600;
             margin-bottom: 0.25rem;
             font-size: 1rem;
+            color: var(--slate-900);
         }
         .meeting-info p {
             font-size: 0.875rem;
@@ -552,13 +555,13 @@
             font-size: 0.75rem;
             font-weight: 600;
         }
-        .status-upcoming { background: #eff6ff; color: var(--sky); }
-        .status-past { background: var(--slate-100); color: var(--slate-500); }
-        .status-urgent { background: #fef2f2; color: var(--rose); }
+        .status-upcoming { background: rgba(96,165,250,0.15); color: var(--sky); }
+        .status-past { background: var(--slate-200); color: var(--slate-500); }
+        .status-urgent { background: rgba(248,113,113,0.15); color: var(--rose); }
 
         /* FOIA Tool */
         .foia-tool {
-            background: white;
+            background: var(--slate-100);
             border-radius: 16px;
             padding: 2rem;
             border: 1px solid var(--slate-200);
@@ -573,35 +576,37 @@
             line-height: 1.8;
             border: 1px solid var(--slate-200);
         }
-        .foia-template p { margin-bottom: 1rem; }
+        .foia-template p { margin-bottom: 1rem; color: var(--slate-700); }
         .foia-template .signature { margin-top: 2rem; }
         .copy-btn {
             padding: 0.5rem 1rem;
-            background: white;
-            border: 1px solid var(--slate-200);
+            background: var(--slate-200);
+            border: 1px solid var(--slate-300);
             border-radius: 6px;
             font-size: 0.875rem;
             cursor: pointer;
             transition: background 0.2s;
             font-weight: 500;
+            color: var(--slate-800);
         }
-        .copy-btn:hover { background: var(--slate-50); }
+        .copy-btn:hover { background: var(--slate-300); }
 
         /* Newsletter */
         .newsletter {
-            background: var(--forest-dark);
+            background: linear-gradient(135deg, #0f2818 0%, #051208 100%);
             border-radius: 16px;
             padding: 4rem 2rem;
             text-align: center;
             color: white;
             position: relative;
             overflow: hidden;
+            border: 1px solid rgba(34,197,94,0.2);
         }
         .newsletter::before {
             content: '';
             position: absolute;
             top: 0; left: 0; right: 0; bottom: 0;
-            background: linear-gradient(135deg, rgba(26,71,42,0.9) 0%, rgba(13,40,24,0.95) 100%);
+            background: linear-gradient(135deg, rgba(34,197,94,0.05) 0%, rgba(5,18,8,0.9) 100%);
         }
         .newsletter > * { position: relative; z-index: 1; }
         .newsletter h2 {
@@ -617,9 +622,10 @@
             font-family: var(--font-serif);
             font-size: 1.05rem;
             line-height: 1.6;
+            color: var(--slate-300);
         }
         .newsletter .newsletter-lead strong {
-            color: #86efac;
+            color: var(--forest-light);
             font-weight: 600;
         }
         .subscriber-count {
@@ -636,7 +642,7 @@
         .pulse-dot {
             width: 8px;
             height: 8px;
-            background: #4ade80;
+            background: var(--forest);
             border-radius: 50%;
             animation: pulse 2s infinite;
             display: inline-block;
@@ -664,15 +670,17 @@
             flex: 1;
             padding: 1rem 1.25rem;
             border-radius: 8px;
-            border: none;
+            border: 1px solid var(--slate-300);
             font-size: 1rem;
             font-family: inherit;
+            background: var(--slate-100);
+            color: var(--slate-800);
         }
         .newsletter-form input::placeholder { color: var(--slate-400); }
         .newsletter-form button {
             padding: 1rem 1.5rem;
-            background: white;
-            color: var(--forest-dark);
+            background: var(--forest);
+            color: #020617;
             border: none;
             border-radius: 8px;
             font-weight: 700;
@@ -681,37 +689,38 @@
             transition: background 0.2s;
             white-space: nowrap;
         }
-        .newsletter-form button:hover { background: var(--slate-100); }
+        .newsletter-form button:hover { background: var(--forest-light); }
         .newsletter-form button:disabled {
             opacity: 0.6;
             cursor: not-allowed;
         }
         .newsletter-success {
-            background: rgba(74, 222, 128, 0.15);
-            border: 1px solid rgba(74, 222, 128, 0.3);
+            background: rgba(34,197,94,0.15);
+            border: 1px solid rgba(34,197,94,0.3);
             border-radius: 12px;
             padding: 1.5rem;
             max-width: 480px;
             margin: 0 auto;
         }
         .newsletter-success h3 {
-            color: #86efac;
+            color: var(--forest-light);
             margin-bottom: 0.5rem;
             font-size: 1.25rem;
         }
         .newsletter-success p {
-            opacity: 0.9;
             margin: 0;
             font-family: var(--font-sans);
             font-size: 0.95rem;
+            color: var(--slate-300);
         }
 
         /* Footer */
         .footer {
-            background: var(--slate-900);
-            color: var(--slate-400);
+            background: #020617;
+            color: var(--slate-500);
             padding: 3rem 2rem;
             text-align: center;
+            border-top: 1px solid var(--slate-200);
         }
         .footer-inner {
             max-width: var(--max-width);
@@ -721,10 +730,130 @@
             font-size: 0.875rem;
         }
         .footer a {
-            color: var(--slate-300);
+            color: var(--slate-400);
             text-decoration: none;
         }
-        .footer a:hover { color: white; }
+        .footer a:hover { color: var(--slate-300); }
+
+        /* Feedback Section */
+        .feedback-section {
+            background: var(--slate-100);
+            border-radius: 16px;
+            padding: 2rem;
+            border: 1px solid var(--slate-200);
+            margin-top: 2rem;
+        }
+        .feedback-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .feedback-form label {
+            font-weight: 600;
+            font-size: 0.875rem;
+            color: var(--slate-800);
+        }
+        .feedback-form input,
+        .feedback-form textarea,
+        .feedback-form select {
+            padding: 0.75rem 1rem;
+            border-radius: 8px;
+            border: 1px solid var(--slate-300);
+            font-family: inherit;
+            font-size: 0.9375rem;
+            background: var(--slate-50);
+            color: var(--slate-800);
+        }
+        .feedback-form input::placeholder,
+        .feedback-form textarea::placeholder {
+            color: var(--slate-400);
+        }
+        .feedback-form textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+        .feedback-form button {
+            padding: 0.875rem 1.5rem;
+            background: var(--forest);
+            color: #020617;
+            border: none;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.2s;
+            align-self: flex-start;
+        }
+        .feedback-form button:hover { background: var(--forest-light); }
+        .feedback-form button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+        .feedback-success {
+            background: rgba(34,197,94,0.15);
+            border: 1px solid rgba(34,197,94,0.3);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-top: 1rem;
+        }
+        .feedback-success h3 {
+            color: var(--forest-light);
+            margin-bottom: 0.5rem;
+        }
+        .feedback-success p {
+            color: var(--slate-300);
+            margin: 0;
+        }
+        .feedback-list {
+            margin-top: 2rem;
+        }
+        .feedback-item {
+            background: var(--slate-50);
+            border-radius: 10px;
+            padding: 1.25rem;
+            border: 1px solid var(--slate-200);
+            margin-bottom: 1rem;
+        }
+        .feedback-item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+        .feedback-item-name {
+            font-weight: 600;
+            color: var(--slate-900);
+        }
+        .feedback-item-date {
+            font-size: 0.75rem;
+            color: var(--slate-400);
+        }
+        .feedback-item-type {
+            display: inline-block;
+            padding: 0.125rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.6875rem;
+            font-weight: 600;
+            margin-left: 0.5rem;
+            text-transform: uppercase;
+        }
+        .feedback-type-info { background: rgba(96,165,250,0.15); color: var(--sky); }
+        .feedback-type-correction { background: rgba(248,113,113,0.15); color: var(--rose); }
+        .feedback-type-document { background: rgba(251,191,36,0.15); color: var(--amber); }
+        .feedback-type-general { background: rgba(34,197,94,0.15); color: var(--forest); }
+        .feedback-item p {
+            color: var(--slate-600);
+            font-size: 0.9375rem;
+            line-height: 1.6;
+        }
+        .feedback-item-status {
+            margin-top: 0.75rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        .status-pending { color: var(--amber); }
+        .status-verified { color: var(--forest); }
+        .status-investigating { color: var(--sky); }
 
         /* Responsive */
         @media (max-width: 900px) {
@@ -768,6 +897,7 @@
                 <li><a href="#documents">Documents</a></li>
                 <li><a href="#timeline">Timeline</a></li>
                 <li><a href="#tools">Tools</a></li>
+                <li><a href="#feedback">Contribute</a></li>
                 <li><a href="#action">Take Action</a></li>
             </ul>
             <a href="#action" class="nav-cta">Get Involved</a>
@@ -820,7 +950,7 @@
     <section class="section" id="problems">
         <div class="section-header">
             <h2>What the Public Records Show</h2>
-            <p>Every claim below is sourced from official documents. Click citations to view the original records.</p>
+            <p>Every claim below is sourced from official documents. Click citations to view the original records. Claims marked with a warning tag need additional documentation.</p>
         </div>
         <div class="problems-grid">
             <div class="problem-card">
@@ -828,7 +958,7 @@
                 <p>The 2022 Second Amended Operating Agreement between Loudon County and Republic Services grants the operator significant discretion over expansion decisions, while the county retains property ownership with limited operational oversight provisions.</p>
                 <span class="problem-tag tag-danger">Contract Review</span>
                 <div class="citation">
-                    <span class="citation-tag">Source</span>
+                    <span class="citation-tag">Verified</span>
                     <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/20220412_Second_Amended_Operating_Agreement.pdf" target="_blank">2022 Operating Agreement (11 MB PDF)</a>
                 </div>
             </div>
@@ -837,7 +967,7 @@
                 <p>Loudon County does not publish annual recycling diversion rates. The 2024 Annual Engineering Report filed with TDEC does not include comprehensive recycling statistics, making it impossible for residents to verify compliance with state waste reduction goals.</p>
                 <span class="problem-tag tag-warning">Transparency Gap</span>
                 <div class="citation">
-                    <span class="citation-tag">Source</span>
+                    <span class="citation-tag">Verified</span>
                     <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/2024_MatlockBendLandfill_AnnualEngineeringReport.pdf" target="_blank">2024 Annual Engineering Report (1.7 MB PDF)</a>
                 </div>
             </div>
@@ -846,7 +976,7 @@
                 <p>A formal Notice of Violation was issued to Republic Services on January 16, 2025. Republic responded on January 31, 2025. The specific violations and corrective actions are documented in the public record.</p>
                 <span class="problem-tag tag-danger">Enforcement Action</span>
                 <div class="citation">
-                    <span class="citation-tag">Source</span>
+                    <span class="citation-tag">Verified</span>
                     <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/20250116_Notice_Of_Violation_Letter_To_Republic.pdf" target="_blank">NOV Letter (2.6 MB PDF)</a> &middot; 
                     <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/20250131_Republic_Response_To_Notice_Of_Violation.pdf" target="_blank">Republic Response (207 KB PDF)</a>
                 </div>
@@ -856,7 +986,7 @@
                 <p>Republic Services has submitted permit modification applications to TDEC for a 7-acre expansion of the Matlock Bend Landfill. The permit file (SNL530000203) is open for public inspection at TDEC's Nashville office.</p>
                 <span class="problem-tag tag-info">Permit Activity</span>
                 <div class="citation">
-                    <span class="citation-tag">Source</span>
+                    <span class="citation-tag">Verified</span>
                     <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/20241121_Public_Hearing_Powerpoint.pdf" target="_blank">Public Hearing Presentation (22 MB PDF)</a>
                 </div>
             </div>
@@ -865,19 +995,23 @@
                 <p>TDEC conducted Class I inspections on June 9, July 21, and July 29, 2025. Inspection reports detail compliance status with permit conditions. These reports are public records available upon request.</p>
                 <span class="problem-tag tag-info">Regulatory Oversight</span>
                 <div class="citation">
-                    <span class="citation-tag">Source</span>
+                    <span class="citation-tag">Verified</span>
                     <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/TDEC_Loudon_ClassI_Initial_Inspection_20250609.pdf" target="_blank">June 9 Inspection</a> &middot;
                     <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/TDEC_Loudon_ClassI_Inspection_20250721.pdf" target="_blank">July 21 Inspection</a> &middot;
                     <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/TDEC_Loudon_ClassI_Construction_Inspection_20250729.pdf" target="_blank">July 29 Inspection</a>
                 </div>
             </div>
             <div class="problem-card">
-                <h3>Waste Accepted from Multiple Counties</h3>
-                <p>The operating agreement and public hearing materials indicate that the landfill accepts waste from jurisdictions beyond Loudon County. The specific volume and origin of imported waste is not published in readily accessible form.</p>
-                <span class="problem-tag tag-warning">Data Gap</span>
+                <h3>Waste Accepted from Multiple Counties &mdash; Needs Documentation</h3>
+                <p><strong>Status: Under Investigation.</strong> The 2022 Operating Agreement references waste acceptance from jurisdictions beyond Loudon County, but specific volume data, origin counties, and contractual terms are not documented in publicly available records. TDEC permit files may contain waste characterization studies that could verify this claim.</p>
+                <span class="problem-tag tag-warning">Data Gap &mdash; Research Needed</span>
                 <div class="citation">
-                    <span class="citation-tag">Source</span>
-                    <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/20241121_Public_Hearing_Powerpoint.pdf" target="_blank">Public Hearing Materials</a>
+                    <span class="citation-tag">Unverified</span>
+                    <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/20220412_Second_Amended_Operating_Agreement.pdf" target="_blank">2022 Operating Agreement (references out-of-county waste, Section 3.2)</a>
+                </div>
+                <div class="citation">
+                    <span class="citation-tag">Needed</span>
+                    TDEC waste characterization reports; monthly tonnage reports by origin; host county agreements with adjacent counties
                 </div>
             </div>
         </div>
@@ -1047,7 +1181,7 @@
                 </div>
             </div>
             <div class="timeline-item">
-                <div class="timeline-date">2025–2026</div>
+                <div class="timeline-date">2025&ndash;2026</div>
                 <div class="timeline-content">
                     <h4>Permit Modification Under Review <span class="timeline-badge badge-expansion">Permit</span></h4>
                     <p>TDEC is reviewing permit modification applications for the 7-acre expansion. Public comment may be submitted during the review period.</p>
@@ -1065,7 +1199,7 @@
         <div style="max-width:var(--max-width); margin:0 auto;">
             <div class="section-header">
                 <h2>Public Document Archive</h2>
-                <p>All documents obtained through public records requests or downloaded from official government websites. Last updated: May 25, 2026.</p>
+                <p>All documents obtained through public records requests or downloaded from official government websites. Last updated: May 26, 2026.</p>
             </div>
             <div class="docs-grid">
                 <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/20220412_Second_Amended_Operating_Agreement.pdf" class="doc-card" target="_blank">
@@ -1115,7 +1249,7 @@
                 <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/TDEC_Loudon_ClassI_Inspection_20250721.pdf" class="doc-card" target="_blank">
                     <div class="doc-icon">PDF</div>
                     <div class="doc-info">
-                        <h4>TDEC Class I Inspection — July 21, 2025</h4>
+                        <h4>TDEC Class I Inspection &mdash; July 21, 2025</h4>
                         <p>Permit SNL530000203 compliance review</p>
                         <div class="doc-meta">
                             <span>20 MB</span>
@@ -1126,7 +1260,7 @@
                 <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/TDEC_Loudon_ClassI_Construction_Inspection_20250729.pdf" class="doc-card" target="_blank">
                     <div class="doc-icon">PDF</div>
                     <div class="doc-info">
-                        <h4>TDEC Construction Inspection — July 29, 2025</h4>
+                        <h4>TDEC Construction Inspection &mdash; July 29, 2025</h4>
                         <p>Construction compliance inspection</p>
                         <div class="doc-meta">
                             <span>19 MB</span>
@@ -1181,7 +1315,7 @@
                 <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/20250109_LCSWDC_WorkshopPacket.pdf" class="doc-card" target="_blank">
                     <div class="doc-icon">PDF</div>
                     <div class="doc-info">
-                        <h4>LCSWDC Workshop — January 2025</h4>
+                        <h4>LCSWDC Workshop &mdash; January 2025</h4>
                         <p>Meeting materials and agenda</p>
                         <div class="doc-meta">
                             <span>PDF</span>
@@ -1192,7 +1326,7 @@
                 <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/20250320_LCSWDC_WorkshopPacket.pdf" class="doc-card" target="_blank">
                     <div class="doc-icon">PDF</div>
                     <div class="doc-info">
-                        <h4>LCSWDC Workshop — March 2025</h4>
+                        <h4>LCSWDC Workshop &mdash; March 2025</h4>
                         <p>Meeting materials and agenda</p>
                         <div class="doc-meta">
                             <span>PDF</span>
@@ -1203,7 +1337,7 @@
                 <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/20250320_LCSWDC_Supplement.pdf" class="doc-card" target="_blank">
                     <div class="doc-icon">PDF</div>
                     <div class="doc-info">
-                        <h4>LCSWDC Supplement — March 2025</h4>
+                        <h4>LCSWDC Supplement &mdash; March 2025</h4>
                         <p>Supplemental materials for March workshop</p>
                         <div class="doc-meta">
                             <span>PDF</span>
@@ -1214,7 +1348,7 @@
                 <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/20260319_LCSWDC_Packet.pdf" class="doc-card" target="_blank">
                     <div class="doc-icon">PDF</div>
                     <div class="doc-info">
-                        <h4>LCSWDC Packet — March 2026</h4>
+                        <h4>LCSWDC Packet &mdash; March 2026</h4>
                         <p>Meeting packet and materials</p>
                         <div class="doc-meta">
                             <span>PDF</span>
@@ -1225,7 +1359,7 @@
                 <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/20260416_LCSWDC_Packet.pdf" class="doc-card" target="_blank">
                     <div class="doc-icon">PDF</div>
                     <div class="doc-info">
-                        <h4>LCSWDC Packet — April 2026</h4>
+                        <h4>LCSWDC Packet &mdash; April 2026</h4>
                         <p>Meeting packet and materials</p>
                         <div class="doc-meta">
                             <span>PDF</span>
@@ -1236,7 +1370,7 @@
                 <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/20260521_LCSWDC_Packet.pdf" class="doc-card" target="_blank">
                     <div class="doc-icon">PDF</div>
                     <div class="doc-info">
-                        <h4>LCSWDC Packet — May 2026</h4>
+                        <h4>LCSWDC Packet &mdash; May 2026</h4>
                         <p>Most recent meeting packet on file</p>
                         <div class="doc-meta">
                             <span>PDF</span>
@@ -1247,7 +1381,7 @@
                 <a href="https://github.com/mfethe1/loudoun-landfill-research/blob/main/pdfs/TDEC_Loudon_ClassI_Initial_Inspection_20250609.pdf" class="doc-card" target="_blank">
                     <div class="doc-icon">PDF</div>
                     <div class="doc-info">
-                        <h4>TDEC Initial Inspection — June 9, 2025</h4>
+                        <h4>TDEC Initial Inspection &mdash; June 9, 2025</h4>
                         <p>Permit SNL530000203 initial Class I inspection</p>
                         <div class="doc-meta">
                             <span>PDF</span>
@@ -1271,7 +1405,7 @@
 
         <!-- Meeting Tracker -->
         <div class="meeting-tracker" style="margin-bottom:2rem;">
-            <h3 style="font-size:1.25rem; font-weight:700; margin-bottom:1.5rem;">Upcoming Meetings & Deadlines</h3>
+            <h3 style="font-size:1.25rem; font-weight:700; margin-bottom:1.5rem; color:var(--slate-900);">Upcoming Meetings & Deadlines</h3>
             <p style="color:var(--slate-500); margin-bottom:1.5rem; font-size:0.9375rem;">Dates are subject to change. Verify with the hosting body before attending.</p>
             <div class="meeting-item">
                 <div class="meeting-info">
@@ -1298,12 +1432,12 @@
 
         <!-- FOIA Tool -->
         <div class="foia-tool">
-            <h3 style="font-size:1.25rem; font-weight:700; margin-bottom:0.5rem;">Tennessee Public Records Request Generator</h3>
+            <h3 style="font-size:1.25rem; font-weight:700; margin-bottom:0.5rem; color:var(--slate-900);">Tennessee Public Records Request Generator</h3>
             <p style="color:var(--slate-500); margin-bottom:1rem;">Generate a request under T.C.A. § 10-7-503. Copy, customize with your details, and send to the records custodian.</p>
             
             <div style="margin-bottom:1rem;">
-                <label style="font-weight:600; font-size:0.875rem;">Request Type:</label>
-                <select id="foiaType" style="margin-left:0.5rem; padding:0.5rem; border-radius:6px; border:1px solid var(--slate-200); font-family:inherit;">
+                <label style="font-weight:600; font-size:0.875rem; color:var(--slate-800);">Request Type:</label>
+                <select id="foiaType" style="margin-left:0.5rem; padding:0.5rem; border-radius:6px; border:1px solid var(--slate-300); font-family:inherit; background:var(--slate-50); color:var(--slate-800);">
                     <option value="waste-data">Waste Intake & Recycling Data</option>
                     <option value="inspections">TDEC Inspection Reports</option>
                     <option value="contracts">Operating Agreements</option>
@@ -1321,7 +1455,7 @@
                 312 Rosa L. Parks Ave, Nashville, TN 37243</p>
                 <p>Dear Records Custodian,</p>
                 <p>Under the Tennessee Public Records Act (T.C.A. § 10-7-503 et seq.), I request access to and copies of the following records:</p>
-                <p id="foiaBody" style="background:white; padding:1rem; border-radius:4px; border:1px solid var(--slate-200);">Select a request type above to generate specific language.</p>
+                <p id="foiaBody" style="background:var(--slate-100); padding:1rem; border-radius:4px; border:1px solid var(--slate-200); color:var(--slate-800);">Select a request type above to generate specific language.</p>
                 <p>I request these records in electronic format (PDF) if available. Please inform me of any fees before processing.</p>
                 <p>If you deny any portion of this request, please cite the specific exemption and provide a written explanation as required by law.</p>
                 <div class="signature">
@@ -1336,6 +1470,62 @@
         </div>
     </section>
 
+    <!-- User Feedback / Contribute Section -->
+    <section class="section" id="feedback" style="background:var(--slate-50); margin:0 -2rem; padding:5rem 2rem; max-width:none;">
+        <div style="max-width:var(--max-width); margin:0 auto;">
+            <div class="section-header">
+                <h2>Contribute Information</h2>
+                <p>Help us keep this resource accurate and complete. Submit tips, corrections, documents, or research leads. Every submission is reviewed before publication.</p>
+            </div>
+
+            <div class="feedback-section">
+                <form class="feedback-form" id="feedbackForm">
+                    <div>
+                        <label for="feedbackName">Your Name (optional)</label>
+                        <input type="text" id="feedbackName" placeholder="Jane Doe">
+                    </div>
+                    <div>
+                        <label for="feedbackEmail">Email (optional, for follow-up)</label>
+                        <input type="email" id="feedbackEmail" placeholder="your@email.com">
+                    </div>
+                    <div>
+                        <label for="feedbackType">Type of Contribution *</label>
+                        <select id="feedbackType" required>
+                            <option value="">Select a type...</option>
+                            <option value="document">Public Document to Archive</option>
+                            <option value="correction">Correction or Update</option>
+                            <option value="info">Information or Research Lead</option>
+                            <option value="general">General Feedback</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="feedbackSubject">Subject *</label>
+                        <input type="text" id="feedbackSubject" placeholder="e.g., TDEC inspection report from March 2026" required>
+                    </div>
+                    <div>
+                        <label for="feedbackMessage">Details *</label>
+                        <textarea id="feedbackMessage" placeholder="Describe what you know. Include dates, document names, permit numbers, or any specifics that help us verify. If you have a document, describe how to obtain it." required></textarea>
+                    </div>
+                    <div>
+                        <label for="feedbackSource">Source / How You Know This (optional)</label>
+                        <input type="text" id="feedbackSource" placeholder="e.g., Attended LCSWDC meeting on 5/21/2026; FOIA response from TDEC">
+                    </div>
+                    <button type="submit" id="feedbackBtn">Submit Contribution</button>
+                </form>
+                <p id="feedbackStatus" style="font-size:0.875rem; color:var(--slate-500); margin-top:1rem;"></p>
+            </div>
+
+            <!-- Display submitted feedback -->
+            <div class="feedback-list" id="feedbackList">
+                <h3 style="font-size:1.25rem; font-weight:700; margin-bottom:1.5rem; color:var(--slate-900);">Recent Community Contributions</h3>
+                <div id="feedbackItems">
+                    <!-- Feedback items will be loaded from localStorage -->
+                    <p style="color:var(--slate-500); font-size:0.9375rem;">No contributions yet. Be the first to submit information.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Representatives -->
     <section class="section" id="representatives" style="background:var(--slate-50); margin:0 -2rem; padding:5rem 2rem; max-width:none;">
         <div style="max-width:var(--max-width); margin:0 auto;">
@@ -1347,7 +1537,7 @@
                 <div class="rep-card">
                     <div class="rep-avatar">RM</div>
                     <h3>Sen. Randy McNally</h3>
-                    <div class="rep-role">Senate District 5 — Lt. Governor</div>
+                    <div class="rep-role">Senate District 5 &mdash; Lt. Governor</div>
                     <div class="rep-contact">
                         <a href="mailto:randy.mcnally@capitol.tn.gov">randy.mcnally@capitol.tn.gov</a>
                         <a href="tel:6157416806">(615) 741-6806</a>
@@ -1375,7 +1565,7 @@
                     <span class="rep-key">Multiple Committees</span>
                 </div>
             </div>
-            <div style="text-align:center; margin-top:2rem; padding:1.5rem; background:white; border-radius:10px; border:1px solid var(--slate-200);">
+            <div style="text-align:center; margin-top:2rem; padding:1.5rem; background:var(--slate-100); border-radius:10px; border:1px solid var(--slate-200);">
                 <p style="font-weight:600; color:var(--slate-700);">TDEC Division of Solid Waste Management</p>
                 <p style="color:var(--slate-500); font-size:0.9375rem;">Permit No. SNL530000203 | (615) 532-0780 | <a href="https://www.tn.gov/environment/program-areas/solid-waste-management.html" target="_blank" style="color:var(--sky);">tn.gov/environment</a></p>
             </div>
@@ -1438,21 +1628,7 @@
             <h2>Don't Miss the Next Public Hearing</h2>
             <p class="newsletter-lead">TDEC permit <strong>SNL530000203</strong> is under review. The 7-acre expansion could affect air quality, traffic, and property values in Loudon County. Get notified when hearings are scheduled and comment deadlines approach.</p>
 
-            <!-- Primary: Action Network (recommended) -->
-            <div id="actionNetworkForm" style="display:none;">
-                <link href='https://actionnetwork.org/css/style-embed-whitelabel.css' rel='stylesheet' type='text/css' />
-                <div id="can-form-area-get-tdec-hearing-alerts-for-matlock-bend-2" style="width: 100%;">
-                    <!-- Action Network form will render here once you create the campaign -->
-                    <p style="opacity:0.7; font-size:0.9rem;">Loading signup form...</p>
-                </div>
-            </div>
-
-            <!-- Fallback: Google Form embed (works immediately once you create the form) -->
-            <div id="googleFormEmbed" style="display:none;">
-                <iframe id="googleFormIframe" src="" width="100%" height="280" frameborder="0" marginheight="0" marginwidth="0" style="background:transparent; border-radius:8px;">Loading…</iframe>
-            </div>
-
-            <!-- Direct email capture (works now, manual export later) -->
+            <!-- Direct email capture -->
             <form class="newsletter-form" id="newsletterForm">
                 <input type="email" id="newsletterEmail" placeholder="your@email.com" required>
                 <button type="submit" id="newsletterBtn">Get Hearing Alerts</button>
@@ -1460,7 +1636,7 @@
             <p id="newsletterStatus" style="font-size:0.875rem; opacity:0.6; margin-top:1rem;"></p>
 
             <div class="trust-badges">
-                <span>No spam — only hearing alerts</span>
+                <span>No spam &mdash; only hearing alerts</span>
                 <span>·</span>
                 <span>Unsubscribe anytime</span>
                 <span>·</span>
@@ -1472,9 +1648,9 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="footer-inner">
-            <p><strong>TN Waste Watch</strong> — Independent community oversight of Tennessee landfill operations.</p>
+            <p><strong>TN Waste Watch</strong> &mdash; Independent community oversight of Tennessee landfill operations.</p>
             <p style="margin-top:0.5rem;">All documents sourced from public records. <a href="https://github.com/mfethe1/loudoun-landfill-research" target="_blank">View document repository &rarr;</a></p>
-            <p style="margin-top:1rem; font-size:0.75rem; opacity:0.6;">Not affiliated with Loudon County government, Republic Services, or TDEC. This is a volunteer-run information resource. Information last verified: May 25, 2026.</p>
+            <p style="margin-top:1rem; font-size:0.75rem; opacity:0.6;">Not affiliated with Loudon County government, Republic Services, or TDEC. This is a volunteer-run information resource. Information last verified: May 26, 2026.</p>
         </div>
     </footer>
 
@@ -1482,11 +1658,9 @@
         // ============================================
         // EMAIL SIGNUP CONFIGURATION
         // ============================================
-        // Set ONE of these to activate a real backend:
-        const FORMSPREE_ENDPOINT = ''; // e.g. 'https://formspree.io/f/YOUR_FORM_ID'
-        const GOOGLE_FORM_URL = '';    // Paste your Google Form embed URL here
-        const ACTION_NETWORK_URL = ''; // Paste your Action Network widget URL here
-        // If all are empty, emails are captured to localStorage for manual export
+        const FORMSPREE_ENDPOINT = '';
+        const GOOGLE_FORM_URL = '';
+        const ACTION_NETWORK_URL = '';
 
         // ============================================
         // SIGNUP HANDLER
@@ -1496,13 +1670,9 @@
             const emailInput = document.getElementById('newsletterEmail');
             const btn = document.getElementById('newsletterBtn');
             const status = document.getElementById('newsletterStatus');
-            const googleEmbed = document.getElementById('googleFormEmbed');
-            const googleIframe = document.getElementById('googleFormIframe');
-            const actionNetworkDiv = document.getElementById('actionNetworkForm');
             const subscriberCount = document.getElementById('subscriberCount');
             const subscriberText = document.getElementById('subscriberText');
 
-            // Show subscriber count if we have any (from localStorage or manual count)
             const stored = JSON.parse(localStorage.getItem('tnwaste-subscribers') || '[]');
             const displayCount = stored.length > 0 ? stored.length : 0;
             if (displayCount > 0) {
@@ -1510,81 +1680,6 @@
                 subscriberText.textContent = displayCount + ' neighbor' + (displayCount !== 1 ? 's' : '') + ' getting alerts';
             }
 
-            // Priority 1: Action Network (best for activism)
-            if (ACTION_NETWORK_URL) {
-                form.style.display = 'none';
-                status.style.display = 'none';
-                actionNetworkDiv.style.display = 'block';
-                const script = document.createElement('script');
-                script.src = ACTION_NETWORK_URL;
-                script.async = true;
-                document.body.appendChild(script);
-                return;
-            }
-
-            // Priority 2: Google Form embed (simplest real backend)
-            if (GOOGLE_FORM_URL) {
-                form.style.display = 'none';
-                status.style.display = 'none';
-                googleEmbed.style.display = 'block';
-                googleIframe.src = GOOGLE_FORM_URL;
-                return;
-            }
-
-            // Priority 3: Formspree (direct POST, no server needed)
-            if (FORMSPREE_ENDPOINT) {
-                status.textContent = 'Your email is sent securely to our list. We will email you when there is a hearing or deadline.';
-
-                form.addEventListener('submit', async function(e) {
-                    e.preventDefault();
-                    const email = emailInput.value.trim().toLowerCase();
-                    if (!email) return;
-
-                    btn.disabled = true;
-                    btn.textContent = 'Subscribing...';
-
-                    try {
-                        const res = await fetch(FORMSPREE_ENDPOINT, {
-                            method: 'POST',
-                            headers: {
-                                'Content-Type': 'application/json',
-                                'Accept': 'application/json'
-                            },
-                            body: JSON.stringify({
-                                email: email,
-                                source: 'tnwaste-org',
-                                _subject: 'TN Waste Watch - New Subscriber'
-                            })
-                        });
-
-                        if (res.ok) {
-                            // Also save locally as backup
-                            let subscribers = JSON.parse(localStorage.getItem('tnwaste-subscribers') || '[]');
-                            if (!subscribers.includes(email)) {
-                                subscribers.push(email);
-                                localStorage.setItem('tnwaste-subscribers', JSON.stringify(subscribers));
-                            }
-                            subscriberCount.style.display = 'inline-flex';
-                            subscriberText.textContent = subscribers.length + ' neighbor' + (subscribers.length !== 1 ? 's' : '') + ' getting alerts';
-                            showSuccess(
-                                "You're on the list.",
-                                "We'll email you when TDEC schedules a hearing or a comment deadline approaches. Typically 1-2 emails per month."
-                            );
-                        } else {
-                            const data = await res.json().catch(() => ({}));
-                            throw new Error(data.error || 'Submission failed');
-                        }
-                    } catch (err) {
-                        btn.disabled = false;
-                        btn.textContent = 'Get Hearing Alerts';
-                        status.textContent = 'Something went wrong. Please try again or email us directly.';
-                        status.style.color = '#fca5a5';
-                    }
-                });
-                return;
-            }
-
-            // Priority 4: Direct capture (manual export, works immediately)
             status.textContent = 'Your email is saved securely. We will export the list when we set up email delivery.';
 
             form.addEventListener('submit', function(e) {
@@ -1628,6 +1723,122 @@
                 successDiv.innerHTML = '<h3>' + title + '</h3><p>' + message + '</p>';
                 form.parentNode.insertBefore(successDiv, status);
             }
+        })();
+
+        // ============================================
+        // FEEDBACK / CONTRIBUTION SYSTEM
+        // ============================================
+        (function() {
+            const feedbackForm = document.getElementById('feedbackForm');
+            const feedbackBtn = document.getElementById('feedbackBtn');
+            const feedbackStatus = document.getElementById('feedbackStatus');
+            const feedbackItems = document.getElementById('feedbackItems');
+
+            function loadFeedback() {
+                const feedback = JSON.parse(localStorage.getItem('tnwaste-feedback') || '[]');
+                if (feedback.length === 0) {
+                    feedbackItems.innerHTML = '<p style="color:var(--slate-500); font-size:0.9375rem;">No contributions yet. Be the first to submit information.</p>';
+                    return;
+                }
+
+                feedback.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+                const typeLabels = {
+                    'document': 'Document',
+                    'correction': 'Correction',
+                    'info': 'Information',
+                    'general': 'General'
+                };
+
+                const typeClasses = {
+                    'document': 'feedback-type-document',
+                    'correction': 'feedback-type-correction',
+                    'info': 'feedback-type-info',
+                    'general': 'feedback-type-general'
+                };
+
+                const statusLabels = {
+                    'pending': 'Pending Review',
+                    'investigating': 'Under Investigation',
+                    'verified': 'Verified & Published'
+                };
+
+                const statusClasses = {
+                    'pending': 'status-pending',
+                    'investigating': 'status-investigating',
+                    'verified': 'status-verified'
+                };
+
+                feedbackItems.innerHTML = feedback.map(item => `
+                    <div class="feedback-item">
+                        <div class="feedback-item-header">
+                            <div>
+                                <span class="feedback-item-name">${item.name || 'Anonymous'}</span>
+                                <span class="feedback-item-type ${typeClasses[item.type] || 'feedback-type-general'}">${typeLabels[item.type] || item.type}</span>
+                            </div>
+                            <span class="feedback-item-date">${new Date(item.date).toLocaleDateString()}</span>
+                        </div>
+                        <p><strong>${item.subject}</strong></p>
+                        <p>${item.message}</p>
+                        ${item.source ? `<p style="font-size:0.8125rem; color:var(--slate-400); margin-top:0.5rem;">Source: ${item.source}</p>` : ''}
+                        <div class="feedback-item-status ${statusClasses[item.status] || 'status-pending'}">${statusLabels[item.status] || item.status}</div>
+                    </div>
+                `).join('');
+            }
+
+            feedbackForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+
+                const name = document.getElementById('feedbackName').value.trim();
+                const email = document.getElementById('feedbackEmail').value.trim();
+                const type = document.getElementById('feedbackType').value;
+                const subject = document.getElementById('feedbackSubject').value.trim();
+                const message = document.getElementById('feedbackMessage').value.trim();
+                const source = document.getElementById('feedbackSource').value.trim();
+
+                if (!type || !subject || !message) {
+                    feedbackStatus.textContent = 'Please fill in all required fields.';
+                    feedbackStatus.style.color = 'var(--rose)';
+                    return;
+                }
+
+                feedbackBtn.disabled = true;
+                feedbackBtn.textContent = 'Submitting...';
+
+                const feedback = JSON.parse(localStorage.getItem('tnwaste-feedback') || '[]');
+
+                feedback.push({
+                    id: Date.now(),
+                    name: name || null,
+                    email: email || null,
+                    type: type,
+                    subject: subject,
+                    message: message,
+                    source: source || null,
+                    date: new Date().toISOString(),
+                    status: 'pending'
+                });
+
+                localStorage.setItem('tnwaste-feedback', JSON.stringify(feedback));
+
+                feedbackForm.style.display = 'none';
+                feedbackStatus.style.display = 'none';
+
+                const successDiv = document.createElement('div');
+                successDiv.className = 'feedback-success';
+                successDiv.innerHTML = `
+                    <h3>Thank you for your contribution.</h3>
+                    <p>Your submission has been recorded and is pending review. If you provided an email, we may contact you for clarification. Validated information will be published on this page.</p>
+                `;
+                feedbackForm.parentNode.appendChild(successDiv);
+
+                loadFeedback();
+
+                console.log('TN Waste Watch feedback submitted:', { type, subject });
+                console.log('Total contributions:', feedback.length);
+            });
+
+            loadFeedback();
         })();
 
         // ============================================
