@@ -214,6 +214,29 @@
     .legend__label span { font-size: .63rem; }
   }
 
+  /* Short phones (measured 360x740: copy column 820px, legend bottom 741px
+     against a 740px viewport, overlapping the ledger by 36px; 320x568 worse).
+     The chapter must keep all four legend rows, so recover the height from
+     leading and padding rather than by dropping content. */
+  @media (max-width: 760px) and (max-height: 800px) {
+    [data-sc-act="pin"] [data-sc-stage] { padding-block: 3.6rem 4.4rem; }
+    .slug { margin-bottom: .9rem; }
+    .hero__sub { margin-top: .8rem; }
+    .sc-lede { line-height: 1.32; }
+    [data-sc-act="pin"] .sc-lede + .sc-lede { margin-top: .55rem; }
+    .legend { margin-top: .8rem; margin-bottom: 2.4rem; padding: .5rem .6rem; }
+    .legend__row { margin-top: .28rem; }
+    /* Trimming leading alone still left the column taller than the stage (772
+       vs 740), and a nested scroller here swallowed the page scroll outright.
+       Pair the keys into two columns and drop the secondary descriptions: the
+       requirement is that each feature is NAMED, and the bold name plus its
+       shape swatch carries that. The prose above still describes each one. */
+    .legend { display: grid; grid-template-columns: 1fr 1fr; gap: .1rem .7rem; }
+    .legend__t { grid-column: 1 / -1; }
+    .legend__row, .legend__row:first-of-type { margin-top: .3rem; }
+    .legend__label span { display: none; }
+  }
+
   /* evidence rail */
   .rail { display: flex; gap: 2.2rem; align-items: center; padding: 0 1.35rem; }
   .rail__lead { flex: none; width: min(30rem, 82vw); }
