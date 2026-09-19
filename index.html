@@ -64,6 +64,10 @@
         }
 
         /* Navigation */
+        /* The nav is fixed at 64px, so an anchored section would otherwise land
+           underneath it. Offset every in-page target by the nav height. */
+        [id] { scroll-margin-top: 76px; }
+
         .nav {
             position: fixed;
             top: 0; left: 0; right: 0;
@@ -117,6 +121,24 @@
             transition: background 0.2s;
         }
         .nav-cta:hover { background: var(--forest-light); }
+
+        /* Mobile menu toggle. Hidden on desktop; the only way to reach the nav
+           links below 900px, where .nav-links is display:none. */
+        .nav-toggle {
+            display: none;
+            background: none;
+            border: 1px solid var(--slate-200);
+            border-radius: 6px;
+            padding: 0.4rem 0.55rem;
+            cursor: pointer;
+            color: var(--slate-500);
+            line-height: 0;
+        }
+        .nav-toggle svg { width: 20px; height: 20px; }
+        .nav-toggle:hover { color: var(--forest-light); }
+        .nav-toggle .icon-close { display: none; }
+        .nav-toggle[aria-expanded="true"] .icon-open { display: none; }
+        .nav-toggle[aria-expanded="true"] .icon-close { display: block; }
 
         /* Hero */
         .hero {
@@ -863,7 +885,36 @@
 
         /* Responsive */
         @media (max-width: 900px) {
-            .nav-links { display: none; }
+            /* The nav links become a drop-down panel driven by .nav-toggle.
+               Previously they were simply display:none with no replacement, so
+               Documents / Timeline / Tools / Contribute / Take Action were all
+               unreachable on a phone. */
+            .nav-toggle { display: block; }
+            .nav-inner { padding: 0 1rem; gap: 0.5rem; }
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 64px; left: 0; right: 0;
+                flex-direction: column;
+                gap: 0;
+                padding: 0.5rem 0 0.75rem;
+                background: rgba(15, 23, 42, 0.98);
+                backdrop-filter: blur(12px);
+                border-bottom: 1px solid var(--slate-200);
+            }
+            .nav-links.is-open { display: flex; }
+            /* Opaque: the alert banner sits directly beneath the nav and was
+               showing through the panel, making the links unreadable. */
+            .nav-links { background: #0f172a; z-index: 1001; box-shadow: 0 12px 24px rgba(2, 6, 23, 0.45); }
+            .nav-links li { width: 100%; }
+            .nav-links a {
+                display: block;
+                padding: 0.85rem 1.25rem;
+                font-size: 1rem;
+                color: var(--slate-100, #e2e8f0);
+            }
+            .nav-links a:active { background: rgba(148, 163, 184, 0.12); }
+            .nav-cta { padding: 0.5rem 0.9rem; font-size: 0.8125rem; }
             .stats-inner { grid-template-columns: repeat(2, 1fr); }
             .problems-grid { grid-template-columns: 1fr; }
             .reps-grid { grid-template-columns: 1fr; }
@@ -901,7 +952,7 @@
                 </svg>
                 TN Waste Watch
             </a>
-            <ul class="nav-links">
+            <ul class="nav-links" id="navLinks">
                 <li><a href="#documents">Documents</a></li>
                 <li><a href="#timeline">Timeline</a></li>
                 <li><a href="#tools">Tools</a></li>
@@ -909,6 +960,18 @@
                 <li><a href="#action">Take Action</a></li>
             </ul>
             <a href="#action" class="nav-cta">Get Involved</a>
+            <button class="nav-toggle" id="navToggle" type="button"
+                    aria-expanded="false" aria-controls="navLinks" aria-label="Menu">
+                <svg class="icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <line x1="3" y1="6" x2="21" y2="6"/>
+                    <line x1="3" y1="12" x2="21" y2="12"/>
+                    <line x1="3" y1="18" x2="21" y2="18"/>
+                </svg>
+                <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <line x1="18" y1="6" x2="6" y2="18"/>
+                    <line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+            </button>
         </div>
     </nav>
 
@@ -1917,6 +1980,43 @@
                 alert('Copied to clipboard.');
             });
         }
+
+        // ============================================
+        // MOBILE MENU
+        // ============================================
+        (function () {
+            const toggle = document.getElementById('navToggle');
+            const links = document.getElementById('navLinks');
+            if (!toggle || !links) return;
+
+            function setOpen(open) {
+                links.classList.toggle('is-open', open);
+                toggle.setAttribute('aria-expanded', String(open));
+            }
+
+            toggle.addEventListener('click', function (e) {
+                e.stopPropagation();
+                setOpen(toggle.getAttribute('aria-expanded') !== 'true');
+            });
+
+            // Tapping a link navigates, so close behind it.
+            links.addEventListener('click', function (e) {
+                if (e.target.closest('a')) setOpen(false);
+            });
+
+            // Tap outside, or Escape, dismisses.
+            document.addEventListener('click', function (e) {
+                if (!links.contains(e.target) && e.target !== toggle) setOpen(false);
+            });
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Escape') setOpen(false);
+            });
+
+            // Returning to desktop must not leave the panel stuck open.
+            window.addEventListener('resize', function () {
+                if (window.innerWidth > 900) setOpen(false);
+            });
+        })();
 
         // ============================================
         // SMOOTH SCROLL
