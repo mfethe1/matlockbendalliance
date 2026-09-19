@@ -5,24 +5,22 @@ let fails = 0;
 const ok = (c, m) => { console.log((c ? '  ok   ' : '  FAIL ') + m); if (!c) fails++; };
 const b = await chromium.launch({ executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' });
 
-async function submit(page, which, endpointLive) {
-  const posts = [];
-  page.on('request', r => { if (r.method() === 'POST') posts.push(r.url()); });
-  if (endpointLive) {
-    // Pretend a Formspree endpoint is configured, and intercept it.
-    await page.route('**/formspree.io/**', r => r.fulfill({ status: 200, contentType: 'application/json', body: '{"ok":true}' }));
-    await page.addInitScript(() => { window.__FS = 'https://formspree.io/f/TESTID'; });
-  }
-  await page.goto(URL, { waitUntil: 'networkidle' });
-  if (endpointLive) await page.evaluate(() => { window.FORMSPREE_ENDPOINT = window.__FS; });
-  return posts;
-}
-
 const ctx = await b.newContext();
 const page = await ctx.newPage();
 const posts = [];
 page.on('request', r => { if (r.method() === 'POST') posts.push(r.url()); });
-await page.goto(URL, { waitUntil: 'networkidle' });
+// Blank the endpoint at load time so the unconfigured path stays provable
+// once a real endpoint is checked in -- and so this test can never POST to
+// the live form.
+await page.route('**/index.html', async r => {
+  const res = await r.fetch();
+  let html = await res.text();
+  html = html.replace(/const FORMSPREE_ENDPOINT = '[^']*';/, "const FORMSPREE_ENDPOINT = '';");
+  await r.fulfill({ response: res, body: html });
+});
+// Belt and braces: fail loudly rather than quietly hitting Formspree.
+await page.route('**/formspree.io/**', r => r.abort());
+await page.goto(URL.replace(/\/$/, '') + '/index.html', { waitUntil: 'networkidle' });
 
 // --- unconfigured state: must NOT claim success, must NOT store anything ---
 await page.fill('#newsletterEmail', 'verify@example.com');

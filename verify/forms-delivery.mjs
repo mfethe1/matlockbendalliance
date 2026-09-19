@@ -13,7 +13,9 @@ page.on('request', r => { if (r.method() === 'POST') posts.push({ url: r.url(), 
 await page.route('**/index.html', async r => {
   const res = await r.fetch();
   let html = await res.text();
-  html = html.replace("const FORMSPREE_ENDPOINT = '';", "const FORMSPREE_ENDPOINT = 'https://formspree.io/f/TESTID';");
+  // Force a known test endpoint whatever the checked-in value is, so this
+  // never silently tests the real form (or nothing at all).
+  html = html.replace(/const FORMSPREE_ENDPOINT = '[^']*';/, "const FORMSPREE_ENDPOINT = 'https://formspree.io/f/TESTID';");
   await r.fulfill({ response: res, body: html });
 });
 await page.route('**/formspree.io/**', r => r.fulfill({ status: 200, contentType: 'application/json', body: '{"ok":true}' }));
