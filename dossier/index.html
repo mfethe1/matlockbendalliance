@@ -315,13 +315,41 @@
     .plate img { max-height: 58vh; min-height: 38vh; object-fit: cover; }
     .plate figcaption { margin-top: .6rem; font-size: .7rem; }
 
-    /* 4 — let the map read: dark band only where the type actually sits */
-    .mapstage img { filter: saturate(.85) brightness(1.04) contrast(1.03); }
+    /* 4 — let the map read.
+       Measured: the old flat .88-.90 wash left only ~10% of the map visible,
+       so chapter 2 asked the reader to "look at the map" while hiding it.
+       The copy roams 7%-71% of the stage, so there is no clear band to carve;
+       instead the plate is lifted overall and the type earns its own contrast
+       from a shadow. The legend carries its own opaque panel, so the plate
+       does not need to darken the bottom third for it. */
+    .mapstage img { filter: saturate(.92) brightness(1.1) contrast(1.06); }
     .readplate, .readplate--strong {
       background: linear-gradient(180deg,
-        rgba(10,9,8,.58) 0%, rgba(10,9,8,.88) 18%,
-        rgba(10,9,8,.90) 74%, rgba(10,9,8,.62) 100%);
+        rgba(10,9,8,.80) 0%, rgba(10,9,8,.58) 16%,
+        rgba(10,9,8,.34) 38%, rgba(10,9,8,.30) 62%,
+        rgba(10,9,8,.46) 86%, rgba(10,9,8,.66) 100%);
     }
+    /* Type over a half-lit map: the shadow replaces the darkness the plate
+       used to supply, so the words stay readable without burying the map.
+       Chapter 1's hero copy needs it too -- it sits on the same brightened
+       raster, and measured 1.33:1 without it. */
+    .hero__copy .sc-lede, .hero__copy .slug,
+    .hero__copy .hero__kicker, .hero__copy .hero__sub, .hero__copy .sc-display {
+      text-shadow: 0 1px 2px rgba(0,0,0,.95), 0 2px 10px rgba(0,0,0,.85),
+                   0 0 26px rgba(0,0,0,.7);
+    }
+
+    /* Small uppercase type is the first thing a half-lit map defeats: at
+       2.41:1 measured under its own glyphs, a brighter ink alone will not
+       carry it. Give the chapter slug a narrow plate of its own so it
+       stays a label rather than turning into another wash over the map. */
+    .hero__copy .slug {
+      display: inline-flex; align-self: flex-start;
+      padding: .3rem .6rem; border-radius: 3px;
+      background: rgba(10,9,8,.78);
+      backdrop-filter: blur(2px);
+    }
+    .hero__copy .slug span { display: none; }
 
     /* tighten vertical rhythm so chapters do not feel stretched */
     .pad { padding: 5.5rem 1.35rem; }
@@ -440,7 +468,7 @@
         <p class="sc-lede" data-sc-cue="0.50 0.78">On the west, the Tennessee River. This is the shape of the decision: a Class I landfill with a river on one side and neighbourhoods on the other, applying to grow sideways.</p>
         <p class="sc-lede" data-sc-cue="0.74">The expansion permit does not need anyone's vote to be filed. It is filed.</p>
 
-        <div class="legend" data-sc-cue="0.30">
+        <div class="legend" data-sc-cue="0.02">
           <p class="legend__t">What you are looking at</p>
 
           <div class="legend__row">

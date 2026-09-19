@@ -402,6 +402,8 @@
         // 1,000 and 9,999 could not be shown the way it is written everywhere
         // else on the page. The template still drives the formatting.
         var num = function (s) { return parseFloat(String(s).replace(/,/g, '')) || 0; };
+        // A lone value means "count up to it"; see the entry-counter note.
+        if (nums.length === 1) nums = ['0', nums[0]];
         act.counts.push({
           el: c, a: num(nums[0]), b: num(nums[1]),
           tpl: nums[1] || '0', from: at[0], to: at[1], last: null
@@ -523,6 +525,10 @@
       if (!els.length) return;
       function run(c) {
         var nums = spec(c);
+        // One value means "count up to this" (0 -> v). Without this, nums[1]
+        // is undefined, b becomes 0, and the counter animates DOWN to zero --
+        // silently publishing "0" in place of a real figure.
+        if (nums.length === 1) nums = ['0', nums[0]];
         var a = num(nums[0]), b = num(nums[1]), tpl = nums[1] || '0';
         var ms = parseFloat(c.getAttribute('data-sc-count-ms')) || 1400;
         if (reduce || ms <= 0) { c.textContent = formatNum(b, tpl); return; }
@@ -536,7 +542,11 @@
         }
         requestAnimationFrame(frame);
       }
-      els.forEach(function (c) { var n = spec(c); c.textContent = formatNum(num(n[0]), n[1] || '0'); });
+      els.forEach(function (c) {
+        var n = spec(c);
+        if (n.length === 1) { c.textContent = formatNum(0, n[0]); return; }
+        c.textContent = formatNum(num(n[0]), n[1] || '0');
+      });
       if ('IntersectionObserver' in window) {
         var cio = new IntersectionObserver(function (entries) {
           entries.forEach(function (e) {
