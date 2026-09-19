@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Matlock Bend — the permit is already filed</title>
+<meta name="description" content="Republic Services has filed Part One of a horizontal expansion permit for the Matlock Bend landfill in Loudon County, Tennessee. Every claim on this page is sourced to a county document or meeting recording.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%23121110'/><rect x='5' y='20' width='22' height='3' fill='%23e8462a'/></svg>">
+<link rel="stylesheet" href="scrollcraft.css">
+<style>
+  :root {
+    --sc-canvas:     #121110;
+    --sc-surface:    #1b1917;
+    --sc-ink:        #f2efe9;
+    --sc-ink-soft:   #a09a90;
+    --sc-accent:     #e8462a;
+    --sc-accent-ink: #ffffff;
+    --sc-font-display: ui-monospace, "SFMono-Regular", Menlo, monospace;
+    --sc-font-text:    ui-monospace, "SFMono-Regular", Menlo, monospace;
+
+    --paper: #ddd8cd;
+    --rule:  #3a3632;
+    --ok:    #7fa650;
+  }
+
+  body { -webkit-font-smoothing: antialiased; }
+
+  /* ---- brutalist chrome ---------------------------------------------- */
+  .bar {
+    position: fixed; inset: 0 0 auto 0; z-index: 60;
+    display: flex; align-items: stretch; justify-content: space-between;
+    border-bottom: 1px solid var(--rule);
+    background: rgba(18,17,16,.92);
+    backdrop-filter: blur(6px);
+    font-size: .7rem; letter-spacing: .09em; text-transform: uppercase;
+  }
+  .bar__mark { padding: .75rem 1rem; border-right: 1px solid var(--rule); font-weight: 700; }
+  .bar__mark b { color: var(--sc-accent); }
+  .bar__meta { padding: .75rem 1rem; color: var(--sc-ink-soft); display: none; }
+  .bar__cta {
+    padding: .75rem 1.15rem; border-left: 1px solid var(--rule);
+    background: var(--sc-accent); color: var(--sc-accent-ink);
+    text-decoration: none; font-weight: 700; display: flex; align-items: center;
+  }
+  .bar__cta:hover { background: #ff573a; }
+  @media (min-width: 820px) { .bar__meta { display: flex; align-items: center; } }
+
+  /* ---- chapter slugs -------------------------------------------------- */
+  .slug {
+    display: flex; gap: .8rem; align-items: baseline;
+    font-size: .68rem; letter-spacing: .16em; text-transform: uppercase;
+    color: var(--sc-ink-soft); margin-bottom: 1.5rem;
+  }
+  .slug b { color: var(--sc-accent); font-weight: 700; }
+  .slug span { border-bottom: 1px solid var(--rule); flex: 1; transform: translateY(-.25em); }
+
+  h1, h2, h3 { text-wrap: balance; }
+  .sc-display--xl { letter-spacing: -.02em; line-height: .98; }
+
+  /* ---- the source ledger (signature move) ----------------------------- */
+  .ledger {
+    position: fixed; right: 0; bottom: 0; z-index: 55;
+    width: min(23rem, 92vw);
+    border-top: 1px solid var(--rule); border-left: 1px solid var(--rule);
+    background: rgba(18,17,16,.94);
+    backdrop-filter: blur(6px);
+    font-size: .68rem; letter-spacing: .04em;
+    transform: translateY(calc(100% - 2.2rem));
+    transition: transform .34s cubic-bezier(.2,.7,.3,1);
+  }
+  .ledger[data-open="1"] { transform: translateY(0); }
+  @media (prefers-reduced-motion: reduce) { .ledger { transition: none; } }
+  .ledger__head {
+    display: flex; width: 100%; align-items: center; gap: .6rem;
+    padding: .62rem .8rem; height: 2.2rem;
+    background: none; border: 0; color: var(--sc-ink);
+    font: inherit; text-transform: uppercase; letter-spacing: .1em; cursor: pointer;
+  }
+  .ledger__head b { color: var(--ok); font-variant-numeric: tabular-nums; }
+  .ledger__head i { margin-left: auto; font-style: normal; color: var(--sc-ink-soft); }
+  /* CSS caret instead of a glyph: keeps the source free of non-ASCII symbols. */
+  .ledger__mark { width: 0; height: 0; border-left: 5px solid transparent; border-right: 5px solid transparent;
+    border-bottom: 6px solid currentColor; display: inline-block; transition: transform .25s ease; }
+  .ledger[data-open="1"] .ledger__mark { transform: rotate(180deg); }
+  .ledger__list { max-height: 42vh; overflow-y: auto; margin: 0; padding: 0 .8rem .9rem; list-style: none; }
+  .ledger__list li {
+    padding: .5rem 0; border-top: 1px solid var(--rule);
+    color: var(--sc-ink-soft); line-height: 1.45;
+  }
+  .ledger__list li b { color: var(--sc-ink); font-weight: 400; }
+
+  /* a sourced claim */
+  .claim { display: block; margin: 0 0 1.15rem; }
+  .claim__text { margin: 0; }
+  .claim__btn {
+    margin-top: .5rem; display: inline-flex; align-items: center; gap: .5rem;
+    background: none; border: 1px solid var(--rule); color: var(--sc-ink-soft);
+    font: inherit; font-size: .66rem; letter-spacing: .1em; text-transform: uppercase;
+    padding: .34rem .6rem; cursor: pointer;
+  }
+  .claim__btn:hover, .claim__btn:focus-visible { border-color: var(--sc-accent); color: var(--sc-ink); }
+  .claim__btn::before {
+    content: ""; width: .5rem; height: .5rem; background: var(--rule); flex: none;
+  }
+  .claim.is-passed .claim__btn::before { background: var(--ok); }
+  .claim__src {
+    display: none; margin: .55rem 0 0; padding: .7rem .85rem;
+    border-left: 2px solid var(--sc-accent); background: rgba(0,0,0,.28);
+    font-size: .74rem; line-height: 1.55; color: var(--sc-ink-soft);
+  }
+  .claim__src cite { display: block; margin-top: .45rem; font-style: normal; color: var(--sc-ink); }
+  .claim[data-open="1"] .claim__src { display: block; }
+
+  /* ---- layout blocks --------------------------------------------------- */
+  .pad { padding: 8rem 1.35rem; }
+  @media (min-width: 900px) { .pad { padding: 10rem 3.5rem; } }
+  .col { max-width: 38rem; }
+  .col--wide { max-width: 54rem; }
+
+  .hero__grid { position: absolute; inset: 0; }
+  .hero__copy { position: relative; z-index: 3; padding: 0 1.35rem; max-width: 46rem; }
+  @media (min-width: 900px) { .hero__copy { padding: 0 3.5rem; } }
+  /* Sits over the bright parcel map: the accent alone measured 3.97:1,
+     so the kicker carries its own brighter ink plus a shadow. */
+  .hero__kicker {
+    font-size: .7rem; letter-spacing: .2em; text-transform: uppercase;
+    color: #f0ece5; text-shadow: 0 1px 3px rgba(0,0,0,.85); margin: 0 0 1.4rem;
+  }
+  .hero__sub { color: var(--sc-ink-soft); max-width: 34rem; }
+
+  .stat { border-top: 1px solid var(--rule); padding-top: .9rem; }
+  .stat__n {
+    font-size: clamp(2.6rem, 7vw, 4.6rem); line-height: .9; font-weight: 700;
+    font-variant-numeric: tabular-nums; letter-spacing: -.03em;
+  }
+  /* Hero h1 inherits the engine's --xl size (120px), which overflows short
+     viewports. Bind it to viewport HEIGHT as well as width so the peak line
+     always lands inside one screen. */
+  #h-hero {
+    font-size: clamp(2.1rem, min(6.2vw, 7.2vh), 4.3rem);
+    line-height: .92;
+  }
+  .stat__l { font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; color: var(--sc-ink-soft); margin-top: .6rem; }
+  .stats { display: grid; gap: 2.4rem; grid-template-columns: 1fr; margin-top: 3rem; }
+  @media (min-width: 760px) { .stats { grid-template-columns: repeat(3, 1fr); gap: 1.6rem; } }
+
+  /* map stage */
+  .mapstage { position: absolute; inset: 0; overflow: hidden; }
+  .mapstage img { width: 100%; height: 100%; object-fit: cover; object-position: 36% 37%; filter: saturate(.78) brightness(.86) contrast(1.02); }
+  /* readplate: the map is bright line-art, so type needs its own ground.
+     Sits above the map, below the copy (z-index 3). */
+  .readplate { position: absolute; inset: 0; z-index: 2; pointer-events: none;
+    background: linear-gradient(90deg, rgba(10,9,8,.94) 0%, rgba(10,9,8,.88) 42%, rgba(10,9,8,.42) 72%, rgba(10,9,8,.18) 100%); }
+  .readplate--strong {
+    background: linear-gradient(90deg, rgba(10,9,8,.96) 0%, rgba(10,9,8,.93) 50%, rgba(10,9,8,.6) 78%, rgba(10,9,8,.3) 100%); }
+  @media (max-width: 899px) { .readplate, .readplate--strong { background: rgba(10,9,8,.9); } }
+
+  /* evidence rail */
+  .rail { display: flex; gap: 2.2rem; align-items: center; padding: 0 1.35rem; }
+  .rail__lead { flex: none; width: min(30rem, 82vw); }
+  .plate { flex: none; width: min(34rem, 86vw); }
+  .plate img { width: 100%; height: auto; display: block; border: 1px solid var(--rule); }
+  .plate figcaption { margin-top: .8rem; font-size: .72rem; line-height: 1.5; color: var(--sc-ink-soft); }
+  .plate figcaption b { color: var(--sc-ink); font-weight: 400; }
+
+  /* document plates */
+  .docs { display: grid; gap: 1.4rem; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); margin-top: 3rem; }
+  .doc { display: block; text-decoration: none; color: inherit; border: 1px solid var(--rule); padding: .7rem; }
+  .doc:hover, .doc:focus-visible { border-color: var(--sc-accent); }
+  .doc img { width: 100%; height: 11rem; object-fit: cover; object-position: top; display: block; filter: grayscale(1) contrast(1.05); }
+  .doc:hover img { filter: none; }
+  .doc span { display: block; margin-top: .6rem; font-size: .7rem; letter-spacing: .06em; color: var(--sc-ink-soft); }
+
+  /* close */
+  .close { display: flex; flex-direction: column; justify-content: center; height: 100%; padding: 4.5rem 1.35rem 0; }
+  @media (min-width: 900px) { .close { padding: 4.5rem 3.5rem 0; } }
+  .acts { display: grid; gap: 1px; background: var(--rule); border: 1px solid var(--rule); margin-top: 2.6rem; }
+  @media (min-width: 820px) { .acts { grid-template-columns: repeat(3, 1fr); } }
+  .act { background: var(--sc-canvas); padding: 1.6rem 1.3rem; text-decoration: none; color: inherit; display: block; }
+  .act:hover, .act:focus-visible { background: var(--sc-surface); }
+  .act b { display: block; font-size: .7rem; letter-spacing: .14em; text-transform: uppercase; color: var(--sc-accent); }
+  .act h3 { margin: .7rem 0 .5rem; font-size: 1.05rem; }
+  .act p { margin: 0; font-size: .82rem; line-height: 1.55; color: var(--sc-ink-soft); }
+  .foot {
+    margin-top: auto; border-top: 1px solid var(--rule); padding: 1.4rem 0 1.6rem;
+    font-size: .7rem; line-height: 1.7; color: var(--sc-ink-soft);
+  }
+  .foot a { color: var(--sc-ink); }
+</style>
+</head>
+<body>
+
+<span data-sc-progress></span>
+<div class="sc-grain" aria-hidden="true"></div>
+
+<a href="#ch6" class="sc-skip">Skip to what you can do</a>
+
+<header class="bar">
+  <div class="bar__mark">TN Waste <b>Watch</b></div>
+  <div class="bar__meta">Matlock Bend Class I Landfill · Loudon County, TN · permit SNL530000203</div>
+  <a class="bar__cta" href="#ch6">Take action</a>
+</header>
+
+<main id="top">
+
+  <!-- ========== 1 · RECOGNITION — pin over the real parcel map ========== -->
+  <section data-sc-act="pin" data-sc-span="1.0" data-sc-drift="#121110" aria-labelledby="h-hero">
+    <div data-sc-stage>
+      <div class="mapstage" data-sc-parallax="0.12">
+        <img src="assets/map-body.jpg" alt="Loudon County assessor parcel map of the Matlock Bend landfill. The bare, terraced landfill working face sits at centre, bounded on the west by the Tennessee River and ringed on the north and east by dense residential lot lines.">
+      </div>
+      <div class="sc-scrim sc-scrim--vignette" aria-hidden="true"></div>
+      <div class="sc-scrim sc-scrim--lead" aria-hidden="true"></div>
+      <div class="readplate" aria-hidden="true"></div>
+
+      <div class="hero__copy">
+        <p class="hero__kicker" data-sc-cue="0 0.9 0">Loudon County, Tennessee</p>
+        <h1 id="h-hero" class="sc-display sc-display--xl" data-sc-cue="0 0.9 0" data-sc-kinetic="lines">The landfill is growing toward the houses. The permit is already filed.</h1>
+        <p class="sc-body hero__sub" data-sc-cue="0.16 0.9">Every orange line on this map is somebody's property boundary. The bare ground at the centre is the working face of the Matlock Bend Class I landfill. Republic Services has submitted Part One of a permit to expand it horizontally.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 2 · THE FILING — flow ========== -->
+  <section class="sc-section pad" data-sc-act="flow" data-sc-drift="#1b1917" aria-labelledby="h-filing">
+    <div class="col col--wide">
+      <p class="slug"><b>Chapter 01</b> The filing <span></span></p>
+
+      <div data-sc-in data-sc-stagger="70">
+        <h2 id="h-filing" class="sc-display sc-display--lg">This is not a proposal. It is an application in progress.</h2>
+
+        <div class="claim" data-claim="Part One of the horizontal expansion permit has been submitted to TDEC">
+          <p class="claim__text sc-body">Part One of the horizontal expansion permit has been submitted. The geotechnical investigation is ongoing and is expected to continue into early 2027, with water quality work to follow. All Army Corps of Engineers jurisdictional requirements are complete, and the hydrogeologic work plan already given to the Commission supports the Part Two submission.</p>
+          <button class="claim__btn" type="button" aria-expanded="false">Show source</button>
+          <div class="claim__src">
+            "On the horizontal expansion permit, Part One has been submitted; the geotechnical investigation is ongoing and expected to continue into early 2027, with water quality work to follow. All Army Corps of Engineers jurisdictional requirements have been completed, with no land-development obstacles identified."
+            <cite>Engineering report, Republic Services, in the minutes of the August 20, 2026 regular meeting, as circulated in the September 17, 2026 Commission packet, p. 8.</cite>
+          </div>
+        </div>
+
+        <div class="claim" data-claim="Loudon County, not Republic Services, is the permit holder">
+          <p class="claim__text sc-body">The county is on the hook. Republic Services operates the site, but the landfill permit is held by Loudon County through this Commission — which is why TDEC asks the county, not the operator, to formally answer for conditions on the ground.</p>
+          <button class="claim__btn" type="button" aria-expanded="false">Show source</button>
+          <div class="claim__src">
+            "TDEC has asked that the permit holder — Loudon County, via the Commission — formally acknowledge the condition, since the landfill permit is held by the County even though Republic operates the site."
+            <cite>Engineering report, in the minutes of the August 20, 2026 regular meeting, September 17, 2026 packet, p. 8.</cite>
+          </div>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div class="stat" data-sc-in>
+          <div class="stat__n"><span data-sc-count="2027" data-sc-count-ms="900">2027</span></div>
+          <div class="stat__l">Geotechnical work expected to run into early</div>
+        </div>
+        <div class="stat" data-sc-in>
+          <div class="stat__n"><span data-sc-count="52.56" data-sc-count-ms="900">52.56</span></div>
+          <div class="stat__l">Deeded acres, parcel 031 047.00, per the county assessor</div>
+        </div>
+        <div class="stat" data-sc-in>
+          <div class="stat__n"><span data-sc-count="10" data-sc-count-ms="900">10</span></div>
+          <div class="stat__l">New gas wells with passive flares being installed in the capping section</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 3 · THE PEAK — pin on the map, longest span ========== -->
+  <section data-sc-act="pin" data-sc-span="3.2" data-sc-drift="#0d0c0b" aria-labelledby="h-peak">
+    <div data-sc-stage>
+      <div class="mapstage" data-sc-parallax="0.2">
+        <img src="assets/map-body.jpg" alt="The same parcel map, showing the landfill working face immediately adjacent to platted residential streets to the north and east.">
+      </div>
+      <div class="sc-scrim sc-scrim--bottom" aria-hidden="true"></div>
+      <div class="sc-scrim sc-scrim--vignette" aria-hidden="true"></div>
+      <div class="readplate readplate--strong" aria-hidden="true"></div>
+
+      <div class="hero__copy">
+        <p class="slug" data-sc-cue="0 0.96 0"><b>Chapter 02</b> What is next to it <span></span></p>
+        <p class="sc-lede" data-sc-cue="0.04 0.30">Look at the map behind this text. The pale terraced ground is the landfill.</p>
+        <p class="sc-lede" data-sc-cue="0.26 0.54">The orange mesh pressing against it on the north and east is not forest. It is subdivided residential lots, street by street, already platted.</p>
+        <p class="sc-lede" data-sc-cue="0.50 0.78">On the west, the Tennessee River. This is the shape of the decision: a Class I landfill with a river on one side and neighbourhoods on the other, applying to grow sideways.</p>
+        <p class="sc-lede" data-sc-cue="0.74">The expansion permit does not need anyone's vote to be filed. It is filed.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 4 · THE EVIDENCE — pan rail of real site photos ========== -->
+  <section data-sc-act="pan" data-sc-span="2.8" data-sc-drift="#1b1917" aria-labelledby="h-evidence">
+    <div data-sc-stage>
+      <div class="rail" data-sc-pan="0.06">
+        <div class="rail__lead">
+          <p class="slug"><b>Chapter 03</b> The eastern slope <span></span></p>
+          <h2 id="h-evidence" class="sc-display sc-display--md">The inspector came in July. He came back in August.</h2>
+          <p class="sc-body">TDEC issued Areas of Concern for exposed waste and for flagging along the east slope, both tied to the availability of soil. The landfill manager submitted these photographs of that slope into the public record on September 2, 2026.</p>
+        </div>
+
+        <figure class="plate">
+          <img src="assets/slope-1.jpg" width="553" height="741" alt="A bulldozer sits on the crest of a bare earthen slope at the landfill under a clear sky, with loose reddish-brown soil and scattered stone covering the foreground.">
+          <figcaption><b>Eastern slope, looking up-grade.</b> Bare soil, equipment working the crest. Submitted by the landfill manager, September 2, 2026.</figcaption>
+        </figure>
+
+        <figure class="plate">
+          <img src="assets/slope-2.jpg" width="545" height="741" alt="A wide bare slope of reddish-brown soil with horizontal track marks across its face and a band of green weeds growing along the lower edge.">
+          <figcaption><b>Slope face.</b> Track-marked bare ground with vegetation only at the toe. Same submission.</figcaption>
+        </figure>
+
+        <figure class="plate">
+          <img src="assets/slope-3.jpg" width="561" height="734" alt="A further view of the bare landfill slope with equipment at the top edge against a blue sky.">
+          <figcaption><b>Third view, same date.</b> These images accompany the Areas of Concern discussion in the packet.</figcaption>
+        </figure>
+
+        <div class="plate">
+          <div class="claim" data-claim="TDEC issued Areas of Concern for exposed waste and east-slope flagging">
+            <p class="claim__text sc-body">Cover soil is the whole dispute. The site hauls roughly 400 to 600 cubic yards of soil a week for daily cover, but that hauled material cannot legally be used for final cover, which requires a certified two-foot compacted layer, geosynthetics and a further foot of topsoil. The on-site borrow soil that does conform is not accessible pending a grading permit.</p>
+            <button class="claim__btn" type="button" aria-expanded="false">Show source</button>
+            <div class="claim__src">
+              "the site is currently hauling approximately 400–600 cubic yards of soil per week for daily cover. He clarified that this hauled material cannot be used for intermediate or final cover on capped slopes, which require a certified two-foot compacted conformance layer, geosynthetics, and an additional foot of topsoil meeting TDEC specifications."
+              <cite>Engineering report, minutes of the August 20, 2026 meeting, September 17, 2026 packet, p. 8.</cite>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 5 · THE VACUUM — flow ========== -->
+  <section class="sc-section pad" data-sc-act="flow" data-sc-drift="#121110" aria-labelledby="h-vacuum">
+    <div class="col col--wide">
+      <p class="slug"><b>Chapter 04</b> Who is minding it <span></span></p>
+
+      <div data-sc-in data-sc-stagger="70">
+        <h2 id="h-vacuum" class="sc-display sc-display--lg">The chair resigned, and he was also the man holding the records.</h2>
+
+        <div class="claim" data-claim="Chair Adam Waller resigned from the Solid Waste Disposal Commission">
+          <p class="claim__text sc-body">On September 17, 2026 the Commission opened by announcing that notice had arrived the previous day: Adam Waller had resigned from the Solid Waste Disposal Commission. He had held two jobs at once — chair, and the person in charge of the Commission's public records.</p>
+          <button class="claim__btn" type="button" aria-expanded="false">Show source</button>
+          <div class="claim__src">
+            "so we um got yesterday we got a notice from um from Adam Waller that he has resigned from the commission. So we need um we need to elect a a chair." [00:06:39] · "Mr. Waller was both he was the chair and in charge of the public records." [00:17:46]
+            <cite>Loudon County Solid Waste Disposal Commission, regular meeting, September 17, 2026, official livestream recording. Auto-generated captions; approved minutes pending. This site reports only that the resignation stated at this meeting is from the Solid Waste Disposal Commission. Whether it affects any other office he holds is not established by this record and is not claimed here.</cite>
+          </div>
+        </div>
+
+        <div class="claim" data-claim="A new chair was elected the same night; three other posts left vacant">
+          <p class="claim__text sc-body">Commissioner Ross was nominated and elected chair the same night, on a motion by Gary with a second from Tyler, Ross abstaining and no votes against. Vice chair, secretary and a replacement public records officer were all left unfilled — the incoming chair said she wanted to define the records job before asking anyone to take it.</p>
+          <button class="claim__btn" type="button" aria-expanded="false">Show source</button>
+          <div class="claim__src">
+            "I'd like to nominate you." / "I second that." [00:07:00] · "but we have a motion from Gary and second from from Tyler." [00:07:10] · "Um, actually, not tonight. Um, because I need to talk to some people" [00:09:34] · "before I would do anything like that is that I would need to know exactly what I'm asking someone to do" [00:18:02]
+            <cite>Same meeting recording. Auto-generated captions; approved minutes pending.</cite>
+          </div>
+        </div>
+
+        <div class="claim" data-claim="A citizen said the chair election was roughly five months overdue">
+          <p class="claim__text sc-body">During public comment a citizen said the election was about five months late, that the Commission's own procedures called for it in April, and that the February through May minutes contain no mention of one. The chair acknowledged the point and committed to keeping to the calendar.</p>
+          <button class="claim__btn" type="button" aria-expanded="false">Show source</button>
+          <div class="claim__src">
+            "Why are we doing the election in the month of September when according to the procedures and polic[y] that should have been done in April." [00:08:45] · "I went back and looked through all of the meeting minutes for February, March, April, and May. There's no mention of an election for chairman." [00:08:51] · "in the future we will try to keep on keep to the calendar." [00:09:23]
+            <cite>Same meeting recording. Auto-generated captions; approved minutes pending.</cite>
+          </div>
+        </div>
+
+        <div class="claim" data-claim="A public records request has been outstanding more than 60 days">
+          <p class="claim__text sc-body">A resident's public records request has now been outstanding more than sixty days. At the September meeting the Commission could not give a date for it.</p>
+          <button class="claim__btn" type="button" aria-expanded="false">Show source</button>
+          <div class="claim__src">
+            "The request has now been outstanding more than 60 days; Ms. Ross indicated she would need to confirm with Chairman Waller and Ms. Murphy regarding the timeline given the size and complexity of the request."
+            <cite>Public records request follow-up, minutes of the August 20, 2026 meeting, September 17, 2026 packet, p. 9.</cite>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="sc-label" style="margin-top:4rem">The documents this page is built from</h3>
+      <div class="docs">
+        <a class="doc" href="https://raw.githubusercontent.com/mfethe1/loudoun-landfill-research/main/pdfs/20260917_LCSWDC_Packet.pdf">
+          <img src="assets/packet-p1-01.jpg" alt="First page of the September 17, 2026 Commission meeting packet.">
+          <span>September 17, 2026 meeting packet — 39 pages (PDF)</span>
+        </a>
+        <a class="doc" href="https://raw.githubusercontent.com/mfethe1/loudoun-landfill-research/main/pdfs/20260917_LCSWDC_Packet.pdf">
+          <img src="assets/ops-report-11.jpg" alt="Republic Services monthly operations report for Matlock Bend Landfill.">
+          <span>Republic Services monthly operations report (PDF)</span>
+        </a>
+        <a class="doc" href="https://raw.githubusercontent.com/mfethe1/loudoun-landfill-research/main/pdfs/20260716_LCSWDC_ApprovedMinutes.pdf">
+          <img src="assets/exhibit-b-38.jpg" alt="Exhibit page from the Commission packet.">
+          <span>July 16, 2026 approved minutes (PDF)</span>
+        </a>
+        <a class="doc" href="https://www.youtube.com/live/Ny6e0-il2Gk">
+          <img src="assets/aoc-photos-24.jpg" alt="Packet page containing the eastern slope photographs.">
+          <span>September 17, 2026 meeting recording (video)</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 6 · COMMITMENT — pin, last element on the page ========== -->
+  <section id="ch6" data-sc-act="pin" data-sc-span="1.25" data-sc-drift="#121110" aria-labelledby="h-close">
+    <div data-sc-stage class="close">
+      <p class="slug" data-sc-cue="0.04"><b>Chapter 05</b> What you can actually do <span></span></p>
+      <h2 id="h-close" class="sc-display sc-display--lg" data-sc-cue="0.06" data-sc-kinetic="lines">Three things, and none of them require a lawyer.</h2>
+
+      <div class="acts" data-sc-cue="0.1" data-sc-rise="0">
+        <a class="act" href="https://loudoncounty-tn.gov/events/">
+          <b>01 — Show up</b>
+          <h3>Go to the next Commission meeting</h3>
+          <p>Public comment happens at the start. The county publishes the schedule. The room is small, and attendance is visible in the record.</p>
+        </a>
+        <a class="act" href="#records">
+          <b>02 — Ask</b>
+          <h3>File a public records request</h3>
+          <p>Tennessee law gives you the right to inspect these records. The Commission's records officer post is currently vacant, so send requests to the chair and copy the county open records office.</p>
+        </a>
+        <a class="act" href="mailto:LCSWDC.Ross@gmail.com?subject=Written%20public%20comment%20%E2%80%94%20Matlock%20Bend">
+          <b>03 — Write</b>
+          <h3>Submit written public comment</h3>
+          <p>Written comment goes into the packet and becomes part of the permanent record, whether or not you can attend in person.</p>
+        </a>
+      </div>
+
+      <footer class="foot">
+        <p><b>TN Waste Watch</b> — an independent citizen accountability project. Not affiliated with Loudon County, the Solid Waste Disposal Commission, Republic Services, or TDEC.</p>
+        <p>Facility: Matlock Bend Class I Sanitary Landfill, Matlock Bend Road, Loudon County, Tennessee. TDEC permit SNL530000203. Parcel 031 047.00, owner of record: Loudon County Solid Waste Disposal Commission.</p>
+        <p>Every factual claim above carries its source. Meeting-recording quotations are from auto-generated captions and are labelled as such; approved minutes supersede them when published. Where a figure spoken aloud could not be verified against a document, it is not printed here. <a href="https://www.youtube.com/live/Ny6e0-il2Gk">Watch the September 17, 2026 meeting</a>.</p>
+        <p>Page last verified September 18, 2026.</p>
+      </footer>
+    </div>
+  </section>
+
+</main>
+
+<!-- signature move: the source ledger -->
+<aside class="ledger" id="ledger" aria-live="polite">
+  <button class="ledger__head" type="button" aria-expanded="false" aria-controls="ledger-list">
+    Source ledger <b><span id="lg-n">0</span>/<span id="lg-t">0</span></b> claims sourced <i class="ledger__mark" aria-hidden="true"></i>
+  </button>
+  <ul class="ledger__list" id="ledger-list"></ul>
+</aside>
+
+<script src="scrollcraft.js"></script>
+<script>
+ScrollCraft.mount(document.body);
+
+/* ---- the source ledger ---------------------------------------------------
+   Every factual claim on this page is a <div class="claim"> carrying its own
+   citation. Scrolling past one stamps it into a running ledger in the corner,
+   so by the footer the visitor has an itemised list of what they were told and
+   what each statement rests on. Claims also open in place on click.
+-------------------------------------------------------------------------- */
+(function () {
+  var claims = Array.prototype.slice.call(document.querySelectorAll('.claim'));
+  var list   = document.getElementById('ledger-list');
+  var nEl    = document.getElementById('lg-n');
+  var tEl    = document.getElementById('lg-t');
+  var panel  = document.getElementById('ledger');
+  var head   = panel.querySelector('.ledger__head');
+  var seen   = 0;
+
+  tEl.textContent = claims.length;
+
+  head.addEventListener('click', function () {
+    var open = panel.getAttribute('data-open') === '1';
+    panel.setAttribute('data-open', open ? '0' : '1');
+    head.setAttribute('aria-expanded', String(!open));
+    head.querySelector('i').textContent = open ? '\u25B2' : '\u25BC';
+  });
+
+  claims.forEach(function (c, i) {
+    var btn = c.querySelector('.claim__btn');
+    var src = c.querySelector('.claim__src');
+    var id  = 'src-' + i;
+    src.id = id;
+    btn.setAttribute('aria-controls', id);
+
+    btn.addEventListener('click', function () {
+      var open = c.getAttribute('data-open') === '1';
+      c.setAttribute('data-open', open ? '0' : '1');
+      btn.setAttribute('aria-expanded', String(!open));
+      btn.lastChild.textContent = open ? 'Show source' : 'Hide source';
+    });
+  });
+
+  function stamp(c) {
+    if (c.dataset.stamped) return;
+    c.dataset.stamped = '1';
+    c.classList.add('is-passed');
+    seen += 1;
+    nEl.textContent = seen;
+    var li = document.createElement('li');
+    li.innerHTML = '<b>' + String(seen).padStart(2, '0') + '.</b> ' + c.getAttribute('data-claim');
+    list.appendChild(li);
+  }
+
+  if (!('IntersectionObserver' in window)) {
+    claims.forEach(stamp);
+    return;
+  }
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) { if (e.isIntersecting) { stamp(e.target); io.unobserve(e.target); } });
+  }, { rootMargin: '0px 0px -35% 0px' });
+  claims.forEach(function (c) { io.observe(c); });
+})();
+</script>
+</body>
+</html>
