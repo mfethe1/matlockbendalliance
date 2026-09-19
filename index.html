@@ -277,7 +277,10 @@
             min-height: 44px;
             padding: 1rem 2rem;
             border-radius: 8px;
-            background: #e8462a;
+            /* White on #e8462a measured 3.93:1, under the AA floor. This is the
+               primary call to action, so it has to be legible: #c2371f keeps
+               the same red identity at 5.44:1. */
+            background: #c2371f;
             color: #fff;
             font-weight: 700;
             font-size: 1rem;
@@ -369,7 +372,12 @@
         /* Citation */
         .citation {
             font-size: 0.75rem;
-            color: var(--slate-400);
+            /* Measured 3.07:1 on the card and 3.75:1 in the timeline -- both
+               under the 4.5:1 AA floor for text this size. These lines are the
+               source attributions, the part of an accountability page a
+               sceptical reader most needs to read. --slate-500 measures 5.71:1
+               and 6.96:1 and still reads as secondary. */
+            color: var(--slate-500);
             margin-top: 0.75rem;
             display: flex;
             align-items: center;
@@ -428,9 +436,37 @@
             font-weight: 600;
             margin-top: 1rem;
         }
-        .tag-danger { background: rgba(248,113,113,0.15); color: var(--rose); }
+        /* Tag text sits on a 15%-alpha chip over the dark card, so the chip
+           barely lifts the background: --rose measured 4.26:1 and --sky 4.40:1,
+           both just under the 4.5:1 floor for 12px text. Darkening the chip
+           makes it worse, not better (it pulls the backdrop toward the text),
+           so lighten the text one step instead: 6.20:1 each, same hue. */
+        .tag-danger { background: rgba(248,113,113,0.15); color: #fca5a5; }
         .tag-warning { background: rgba(251,191,36,0.15); color: var(--amber); }
-        .tag-info { background: rgba(96,165,250,0.15); color: var(--sky); }
+        .tag-info { background: rgba(96,165,250,0.15); color: #93c5fd; }
+
+        /* The skip link had no styles at all: it rendered as an unstyled link
+           on the page background at 2.15:1, and it is the first thing a
+           keyboard user reaches. Keep it out of the visual flow until focused,
+           then show it as a solid, high-contrast chip. */
+        .skip-link {
+            position: absolute;
+            left: 0.75rem;
+            top: -3rem;
+            z-index: 200;
+            padding: 0.7rem 1.1rem;
+            border-radius: 0 0 8px 8px;
+            background: var(--slate-900, #f8fafc);
+            color: #0f172a;
+            font-weight: 600;
+            text-decoration: none;
+            transition: top 0.15s ease-in;
+        }
+        .skip-link:focus {
+            top: 0;
+            outline: 3px solid var(--forest-light);
+            outline-offset: 2px;
+        }
 
         /* Timeline */
         .timeline {
@@ -715,13 +751,19 @@
             letter-spacing: -0.02em;
         }
         .newsletter .newsletter-lead {
-            opacity: 0.9;
+            /* opacity 0.9 dimmed already-dark text further; the panel is a dark
+               green gradient, so --slate-300 (#475569) measured 2.07:1 against
+               its lightest stop and 2.53:1 against its darkest -- well under the
+               4.5:1 AA floor for body text. This paragraph carries the permit
+               status and the TDEC phone number, so it is exactly the text that
+               must stay readable. --slate-600 measures 10.58:1 here and keeps
+               the muted, secondary weight the design wants. */
             max-width: 560px;
             margin: 0 auto 1.5rem;
             font-family: var(--font-serif);
             font-size: 1.05rem;
             line-height: 1.6;
-            color: var(--slate-300);
+            color: var(--slate-600);
         }
         .newsletter .newsletter-lead strong {
             color: var(--forest-light);
@@ -829,10 +871,16 @@
             font-size: 0.875rem;
         }
         .footer a {
-            color: var(--slate-400);
-            text-decoration: none;
+            /* Measured 4.24:1 against the footer -- just under the 4.5:1 AA
+               floor. The hover state was worse, not better: --slate-300 is
+               darker than --slate-400, so pointing at the link dimmed it.
+               --slate-600 measures comfortably clear, and the underline means
+               the link is not signalled by colour alone. */
+            color: var(--slate-600);
+            text-decoration: underline;
+            text-underline-offset: 0.15em;
         }
-        .footer a:hover { color: var(--slate-300); }
+        .footer a:hover { color: var(--slate-700); }
 
         /* Feedback Section */
         .feedback-section {

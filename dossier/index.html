@@ -81,6 +81,10 @@
     transition: transform .34s cubic-bezier(.2,.7,.3,1);
   }
   .ledger[data-open="1"] { transform: translateY(0); }
+  /* Retired: slid fully out of the way once the closing section is reached, so
+     the closing note is readable at the document's last scroll position.
+     Hidden from assistive tech too, since it is off-screen by then. */
+  .ledger[data-retired="1"] { transform: translateY(100%); visibility: hidden; }
   @media (prefers-reduced-motion: reduce) { .ledger { transition: none; } }
   .ledger__head {
     display: flex; width: 100%; align-items: center; gap: .6rem;
@@ -371,6 +375,12 @@
     /* the ledger must never cover the reading column */
     .ledger { width: 100%; font-size: .64rem; }
     .ledger__list { max-height: 38vh; }
+    /* ...but nothing actually reserved the space, and padding cannot fix it:
+       the closing stage is a pinned act with a fixed height, so pushing the
+       text down just trapped a second element instead of the first. The bar is
+       also pointless at the very end -- its whole job is sourcing the claims
+       above it, and the closing note says so in prose. Let the act that owns
+       the ledger release it, handled in JS below. */
   }
 
   /* headings must not start life underneath the fixed bar when linked to */
@@ -476,7 +486,11 @@
         <p class="sc-lede" data-sc-cue="0.50 0.78">On the west, the Tennessee River. This is the shape of the decision: a Class I landfill with a river on one side and neighbourhoods on the other, applying to grow sideways.</p>
         <p class="sc-lede" data-sc-cue="0.74">The expansion permit does not need anyone's vote to be filed. It is filed.</p>
 
-        <div class="legend" data-sc-cue="0.02">
+        <!-- The legend is position:fixed, so a cue with no exit leaves it
+             painted over every chapter that follows: measured at full opacity
+             past this act's end, covering the photo rail's captions. Give it a
+             close so it leaves with the map it annotates. -->
+        <div class="legend" data-sc-cue="0.02 0.97 0.02">
           <p class="legend__t">What you are looking at</p>
 
           <div class="legend__row">
@@ -716,6 +730,10 @@ ScrollCraft.mount(document.body);
   var mq = window.matchMedia('(max-width: 760px)');
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
   var ticking = false;
+  /* Tracks whether THIS handler is the one currently driving the rail, so the
+     desktop branch can release its own transform exactly once instead of
+     stamping on the engine's every frame. */
+  var ownsTransform = false;
 
   /* fraction of each slice spent moving; the rest is a hold */
   var MOVE = 0.42;
@@ -726,7 +744,19 @@ ScrollCraft.mount(document.body);
 
   function update() {
     ticking = false;
-    if (!mq.matches) { rail.style.transform = ''; return; }
+    /* Above the phone breakpoint the rail belongs to the scrollcraft engine,
+       which writes its own translate every frame. Clearing the transform here
+       ran on every scroll event and wiped that write before it could paint, so
+       the rail never moved and every plate after the first was unreachable --
+       two photographs and a sourced quote that no desktop reader could ever
+       see. Hand the rail back instead of zeroing it: only release the
+       transform once, on the transition out of the phone layout, so this
+       handler leaves no residue behind for the engine to fight. */
+    if (!mq.matches) {
+      if (ownsTransform) { rail.style.transform = ''; ownsTransform = false; }
+      return;
+    }
+    ownsTransform = true;
 
     var kids = rail.children;
     var n = kids.length;
@@ -807,6 +837,26 @@ ScrollCraft.mount(document.body);
   var seen   = 0;
 
   tEl.textContent = claims.length;
+
+  /* The bar is fixed to the bottom of the viewport for the whole document, but
+     its job -- telling the reader how many claims above carry a source -- is
+     finished once the closing section is reached, and there it simply covers
+     the closing note. The stage is a pinned act with a fixed height, so no
+     amount of padding frees that text. Retire the bar when the last section is
+     substantially in view, and bring it back on the way up. */
+  var closing = document.querySelector('.close') || document.querySelector('.foot');
+  if (closing && 'IntersectionObserver' in window) {
+    new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        var done = e.isIntersecting && e.intersectionRatio > 0.5;
+        panel.setAttribute('data-retired', done ? '1' : '0');
+        if (done) {
+          panel.setAttribute('data-open', '0');
+          head.setAttribute('aria-expanded', 'false');
+        }
+      });
+    }, { threshold: [0, 0.5, 0.75] }).observe(closing);
+  }
 
   head.addEventListener('click', function () {
     var open = panel.getAttribute('data-open') === '1';
