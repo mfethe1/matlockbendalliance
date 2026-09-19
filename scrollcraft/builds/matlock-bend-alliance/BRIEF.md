@@ -12,7 +12,7 @@ Authored direction: keep the seriousness of the current treatment, but use a war
 
 ## 2. What this is and who it is for
 
-**Working positioning for this redesign:** the Matlock Bend Alliance experience is a community watchdog for the Matlock Bend Landfill in Loudon County, Tennessee. The page is for residents, neighbors, journalists, and public officials who need to understand the landfill expansion record and take a specific public-process action.
+**Working positioning for this redesign:** the Matlock Bend Alliance experience is a community watchdog for the Matlock Bend Landfill in Loudon County, Tennessee. **Authored audience assumption:** the page is for residents, neighbors, journalists, and public officials who need to understand the landfill expansion record and take a specific public-process action.
 
 The current repository page is branded TN Waste Watch / TN Waste. That existing brand should be reconciled with the Matlock Bend Alliance project name before public launch.
 
