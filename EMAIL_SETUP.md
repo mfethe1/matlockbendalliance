@@ -1,126 +1,76 @@
-# Email Signup Setup Guide — TN Waste Watch
+# Email Setup — TN Waste Watch
 
-## What Changed
+## Current state
 
-The broken localStorage-only email signup has been replaced with a **four-tier system** that can be activated by pasting a single URL:
+**Form delivery is OFF.** Both forms — hearing alerts and contributions — tell
+visitors plainly that nothing was sent, and store nothing. No addresses are
+being collected anywhere.
 
-| Priority | Backend | Setup Time | Best For |
-|----------|---------|------------|----------|
-| 1 | **Action Network** | 10 min | Full activism platform, auto-emails, unsubscribes |
-| 2 | **Google Forms** | 5 min | Simple, free, responses go to Google Sheet |
-| 3 | **Formspree** | 5 min | Direct POST, no server, 50 submissions/month free |
-| 4 | **Direct capture** | 0 min | Works immediately, manual export via console |
+Turning delivery on is a one-line change, below.
 
-## Quick Start (Formspree — Fastest Real Backend)
+## Turn it on (Formspree, ~5 minutes)
 
-**Time: 5 minutes**
+1. Go to <https://formspree.io/register> and create a free account
+   (50 submissions/month on the free tier).
+2. **New Form** → name it e.g. "TN Waste Watch".
+3. Copy the endpoint URL: `https://formspree.io/f/YOUR_FORM_ID`
+4. In `index.html`, set:
 
-1. Go to https://formspree.io/register
-2. Create a free account (email + password)
-3. Click "New Form" → give it a name like "TN Waste Watch Subscribers"
-4. Copy the form endpoint URL: `https://formspree.io/f/YOUR_FORM_ID`
-5. Open `index.html` and find this line:
-   ```javascript
-   const FORMSPREE_ENDPOINT = ''; // e.g. 'https://formspree.io/f/YOUR_FORM_ID'
+   ```js
+   const FORMSPREE_ENDPOINT = 'https://formspree.io/f/YOUR_FORM_ID';
    ```
-6. Paste your endpoint:
-   ```javascript
-   const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xnqkvnpy'; // example
-   ```
-7. Commit and push to deploy
 
-**Done.** Emails now go to your Formspree dashboard where you can export them as CSV.
+5. Optionally set `CONTACT_EMAIL` — shown as a mailto fallback whenever
+   delivery is unconfigured or the endpoint errors.
+6. Commit and push. Formspree emails you each submission.
 
-## Alternative: Google Forms
+Both forms POST JSON to that one endpoint, distinguished by a `form` field:
+`hearing-alerts` or `contribution`.
 
-**Time: 5 minutes**
+## How failure behaves
 
-1. Go to https://forms.new (while signed into your Google account)
-2. Create a form with one question: "Email" (Short answer, Required)
-3. Click the eye icon (Preview) → copy the URL
-4. OR: Click "Send" → "Embed" → copy the iframe src URL
-5. Paste it in `index.html`:
-   ```javascript
-   const GOOGLE_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLS.../viewform?embedded=true';
-   ```
-6. Commit and push
+`deliver()` returns true only when the POST actually succeeds. Anything else —
+no endpoint configured, network failure, non-2xx response — shows the honest
+"not sent" message with the mailto fallback.
 
-**To send alerts:** Open the linked Google Sheet → copy emails → send via Gmail BCC.
+**Receipt is never claimed unless the submission left the browser.** Verified
+by fault injection: with the endpoint forced to return 500, both forms refuse
+to confirm.
 
-## Alternative: Action Network
+## Verifying
 
-**Time: 10 minutes**
+There is no test runner in this repo; these are ad-hoc browser checks:
 
-1. Go to https://actionnetwork.org and create a free account
-2. Create a new "Form" called "Get TDEC Hearing Alerts for Matlock Bend"
-3. Go to Form → Embed → copy the widget script URL
-4. Paste it in `index.html`:
-   ```javascript
-   const ACTION_NETWORK_URL = 'https://actionnetwork.org/widgets/v5/form/get-tdec-hearing-alerts-for-matlock-bend?format=js&source=widget';
-   ```
-5. Commit and push
+- **unconfigured** — forms must not confirm, must not store, must not POST
+- **configured** — forms must POST, and confirm only on success
+- **endpoint 500** — must fall back, must not confirm
 
-## Copy Changes (Conversion-Optimized)
+## Why the previous version was replaced
 
-| Before | After |
-|--------|-------|
-| "Get Meeting Alerts" | **"Don't Miss the Next Public Hearing"** |
-| Generic description | **Specific threat**: "TDEC permit SNL530000203 is under review. The 7-acre expansion could affect air quality, traffic, and property values..." |
-| "Subscribe" button | **"Get Hearing Alerts"** |
-| No social proof | **Live subscriber count** with pulsing green dot |
-| No trust signals | **"No spam — only hearing alerts · Unsubscribe anytime · Volunteer-run, non-profit"** |
-| "We do not operate a server" | **Success state with frequency**: "Typically 1–2 emails per month" |
+The earlier "four-tier system" did not work at all:
 
-## Hero Section CTA
+- `FORMSPREE_ENDPOINT`, `GOOGLE_FORM_URL`, and `ACTION_NETWORK_URL` were
+  declared but **never read** — there was no `fetch` anywhere on the page, so
+  pasting a URL did nothing.
+- Submissions went to `localStorage` on the visitor's own device while the UI
+  said *"You're on the list"* and *"recorded and pending review"*.
+- The "N neighbors getting alerts" badge counted entries in **that visitor's
+  own browser**, so every visitor saw "1 neighbor".
+- The contributions list rendered that same localStorage, showing people their
+  own submissions styled as a published community archive.
+- This guide previously recommended seeding a fake subscriber count for
+  "social proof". Don't: on an accountability site, inventing numbers
+  undermines the evidence everything else rests on.
 
-Added a third hero button: **"Get Hearing Alerts"** that smooth-scrolls to the signup section.
+`api/*.js` (`subscribe.js`, `formspree-subscribe.js`, `airtable-subscribe.js`)
+is **dead code**: the site deploys to GitHub Pages, which is static hosting and
+cannot execute server endpoints. Kept only as reference if the site ever moves
+to Vercel/Netlify/Railway.
 
-## Subscriber Count
+## Free tier limits
 
-The signup shows a live count (e.g., "12 neighbors getting alerts") with a pulsing green dot. Updates automatically as people subscribe.
-
-To seed an initial count for social proof, run in browser console:
-```javascript
-localStorage.setItem('tnwaste-subscribers', JSON.stringify(['demo@example.com']))
-```
-
-## API Files (For Future Use)
-
-Three serverless function templates are included in `/api/`:
-
-- `subscribe.js` — Generic serverless handler
-- `airtable-subscribe.js` — Airtable integration (1,000 records free)
-- `formspree-subscribe.js` — Formspree via serverless proxy
-
-These are for use if you migrate from GitHub Pages to Vercel, Netlify, or Railway.
-
-## Testing Checklist
-
-- [ ] Form submits without errors
-- [ ] Success message appears
-- [ ] Subscriber count increments
-- [ ] Duplicate email shows "Already subscribed" message
-- [ ] Hero CTA scrolls to signup section
-- [ ] Mobile layout looks correct
-- [ ] Backend receives the email (check Formspree/Google/Action Network dashboard)
-
-## Exporting Subscribers (Direct Capture Mode)
-
-If using localStorage mode (no backend configured):
-
-1. Open the site in a browser
-2. Open DevTools (F12) → Console
-3. Run:
-   ```javascript
-   copy(JSON.parse(localStorage.getItem('tnwaste-subscribers')))
-   ```
-4. Paste into your email tool
-
-## Free Tier Limits
-
-| Service | Free Tier | Limit |
+| Service | Free tier | Notes |
 |---------|-----------|-------|
-| Formspree | 50 submissions/month | Good for launch |
-| Google Forms | Unlimited | No automation |
-| Action Network | Unlimited subscribers | Activist-branded UI |
-| Airtable | 1,000 records | Needs serverless function |
+| Formspree | 50 submissions/month | Fine for launch |
+| Action Network | Unlimited | Full activism platform; overkill until there is list volume |
+| Airtable | 1,000 records | Needs a serverless host, not GitHub Pages |

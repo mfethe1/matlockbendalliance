@@ -1675,7 +1675,7 @@
         <div style="max-width:var(--max-width); margin:0 auto;">
             <div class="section-header">
                 <h2>Contribute Information</h2>
-                <p>Help us keep this resource accurate and complete. Submit tips, corrections, documents, or research leads. Every submission is reviewed before publication.</p>
+                <p id="contributeIntro">Help us keep this resource accurate and complete. Submit tips, corrections, documents, or research leads. Every submission is reviewed before publication.</p>
             </div>
 
             <div class="feedback-section">
@@ -1836,9 +1836,9 @@
             <p id="newsletterStatus" style="font-size:0.875rem; opacity:0.6; margin-top:1rem;"></p>
 
             <div class="trust-badges">
-                <span>No spam &mdash; only hearing alerts</span>
+                <span id="trustSpam">No spam &mdash; only hearing alerts</span>
                 <span>·</span>
-                <span>Unsubscribe anytime</span>
+                <span id="trustUnsub">Unsubscribe anytime</span>
                 <span>·</span>
                 <span>Volunteer-run, non-profit</span>
             </div>
@@ -1858,9 +1858,51 @@
         // ============================================
         // EMAIL SIGNUP CONFIGURATION
         // ============================================
+        // Paste the Formspree form endpoint here to switch delivery on:
+        //   https://formspree.io/f/YOUR_FORM_ID
+        // Empty means nothing can be delivered, and the forms say so plainly
+        // rather than claiming a submission was received.
         const FORMSPREE_ENDPOINT = '';
-        const GOOGLE_FORM_URL = '';
-        const ACTION_NETWORK_URL = '';
+        // Optional: shown as a mailto fallback while delivery is unconfigured.
+        const CONTACT_EMAIL = '';
+
+        // Single delivery path for every form on the page. Resolves true only
+        // when the submission actually left the browser.
+        async function deliver(payload) {
+            if (!FORMSPREE_ENDPOINT) return false;
+            try {
+                const r = await fetch(FORMSPREE_ENDPOINT, {
+                    method: 'POST',
+                    headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+                return r.ok;
+            } catch (err) {
+                return false;
+            }
+        }
+
+        // Honest wording for the unconfigured / failed case, with a usable
+        // next step instead of a false confirmation.
+        // Surrounding copy also makes promises the forms cannot keep while
+        // delivery is off ("reviewed before publication", "unsubscribe
+        // anytime"). Soften it in the same place the endpoint is configured,
+        // so the page cannot drift back out of sync with reality.
+        document.addEventListener('DOMContentLoaded', function () {
+            if (FORMSPREE_ENDPOINT) return;
+            const intro = document.getElementById('contributeIntro');
+            if (intro) intro.textContent = 'Help us keep this resource accurate and complete. Submissions are not connected yet, so the form below cannot deliver anything at the moment.';
+            ['trustSpam', 'trustUnsub'].forEach(function (id) {
+                const el = document.getElementById(id);
+                if (el && el.parentNode) el.parentNode.removeChild(el);
+            });
+        });
+
+        function fallbackNote(what) {
+            return CONTACT_EMAIL
+                ? 'Email delivery is not set up on this site yet, so nothing was sent. Please email ' + what + ' to <a href="mailto:' + CONTACT_EMAIL + '">' + CONTACT_EMAIL + '</a> and it will reach us directly.'
+                : 'Email delivery is not set up on this site yet, so nothing was sent and no address was stored. Please check back shortly.';
+        }
 
         // ============================================
         // SIGNUP HANDLER
@@ -1873,46 +1915,37 @@
             const subscriberCount = document.getElementById('subscriberCount');
             const subscriberText = document.getElementById('subscriberText');
 
-            const stored = JSON.parse(localStorage.getItem('tnwaste-subscribers') || '[]');
-            const displayCount = stored.length > 0 ? stored.length : 0;
-            if (displayCount > 0) {
-                subscriberCount.style.display = 'inline-flex';
-                subscriberText.textContent = displayCount + ' neighbor' + (displayCount !== 1 ? 's' : '') + ' getting alerts';
-            }
+            // The old counter read this browser's own localStorage, so every
+            // visitor was shown "1 neighbor getting alerts" -- their own entry,
+            // presented as a community total. There is no real count to show.
+            subscriberCount.style.display = 'none';
 
-            status.textContent = 'Your email is saved securely. We will export the list when we set up email delivery.';
+            status.textContent = FORMSPREE_ENDPOINT
+                ? 'We will email you when TDEC schedules a hearing or a comment deadline approaches.'
+                : 'Alert signup is not connected yet -- submitting will not subscribe you.';
 
-            form.addEventListener('submit', function(e) {
+            form.addEventListener('submit', async function(e) {
                 e.preventDefault();
                 const email = emailInput.value.trim().toLowerCase();
                 if (!email) return;
 
                 btn.disabled = true;
-                btn.textContent = 'Saving...';
+                btn.textContent = 'Sending...';
 
-                let subscribers = JSON.parse(localStorage.getItem('tnwaste-subscribers') || '[]');
+                const sent = await deliver({ form: 'hearing-alerts', email: email });
 
-                if (subscribers.includes(email)) {
-                    showSuccess('Already subscribed.', "You're on the list. We'll email you when there's a hearing or deadline.");
-                    btn.disabled = false;
-                    btn.textContent = 'Get Hearing Alerts';
+                if (sent) {
+                    showSuccess(
+                        "You're on the list.",
+                        "We'll email you when TDEC schedules a hearing or a comment deadline approaches. Typically 1-2 emails per month."
+                    );
                     return;
                 }
 
-                subscribers.push(email);
-                localStorage.setItem('tnwaste-subscribers', JSON.stringify(subscribers));
-
-                subscriberCount.style.display = 'inline-flex';
-                subscriberText.textContent = subscribers.length + ' neighbor' + (subscribers.length !== 1 ? 's' : '') + ' getting alerts';
-
-                showSuccess(
-                    "You're on the list.",
-                    "We'll email you when TDEC schedules a hearing or a comment deadline approaches. Typically 1-2 emails per month."
-                );
-
-                console.log('TN Waste Watch subscriber:', email);
-                console.log('Total subscribers:', subscribers.length);
-                console.log('Export all: copy(JSON.parse(localStorage.getItem("tnwaste-subscribers")))');
+                // Nothing left the browser. Say so instead of confirming, and do
+                // not retain the address locally -- storing it here only creates
+                // the illusion of a list nobody can read.
+                showSuccess('Not subscribed.', fallbackNote('your address'));
             });
 
             function showSuccess(title, message) {
@@ -1935,7 +1968,11 @@
             const feedbackItems = document.getElementById('feedbackItems');
 
             function loadFeedback() {
-                const feedback = JSON.parse(localStorage.getItem('tnwaste-feedback') || '[]');
+                // This list is per-browser localStorage, not a shared archive:
+                // it only ever showed a visitor their own submissions, styled
+                // as published community contributions. Until submissions go
+                // somewhere real, show nothing rather than a private echo.
+                const feedback = [];
                 if (feedback.length === 0) {
                     feedbackItems.innerHTML = '<p style="color:var(--slate-500); font-size:0.9375rem;">No contributions yet. Be the first to submit information.</p>';
                     return;
@@ -1986,7 +2023,7 @@
                 `).join('');
             }
 
-            feedbackForm.addEventListener('submit', function(e) {
+            feedbackForm.addEventListener('submit', async function(e) {
                 e.preventDefault();
 
                 const name = document.getElementById('feedbackName').value.trim();
@@ -2005,34 +2042,24 @@
                 feedbackBtn.disabled = true;
                 feedbackBtn.textContent = 'Submitting...';
 
-                const feedback = JSON.parse(localStorage.getItem('tnwaste-feedback') || '[]');
-
-                feedback.push({
-                    id: Date.now(),
-                    name: name || null,
-                    email: email || null,
-                    type: type,
-                    subject: subject,
-                    message: message,
-                    source: source || null,
-                    date: new Date().toISOString(),
-                    status: 'pending'
+                const sent = await deliver({
+                    form: 'contribution',
+                    name: name || null, email: email || null, type: type,
+                    subject: subject, message: message, source: source || null
                 });
-
-                localStorage.setItem('tnwaste-feedback', JSON.stringify(feedback));
 
                 feedbackForm.style.display = 'none';
                 feedbackStatus.style.display = 'none';
 
                 const successDiv = document.createElement('div');
                 successDiv.className = 'feedback-success';
-                successDiv.innerHTML = `
-                    <h3>Thank you for your contribution.</h3>
-                    <p>Your submission has been recorded and is pending review. If you provided an email, we may contact you for clarification. Validated information will be published on this page.</p>
-                `;
+                // Only claim receipt when the POST actually succeeded. The old
+                // path wrote to localStorage and said "recorded and pending
+                // review" -- nobody but the sender could ever see it.
+                successDiv.innerHTML = sent
+                    ? '<h3>Thank you for your contribution.</h3><p>Your submission has been received and is pending review. If you provided an email, we may contact you for clarification. Validated information will be published on this page.</p>'
+                    : '<h3>Not submitted.</h3><p>' + fallbackNote('your contribution') + '</p>';
                 feedbackForm.parentNode.appendChild(successDiv);
-
-                loadFeedback();
 
                 console.log('TN Waste Watch feedback submitted:', { type, subject });
                 console.log('Total contributions:', feedback.length);
