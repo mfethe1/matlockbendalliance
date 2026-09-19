@@ -847,6 +847,13 @@
             flex-direction: column;
             gap: 1rem;
         }
+        /* Each control is wrapped in a bare div; without this the label and
+           input sit side by side at intrinsic width. */
+        .feedback-form > div {
+            display: flex;
+            flex-direction: column;
+            gap: 0.375rem;
+        }
         .feedback-form label {
             font-weight: 600;
             font-size: 0.875rem;
@@ -855,6 +862,8 @@
         .feedback-form input,
         .feedback-form textarea,
         .feedback-form select {
+            width: 100%;
+            box-sizing: border-box;
             padding: 0.75rem 1rem;
             border-radius: 8px;
             border: 1px solid var(--slate-300);
@@ -870,6 +879,11 @@
         .feedback-form textarea {
             min-height: 120px;
             resize: vertical;
+        }
+        /* Make the required marker legible rather than a bare asterisk. */
+        .feedback-form label .req {
+            color: var(--forest-light);
+            font-weight: 700;
         }
         .feedback-form button {
             padding: 0.875rem 1.5rem;
@@ -1689,7 +1703,7 @@
                         <input type="email" id="feedbackEmail" placeholder="your@email.com">
                     </div>
                     <div>
-                        <label for="feedbackType">Type of Contribution *</label>
+                        <label for="feedbackType">Type of Contribution <span class="req" title="Required">*</span></label>
                         <select id="feedbackType" required>
                             <option value="">Select a type...</option>
                             <option value="document">Public Document to Archive</option>
@@ -1699,11 +1713,11 @@
                         </select>
                     </div>
                     <div>
-                        <label for="feedbackSubject">Subject *</label>
+                        <label for="feedbackSubject">Subject <span class="req" title="Required">*</span></label>
                         <input type="text" id="feedbackSubject" placeholder="e.g., TDEC inspection report from March 2026" required>
                     </div>
                     <div>
-                        <label for="feedbackMessage">Details *</label>
+                        <label for="feedbackMessage">Details <span class="req" title="Required">*</span></label>
                         <textarea id="feedbackMessage" placeholder="Describe what you know. Include dates, document names, permit numbers, or any specifics that help us verify. If you have a document, describe how to obtain it." required></textarea>
                     </div>
                     <div>
