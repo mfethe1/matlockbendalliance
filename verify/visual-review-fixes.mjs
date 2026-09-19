@@ -240,6 +240,7 @@ const browser = await chromium.launch({
       'tag (danger)':  '.tag-danger',
       'tag (info)':    '.tag-info',
       'footer link':   '.footer a',
+      'footer note':   '.footer-inner p[style*="opacity"]',
       'dossier CTA':   '.dossier-band-cta'
     };
     const out = [];
