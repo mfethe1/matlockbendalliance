@@ -34,7 +34,11 @@
     backdrop-filter: blur(6px);
     font-size: .7rem; letter-spacing: .09em; text-transform: uppercase;
   }
-  .bar__mark { padding: .75rem 1rem; border-right: 1px solid var(--rule); font-weight: 700; }
+  /* This is the way back to the main site, so it is an <a>. Anchor defaults
+     (underline + link colour) would fight the wordmark, hence the resets. */
+  .bar__mark { padding: .75rem 1rem; border-right: 1px solid var(--rule); font-weight: 700;
+    color: inherit; text-decoration: none; display: flex; align-items: center; min-height: 44px; }
+  .bar__mark:hover b { text-decoration: underline; }
   .bar__mark b { color: var(--sc-accent); }
   .bar__meta { padding: .75rem 1rem; color: var(--sc-ink-soft); display: none; }
   .bar__cta {
@@ -345,7 +349,7 @@
 <a href="#ch6" class="sc-skip">Skip to what you can do</a>
 
 <header class="bar">
-  <div class="bar__mark">TN Waste <b>Watch</b></div>
+  <a class="bar__mark" href="/">TN Waste <b>Watch</b></a>
   <div class="bar__meta">Matlock Bend Class I Landfill · Loudon County, TN · permit SNL530000203</div>
   <a class="bar__cta" href="#ch6">Take action</a>
 </header>
