@@ -41,6 +41,9 @@
     padding: .75rem 1.15rem; border-left: 1px solid var(--rule);
     background: var(--sc-accent); color: var(--sc-accent-ink);
     text-decoration: none; font-weight: 700; display: flex; align-items: center;
+    /* Primary action in the fixed bar. Measured 102x35 at 390px; the bar keeps
+       it short, so enforce the 44px touch target explicitly. */
+    min-height: 44px;
   }
   .bar__cta:hover { background: #ff573a; }
   @media (min-width: 820px) { .bar__meta { display: flex; align-items: center; } }
@@ -49,7 +52,12 @@
   .slug {
     display: flex; gap: .8rem; align-items: baseline;
     font-size: .68rem; letter-spacing: .16em; text-transform: uppercase;
-    color: var(--sc-ink-soft); margin-bottom: 1.5rem;
+    /* --sc-ink-soft (#a09a90) measured 2.83:1 against the parcel map across
+       the whole of chapter 02 -- under the 3:1 floor for this size. The slug
+       sits over photography, not over flat page ground, so it gets a brighter
+       ink and a shadow rather than the muted secondary token. */
+    color: #cdc6ba; margin-bottom: 1.5rem;
+    text-shadow: 0 1px 3px rgba(8,7,6,.92), 0 0 10px rgba(8,7,6,.75);
   }
   .slug b { color: var(--sc-accent); font-weight: 700; }
   .slug span { border-bottom: 1px solid var(--rule); flex: 1; transform: translateY(-.25em); }
@@ -72,7 +80,9 @@
   @media (prefers-reduced-motion: reduce) { .ledger { transition: none; } }
   .ledger__head {
     display: flex; width: 100%; align-items: center; gap: .6rem;
-    padding: .62rem .8rem; height: 2.2rem;
+    /* height was 2.2rem (35px measured). The ledger header is the control that
+       opens the whole source list, so give it a 44px touch target. */
+    padding: .62rem .8rem; min-height: 44px;
     background: none; border: 0; color: var(--sc-ink);
     font: inherit; text-transform: uppercase; letter-spacing: .1em; cursor: pointer;
   }
@@ -96,7 +106,9 @@
     margin-top: .5rem; display: inline-flex; align-items: center; gap: .5rem;
     background: none; border: 1px solid var(--rule); color: var(--sc-ink-soft);
     font: inherit; font-size: .66rem; letter-spacing: .1em; text-transform: uppercase;
-    padding: .34rem .6rem; cursor: pointer;
+    /* Measured 119x30 at 390px. Pad to a 44px touch target (WCAG 2.5.5)
+       without changing the drawn box any more than necessary. */
+    padding: .62rem .8rem; min-height: 44px; cursor: pointer;
   }
   .claim__btn:hover, .claim__btn:focus-visible { border-color: var(--sc-accent); color: var(--sc-ink); }
   .claim__btn::before {
@@ -153,7 +165,54 @@
     background: linear-gradient(90deg, rgba(10,9,8,.94) 0%, rgba(10,9,8,.88) 42%, rgba(10,9,8,.42) 72%, rgba(10,9,8,.18) 100%); }
   .readplate--strong {
     background: linear-gradient(90deg, rgba(10,9,8,.96) 0%, rgba(10,9,8,.93) 50%, rgba(10,9,8,.6) 78%, rgba(10,9,8,.3) 100%); }
-  @media (max-width: 899px) { .readplate, .readplate--strong { background: rgba(10,9,8,.9); } }
+  /* On a phone the plate used to be a flat 90% wash over the whole frame, which
+     buried the map it was supposed to sit on. Keep the type ground where the
+     type actually is (top) and let the map read underneath it. */
+  @media (max-width: 899px) {
+    .readplate, .readplate--strong {
+      background: linear-gradient(180deg, rgba(10,9,8,.94) 0%, rgba(10,9,8,.88) 46%, rgba(10,9,8,.55) 72%, rgba(10,9,8,.28) 100%);
+    }
+  }
+
+  /* ---- map legend ---------------------------------------------------------
+     P0: the landfill, the subdivision mesh, Tennessee National Dr and the
+     Tennessee River must each be called out explicitly. Every row carries a
+     distinct SHAPE as well as a colour, so the legend still reads for a
+     colour-blind visitor and in forced-colours mode. */
+  .legend {
+    position: absolute; z-index: 4; right: 1.35rem; bottom: 1.35rem;
+    max-width: min(20rem, 42vw);
+    background: rgba(10,9,8,.9); border: 1px solid rgba(232,70,42,.35);
+    padding: .85rem .95rem; backdrop-filter: blur(3px);
+  }
+  .legend__t { font-size: .6rem; letter-spacing: .16em; text-transform: uppercase;
+    color: var(--sc-ink-soft); margin: 0 0 .6rem; }
+  .legend__row { display: flex; align-items: flex-start; gap: .6rem; margin-top: .48rem; }
+  .legend__row:first-of-type { margin-top: 0; }
+  .legend__mark { flex: 0 0 22px; width: 22px; height: 14px; margin-top: .1rem; }
+  .legend__label { font-size: .72rem; line-height: 1.32; color: var(--sc-ink); }
+  .legend__label b { display: block; font-size: .73rem; letter-spacing: .01em; }
+  .legend__label span { color: var(--sc-ink-soft); font-size: .67rem; }
+  @media (max-width: 899px) {
+    /* Phone: the legend becomes part of the reading column instead of floating
+       over the map, so it can never cover the geography it describes. */
+    .legend { position: static; max-width: none; margin-top: 1.1rem;
+      right: auto; bottom: auto; backdrop-filter: none;
+      /* The source ledger is fixed to the bottom of the viewport. Measured at
+         390x844 the plate ended at 819px against a ledger starting at 809px,
+         so the last row sat tight under the bar. Reserve real clearance. */
+      margin-bottom: 3rem;
+      /* Compact on a phone: at full desktop padding the copy column measured
+         877px against an 844px viewport, which pushed the chapter slug off the
+         top edge (contrast probe read 2.12:1 on a clipped glyph row). */
+      padding: .6rem .7rem; }
+    .legend__t { margin-bottom: .4rem; }
+    .legend__row { margin-top: .34rem; gap: .5rem; }
+    .legend__mark { flex: 0 0 18px; width: 18px; height: 12px; }
+    .legend__label { font-size: .68rem; line-height: 1.26; }
+    .legend__label b { font-size: .7rem; }
+    .legend__label span { font-size: .63rem; }
+  }
 
   /* evidence rail */
   .rail { display: flex; gap: 2.2rem; align-items: center; padding: 0 1.35rem; }
@@ -271,7 +330,12 @@
 <main id="top">
 
   <!-- ========== 1 · RECOGNITION — pin over the real parcel map ========== -->
-  <section data-sc-act="pin" data-sc-span="1.0" data-sc-drift="#121110" aria-labelledby="h-hero">
+  <!-- span MUST exceed 1.0. A pinned act's cue clock is (y - top) / (height - vh);
+       at span 1.0 height === vh, travel clamps to 1px and every cue in the act
+       snaps 0->1 in a single pixel. That is what kept .hero__sub (the paragraph
+       that explains the map) at opacity 0 for the entire scroll. 1.6 gives the
+       sub a real plateau before the chapter hands off. -->
+  <section data-sc-act="pin" data-sc-span="1.6" data-sc-drift="#121110" aria-labelledby="h-hero">
     <div data-sc-stage>
       <div class="mapstage" data-sc-parallax="0.12">
         <img src="assets/map-body.jpg" alt="Loudon County assessor parcel map of the Matlock Bend landfill. The bare, terraced landfill working face sits at centre, bounded on the west by the Tennessee River and ringed on the north and east by dense residential lot lines.">
@@ -348,6 +412,45 @@
         <p class="sc-lede" data-sc-cue="0.26 0.54">The orange mesh pressing against it on the north and east is not forest. It is subdivided residential lots, street by street, already platted.</p>
         <p class="sc-lede" data-sc-cue="0.50 0.78">On the west, the Tennessee River. This is the shape of the decision: a Class I landfill with a river on one side and neighbourhoods on the other, applying to grow sideways.</p>
         <p class="sc-lede" data-sc-cue="0.74">The expansion permit does not need anyone's vote to be filed. It is filed.</p>
+
+        <div class="legend" data-sc-cue="0.30">
+          <p class="legend__t">What you are looking at</p>
+
+          <div class="legend__row">
+            <svg class="legend__mark" viewBox="0 0 22 14" aria-hidden="true" focusable="false">
+              <path d="M2 11 L6 4 L12 2 L19 6 L17 12 Z" fill="rgba(226,208,178,.5)" stroke="#e8d3a9" stroke-width="1.4"/>
+            </svg>
+            <span class="legend__label"><b>The landfill working face</b>
+              <span>Pale terraced ground at the centre</span></span>
+          </div>
+
+          <div class="legend__row">
+            <svg class="legend__mark" viewBox="0 0 22 14" aria-hidden="true" focusable="false">
+              <g stroke="#f3a03c" stroke-width="1.2" fill="none">
+                <path d="M1 3 H21 M1 7 H21 M1 11 H21 M5 1 V13 M11 1 V13 M17 1 V13"/>
+              </g>
+            </svg>
+            <span class="legend__label"><b>Platted residential lots</b>
+              <span>Orange mesh, north and east</span></span>
+          </div>
+
+          <div class="legend__row">
+            <svg class="legend__mark" viewBox="0 0 22 14" aria-hidden="true" focusable="false">
+              <path d="M3 13 C7 9, 6 5, 10 1" stroke="#e8d3a9" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+              <path d="M3 13 C7 9, 6 5, 10 1" stroke="#7a6a4e" stroke-width=".8" fill="none" stroke-dasharray="2 2"/>
+            </svg>
+            <span class="legend__label"><b>Tennessee National Dr</b>
+              <span>Road, running north&ndash;south on the east side</span></span>
+          </div>
+
+          <div class="legend__row">
+            <svg class="legend__mark" viewBox="0 0 22 14" aria-hidden="true" focusable="false">
+              <path d="M2 1 C6 5, 2 9, 6 13" stroke="#4d90b8" stroke-width="5" fill="none" stroke-linecap="round" opacity=".85"/>
+            </svg>
+            <span class="legend__label"><b>Tennessee River</b>
+              <span>Wide water band along the west edge</span></span>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -470,7 +573,7 @@
           <h3>Go to the next Commission meeting</h3>
           <p>Public comment happens at the start. The county publishes the schedule. The room is small, and attendance is visible in the record.</p>
         </a>
-        <a class="act" href="#records">
+        <a class="act" href="https://comptroller.tn.gov/office-functions/open-records-counsel/office-of-open-records-counsel/policies---guidelines.html">
           <b>02 — Ask</b>
           <h3>File a public records request</h3>
           <p>Tennessee law gives you the right to inspect these records. The Commission's records officer post is currently vacant, so send requests to the chair and copy the county open records office.</p>
@@ -511,7 +614,11 @@
 ------------------------------------------------------------------------- */
 (function () {
   if (!window.matchMedia || !window.matchMedia('(max-width: 760px)').matches) return;
-  var spans = { 'h-hero': '0.85', 'h-peak': '1.9', 'h-evidence': '1.9', 'h-close': '1.1' };
+  /* h-hero was 0.85 here. Any pinned span <= 1.0 collapses the act's cue clock
+     to a single pixel (travel = height - vh), so the hero paragraph never
+     reached opacity 1 on a phone either. 1.45 is the shortest span that still
+     gives it a plateau. */
+  var spans = { 'h-hero': '1.45', 'h-peak': '1.9', 'h-evidence': '1.9', 'h-close': '1.1' };
   Array.prototype.forEach.call(document.querySelectorAll('[data-sc-span]'), function (s) {
     var key = s.getAttribute('aria-labelledby');
     if (key && spans[key]) s.setAttribute('data-sc-span', spans[key]);

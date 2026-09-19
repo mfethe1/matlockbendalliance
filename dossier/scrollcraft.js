@@ -823,7 +823,12 @@
         var a = acts[i];
         var raw;
         if (a.pinned) {
-          var travel = Math.max(a.height - vh, 1);
+          // travel is the act's entire cue clock. If an author writes span 1.0
+          // (or less) the element is exactly viewport-tall, height - vh is 0,
+          // and every cue inside snaps 0->1 within one pixel -- the copy is
+          // effectively invisible. Clamp to a usable floor instead of 1px so a
+          // too-short span degrades to a fast act rather than a dead one.
+          var travel = Math.max(a.height - vh, vh * 0.35);
           raw = clamp01((y - a.top) / travel);
         } else {
           raw = clamp01((y + vh - a.top) / (a.height + vh));
