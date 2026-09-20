@@ -1,0 +1,105 @@
+{
+  "site": "Matlock Bend Landfill, Loudon County, Tennessee",
+  "center_lat": 35.748033,
+  "center_lon": -84.411731,
+  "extent_m": 1280,
+  "projection": "EPSG:3857 (Web Mercator)",
+  "retrieved_utc": "2026-09-20T19:23:02.759582Z",
+  "attribution": "USDA Farm Service Agency, National Agriculture Imagery Program (public domain), via Microsoft Planetary Computer; Esri World Imagery Wayback (Microsoft, Maxar).",
+  "frames": [
+    {
+      "year": 2011,
+      "capture_date": "2011-03-12",
+      "source": "Esri World Imagery Wayback (Microsoft UC-G)",
+      "native_gsd_m": 0.3,
+      "http_status": 200,
+      "asset": "assets/earth/tl-2011.webp",
+      "request_urls": [
+        "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/10/18/103166/69605"
+      ]
+    },
+    {
+      "year": 2012,
+      "capture_date": "2012-05-27",
+      "source": "USDA NAIP",
+      "native_gsd_m": 1.0,
+      "http_status": 200,
+      "asset": "assets/earth/tl-2012.webp",
+      "request_urls": [
+        "https://planetarycomputer.microsoft.com/api/data/v1/item/bbox/-9397310.910590759,4265366.25900895,-9396030.910590759,4266646.25900895/1536x1536.png?collection=naip&item=tn_m_3508413_se_16_1_20120527_20120911&assets=image&asset_bidx=image%7C1,2,3&coord_crs=epsg%3A3857&dst_crs=epsg%3A3857",
+        "https://planetarycomputer.microsoft.com/api/data/v1/item/bbox/-9397310.910590759,4265366.25900895,-9396030.910590759,4266646.25900895/1536x1536.png?collection=naip&item=tn_m_3508421_ne_16_1_20120527_20120911&assets=image&asset_bidx=image%7C1,2,3&coord_crs=epsg%3A3857&dst_crs=epsg%3A3857"
+      ]
+    },
+    {
+      "year": 2014,
+      "capture_date": "2014-05-03",
+      "source": "USDA NAIP",
+      "native_gsd_m": 1.0,
+      "http_status": 200,
+      "asset": "assets/earth/tl-2014.webp",
+      "request_urls": [
+        "https://planetarycomputer.microsoft.com/api/data/v1/item/bbox/-9397310.910590759,4265366.25900895,-9396030.910590759,4266646.25900895/1536x1536.png?collection=naip&item=tn_m_3508413_se_16_1_20140503_20140710&assets=image&asset_bidx=image%7C1,2,3&coord_crs=epsg%3A3857&dst_crs=epsg%3A3857",
+        "https://planetarycomputer.microsoft.com/api/data/v1/item/bbox/-9397310.910590759,4265366.25900895,-9396030.910590759,4266646.25900895/1536x1536.png?collection=naip&item=tn_m_3508421_ne_16_1_20140503_20140710&assets=image&asset_bidx=image%7C1,2,3&coord_crs=epsg%3A3857&dst_crs=epsg%3A3857"
+      ]
+    },
+    {
+      "year": 2016,
+      "capture_date": "2016-05-15",
+      "source": "USDA NAIP",
+      "native_gsd_m": 1.0,
+      "http_status": 200,
+      "asset": "assets/earth/tl-2016.webp",
+      "request_urls": [
+        "https://planetarycomputer.microsoft.com/api/data/v1/item/bbox/-9397310.910590759,4265366.25900895,-9396030.910590759,4266646.25900895/1536x1536.png?collection=naip&item=tn_m_3508413_se_16_1_20160515&assets=image&asset_bidx=image%7C1,2,3&coord_crs=epsg%3A3857&dst_crs=epsg%3A3857",
+        "https://planetarycomputer.microsoft.com/api/data/v1/item/bbox/-9397310.910590759,4265366.25900895,-9396030.910590759,4266646.25900895/1536x1536.png?collection=naip&item=tn_m_3508421_ne_16_1_20160515&assets=image&asset_bidx=image%7C1,2,3&coord_crs=epsg%3A3857&dst_crs=epsg%3A3857"
+      ]
+    },
+    {
+      "year": 2018,
+      "capture_date": "2018-10-21",
+      "source": "USDA NAIP",
+      "native_gsd_m": 0.6,
+      "http_status": 200,
+      "asset": "assets/earth/tl-2018.webp",
+      "request_urls": [
+        "https://planetarycomputer.microsoft.com/api/data/v1/item/bbox/-9397310.910590759,4265366.25900895,-9396030.910590759,4266646.25900895/1536x1536.png?collection=naip&item=tn_m_3508413_se_16_060_20181021_20190201&assets=image&asset_bidx=image%7C1,2,3&coord_crs=epsg%3A3857&dst_crs=epsg%3A3857",
+        "https://planetarycomputer.microsoft.com/api/data/v1/item/bbox/-9397310.910590759,4265366.25900895,-9396030.910590759,4266646.25900895/1536x1536.png?collection=naip&item=tn_m_3508421_ne_16_060_20181021_20190201&assets=image&asset_bidx=image%7C1,2,3&coord_crs=epsg%3A3857&dst_crs=epsg%3A3857"
+      ]
+    },
+    {
+      "year": 2019,
+      "capture_date": "2019-09-04",
+      "source": "Esri World Imagery Wayback (Maxar WV02)",
+      "native_gsd_m": 0.5,
+      "http_status": 200,
+      "asset": "assets/earth/tl-2019.webp",
+      "request_urls": [
+        "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/18289/18/103166/69605"
+      ]
+    },
+    {
+      "year": 2021,
+      "capture_date": "2021-04-04",
+      "source": "USDA NAIP",
+      "native_gsd_m": 0.6,
+      "http_status": 200,
+      "asset": "assets/earth/tl-2021.webp",
+      "request_urls": [
+        "https://planetarycomputer.microsoft.com/api/data/v1/item/bbox/-9397310.910590759,4265366.25900895,-9396030.910590759,4266646.25900895/1536x1536.png?collection=naip&item=tn_m_3508413_se_16_060_20210404&assets=image&asset_bidx=image%7C1,2,3&coord_crs=epsg%3A3857&dst_crs=epsg%3A3857",
+        "https://planetarycomputer.microsoft.com/api/data/v1/item/bbox/-9397310.910590759,4265366.25900895,-9396030.910590759,4266646.25900895/1536x1536.png?collection=naip&item=tn_m_3508421_ne_16_060_20210404&assets=image&asset_bidx=image%7C1,2,3&coord_crs=epsg%3A3857&dst_crs=epsg%3A3857"
+      ]
+    },
+    {
+      "year": 2023,
+      "capture_date": "2023-04-17",
+      "source": "USDA NAIP",
+      "native_gsd_m": 0.6,
+      "http_status": 200,
+      "asset": "assets/earth/tl-2023.webp",
+      "request_urls": [
+        "https://planetarycomputer.microsoft.com/api/data/v1/item/bbox/-9397310.910590759,4265366.25900895,-9396030.910590759,4266646.25900895/1536x1536.png?collection=naip&item=tn_m_3508413_se_16_060_20230417_20240104&assets=image&asset_bidx=image%7C1,2,3&coord_crs=epsg%3A3857&dst_crs=epsg%3A3857",
+        "https://planetarycomputer.microsoft.com/api/data/v1/item/bbox/-9397310.910590759,4265366.25900895,-9396030.910590759,4266646.25900895/1536x1536.png?collection=naip&item=tn_m_3508421_ne_16_060_20230417_20240104&assets=image&asset_bidx=image%7C1,2,3&coord_crs=epsg%3A3857&dst_crs=epsg%3A3857"
+      ]
+    }
+  ]
+}
