@@ -55,7 +55,7 @@ if (BREAK === 'clock') {
     ScrollCraft.mount();
   });
 }
-const box = await (await p.$('section[aria-labelledby=h-approach]')).boundingBox();
+const box = await (await p.$('section#h-approach')).boundingBox();
 const travel = box.height - 900;
 let pass = 0, fail = 0;
 const ok = (c, m) => { c ? pass++ : fail++; console.log((c ? 'ok   ' : 'FAIL ') + m); };
@@ -67,7 +67,7 @@ for (let i = 0; i <= 60; i++) {
   const r = await p.evaluate(() => {
     const vis = [...document.querySelectorAll('.earth__l, .earth__base')]
       .map(i => [i.src.split('/').pop(), +getComputedStyle(i).opacity]);
-    const st = document.querySelector('section[aria-labelledby=h-approach] [data-sc-stage]').getBoundingClientRect();
+    const st = document.querySelector('section#h-approach [data-sc-stage]').getBoundingClientRect();
     // The strongest timeline frame and the strongest year readout must name the
     // same date. A cue edited on one but not the other dates the wrong photo.
     const yr = [...document.querySelectorAll('.earth__yr')]
@@ -76,8 +76,8 @@ for (let i = 0; i <= 60; i++) {
     return { vis, yr, top: Math.round(st.top), credit: +getComputedStyle(document.querySelector('.earth__credit')).opacity,
              // A claim's control must not outlive the sentence it belongs to:
              // cueing the <p> instead of the wrapper strands the button on screen.
-             claims: document.querySelectorAll('section[aria-labelledby=h-approach] .claim').length,
-             orphan: [...document.querySelectorAll('section[aria-labelledby=h-approach] .claim')].some(c =>
+             claims: document.querySelectorAll('section#h-approach .claim').length,
+             orphan: [...document.querySelectorAll('section#h-approach .claim')].some(c =>
                +getComputedStyle(c.querySelector('.claim__text')).opacity < 0.05 &&
                +getComputedStyle(c.querySelector('.claim__btn')).opacity > 0.5) };
   });

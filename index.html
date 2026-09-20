@@ -232,6 +232,159 @@
         /* Entry point to the /dossier/ scrollytelling piece. It lives at its
            own URL with its own engine, so this band is the only way in from
            the main site -- without it the dossier is unreachable. */
+        /* ---- Chapter highlight cards: visual doorways into /dossier/ ---- */
+        .ch-cards {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 3rem 2rem 3.5rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+            gap: 1.5rem;
+        }
+        .ch-card {
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            border: 1px solid var(--slate-200);
+            border-radius: 0.75rem;
+            overflow: hidden;
+            background: var(--slate-100);
+            transition: transform 160ms ease, border-color 160ms ease;
+        }
+        .ch-card:hover {
+            transform: translateY(-3px);
+            border-color: var(--forest);
+        }
+        .ch-card:focus-visible {
+            outline: 2px solid var(--forest-light);
+            outline-offset: 2px;
+        }
+        .ch-card-media {
+            position: relative;
+            aspect-ratio: 16 / 10;
+            overflow: hidden;
+            background: #0b0d10;
+        }
+        .ch-card-media img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        .ch-card-badge {
+            position: absolute;
+            left: 0.75rem;
+            top: 0.75rem;
+            font-family: var(--font-sans);
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: #f8fafc;
+            background: rgba(6, 10, 14, 0.82);
+            border: 1px solid rgba(248, 250, 252, 0.22);
+            border-radius: 999px;
+            padding: 0.3rem 0.7rem;
+        }
+        .ch-card-body { padding: 1.1rem 1.2rem 1.3rem; }
+        .ch-card-body h3 {
+            font-family: var(--font-serif);
+            font-size: 1.15rem;
+            line-height: 1.3;
+            color: var(--slate-900);
+            margin: 0 0 0.45rem;
+        }
+        .ch-card-body p {
+            font-size: 0.9rem;
+            line-height: 1.55;
+            color: var(--slate-600);
+            margin: 0 0 0.7rem;
+        }
+        .ch-card-more {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--forest-light);
+        }
+        .ch-card-credit {
+            font-size: 0.68rem;
+            color: var(--slate-400);
+            margin: 0;
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .ch-card { transition: none; }
+            .ch-card:hover { transform: none; }
+        }
+
+        /* ---- Outreach band: the three ways to reach out, above the fold ---- */
+        .reach-band {
+            border-top: 1px solid var(--slate-200);
+            background: var(--slate-100);
+        }
+        .reach-inner {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 2.5rem 2rem 3rem;
+        }
+        .reach-head {
+            font-family: var(--font-sans);
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--forest-light);
+            margin: 0 0 0.4rem;
+        }
+        .reach-inner > h2 {
+            font-family: var(--font-serif);
+            font-size: 1.6rem;
+            color: var(--slate-900);
+            margin: 0 0 0.5rem;
+        }
+        .reach-inner > p.reach-sub {
+            font-size: 0.95rem;
+            color: var(--slate-600);
+            margin: 0 0 1.75rem;
+            max-width: 46rem;
+        }
+        .reach-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+            gap: 1.25rem;
+        }
+        .reach-item {
+            display: block;
+            text-decoration: none;
+            border: 1px solid var(--slate-200);
+            border-left: 3px solid var(--forest);
+            border-radius: 0.5rem;
+            padding: 1.1rem 1.2rem;
+            background: var(--slate-50);
+            transition: border-color 160ms ease, transform 160ms ease;
+        }
+        .reach-item:hover {
+            border-color: var(--forest);
+            transform: translateY(-2px);
+        }
+        .reach-item:focus-visible {
+            outline: 2px solid var(--forest-light);
+            outline-offset: 2px;
+        }
+        .reach-item h3 {
+            font-size: 1rem;
+            color: var(--slate-900);
+            margin: 0 0 0.35rem;
+        }
+        .reach-item p {
+            font-size: 0.86rem;
+            line-height: 1.5;
+            color: var(--slate-600);
+            margin: 0;
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .reach-item { transition: none; }
+            .reach-item:hover { transform: none; }
+        }
+
         .dossier-band {
             border-top: 1px solid var(--slate-200);
             border-bottom: 1px solid var(--slate-200);
@@ -1160,6 +1313,74 @@
                 <p>A chaptered walkthrough of the Class I landfill expansion in Loudon County &mdash; the permit application, the July and August inspections, and the records vacuum left by the chair's resignation. Every claim is sourced.</p>
             </div>
             <a class="dossier-band-cta" href="/dossier/">Read the dossier &rarr;</a>
+        </div>
+    </section>
+
+    <!-- Visual doorways into the chaptered dossier. Images are the same
+         assets used in /dossier/, recompressed for landing-page weight. -->
+    <nav class="ch-cards" aria-label="Featured dossier chapters">
+        <a class="ch-card" href="/dossier/#h-approach">
+            <div class="ch-card-media">
+                <img src="/assets/cards/flight-2026.webp" width="900" height="900" loading="lazy" decoding="async"
+                     alt="Satellite view of the Matlock Bend landfill in 2026, showing the pale terraced fill area beside the Tennessee River.">
+                <span class="ch-card-badge">Approach</span>
+            </div>
+            <div class="ch-card-body">
+                <h3>From orbit to the fenceline</h3>
+                <p>Twelve years of satellite imagery, 2014 to 2026, showing the fill area spread south and west toward the river.</p>
+                <p class="ch-card-more">Take the flight &rarr;</p>
+                <p class="ch-card-credit">Imagery: Esri World Imagery (Wayback)</p>
+            </div>
+        </a>
+        <a class="ch-card" href="/dossier/#h-peak">
+            <div class="ch-card-media">
+                <img src="/assets/cards/ch2-map.webp" width="900" height="927" loading="lazy" decoding="async"
+                     alt="Map of the landfill site showing subdivided residential parcels pressing against it to the north and east, and the Tennessee River to the west.">
+                <span class="ch-card-badge">Chapter 02</span>
+            </div>
+            <div class="ch-card-body">
+                <h3>What is next to it</h3>
+                <p>The orange mesh against the landfill boundary is not forest. It is subdivided residential land &mdash; and to the west, the Tennessee River.</p>
+                <p class="ch-card-more">See what surrounds it &rarr;</p>
+                <p class="ch-card-credit">Source: Loudon County parcel mapping</p>
+            </div>
+        </a>
+        <a class="ch-card" href="/dossier/#h-evidence">
+            <div class="ch-card-media">
+                <img src="/assets/cards/ch3-slope.webp" width="900" height="802" loading="lazy" decoding="async"
+                     alt="Photograph of the eastern slope of the landfill documented during a TDEC inspection.">
+                <span class="ch-card-badge">Chapter 03</span>
+            </div>
+            <div class="ch-card-body">
+                <h3>The eastern slope</h3>
+                <p>The inspector came in July. He came back in August. The photographs he filed are public record.</p>
+                <p class="ch-card-more">Read the inspections &rarr;</p>
+                <p class="ch-card-credit">Source: TDEC inspection photographs</p>
+            </div>
+        </a>
+    </nav>
+
+
+    <!-- Outreach: surfaced high, linking to the real tools further down. -->
+    <section class="reach-band" aria-labelledby="reach-h">
+        <div class="reach-inner">
+            <p class="reach-head">Get involved</p>
+            <h2 id="reach-h">Three ways to reach out</h2>
+            <p class="reach-sub">None of these require a lawyer, a membership, or special expertise. The next public meeting is the single highest-leverage hour you can spend.</p>
+            <div class="reach-grid">
+                <a class="reach-item" href="#feedback">
+                    <h3>Contribute information &rarr;</h3>
+                    <p>Send a document, a correction, or a research lead. If you were at a meeting, what you heard is evidence.</p>
+                </a>
+                <a class="reach-item" href="#representatives">
+                    <h3>Contact your representatives &rarr;</h3>
+                    <p>Direct phone and email for the officials with authority here. Call before emailing &mdash; calls are harder to ignore.</p>
+                </a>
+                <a class="reach-item" href="#alerts">
+                    <h3>Get hearing alerts &rarr;</h3>
+                    <p>Meeting dates are not always announced in advance. Be told when the next one is scheduled.</p>
+                </a>
+            </div>
         </div>
     </section>
 
