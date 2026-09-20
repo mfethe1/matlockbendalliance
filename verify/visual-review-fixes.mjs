@@ -16,9 +16,15 @@
 
    BREAK=legend is deliberately NOT simulated: every injection attempt was
    out-raced by the engine's own per-frame write, and a fault that does not
-   bite would be a fake proof. That check is instead proven against the real
-   un-fixed site -- run this suite against https://tnwaste.org/ before the fix
-   is deployed and it fails with "legend fades out past its own act (opacity 1)".
+   bite would be a fake proof. That check is instead proven by replay: extract
+   commit de5476b (cue "0.02", no exit) to a temp dir, serve it, and run this
+   suite against it -- it fails with "legend fades out past its own act
+   (opacity 1)" while the current tree reports 0.
+
+   That replay is also why the scroll offset below is 1.5 viewports, not 0.8.
+   Adding an act after the map moved the old landing INSIDE the next act, where
+   an un-exited legend is still off screen: the check went green on the known
+   buggy tree. An offset is only load-bearing if the replay still fails.
 
    Contrast note: a naive "first non-transparent ancestor" walk reports
    translucent chips as 1:1, because it stops at the element's own rgba() fill
@@ -117,9 +123,13 @@ const browser = await chromium.launch({
 
   const res = await page.evaluate(async () => {
     const legend = document.querySelector('.legend');
+    // Land past the legend's own act but still inside the document. The offset
+    // matters: at 0.8 the landing now falls inside the act that follows, where
+    // a legend left un-exited is still off screen and the bug reads clean.
     const act = legend.closest('[data-sc-act]');
-    // Scroll past the end of the act that owns the legend.
-    scrollTo(0, act.offsetTop + act.offsetHeight + innerHeight * 0.8);
+    const end = act.offsetTop + act.offsetHeight;
+    scrollTo(0, Math.min(end + innerHeight * 1.5,
+                         document.body.scrollHeight - innerHeight * 1.5));
     await new Promise(r => setTimeout(r, 700));
     return { opacity: +getComputedStyle(legend).opacity };
   });

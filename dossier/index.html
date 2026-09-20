@@ -469,6 +469,74 @@
     </div>
   </section>
 
+  <!-- ========== 2b · THE APPROACH — globe to site, then 12 years ==========
+       Imagery is the evidence here, so every frame carries its own capture
+       date and the source credit stays on screen for the whole act. The
+       zoom cascade and the timeline are one pinned act: cutting them apart
+       would unstick the stage between the arrival and the record. ========== -->
+  <section data-sc-act="pin" data-sc-span="5.5" data-sc-drift="#05070a" aria-labelledby="h-approach">
+    <div data-sc-stage>
+      <div class="earth">
+        <img class="earth__base" src="assets/earth/zoom-globe.webp" alt="" aria-hidden="true">
+        <img class="earth__l" data-sc-cue="0 0.13 0.04 0.40" src="assets/earth/zoom-globe.webp" alt="North America from orbit.">
+        <img class="earth__l" data-sc-cue="0.08 0.24 0.10 0.40" src="assets/earth/zoom-continent.webp" alt="The eastern United States.">
+        <img class="earth__l" data-sc-cue="0.18 0.33 0.10 0.40" src="assets/earth/zoom-region.webp" alt="East Tennessee, the Valley and Ridge.">
+        <img class="earth__l" data-sc-cue="0.27 0.42 0.10 0.40" src="assets/earth/zoom-county.webp" alt="Loudon County and the Tennessee River corridor.">
+        <img class="earth__l" data-sc-cue="0.36 0.50 0.10 0.40" src="assets/earth/zoom-site.webp" alt="The Matlock Bend landfill site beside the river.">
+        <img class="earth__l" data-sc-cue="0.40 0.56 0.10 0.42" src="assets/earth/tl-2014.webp" alt="The site in 2014.">
+        <img class="earth__l" data-sc-cue="0.49 0.65 0.10 0.42" src="assets/earth/tl-2017.webp" alt="The site in 2017.">
+        <img class="earth__l" data-sc-cue="0.58 0.74 0.10 0.42" src="assets/earth/tl-2019.webp" alt="The site in 2019.">
+        <img class="earth__l" data-sc-cue="0.67 0.83 0.10 0.42" src="assets/earth/tl-2021.webp" alt="The site in 2021.">
+        <img class="earth__l" data-sc-cue="0.76 0.92 0.10 0.42" src="assets/earth/tl-2023.webp" alt="The site in 2023.">
+        <img class="earth__l" data-sc-cue="0.80" src="assets/earth/tl-2026.webp" alt="The site in 2026.">
+      </div>
+      <div class="earth__shade" aria-hidden="true"></div>
+
+      <!-- Year readout: one per frame, same cue windows as the imagery. -->
+      <div class="earth__clock" aria-hidden="true">
+        <span class="earth__yr" data-sc-cue="0.40 0.56 0.10 0.42">2014</span>
+        <span class="earth__yr" data-sc-cue="0.49 0.65 0.10 0.42">2017</span>
+        <span class="earth__yr" data-sc-cue="0.58 0.74 0.10 0.42">2019</span>
+        <span class="earth__yr" data-sc-cue="0.67 0.83 0.10 0.42">2021</span>
+        <span class="earth__yr" data-sc-cue="0.76 0.92 0.10 0.42">2023</span>
+        <span class="earth__yr" data-sc-cue="0.80">2026</span>
+      </div>
+
+      <div class="hero__copy">
+        <p class="slug" data-sc-cue="0 0.97 0"><b>Chapter 02</b> The approach <span></span></p>
+        <p class="sc-lede" data-sc-cue="0.02 0.16">It is easier to argue about a landfill than to look at one. So look at it.</p>
+        <p class="sc-lede" data-sc-cue="0.14 0.30">East Tennessee. The Valley and Ridge, folded northeast to southwest, and the river running through it.</p>
+        <p class="sc-lede" data-sc-cue="0.30 0.44">Loudon County. The Tennessee River bends west around a peninsula. The pale ground on that peninsula is the landfill.</p>
+        <p class="sc-lede" data-sc-cue="0.44 0.58">This is the same ground photographed from orbit over twelve years. Watch the pale area, and watch the trees between it and the water.</p>
+        <p class="sc-lede" data-sc-cue="0.60 0.76">The lined cell and the pond visible in 2014 are gone — buried under a single continuous mass that spreads south and west.</p>
+        <p class="sc-lede" data-sc-cue="0.78 0.94">South and west is the river. The expansion now filed would extend that same movement, in that same direction.</p>
+      </div>
+
+      <script>
+        (function () {
+          var earth = document.currentScript.closest('.earth');
+          var base = earth.querySelector('.earth__base');
+          var layers = [].slice.call(earth.querySelectorAll('.earth__l'));
+          var last = '';
+          function sync() {
+            var best = null, top = 0;
+            layers.forEach(function (l) {
+              var o = +getComputedStyle(l).opacity;
+              if (o > top) { top = o; best = l; }
+            });
+            if (best && best.currentSrc !== last && top > 0.55) {
+              last = best.currentSrc; base.src = best.src;
+            }
+            requestAnimationFrame(sync);
+          }
+          requestAnimationFrame(sync);
+        })();
+      </script>
+
+      <p class="earth__credit">Satellite imagery: Esri World Imagery (Wayback archive), captured on the dates shown. Site location from the TDEC solid-waste permit.</p>
+    </div>
+  </section>
+
   <!-- ========== 3 · THE PEAK — pin on the map, longest span ========== -->
   <section data-sc-act="pin" data-sc-span="3.2" data-sc-drift="#0d0c0b" aria-labelledby="h-peak">
     <div data-sc-stage>
