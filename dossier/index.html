@@ -291,7 +291,17 @@
   .doc span { display: block; margin-top: .6rem; font-size: .7rem; letter-spacing: .06em; color: var(--sc-ink-soft); }
 
   /* close */
-  .close { display: flex; flex-direction: column; justify-content: center; height: 100%; padding: 4.5rem 1.35rem 0; }
+  /* Do NOT set height here. .sc-stage (scrollcraft.css) sizes the sticky
+     stage to 100svh, but this stylesheet loads after it and ".close" carries
+     the same specificity, so a height declared here WINS and re-sized the
+     sticky stage to 1125px against a 900px viewport. A sticky box taller than
+     the viewport hangs its own top edge above the screen, and the opening
+     lines of the closing heading went with it -- "Three things, and none of
+     them require a lawyer." rendered as "them require a lawyer."
+     Let the stage keep its own height; only lay the content out.
+     safe center keeps the copy centred while it fits and falls back to
+     start-alignment rather than clipping the top when it does not. */
+  .close { display: flex; flex-direction: column; justify-content: safe center; padding: 4.5rem 1.35rem 0; }
   @media (min-width: 900px) { .close { padding: 4.5rem 3.5rem 0; } }
   .acts { display: grid; gap: 1px; background: var(--rule); border: 1px solid var(--rule); margin-top: 2.6rem; }
   @media (min-width: 820px) { .acts { grid-template-columns: repeat(3, 1fr); } }
@@ -385,6 +395,20 @@
 
   /* headings must not start life underneath the fixed bar when linked to */
   h2[id], h1[id] { scroll-margin-top: 4.5rem; }
+
+  /* ====================================================================
+     A pinned stage taller than the viewport must never be vertically
+     centred. Centring splits the overflow across BOTH edges, pushing the
+     opening lines above the top of the sticky stage where they can never
+     be scrolled into view. This truncated the closing heading
+     "Three things, and none of them require a lawyer." down to
+     "them require a lawyer.", which reads as nonsense.
+     Measured overflow: +248px at 390x844 and +225px at 1440x900, so this
+     is not a phone-only fault. "safe center" centres when the content
+     fits and falls back to start-alignment when it would overflow.
+     ==================================================================== */
+  [data-sc-act="pin"] [data-sc-stage],
+  [data-sc-act="pan"] [data-sc-stage] { justify-content: safe center; }
 </style>
 </head>
 <body>
@@ -420,7 +444,7 @@
       <div class="hero__copy">
         <p class="hero__kicker" data-sc-cue="0 0.9 0">Loudon County, Tennessee</p>
         <h1 id="h-hero" class="sc-display sc-display--xl" data-sc-cue="0 0.9 0" data-sc-kinetic="lines">The landfill is growing toward the houses. The permit is already filed.</h1>
-        <p class="sc-body hero__sub" data-sc-cue="0.16 0.9">Every orange line on this map is somebody's property boundary. The bare ground at the centre is the working face of the Matlock Bend Class I landfill. Republic Services has submitted Part One of a permit to expand it horizontally.</p>
+        <p class="sc-body hero__sub" data-sc-cue="0.16 0.9">Every orange line on this map is somebody's property boundary. The bare ground at the center is the working face of the Matlock Bend Class I landfill. Republic Services has submitted Part One of a permit to expand it horizontally.</p>
       </div>
     </div>
   </section>
@@ -558,7 +582,7 @@
         <p class="slug" data-sc-cue="0 0.96 0"><b>Chapter 02</b> What is next to it <span></span></p>
         <p class="sc-lede" data-sc-cue="0.04 0.30">Look at the map behind this text. The pale terraced ground is the landfill.</p>
         <p class="sc-lede" data-sc-cue="0.26 0.54">The orange mesh pressing against it on the north and east is not forest. It is subdivided residential lots, street by street, already platted.</p>
-        <p class="sc-lede" data-sc-cue="0.50 0.78">On the west, the Tennessee River. This is the shape of the decision: a Class I landfill with a river on one side and neighbourhoods on the other, applying to grow sideways.</p>
+        <p class="sc-lede" data-sc-cue="0.50 0.78">On the west, the Tennessee River. This is the shape of the decision: a Class I landfill with a river on one side and neighborhoods on the other, applying to grow sideways.</p>
         <p class="sc-lede" data-sc-cue="0.74">The expansion permit does not need anyone's vote to be filed. It is filed.</p>
 
         <!-- The legend is position:fixed, so a cue with no exit leaves it
@@ -573,7 +597,7 @@
               <path d="M2 11 L6 4 L12 2 L19 6 L17 12 Z" fill="rgba(226,208,178,.5)" stroke="#e8d3a9" stroke-width="1.4"/>
             </svg>
             <span class="legend__label"><b>The landfill working face</b>
-              <span>Pale terraced ground at the centre</span></span>
+              <span>Pale terraced ground at the center</span></span>
           </div>
 
           <div class="legend__row">
