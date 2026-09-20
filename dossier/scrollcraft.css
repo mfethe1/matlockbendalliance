@@ -478,9 +478,13 @@ video[data-sc-scrub].sc-has-clip { opacity: 1; }
   position:absolute; inset:0; width:100%; height:100%;
   object-fit:cover; z-index:0; opacity:1;
 }
+/* In normal flow at the end of .hero__copy, so it can never collide with the
+   claim's Show-source button above it: the button's position is driven by the
+   copy stack, and a viewport-pinned credit could not track it (at 1440x780 the
+   button bottom stays at y=770 while a bottom-pinned credit rode up to y=682).
+   Flow layout keeps the gap correct at every viewport height by construction. */
 .earth__credit {
-  position:absolute; left:clamp(.9rem,3vw,2.2rem); bottom:clamp(3.4rem,7vh,4.6rem);
-  margin:0; max-width:34rem; opacity:.78; z-index:3;
+  margin:1.5rem 0 0; max-width:44rem; opacity:.78;
   font-size:.7rem; line-height:1.5; color:#cfc6b8;
   text-shadow:0 1px 10px rgba(0,0,0,.9);
 }

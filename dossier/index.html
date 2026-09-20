@@ -138,7 +138,18 @@
   .col--wide { max-width: 54rem; }
 
   .hero__grid { position: absolute; inset: 0; }
-  .hero__copy { position: relative; z-index: 3; padding: 0 1.35rem; max-width: 46rem; }
+  /* The credit now lives at the end of this block (in flow, so it can never
+     collide with the claim button). That makes the block tall enough to run off
+     a short viewport while the stage is display:block and the copy is static.
+     Anchor the copy to the bottom of the stage so the whole stack — credit
+     included — stays on screen at any height. */
+  .hero__copy {
+    position: relative; z-index: 3; padding: 0 1.35rem; max-width: 46rem;
+  }
+  #h-approach .sc-stage {
+    display: flex; flex-direction: column; justify-content: flex-end;
+    padding-bottom: clamp(1.6rem, 4vh, 2.6rem);
+  }
   @media (min-width: 900px) { .hero__copy { padding: 0 3.5rem; } }
   /* Sits over the bright parcel map: the accent alone measured 3.97:1,
      so the kicker carries its own brighter ink plus a shadow. */
@@ -545,7 +556,7 @@
         <p class="sc-lede" data-sc-cue="0.02 0.16">It is easier to argue about a landfill than to look at one. So look at it.</p>
         <p class="sc-lede" data-sc-cue="0.14 0.30">East Tennessee. The Valley and Ridge, folded northeast to southwest, and the river running through it.</p>
         <p class="sc-lede" data-sc-cue="0.30 0.44">Loudon County. The Tennessee River bends west around a peninsula. The pale ground on that peninsula is the landfill.</p>
-        <p class="sc-lede" data-sc-cue="0.44 0.58">This is the same ground photographed nine times between 2007 and 2023. Watch the pale area, and watch the trees between it and the water.</p>
+        <p class="sc-lede" data-sc-cue="0.44 0.58">This is the same ground photographed thirteen times between 2007 and 2023. Watch the pale area, and watch the trees between it and the water.</p>
         <p class="sc-lede" data-sc-cue="0.60 0.76">The lined cell and the pond visible in the earliest frames are gone — buried under a single continuous mass that spreads south and west.</p>
         <div class="claim" data-sc-cue="0.78 0.94" data-claim="The filed expansion adds 19.6 acres on the north side, on ground the applicant's own map marks with streams">
           <p class="sc-lede claim__text">The expansion now filed adds 19.6 acres on the north side — on ground the applicant's own map marks with streams.</p>
@@ -555,6 +566,7 @@
             <cite>Figure 1, Part I Application Exhibit, Civil &amp; Environmental Consultants for Republic Services, March 2026, in the Loudon County Solid Waste Disposal Commission packet of June 18, 2026, p.10.</cite>
           </div>
         </div>
+        <p class="earth__credit">Satellite and aerial imagery: Tennessee Department of Transportation via TN GIS (2007); USDA Farm Service Agency, National Agriculture Imagery Program (public domain), accessed via Microsoft Planetary Computer; and Esri World Imagery Wayback (Microsoft, Maxar). Each frame is labelled with its own capture date. Site location from the TDEC solid-waste permit.</p>
       </div>
 
       <script>
@@ -578,7 +590,6 @@
         })();
       </script>
 
-      <p class="earth__credit">Satellite and aerial imagery: Tennessee Department of Transportation via TN GIS (2007); USDA Farm Service Agency, National Agriculture Imagery Program (public domain), accessed via Microsoft Planetary Computer; and Esri World Imagery Wayback (Microsoft, Maxar). Each frame is labelled with its own capture date. Site location from the TDEC solid-waste permit.</p>
     </div>
   </section>
 

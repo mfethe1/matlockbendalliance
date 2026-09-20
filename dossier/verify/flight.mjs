@@ -58,6 +58,7 @@ if (BREAK === 'clock') {
 const box = await (await p.$('section#h-approach')).boundingBox();
 const travel = box.height - 900;
 let pass = 0, fail = 0;
+const MON = { Jan: 1, Feb: 2, Mar: 3, Apr: 4, May: 5, Jun: 6, Jul: 7, Aug: 8, Sep: 9, Oct: 10, Nov: 11, Dec: 12 };
 const ok = (c, m) => { c ? pass++ : fail++; console.log((c ? 'ok   ' : 'FAIL ') + m); };
 
 const peak = {}; let blank = 0, unpinned = 0, creditDim = 0, mislabelled = 0, orphaned = 0; let claimCount = -1;
@@ -71,7 +72,7 @@ for (let i = 0; i <= 60; i++) {
     // The strongest timeline frame and the strongest year readout must name the
     // same date. A cue edited on one but not the other dates the wrong photo.
     const yr = [...document.querySelectorAll('.earth__yr')]
-      .map(e => [e.textContent.trim(), +getComputedStyle(e).opacity])
+      .map(e => [(e.firstChild?.nodeValue || '').trim(), +getComputedStyle(e).opacity])
       .sort((a, b) => b[1] - a[1])[0];
     return { vis, yr, top: Math.round(st.top), credit: +getComputedStyle(document.querySelector('.earth__credit')).opacity,
              // A claim's control must not outlive the sentence it belongs to:
@@ -84,7 +85,18 @@ for (let i = 0; i <= 60; i++) {
   for (const [s, o] of r.vis) peak[s] = Math.max(peak[s] || 0, o);
   // Only judge the label once a dated frame is actually the dominant image.
   const top = r.vis.filter(([s]) => /^tl-\d+/.test(s)).sort((a, b) => b[1] - a[1])[0];
-  if (top && top[1] > 0.6 && r.yr && r.yr[1] > 0.6 && !top[0].includes(r.yr[0])) mislabelled++;
+  // Filenames are tl-YYYY.webp or tl-YYYY-MM.webp; captions are "Jul 2018".
+  // A substring test cannot compare those, and silently passed everything.
+  if (top && top[1] > 0.6 && r.yr && r.yr[1] > 0.6) {
+    const fm = top[0].match(/^tl-(\d{4})(?:-(\d{2}))?/);
+    const cm = r.yr[0].match(/^([A-Z][a-z]{2})?\s*(\d{4})$/);
+    if (!fm || !cm) mislabelled++;
+    else {
+      const sameYear = fm[1] === cm[2];
+      const sameMonth = !fm[2] || !cm[1] || +fm[2] === MON[cm[1]];
+      if (!sameYear || !sameMonth) mislabelled++;
+    }
+  }
   if (r.orphan) orphaned++;
   claimCount = r.claims;
   // Layers stack, so coverage is 1-prod(1-o), not the max single opacity.
@@ -93,8 +105,14 @@ for (let i = 0; i <= 60; i++) {
   if (Math.abs(r.top) > 2) unpinned++;
   if (r.credit < 0.5) creditDim++;
 }
+// Derived from the DOM, not hardcoded: the timeline grows, and a literal count
+// here turns every honest frame addition into a false failure.
+const mounted = await p.evaluate(() =>
+  new Set([...document.querySelectorAll('.earth__l, .earth__base')]
+    .map((i) => i.src.split('/').pop())).size);
 const frames = Object.keys(peak).sort();
-ok(frames.length === 11, `all 11 flight frames mounted (got ${frames.length})`);
+ok(frames.length === mounted,
+   `every mounted flight frame was sampled (${frames.length} of ${mounted})`);
 for (const f of frames) ok(peak[f] > 0.99, `${f} reaches full opacity (${peak[f].toFixed(2)})`);
 ok(blank === 0, `stage never thins below 85% coverage mid-act (${blank} thin samples of 60)`);
 ok(unpinned === 0, `stage stays pinned for the whole act (${unpinned} unpinned samples)`);
