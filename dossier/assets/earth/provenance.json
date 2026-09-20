@@ -8,6 +8,21 @@
   "attribution": "USDA Farm Service Agency, National Agriculture Imagery Program (public domain), via Microsoft Planetary Computer; Esri World Imagery Wayback (Microsoft, Maxar).",
   "frames": [
     {
+      "year": 2007,
+      "file": "tl-2007.webp",
+      "capture_date": "2007",
+      "date_precision": "year",
+      "source": "Tennessee DOT / TN GIS (tnmap.tn.gov)",
+      "service": "HISTORICAL_IMAGERY_BASEMAPS/EAST_2007_1FT",
+      "request": "https://tnmap.tn.gov/arcgis/rest/services/HISTORICAL_IMAGERY_BASEMAPS/EAST_2007_1FT/MapServer/tile/14/{y}/{x}",
+      "native_gsd_m": 0.305,
+      "rendered_gsd_m": 0.75,
+      "attribution": "TDOT",
+      "srs_native": "EPSG:2274 (TN State Plane NAD83 ft)",
+      "note": "1 ft East Region flight, 2007; Loudon County named in service description. Month not published.",
+      "asset": "assets/earth/tl-2007.webp"
+    },
+    {
       "year": 2011,
       "capture_date": "2011-03-12",
       "source": "Esri World Imagery Wayback (Microsoft UC-G)",
