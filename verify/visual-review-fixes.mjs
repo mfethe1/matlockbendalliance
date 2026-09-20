@@ -130,10 +130,19 @@ const browser = await chromium.launch({
     const end = act.offsetTop + act.offsetHeight;
     scrollTo(0, Math.min(end + innerHeight * 1.5,
                          document.body.scrollHeight - innerHeight * 1.5));
-    await new Promise(r => setTimeout(r, 700));
-    return { opacity: +getComputedStyle(legend).opacity };
+    // Poll until the opacity stops changing rather than guessing a delay: the
+    // value is driven by a CSS transition, and a fixed wait samples it
+    // mid-fade under network jitter (observed 0.346 on a settled-clean page).
+    let prev = -1, cur = +getComputedStyle(legend).opacity, stable = 0;
+    for (let i = 0; i < 60 && stable < 3; i++) {
+      await new Promise(r => requestAnimationFrame(() => setTimeout(r, 50)));
+      prev = cur; cur = +getComputedStyle(legend).opacity;
+      stable = Math.abs(cur - prev) < 0.001 ? stable + 1 : 0;
+    }
+    return { opacity: cur, settled: stable >= 3 };
   });
 
+  ok(res.settled, `legend opacity settled before sampling (settled=${res.settled})`);
   ok(res.opacity < 0.1,
      `legend fades out past its own act (opacity ${res.opacity})`);
   await page.close();
