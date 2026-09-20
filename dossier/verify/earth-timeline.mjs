@@ -41,6 +41,19 @@ if (BREAK === 'dupe') await page.route('**/tl-2021.webp*', async (route) => {
   await route.fulfill({ response: res });
 });
 
+// BREAK=faint strips the fade window off the LAST timeline frame (whichever
+// year that is) so the peak-opacity assertion has a control that really bites.
+if (BREAK === 'faint') await page.route((u) => /\/dossier\/(index\.html)?(\?|$)/.test(u.pathname + u.search), async (route) => {
+  const res = await route.fetch();
+  let html = await res.text();
+  const all = [...html.matchAll(/data-sc-cue="([^"]*)"(?=[^>]*?(tl-\d{4}\.webp))/g)];
+  if (all.length) {
+    const last = all[all.length - 1];
+    html = html.replace(last[0], 'data-sc-cue="0.999"');
+  }
+  await route.fulfill({ response: res, body: html });
+});
+
 // The engine parses data-sc-cue at load, so mutating the attribute afterwards
 // is a no-op control that proves nothing. Swap the two frames' cues in the
 // HTML before the parser sees them, which is the real out-of-order defect.
@@ -138,7 +151,8 @@ const geom = await page.evaluate(() => {
   return { top: sec.offsetTop, height: sec.offsetHeight };
 });
 const seen = [];
-for (let p = 0.36; p <= 0.94; p += 0.02) {
+const peakOpacity = new Map();
+for (let p = 0.36; p <= 1.001; p += 0.02) {
   await page.evaluate(([t, h, pr, vh]) => scrollTo(0, t + (h - vh) * pr), [geom.top, geom.height, p, H]);
   await page.waitForTimeout(260);
   const shot = await page.evaluate(() => {
@@ -153,6 +167,7 @@ for (let p = 0.36; p <= 0.94; p += 0.02) {
     return { img, cap };
   });
   if (!shot.img || shot.img.o < 0.5) continue;
+  peakOpacity.set(shot.img.k, Math.max(peakOpacity.get(shot.img.k) || 0, shot.img.o));
   const yr = +shot.img.k.match(/(\d{4})/)[1];
   const capYr = shot.cap && shot.cap.o > 0.4 ? +(shot.cap.k.match(/(\d{4})/) || [0, 0])[1] : null;
   if (capYr) {
@@ -164,6 +179,17 @@ const sorted = [...seen].sort((a, b) => a - b);
 ok(seen.length >= 5, `scroll surfaced >= 5 distinct frames (got ${seen.length}: ${seen.join(',')})`);
 ok(JSON.stringify(seen) === JSON.stringify(sorted),
    `frames appear oldest-to-newest (saw ${seen.join(',')})`);
+
+// ---- 5. every frame actually surfaces AND reaches near-full opacity --------
+// A frame that only ever half-fades leaves the previous act bleeding through;
+// one that never surfaces at all is worse. Both shipped as real bugs.
+const surfacedFiles = new Set(peakOpacity.keys());
+const missing = frames.map((f) => f.file).filter((f) => !surfacedFiles.has(f));
+ok(missing.length === 0,
+   `every frame in the DOM surfaces during scroll (missing: ${missing.join(', ') || 'none'})`);
+const faint = [...peakOpacity.entries()].filter(([, o]) => o < 0.95);
+ok(faint.length === 0,
+   `every surfaced frame reaches opacity >= 0.95 (faint: ${faint.map(([k, o]) => `${k}@${o.toFixed(2)}`).join(', ') || 'none'})`);
 
 await browser.close();
 console.log(notes.join('\n'));
