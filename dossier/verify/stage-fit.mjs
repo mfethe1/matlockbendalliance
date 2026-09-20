@@ -35,8 +35,12 @@ for (let k = 0; k <= 14 && !full; k++) {
   const r = await p2.evaluate(() => {
     const h = document.getElementById('h-close');
     if (!h) return { v: false, t: '' };
-    const u = h.querySelectorAll('.sc-line');
-    const L = u.length ? [...u] : [h];
+    // The kinetic reveal animates .sc-split__i, NOT the wrapper. Measuring the
+    // wrapper (or a class that does not exist) reads opacity 1 forever and the
+    // assertion passes without ever testing the reveal. Require the real units.
+    const u = h.querySelectorAll('.sc-split__i');
+    if (!u.length) return { v: false, t: 'NO SPLIT UNITS -- selector is wrong' };
+    const L = [...u];
     const vis = L.every(e => { const q = e.getBoundingClientRect(); return q.top >= -1 && q.bottom <= innerHeight + 1 && +getComputedStyle(e).opacity > 0.9; });
     return { v: vis, t: L.map(e => e.textContent.trim()).join(' ') };
   });
