@@ -46,7 +46,7 @@ if (BREAK === 'dupe') await page.route('**/tl-2021.webp*', async (route) => {
 if (BREAK === 'faint') await page.route((u) => /\/dossier\/(index\.html)?(\?|$)/.test(u.pathname + u.search), async (route) => {
   const res = await route.fetch();
   let html = await res.text();
-  const all = [...html.matchAll(/data-sc-cue="([^"]*)"(?=[^>]*?(tl-\d{4}\.webp))/g)];
+  const all = [...html.matchAll(/data-sc-cue="([^"]*)"(?=[^>]*?(tl-\d{4}(?:-\d{2})?\.webp))/g)];
   if (all.length) {
     const last = all[all.length - 1];
     html = html.replace(last[0], 'data-sc-cue="0.999"');
@@ -87,7 +87,7 @@ ok(prov && prov.frames && prov.frames.length >= 6,
 // ---- 1. assets resolve -----------------------------------------------------
 const frames = await page.evaluate(() =>
   [...document.querySelectorAll('.earth__l')]
-    .filter((i) => /tl-\d{4}\./.test(i.getAttribute('src')))
+    .filter((i) => /tl-\d{4}(-\d{2})?\./.test(i.getAttribute('src')))
     .map((i) => ({
       file: i.getAttribute('src').split('/').pop(),
       w: i.naturalWidth, h: i.naturalHeight, cue: i.dataset.scCue || '',
@@ -120,7 +120,7 @@ for (let i = 0; i < Math.min(caps.length, frames.length); i++) {
 const diffs = await page.evaluate(async () => {
   const srcs = [...document.querySelectorAll('.earth__l')]
     .map((i) => i.getAttribute('src'))
-    .filter((s) => /tl-\d{4}\./.test(s));
+    .filter((s) => /tl-\d{4}(-\d{2})?\./.test(s));
   const N = 64, data = [];
   for (const s of srcs) {
     const im = new Image(); im.src = s; await im.decode();
@@ -161,17 +161,27 @@ for (let p = 0.36; p <= 1.001; p += 0.02) {
       .sort((x, y) => y.o - x.o)[0];
     const img = top([...document.querySelectorAll('.earth__l')]
       .map((el) => ({ el, k: el.getAttribute('src').split('/').pop() }))
-      .filter((e) => /tl-\d{4}\./.test(e.k)));
+      .filter((e) => /tl-\d{4}(-\d{2})?\./.test(e.k)));
     const cap = top([...document.querySelectorAll('.earth__yr')]
       .map((el) => ({ el, k: (el.firstChild.nodeValue || '').trim() })));
     return { img, cap };
   });
   if (!shot.img || shot.img.o < 0.5) continue;
   peakOpacity.set(shot.img.k, Math.max(peakOpacity.get(shot.img.k) || 0, shot.img.o));
-  const yr = +shot.img.k.match(/(\d{4})/)[1];
-  const capYr = shot.cap && shot.cap.o > 0.4 ? +(shot.cap.k.match(/(\d{4})/) || [0, 0])[1] : null;
-  if (capYr) {
-    ok(capYr === yr, `at p=${p.toFixed(2)} frame ${yr} is captioned ${capYr}`);
+  // Two frames can share a year (e.g. Apr and Oct 2018), so compare the full
+  // year-month from provenance, not just the year: a swap between two frames of
+  // the same year would otherwise pass unnoticed.
+  const recNow = prov.frames.find((f) => f.asset.endsWith(shot.img.k));
+  const key = recNow ? recNow.capture_date.slice(0, 7) : shot.img.k.match(/(\d{4})/)[1];
+  const yr = +key.slice(0, 4);
+  let capKey = null;
+  if (shot.cap && shot.cap.o > 0.4) {
+    const m = shot.cap.k.match(/([A-Z][a-z]{2})?\s*(\d{4})/);
+    if (m) capKey = m[1] ? `${m[2]}-${String(MON[m[1]]).padStart(2, '0')}` : m[2];
+  }
+  if (capKey) {
+    const same = capKey.length === 4 ? capKey === key.slice(0, 4) : capKey === key;
+    ok(same, `at p=${p.toFixed(2)} frame ${key} is captioned ${capKey}`);
   }
   if (seen[seen.length - 1] !== yr) seen.push(yr);
 }

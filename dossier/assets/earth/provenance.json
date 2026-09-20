@@ -59,6 +59,19 @@
     },
     {
       "year": 2016,
+      "capture_date": "2016-04-09",
+      "source": "Esri World Imagery Wayback (Maxar WV02)",
+      "native_gsd_m": 0.5,
+      "http_status": 200,
+      "asset": "assets/earth/tl-2016-04.webp",
+      "wayback_release": "2018-01-08",
+      "tiles_fetched": "81/81",
+      "request_urls": [
+        "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/13161/18/103162/69601"
+      ]
+    },
+    {
+      "year": 2016,
       "capture_date": "2016-05-15",
       "source": "USDA NAIP",
       "native_gsd_m": 1.0,
@@ -67,6 +80,19 @@
       "request_urls": [
         "https://planetarycomputer.microsoft.com/api/data/v1/item/bbox/-9397310.910590759,4265366.25900895,-9396030.910590759,4266646.25900895/1536x1536.png?collection=naip&item=tn_m_3508413_se_16_1_20160515&assets=image&asset_bidx=image%7C1,2,3&coord_crs=epsg%3A3857&dst_crs=epsg%3A3857",
         "https://planetarycomputer.microsoft.com/api/data/v1/item/bbox/-9397310.910590759,4265366.25900895,-9396030.910590759,4266646.25900895/1536x1536.png?collection=naip&item=tn_m_3508421_ne_16_1_20160515&assets=image&asset_bidx=image%7C1,2,3&coord_crs=epsg%3A3857&dst_crs=epsg%3A3857"
+      ]
+    },
+    {
+      "year": 2018,
+      "capture_date": "2018-07-18",
+      "source": "Esri World Imagery Wayback (Maxar WV02)",
+      "native_gsd_m": 0.5,
+      "http_status": 200,
+      "asset": "assets/earth/tl-2018-07.webp",
+      "wayback_release": "2019-07-17",
+      "tiles_fetched": "81/81",
+      "request_urls": [
+        "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/16681/18/103162/69601"
       ]
     },
     {
@@ -93,6 +119,19 @@
       ]
     },
     {
+      "year": 2020,
+      "capture_date": "2020-05-25",
+      "source": "Esri World Imagery Wayback (Maxar WV02)",
+      "native_gsd_m": 0.5,
+      "http_status": 200,
+      "asset": "assets/earth/tl-2020.webp",
+      "wayback_release": "2022-12-14",
+      "tiles_fetched": "81/81",
+      "request_urls": [
+        "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/45134/18/103162/69601"
+      ]
+    },
+    {
       "year": 2021,
       "capture_date": "2021-04-04",
       "source": "USDA NAIP",
@@ -102,6 +141,19 @@
       "request_urls": [
         "https://planetarycomputer.microsoft.com/api/data/v1/item/bbox/-9397310.910590759,4265366.25900895,-9396030.910590759,4266646.25900895/1536x1536.png?collection=naip&item=tn_m_3508413_se_16_060_20210404&assets=image&asset_bidx=image%7C1,2,3&coord_crs=epsg%3A3857&dst_crs=epsg%3A3857",
         "https://planetarycomputer.microsoft.com/api/data/v1/item/bbox/-9397310.910590759,4265366.25900895,-9396030.910590759,4266646.25900895/1536x1536.png?collection=naip&item=tn_m_3508421_ne_16_060_20210404&assets=image&asset_bidx=image%7C1,2,3&coord_crs=epsg%3A3857&dst_crs=epsg%3A3857"
+      ]
+    },
+    {
+      "year": 2023,
+      "capture_date": "2023-03-11",
+      "source": "Esri World Imagery Wayback (Maxar WV02)",
+      "native_gsd_m": 0.5,
+      "http_status": 200,
+      "asset": "assets/earth/tl-2023-03.webp",
+      "wayback_release": "2023-12-07",
+      "tiles_fetched": "81/81",
+      "request_urls": [
+        "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/56102/18/103162/69601"
       ]
     },
     {
