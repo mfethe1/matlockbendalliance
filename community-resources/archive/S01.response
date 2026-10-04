@@ -559,8 +559,6 @@
             gap: 1.5rem;
         }
         .problem-card {
-            min-width: 0;
-            overflow-wrap: anywhere;
             background: var(--slate-100);
             border-radius: 12px;
             padding: 2rem;
@@ -1245,11 +1243,7 @@
                 <li><a href="/dossier/">Matlock Bend</a></li>
                 <li><a href="#timeline">Timeline</a></li>
                 <li><a href="#tools">Tools</a></li>
-                <li><a href="/community-resources/">Community help</a></li>
-                <li><a href="/statewide/">Statewide research</a></li>
-                <li><a href="/goals/">Goal gates</a></li>
-                <li><a href="/evidence/">Evidence</a></li>
-                <li><a href="/corrections/">Corrections</a></li>
+                <li><a href="#feedback">Contribute</a></li>
                 <li><a href="#action">Take Action</a></li>
             </ul>
             <a href="#action" class="nav-cta">Get Involved</a>
@@ -1283,7 +1277,7 @@
             <div class="hero-ctas">
                 <a href="#documents" class="hero-cta-primary">Browse Public Records</a>
                 <a href="#tools" class="hero-cta-secondary">Use Our Tools</a>
-                <a href="#alerts" class="hero-cta-secondary">Read Notice-Check Guidance</a>
+                <a href="#alerts" class="hero-cta-secondary">Get Hearing Alerts</a>
             </div>
         </div>
     </section>
@@ -1333,7 +1327,7 @@
             </div>
             <div class="ch-card-body">
                 <h3>From orbit to the fenceline</h3>
-                <p>Thirteen satellite captures between 2007 and 2023 document changes to the visible fill area. Exact day and month are unknown where the imagery provider supplies only a year; imagery alone does not establish contamination or health effects.</p>
+                <p>Twelve years of satellite imagery, 2014 to 2026, showing the fill area spread south and west toward the river.</p>
                 <p class="ch-card-more">Take the flight &rarr;</p>
                 <p class="ch-card-credit">Imagery: Esri World Imagery (Wayback)</p>
             </div>
@@ -1375,16 +1369,16 @@
             <p class="reach-sub">None of these require a lawyer, a membership, or special expertise. The next public meeting is the single highest-leverage hour you can spend.</p>
             <div class="reach-grid">
                 <a class="reach-item" href="#feedback">
-                    <h3>Prepare a private correction draft &rarr;</h3>
-                    <p>Read the correction log and prepare an unsent draft. Meeting recollections are leads, not independently verified findings. Online intake is disabled.</p>
+                    <h3>Contribute information &rarr;</h3>
+                    <p>Send a document, a correction, or a research lead. If you were at a meeting, what you heard is evidence.</p>
                 </a>
                 <a class="reach-item" href="#representatives">
                     <h3>Contact your representatives &rarr;</h3>
                     <p>Direct phone and email for the officials with authority here. Call before emailing &mdash; calls are harder to ignore.</p>
                 </a>
                 <a class="reach-item" href="#alerts">
-                    <h3>Check public notices &rarr;</h3>
-                    <p>Read the notice-checking guidance. This site does not provide alerts or monitor hearings for you.</p>
+                    <h3>Get hearing alerts &rarr;</h3>
+                    <p>Meeting dates are not always announced in advance. Be told when the next one is scheduled.</p>
                 </a>
             </div>
         </div>
@@ -1402,16 +1396,16 @@
                 <p>The 2022 Second Amended Operating Agreement between Loudon County and Republic Services grants the operator significant discretion over expansion decisions, while the county retains property ownership with limited operational oversight provisions.</p>
                 <span class="problem-tag tag-danger">Contract Review</span>
                 <div class="citation">
-                    <span class="citation-tag">Source document — interpretation needs review</span>
+                    <span class="citation-tag">Verified</span>
                     <a href="https://raw.githubusercontent.com/mfethe1/loudoun-landfill-research/main/pdfs/20220412_Second_Amended_Operating_Agreement.pdf" target="_blank">2022 Operating Agreement (11 MB PDF)</a>
                 </div>
             </div>
             <div class="problem-card">
-                <h3>Recycling Diversion Data — Verification Pending</h3>
-                <p>Countywide availability of annual recycling diversion data has not been established by this review. The linked engineering report is a source lead, not proof that data are absent from all public records. Obtain county and regional reports before drawing a compliance conclusion.</p>
+                <h3>Recycling Diversion Data Not Publicly Reported</h3>
+                <p>Loudon County does not publish annual recycling diversion rates. The 2024 Annual Engineering Report filed with TDEC does not include comprehensive recycling statistics, making it impossible for residents to verify compliance with state waste reduction goals.</p>
                 <span class="problem-tag tag-warning">Transparency Gap</span>
                 <div class="citation">
-                    <span class="citation-tag">Research Lead</span>
+                    <span class="citation-tag">Verified</span>
                     <a href="https://raw.githubusercontent.com/mfethe1/loudoun-landfill-research/main/pdfs/2024_MatlockBendLandfill_AnnualEngineeringReport.pdf" target="_blank">2024 Annual Engineering Report (1.7 MB PDF)</a>
                 </div>
             </div>
@@ -1420,7 +1414,7 @@
                 <p>A formal Notice of Violation was issued to Republic Services on January 16, 2025. Republic responded on January 31, 2025. The specific violations and corrective actions are documented in the public record.</p>
                 <span class="problem-tag tag-danger">Enforcement Action</span>
                 <div class="citation">
-                    <span class="citation-tag">Source document — interpretation needs review</span>
+                    <span class="citation-tag">Verified</span>
                     <a href="https://raw.githubusercontent.com/mfethe1/loudoun-landfill-research/main/pdfs/20250116_Notice_Of_Violation_Letter_To_Republic.pdf" target="_blank">NOV Letter (2.6 MB PDF)</a> &middot; 
                     <a href="https://raw.githubusercontent.com/mfethe1/loudoun-landfill-research/main/pdfs/20250131_Republic_Response_To_Notice_Of_Violation.pdf" target="_blank">Republic Response (207 KB PDF)</a>
                 </div>
@@ -1430,7 +1424,7 @@
                 <p>Two separate expansions. The November 2024 hearing added 7.0 acres, taking the permitted disposal area from 40.6 to 47.6 acres. The application now on file adds a further 19.6 acres on the north side &mdash; on ground the applicant's own map marks with streams. The permit file (SNL530000203) is open for public inspection at TDEC's Nashville office.</p>
                 <span class="problem-tag tag-info">Permit Activity</span>
                 <div class="citation">
-                    <span class="citation-tag">Source document — interpretation needs review</span>
+                    <span class="citation-tag">Verified</span>
                     <a href="https://raw.githubusercontent.com/mfethe1/loudoun-landfill-research/main/pdfs/20241121_Public_Hearing_Powerpoint.pdf" target="_blank">Public Hearing Presentation, Nov 2024 &mdash; slide 45 (22 MB PDF)</a>
                 </div>
             </div>
@@ -1439,7 +1433,7 @@
                 <p>TDEC conducted Class I inspections on June 9, July 21, and July 29, 2025. Inspection reports detail compliance status with permit conditions. These reports are public records available upon request.</p>
                 <span class="problem-tag tag-info">Regulatory Oversight</span>
                 <div class="citation">
-                    <span class="citation-tag">Source document — interpretation needs review</span>
+                    <span class="citation-tag">Verified</span>
                     <a href="https://raw.githubusercontent.com/mfethe1/loudoun-landfill-research/main/pdfs/TDEC_Loudon_ClassI_Initial_Inspection_20250609.pdf" target="_blank">June 9 Inspection</a> &middot;
                     <a href="https://raw.githubusercontent.com/mfethe1/loudoun-landfill-research/main/pdfs/TDEC_Loudon_ClassI_Inspection_20250721.pdf" target="_blank">July 21 Inspection</a> &middot;
                     <a href="https://raw.githubusercontent.com/mfethe1/loudoun-landfill-research/main/pdfs/TDEC_Loudon_ClassI_Construction_Inspection_20250729.pdf" target="_blank">July 29 Inspection</a>
@@ -1447,11 +1441,11 @@
             </div>
             <div class="problem-card">
                 <h3>Waste Accepted from Multiple Counties &mdash; Needs Documentation</h3>
-                <p><strong>Status: Under Investigation.</strong> Obtain the operating agreement, permit file and monthly tonnage/origin records to establish which jurisdictions supply waste and on what terms. This site has not established the completeness of available public records; unknown volumes are not proof that records do not exist.</p>
+                <p><strong>Status: Under Investigation.</strong> The 2022 Operating Agreement references waste acceptance from jurisdictions beyond Loudon County, but specific volume data, origin counties, and contractual terms are not documented in publicly available records. TDEC permit files may contain waste characterization studies that could verify this claim.</p>
                 <span class="problem-tag tag-warning">Data Gap &mdash; Research Needed</span>
                 <div class="citation">
                     <span class="citation-tag">Unverified</span>
-                    <a href="https://raw.githubusercontent.com/mfethe1/loudoun-landfill-research/main/pdfs/20220412_Second_Amended_Operating_Agreement.pdf" target="_blank">2022 Operating Agreement (source lead; verify relevant provisions)</a>
+                    <a href="https://raw.githubusercontent.com/mfethe1/loudoun-landfill-research/main/pdfs/20220412_Second_Amended_Operating_Agreement.pdf" target="_blank">2022 Operating Agreement (references out-of-county waste, Section 3.2)</a>
                 </div>
                 <div class="citation">
                     <span class="citation-tag">Needed</span>
@@ -1684,7 +1678,7 @@
     </section>
 
     <!-- Documents -->
-    <section class="section" id="documents" style="background:var(--slate-50); margin:0; padding:5rem 2rem; max-width:none;">
+    <section class="section" id="documents" style="background:var(--slate-50); margin:0 -2rem; padding:5rem 2rem; max-width:none;">
         <div style="max-width:var(--max-width); margin:0 auto;">
             <div class="section-header">
                 <h2>Public Document Archive</h2>
@@ -1937,16 +1931,16 @@
             </div>
 
             <div class="foia-template" id="foiaTemplate">
-                <p><strong>UNSENT TENNESSEE PUBLIC RECORDS REQUEST DRAFT</strong></p><p>Verify the entity holding the records, its current records policy, eligibility and recipient before sending. County contracts/payment records and TDEC inspection records may have different custodians. No submission is made by this tool.</p>
+                <p><strong>TENNESSEE PUBLIC RECORDS ACT REQUEST</strong></p>
                 <p>Date: <span id="foiaDate">[Date]</span></p>
                 <p>To: Records Custodian<br>
-                [Verified custodian and public-records policy for the entity that holds these records]<br>
-                [Verified submission address — do not use an assumed recipient]</p>
+                TDEC Division of Solid Waste Management<br>
+                312 Rosa L. Parks Ave, Nashville, TN 37243</p>
                 <p>Dear Records Custodian,</p>
                 <p>Under the Tennessee Public Records Act (T.C.A. § 10-7-503 et seq.), I request access to and copies of the following records:</p>
                 <p id="foiaBody" style="background:var(--slate-100); padding:1rem; border-radius:4px; border:1px solid var(--slate-200); color:var(--slate-800);">Select a request type above to generate specific language.</p>
                 <p>I request these records in electronic format (PDF) if available. Please inform me of any fees before processing.</p>
-                <p>If you deny any portion of this request, please identify the applicable exemption and provide a written explanation. This is draft request language, not a verified statement of current legal requirements.</p>
+                <p>If you deny any portion of this request, please cite the specific exemption and provide a written explanation as required by law.</p>
                 <div class="signature">
                     <p>Sincerely,</p>
                     <p>[Your Name]<br>
@@ -1959,11 +1953,64 @@
         </div>
     </section>
 
-    <!-- Intake disabled until accountable operator and privacy gates pass. -->
-    <section class="section" id="feedback"><div class="section-header"><h2>Community corrections and contributions</h2><p>Public intake is currently disabled. No information is collected or transmitted. See the <a href="/corrections/">correction log</a> and use the <a href="/community-resources/templates.html">offline unsubmitted templates</a>. Do not publish household or well-location details.</p></div></section>
+    <!-- User Feedback / Contribute Section -->
+    <section class="section" id="feedback" style="background:var(--slate-50); margin:0 -2rem; padding:5rem 2rem; max-width:none;">
+        <div style="max-width:var(--max-width); margin:0 auto;">
+            <div class="section-header">
+                <h2>Contribute Information</h2>
+                <p id="contributeIntro">Help us keep this resource accurate and complete. Submit tips, corrections, documents, or research leads. Every submission is reviewed before publication.</p>
+            </div>
+
+            <div class="feedback-section">
+                <form class="feedback-form" id="feedbackForm">
+                    <div>
+                        <label for="feedbackName">Your Name (optional)</label>
+                        <input type="text" id="feedbackName" placeholder="Jane Doe">
+                    </div>
+                    <div>
+                        <label for="feedbackEmail">Email (optional, for follow-up)</label>
+                        <input type="email" id="feedbackEmail" placeholder="your@email.com">
+                    </div>
+                    <div>
+                        <label for="feedbackType">Type of Contribution <span class="req" title="Required">*</span></label>
+                        <select id="feedbackType" required>
+                            <option value="">Select a type...</option>
+                            <option value="document">Public Document to Archive</option>
+                            <option value="correction">Correction or Update</option>
+                            <option value="info">Information or Research Lead</option>
+                            <option value="general">General Feedback</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="feedbackSubject">Subject <span class="req" title="Required">*</span></label>
+                        <input type="text" id="feedbackSubject" placeholder="e.g., TDEC inspection report from March 2026" required>
+                    </div>
+                    <div>
+                        <label for="feedbackMessage">Details <span class="req" title="Required">*</span></label>
+                        <textarea id="feedbackMessage" placeholder="Describe what you know. Include dates, document names, permit numbers, or any specifics that help us verify. If you have a document, describe how to obtain it." required></textarea>
+                    </div>
+                    <div>
+                        <label for="feedbackSource">Source / How You Know This (optional)</label>
+                        <input type="text" id="feedbackSource" placeholder="e.g., Attended LCSWDC meeting on 5/21/2026; FOIA response from TDEC">
+                    </div>
+                    <button type="submit" id="feedbackBtn">Submit Contribution</button>
+                </form>
+                <p id="feedbackStatus" style="font-size:0.875rem; color:var(--slate-500); margin-top:1rem;"></p>
+            </div>
+
+            <!-- Display submitted feedback -->
+            <div class="feedback-list" id="feedbackList">
+                <h3 style="font-size:1.25rem; font-weight:700; margin-bottom:1.5rem; color:var(--slate-900);">Recent Community Contributions</h3>
+                <div id="feedbackItems">
+                    <!-- Feedback items will be loaded from localStorage -->
+                    <p style="color:var(--slate-500); font-size:0.9375rem;">No contributions yet. Be the first to submit information.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Representatives -->
-    <section class="section" id="representatives" style="background:var(--slate-50); margin:0; padding:5rem 2rem; max-width:none;">
+    <section class="section" id="representatives" style="background:var(--slate-50); margin:0 -2rem; padding:5rem 2rem; max-width:none;">
         <div style="max-width:var(--max-width); margin:0 auto;">
             <div class="section-header">
                 <h2>Elected Representatives</h2>
@@ -1975,7 +2022,7 @@
                     <h3>Sen. Randy McNally</h3>
                     <div class="rep-role">Senate District 5 &mdash; Lt. Governor</div>
                     <div class="rep-contact">
-                        <a href="mailto:randy.mcnally@capitol.tn.gov">randy.mcnally@capitol.tn.gov</a>
+                        <a href="/cdn-cgi/l/email-protection#4537242b213c6b28262b2429293c052624352c312a296b312b6b222a33"><span class="__cf_email__" data-cfemail="a3d1c2cdc7da8dcec0cdc2cfcfdae3c0c2d3cad7cccf8dd7cd8dc4ccd5">[email&#160;protected]</span></a>
                         <a href="tel:6157416806">(615) 741-6806</a>
                     </div>
                     <span class="rep-key">Leadership</span>
@@ -1985,7 +2032,7 @@
                     <h3>Rep. Monty Fritts</h3>
                     <div class="rep-role">House District 32</div>
                     <div class="rep-contact">
-                        <a href="mailto:rep.monty.fritts@capitol.tn.gov">rep.monty.fritts@capitol.tn.gov</a>
+                        <a href="/cdn-cgi/l/email-protection#0b796e7b256664657f72256d79627f7f784b686a7b627f6467257f65256c647d"><span class="__cf_email__" data-cfemail="a7d5c2d789cac8c9d3de89c1d5ced3d3d4e7c4c6d7ced3c8cb89d3c989c0c8d1">[email&#160;protected]</span></a>
                         <a href="tel:6157417658">(615) 741-7658</a>
                     </div>
                     <span class="rep-key">Agriculture Committee</span>
@@ -1995,7 +2042,7 @@
                     <h3>Rep. Lowell Russell</h3>
                     <div class="rep-role">House District 21</div>
                     <div class="rep-contact">
-                        <a href="mailto:rep.lowell.russell@capitol.tn.gov">rep.lowell.russell@capitol.tn.gov</a>
+                        <a href="/cdn-cgi/l/email-protection#3a485f4a1456554d5f565614484f49495f56567a595b4a534e5556144e54145d554c"><span class="__cf_email__" data-cfemail="681a0d184604071f0d0404461a1d1b1b0d0404280b0918011c0704461c06460f071e">[email&#160;protected]</span></a>
                         <a href="tel:6157413736">(615) 741-3736</a>
                     </div>
                     <span class="rep-key">Multiple Committees</span>
@@ -2018,7 +2065,7 @@
             <div class="action-card">
                 <h3>Attend Public Meetings</h3>
                 <ol>
-                    <li><strong>Find the meeting.</strong> LCSWDC has met on the third Thursday at 6:00 PM, but the date is not always announced in advance. Check <a href="https://loudoncounty-tn.gov/events/category/loudon-county-solid-waste-disposal-commission/" target="_blank" style="color:var(--sky);">the county events calendar</a>. Written comment may also be sent to LCSWDC.Ross@gmail.com before a meeting.</li>
+                    <li><strong>Find the meeting.</strong> LCSWDC has met on the third Thursday at 6:00 PM, but the date is not always announced in advance. Check <a href="https://loudoncounty-tn.gov/events/category/loudon-county-solid-waste-disposal-commission/" target="_blank" style="color:var(--sky);">the county events calendar</a>. Written comment may also be sent to <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="460a0515110205681429353506212b272f2a6825292b">[email&#160;protected]</a> before a meeting.</li>
                     <li><strong>Arrive early.</strong> Meetings are open to the public. Sign up to speak if public comment is offered.</li>
                     <li><strong>Ask specific questions.</strong> Reference permit numbers, document dates, or specific contract clauses. General complaints are less effective than targeted questions.</li>
                     <li><strong>Document the response.</strong> Take notes on what officials say. Follow up in writing if commitments are made.</li>
@@ -2054,10 +2101,32 @@
         </div>
     </section>
 
-    <!-- Alert signup disabled pending delivery, consent, retention and operator review. -->
-    <section class="section" id="alerts"><div class="newsletter"><h2>Hearing and permit notices</h2><p>There is no alert subscription service. Check actual official notices and deadlines directly; this static site does not monitor hearings or send alerts. See <a href="/community-resources/">participation and records guidance</a>.</p></div></section>
+    <!-- Newsletter / Action Alerts -->
+    <section class="section" id="alerts">
+        <div class="newsletter">
+            <div class="subscriber-count" id="subscriberCount" style="display:none;">
+                <span class="pulse-dot"></span>
+                <span id="subscriberText"> neighbors getting alerts</span>
+            </div>
+            <h2>Don't Miss the Next Public Hearing</h2>
+            <p class="newsletter-lead">Part One of the horizontal expansion permit for Matlock Bend has been submitted to TDEC as of September 2026, with Part Two studies running into 2027. When a comment period or hearing is announced, that is the moment residents can be heard. Email us and we will add you to the alert list.</p>
 
-    <section class="section" id="goal-system"><div class="section-header"><h2>Statewide goals, evidence and community access</h2><p>This research is limited and has not selected a county pilot. The four candidate investigation leads are unranked and are not findings.</p><div class="hero-ctas"><a class="hero-cta-primary" href="/statewide/">Statewide index</a><a class="hero-cta-secondary" href="/community-resources/">Community resources</a><a class="hero-cta-secondary" href="/goals/">Twelve goal gates</a><a class="hero-cta-secondary" href="/evidence/">Claim evidence</a><a class="hero-cta-secondary" href="/about/accessibility-privacy.html">Accessibility & privacy</a></div></div><p>Local providers, costs, current legal applicability, and assistance are not verified. No samples, alerts or submissions are being collected. See <a href="/corrections/">corrections</a> and <a href="/goal-system.md">blocked acceptance criteria</a>.</p></section>
+            <!-- Direct email capture -->
+            <form class="newsletter-form" id="newsletterForm">
+                <input type="email" id="newsletterEmail" placeholder="your@email.com" required>
+                <button type="submit" id="newsletterBtn">Get Hearing Alerts</button>
+            </form>
+            <p id="newsletterStatus" style="font-size:0.875rem; opacity:0.6; margin-top:1rem;"></p>
+
+            <div class="trust-badges">
+                <span id="trustSpam">No spam &mdash; only hearing alerts</span>
+                <span>·</span>
+                <span id="trustUnsub">Unsubscribe anytime</span>
+                <span>·</span>
+                <span>Volunteer-run, non-profit</span>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer class="footer">
@@ -2068,7 +2137,7 @@
         </div>
     </footer>
 
-    <script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
         // ============================================
         // EMAIL SIGNUP CONFIGURATION
         // ============================================
@@ -2118,7 +2187,169 @@
                 : 'Email delivery is not set up on this site yet, so nothing was sent and no address was stored. Please check back shortly.';
         }
 
-        // Resident intake is disabled. No subscription or contribution handlers.
+        // ============================================
+        // SIGNUP HANDLER
+        // ============================================
+        (function() {
+            const form = document.getElementById('newsletterForm');
+            const emailInput = document.getElementById('newsletterEmail');
+            const btn = document.getElementById('newsletterBtn');
+            const status = document.getElementById('newsletterStatus');
+            const subscriberCount = document.getElementById('subscriberCount');
+            const subscriberText = document.getElementById('subscriberText');
+
+            // The old counter read this browser's own localStorage, so every
+            // visitor was shown "1 neighbor getting alerts" -- their own entry,
+            // presented as a community total. There is no real count to show.
+            subscriberCount.style.display = 'none';
+
+            status.textContent = FORMSPREE_ENDPOINT
+                ? 'We will email you when TDEC schedules a hearing or a comment deadline approaches.'
+                : 'Alert signup is not connected yet -- submitting will not subscribe you.';
+
+            form.addEventListener('submit', async function(e) {
+                e.preventDefault();
+                const email = emailInput.value.trim().toLowerCase();
+                if (!email) return;
+
+                btn.disabled = true;
+                btn.textContent = 'Sending...';
+
+                const sent = await deliver({ form: 'hearing-alerts', email: email });
+
+                if (sent) {
+                    showSuccess(
+                        "You're on the list.",
+                        "We'll email you when TDEC schedules a hearing or a comment deadline approaches. Typically 1-2 emails per month."
+                    );
+                    return;
+                }
+
+                // Nothing left the browser. Say so instead of confirming, and do
+                // not retain the address locally -- storing it here only creates
+                // the illusion of a list nobody can read.
+                showSuccess('Not subscribed.', fallbackNote('your address'));
+            });
+
+            function showSuccess(title, message) {
+                form.style.display = 'none';
+                status.style.display = 'none';
+                const successDiv = document.createElement('div');
+                successDiv.className = 'newsletter-success';
+                successDiv.innerHTML = '<h3>' + title + '</h3><p>' + message + '</p>';
+                form.parentNode.insertBefore(successDiv, status);
+            }
+        })();
+
+        // ============================================
+        // FEEDBACK / CONTRIBUTION SYSTEM
+        // ============================================
+        (function() {
+            const feedbackForm = document.getElementById('feedbackForm');
+            const feedbackBtn = document.getElementById('feedbackBtn');
+            const feedbackStatus = document.getElementById('feedbackStatus');
+            const feedbackItems = document.getElementById('feedbackItems');
+
+            function loadFeedback() {
+                // This list is per-browser localStorage, not a shared archive:
+                // it only ever showed a visitor their own submissions, styled
+                // as published community contributions. Until submissions go
+                // somewhere real, show nothing rather than a private echo.
+                const feedback = [];
+                if (feedback.length === 0) {
+                    feedbackItems.innerHTML = '<p style="color:var(--slate-500); font-size:0.9375rem;">No contributions yet. Be the first to submit information.</p>';
+                    return;
+                }
+
+                feedback.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+                const typeLabels = {
+                    'document': 'Document',
+                    'correction': 'Correction',
+                    'info': 'Information',
+                    'general': 'General'
+                };
+
+                const typeClasses = {
+                    'document': 'feedback-type-document',
+                    'correction': 'feedback-type-correction',
+                    'info': 'feedback-type-info',
+                    'general': 'feedback-type-general'
+                };
+
+                const statusLabels = {
+                    'pending': 'Pending Review',
+                    'investigating': 'Under Investigation',
+                    'verified': 'Verified & Published'
+                };
+
+                const statusClasses = {
+                    'pending': 'status-pending',
+                    'investigating': 'status-investigating',
+                    'verified': 'status-verified'
+                };
+
+                feedbackItems.innerHTML = feedback.map(item => `
+                    <div class="feedback-item">
+                        <div class="feedback-item-header">
+                            <div>
+                                <span class="feedback-item-name">${item.name || 'Anonymous'}</span>
+                                <span class="feedback-item-type ${typeClasses[item.type] || 'feedback-type-general'}">${typeLabels[item.type] || item.type}</span>
+                            </div>
+                            <span class="feedback-item-date">${new Date(item.date).toLocaleDateString()}</span>
+                        </div>
+                        <p><strong>${item.subject}</strong></p>
+                        <p>${item.message}</p>
+                        ${item.source ? `<p style="font-size:0.8125rem; color:var(--slate-400); margin-top:0.5rem;">Source: ${item.source}</p>` : ''}
+                        <div class="feedback-item-status ${statusClasses[item.status] || 'status-pending'}">${statusLabels[item.status] || item.status}</div>
+                    </div>
+                `).join('');
+            }
+
+            feedbackForm.addEventListener('submit', async function(e) {
+                e.preventDefault();
+
+                const name = document.getElementById('feedbackName').value.trim();
+                const email = document.getElementById('feedbackEmail').value.trim();
+                const type = document.getElementById('feedbackType').value;
+                const subject = document.getElementById('feedbackSubject').value.trim();
+                const message = document.getElementById('feedbackMessage').value.trim();
+                const source = document.getElementById('feedbackSource').value.trim();
+
+                if (!type || !subject || !message) {
+                    feedbackStatus.textContent = 'Please fill in all required fields.';
+                    feedbackStatus.style.color = 'var(--rose)';
+                    return;
+                }
+
+                feedbackBtn.disabled = true;
+                feedbackBtn.textContent = 'Submitting...';
+
+                const sent = await deliver({
+                    form: 'contribution',
+                    name: name || null, email: email || null, type: type,
+                    subject: subject, message: message, source: source || null
+                });
+
+                feedbackForm.style.display = 'none';
+                feedbackStatus.style.display = 'none';
+
+                const successDiv = document.createElement('div');
+                successDiv.className = 'feedback-success';
+                // Only claim receipt when the POST actually succeeded. The old
+                // path wrote to localStorage and said "recorded and pending
+                // review" -- nobody but the sender could ever see it.
+                successDiv.innerHTML = sent
+                    ? '<h3>Thank you for your contribution.</h3><p>Your submission has been received and is pending review. If you provided an email, we may contact you for clarification. Validated information will be published on this page.</p>'
+                    : '<h3>Not submitted.</h3><p>' + fallbackNote('your contribution') + '</p>';
+                feedbackForm.parentNode.appendChild(successDiv);
+
+                console.log('TN Waste Watch feedback submitted:', { type, subject });
+                console.log('Total contributions:', feedback.length);
+            });
+
+            loadFeedback();
+        })();
 
         // ============================================
         // FOIA GENERATOR

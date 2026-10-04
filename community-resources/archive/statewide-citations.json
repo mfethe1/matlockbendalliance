@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://tnwaste.org",
+      "title": "S01",
+      "accessed": "2026-10-04",
+      "quotes": [
+        {
+          "text": "Twelve years of satellite imagery, 2014 to 2026",
+          "added": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://tnwaste.org/dossier",
+      "title": "S02",
+      "accessed": "2026-10-04",
+      "quotes": [
+        {
+          "text": "This is the same ground photographed thirteen times between 2007 and 2023.",
+          "added": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "url": "https://www.tn.gov/environment/program-areas/rem-remediation/tnclean.html",
+      "title": "S03",
+      "accessed": "2026-10-04",
+      "quotes": [
+        {
+          "text": "Soil and sediment containing elevated levels of PCBs was removed in 2015-2016. TDEC is reinvestigating the site to determine current groundwater conditions and characterize seeps that may be present at the base of the dump.",
+          "added": "2026-10-04"
+        },
+        {
+          "text": "Former EWS Landfill (Camden, Benton County)",
+          "added": "2026-10-04"
+        },
+        {
+          "text": "Today, TN Clean is taking financial responsibility for the site to continue annual inspections and other routine maintenance. No remediation is required.",
+          "added": "2026-10-04"
+        },
+        {
+          "text": "The site is currently being monitored to assess the migration of these chemicals in the groundwater to neighboring properties.",
+          "added": "2026-10-04"
+        },
+        {
+          "text": "TDEC is currently reassessing the site with TN Clean funds and continuing operation and maintenance activities.",
+          "added": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "url": "https://www.murfreesborotn.gov/2745/Landfill-Information",
+      "title": "S04",
+      "accessed": "2026-10-04",
+      "quotes": [
+        {
+          "text": "On September 15, 2025 , the City of Murfreesboro sent the owners of Middle Point Landfill notice of additional and continued violations of the Clean Water Act and Clean Air Act.",
+          "added": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "url": "https://www.tn.gov/environment/program-areas/solid-waste/materials-management/2025-2035-swm-plan.html",
+      "title": "S05",
+      "accessed": "2026-10-04",
+      "quotes": [
+        {
+          "text": "November 2026: TDEC publishes the State Plan January 2027: Regional Planning Grants open",
+          "added": "2026-10-04"
+        },
+        {
+          "text": "This timeline is subject to change as work on the State Plan, rulemaking, and regional planning process continues.",
+          "added": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "url": "https://newschannel9.com/news/local/his-nose-started-bleeding-athens-residents-say-landfill-odor-is-making-them-sick",
+      "title": "S08",
+      "accessed": "2026-10-04",
+      "quotes": [
+        {
+          "text": "A violation was assigned on Feb. 15, 2022 following an inspection on Feb. 10 that found excessive leachate levels",
+          "added": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "url": "https://www.ctas.tennessee.edu/news/tennessee-opens-5m-solid-waste-and-recycling-grants-2026",
+      "title": "S09",
+      "accessed": "2026-10-04",
+      "quotes": [
+        {
+          "text": "Household Hazardous Waste Grant Sept. 7, 2026 Oct. 15, 2026",
+          "added": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "url": "https://www.tn.gov/environment/program-areas/solid-waste/sw/eplex-landfill.html",
+      "title": "S13",
+      "accessed": "2026-10-04",
+      "quotes": [
+        {
+          "text": "On December 14, 2022, due to unforeseen circumstances that occurred in 2022, the BBC advised the Tennessee Department of Environment and Conservation (TDEC) that there were not enough funds to continue operations or to follow through with permitted closure and post-closure obligations.",
+          "added": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "url": "https://cumulis.epa.gov/supercpad/SiteProfiles/index.cfm?fuseaction=second.schedule&id=0403886",
+      "title": "S14",
+      "accessed": "2026-10-04",
+      "quotes": [
+        {
+          "text": "Most Recent Five-Year Review 06/21/2021",
+          "added": "2026-10-04"
+        },
+        {
+          "text": "Five-Year Review (EPA Performed) OU 00 - SITEWIDE Estimated Jun - Aug 2026",
+          "added": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "url": "https://www.tn.gov/environment/program-areas/solid-waste/materials-management/grants-administration.html",
+      "title": "S18",
+      "accessed": "2026-10-04",
+      "quotes": [
+        {
+          "text": "The following grants are currently closed to applications.",
+          "added": "2026-10-04"
+        }
+      ]
+    }
+  ]
+}

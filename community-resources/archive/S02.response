@@ -1,0 +1,1030 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Matlock Bend — the permit is already filed</title>
+<meta name="description" content="Republic Services has filed Part One of a horizontal expansion permit for the Matlock Bend landfill in Loudon County, Tennessee. Every claim on this page is sourced to a county document or meeting recording.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%23121110'/><rect x='5' y='20' width='22' height='3' fill='%23e8462a'/></svg>">
+<link rel="stylesheet" href="scrollcraft.css">
+<style>
+  :root {
+    --sc-canvas:     #121110;
+    --sc-surface:    #1b1917;
+    --sc-ink:        #f2efe9;
+    --sc-ink-soft:   #a09a90;
+    --sc-accent:     #e8462a;
+    --sc-accent-ink: #ffffff;
+    --sc-font-display: ui-monospace, "SFMono-Regular", Menlo, monospace;
+    --sc-font-text:    ui-monospace, "SFMono-Regular", Menlo, monospace;
+
+    --paper: #ddd8cd;
+    --rule:  #3a3632;
+    --ok:    #7fa650;
+  }
+
+  body { -webkit-font-smoothing: antialiased; }
+
+  /* ---- brutalist chrome ---------------------------------------------- */
+  .bar {
+    position: fixed; inset: 0 0 auto 0; z-index: 60;
+    display: flex; align-items: stretch; justify-content: space-between;
+    border-bottom: 1px solid var(--rule);
+    background: rgba(18,17,16,.92);
+    backdrop-filter: blur(6px);
+    font-size: .7rem; letter-spacing: .09em; text-transform: uppercase;
+  }
+  /* This is the way back to the main site, so it is an <a>. Anchor defaults
+     (underline + link colour) would fight the wordmark, hence the resets. */
+  .bar__mark { padding: .75rem 1rem; border-right: 1px solid var(--rule); font-weight: 700;
+    color: inherit; text-decoration: none; display: flex; align-items: center; min-height: 44px; }
+  .bar__mark:hover b { text-decoration: underline; }
+  .bar__mark b { color: var(--sc-accent); }
+  .bar__meta { padding: .75rem 1rem; color: var(--sc-ink-soft); display: none; }
+  .bar__cta {
+    padding: .75rem 1.15rem; border-left: 1px solid var(--rule);
+    background: var(--sc-accent); color: var(--sc-accent-ink);
+    text-decoration: none; font-weight: 700; display: flex; align-items: center;
+    /* Primary action in the fixed bar. Measured 102x35 at 390px; the bar keeps
+       it short, so enforce the 44px touch target explicitly. */
+    min-height: 44px;
+  }
+  .bar__cta:hover { background: #ff573a; }
+  @media (min-width: 820px) { .bar__meta { display: flex; align-items: center; } }
+
+  /* ---- chapter slugs -------------------------------------------------- */
+  .slug {
+    display: flex; gap: .8rem; align-items: baseline;
+    font-size: .68rem; letter-spacing: .16em; text-transform: uppercase;
+    /* --sc-ink-soft (#a09a90) measured 2.83:1 against the parcel map across
+       the whole of chapter 02 -- under the 3:1 floor for this size. The slug
+       sits over photography, not over flat page ground, so it gets a brighter
+       ink and a shadow rather than the muted secondary token. */
+    color: #cdc6ba; margin-bottom: 1.5rem;
+    text-shadow: 0 1px 3px rgba(8,7,6,.92), 0 0 10px rgba(8,7,6,.75);
+  }
+  .slug b { color: var(--sc-accent); font-weight: 700; }
+  .slug span { border-bottom: 1px solid var(--rule); flex: 1; transform: translateY(-.25em); }
+
+  h1, h2, h3 { text-wrap: balance; }
+  .sc-display--xl { letter-spacing: -.02em; line-height: .98; }
+
+  /* ---- the source ledger (signature move) ----------------------------- */
+  .ledger {
+    position: fixed; right: 0; bottom: 0; z-index: 55;
+    width: min(23rem, 92vw);
+    border-top: 1px solid var(--rule); border-left: 1px solid var(--rule);
+    background: rgba(18,17,16,.94);
+    backdrop-filter: blur(6px);
+    font-size: .68rem; letter-spacing: .04em;
+    transform: translateY(calc(100% - 2.2rem));
+    transition: transform .34s cubic-bezier(.2,.7,.3,1);
+  }
+  .ledger[data-open="1"] { transform: translateY(0); }
+  /* Retired: slid fully out of the way once the closing section is reached, so
+     the closing note is readable at the document's last scroll position.
+     Hidden from assistive tech too, since it is off-screen by then. */
+  .ledger[data-retired="1"] { transform: translateY(100%); visibility: hidden; }
+  @media (prefers-reduced-motion: reduce) { .ledger { transition: none; } }
+  .ledger__head {
+    display: flex; width: 100%; align-items: center; gap: .6rem;
+    /* height was 2.2rem (35px measured). The ledger header is the control that
+       opens the whole source list, so give it a 44px touch target. */
+    padding: .62rem .8rem; min-height: 44px;
+    background: none; border: 0; color: var(--sc-ink);
+    font: inherit; text-transform: uppercase; letter-spacing: .1em; cursor: pointer;
+  }
+  .ledger__head b { color: var(--ok); font-variant-numeric: tabular-nums; }
+  .ledger__head i { margin-left: auto; font-style: normal; color: var(--sc-ink-soft); }
+  /* CSS caret instead of a glyph: keeps the source free of non-ASCII symbols. */
+  .ledger__mark { width: 0; height: 0; border-left: 5px solid transparent; border-right: 5px solid transparent;
+    border-bottom: 6px solid currentColor; display: inline-block; transition: transform .25s ease; }
+  .ledger[data-open="1"] .ledger__mark { transform: rotate(180deg); }
+  .ledger__list { max-height: 42vh; overflow-y: auto; margin: 0; padding: 0 .8rem .9rem; list-style: none; }
+  .ledger__list li {
+    padding: .5rem 0; border-top: 1px solid var(--rule);
+    color: var(--sc-ink-soft); line-height: 1.45;
+  }
+  .ledger__list li b { color: var(--sc-ink); font-weight: 400; }
+
+  /* a sourced claim */
+  .claim { display: block; margin: 0 0 1.15rem; }
+  .claim__text { margin: 0; }
+  .claim__btn {
+    margin-top: .5rem; display: inline-flex; align-items: center; gap: .5rem;
+    background: none; border: 1px solid var(--rule); color: var(--sc-ink-soft);
+    font: inherit; font-size: .66rem; letter-spacing: .1em; text-transform: uppercase;
+    /* Measured 119x30 at 390px. Pad to a 44px touch target (WCAG 2.5.5)
+       without changing the drawn box any more than necessary. */
+    padding: .62rem .8rem; min-height: 44px; cursor: pointer;
+  }
+  .claim__btn:hover, .claim__btn:focus-visible { border-color: var(--sc-accent); color: var(--sc-ink); }
+  .claim__btn::before {
+    content: ""; width: .5rem; height: .5rem; background: var(--rule); flex: none;
+  }
+  .claim.is-passed .claim__btn::before { background: var(--ok); }
+  .claim__src {
+    display: none; margin: .55rem 0 0; padding: .7rem .85rem;
+    border-left: 2px solid var(--sc-accent); background: rgba(0,0,0,.28);
+    font-size: .74rem; line-height: 1.55; color: var(--sc-ink-soft);
+  }
+  .claim__src cite { display: block; margin-top: .45rem; font-style: normal; color: var(--sc-ink); }
+  .claim[data-open="1"] .claim__src { display: block; }
+
+  /* ---- layout blocks --------------------------------------------------- */
+  .pad { padding: 8rem 1.35rem; }
+  @media (min-width: 900px) { .pad { padding: 10rem 3.5rem; } }
+  .col { max-width: 38rem; }
+  .col--wide { max-width: 54rem; }
+
+  .hero__grid { position: absolute; inset: 0; }
+  /* The credit now lives at the end of this block (in flow, so it can never
+     collide with the claim button). That makes the block tall enough to run off
+     a short viewport while the stage is display:block and the copy is static.
+     Anchor the copy to the bottom of the stage so the whole stack — credit
+     included — stays on screen at any height. */
+  .hero__copy {
+    position: relative; z-index: 3; padding: 0 1.35rem; max-width: 46rem;
+  }
+  #h-approach .sc-stage {
+    display: flex; flex-direction: column; justify-content: flex-end;
+    padding-bottom: clamp(1.6rem, 4vh, 2.6rem);
+  }
+  @media (min-width: 900px) { .hero__copy { padding: 0 3.5rem; } }
+  /* Sits over the bright parcel map: the accent alone measured 3.97:1,
+     so the kicker carries its own brighter ink plus a shadow. */
+  .hero__kicker {
+    font-size: .7rem; letter-spacing: .2em; text-transform: uppercase;
+    color: #f0ece5; text-shadow: 0 1px 3px rgba(0,0,0,.85); margin: 0 0 1.4rem;
+  }
+  .hero__sub { color: var(--sc-ink-soft); max-width: 34rem; }
+
+  .stat { border-top: 1px solid var(--rule); padding-top: .9rem; }
+  .stat__n {
+    font-size: clamp(2.6rem, 7vw, 4.6rem); line-height: .9; font-weight: 700;
+    font-variant-numeric: tabular-nums; letter-spacing: -.03em;
+  }
+  /* Hero h1 inherits the engine's --xl size (120px), which overflows short
+     viewports. Bind it to viewport HEIGHT as well as width so the peak line
+     always lands inside one screen. */
+  #h-hero {
+    font-size: clamp(2.1rem, min(6.2vw, 7.2vh), 4.3rem);
+    line-height: .92;
+  }
+  .stat__l { font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; color: var(--sc-ink-soft); margin-top: .6rem; }
+  .stats { display: grid; gap: 2.4rem; grid-template-columns: 1fr; margin-top: 3rem; }
+  @media (min-width: 760px) { .stats { grid-template-columns: repeat(3, 1fr); gap: 1.6rem; } }
+
+  /* map stage */
+  .mapstage { position: absolute; inset: 0; overflow: hidden; }
+  .mapstage img { width: 100%; height: 100%; object-fit: cover; object-position: 36% 37%; filter: saturate(.86) brightness(1.02) contrast(1.04); }
+  /* readplate: the map is bright line-art, so type needs its own ground.
+     Sits above the map, below the copy (z-index 3). */
+  /* The plate darkens the map only as much as the type needs. Peaks were
+     .94/.96 over the text column, which flattened the left half of the frame
+     to near-black; text shadows carry the legibility instead. Mobile tunes
+     this further in its own query. */
+  .readplate { position: absolute; inset: 0; z-index: 2; pointer-events: none;
+    background: linear-gradient(90deg, rgba(10,9,8,.82) 0%, rgba(10,9,8,.72) 42%, rgba(10,9,8,.34) 72%, rgba(10,9,8,.14) 100%); }
+  .readplate--strong {
+    background: linear-gradient(90deg, rgba(10,9,8,.85) 0%, rgba(10,9,8,.78) 50%, rgba(10,9,8,.48) 78%, rgba(10,9,8,.22) 100%); }
+
+  /* Type over a half-lit map: the shadow replaces the darkness the plate used
+     to supply, so the words stay readable without burying the map. */
+  .hero__copy .sc-lede, .hero__copy .slug,
+  .hero__copy .hero__kicker, .hero__copy .hero__sub, .hero__copy .sc-display {
+    text-shadow: 0 1px 2px rgba(0,0,0,.95), 0 2px 10px rgba(0,0,0,.85),
+                 0 0 26px rgba(0,0,0,.7);
+  }
+  /* Small uppercase type is the first thing a half-lit map defeats: measured
+     2.41:1 under its own glyphs, which a brighter ink alone cannot carry.
+     The chapter slug gets a narrow plate so it stays a label, not a wash. */
+  .hero__copy .slug {
+    display: inline-flex; align-self: flex-start;
+    padding: .3rem .6rem; border-radius: 3px;
+    background: rgba(10,9,8,.78);
+    backdrop-filter: blur(2px);
+  }
+  .hero__copy .slug span { display: none; }
+  /* On a phone the plate used to be a flat 90% wash over the whole frame, which
+     buried the map it was supposed to sit on. Keep the type ground where the
+     type actually is (top) and let the map read underneath it. */
+  @media (max-width: 899px) {
+    .readplate, .readplate--strong {
+      background: linear-gradient(180deg, rgba(10,9,8,.94) 0%, rgba(10,9,8,.88) 46%, rgba(10,9,8,.55) 72%, rgba(10,9,8,.28) 100%);
+    }
+  }
+
+  /* ---- map legend ---------------------------------------------------------
+     P0: the landfill, the subdivision mesh, Tennessee National Dr and the
+     Tennessee River must each be called out explicitly. Every row carries a
+     distinct SHAPE as well as a colour, so the legend still reads for a
+     colour-blind visitor and in forced-colours mode. */
+  /* The legend lives inside .hero__copy for reading order, but that column is
+     max-width 46rem -- anchoring "right" to it drops the panel on top of the
+     prose (measured ~48,000px2 of overlap at 1280). Anchor to the stage
+     instead so the panel clears the text column entirely. */
+  .legend {
+    position: fixed; z-index: 4; right: 1.35rem;
+    /* The source-ledger bar is a fixed 2.2rem strip pinned to the bottom, so
+       clear its height plus a gutter; 1.35rem alone overlapped it by 24px. */
+    bottom: calc(2.2rem + 1.1rem);
+    max-width: min(20rem, 42vw);
+    background: rgba(10,9,8,.9); border: 1px solid rgba(232,70,42,.35);
+    padding: .85rem .95rem; backdrop-filter: blur(3px);
+  }
+  .legend__t { font-size: .6rem; letter-spacing: .16em; text-transform: uppercase;
+    color: var(--sc-ink-soft); margin: 0 0 .6rem; }
+  .legend__row { display: flex; align-items: flex-start; gap: .6rem; margin-top: .48rem; }
+  .legend__row:first-of-type { margin-top: 0; }
+  .legend__mark { flex: 0 0 22px; width: 22px; height: 14px; margin-top: .1rem; }
+  .legend__label { font-size: .72rem; line-height: 1.32; color: var(--sc-ink); }
+  .legend__label b { display: block; font-size: .73rem; letter-spacing: .01em; }
+  .legend__label span { color: var(--sc-ink-soft); font-size: .67rem; }
+  @media (max-width: 899px) {
+    /* Phone: the legend becomes part of the reading column instead of floating
+       over the map, so it can never cover the geography it describes. */
+    .legend { position: static; max-width: none; margin-top: 1.1rem;
+      right: auto; bottom: auto; backdrop-filter: none;
+      /* The source ledger is fixed to the bottom of the viewport. Measured at
+         390x844 the plate ended at 819px against a ledger starting at 809px,
+         so the last row sat tight under the bar. Reserve real clearance. */
+      margin-bottom: 3rem;
+      /* Compact on a phone: at full desktop padding the copy column measured
+         877px against an 844px viewport, which pushed the chapter slug off the
+         top edge (contrast probe read 2.12:1 on a clipped glyph row). */
+      padding: .6rem .7rem; }
+    .legend__t { margin-bottom: .4rem; }
+    .legend__row { margin-top: .34rem; gap: .5rem; }
+    .legend__mark { flex: 0 0 18px; width: 18px; height: 12px; }
+    .legend__label { font-size: .68rem; line-height: 1.26; }
+    .legend__label b { font-size: .7rem; }
+    .legend__label span { font-size: .63rem; }
+  }
+
+  /* Short phones (measured 360x740: copy column 820px, legend bottom 741px
+     against a 740px viewport, overlapping the ledger by 36px; 320x568 worse).
+     The chapter must keep all four legend rows, so recover the height from
+     leading and padding rather than by dropping content. */
+  @media (max-width: 760px) and (max-height: 800px) {
+    [data-sc-act="pin"] [data-sc-stage] { padding-block: 3.6rem 4.4rem; }
+    .slug { margin-bottom: .9rem; }
+    .hero__sub { margin-top: .8rem; }
+    .sc-lede { line-height: 1.32; }
+    [data-sc-act="pin"] .sc-lede + .sc-lede { margin-top: .55rem; }
+    .legend { margin-top: .8rem; margin-bottom: 2.4rem; padding: .5rem .6rem; }
+    .legend__row { margin-top: .28rem; }
+    /* Trimming leading alone still left the column taller than the stage (772
+       vs 740), and a nested scroller here swallowed the page scroll outright.
+       Pair the keys into two columns and drop the secondary descriptions: the
+       requirement is that each feature is NAMED, and the bold name plus its
+       shape swatch carries that. The prose above still describes each one. */
+    .legend { display: grid; grid-template-columns: 1fr 1fr; gap: .1rem .7rem; }
+    .legend__t { grid-column: 1 / -1; }
+    .legend__row, .legend__row:first-of-type { margin-top: .3rem; }
+    .legend__label span { display: none; }
+  }
+
+  /* evidence rail */
+  .rail { display: flex; gap: 2.2rem; align-items: center; padding: 0 1.35rem; }
+  .rail__lead { flex: none; width: min(30rem, 82vw); }
+  .plate { flex: none; width: min(34rem, 86vw); }
+  .plate img { width: 100%; height: auto; display: block; border: 1px solid var(--rule); }
+  .plate figcaption { margin-top: .8rem; font-size: .72rem; line-height: 1.5; color: var(--sc-ink-soft); }
+  .plate figcaption b { color: var(--sc-ink); font-weight: 400; }
+
+  /* document plates */
+  .docs { display: grid; gap: 1.4rem; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); margin-top: 3rem; }
+  .doc { display: block; text-decoration: none; color: inherit; border: 1px solid var(--rule); padding: .7rem; }
+  .doc:hover, .doc:focus-visible { border-color: var(--sc-accent); }
+  .doc img { width: 100%; height: 11rem; object-fit: cover; object-position: top; display: block; filter: grayscale(1) contrast(1.05); }
+  .doc:hover img { filter: none; }
+  .doc span { display: block; margin-top: .6rem; font-size: .7rem; letter-spacing: .06em; color: var(--sc-ink-soft); }
+
+  /* close */
+  /* Do NOT set height here. .sc-stage (scrollcraft.css) sizes the sticky
+     stage to 100svh, but this stylesheet loads after it and ".close" carries
+     the same specificity, so a height declared here WINS and re-sized the
+     sticky stage to 1125px against a 900px viewport. A sticky box taller than
+     the viewport hangs its own top edge above the screen, and the opening
+     lines of the closing heading went with it -- "Three things, and none of
+     them require a lawyer." rendered as "them require a lawyer."
+     Let the stage keep its own height; only lay the content out.
+     safe center keeps the copy centred while it fits and falls back to
+     start-alignment rather than clipping the top when it does not. */
+  .close { display: flex; flex-direction: column; justify-content: safe center; padding: 4.5rem 1.35rem 0; }
+  @media (min-width: 900px) { .close { padding: 4.5rem 3.5rem 0; } }
+  .acts { display: grid; gap: 1px; background: var(--rule); border: 1px solid var(--rule); margin-top: 2.6rem; }
+  @media (min-width: 820px) { .acts { grid-template-columns: repeat(3, 1fr); } }
+  .act { background: var(--sc-canvas); padding: 1.6rem 1.3rem; text-decoration: none; color: inherit; display: block; }
+  .act:hover, .act:focus-visible { background: var(--sc-surface); }
+  .act b { display: block; font-size: .7rem; letter-spacing: .14em; text-transform: uppercase; color: var(--sc-accent); }
+  .act h3 { margin: .7rem 0 .5rem; font-size: 1.05rem; }
+  .act p { margin: 0; font-size: .82rem; line-height: 1.55; color: var(--sc-ink-soft); }
+  .foot {
+    margin-top: auto; border-top: 1px solid var(--rule); padding: 1.4rem 0 1.6rem;
+    font-size: .7rem; line-height: 1.7; color: var(--sc-ink-soft);
+  }
+  .foot a { color: var(--sc-ink); }
+
+  /* ====================================================================
+     MOBILE (<=760px). Fixes measured at 390x844:
+       1. pinned copy sat at the top with ~60% dead space beneath it
+       2. the fixed bar guillotined display headings mid-scroll
+       3. rail plates bled off both edges with captions cut in half
+       4. the flat 90% readplate turned the parcel map into black mush
+       5. chapter 02 ran long enough to produce text-free frames
+     ==================================================================== */
+  @media (max-width: 760px) {
+    /* 1 — centre pinned copy in the stage instead of pinning it to the top */
+    [data-sc-act="pin"] [data-sc-stage] {
+      display: flex; flex-direction: column; justify-content: center;
+      padding-block: 4.6rem 5.2rem;   /* clear the bar and the ledger rail */
+    }
+    .hero__copy { max-width: none; }
+    .hero__sub { max-width: none; margin-top: 1.1rem; }
+
+    /* 2 — slimmer bar, and it retracts while reading down (see JS below) */
+    .bar { font-size: .62rem; transition: transform .28s cubic-bezier(.2,.7,.3,1); }
+    .bar__mark, .bar__cta { padding: .6rem .8rem; }
+    .bar.is-tucked { transform: translateY(-100%); }
+    @media (prefers-reduced-motion: reduce) {
+      .bar { transition: none; }
+      .bar.is-tucked { transform: none; }
+    }
+
+    /* 3 — one plate at a time. The pan is continuous, so framing depends on the
+       STRIDE: plate width + gap. Set it to exactly 100vw and every plate comes
+       to rest in the same place it started, centred, instead of drifting so the
+       viewport always straddles two half-photos with both captions cut. */
+    /* The rail is shorter than the stage on a phone (one plate, not a wide
+       spread), and the stage does not centre it vertically -- it sat at the top
+       with roughly half the screen empty beneath. Centre the rail in the stage
+       so each photo sits in the middle of the frame. */
+    [data-sc-stage] { display: flex; align-items: center; }
+    .rail { gap: 12vw; padding: 0 6vw; align-items: center; width: 100%; }
+    .rail__lead { width: 88vw; }
+    .plate { width: 88vw; }
+    /* fill the frame: 46vh left roughly half the screen empty under each photo */
+    .plate img { max-height: 58vh; min-height: 38vh; object-fit: cover; }
+    .plate figcaption { margin-top: .6rem; font-size: .7rem; }
+
+    /* 4 — let the map read.
+       Measured: the old flat .88-.90 wash left only ~10% of the map visible,
+       so chapter 2 asked the reader to "look at the map" while hiding it.
+       The copy roams 7%-71% of the stage, so there is no clear band to carve;
+       instead the plate is lifted overall and the type earns its own contrast
+       from a shadow. The legend carries its own opaque panel, so the plate
+       does not need to darken the bottom third for it. */
+    .mapstage img { filter: saturate(.92) brightness(1.1) contrast(1.06); }
+    .readplate, .readplate--strong {
+      background: linear-gradient(180deg,
+        rgba(10,9,8,.80) 0%, rgba(10,9,8,.60) 16%,
+        rgba(10,9,8,.46) 38%, rgba(10,9,8,.44) 62%,
+        rgba(10,9,8,.54) 86%, rgba(10,9,8,.70) 100%);
+    }
+
+    /* tighten vertical rhythm so chapters do not feel stretched */
+    .pad { padding: 5.5rem 1.35rem; }
+    .stats { gap: 1.8rem; margin-top: 2.2rem; }
+    .docs { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+    .doc img { height: 7.5rem; }
+    .close { padding-top: 3.2rem; }
+    .acts { margin-top: 1.8rem; }
+    .act { padding: 1.15rem 1rem; }
+
+    /* the ledger must never cover the reading column */
+    .ledger { width: 100%; font-size: .64rem; }
+    .ledger__list { max-height: 38vh; }
+    /* ...but nothing actually reserved the space, and padding cannot fix it:
+       the closing stage is a pinned act with a fixed height, so pushing the
+       text down just trapped a second element instead of the first. The bar is
+       also pointless at the very end -- its whole job is sourcing the claims
+       above it, and the closing note says so in prose. Let the act that owns
+       the ledger release it, handled in JS below. */
+  }
+
+  /* headings must not start life underneath the fixed bar when linked to */
+  h2[id], h1[id] { scroll-margin-top: 4.5rem; }
+
+  /* ====================================================================
+     A pinned stage taller than the viewport must never be vertically
+     centred. Centring splits the overflow across BOTH edges, pushing the
+     opening lines above the top of the sticky stage where they can never
+     be scrolled into view. This truncated the closing heading
+     "Three things, and none of them require a lawyer." down to
+     "them require a lawyer.", which reads as nonsense.
+     Measured overflow: +248px at 390x844 and +225px at 1440x900, so this
+     is not a phone-only fault. "safe center" centres when the content
+     fits and falls back to start-alignment when it would overflow.
+     ==================================================================== */
+  [data-sc-act="pin"] [data-sc-stage],
+  [data-sc-act="pan"] [data-sc-stage] { justify-content: safe center; }
+</style>
+</head>
+<body>
+
+<span data-sc-progress></span>
+<div class="sc-grain" aria-hidden="true"></div>
+
+<a href="#ch6" class="sc-skip">Skip to what you can do</a>
+
+<header class="bar">
+  <a class="bar__mark" href="/">TN Waste <b>Watch</b></a>
+  <div class="bar__meta">Matlock Bend Class I Landfill · Loudon County, TN · permit SNL530000203</div>
+  <a class="bar__cta" href="#ch6">Take action</a>
+</header>
+
+<main id="top">
+
+  <!-- ========== 1 · RECOGNITION — pin over the real parcel map ========== -->
+  <!-- span MUST exceed 1.0. A pinned act's cue clock is (y - top) / (height - vh);
+       at span 1.0 height === vh, travel clamps to 1px and every cue in the act
+       snaps 0->1 in a single pixel. That is what kept .hero__sub (the paragraph
+       that explains the map) at opacity 0 for the entire scroll. 1.6 gives the
+       sub a real plateau before the chapter hands off. -->
+  <section data-sc-act="pin" data-sc-span="1.6" data-sc-drift="#121110" aria-labelledby="h-hero">
+    <div data-sc-stage>
+      <div class="mapstage" data-sc-parallax="0.12">
+        <img src="assets/map-body.jpg" alt="Loudon County assessor parcel map of the Matlock Bend landfill. The bare, terraced landfill working face sits at centre, bounded on the west by the Tennessee River and ringed on the north and east by dense residential lot lines.">
+      </div>
+      <div class="sc-scrim sc-scrim--vignette" aria-hidden="true"></div>
+      <div class="sc-scrim sc-scrim--lead" aria-hidden="true"></div>
+      <div class="readplate" aria-hidden="true"></div>
+
+      <div class="hero__copy">
+        <p class="hero__kicker" data-sc-cue="0 0.9 0">Loudon County, Tennessee</p>
+        <h1 id="h-hero" class="sc-display sc-display--xl" data-sc-cue="0 0.9 0" data-sc-kinetic="lines">The landfill is growing toward the houses. The permit is already filed.</h1>
+        <p class="sc-body hero__sub" data-sc-cue="0.16 0.9">Every orange line on this map is somebody's property boundary. The bare ground at the center is the working face of the Matlock Bend Class I landfill. Republic Services has submitted Part One of a permit to expand it horizontally.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 2 · THE FILING — flow ========== -->
+  <section class="sc-section pad" data-sc-act="flow" data-sc-drift="#1b1917" aria-labelledby="h-filing">
+    <div class="col col--wide">
+      <p class="slug"><b>Chapter 01</b> The filing <span></span></p>
+
+      <div data-sc-in data-sc-stagger="70">
+        <h2 id="h-filing" class="sc-display sc-display--lg">This is not a proposal. It is an application in progress.</h2>
+
+        <div class="claim" data-claim="Part One of the horizontal expansion permit has been submitted to TDEC">
+          <p class="claim__text sc-body">Part One of the horizontal expansion permit has been submitted. The geotechnical investigation is ongoing and is expected to continue into early 2027, with water quality work to follow. All Army Corps of Engineers jurisdictional requirements are complete, and the hydrogeologic work plan already given to the Commission supports the Part Two submission.</p>
+          <button class="claim__btn" type="button" aria-expanded="false">Show source</button>
+          <div class="claim__src">
+            "On the horizontal expansion permit, Part One has been submitted; the geotechnical investigation is ongoing and expected to continue into early 2027, with water quality work to follow. All Army Corps of Engineers jurisdictional requirements have been completed, with no land-development obstacles identified."
+            <cite>Engineering report, Republic Services, in the minutes of the August 20, 2026 regular meeting, as circulated in the September 17, 2026 Commission packet, p. 8.</cite>
+          </div>
+        </div>
+
+        <div class="claim" data-claim="Loudon County, not Republic Services, is the permit holder">
+          <p class="claim__text sc-body">The county is on the hook. Republic Services operates the site, but the landfill permit is held by Loudon County through this Commission — which is why TDEC asks the county, not the operator, to formally answer for conditions on the ground.</p>
+          <button class="claim__btn" type="button" aria-expanded="false">Show source</button>
+          <div class="claim__src">
+            "TDEC has asked that the permit holder — Loudon County, via the Commission — formally acknowledge the condition, since the landfill permit is held by the County even though Republic operates the site."
+            <cite>Engineering report, in the minutes of the August 20, 2026 regular meeting, September 17, 2026 packet, p. 8.</cite>
+          </div>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div class="stat" data-sc-in>
+          <div class="stat__n"><span data-sc-count="2027" data-sc-count-ms="900">2027</span></div>
+          <div class="stat__l">Geotechnical work expected to run into early</div>
+        </div>
+        <div class="stat" data-sc-in>
+          <div class="stat__n"><span data-sc-count="52.56" data-sc-count-ms="900">52.56</span></div>
+          <div class="stat__l">Deeded acres, parcel 031 047.00, per the county assessor</div>
+        </div>
+        <div class="stat" data-sc-in>
+          <div class="stat__n"><span data-sc-count="10" data-sc-count-ms="900">10</span></div>
+          <div class="stat__l">New gas wells with passive flares being installed in the capping section</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 2b · THE APPROACH — globe to site, then 12 years ==========
+       Imagery is the evidence here, so every frame carries its own capture
+       date and the source credit stays on screen for the whole act. The
+       zoom cascade and the timeline are one pinned act: cutting them apart
+       would unstick the stage between the arrival and the record. ========== -->
+  <section id="h-approach" data-sc-act="pin" data-sc-span="7.2" data-sc-drift="#05070a" aria-label="Approach: from orbit to the fenceline">
+    <div data-sc-stage>
+      <div class="earth">
+        <img class="earth__base" src="assets/earth/zoom-globe.webp" alt="" aria-hidden="true">
+        <img class="earth__l" data-sc-cue="0 0.13 0.04 0.40" src="assets/earth/zoom-globe.webp" alt="North America from orbit.">
+        <img class="earth__l" data-sc-cue="0.08 0.24 0.10 0.40" src="assets/earth/zoom-continent.webp" alt="The eastern United States.">
+        <img class="earth__l" data-sc-cue="0.18 0.33 0.10 0.40" src="assets/earth/zoom-region.webp" alt="East Tennessee, the Valley and Ridge.">
+        <img class="earth__l" data-sc-cue="0.27 0.42 0.10 0.40" src="assets/earth/zoom-county.webp" alt="Loudon County and the Tennessee River corridor.">
+        <img class="earth__l" data-sc-cue="0.36 0.50 0.10 0.40" src="assets/earth/zoom-site.webp" alt="The Matlock Bend landfill site beside the river.">
+        <img class="earth__l" data-sc-cue="0.400 0.446 0.016 0.012" src="assets/earth/tl-2007.webp" alt="The site photographed in 2007, early in the landfill's life.">
+        <img class="earth__l" data-sc-cue="0.446 0.492 0.016 0.012" src="assets/earth/tl-2011.webp" alt="The site photographed on March 12, 2011.">
+        <img class="earth__l" data-sc-cue="0.492 0.538 0.016 0.012" src="assets/earth/tl-2012.webp" alt="The site photographed on May 27, 2012.">
+        <img class="earth__l" data-sc-cue="0.538 0.585 0.016 0.012" src="assets/earth/tl-2014.webp" alt="The site photographed on May 3, 2014.">
+        <img class="earth__l" data-sc-cue="0.585 0.631 0.016 0.012" src="assets/earth/tl-2016-04.webp" alt="The site photographed on April 9, 2016.">
+        <img class="earth__l" data-sc-cue="0.631 0.677 0.016 0.012" src="assets/earth/tl-2016.webp" alt="The site photographed on May 15, 2016.">
+        <img class="earth__l" data-sc-cue="0.677 0.723 0.016 0.012" src="assets/earth/tl-2018-07.webp" alt="The site photographed on July 18, 2018.">
+        <img class="earth__l" data-sc-cue="0.723 0.769 0.016 0.012" src="assets/earth/tl-2018.webp" alt="The site photographed on October 21, 2018.">
+        <img class="earth__l" data-sc-cue="0.769 0.815 0.016 0.012" src="assets/earth/tl-2019.webp" alt="The site photographed on September 4, 2019.">
+        <img class="earth__l" data-sc-cue="0.815 0.862 0.016 0.012" src="assets/earth/tl-2020.webp" alt="The site photographed on May 25, 2020.">
+        <img class="earth__l" data-sc-cue="0.862 0.908 0.016 0.012" src="assets/earth/tl-2021.webp" alt="The site photographed on April 4, 2021.">
+        <img class="earth__l" data-sc-cue="0.908 0.954 0.016 0.012" src="assets/earth/tl-2023-03.webp" alt="The site photographed on March 11, 2023.">
+        <img class="earth__l" data-sc-cue="0.954 1.000 0.016 0.012" src="assets/earth/tl-2023.webp" alt="The site photographed on April 17, 2023.">
+      </div>
+      <div class="earth__shade" aria-hidden="true"></div>
+
+      <!-- Year readout: one per frame, same cue windows as the imagery. -->
+      <div class="earth__clock" aria-hidden="true">
+        <span class="earth__yr" data-sc-cue="0.400 0.446 0.016 0.012">2007<i>TDOT · 1 ft</i></span>
+        <span class="earth__yr" data-sc-cue="0.446 0.492 0.016 0.012">Mar 2011<i>Esri / Microsoft · 0.3 m</i></span>
+        <span class="earth__yr" data-sc-cue="0.492 0.538 0.016 0.012">May 2012<i>USDA NAIP · 1 m</i></span>
+        <span class="earth__yr" data-sc-cue="0.538 0.585 0.016 0.012">May 2014<i>USDA NAIP · 1 m</i></span>
+        <span class="earth__yr" data-sc-cue="0.585 0.631 0.016 0.012">Apr 2016<i>Esri / Maxar · 0.5 m</i></span>
+        <span class="earth__yr" data-sc-cue="0.631 0.677 0.016 0.012">May 2016<i>USDA NAIP · 1 m</i></span>
+        <span class="earth__yr" data-sc-cue="0.677 0.723 0.016 0.012">Jul 2018<i>Esri / Maxar · 0.5 m</i></span>
+        <span class="earth__yr" data-sc-cue="0.723 0.769 0.016 0.012">Oct 2018<i>USDA NAIP · 0.6 m</i></span>
+        <span class="earth__yr" data-sc-cue="0.769 0.815 0.016 0.012">Sep 2019<i>Esri / Maxar · 0.5 m</i></span>
+        <span class="earth__yr" data-sc-cue="0.815 0.862 0.016 0.012">May 2020<i>Esri / Maxar · 0.5 m</i></span>
+        <span class="earth__yr" data-sc-cue="0.862 0.908 0.016 0.012">Apr 2021<i>USDA NAIP · 0.6 m</i></span>
+        <span class="earth__yr" data-sc-cue="0.908 0.954 0.016 0.012">Mar 2023<i>Esri / Maxar · 0.5 m</i></span>
+        <span class="earth__yr" data-sc-cue="0.954 1.000 0.016 0.012">Apr 2023<i>USDA NAIP · 0.6 m</i></span>
+      </div>
+
+      <div class="hero__copy">
+        <p class="slug" data-sc-cue="0 0.97 0"><b>Approach</b> From orbit to the fenceline <span></span></p>
+        <p class="sc-lede" data-sc-cue="0.02 0.16">It is easier to argue about a landfill than to look at one. So look at it.</p>
+        <p class="sc-lede" data-sc-cue="0.14 0.30">East Tennessee. The Valley and Ridge, folded northeast to southwest, and the river running through it.</p>
+        <p class="sc-lede" data-sc-cue="0.30 0.44">Loudon County. The Tennessee River bends west around a peninsula. The pale ground on that peninsula is the landfill.</p>
+        <p class="sc-lede" data-sc-cue="0.44 0.58">This is the same ground photographed thirteen times between 2007 and 2023. Watch the pale area, and watch the trees between it and the water.</p>
+        <p class="sc-lede" data-sc-cue="0.60 0.76">The lined cell and the pond visible in the earliest frames are gone — buried under a single continuous mass that spreads south and west.</p>
+        <div class="claim" data-sc-cue="0.78 0.94" data-claim="The filed expansion adds 19.6 acres on the north side, on ground the applicant's own map marks with streams">
+          <p class="sc-lede claim__text">The expansion now filed adds 19.6 acres on the north side — on ground the applicant's own map marks with streams.</p>
+          <button class="claim__btn" type="button" aria-expanded="false">Show source</button>
+          <div class="claim__src">
+            Legend: “APPROXIMATE PROPOSED SOLID WASTE BOUNDARY (SUBJECT TO DESIGN AND APPROVALS)”. Labels: “PROPOSED EXPANSION (19.6 ACRES)”, “CURRENT PERMITTED LANDFILL (47.6 ACRES)”.
+            <cite>Figure 1, Part I Application Exhibit, Civil &amp; Environmental Consultants for Republic Services, March 2026, in the Loudon County Solid Waste Disposal Commission packet of June 18, 2026, p.10.</cite>
+          </div>
+        </div>
+        <p class="earth__credit">Satellite and aerial imagery: Tennessee Department of Transportation via TN GIS (2007); USDA Farm Service Agency, National Agriculture Imagery Program (public domain), accessed via Microsoft Planetary Computer; and Esri World Imagery Wayback (Microsoft, Maxar). Each frame is labelled with its own capture date. Site location from the TDEC solid-waste permit.</p>
+      </div>
+
+      <script>
+        (function () {
+          var earth = document.currentScript.closest('.earth');
+          var base = earth.querySelector('.earth__base');
+          var layers = [].slice.call(earth.querySelectorAll('.earth__l'));
+          var last = '';
+          function sync() {
+            var best = null, top = 0;
+            layers.forEach(function (l) {
+              var o = +getComputedStyle(l).opacity;
+              if (o > top) { top = o; best = l; }
+            });
+            if (best && best.currentSrc !== last && top > 0.55) {
+              last = best.currentSrc; base.src = best.src;
+            }
+            requestAnimationFrame(sync);
+          }
+          requestAnimationFrame(sync);
+        })();
+      </script>
+
+    </div>
+  </section>
+
+  <!-- ========== 3 · THE PEAK — pin on the map, longest span ========== -->
+  <section id="h-peak" data-sc-act="pin" data-sc-span="3.2" data-sc-drift="#0d0c0b" aria-label="Chapter 2: what is next to it">
+    <div data-sc-stage>
+      <div class="mapstage" data-sc-parallax="0.2">
+        <img src="assets/map-body.jpg" alt="The same parcel map, showing the landfill working face immediately adjacent to platted residential streets to the north and east.">
+      </div>
+      <div class="sc-scrim sc-scrim--bottom" aria-hidden="true"></div>
+      <div class="sc-scrim sc-scrim--vignette" aria-hidden="true"></div>
+      <div class="readplate readplate--strong" aria-hidden="true"></div>
+
+      <div class="hero__copy">
+        <p class="slug" data-sc-cue="0 0.96 0"><b>Chapter 02</b> What is next to it <span></span></p>
+        <p class="sc-lede" data-sc-cue="0.04 0.30">Look at the map behind this text. The pale terraced ground is the landfill.</p>
+        <p class="sc-lede" data-sc-cue="0.26 0.54">The orange mesh pressing against it on the north and east is not forest. It is subdivided residential lots, street by street, already platted.</p>
+        <p class="sc-lede" data-sc-cue="0.50 0.78">On the west, the Tennessee River. This is the shape of the decision: a Class I landfill with a river on one side and neighborhoods on the other, applying to grow sideways.</p>
+        <p class="sc-lede" data-sc-cue="0.74">The expansion permit does not need anyone's vote to be filed. It is filed.</p>
+
+        <!-- The legend is position:fixed, so a cue with no exit leaves it
+             painted over every chapter that follows: measured at full opacity
+             past this act's end, covering the photo rail's captions. Give it a
+             close so it leaves with the map it annotates. -->
+        <div class="legend" data-sc-cue="0.02 0.97 0.02">
+          <p class="legend__t">What you are looking at</p>
+
+          <div class="legend__row">
+            <svg class="legend__mark" viewBox="0 0 22 14" aria-hidden="true" focusable="false">
+              <path d="M2 11 L6 4 L12 2 L19 6 L17 12 Z" fill="rgba(226,208,178,.5)" stroke="#e8d3a9" stroke-width="1.4"/>
+            </svg>
+            <span class="legend__label"><b>The landfill working face</b>
+              <span>Pale terraced ground at the center</span></span>
+          </div>
+
+          <div class="legend__row">
+            <svg class="legend__mark" viewBox="0 0 22 14" aria-hidden="true" focusable="false">
+              <g stroke="#f3a03c" stroke-width="1.2" fill="none">
+                <path d="M1 3 H21 M1 7 H21 M1 11 H21 M5 1 V13 M11 1 V13 M17 1 V13"/>
+              </g>
+            </svg>
+            <span class="legend__label"><b>Platted residential lots</b>
+              <span>Orange mesh, north and east</span></span>
+          </div>
+
+          <div class="legend__row">
+            <svg class="legend__mark" viewBox="0 0 22 14" aria-hidden="true" focusable="false">
+              <path d="M3 13 C7 9, 6 5, 10 1" stroke="#e8d3a9" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+              <path d="M3 13 C7 9, 6 5, 10 1" stroke="#7a6a4e" stroke-width=".8" fill="none" stroke-dasharray="2 2"/>
+            </svg>
+            <span class="legend__label"><b>Tennessee National Dr</b>
+              <span>Road, running north&ndash;south on the east side</span></span>
+          </div>
+
+          <div class="legend__row">
+            <svg class="legend__mark" viewBox="0 0 22 14" aria-hidden="true" focusable="false">
+              <path d="M2 1 C6 5, 2 9, 6 13" stroke="#4d90b8" stroke-width="5" fill="none" stroke-linecap="round" opacity=".85"/>
+            </svg>
+            <span class="legend__label"><b>Tennessee River</b>
+              <span>Wide water band along the west edge</span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 4 · THE EVIDENCE — pan rail of real site photos ========== -->
+  <section data-sc-act="pan" data-sc-span="2.8" data-sc-drift="#1b1917" aria-labelledby="h-evidence">
+    <div data-sc-stage>
+      <div class="rail" data-sc-pan="0.06">
+        <div class="rail__lead">
+          <p class="slug"><b>Chapter 03</b> The eastern slope <span></span></p>
+          <h2 id="h-evidence" class="sc-display sc-display--md">The inspector came in July. He came back in August.</h2>
+          <p class="sc-body">TDEC issued Areas of Concern for exposed waste and for flagging along the east slope, both tied to the availability of soil. The landfill manager submitted these photographs of that slope into the public record on September 2, 2026.</p>
+        </div>
+
+        <figure class="plate">
+          <img src="assets/slope-1.jpg" width="553" height="741" alt="A bulldozer sits on the crest of a bare earthen slope at the landfill under a clear sky, with loose reddish-brown soil and scattered stone covering the foreground.">
+          <figcaption><b>Eastern slope, looking up-grade.</b> Bare soil, equipment working the crest. Submitted by the landfill manager, September 2, 2026.</figcaption>
+        </figure>
+
+        <figure class="plate">
+          <img src="assets/slope-2.jpg" width="545" height="741" alt="A wide bare slope of reddish-brown soil with horizontal track marks across its face and a band of green weeds growing along the lower edge.">
+          <figcaption><b>Slope face.</b> Track-marked bare ground with vegetation only at the toe. Same submission.</figcaption>
+        </figure>
+
+        <figure class="plate">
+          <img src="assets/slope-3.jpg" width="561" height="734" alt="A further view of the bare landfill slope with equipment at the top edge against a blue sky.">
+          <figcaption><b>Third view, same date.</b> These images accompany the Areas of Concern discussion in the packet.</figcaption>
+        </figure>
+
+        <div class="plate">
+          <div class="claim" data-claim="TDEC issued Areas of Concern for exposed waste and east-slope flagging">
+            <p class="claim__text sc-body">Cover soil is the whole dispute. The site hauls roughly 400 to 600 cubic yards of soil a week for daily cover, but that hauled material cannot legally be used for final cover, which requires a certified two-foot compacted layer, geosynthetics and a further foot of topsoil. The on-site borrow soil that does conform is not accessible pending a grading permit.</p>
+            <button class="claim__btn" type="button" aria-expanded="false">Show source</button>
+            <div class="claim__src">
+              "the site is currently hauling approximately 400–600 cubic yards of soil per week for daily cover. He clarified that this hauled material cannot be used for intermediate or final cover on capped slopes, which require a certified two-foot compacted conformance layer, geosynthetics, and an additional foot of topsoil meeting TDEC specifications."
+              <cite>Engineering report, minutes of the August 20, 2026 meeting, September 17, 2026 packet, p. 8.</cite>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 5 · THE VACUUM — flow ========== -->
+  <section class="sc-section pad" data-sc-act="flow" data-sc-drift="#121110" aria-labelledby="h-vacuum">
+    <div class="col col--wide">
+      <p class="slug"><b>Chapter 04</b> Who is minding it <span></span></p>
+
+      <div data-sc-in data-sc-stagger="70">
+        <h2 id="h-vacuum" class="sc-display sc-display--lg">The chair resigned, and he was also the man holding the records.</h2>
+
+        <div class="claim" data-claim="Chair Adam Waller resigned from the Solid Waste Disposal Commission">
+          <p class="claim__text sc-body">On September 17, 2026 the Commission opened by announcing that notice had arrived the previous day: Adam Waller had resigned from the Solid Waste Disposal Commission. He had held two jobs at once — chair, and the person in charge of the Commission's public records.</p>
+          <button class="claim__btn" type="button" aria-expanded="false">Show source</button>
+          <div class="claim__src">
+            "so we um got yesterday we got a notice from um from Adam Waller that he has resigned from the commission. So we need um we need to elect a a chair." [00:06:39] · "Mr. Waller was both he was the chair and in charge of the public records." [00:17:46]
+            <cite>Loudon County Solid Waste Disposal Commission, regular meeting, September 17, 2026, official livestream recording. Auto-generated captions; approved minutes pending. This site reports only that the resignation stated at this meeting is from the Solid Waste Disposal Commission. Whether it affects any other office he holds is not established by this record and is not claimed here.</cite>
+          </div>
+        </div>
+
+        <div class="claim" data-claim="A new chair was elected the same night; three other posts left vacant">
+          <p class="claim__text sc-body">Commissioner Ross was nominated and elected chair the same night, on a motion by Gary with a second from Tyler, Ross abstaining and no votes against. Vice chair, secretary and a replacement public records officer were all left unfilled — the incoming chair said she wanted to define the records job before asking anyone to take it.</p>
+          <button class="claim__btn" type="button" aria-expanded="false">Show source</button>
+          <div class="claim__src">
+            "I'd like to nominate you." / "I second that." [00:07:00] · "but we have a motion from Gary and second from from Tyler." [00:07:10] · "Um, actually, not tonight. Um, because I need to talk to some people" [00:09:34] · "before I would do anything like that is that I would need to know exactly what I'm asking someone to do" [00:18:02]
+            <cite>Same meeting recording. Auto-generated captions; approved minutes pending.</cite>
+          </div>
+        </div>
+
+        <div class="claim" data-claim="A citizen said the chair election was roughly five months overdue">
+          <p class="claim__text sc-body">During public comment a citizen said the election was about five months late, that the Commission's own procedures called for it in April, and that the February through May minutes contain no mention of one. The chair acknowledged the point and committed to keeping to the calendar.</p>
+          <button class="claim__btn" type="button" aria-expanded="false">Show source</button>
+          <div class="claim__src">
+            "Why are we doing the election in the month of September when according to the procedures and polic[y] that should have been done in April." [00:08:45] · "I went back and looked through all of the meeting minutes for February, March, April, and May. There's no mention of an election for chairman." [00:08:51] · "in the future we will try to keep on keep to the calendar." [00:09:23]
+            <cite>Same meeting recording. Auto-generated captions; approved minutes pending.</cite>
+          </div>
+        </div>
+
+        <div class="claim" data-claim="A public records request has been outstanding more than 60 days">
+          <p class="claim__text sc-body">A resident's public records request has now been outstanding more than sixty days. At the September meeting the Commission could not give a date for it.</p>
+          <button class="claim__btn" type="button" aria-expanded="false">Show source</button>
+          <div class="claim__src">
+            "The request has now been outstanding more than 60 days; Ms. Ross indicated she would need to confirm with Chairman Waller and Ms. Murphy regarding the timeline given the size and complexity of the request."
+            <cite>Public records request follow-up, minutes of the August 20, 2026 meeting, September 17, 2026 packet, p. 9.</cite>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="sc-label" style="margin-top:4rem">The documents this page is built from</h3>
+      <div class="docs">
+        <a class="doc" href="https://raw.githubusercontent.com/mfethe1/loudoun-landfill-research/main/pdfs/20260917_LCSWDC_Packet.pdf">
+          <img src="assets/packet-p1-01.jpg" alt="First page of the September 17, 2026 Commission meeting packet.">
+          <span>September 17, 2026 meeting packet — 39 pages (PDF)</span>
+        </a>
+        <a class="doc" href="https://raw.githubusercontent.com/mfethe1/loudoun-landfill-research/main/pdfs/20260917_LCSWDC_Packet.pdf">
+          <img src="assets/ops-report-11.jpg" alt="Republic Services monthly operations report for Matlock Bend Landfill.">
+          <span>Republic Services monthly operations report (PDF)</span>
+        </a>
+        <a class="doc" href="https://raw.githubusercontent.com/mfethe1/loudoun-landfill-research/main/pdfs/20260716_LCSWDC_ApprovedMinutes.pdf">
+          <img src="assets/exhibit-b-38.jpg" alt="Exhibit page from the Commission packet.">
+          <span>July 16, 2026 approved minutes (PDF)</span>
+        </a>
+        <a class="doc" href="https://www.youtube.com/live/Ny6e0-il2Gk">
+          <img src="assets/aoc-photos-24.jpg" alt="Packet page containing the eastern slope photographs.">
+          <span>September 17, 2026 meeting recording (video)</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 6 · COMMITMENT — pin, last element on the page ========== -->
+  <section id="ch6" data-sc-act="pin" data-sc-span="1.25" data-sc-drift="#121110" aria-labelledby="h-close">
+    <div data-sc-stage class="close">
+      <p class="slug" data-sc-cue="0.04"><b>Chapter 05</b> What you can actually do <span></span></p>
+      <h2 id="h-close" class="sc-display sc-display--lg" data-sc-cue="0.06" data-sc-kinetic="lines">Three things, and none of them require a lawyer.</h2>
+
+      <div class="acts" data-sc-cue="0.1" data-sc-rise="0">
+        <a class="act" href="https://loudoncounty-tn.gov/events/">
+          <b>01 — Show up</b>
+          <h3>Go to the next Commission meeting</h3>
+          <p>Public comment happens at the start. The county publishes the schedule. The room is small, and attendance is visible in the record.</p>
+        </a>
+        <a class="act" href="https://comptroller.tn.gov/office-functions/open-records-counsel/office-of-open-records-counsel/policies---guidelines.html">
+          <b>02 — Ask</b>
+          <h3>File a public records request</h3>
+          <p>Tennessee law gives you the right to inspect these records. The Commission's records officer post is currently vacant, so send requests to the chair and copy the county open records office.</p>
+        </a>
+        <a class="act" href="/cdn-cgi/l/email-protection#09454a5a5e4d4a275b667a7a496e64686065276a6664367a7c6b636c6a7d345e7b607d7d6c672c3b39797c6b65606a2c3b396a6664646c677d2c3b392c4c3b2c31392c303d2c3b3944687d65666a622c3b394b6c676d">
+          <b>03 — Write</b>
+          <h3>Submit written public comment</h3>
+          <p>Written comment goes into the packet and becomes part of the permanent record, whether or not you can attend in person.</p>
+        </a>
+      </div>
+
+      <footer class="foot">
+        <p><b>TN Waste Watch</b> — an independent citizen accountability project. Not affiliated with Loudon County, the Solid Waste Disposal Commission, Republic Services, or TDEC.</p>
+        <p>Facility: Matlock Bend Class I Sanitary Landfill, Matlock Bend Road, Loudon County, Tennessee. TDEC permit SNL530000203. Parcel 031 047.00, owner of record: Loudon County Solid Waste Disposal Commission.</p>
+        <p>Every factual claim above carries its source. Meeting-recording quotations are from auto-generated captions and are labelled as such; approved minutes supersede them when published. Where a figure spoken aloud could not be verified against a document, it is not printed here. <a href="https://www.youtube.com/live/Ny6e0-il2Gk">Watch the September 17, 2026 meeting</a>.</p>
+        <p>Page last verified September 18, 2026.</p>
+      </footer>
+    </div>
+  </section>
+
+</main>
+
+<!-- signature move: the source ledger -->
+<aside class="ledger" id="ledger" aria-live="polite">
+  <button class="ledger__head" type="button" aria-expanded="false" aria-controls="ledger-list">
+    Source ledger <b><span id="lg-n">0</span>/<span id="lg-t">0</span></b> claims sourced <i class="ledger__mark" aria-hidden="true"></i>
+  </button>
+  <ul class="ledger__list" id="ledger-list"></ul>
+</aside>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="scrollcraft.js"></script>
+<script>
+/* ---- mobile pacing -------------------------------------------------------
+   Span values are authored for a wide screen. On a phone the same span covers
+   far more scroll per line of text, which produced frames with no type on them
+   at all (chapter 02 was the worst). Shorten the pinned acts before mount so
+   every frame carries a cue. Must run BEFORE ScrollCraft.mount reads the DOM.
+------------------------------------------------------------------------- */
+(function () {
+  if (!window.matchMedia || !window.matchMedia('(max-width: 760px)').matches) return;
+  /* h-hero was 0.85 here. Any pinned span <= 1.0 collapses the act's cue clock
+     to a single pixel (travel = height - vh), so the hero paragraph never
+     reached opacity 1 on a phone either. 1.45 is the shortest span that still
+     gives it a plateau. */
+  var spans = { 'h-hero': '1.45', 'h-peak': '1.9', 'h-evidence': '1.9', 'h-close': '1.1' };
+  Array.prototype.forEach.call(document.querySelectorAll('[data-sc-span]'), function (s) {
+    var key = s.getAttribute('aria-labelledby');
+    if (key && spans[key]) s.setAttribute('data-sc-span', spans[key]);
+  });
+
+  /* The engine pans the rail LINEARLY across the chapter. On a wide screen that
+     is fine -- several plates share the frame. On a phone only one plate fits,
+     so a linear pan means the viewport spends most of its time straddling two
+     half-photos with both captions cut (measured: 32 of 41 sampled frames had
+     no fully-visible plate).
+
+     Removing data-sc-pan detaches the rail from the engine's transform while
+     leaving the section pinned (the engine pins on act="pan" regardless). The
+     driver below then advances the rail in STEPS: it rests with one plate
+     centred, moves briskly to the next, and rests again. */
+  var rail = document.querySelector('[data-sc-pan]');
+  if (rail) rail.removeAttribute('data-sc-pan');
+})();
+
+ScrollCraft.mount(document.body);
+
+/* ---- mobile: stepped photo rail ------------------------------------------
+   Drives the rail the engine no longer owns (data-sc-pan removed above).
+   Progress through the chapter maps to a plate INDEX rather than a continuous
+   offset: each plate holds centred for most of its slice, then the rail moves
+   briskly to the next. One photo, one caption, one idea at a time.
+------------------------------------------------------------------------- */
+(function () {
+  var section = document.querySelector('[data-sc-act="pan"]');
+  var rail = section && section.querySelector('.rail');
+  if (!rail || !window.matchMedia) return;
+  var mq = window.matchMedia('(max-width: 760px)');
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
+  var ticking = false;
+  /* Tracks whether THIS handler is the one currently driving the rail, so the
+     desktop branch can release its own transform exactly once instead of
+     stamping on the engine's every frame. */
+  var ownsTransform = false;
+
+  /* fraction of each slice spent moving; the rest is a hold */
+  var MOVE = 0.42;
+
+  function ease(t) {                       /* smoothstep, zero velocity at rest */
+    return t * t * (3 - 2 * t);
+  }
+
+  function update() {
+    ticking = false;
+    /* Above the phone breakpoint the rail belongs to the scrollcraft engine,
+       which writes its own translate every frame. Clearing the transform here
+       ran on every scroll event and wiped that write before it could paint, so
+       the rail never moved and every plate after the first was unreachable --
+       two photographs and a sourced quote that no desktop reader could ever
+       see. Hand the rail back instead of zeroing it: only release the
+       transform once, on the transition out of the phone layout, so this
+       handler leaves no residue behind for the engine to fight. */
+    if (!mq.matches) {
+      if (ownsTransform) { rail.style.transform = ''; ownsTransform = false; }
+      return;
+    }
+    ownsTransform = true;
+
+    var kids = rail.children;
+    var n = kids.length;
+    if (n < 2) return;
+
+    var r = section.getBoundingClientRect();
+    var travel = Math.max(section.offsetHeight - window.innerHeight, 1);
+    var p = Math.min(1, Math.max(0, -r.top / travel));
+
+    /* map progress onto slices, one per transition between plates */
+    var slices = n - 1;
+    var x = p * slices;
+    var i = Math.min(slices - 1, Math.floor(x));
+    var f = x - i;
+    var t = reduce.matches ? (f > 0 ? 1 : 0)
+                           : (f <= MOVE ? ease(f / MOVE) : 1);
+
+    /* offset that CENTRES plate k in the viewport */
+    function restFor(k) {
+      var el = kids[k];
+      return el.offsetLeft - rail.offsetLeft
+             - (window.innerWidth - el.offsetWidth) / 2;
+    }
+    var from = restFor(i), to = restFor(i + 1);
+    var off = from + (to - from) * t;
+
+    rail.style.transform = 'translate3d(' + (-off).toFixed(2) + 'px,0,0)';
+  }
+
+  window.addEventListener('scroll', function () {
+    if (!ticking) { ticking = true; window.requestAnimationFrame(update); }
+  }, { passive: true });
+  window.addEventListener('resize', update);
+  mq.addEventListener && mq.addEventListener('change', update);
+  update();
+})();
+
+/* ---- mobile: retract the bar while reading down --------------------------
+   The fixed bar is only 2.4rem tall but it still cut display headings in half
+   as they scrolled past. Tuck it away on downward scroll, bring it straight
+   back on any upward scroll so the call to action is never more than a flick
+   away. Desktop keeps the bar permanently visible.
+------------------------------------------------------------------------- */
+(function () {
+  var bar = document.querySelector('.bar');
+  if (!bar || !window.matchMedia) return;
+  var mq = window.matchMedia('(max-width: 760px)');
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
+  var last = window.scrollY, ticking = false;
+
+  function update() {
+    ticking = false;
+    if (!mq.matches || reduce.matches) { bar.classList.remove('is-tucked'); return; }
+    var y = window.scrollY;
+    if (y < 120) { bar.classList.remove('is-tucked'); last = y; return; }
+    if (Math.abs(y - last) < 8) return;
+    bar.classList.toggle('is-tucked', y > last);
+    last = y;
+  }
+  window.addEventListener('scroll', function () {
+    if (!ticking) { ticking = true; window.requestAnimationFrame(update); }
+  }, { passive: true });
+})();
+
+/* ---- the source ledger ---------------------------------------------------
+   Every factual claim on this page is a <div class="claim"> carrying its own
+   citation. Scrolling past one stamps it into a running ledger in the corner,
+   so by the footer the visitor has an itemised list of what they were told and
+   what each statement rests on. Claims also open in place on click.
+-------------------------------------------------------------------------- */
+(function () {
+  var claims = Array.prototype.slice.call(document.querySelectorAll('.claim'));
+  var list   = document.getElementById('ledger-list');
+  var nEl    = document.getElementById('lg-n');
+  var tEl    = document.getElementById('lg-t');
+  var panel  = document.getElementById('ledger');
+  var head   = panel.querySelector('.ledger__head');
+  var seen   = 0;
+
+  tEl.textContent = claims.length;
+
+  /* The bar is fixed to the bottom of the viewport for the whole document, but
+     its job -- telling the reader how many claims above carry a source -- is
+     finished once the closing section is reached, and there it simply covers
+     the closing note. The stage is a pinned act with a fixed height, so no
+     amount of padding frees that text. Retire the bar when the last section is
+     substantially in view, and bring it back on the way up. */
+  var closing = document.querySelector('.close') || document.querySelector('.foot');
+  if (closing && 'IntersectionObserver' in window) {
+    new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        var done = e.isIntersecting && e.intersectionRatio > 0.5;
+        panel.setAttribute('data-retired', done ? '1' : '0');
+        if (done) {
+          panel.setAttribute('data-open', '0');
+          head.setAttribute('aria-expanded', 'false');
+        }
+      });
+    }, { threshold: [0, 0.5, 0.75] }).observe(closing);
+  }
+
+  head.addEventListener('click', function () {
+    var open = panel.getAttribute('data-open') === '1';
+    panel.setAttribute('data-open', open ? '0' : '1');
+    head.setAttribute('aria-expanded', String(!open));
+    /* the caret is drawn in CSS and flipped by [data-open]; writing a glyph
+       here would both reintroduce a non-ASCII symbol and defeat that rule. */
+  });
+
+  claims.forEach(function (c, i) {
+    var btn = c.querySelector('.claim__btn');
+    var src = c.querySelector('.claim__src');
+    var id  = 'src-' + i;
+    src.id = id;
+    btn.setAttribute('aria-controls', id);
+
+    btn.addEventListener('click', function () {
+      var open = c.getAttribute('data-open') === '1';
+      c.setAttribute('data-open', open ? '0' : '1');
+      btn.setAttribute('aria-expanded', String(!open));
+      btn.lastChild.textContent = open ? 'Show source' : 'Hide source';
+    });
+  });
+
+  function stamp(c) {
+    if (c.dataset.stamped) return;
+    c.dataset.stamped = '1';
+    c.classList.add('is-passed');
+    seen += 1;
+    nEl.textContent = seen;
+    var li = document.createElement('li');
+    li.innerHTML = '<b>' + String(seen).padStart(2, '0') + '.</b> ' + c.getAttribute('data-claim');
+    list.appendChild(li);
+  }
+
+  if (!('IntersectionObserver' in window)) {
+    claims.forEach(stamp);
+    return;
+  }
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) { if (e.isIntersecting) { stamp(e.target); io.unobserve(e.target); } });
+  }, { rootMargin: '0px 0px -35% 0px' });
+  claims.forEach(function (c) { io.observe(c); });
+})();
+</script>
+</body>
+</html>

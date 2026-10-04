@@ -1,0 +1,1353 @@
+<!doctype html>
+<html class="no-js tn-html" lang="en">
+    <head>
+        <title>Lab Certification Program</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        
+        
+            <meta name="description" content="Lab Certification Program, Tennessee Department of Environment and Conservation, Conservation, Environment, TDEC
+"/>
+        
+        
+            <meta name="url" content="https://www.tn.gov/environment/program-areas/wr-water-resources/water-quality/drinking-water-redirect/lab-certification-program.html"/>
+        
+        
+            <meta name="lastModified" content="16 Jan 2026 12:59:55 CST"/>
+        
+        
+        
+            <meta name="pageDepartment" content="environment"/>
+        
+        
+            <meta name="pageDivision" content="program-areas"/>
+        
+        
+        
+        
+        
+            <meta name="pagePath" content="/content/tn/environment/program-areas/wr-water-resources/water-quality/drinking-water-redirect/lab-certification-program"/>
+        
+        
+
+        
+
+        
+            <meta property="og:title" content="Lab Certification Program"/>
+        
+        
+            <meta property="og:description" content="Lab Certification Program, Tennessee Department of Environment and Conservation, Conservation, Environment, TDEC
+"/>
+        
+        
+            <meta property="og:url" content="https://www.tn.gov/environment/program-areas/wr-water-resources/water-quality/drinking-water-redirect/lab-certification-program.html"/>
+        
+        
+
+            <meta name="twitter:card" content="summary_large_image"/>
+        
+            <meta name="twitter:title" content="Lab Certification Program"/>
+        
+        
+            <meta name="twitter:description" content="Lab Certification Program, Tennessee Department of Environment and Conservation, Conservation, Environment, TDEC
+"/>
+        
+        
+            <meta name="twitter:url" content="https://www.tn.gov/environment/program-areas/wr-water-resources/water-quality/drinking-water-redirect/lab-certification-program.html"/>
+        
+        
+
+        
+
+        <link rel="shortcut icon" href="/etc/clientlibs/tncore/main/img/favicon.ico"/>
+
+        <link rel="canonical" href="https://www.tn.gov/environment/program-areas/wr-water-resources/water-quality/drinking-water-redirect/lab-certification-program.html"/>
+
+        <!-- DTM Analytics Datalayer -->
+
+        <script>
+
+
+            var digitalData = {
+                page: {
+                    pageInfo: {
+                        pageName: "environment:program-areas:wr-water-resources:water-quality:drinking-water-redirect:lab-certification-program",
+                        securePage: "false",
+                        sysEnv: "Desktop",
+                        deptName: "environment",
+                        siteSection: "program-areas",
+                        siteSubSection: "wr-water-resources",
+                        pageType:"",
+                        rsidValue: "oirtn"
+
+                    }
+                }
+            };
+        </script>
+
+        <script src="//assets.adobedtm.com/f213d7ed4603/b5fbb0638724/launch-5b3fa8e23e9e.min.js" async></script>
+
+        
+        
+    
+<link rel="stylesheet" href="/etc/clientlibs/tncore/main.min.f53b1cb66edbbb1f9264be1e283b69a9.css" type="text/css">
+
+
+
+        
+            
+    
+<link rel="stylesheet" href="/etc/clientlibs/tn-sites/tngov.min.a18e62a3f815b11550a3feee90159096.css" type="text/css">
+
+
+
+        
+
+        
+
+        
+
+
+
+
+
+
+
+
+        
+
+        
+    </head>
+    <body class="tngov  " data-selectors='[]' data-template="leftNav">
+        <a class="visually-hidden-focusable skip-to-main" href="#main">Skip to Main Content</a>
+
+        <noindex>
+            <div>
+
+    
+
+</div>
+            <div><header id="header">
+	
+		<div>
+
+
+
+
+    
+        
+        
+        <div class="newpar new section">
+
+</div>
+
+    
+        
+        
+        <div class="par iparys_inherited">
+
+    
+    
+    
+    
+        
+        
+        <div class="tn-headercoveo">
+    <div class="container">
+        <div class="row center-block top-nav">
+            <div class="col-auto me-auto">
+                <a class="logo" id="header-logo" href="https://www.tn.gov/" data-logo="state-government" style="background-image: url('/etc/clientlibs/tncore/main/img/logos/tn-logo.png')" aria-label="View home page">
+                </a>
+            </div>
+            <div class="col-auto">
+                <a class="search-all icon-home-1 text-right" href="https://www.tn.gov/">Go to TN.gov</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row center-block agency">
+        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 columns title">
+            <a href="https://www.tn.gov/environment.html">
+                <img src="/content/dam/headers/environment.png" alt="Tennessee State Government, Environment and Conservation logo" id="entity-name" data-pin-nopin="true"/>
+            </a>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 columns text-right">
+            <div class="tn-headersearchcoveo">
+
+<div>
+
+<script type="module" src="https://static.cloud.coveo.com/atomic/v2.42/atomic.esm.js">
+</script>
+<script type="module">
+
+import {loadContextActions, buildTab} from 'https://static.cloud.coveo.com/atomic/v2.42/headless/headless.esm.js';
+
+(async () => {
+
+    const searchHubStripped = "TNGov".trim();
+    const context = {};
+    context.userdiv = "";
+    context.userdept = "environment";
+
+    await customElements.whenDefined('atomic-search-interface');
+    const searchInterface = document.querySelector('#searchbox');
+    searchInterface.setAttribute('search-hub', searchHubStripped);
+
+    //Adding for Context to be used for Query Suggestions
+    const preProcessQuerySuggestionsRequest = (request) => {
+        if (context.userdiv) {
+            const body = JSON.parse(request.body);
+            body.mlParameters = {
+                filters: {
+                    c_context_userdept: context.userdept,
+                    c_context_userdiv: context.userdiv
+                }
+            };
+            request.body = JSON.stringify(body);
+        } else if (context.userdept) {
+            const body = JSON.parse(request.body);
+            body.mlParameters = {
+                filters: {
+                    c_context_userdept: context.userdept
+                }
+            };
+            request.body = JSON.stringify(body);
+        }
+        return request;
+    };
+
+    const orgId = "tennesseestategovernmentproduction6po4m5b2".trim();
+
+    await searchInterface.initialize({
+        accessToken: "eyJhbGciOiJIUzI1NiJ9.eyJzZWFyY2hIdWIiOiJUTkdvdiIsInY4Ijp0cnVlLCJ0b2tlbklkIjoidGk1cHo1emRjbmMzbjJqYW5pY3I0aDJldHUiLCJvcmdhbml6YXRpb24iOiJ0ZW5uZXNzZWVzdGF0ZWdvdmVybm1lbnRwcm9kdWN0aW9uNnBvNG01YjIiLCJ1c2VySWRzIjpbeyJ0eXBlIjoiVXNlciIsIm5hbWUiOiJhbm9ueW1vdXNfdXNlckBhbm9ueW1vdXMuY292ZW8uY29tIiwicHJvdmlkZXIiOiJFbWFpbCBTZWN1cml0eSBQcm92aWRlciJ9XSwicm9sZXMiOlsicXVlcnlFeGVjdXRvciJdLCJpc3MiOiJTZWFyY2hBcGkiLCJleHAiOjE3OTExOTU3MjQsImlhdCI6MTc5MTEwOTMyNH0.aKgLQ7d-Swu8kvQeVb2MF5d24rxUFe_OaopY06RtYV8".trim(),
+        organizationId: orgId,
+        organizationEndpoints: await searchInterface.getOrganizationEndpoints(orgId),
+        renewAccessToken: function() {
+            location.reload();
+        },
+        preprocessRequest: (request) => {
+            if (request.url.indexOf('querySuggest') >= 0) {
+                return preProcessQuerySuggestionsRequest(request);
+            }
+            return request;
+        }
+    });
+
+    searchInterface.i18n.addResourceBundle('en', 'translation', {
+        search: "Search Environment".trim(),
+    });
+
+    const engine = searchInterface.engine;
+    engine.dispatch(loadContextActions(engine).setContext(context));
+})();
+</script>
+
+<atomic-search-interface id="searchbox">
+  <atomic-search-box clear-filters="false" redirection-url="/environment/search-results.html" .trim()>
+
+    <atomic-search-box-recent-queries max-with-query="0" max-without-query="4">
+    </atomic-search-box-recent-queries>
+
+    <atomic-search-box-query-suggestions>
+    </atomic-search-box-query-suggestions>
+
+  </atomic-search-box>
+</atomic-search-interface>
+</div>
+
+</div>
+        </div>
+    </div>
+
+    <div class="backdrop" style="background-image:url(/content/dam/headers/test.jpg)"></div>
+    
+
+</div>
+
+    
+
+</div>
+
+    
+
+</div>
+	
+
+	<div class="tn-topnav" aria-label="Navigation Menu"><nav id="nav" role="navigation" aria-label="Main">
+    <div class="row center-block">
+        <div class="col-lg-12">
+            <div class="logo-small tn-logo">
+                <a href="https://www.tn.gov/" aria-label="Go to TN.gov" class="focus-visible-style">
+                    <span class="visually-hidden">Go to TN.gov</span>
+                </a>
+            </div>
+
+            <div class="mobile-show icon-menu mobile-menu focus-visible-style" role="button" tabindex="0" aria-label="Open navigation menu">
+                Section
+            </div>
+            <ul class="inline-list nav-items">
+                <li>
+                    <a href="https://www.tn.gov/environment.html" class="icon-home" aria-label="Go to TN.gov">
+                        <span class="visually-hidden">Go to Environment &amp; Conservation (TDEC)</span>
+                    </a>
+                </li>
+                
+                
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/program-areas.html">Program Areas
+                        <span role="button" tabindex="0" aria-label="Program Areas submenu" aria-expanded="false" aria-controls="dropdown-1" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="Program Areas submenu" aria-expanded="false" aria-controls="dropdown-1" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-1">
+                        <li><a href="/environment/program-areas/recycling-markets.html">Recycling Markets</a></li>
+                    
+                        <li><a href="/environment/program-areas/air-pollution-control.html">Air</a></li>
+                    
+                        <li><a href="/environment/program-areas/archaeology.html">Archaeology</a></li>
+                    
+                        <li><a href="/environment/program-areas/conservation.html">Bureau of Conservation</a></li>
+                    
+                        <li><a href="/environment/program-areas/energy.html">Energy</a></li>
+                    
+                        <li><a href="/environment/program-areas/stewardship.html">Environmental Stewardship</a></li>
+                    
+                        <li><a href="/environment/program-areas/geology.html">Tennessee Geological Survey</a></li>
+                    
+                        <li><a href="/environment/program-areas/mineral-geologic-resources.html">Mineral &amp; Geologic Resources</a></li>
+                    
+                        <li><a href="/environment/program-areas/na-natural-areas.html">Natural Areas</a></li>
+                    
+                        <li><a href="/environment/program-areas/outdoor-recreation.html">Outdoor Recreation</a></li>
+                    
+                        <li><a href="/environment/program-areas/policy-planning.html">Policy &amp; Planning</a></li>
+                    
+                        <li><a href="/environment/program-areas/radiological-health.html">Radiological Health</a></li>
+                    
+                        <li><a href="/environment/program-areas/rem-remediation.html">Remediation Branch</a></li>
+                    
+                        <li><a href="/environment/program-areas/small-business-environmental-assistance.html">Small Business Environmental Assistance</a></li>
+                    
+                        <li><a href="/environment/program-areas/solid-waste.html">Waste Management Branch</a></li>
+                    
+                        <li><a href="/environment/program-areas/underground-storage-tanks.html">Underground Storage Tanks</a></li>
+                    
+                        <li><a href="/environment/program-areas/wr-water-resources.html">Water </a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/permits.html">Permitting
+                        <span role="button" tabindex="0" aria-label="Permitting submenu" aria-expanded="false" aria-controls="dropdown-2" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="Permitting submenu" aria-expanded="false" aria-controls="dropdown-2" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-2">
+                        <li><a href="/environment/permits/air.html">Air Permits</a></li>
+                    
+                        <li><a href="/environment/permits/archaeology.html">Archaeology Permit</a></li>
+                    
+                        <li><a href="/environment/permits/mineral-geologic.html">Mineral &amp; Geologic Resources Permits</a></li>
+                    
+                        <li><a href="/environment/permits/natural-areas.html">Natural Areas License and Permits</a></li>
+                    
+                        <li><a href="/environment/permits/radiological-health.html">Radiological Health Licenses and Registrations</a></li>
+                    
+                        <li><a href="/environment/permits/waste.html">Waste Permits</a></li>
+                    
+                        <li><a href="/environment/permits/water.html">Water Permits</a></li>
+                    
+                        <li><a href="/environment/permits/other.html">Other Permits</a></li>
+                    
+                        <li><a href="/environment/permits/efficiency-reports.html">Efficiency Reports</a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/ppo.html">Public Participation
+                        <span role="button" tabindex="0" aria-label="Public Participation submenu" aria-expanded="false" aria-controls="dropdown-3" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="Public Participation submenu" aria-expanded="false" aria-controls="dropdown-3" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-3">
+                        <li><a href="/environment/ppo/air.html">Air Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/energy.html">Energy Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/dmgr.html">Mineral &amp; Geologic Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/natural-areas.html">Natural Areas Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/radiation.html">Radiation Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/remediation.html">Remediation Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/parks.html">TN State Parks Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/ust.html">UST Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/waste.html">Waste Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/water.html">Water Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/general.html">TDEC General Notices</a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/about-tdec.html">About
+                        <span role="button" tabindex="0" aria-label="About submenu" aria-expanded="false" aria-controls="dropdown-4" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="About submenu" aria-expanded="false" aria-controls="dropdown-4" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-4">
+                        <li><a href="/environment/about-tdec/communications.html">Communications</a></li>
+                    
+                        <li><a href="/environment/about-tdec/leadership.html">Leadership</a></li>
+                    
+                        <li><a href="/environment/about-tdec/stakeholder.html">Stakeholder Engagement</a></li>
+                    
+                        <li><a href="/environment/about-tdec/external-affairs.html">External Affairs</a></li>
+                    
+                        <li><a href="/environment/about-tdec/boards-and-commissions.html">Boards &amp; Commissions</a></li>
+                    
+                        <li><a href="/environment/about-tdec/financial-assurance.html">Financial Assurance</a></li>
+                    
+                        <li><a href="/environment/about-tdec/grants.html">Grants</a></li>
+                    
+                        <li><a href="/environment/about-tdec/policies.html">Department Policies</a></li>
+                    
+                        <li><a href="/environment/about-tdec/vendor-opportunities.html">Vendor Opportunities</a></li>
+                    
+                        <li><a href="/environment/about-tdec/employment-and-internships.html">Employment &amp; Internships</a></li>
+                    
+                        <li><a href="/environment/about-tdec/tdec-annual-reports.html">TDEC Annual Reports</a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/contacts.html">Contact
+                        <span role="button" tabindex="0" aria-label="Contact submenu" aria-expanded="false" aria-controls="dropdown-5" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="Contact submenu" aria-expanded="false" aria-controls="dropdown-5" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-5">
+                        <li><a href="/environment/contacts/field-offices.html">Field Offices</a></li>
+                    
+                        <li><a href="/environment/contacts/ask-tdec-questions.html">Ask TDEC Questions</a></li>
+                    
+                        <li><a href="/environment/contacts/public-records-request.html">Public Records Request</a></li>
+                    
+                        <li><a href="/environment/contacts/customer-service-survey.html">Customer Service Survey</a></li>
+                    
+                        <li><a href="/environment/contacts/language-assistance.html">Language Assistance</a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                
+                <li>
+                    <a href="/environment/calendar-of-events.html">Calendar of Events</a>
+                </li>
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/arp.html">American Rescue Plan (ARP)
+                        <span role="button" tabindex="0" aria-label="American Rescue Plan (ARP) submenu" aria-expanded="false" aria-controls="dropdown-7" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="American Rescue Plan (ARP) submenu" aria-expanded="false" aria-controls="dropdown-7" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-7">
+                        <li><a href="/environment/arp/arp-success-stories.html">Success Stories</a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                
+                <li>
+                    <a href="/environment/news.html">TDEC Newsroom</a>
+                </li>
+            </ul>
+            <div class="right primary-print">
+                <a href="javascript:window.print();" class="icon-print" aria-label="Print This Page">
+                    <span class="visually-hidden">Print This Page</span>
+                </a>
+            </div>
+            <div class="right secondary-print">
+                <a href="javascript:window.print();" class="icon-print" aria-label="Print This Page">
+                    <span class="visually-hidden">Print This Page</span>
+                </a>
+            </div>
+            <div class="right secondary-search">
+                <a class="icon-search" href="javascript:;">
+                    <span class="visually-hidden">Go to Search</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="config hidden" data-config='{&#34;closeMenuText&#34;:&#34;Close Menu&#34;,&#34;menuText&#34;:&#34;Section&#34;}'></div>
+</nav>
+</div>
+</header></div>
+            <section aria-label="Alerts">
+    
+        
+
+        
+            
+            <div class="tn-alerts">
+    
+    
+        
+    
+    
+    <div class="entity-alert text-center" role="status">
+        <a href="/environment.html">
+            <span class="icon-info"></span>
+            We are reorganizing pages for a better experience. We appreciate your patience!
+        </a>
+    </div>
+
+    
+    
+
+</div>
+
+        
+    
+</section>
+
+            
+        </noindex>
+
+        <div id="main" tabindex="-1" role="main">
+    <div class="row center-block leftnav-template">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div class="template-left-nav tn-leftnav">            
+                
+    <nav class="side expander" aria-label="Left Navigation">
+        <div class="border-red title">
+            <a href="/environment/program-areas/wr-water-resources/water-quality/drinking-water-redirect.html">Drinking Water</a>
+        </div>
+
+        <ul class="block-list">
+            
+                <li>
+                    <a href="/environment/program-areas/wr-water-resources/water-quality/drinking-water-redirect/drinking-water-emergency-planning.html" class="title-link">Drinking Water Emergency Planning</a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/wr-water-resources/water-quality/drinking-water-redirect/drinking-water-security.html" class="title-link">Drinking Water Security</a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/wr-water-resources/water-quality/drinking-water-redirect/drinking-water-security-resources.html" class="title-link">Drinking Water Security Resources</a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/wr-water-resources/water-quality/drinking-water-redirect/protecting-a-drinking-water-system.html" class="title-link">Protecting a Drinking Water System</a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/wr-water-resources/water-quality/drinking-water-redirect/revised-total-coliform-rule.html" class="title-link">Revised Total Coliform Rule</a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/wr-water-resources/water-quality/drinking-water-redirect/lead-and-copper-rule.html" class="title-link">Lead and Copper Rule</a>
+
+                    
+                </li>
+            
+                <li class="active">
+                    <a href="/environment/program-areas/wr-water-resources/water-quality/drinking-water-redirect/lab-certification-program.html" class="title-link">Laboratory Certification Program</a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/wr-water-resources/water-quality/drinking-water-redirect/compliance-monitoring-data-portal.html" class="title-link">Compliance Monitoring Data Portal</a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/wr-water-resources/water-quality/drinking-water-redirect/ltscc.html" class="title-link">Lead Testing in Schools and Child Care Centers</a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/wr-water-resources/water-quality/drinking-water-redirect/tn-area-wide-optimization-program-awop.html" class="title-link">TN Area Wide Optimization Program (AWOP)</a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/wr-water-resources/water-quality/drinking-water-redirect/-back-to-water-quality.html" class="title-link"> Back to Water Quality</a>
+
+                    
+                </li>
+            
+        </ul>
+    </nav>
+
+
+            </div>
+        </div>
+
+        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 content">
+            <article>
+                <div class="tn-pagetitle show" aria-hidden="false">
+    <h1>Laboratory Certification Program</h1>
+    
+
+</div>
+
+                <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <h2>Purpose of the Program</h2>
+
+    
+    
+
+</div>
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p>The Division of Water Resources&#39; (DWR) laboratory certification program (LCP) evaluates and certifies laboratories for chemistry, microbiology and radiochemistry parameters and Cryptosporidium.</p>
+<p>The program ensures that all laboratories that submit monitoring data for public water systems in the state of Tennessee meet the criteria established by the U.S. Environmental Protection Agency in <em>The Manual for the Certification of Laboratories Analyzing Drinking Water</em> (<a href="https://nepis.epa.gov/Exe/ZyNET.exe/20001W5O.TXT?ZyActionD&#61;ZyDocument&amp;Client&#61;EPA&amp;Index&#61;1995&#43;Thru&#43;1999&amp;Docs&#61;&amp;Query&#61;&amp;Time&#61;&amp;EndTime&#61;&amp;SearchMethod&#61;1&amp;TocRestrict&#61;n&amp;Toc&#61;&amp;TocEntry&#61;&amp;QField&#61;&amp;QFieldYear&#61;&amp;QFieldMonth&#61;&amp;QFieldDay&#61;&amp;IntQFieldOp&#61;0&amp;ExtQFieldOp&#61;0&amp;XmlQuery&#61;&amp;File&#61;D%3A%5Czyfiles%5CIndex%20Data%5C95thru99%5CTxt%5C00000008%5C20001W5O.txt&amp;User&#61;ANONYMOUS&amp;Password&#61;anonymous&amp;SortMethod&#61;h%7C-&amp;MaximumDocuments&#61;1&amp;FuzzyDegree&#61;0&amp;ImageQuality&#61;r75g8/r75g8/x150y150g16/i425&amp;Display&#61;hpfr&amp;DefSeekPage&#61;x&amp;SearchBack&#61;ZyActionL&amp;Back&#61;ZyActionS&amp;BackDesc&#61;Results%20page&amp;MaximumPages&#61;1&amp;ZyEntry&#61;1&amp;SeekPage&#61;x&amp;ZyPURL" target="_blank" title="Manual for the Certification of Laboratories Analyzing Drinking Water: Criteria and Procedures Quality Assurance, 4th Edition" rel="noopener noreferrer"><span class="icon-link-ext">EPA 815-B-97-001</span></a>), 5th edition, January 2005.<br />
+</p>
+
+    
+    
+
+</div>
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <h2>Certification Procedure</h2>
+
+    
+    
+
+</div>
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p>A request for certification of a laboratory must be submitted to the Division of Water Resources Laboratory Certification Program:</p>
+<p>Written Requests:</p>
+<address>Division of Water Resources<br />
+Lab Certification Program<br />
+Attn: Prasad Subbanna<br />
+Davy Crockett Tower-9th Floor<br />
+500 James Robertson Parkway<br />
+Nashville, TN 37243</address>
+<address>Or by e-mail to <a href="mailto:Prasad.Subbanna&#64;tn.gov" style="	background-color: rgb(249,249,249);
+">Prasad.Subbanna&#64;tn.gov</a></address>
+<p><span class="icon-download"><a title="Application for Microbiological Laboratory Certification" href="https://tdec.tn.gov/etdec/DownloadFile.aspx?row_id&#61;CN-1608" target="_blank" rel="noopener noreferrer">Application for Microbiological Laboratory Certification</a></span></p>
+<p><a title="Microbiological Lab Certification Requirements" href="/content/dam/tn/environment/water/archive/wr_wq_dw_microbiological-labs-cert-requirements.pdf" target="_blank" rel="noopener noreferrer"><span class="icon-file-pdf">Microbiological Lab Certification Requirements</span></a></p>
+<p><a title="Microbiological Lab Certification Checklist" href="/content/dam/tn/environment/water/archive/wr_wq_dw_microbiological-labs-cert-checklist.pdf" target="_blank" rel="noopener noreferrer"><span class="icon-file-pdf">Microbiological Lab Certification Checklist</span></a></p>
+<p>Please include the groups of contaminates for which certification is desired:<br />
+</p>
+
+    
+    
+
+</div>
+
+
+    
+    
+    <div class="tn-simpletable parbase"><table width="100%" cellspacing="0" cellpadding="1" border="0"><tbody><tr><th scope="col"><strong>Chemistry</strong></th><th scope="col"><strong>Microbiology</strong></th><th scope="col"><strong>Radiochemistry</strong></th></tr><tr><td>General or Wet</td><td>Coliforms by Enzyme Substrate or Membrane Filter</td><td>Gross Alpha or Beta</td></tr><tr><td>Inorganic</td><td>Heterotrophic Plate Count</td><td>Radium 226</td></tr><tr><td>Organic</td><td>Enterococci</td><td>Radium 228</td></tr><tr><td>PCBs</td><td>Cryptosporidium</td><td>Gamma Emitters</td></tr><tr><td>TTHMs</td><td> </td><td>Cesium</td></tr><tr><td>HAA5s</td><td> </td><td>Strontium</td></tr><tr><td> </td><td> </td><td>Uranium</td></tr><tr><td> </td><td> </td><td>Tritium</td></tr></tbody></table>
+
+</div>
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p>The LCP manager will evaluate the application and may request information such as:</p>
+<ul style="	list-style-position: inside;
+"><li>Documentation that an audit has been done by the applicant lab’s home (or parent) state or by the National Environmental Laboratory Accreditation (NELAC) program that their state has a contract with</li><li>Lab’s scope or list of requested Certified Parameters (CPs).</li><li>Proof that the laboratory successfully completed Proficiency Testing (PT) or Performance Evaluation (PE) of samples through an approved provider <br />
+</li><li>Quality Assurance Plan (QAP) or QA Manual (QAM)<br />
+</li></ul>
+<p>The LCP Manager will review all the submitted information and determine the lab’s certification rating. Approved labs will receive an e-mail notification about approval and then will receive a certification letter along with a certificate and approved CP list (scope) upon receipt of payment of the relevant certification fees. (listed below)</p>
+<p>Labs certified in the state of Tennessee will need to be audited on-site every three years by qualified LCP certification officers.</p>
+<p>Labs outside of Tennessee may be certified by reciprocity with qualified LCP certification officers in their respective state.</p>
+
+    
+    
+
+</div>
+
+
+    
+    
+    <div class="tn-panel"><div class="panel">
+    <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p><strong>Lab Certification Ratings:</strong></p>
+<ul><li><u>Certified </u><ul><li>Lab meets all criteria, successfully completed PT analysis &amp; has paid annual certification fees</li></ul>
+</li><li><u>Interim Certified</u> <ul><li>Lab is newly certified (as above) and is awaiting audit for additional parameters</li></ul>
+</li><li><u>Provisionally Certified</u><ul><li>Lab is certified, but may have failed a PT analysis, failed to report compliance data in a timely manner, or is not maintaining the required standard of quality</li><li>Lab must apply for upgrade to regain certification when able to correct deficiencies to the satisfaction of the LCP Manager</li></ul>
+</li><li><u>Not Certified</u><ul><li>Lab does not meet certification requirements</li><li>Lab must apply for upgrade to regain certification when able to correct deficiencies to the satisfaction of the LCP Manager</li></ul>
+</li></ul>
+
+    
+    
+
+</div>
+
+
+</div>
+</div>
+</div>
+
+
+    
+    
+    <div class="tn-simpletable parbase"><table width="100%" cellspacing="0" cellpadding="1" border="0"><tbody><tr><th colspan="3">Certification Fees:</th></tr><tr><td>Administration Fee<br />
+</td><td>In State</td><td>$1000</td></tr><tr><td>Administration Fee<br />
+</td><td>Out of State</td><td>$750</td></tr><tr><td>General Chemistry</td><td> </td><td>$500</td></tr><tr><td>Inorganics</td><td>Including Metals</td><td>$500<br />
+</td></tr><tr><td>Organics</td><td> </td><td>$500<br />
+</td></tr><tr><td>Disinfection Byproducts<br />
+</td><td>TTHMs &amp; HAA5s</td><td>$500<br />
+</td></tr><tr><td>Polychlorinated Biphenyls<br />
+</td><td>PCBs</td><td>$500<br />
+</td></tr><tr><td>Radiochemistry <br />
+</td><td>Radionuclides</td><td>$500<br />
+</td></tr><tr><td>Enzyme Substrate <br />
+</td><td>Total coliform &amp; E. coli</td><td>$500<br />
+</td></tr><tr><td>Membrane Filter <br />
+</td><td>Total coliform &amp; E. coli<br />
+</td><td>$500<br />
+</td></tr><tr><td>Heterotrophic Plate Count <br />
+</td><td>HPC</td><td>$500<br />
+</td></tr><tr><td>Enterococci<br />
+</td><td> </td><td>$500<br />
+</td></tr></tbody></table>
+
+</div>
+
+
+    
+    
+    <div class="tn-linkbuttons"><div>
+	
+        <div>
+            
+            
+                <a href="/content/dam/tn/environment/water/drinking-water-unit/wr_wq_dw_certified-commercial-labs.pdf" target="_blank" class="button standard">Certified Commercial Laboratories</a>
+            
+        
+            
+            
+                <a href="/content/dam/tn/environment/water/drinking-water-unit/wr_wq_dw_certified-microbiological-labs.pdf" target="_blank" class="button standard">Certified Microbiological Laboratories</a>
+            
+        </div>
+	
+</div></div>
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p>(Laboratories certified for drinking water analysis)</p>
+
+    
+    
+
+</div>
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <ul><li><span class="icon-file-pdf"><a title="List of Analyte Groups " href="/content/dam/tn/environment/water/archive/wr_wq_dw-analyte-groups-for-mytdec-forms.pdf" target="_blank" rel="noopener noreferrer">Analyte Groups</a> </span>(Chemical contaminants in each analyte group listed on the MyTDEC Forms Template form.)</li></ul>
+
+    
+    
+
+</div>
+
+
+</div>
+
+                
+            </article>
+        </div>
+    </div>
+</div>
+
+        <div class="tn-backtotop"><a href="#header-logo" class="page-top icon-up" aria-label="Go back to the top of the page"></a></div>
+
+        
+
+        
+
+        <noindex>
+            <div>
+    <div>
+
+
+
+
+    
+        
+        
+        <div class="newpar new section">
+
+</div>
+
+    
+        
+        
+        <div class="par iparys_inherited">
+
+    
+    
+    
+    
+
+</div>
+
+    
+
+</div>
+    <footer>
+        <div>
+
+
+
+
+    
+        
+        
+        <div class="newpar new section">
+
+</div>
+
+    
+        
+        
+        <div class="par iparys_inherited">
+
+    
+    
+    
+    
+        
+        
+        <div class="tn-socialmediafooter"><div class="tn-socialmediabarfooter" role="navigation" aria-label="Social Media Links">
+    <div class="social">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 columns">
+                <ul class="inline-list">
+                    <li>
+                        <div class="title">Social Media</div>
+                    </li>
+                    
+                        
+                            <li><a href="https://www.facebook.com/TNEnvironment" class="icon-facebook" target="_blank"><span>facebook</span></a></li>
+                        
+                    
+                        
+                    
+                        
+                            <li><a href="https://www.youtube.com/user/TNEnvironment" class="icon-youtube" target="_blank"><span>youtube</span></a></li>
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                            <li><a href="https://www.linkedin.com/company/tennessee-department-of-environment-and-conservation/" class="icon-linkedin" target="_blank"><span>linkedin</span></a></li>
+                        
+                    
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</div></div>
+
+    
+        
+        
+        <div class="secondaryfooter tn-secondaryfooter"><section id="agency-footer">
+    <div class="row">
+        
+            <div class="col-md-15 col-sm-15 columns">
+                <div class="title border-darkblue" id="agency-footer-col-0">
+                    Programs
+                </div>
+                <button data-bs-toggle="collapse" data-bs-target="#footer-list-0" class="menu-expand-anchor" type="button" aria-expanded="false" aria-controls="collapseExample" aria-label="Programs Submenu">
+                    <span class="icon-angle-down menu-expand"></span>
+                </button>
+                <ul class="block-list" aria-labelledby="agency-footer-col-0" id="footer-list-0">
+                   <li>
+                       <a href="/environment/air.html" aria-label="Air" title="Air">Air</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/stewardship.html" aria-label="Environmental Stewardship" title="Environmental Stewardship">Environmental Stewardship</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/program-areas/solid-waste.html" aria-label="Solid Waste" title="Solid Waste">Solid Waste</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/ust.html" aria-label="Underground Storage Tanks" title="Underground Storage Tanks">Underground Storage Tanks</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/program-areas/wr-water-resources.html" aria-label="Water" title="Water">Water</a>
+                   </li>
+                </ul>
+            </div>
+        
+            <div class="col-md-15 col-sm-15 columns">
+                <div class="title border-darkblue" id="agency-footer-col-1">
+                    Resources
+                </div>
+                <button data-bs-toggle="collapse" data-bs-target="#footer-list-1" class="menu-expand-anchor" type="button" aria-expanded="false" aria-controls="collapseExample" aria-label="Resources Submenu">
+                    <span class="icon-angle-down menu-expand"></span>
+                </button>
+                <ul class="block-list" aria-labelledby="agency-footer-col-1" id="footer-list-1">
+                   <li>
+                       <a href="/environment/accessibility.html" target="_blank" aria-label="Accessibility" title="Accessibility">Accessibility</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/about-tdec/tdec-dataviewers.html" aria-label="Dataviewers" title="Dataviewers">Dataviewers</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/about-tdec/employment-and-internships.html" aria-label="Employment and Internships" title="Employment and Internships">Employment and Internships</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/about-tdec/enforcement-orders.html" aria-label="Enforcement Orders" title="Enforcement Orders">Enforcement Orders</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/about-tdec/grants.html" aria-label="Grants" title="Grants">Grants</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/nondiscrimination.html" aria-label="Non-Discrimination" title="Non-Discrimination">Non-Discrimination</a>
+                   </li>
+                </ul>
+            </div>
+        
+            <div class="col-md-15 col-sm-15 columns">
+                <div class="title border-darkblue" id="agency-footer-col-2">
+                    Featured Links
+                </div>
+                <button data-bs-toggle="collapse" data-bs-target="#footer-list-2" class="menu-expand-anchor" type="button" aria-expanded="false" aria-controls="collapseExample" aria-label="Featured Links Submenu">
+                    <span class="icon-angle-down menu-expand"></span>
+                </button>
+                <ul class="block-list" aria-labelledby="agency-footer-col-2" id="footer-list-2">
+                   <li>
+                       <a href="/environment/about-tdec/tdec-annual-reports.html" aria-label="TDEC Annual Reports" title="TDEC Annual Reports">TDEC Annual Reports</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/contacts/field-offices.html" aria-label="Field Offices" title="Field Offices">Field Offices</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/natural-areas.html" aria-label="Natural Areas" title="Natural Areas">Natural Areas</a>
+                   </li>
+                
+                   <li>
+                       <a href="https://tnstateparks.com/" target="_blank" aria-label="State Parks" title="State Parks">State Parks</a>
+                   </li>
+                
+                   <li>
+                       <a href="https://tnstateparks.com/conservationist" target="_blank" aria-label="The Tennessee Conservationist" title="The Tennessee Conservationist">The Tennessee Conservationist</a>
+                   </li>
+                </ul>
+            </div>
+        
+            <div class="col-md-15 col-sm-15 columns">
+                <div class="title border-darkblue" id="agency-footer-col-3">
+                    Partner Links
+                </div>
+                <button data-bs-toggle="collapse" data-bs-target="#footer-list-3" class="menu-expand-anchor" type="button" aria-expanded="false" aria-controls="collapseExample" aria-label="Partner Links Submenu">
+                    <span class="icon-angle-down menu-expand"></span>
+                </button>
+                <ul class="block-list" aria-labelledby="agency-footer-col-3" id="footer-list-3">
+                   <li>
+                       <a href="/historicalcommission.html" target="_blank" aria-label="TN Historical Commission" title="TN Historical Commission">TN Historical Commission</a>
+                   </li>
+                
+                   <li>
+                       <a href="https://www.tnvacation.com/green" target="_blank" aria-label="Sustainable Tourism" title="Sustainable Tourism">Sustainable Tourism</a>
+                   </li>
+                
+                   <li>
+                       <a href="https://www.collegefortn.org/tnpromise/" target="_blank" aria-label="TN Promise" title="TN Promise">TN Promise</a>
+                   </li>
+                
+                   <li>
+                       <a href="https://www.epa.gov/" target="_blank" aria-label="U.S. EPA" title="U.S. EPA">U.S. EPA</a>
+                   </li>
+                </ul>
+            </div>
+        
+        
+        <div class="col-md-15 col-sm-15 columns last">
+            <div class="contact">
+                
+                    <strong>
+                        Department of Environment &amp; Conservation<br/>
+                    </strong>
+                    
+                        David W. Salyers, P.E., P.G.<br/>
+                    
+                    <br/>
+                
+                
+                    <address>
+                        Davy Crockett Tower<br/>
+                        500 James Robertson Parkway<br/>
+                        Nashville, TN 37243<br/>
+
+                        (888) 891-TDEC (8332)<br/>
+                        
+                        
+                    </address>
+                
+                
+                    <a href="/environment/contacts/ask-tdec-questions.html" aria-label="Email Questions to TDEC" title="Email Questions to TDEC">
+                        Email Questions to TDEC
+                    </a>
+                
+            </div>
+            <div>
+                
+                    
+                    
+
+                    <img src="/etc/clientlibs/tncore/main/img/tn-seal.png" alt=""/>
+                
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+
+    
+
+</div>
+
+    
+
+</div>
+        <div>
+
+
+
+
+    
+        
+        
+        <div class="newpar new section">
+
+</div>
+
+    
+        
+        
+        <div class="par iparys_inherited">
+
+    
+    
+    
+    
+        
+        
+        <div class="tn-footer parbase"> <section id="footer">
+    <div id="footer-top">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 columns">
+                <ul class="inline-list">
+                    <li>
+                        <a href="/about-tn/flag-status.html" class="icon-flag" data-resource-path="/_jcr_content/footer/tn_footer" aria-label="Flag Status" title="Flag Status">Flag Status
+                        </a>
+                    </li>
+
+                    <li id="footer-livechat" class="offline">
+                        <a href="#" class="icon-chat" onclick="openFooterChat()" aria-label="Open Chat" title="Open Chat">
+                            Chat
+                        </a>
+
+                        <div class="livechat">
+                            <script>
+                                function openFooterChat() {
+                                    window.open(
+                                        "https://help.tn.gov/sn_customerservice_tn_chat_selector.do",
+                                        "popup",
+                                        "width=900, height=600"
+                                    );
+                                };
+                            </script>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 columns text-right">
+                <ul class="inline-list">
+                    <li>
+                        <a href="/help.html" class="icon-help-circled" aria-label="Help" title="Help">
+                            Help
+                        </a>
+                    </li>
+
+                    <li id="footer-translate">
+                        <a href="#" aria-label="Translate" aria-controls="#translate-box" aria-expanded="false" title="Translate" class="icon-book">
+                            Translate
+                        </a>
+                        <div class="drop right" id="translate-box">
+                            <div class="box">
+                                <div id="google_translate_element"></div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li id="footer-fontsize">
+                        <a href="#" aria-label="Font Size" aria-controls="#font-size-box" aria-expanded="false" title="Font Size" class="icon-font">
+                            Font Size
+                        </a>
+
+                        <div class="drop right" id="font-size-box">
+                            <div class="box">
+                                <ul class="inline-list">
+                                    <li>
+                                        <button class="button" aria-label="Decrease font size" aria-current="false" data-font-size="small">a-</button>
+                                    </li>
+                                    <li>
+                                        <button class="button active" aria-label="Reset font size" aria-current="true" data-font-size="normal">Normal</button>
+                                    </li>
+                                    <li>
+                                        <button class="button" aria-label="Increase font size" aria-current="false" data-font-size="large">A+</button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <span class="starball">
+            <img src="/etc/clientlibs/tncore/main/img/footer-starball.png" alt="" width="100%"/>
+        </span>
+    </div>
+
+    <div id="footer-bottom">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 columns">
+                <ul class="inline-list">
+                    <li>
+                         <a href="https://www.tn.gov/state-services.html" class="first" aria-label="TN.gov Services" title="TN.gov Services">
+                             TN.gov Services
+                         </a>
+                    
+                         <a href="https://www.tn.gov/directory.html" aria-label="TN.gov Directory" title="TN.gov Directory">
+                             TN.gov Directory
+                         </a>
+                    
+                         <a href="https://www.tn.gov/transparenttn.html" aria-label="Transparent TN" title="Transparent TN">
+                             Transparent TN
+                         </a>
+                    
+                         <a href="https://www.tn.gov/web-policies/privacy-statement.html" aria-label="Web Policies" title="Web Policies">
+                             Web Policies
+                         </a>
+                    
+                         <a href="https://www.tn.gov/mytn.html" aria-label="Mobile App" title="Mobile App">
+                             Mobile App
+                         </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 columns text-right">
+                <ul class="inline-list">
+                    <li>
+                        <a href="https://www.tn.gov/about-tn/state-symbols.html" aria-label="About Tennessee" title="About Tennessee">
+                            About Tennessee
+                        </a>
+                    
+                        <a href="https://www.tn.gov/hr/title-vi/title-vi-disclaimer.html" target="_blank" aria-label="Title VI" title="Title VI">
+                            Title VI
+                        </a>
+                    
+                        <a href="https://www.tn.gov/web-policies/accessibility.html" aria-label="Accessibility" title="Accessibility">
+                            Accessibility
+                        </a>
+                    
+                        <a href="https://www.tn.gov/help.html" aria-label="Help &amp; Contact" title="Help &amp; Contact">
+                            Help &amp; Contact
+                        </a>
+                    
+                        <a href="https://www.tn.gov/survey.html" aria-label="Survey" title="Survey">
+                            Survey
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="modal-footer"></div>
+</div>
+
+    
+        
+        
+        <div class="tn-freestyledialog">
+    <script>!function(s,a,e,v,n,t,z){if(s.saq)return;n=s.saq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!s._saq)s._saq=n;n.push=n;n.loaded=!0;n.version='1.0';n.queue=[];t=a.createElement(e);t.async=!0;t.src=v;z=a.getElementsByTagName(e)[0];z.parentNode.insertBefore(t,z)}(window,document,'script','https://tags.srv.stackadapt.com/events.js');saq('ts', '4xBwuaJ6r7lc5Mwk742YVA');</script>
+
+
+
+<!--BEGIN QUALTRICS WEBSITE FEEDBACK SNIPPET-->
+
+<script type='text/javascript'>
+
+(function(){var g=function(g){
+
+this.go=function(){var a=document.createElement("script");a.type="text/javascript";a.src=g;document.body&&document.body.appendChild(a)};
+
+this.start=function(){var t=this;"complete"!==document.readyState?window.addEventListener?window.addEventListener("load",function(){t.go()},!1):window.attachEvent&&window.attachEvent("onload",function(){t.go()}):t.go()};};
+
+try{(new g("https://znwbewebwkp6zwxpl-tngov.gov1.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_WBewebwKP6ZwxpL")).start()}catch(i){}})();
+
+</script><div id='ZN_WBewebwKP6ZwxpL'><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div>
+
+<!--END WEBSITE FEEDBACK SNIPPET-->
+
+</div>
+
+    
+
+</div>
+
+    
+
+</div>
+    </footer>
+
+</div>
+            
+
+    
+<script src="/etc/clientlibs/tncore/main.min.5f18b486157a56c1f7aa6b7a8f0feef8.js"></script>
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+        </noindex>
+
+        <div id="overlay"></div>
+
+<!-- Begin Dynamic Modal for Videos -->
+<div class="tn-videoModal modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <a href="#" data-bs-dismiss="modal" class="close-video icon-cancel text-button">Close</a>
+                <div class="videoWrapper">
+                    <iframe title="Video"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Dynamic Modal for Videos -->
+
+    </body>
+</html>

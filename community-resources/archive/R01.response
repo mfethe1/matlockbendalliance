@@ -1,0 +1,2052 @@
+<!doctype html>
+<html class="no-js tn-html" lang="en">
+    <head>
+        <title>Well Water</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        
+        
+        
+            <meta name="url" content="https://www.tn.gov/environment/program-areas/wr-water-resources/water-quality/well-water.html"/>
+        
+        
+            <meta name="lastModified" content="25 Aug 2026 15:04:19 CDT"/>
+        
+        
+        
+            <meta name="pageDepartment" content="environment"/>
+        
+        
+            <meta name="pageDivision" content="program-areas"/>
+        
+        
+        
+        
+        
+            <meta name="pagePath" content="/content/tn/environment/program-areas/wr-water-resources/water-quality/well-water"/>
+        
+        
+
+        
+
+        
+            <meta property="og:title" content="Well Water"/>
+        
+        
+        
+            <meta property="og:url" content="https://www.tn.gov/environment/program-areas/wr-water-resources/water-quality/well-water.html"/>
+        
+        
+
+            <meta name="twitter:card" content="summary_large_image"/>
+        
+            <meta name="twitter:title" content="Well Water"/>
+        
+        
+        
+            <meta name="twitter:url" content="https://www.tn.gov/environment/program-areas/wr-water-resources/water-quality/well-water.html"/>
+        
+        
+
+        
+
+        <link rel="shortcut icon" href="/etc/clientlibs/tncore/main/img/favicon.ico"/>
+
+        <link rel="canonical" href="https://www.tn.gov/environment/program-areas/wr-water-resources/water-quality/well-water.html"/>
+
+        <!-- DTM Analytics Datalayer -->
+
+        <script>
+
+
+            var digitalData = {
+                page: {
+                    pageInfo: {
+                        pageName: "environment:program-areas:wr-water-resources:water-quality:well-water",
+                        securePage: "false",
+                        sysEnv: "Desktop",
+                        deptName: "environment",
+                        siteSection: "program-areas",
+                        siteSubSection: "wr-water-resources",
+                        pageType:"",
+                        rsidValue: "oirtn"
+
+                    }
+                }
+            };
+        </script>
+
+        <script src="//assets.adobedtm.com/f213d7ed4603/b5fbb0638724/launch-5b3fa8e23e9e.min.js" async></script>
+
+        
+        
+    
+<link rel="stylesheet" href="/etc/clientlibs/tncore/main.min.f53b1cb66edbbb1f9264be1e283b69a9.css" type="text/css">
+
+
+
+        
+            
+    
+<link rel="stylesheet" href="/etc/clientlibs/tn-sites/tngov.min.a18e62a3f815b11550a3feee90159096.css" type="text/css">
+
+
+
+        
+
+        
+
+        
+
+
+
+
+
+
+
+
+        
+
+        
+    </head>
+    <body class="tngov  " data-selectors='[]' data-template="leftNav">
+        <a class="visually-hidden-focusable skip-to-main" href="#main">Skip to Main Content</a>
+
+        <noindex>
+            <div>
+
+    
+
+</div>
+            <div><header id="header">
+	
+		<div>
+
+
+
+
+    
+        
+        
+        <div class="newpar new section">
+
+</div>
+
+    
+        
+        
+        <div class="par iparys_inherited">
+
+    
+    
+    
+    
+        
+        
+        <div class="tn-headercoveo">
+    <div class="container">
+        <div class="row center-block top-nav">
+            <div class="col-auto me-auto">
+                <a class="logo" id="header-logo" href="https://www.tn.gov/" data-logo="state-government" style="background-image: url('/etc/clientlibs/tncore/main/img/logos/tn-logo.png')" aria-label="View home page">
+                </a>
+            </div>
+            <div class="col-auto">
+                <a class="search-all icon-home-1 text-right" href="https://www.tn.gov/">Go to TN.gov</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row center-block agency">
+        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 columns title">
+            <a href="https://www.tn.gov/environment.html">
+                <img src="/content/dam/headers/environment.png" alt="Tennessee State Government, Environment and Conservation logo" id="entity-name" data-pin-nopin="true"/>
+            </a>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 columns text-right">
+            <div class="tn-headersearchcoveo">
+
+<div>
+
+<script type="module" src="https://static.cloud.coveo.com/atomic/v2.42/atomic.esm.js">
+</script>
+<script type="module">
+
+import {loadContextActions, buildTab} from 'https://static.cloud.coveo.com/atomic/v2.42/headless/headless.esm.js';
+
+(async () => {
+
+    const searchHubStripped = "TNGov".trim();
+    const context = {};
+    context.userdiv = "";
+    context.userdept = "environment";
+
+    await customElements.whenDefined('atomic-search-interface');
+    const searchInterface = document.querySelector('#searchbox');
+    searchInterface.setAttribute('search-hub', searchHubStripped);
+
+    //Adding for Context to be used for Query Suggestions
+    const preProcessQuerySuggestionsRequest = (request) => {
+        if (context.userdiv) {
+            const body = JSON.parse(request.body);
+            body.mlParameters = {
+                filters: {
+                    c_context_userdept: context.userdept,
+                    c_context_userdiv: context.userdiv
+                }
+            };
+            request.body = JSON.stringify(body);
+        } else if (context.userdept) {
+            const body = JSON.parse(request.body);
+            body.mlParameters = {
+                filters: {
+                    c_context_userdept: context.userdept
+                }
+            };
+            request.body = JSON.stringify(body);
+        }
+        return request;
+    };
+
+    const orgId = "tennesseestategovernmentproduction6po4m5b2".trim();
+
+    await searchInterface.initialize({
+        accessToken: "eyJhbGciOiJIUzI1NiJ9.eyJzZWFyY2hIdWIiOiJUTkdvdiIsInY4Ijp0cnVlLCJ0b2tlbklkIjoidGk1cHo1emRjbmMzbjJqYW5pY3I0aDJldHUiLCJvcmdhbml6YXRpb24iOiJ0ZW5uZXNzZWVzdGF0ZWdvdmVybm1lbnRwcm9kdWN0aW9uNnBvNG01YjIiLCJ1c2VySWRzIjpbeyJ0eXBlIjoiVXNlciIsIm5hbWUiOiJhbm9ueW1vdXNfdXNlckBhbm9ueW1vdXMuY292ZW8uY29tIiwicHJvdmlkZXIiOiJFbWFpbCBTZWN1cml0eSBQcm92aWRlciJ9XSwicm9sZXMiOlsicXVlcnlFeGVjdXRvciJdLCJpc3MiOiJTZWFyY2hBcGkiLCJleHAiOjE3OTExOTU3MjQsImlhdCI6MTc5MTEwOTMyNH0.aKgLQ7d-Swu8kvQeVb2MF5d24rxUFe_OaopY06RtYV8".trim(),
+        organizationId: orgId,
+        organizationEndpoints: await searchInterface.getOrganizationEndpoints(orgId),
+        renewAccessToken: function() {
+            location.reload();
+        },
+        preprocessRequest: (request) => {
+            if (request.url.indexOf('querySuggest') >= 0) {
+                return preProcessQuerySuggestionsRequest(request);
+            }
+            return request;
+        }
+    });
+
+    searchInterface.i18n.addResourceBundle('en', 'translation', {
+        search: "Search Environment".trim(),
+    });
+
+    const engine = searchInterface.engine;
+    engine.dispatch(loadContextActions(engine).setContext(context));
+})();
+</script>
+
+<atomic-search-interface id="searchbox">
+  <atomic-search-box clear-filters="false" redirection-url="/environment/search-results.html" .trim()>
+
+    <atomic-search-box-recent-queries max-with-query="0" max-without-query="4">
+    </atomic-search-box-recent-queries>
+
+    <atomic-search-box-query-suggestions>
+    </atomic-search-box-query-suggestions>
+
+  </atomic-search-box>
+</atomic-search-interface>
+</div>
+
+</div>
+        </div>
+    </div>
+
+    <div class="backdrop" style="background-image:url(/content/dam/headers/test.jpg)"></div>
+    
+
+</div>
+
+    
+
+</div>
+
+    
+
+</div>
+	
+
+	<div class="tn-topnav" aria-label="Navigation Menu"><nav id="nav" role="navigation" aria-label="Main">
+    <div class="row center-block">
+        <div class="col-lg-12">
+            <div class="logo-small tn-logo">
+                <a href="https://www.tn.gov/" aria-label="Go to TN.gov" class="focus-visible-style">
+                    <span class="visually-hidden">Go to TN.gov</span>
+                </a>
+            </div>
+
+            <div class="mobile-show icon-menu mobile-menu focus-visible-style" role="button" tabindex="0" aria-label="Open navigation menu">
+                Section
+            </div>
+            <ul class="inline-list nav-items">
+                <li>
+                    <a href="https://www.tn.gov/environment.html" class="icon-home" aria-label="Go to TN.gov">
+                        <span class="visually-hidden">Go to Environment &amp; Conservation (TDEC)</span>
+                    </a>
+                </li>
+                
+                
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/program-areas.html">Program Areas
+                        <span role="button" tabindex="0" aria-label="Program Areas submenu" aria-expanded="false" aria-controls="dropdown-1" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="Program Areas submenu" aria-expanded="false" aria-controls="dropdown-1" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-1">
+                        <li><a href="/environment/program-areas/recycling-markets.html">Recycling Markets</a></li>
+                    
+                        <li><a href="/environment/program-areas/air-pollution-control.html">Air</a></li>
+                    
+                        <li><a href="/environment/program-areas/archaeology.html">Archaeology</a></li>
+                    
+                        <li><a href="/environment/program-areas/conservation.html">Bureau of Conservation</a></li>
+                    
+                        <li><a href="/environment/program-areas/energy.html">Energy</a></li>
+                    
+                        <li><a href="/environment/program-areas/stewardship.html">Environmental Stewardship</a></li>
+                    
+                        <li><a href="/environment/program-areas/geology.html">Tennessee Geological Survey</a></li>
+                    
+                        <li><a href="/environment/program-areas/mineral-geologic-resources.html">Mineral &amp; Geologic Resources</a></li>
+                    
+                        <li><a href="/environment/program-areas/na-natural-areas.html">Natural Areas</a></li>
+                    
+                        <li><a href="/environment/program-areas/outdoor-recreation.html">Outdoor Recreation</a></li>
+                    
+                        <li><a href="/environment/program-areas/policy-planning.html">Policy &amp; Planning</a></li>
+                    
+                        <li><a href="/environment/program-areas/radiological-health.html">Radiological Health</a></li>
+                    
+                        <li><a href="/environment/program-areas/rem-remediation.html">Remediation Branch</a></li>
+                    
+                        <li><a href="/environment/program-areas/small-business-environmental-assistance.html">Small Business Environmental Assistance</a></li>
+                    
+                        <li><a href="/environment/program-areas/solid-waste.html">Waste Management Branch</a></li>
+                    
+                        <li><a href="/environment/program-areas/underground-storage-tanks.html">Underground Storage Tanks</a></li>
+                    
+                        <li><a href="/environment/program-areas/wr-water-resources.html">Water </a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/permits.html">Permitting
+                        <span role="button" tabindex="0" aria-label="Permitting submenu" aria-expanded="false" aria-controls="dropdown-2" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="Permitting submenu" aria-expanded="false" aria-controls="dropdown-2" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-2">
+                        <li><a href="/environment/permits/air.html">Air Permits</a></li>
+                    
+                        <li><a href="/environment/permits/archaeology.html">Archaeology Permit</a></li>
+                    
+                        <li><a href="/environment/permits/mineral-geologic.html">Mineral &amp; Geologic Resources Permits</a></li>
+                    
+                        <li><a href="/environment/permits/natural-areas.html">Natural Areas License and Permits</a></li>
+                    
+                        <li><a href="/environment/permits/radiological-health.html">Radiological Health Licenses and Registrations</a></li>
+                    
+                        <li><a href="/environment/permits/waste.html">Waste Permits</a></li>
+                    
+                        <li><a href="/environment/permits/water.html">Water Permits</a></li>
+                    
+                        <li><a href="/environment/permits/other.html">Other Permits</a></li>
+                    
+                        <li><a href="/environment/permits/efficiency-reports.html">Efficiency Reports</a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/ppo.html">Public Participation
+                        <span role="button" tabindex="0" aria-label="Public Participation submenu" aria-expanded="false" aria-controls="dropdown-3" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="Public Participation submenu" aria-expanded="false" aria-controls="dropdown-3" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-3">
+                        <li><a href="/environment/ppo/air.html">Air Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/energy.html">Energy Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/dmgr.html">Mineral &amp; Geologic Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/natural-areas.html">Natural Areas Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/radiation.html">Radiation Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/remediation.html">Remediation Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/parks.html">TN State Parks Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/ust.html">UST Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/waste.html">Waste Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/water.html">Water Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/general.html">TDEC General Notices</a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/about-tdec.html">About
+                        <span role="button" tabindex="0" aria-label="About submenu" aria-expanded="false" aria-controls="dropdown-4" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="About submenu" aria-expanded="false" aria-controls="dropdown-4" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-4">
+                        <li><a href="/environment/about-tdec/communications.html">Communications</a></li>
+                    
+                        <li><a href="/environment/about-tdec/leadership.html">Leadership</a></li>
+                    
+                        <li><a href="/environment/about-tdec/stakeholder.html">Stakeholder Engagement</a></li>
+                    
+                        <li><a href="/environment/about-tdec/external-affairs.html">External Affairs</a></li>
+                    
+                        <li><a href="/environment/about-tdec/boards-and-commissions.html">Boards &amp; Commissions</a></li>
+                    
+                        <li><a href="/environment/about-tdec/financial-assurance.html">Financial Assurance</a></li>
+                    
+                        <li><a href="/environment/about-tdec/grants.html">Grants</a></li>
+                    
+                        <li><a href="/environment/about-tdec/policies.html">Department Policies</a></li>
+                    
+                        <li><a href="/environment/about-tdec/vendor-opportunities.html">Vendor Opportunities</a></li>
+                    
+                        <li><a href="/environment/about-tdec/employment-and-internships.html">Employment &amp; Internships</a></li>
+                    
+                        <li><a href="/environment/about-tdec/tdec-annual-reports.html">TDEC Annual Reports</a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/contacts.html">Contact
+                        <span role="button" tabindex="0" aria-label="Contact submenu" aria-expanded="false" aria-controls="dropdown-5" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="Contact submenu" aria-expanded="false" aria-controls="dropdown-5" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-5">
+                        <li><a href="/environment/contacts/field-offices.html">Field Offices</a></li>
+                    
+                        <li><a href="/environment/contacts/ask-tdec-questions.html">Ask TDEC Questions</a></li>
+                    
+                        <li><a href="/environment/contacts/public-records-request.html">Public Records Request</a></li>
+                    
+                        <li><a href="/environment/contacts/customer-service-survey.html">Customer Service Survey</a></li>
+                    
+                        <li><a href="/environment/contacts/language-assistance.html">Language Assistance</a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                
+                <li>
+                    <a href="/environment/calendar-of-events.html">Calendar of Events</a>
+                </li>
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/arp.html">American Rescue Plan (ARP)
+                        <span role="button" tabindex="0" aria-label="American Rescue Plan (ARP) submenu" aria-expanded="false" aria-controls="dropdown-7" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="American Rescue Plan (ARP) submenu" aria-expanded="false" aria-controls="dropdown-7" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-7">
+                        <li><a href="/environment/arp/arp-success-stories.html">Success Stories</a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                
+                <li>
+                    <a href="/environment/news.html">TDEC Newsroom</a>
+                </li>
+            </ul>
+            <div class="right primary-print">
+                <a href="javascript:window.print();" class="icon-print" aria-label="Print This Page">
+                    <span class="visually-hidden">Print This Page</span>
+                </a>
+            </div>
+            <div class="right secondary-print">
+                <a href="javascript:window.print();" class="icon-print" aria-label="Print This Page">
+                    <span class="visually-hidden">Print This Page</span>
+                </a>
+            </div>
+            <div class="right secondary-search">
+                <a class="icon-search" href="javascript:;">
+                    <span class="visually-hidden">Go to Search</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="config hidden" data-config='{&#34;closeMenuText&#34;:&#34;Close Menu&#34;,&#34;menuText&#34;:&#34;Section&#34;}'></div>
+</nav>
+</div>
+</header></div>
+            <section aria-label="Alerts">
+    
+        
+
+        
+            
+            <div class="tn-alerts">
+    
+    
+        
+    
+    
+    <div class="entity-alert text-center" role="status">
+        <a href="/environment.html">
+            <span class="icon-info"></span>
+            We are reorganizing pages for a better experience. We appreciate your patience!
+        </a>
+    </div>
+
+    
+    
+
+</div>
+
+        
+    
+</section>
+
+            
+        </noindex>
+
+        <div id="main" tabindex="-1" role="main">
+    <div class="row center-block leftnav-template">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div class="template-left-nav tn-leftnav">            
+                
+    <nav class="side expander" aria-label="Left Navigation">
+        <div class="border-red title">
+            <a href="/environment/program-areas/wr-water-resources/water-quality.html">Water Supply Program</a>
+        </div>
+
+        <ul class="block-list">
+            
+                <li>
+                    <a href="/environment/program-areas/wr-water-resources/water-quality/drinking-water-redirect.html" class="title-link">Drinking Water</a>
+
+                    
+                        <button class="btn dropdown-toggle collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#leftnav-collapse-0" aria-label="Drinking Water submenu navigation" aria-expanded="false" aria-controls="leftnav-collapse-0">
+                        </button>
+
+                        <ul class="collapse " id="leftnav-collapse-0">
+                            <li>
+                                <a href="/environment/program-areas/wr-water-resources/water-quality/drinking-water-redirect/drinking-water-emergency-planning.html">Drinking Water Emergency Planning</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/wr-water-resources/water-quality/drinking-water-redirect/drinking-water-security.html">Drinking Water Security</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/wr-water-resources/water-quality/drinking-water-redirect/drinking-water-security-resources.html">Drinking Water Security Resources</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/wr-water-resources/water-quality/drinking-water-redirect/protecting-a-drinking-water-system.html">Protecting a Drinking Water System</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/wr-water-resources/water-quality/drinking-water-redirect/revised-total-coliform-rule.html">Revised Total Coliform Rule</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/wr-water-resources/water-quality/drinking-water-redirect/lead-and-copper-rule.html">Lead and Copper Rule</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/wr-water-resources/water-quality/drinking-water-redirect/lab-certification-program.html">Laboratory Certification Program</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/wr-water-resources/water-quality/drinking-water-redirect/compliance-monitoring-data-portal.html">Compliance Monitoring Data Portal</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/wr-water-resources/water-quality/drinking-water-redirect/ltscc.html">Lead Testing in Schools and Child Care Centers</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/wr-water-resources/water-quality/drinking-water-redirect/tn-area-wide-optimization-program-awop.html">TN Area Wide Optimization Program (AWOP)</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/wr-water-resources/water-quality/drinking-water-redirect/-back-to-water-quality.html"> Back to Water Quality</a>
+                            </li>
+                        </ul>
+                    
+                </li>
+            
+                <li class="active">
+                    <a href="/environment/program-areas/wr-water-resources/water-quality/well-water.html" class="title-link">Well Water</a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/wr-water-resources/water-quality/wellhead-protection-program.html" class="title-link">Wellhead Protection Program</a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/wr-water-resources/water-quality/underground-injection-control--uic-.html" class="title-link">Underground Injection Control (UIC)</a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/wr-water-resources/water-quality/safe-dams-program.html" class="title-link">Safe Dams Program</a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/wr-water-resources/water-quality/water-withdrawal-registration-program.html" class="title-link">Water Withdrawal Registration Program</a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/wr-water-resources/water-quality/source-water-assessment.html" class="title-link">Source Water Assessment</a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/wr-water-resources/water-quality/river-basins-regulated-by-the-inter-basin-transfer.html" class="title-link">River Basins Regulated by the Inter-Basin Transfer</a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/wr-water-resources/water-quality/water-quality-reports---publications.html" class="title-link">Water Quality Rules, Reports &amp; Publications</a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/wr-water-resources/water-quality/water-quality-training.html" class="title-link">Water Quality Training</a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/wr-water-resources/water-quality/water-resources-data-map-viewers.html" class="title-link">Water Resources Data &amp; Map Viewers</a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/wr-water-resources/water-quality/citizen-water-quality-complaints.html" class="title-link">Citizen Water Quality Complaints</a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/wr-water-resources/water-quality/visit---like-our-facebook-page.html" class="title-link">Visit &amp; Like Our Facebook Page</a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/wr-water-resources/water-quality/back-to-water-resources.html" class="title-link">Back to Water Resources</a>
+
+                    
+                </li>
+            
+        </ul>
+    </nav>
+
+
+            </div>
+        </div>
+
+        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 content">
+            <article>
+                <div class="tn-pagetitle show" aria-hidden="false">
+    <h1>Well Water</h1>
+    
+
+</div>
+
+                <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p>The Tennessee Water Well Act of 1963 requires all persons drilling a water well to be licensed. A water well is any well for the production of water for beneficial use such as domestic use, irrigation, livestock watering, etc. A person installing a pump or water treatment device on a water well must also be licensed.</p>
+<p>The Well Driller Supervision Program licenses well drillers, pump setters, and water treatment device installers in the State. Licensed individuals must develop wells and install equipment according to standards, which are designed to protect the resource and insure consumers of a safe and reliable structure. The duties of the Commissioner are given in TCA, Section 69-10-106, and include, among other things, the authority to:</p>
+<ul><li>License drillers, pump installers, and water treatment device installers</li><li>Inspect well construction</li><li>Investigate complaints</li><li>Promulgate Rules relative to well construction</li></ul>
+
+    
+    
+
+</div>
+
+
+    
+    
+    <div class="containers tn-accordion parbase">
+    <div class="accordion" id="accordion-d3eeeb6b3c8c4399bccb4b6a3da75f12">
+        
+
+        
+            
+                <div class="button-wrapper">
+                    <button class="button icon-plus" type="button" aria-controls="collapsed3eeeb6b3c8c4399bccb4b6a3da75f12-0 collapsed3eeeb6b3c8c4399bccb4b6a3da75f12-1 collapsed3eeeb6b3c8c4399bccb4b6a3da75f12-2 collapsed3eeeb6b3c8c4399bccb4b6a3da75f12-3 collapsed3eeeb6b3c8c4399bccb4b6a3da75f12-4 collapsed3eeeb6b3c8c4399bccb4b6a3da75f12-5 collapsed3eeeb6b3c8c4399bccb4b6a3da75f12-6 collapsed3eeeb6b3c8c4399bccb4b6a3da75f12-7 collapsed3eeeb6b3c8c4399bccb4b6a3da75f12-8 collapsed3eeeb6b3c8c4399bccb4b6a3da75f12-9 " aria-label="Expand all accordion sections" data-tn-action="accordion:expandcollapse"></button>
+                </div>
+            
+
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-d3eeeb6b3c8c4399bccb4b6a3da75f12-0" aria-controls="collapse-d3eeeb6b3c8c4399bccb4b6a3da75f12-0" aria-expanded="false">
+                                    Selecting a Well Drilling Contractor
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-d3eeeb6b3c8c4399bccb4b6a3da75f12-0" class="accordion-collapse collapse" data-bs-parent="#accordion-d3eeeb6b3c8c4399bccb4b6a3da75f12">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p>Tennessee requires that all water well drillers, pump and water treatment device installers be licensed by the State.<br />
+</p>
+<p>A list of licensed drillers and installers is available under the Additional Recourses drop-down menu at the bottom of this page.</p>
+<p>The following questions should be asked of a water well driller and/or a pump or water treatment device installer:</p>
+<p style="	margin-left: 40.0px;
+">&gt;Will you provide a written contract?<br />
+&gt;Does your insurance cover damages that might occur to the property or other liabilities?<br />
+&gt;Can you provide your license certificate and a list of references?<br />
+&gt;Will you itemize what the well system will cost; including the registration fee paid to the State of Tennessee?<br />
+&gt;How will the well be constructed?</p>
+<p style="	margin-left: 80.0px;
+">-size of the borehole<br />
+-type of cap<br />
+-well casing (steel, plastic)<br />
+-how is the well disinfected<br />
+-type of screen, if required<br />
+-how is the well developed<br />
+-how is the well backfilled and sealed<br />
+-well report furnished</p>
+
+    
+    
+
+</div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-d3eeeb6b3c8c4399bccb4b6a3da75f12-1" aria-controls="collapse-d3eeeb6b3c8c4399bccb4b6a3da75f12-1" aria-expanded="false">
+                                    Obtaining a Driller’s or Installer’s License
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-d3eeeb6b3c8c4399bccb4b6a3da75f12-1" class="accordion-collapse collapse" data-bs-parent="#accordion-d3eeeb6b3c8c4399bccb4b6a3da75f12">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p>Anyone who manages or supervises the digging, drilling, or redrilling of a well or anyone who installs, or repairs well pumps or filters and treatment devices must obtain a license to work in Tennessee.</p>
+<p><a title="Well Driller or Installer License Page" href="/content/tn/environment/permits/water/well-driller-installer.html" target="_blank" rel="noopener noreferrer"><span class="icon-link-ext">Well Driller or Installer License Page</span></a><br />
+</p>
+
+    
+    
+
+</div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-d3eeeb6b3c8c4399bccb4b6a3da75f12-2" aria-controls="collapse-d3eeeb6b3c8c4399bccb4b6a3da75f12-2" aria-expanded="false">
+                                    Locating the Well
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-d3eeeb6b3c8c4399bccb4b6a3da75f12-2" class="accordion-collapse collapse" data-bs-parent="#accordion-d3eeeb6b3c8c4399bccb4b6a3da75f12">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p>Quantity and availability of ground water varies considerably across the State. A licensed driller and/or a representative of the Division of Water Resources can help determine the prospects for ground water in your area. Locate the well a safe distance from potential sources of contamination. The following distances of separation are required by regulation:<br />
+</p>
+
+    
+    
+
+</div>
+
+
+    
+    
+    <div class="tn-simpletable parbase"><table width="100%" border="0" cellspacing="0" cellpadding="1"><tbody><tr><th>Potential Sources of Contamination</th><th>Minimum Distances</th></tr><tr><td>Sewage Lagoons; Leaching Pits</td><td>200 feet</td></tr><tr><td>Animal Pens; Feed Lots</td><td>100 feet</td></tr><tr><td>Sludge; Septage Disposal Sites</td><td>100 feet</td></tr><tr><td>Pit Privies</td><td>75 feet</td></tr><tr><td>Sewer Lines</td><td>50 feet</td></tr><tr><td>Septic Tanks; Drain Fields</td><td>50 feet</td></tr><tr><td>House To Septic Tank Connections (Tightline)</td><td>10 feet</td></tr></tbody></table>
+
+</div>
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p>The well site should not be subject to flooding. If site conditions make it necessary to construct a well in an area subject to flooding, the watertight casing should extend at least two (2) feet above the 100-year flood elevation. The well should be at least five (5) feet away from any overhanging rooftops or power lines. The well should not be constructed in pits, basements or in areas where future construction may take place. The ground should slope away from the top of the well. For a well on a hillside, the uphill side of the well should be designed to prevent runoff from entering the well. The well should not be located closer than ten (10) feet from a property line.</p>
+
+    
+    
+
+</div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-d3eeeb6b3c8c4399bccb4b6a3da75f12-3" aria-controls="collapse-d3eeeb6b3c8c4399bccb4b6a3da75f12-3" aria-expanded="false">
+                                    Constructing the Well
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-d3eeeb6b3c8c4399bccb4b6a3da75f12-3" class="accordion-collapse collapse" data-bs-parent="#accordion-d3eeeb6b3c8c4399bccb4b6a3da75f12">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p>Although the type and depth of well construction varies with location, there are several important things to be aware of concerning the construction of a well:<br />
+</p>
+<ul style="	list-style-position: inside;
+"><li>The outside diameter of most private, domestic water wells is 6 5/8 inches in Middle and East TN, and 4 inches in West TN.</li><li>New black or galvanized steel casing is required when drilling and completing a well in bedrock. Most wells in Middle and East Tennessee require steel casing.</li><li>Wells developed in sand or other loose material may be cased with plastic pipe approved by the National Sanitation Foundation (NSF) with a minimum stress design rating Standard Dimension Ratio (SDR) 26.</li><li>Watertight casing should extend at least six (6) inches above ground level; a minimum of two (2) feet for areas subject to flooding.</li><li>Wells constructed in bedrock should have watertight casing down to nineteen (19) feet or five (5) feet into the top of bedrock, whichever is greater.</li><li>Wells constructed in unconsolidated material such as sand or gravel should have watertight casing down to nineteen (19) feet or to the top of the aquifer, whichever is greater.</li><li>The well should be sealed at the top of the casing with a suitable cap or sanitary seal.</li><li>The outside of the well casing should be backfilled with an impervious material such as cement grout or bentonite clay, from a minimum of three (3) feet to ten (10) feet below land surface to prevent surface water from entering the well. The remaining backfill material may consist of bentonite, cement, drill cuttings or a mix of cuttings and bentonite. The backfill should be free of cracks or any evidence of collapse.</li><li>The size of the pump and storage tank needed depends upon the yield of the well and the number of persons in the household. Generally, a well which yields 3-5 gallons per minute or more will adequately serve a household of four (4) to six (6) people.</li><li>Underground pipes leading from the well should be fitted with a pitless adaptor, which provides a watertight, frost-free connection.</li><li>The driller is required to &#34;develop&#34; the well after the drilling is completed to remove any debris, sediment or cuttings from the well.</li><li>Following development of the well, the driller should disinfect the well to kill any bacteria which may have been introduced into the well during drilling and/or pump installation.</li><li>The driller is required to send a <a href="https://tdec.tn.gov/etdec/DownloadFile.aspx?row_id&#61;CN-0825" target="_blank" title="Tennessee Water Well Drillers Report (CN-0825)" rel="noopener noreferrer">Tennessee Water Well Drillers Report (CN-0825)</a> to the Division of Water Resources. The report must give the name and address of the owner, the location of the well, the date of completion and a description of the well’s construction. The well owner should request a copy of this report from the driller. This report may be valuable to you or subsequent owners in the event of any problem with the well.</li><li>The well casing should never be cut off by the owner after the well is completed. Not only is the well I.D. tag lost, but the well becomes more susceptible to surface water and bacterial contamination.</li><li>The use and/or storage of chemicals, including pesticides, gasoline, paint thinner, solvents, etc., should not take place within a twenty (20) ft. radius of the well.</li></ul>
+
+    
+    
+
+</div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-d3eeeb6b3c8c4399bccb4b6a3da75f12-4" aria-controls="collapse-d3eeeb6b3c8c4399bccb4b6a3da75f12-4" aria-expanded="false">
+                                    Disinfecting the Well
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-d3eeeb6b3c8c4399bccb4b6a3da75f12-4" class="accordion-collapse collapse" data-bs-parent="#accordion-d3eeeb6b3c8c4399bccb4b6a3da75f12">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p>Bacteria can enter a well from the handling of the pump and pipe as well as from the drilling equipment. A strong chlorine solution will kill most bacteria in a well if allowed to remain for at least twelve (12) hours. The Water Well Construction standards require both the driller and pump installer to disinfect the well.<br />
+</p>
+<p>To disinfect the well, pour into the well one (1) gallon of chlorine bleach or one (1) ounce HTH super chlorinated solution for every fifty (50) feet of well depth.</p>
+<p>Once the chlorine is in the well, the faucets in the home should run until a chlorine odor is noticed. The water is then turned off and allowed to remain in the well and pipes for at least twelve (12) hours.</p>
+<p>After twelve (12) hours, the water should be pumped out of the well until the chlorine odor is gone. Do not run heavily chlorinated wastewater through a septic tank system or discharge into a surface water body.</p>
+<p>The disinfection procedure should be repeated each time the well, pump or pipes are serviced.</p>
+
+    
+    
+
+</div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-d3eeeb6b3c8c4399bccb4b6a3da75f12-5" aria-controls="collapse-d3eeeb6b3c8c4399bccb4b6a3da75f12-5" aria-expanded="false">
+                                    Installing a Pump
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-d3eeeb6b3c8c4399bccb4b6a3da75f12-5" class="accordion-collapse collapse" data-bs-parent="#accordion-d3eeeb6b3c8c4399bccb4b6a3da75f12">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p>Pumps must be installed by a licensed installer. Selection of the correct pump is based in part upon the diameter of the well casing, well depth, static water level, well yield, friction loss, vertical lift, drawdown, and number of water fixtures or residents in the home. The installer will use these figures to determine the appropriate size and type pump for your water well. Installation must follow National Electric Code (NEC) Standards. All pumps must be grounded from the pump motor frame to the service entrance per NEC Section 250-43 (k). Also, any pump placed in metal casing must be grounded to the casing above land surface, either by welding the ground wire or using a crimp or set screw.<br />
+</p>
+<p>In addition, proper electrical cables should be selected. Type &#34;TW&#34; wire, Submersible Pump Cable, should never be buried directly in the ground unless it is placed in conduit and buried eighteen (18) inches deep. Type &#34;UF&#34; and Type &#34;USE&#34; cable may be directly buried twenty-four (24) inches deep. Consult the NEC for more information.</p>
+
+    
+    
+
+</div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-d3eeeb6b3c8c4399bccb4b6a3da75f12-6" aria-controls="collapse-d3eeeb6b3c8c4399bccb4b6a3da75f12-6" aria-expanded="false">
+                                    Testing the Water Quality
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-d3eeeb6b3c8c4399bccb4b6a3da75f12-6" class="accordion-collapse collapse" data-bs-parent="#accordion-d3eeeb6b3c8c4399bccb4b6a3da75f12">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p>It is strongly recommended that private water supplies be tested annually for bacteria. Coliform bacteria are indicator organisms used to assess the potential for disease causing-bacteria in well water. If your well tests positive for bacteria, disinfect the well and have it retested. If bacteria persist in the well, it may be necessary to install some type of permanent disinfection equipment, such as a chlorinator or ultraviolet light. Please visit the  <a title="Lab Certification Program" href="/content/tn/environment/program-areas/wr-water-resources/water-quality/drinking-water-redirect/lab-certification-program.html" target="_blank" rel="noopener noreferrer"><span class="icon-link-ext">Laboratory Certification Program’s</span></a> website  to obtain a list of private labs certified for drinking water.  There are two buttons at the bottom of the page that will allow you to access the lists.</p>
+
+    
+    
+
+</div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-d3eeeb6b3c8c4399bccb4b6a3da75f12-7" aria-controls="collapse-d3eeeb6b3c8c4399bccb4b6a3da75f12-7" aria-expanded="false">
+                                    Well Abandonment
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-d3eeeb6b3c8c4399bccb4b6a3da75f12-7" class="accordion-collapse collapse" data-bs-parent="#accordion-d3eeeb6b3c8c4399bccb4b6a3da75f12">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p>Existing wells no longer in service or those that may pose a threat to ground water should undergo proper abandonment (well closure). The Division requires that these wells be closed by a licensed water well driller.</p>
+<p>Licensed well drillers are required to perform well abandonments in accordance with state standards. Any newly drilled well in which the casing has not been installed or from which the casing has been removed must also undergo proper abandonment.<br />
+<br />
+</p>
+
+    
+    
+
+</div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-d3eeeb6b3c8c4399bccb4b6a3da75f12-8" aria-controls="collapse-d3eeeb6b3c8c4399bccb4b6a3da75f12-8" aria-expanded="false">
+                                    Frequently Asked Questions
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-d3eeeb6b3c8c4399bccb4b6a3da75f12-8" class="accordion-collapse collapse" data-bs-parent="#accordion-d3eeeb6b3c8c4399bccb4b6a3da75f12">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="containers tn-accordion parbase">
+    <div class="accordion" id="accordion-fac1c710a0284ecbbcc661799b14a2b8">
+        
+
+        
+            
+
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-fac1c710a0284ecbbcc661799b14a2b8-0" aria-controls="collapse-fac1c710a0284ecbbcc661799b14a2b8-0" aria-expanded="false">
+                                    1. I’m purchasing a new home that has a private well and my lender is requiring sampling.  What do I do now?
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-fac1c710a0284ecbbcc661799b14a2b8-0" class="accordion-collapse collapse" data-bs-parent="#accordion-fac1c710a0284ecbbcc661799b14a2b8">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p>The State of Tennessee does not have requirements for sampling and analysis of <strong><u>private</u></strong> water supplies.  Since there are no state requirements, you first need to ask the entity requiring the sampling (e.g. your lender), what parameters the well water must be sampled and analyzed for to satisfy their requirements.</p>
+<p>If you have questions about Total Coliform sampling and analysis, please visit the <a title="Subsurface Sewage Disposal Systems webpage" href="/content/tn/environment/permits/water/septic-systems-permits/ssp/wr-sds-contacts-by-region.html" target="_blank" rel="noopener noreferrer"><span class="icon-link-ext">Subsurface Sewage Disposal Systems webpage</span></a> to determine the appropriate Environmental Field Office or Contract County contact for your location.<br />
+</p>
+<p>If your lender is requiring a more robust suite of sampling parameters, you will need to reach out to a private laboratory or consulting service to have the sampling and analysis performed.  A list of laboratories certified for drinking water analysis can be found by visiting the <a href="https://www.tn.gov/environment/program-areas/wr-water-resources/water-quality/drinking-water-redirect/lab-certification-program.html"><span class="icon-link-ext">Laboratory Certification Program’s website</span></a>.  There are two buttons at the bottom of the page that will allow you to access the lists.</p>
+
+    
+    
+
+</div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-fac1c710a0284ecbbcc661799b14a2b8-1" aria-controls="collapse-fac1c710a0284ecbbcc661799b14a2b8-1" aria-expanded="false">
+                                    2. I am a real estate agent or lender and I have a buyer who is interested in purchasing a home with a private water supply.  What are the State’s requirements for private water supply sampling?
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-fac1c710a0284ecbbcc661799b14a2b8-1" class="accordion-collapse collapse" data-bs-parent="#accordion-fac1c710a0284ecbbcc661799b14a2b8">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p>The State of Tennessee does not have requirements for sampling and analysis of private water supplies. Since there are no state requirements, you first need to ask the entity requiring the sampling (e.g. the lender), what parameters the well water must be sampled and analyzed for to satisfy their requirements. For more information, see question #1 above.</p>
+
+    
+    
+
+</div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-fac1c710a0284ecbbcc661799b14a2b8-2" aria-controls="collapse-fac1c710a0284ecbbcc661799b14a2b8-2" aria-expanded="false">
+                                    3. How can I find out more information about the well that is on my property?
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-fac1c710a0284ecbbcc661799b14a2b8-2" class="accordion-collapse collapse" data-bs-parent="#accordion-fac1c710a0284ecbbcc661799b14a2b8">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p>Information regarding private water wells is public record.  TDEC has created a web-mapping application to assist private wells owners, well drilling professionals and researchers in obtaining private water well data.  A link to the water well web application can be found under the “Additional Resources” tab on this page.  If you need a copy of the Driller’s Report for a private water well, please contact your TDEC field office at 1-888-891-TDEC (8332) and give them the Driller Tag number to look up the report for your well.</p>
+
+    
+    
+
+</div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-fac1c710a0284ecbbcc661799b14a2b8-3" aria-controls="collapse-fac1c710a0284ecbbcc661799b14a2b8-3" aria-expanded="false">
+                                    4. Why is my private water well in the wrong place on the Water Well Web Application?
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-fac1c710a0284ecbbcc661799b14a2b8-3" class="accordion-collapse collapse" data-bs-parent="#accordion-fac1c710a0284ecbbcc661799b14a2b8">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p>There may be records in the State’s water well database that do not contain reliable locational information, specifically with respect to the reported latitude and longitude.  The database includes entries reported as far back as the 1920s and the accuracy of locational information depends on the type of instruments (e.g., topographic map, address, GPS, etc.) used to record/report the location as well as the diligence of the reporting entity. </p>
+<p>If your well is mapped incorrectly, please notify the Division by e-mailing <a href="mailto:Richard.Rogers&#64;TN.gov">Richard.Rogers&#64;TN.gov</a>.  If possible, please include the Driller Tag number, State Well Tag number, the address where the well is located, and accurate coordinates of the well head.  You will likely be contacted by e-mail or phone to confirm the information.</p>
+
+    
+    
+
+</div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-fac1c710a0284ecbbcc661799b14a2b8-4" aria-controls="collapse-fac1c710a0284ecbbcc661799b14a2b8-4" aria-expanded="false">
+                                    5. How can I get a copy of the private water well GIS dataset for the entire State?
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-fac1c710a0284ecbbcc661799b14a2b8-4" class="accordion-collapse collapse" data-bs-parent="#accordion-fac1c710a0284ecbbcc661799b14a2b8">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p>Exporting a state-wide dataset is very time consuming so we have established access to a state-wide dataset using a GIS REST Service.  The URL for that rest service is shown below.  Please use this URL to add the data set to your GIS project.  At that point you may query the data in your GIS and export a local copy of the data necessary to achieve your study goals.</p>
+<p>URL: <a href="https://tdeconline.tn.gov/arcgis/rest/services/WLTS_Well_Locations_PUBLIC/FeatureServer">https://tdeconline.tn.gov/arcgis/rest/services/WLTS_Well_Locations_PUBLIC/FeatureServer</a></p>
+<p>Alternatively, and more time consuming, the state-wide dataset can be downloaded one county at a time using the query and download options provided in the water well web application.</p>
+
+    
+    
+
+</div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-fac1c710a0284ecbbcc661799b14a2b8-5" aria-controls="collapse-fac1c710a0284ecbbcc661799b14a2b8-5" aria-expanded="false">
+                                    6. Where can I find a list of Tennessee Licensed Drillers, Pump Installers and Treatment System Installers.
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-fac1c710a0284ecbbcc661799b14a2b8-5" class="accordion-collapse collapse" data-bs-parent="#accordion-fac1c710a0284ecbbcc661799b14a2b8">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p>A list of licensed well drillers, pump installers and treatment system installers can be accessed under the Additional Resources tab at the bottom of this page.</p>
+
+    
+    
+
+</div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-fac1c710a0284ecbbcc661799b14a2b8-6" aria-controls="collapse-fac1c710a0284ecbbcc661799b14a2b8-6" aria-expanded="false">
+                                    7. Are there any funding or financing programs available for private water wells?
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-fac1c710a0284ecbbcc661799b14a2b8-6" class="accordion-collapse collapse" data-bs-parent="#accordion-fac1c710a0284ecbbcc661799b14a2b8">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p>TDEC does not have any programs to assist with funding or financing of private water supplies, however, there are programs available. </p>
+<p>Please visit these pages to learn about well financing options.</p>
+<p><a href="https://www.watersystemscouncil.org/water-well-help/well-financing/" target="_blank" title="Water Systems Council" rel="noopener noreferrer"><span class="icon-link-ext">Water Systems Council</span></a></p>
+<p><a href="https://www.rcap.org" target="_blank" title="Rural Community Assistance Partnership" rel="noopener noreferrer"><span class="icon-link-ext">Rural Community Assistance Partnership</span></a><br />
+</p>
+<p><a href="https://www.waterwelltrust.org/apply/" target="_blank" title="Water Well Trust" rel="noopener noreferrer"><span class="icon-link-ext">Water Well Trust</span></a><br />
+</p>
+<p><a title="USDA" href="https://www.rd.usda.gov/node/17042" target="_blank" rel="noopener noreferrer"><span class="icon-link-ext">USDA</span></a></p>
+<p><a title="Link to Communities Unlimited" href="https://communitiesu.org/lending/" target="_blank" rel="noopener noreferrer"><span class="icon-link-ext">Communities Unlimited</span></a></p>
+
+    
+    
+
+</div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-fac1c710a0284ecbbcc661799b14a2b8-7" aria-controls="collapse-fac1c710a0284ecbbcc661799b14a2b8-7" aria-expanded="false">
+                                    8. Who do I need to talk to about maintenance or installation of a water treatment system for my water well?
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-fac1c710a0284ecbbcc661799b14a2b8-7" class="accordion-collapse collapse" data-bs-parent="#accordion-fac1c710a0284ecbbcc661799b14a2b8">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p>There is a wide variety of common treatment problems with the use of groundwater in Tennessee.  Common water quality problems that might be mitigated with treatment devices include:</p>
+<ul><li>Bacteria</li><li>Iron &amp; Iron reducing bacteria</li><li>Sulfur odor</li><li>“Hard” water</li><li>Sediment</li></ul>
+<p>These problems are highly dependent upon the geologic conditions in the vicinity of your well.  In addition to well drillers and pump installers, TDEC regulates licensure of water treatment system installers in Tennessee.  A Treatment system installers license is required of an individual who performs maintenance on or installs a water treatment device on a private water supply.  Licensees are required to obtain continuing education each year to stay current with the changing technology in private water treatment devices and systems.  We recommend that you reach out to a licensed individual with experience in your area and explain your concerns to them so that they may recommend and install proper treatment devices that will address your specific concerns.</p>
+
+    
+    
+
+</div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+
+            
+        
+    </div>
+
+</div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-d3eeeb6b3c8c4399bccb4b6a3da75f12-9" aria-controls="collapse-d3eeeb6b3c8c4399bccb4b6a3da75f12-9" aria-expanded="false">
+                                    Additional Resources
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-d3eeeb6b3c8c4399bccb4b6a3da75f12-9" class="accordion-collapse collapse" data-bs-parent="#accordion-d3eeeb6b3c8c4399bccb4b6a3da75f12">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p style="	letter-spacing: -0.4px;
+"><a href="https://tdeconline.tn.gov/tdecwaterwells/" target="_blank" title="Division of Water Resources Water Well Map Viewer" rel="noopener noreferrer"><span class="icon-link-ext">Division of Water Resources Water Well Map Viewer</span></a></p>
+<p style="	letter-spacing: -0.4px;
+"><a title="Division of Water Resources Water Well Map Viewer (mobile friendly)" href="https://tdeconline.tn.gov/tdecwaterwells_mobile/" target="_blank" rel="noopener noreferrer"><span class="icon-link-ext">Division of Water Resources Water Well Map Viewer (mobile friendly)</span></a></p>
+<p style="	margin-left: 40.0px;
+"><a title="TDEC Water Well Data Web-Application User Manual" href="/content/dam/tn/environment/water/archive/wr_wq_well_water-well-web-app-users-manual.pdf" target="_blank" rel="noopener noreferrer"><span class="icon-file-pdf">Water Well Map Viewer User&#39;s Manual</span></a></p>
+<p><a title="Link to TDEC Environmental Field Office Page" href="/content/tn/environment/about-tdec/about-field-offices-home.html" target="_blank" rel="noopener noreferrer"><span class="icon-link-ext">Environmental Field Offices</span></a> (To Request Information or Ask Questions)</p>
+<p><a title="Guidance for What to Fo with a Water Well After a flood" href="/content/dam/tn/environment/water/archive/wr_well-after-flood.pdf" target="_blank" rel="noopener noreferrer"><span class="icon-file-pdf">Guidance for What to do With a Water Well After a Flood</span></a><br />
+</p>
+<p><a title="Licensed Tennessee Well Drillers and Installers" href="https://dataviewers.tdec.tn.gov/pls/enf_reports/f?p&#61;2005:39906" target="_blank" rel="noopener noreferrer"><span class="icon-link-ext">Licensed Tennessee Well Drillers and Installers List</span></a></p>
+<p><a title="Tennessee Healthy Well Manual" href="/content/dam/tn/environment/water/archive/wr_tn-healthy-well-manual.pdf" target="_blank" rel="noopener noreferrer"><span class="icon-file-pdf">Tennessee Healthy Well Manual</span></a></p>
+<p><a title="Link to TDEC Rule 0400-45-09" href="https://publications.tnsosfiles.com/rules/0400/0400-45/0400-45.htm" target="_blank" rel="noopener noreferrer"><span class="icon-link-ext">TDEC Rule 0400-45-9 - Well Licensing Regulations and Well Construction Standards</span></a><br />
+</p>
+<p><a title="LInk to Department of Health" href="/content/tn/health/health-old/cedep/environmental/environmental-health-topics/eht/private-water-supply.html" target="_blank" rel="noopener noreferrer"><span class="icon-link-ext">TN Department of Health information on private water supply</span></a></p>
+<p> </p>
+
+    
+    
+
+</div>
+
+
+    
+    
+    <div class="tn-jumpmenu"><div class="tn-jumpwrapper">
+    <button type="button" id="gov.tn.core.models.components.JumpMenuModel@73d3f3cd-button" class="btn btn-default dropdown-toggle" data-bs-toggle="dropdown" aria-controls="jumpmenu-c19f4c42459148e0aa770b9df133ae44" aria-expanded="false">
+        FORMS
+    </button>
+    <ul class="dropdown-menu" id="jumpmenu-c19f4c42459148e0aa770b9df133ae44" role="menu" aria-labelledby="gov.tn.core.models.components.JumpMenuModel@73d3f3cd-button">
+         <li role="presentation">
+             <a href="https://tdec.tn.gov/etdec/DownloadFile.aspx?row_id=CN-0825" role="menuitem" class="dropdown-item">CN-0825 Water Well Drillers Report</a>
+         </li>
+<li role="presentation">
+             <a href="https://tdec.tn.gov/etdec/DownloadFile.aspx?row_id=CN-1167" role="menuitem" class="dropdown-item">CN-1167 Affidavit of Supervision</a>
+         </li>
+<li role="presentation">
+             <a href="https://tdec.tn.gov/etdec/DownloadFile.aspx?row_id=CN-1168" role="menuitem" class="dropdown-item">CN-1168 Application for a Well Drill &amp; Installer Licence</a>
+         </li>
+<li role="presentation">
+             <a href="https://tdec.tn.gov/etdec/DownloadFile.aspx?row_id=CN-1230" role="menuitem" class="dropdown-item">CN-1230 Geothermal Closed Loop System Report</a>
+         </li>
+<li role="presentation">
+             <a href="https://tdec.tn.gov/etdec/DownloadFile.aspx?row_id=CN-1240" role="menuitem" class="dropdown-item">CN-1240 Notice of Intent</a>
+         </li>
+<li role="presentation">
+             <a href="https://tdec.tn.gov/etdec/DownloadFile.aspx?row_id=CN-1241" role="menuitem" class="dropdown-item">CN-1241 Water Well Closure Abandonment Report</a>
+         </li>
+
+    </ul>
+</div>
+</div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+
+            
+                <div class="button-wrapper">
+                    <button class="button icon-plus" type="button" aria-controls="collapsed3eeeb6b3c8c4399bccb4b6a3da75f12-0 collapsed3eeeb6b3c8c4399bccb4b6a3da75f12-1 collapsed3eeeb6b3c8c4399bccb4b6a3da75f12-2 collapsed3eeeb6b3c8c4399bccb4b6a3da75f12-3 collapsed3eeeb6b3c8c4399bccb4b6a3da75f12-4 collapsed3eeeb6b3c8c4399bccb4b6a3da75f12-5 collapsed3eeeb6b3c8c4399bccb4b6a3da75f12-6 collapsed3eeeb6b3c8c4399bccb4b6a3da75f12-7 collapsed3eeeb6b3c8c4399bccb4b6a3da75f12-8 collapsed3eeeb6b3c8c4399bccb4b6a3da75f12-9 " aria-label="Expand all accordion sections" data-tn-action="accordion:expandcollapse"></button>
+                </div>
+            
+        
+    </div>
+
+</div>
+
+
+</div>
+
+                <div class="tn-lastupdated">
+    <div role="region" aria-label="Page Last Updated Section">
+        <p class="text-right"><span class="fst-italic">This Page Last Updated: August 25, 2026 at 3:04 PM</span></p>
+    </div>
+</div>
+            </article>
+        </div>
+    </div>
+</div>
+
+        <div class="tn-backtotop"><a href="#header-logo" class="page-top icon-up" aria-label="Go back to the top of the page"></a></div>
+
+        
+
+        
+
+        <noindex>
+            <div>
+    <div>
+
+
+
+
+    
+        
+        
+        <div class="newpar new section">
+
+</div>
+
+    
+        
+        
+        <div class="par iparys_inherited">
+
+    
+    
+    
+    
+
+</div>
+
+    
+
+</div>
+    <footer>
+        <div>
+
+
+
+
+    
+        
+        
+        <div class="newpar new section">
+
+</div>
+
+    
+        
+        
+        <div class="par iparys_inherited">
+
+    
+    
+    
+    
+        
+        
+        <div class="tn-socialmediafooter"><div class="tn-socialmediabarfooter" role="navigation" aria-label="Social Media Links">
+    <div class="social">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 columns">
+                <ul class="inline-list">
+                    <li>
+                        <div class="title">Social Media</div>
+                    </li>
+                    
+                        
+                            <li><a href="https://www.facebook.com/TNEnvironment" class="icon-facebook" target="_blank"><span>facebook</span></a></li>
+                        
+                    
+                        
+                    
+                        
+                            <li><a href="https://www.youtube.com/user/TNEnvironment" class="icon-youtube" target="_blank"><span>youtube</span></a></li>
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                            <li><a href="https://www.linkedin.com/company/tennessee-department-of-environment-and-conservation/" class="icon-linkedin" target="_blank"><span>linkedin</span></a></li>
+                        
+                    
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</div></div>
+
+    
+        
+        
+        <div class="secondaryfooter tn-secondaryfooter"><section id="agency-footer">
+    <div class="row">
+        
+            <div class="col-md-15 col-sm-15 columns">
+                <div class="title border-darkblue" id="agency-footer-col-0">
+                    Programs
+                </div>
+                <button data-bs-toggle="collapse" data-bs-target="#footer-list-0" class="menu-expand-anchor" type="button" aria-expanded="false" aria-controls="collapseExample" aria-label="Programs Submenu">
+                    <span class="icon-angle-down menu-expand"></span>
+                </button>
+                <ul class="block-list" aria-labelledby="agency-footer-col-0" id="footer-list-0">
+                   <li>
+                       <a href="/environment/air.html" aria-label="Air" title="Air">Air</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/stewardship.html" aria-label="Environmental Stewardship" title="Environmental Stewardship">Environmental Stewardship</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/program-areas/solid-waste.html" aria-label="Solid Waste" title="Solid Waste">Solid Waste</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/ust.html" aria-label="Underground Storage Tanks" title="Underground Storage Tanks">Underground Storage Tanks</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/program-areas/wr-water-resources.html" aria-label="Water" title="Water">Water</a>
+                   </li>
+                </ul>
+            </div>
+        
+            <div class="col-md-15 col-sm-15 columns">
+                <div class="title border-darkblue" id="agency-footer-col-1">
+                    Resources
+                </div>
+                <button data-bs-toggle="collapse" data-bs-target="#footer-list-1" class="menu-expand-anchor" type="button" aria-expanded="false" aria-controls="collapseExample" aria-label="Resources Submenu">
+                    <span class="icon-angle-down menu-expand"></span>
+                </button>
+                <ul class="block-list" aria-labelledby="agency-footer-col-1" id="footer-list-1">
+                   <li>
+                       <a href="/environment/accessibility.html" target="_blank" aria-label="Accessibility" title="Accessibility">Accessibility</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/about-tdec/tdec-dataviewers.html" aria-label="Dataviewers" title="Dataviewers">Dataviewers</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/about-tdec/employment-and-internships.html" aria-label="Employment and Internships" title="Employment and Internships">Employment and Internships</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/about-tdec/enforcement-orders.html" aria-label="Enforcement Orders" title="Enforcement Orders">Enforcement Orders</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/about-tdec/grants.html" aria-label="Grants" title="Grants">Grants</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/nondiscrimination.html" aria-label="Non-Discrimination" title="Non-Discrimination">Non-Discrimination</a>
+                   </li>
+                </ul>
+            </div>
+        
+            <div class="col-md-15 col-sm-15 columns">
+                <div class="title border-darkblue" id="agency-footer-col-2">
+                    Featured Links
+                </div>
+                <button data-bs-toggle="collapse" data-bs-target="#footer-list-2" class="menu-expand-anchor" type="button" aria-expanded="false" aria-controls="collapseExample" aria-label="Featured Links Submenu">
+                    <span class="icon-angle-down menu-expand"></span>
+                </button>
+                <ul class="block-list" aria-labelledby="agency-footer-col-2" id="footer-list-2">
+                   <li>
+                       <a href="/environment/about-tdec/tdec-annual-reports.html" aria-label="TDEC Annual Reports" title="TDEC Annual Reports">TDEC Annual Reports</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/contacts/field-offices.html" aria-label="Field Offices" title="Field Offices">Field Offices</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/natural-areas.html" aria-label="Natural Areas" title="Natural Areas">Natural Areas</a>
+                   </li>
+                
+                   <li>
+                       <a href="https://tnstateparks.com/" target="_blank" aria-label="State Parks" title="State Parks">State Parks</a>
+                   </li>
+                
+                   <li>
+                       <a href="https://tnstateparks.com/conservationist" target="_blank" aria-label="The Tennessee Conservationist" title="The Tennessee Conservationist">The Tennessee Conservationist</a>
+                   </li>
+                </ul>
+            </div>
+        
+            <div class="col-md-15 col-sm-15 columns">
+                <div class="title border-darkblue" id="agency-footer-col-3">
+                    Partner Links
+                </div>
+                <button data-bs-toggle="collapse" data-bs-target="#footer-list-3" class="menu-expand-anchor" type="button" aria-expanded="false" aria-controls="collapseExample" aria-label="Partner Links Submenu">
+                    <span class="icon-angle-down menu-expand"></span>
+                </button>
+                <ul class="block-list" aria-labelledby="agency-footer-col-3" id="footer-list-3">
+                   <li>
+                       <a href="/historicalcommission.html" target="_blank" aria-label="TN Historical Commission" title="TN Historical Commission">TN Historical Commission</a>
+                   </li>
+                
+                   <li>
+                       <a href="https://www.tnvacation.com/green" target="_blank" aria-label="Sustainable Tourism" title="Sustainable Tourism">Sustainable Tourism</a>
+                   </li>
+                
+                   <li>
+                       <a href="https://www.collegefortn.org/tnpromise/" target="_blank" aria-label="TN Promise" title="TN Promise">TN Promise</a>
+                   </li>
+                
+                   <li>
+                       <a href="https://www.epa.gov/" target="_blank" aria-label="U.S. EPA" title="U.S. EPA">U.S. EPA</a>
+                   </li>
+                </ul>
+            </div>
+        
+        
+        <div class="col-md-15 col-sm-15 columns last">
+            <div class="contact">
+                
+                    <strong>
+                        Department of Environment &amp; Conservation<br/>
+                    </strong>
+                    
+                        David W. Salyers, P.E., P.G.<br/>
+                    
+                    <br/>
+                
+                
+                    <address>
+                        Davy Crockett Tower<br/>
+                        500 James Robertson Parkway<br/>
+                        Nashville, TN 37243<br/>
+
+                        (888) 891-TDEC (8332)<br/>
+                        
+                        
+                    </address>
+                
+                
+                    <a href="/environment/contacts/ask-tdec-questions.html" aria-label="Email Questions to TDEC" title="Email Questions to TDEC">
+                        Email Questions to TDEC
+                    </a>
+                
+            </div>
+            <div>
+                
+                    
+                    
+
+                    <img src="/etc/clientlibs/tncore/main/img/tn-seal.png" alt=""/>
+                
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+
+    
+
+</div>
+
+    
+
+</div>
+        <div>
+
+
+
+
+    
+        
+        
+        <div class="newpar new section">
+
+</div>
+
+    
+        
+        
+        <div class="par iparys_inherited">
+
+    
+    
+    
+    
+        
+        
+        <div class="tn-footer parbase"> <section id="footer">
+    <div id="footer-top">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 columns">
+                <ul class="inline-list">
+                    <li>
+                        <a href="/about-tn/flag-status.html" class="icon-flag" data-resource-path="/_jcr_content/footer/tn_footer" aria-label="Flag Status" title="Flag Status">Flag Status
+                        </a>
+                    </li>
+
+                    <li id="footer-livechat" class="offline">
+                        <a href="#" class="icon-chat" onclick="openFooterChat()" aria-label="Open Chat" title="Open Chat">
+                            Chat
+                        </a>
+
+                        <div class="livechat">
+                            <script>
+                                function openFooterChat() {
+                                    window.open(
+                                        "https://help.tn.gov/sn_customerservice_tn_chat_selector.do",
+                                        "popup",
+                                        "width=900, height=600"
+                                    );
+                                };
+                            </script>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 columns text-right">
+                <ul class="inline-list">
+                    <li>
+                        <a href="/help.html" class="icon-help-circled" aria-label="Help" title="Help">
+                            Help
+                        </a>
+                    </li>
+
+                    <li id="footer-translate">
+                        <a href="#" aria-label="Translate" aria-controls="#translate-box" aria-expanded="false" title="Translate" class="icon-book">
+                            Translate
+                        </a>
+                        <div class="drop right" id="translate-box">
+                            <div class="box">
+                                <div id="google_translate_element"></div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li id="footer-fontsize">
+                        <a href="#" aria-label="Font Size" aria-controls="#font-size-box" aria-expanded="false" title="Font Size" class="icon-font">
+                            Font Size
+                        </a>
+
+                        <div class="drop right" id="font-size-box">
+                            <div class="box">
+                                <ul class="inline-list">
+                                    <li>
+                                        <button class="button" aria-label="Decrease font size" aria-current="false" data-font-size="small">a-</button>
+                                    </li>
+                                    <li>
+                                        <button class="button active" aria-label="Reset font size" aria-current="true" data-font-size="normal">Normal</button>
+                                    </li>
+                                    <li>
+                                        <button class="button" aria-label="Increase font size" aria-current="false" data-font-size="large">A+</button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <span class="starball">
+            <img src="/etc/clientlibs/tncore/main/img/footer-starball.png" alt="" width="100%"/>
+        </span>
+    </div>
+
+    <div id="footer-bottom">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 columns">
+                <ul class="inline-list">
+                    <li>
+                         <a href="https://www.tn.gov/state-services.html" class="first" aria-label="TN.gov Services" title="TN.gov Services">
+                             TN.gov Services
+                         </a>
+                    
+                         <a href="https://www.tn.gov/directory.html" aria-label="TN.gov Directory" title="TN.gov Directory">
+                             TN.gov Directory
+                         </a>
+                    
+                         <a href="https://www.tn.gov/transparenttn.html" aria-label="Transparent TN" title="Transparent TN">
+                             Transparent TN
+                         </a>
+                    
+                         <a href="https://www.tn.gov/web-policies/privacy-statement.html" aria-label="Web Policies" title="Web Policies">
+                             Web Policies
+                         </a>
+                    
+                         <a href="https://www.tn.gov/mytn.html" aria-label="Mobile App" title="Mobile App">
+                             Mobile App
+                         </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 columns text-right">
+                <ul class="inline-list">
+                    <li>
+                        <a href="https://www.tn.gov/about-tn/state-symbols.html" aria-label="About Tennessee" title="About Tennessee">
+                            About Tennessee
+                        </a>
+                    
+                        <a href="https://www.tn.gov/hr/title-vi/title-vi-disclaimer.html" target="_blank" aria-label="Title VI" title="Title VI">
+                            Title VI
+                        </a>
+                    
+                        <a href="https://www.tn.gov/web-policies/accessibility.html" aria-label="Accessibility" title="Accessibility">
+                            Accessibility
+                        </a>
+                    
+                        <a href="https://www.tn.gov/help.html" aria-label="Help &amp; Contact" title="Help &amp; Contact">
+                            Help &amp; Contact
+                        </a>
+                    
+                        <a href="https://www.tn.gov/survey.html" aria-label="Survey" title="Survey">
+                            Survey
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="modal-footer"></div>
+</div>
+
+    
+        
+        
+        <div class="tn-freestyledialog">
+    <script>!function(s,a,e,v,n,t,z){if(s.saq)return;n=s.saq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!s._saq)s._saq=n;n.push=n;n.loaded=!0;n.version='1.0';n.queue=[];t=a.createElement(e);t.async=!0;t.src=v;z=a.getElementsByTagName(e)[0];z.parentNode.insertBefore(t,z)}(window,document,'script','https://tags.srv.stackadapt.com/events.js');saq('ts', '4xBwuaJ6r7lc5Mwk742YVA');</script>
+
+
+
+<!--BEGIN QUALTRICS WEBSITE FEEDBACK SNIPPET-->
+
+<script type='text/javascript'>
+
+(function(){var g=function(g){
+
+this.go=function(){var a=document.createElement("script");a.type="text/javascript";a.src=g;document.body&&document.body.appendChild(a)};
+
+this.start=function(){var t=this;"complete"!==document.readyState?window.addEventListener?window.addEventListener("load",function(){t.go()},!1):window.attachEvent&&window.attachEvent("onload",function(){t.go()}):t.go()};};
+
+try{(new g("https://znwbewebwkp6zwxpl-tngov.gov1.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_WBewebwKP6ZwxpL")).start()}catch(i){}})();
+
+</script><div id='ZN_WBewebwKP6ZwxpL'><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div>
+
+<!--END WEBSITE FEEDBACK SNIPPET-->
+
+</div>
+
+    
+
+</div>
+
+    
+
+</div>
+    </footer>
+
+</div>
+            
+
+    
+<script src="/etc/clientlibs/tncore/main.min.5f18b486157a56c1f7aa6b7a8f0feef8.js"></script>
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+        </noindex>
+
+        <div id="overlay"></div>
+
+<!-- Begin Dynamic Modal for Videos -->
+<div class="tn-videoModal modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <a href="#" data-bs-dismiss="modal" class="close-video icon-cancel text-button">Close</a>
+                <div class="videoWrapper">
+                    <iframe title="Video"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Dynamic Modal for Videos -->
+
+    </body>
+</html>

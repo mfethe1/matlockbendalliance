@@ -1,0 +1,202 @@
+[
+  {
+    "id": "R01",
+    "requested_url": "https://www.tn.gov/environment/program-areas/wr-water-resources/water-quality/well-water.html",
+    "retrieved_at": "2026-10-04T17:59:28.630527+00:00",
+    "status": 200,
+    "final_url": "https://www.tn.gov/environment/program-areas/wr-water-resources/water-quality/well-water.html",
+    "bytes": 94756,
+    "sha256": "728355a30e511c53fe30e6bdce3c6268a959fba713b67c46c8e4d6da7d048902",
+    "text_path": "R01.txt"
+  },
+  {
+    "id": "R02",
+    "requested_url": "https://www.tn.gov/environment/program-areas/wr-water-resources/water-quality/drinking-water-redirect/lab-certification-program.html",
+    "retrieved_at": "2026-10-04T17:59:28.631000+00:00",
+    "status": 200,
+    "final_url": "https://www.tn.gov/environment/program-areas/wr-water-resources/water-quality/drinking-water-redirect/lab-certification-program.html",
+    "bytes": 54993,
+    "sha256": "082b2104496b0207be42e004663e4d040e7b041f44077c307254c48ff639d182",
+    "text_path": "R02.txt"
+  },
+  {
+    "id": "R03",
+    "requested_url": "https://www.epa.gov/privatewells/protect-your-homes-water",
+    "retrieved_at": "2026-10-04T17:59:28.631087+00:00",
+    "status": 200,
+    "final_url": "https://www.epa.gov/privatewells/protect-your-homes-water",
+    "bytes": 69545,
+    "sha256": "d72948921c6f234631a217006974f3e8016d53ac2f00ebba2be9c78622508f8b",
+    "text_path": "R03.txt"
+  },
+  {
+    "id": "R04",
+    "requested_url": "https://www.rcap.org/programs/private-wells",
+    "retrieved_at": "2026-10-04T17:59:28.631151+00:00",
+    "status": 403,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "R05",
+    "requested_url": "https://www.tn.gov/environment/contacts/field-offices.html",
+    "retrieved_at": "2026-10-04T17:59:28.631230+00:00",
+    "status": 200,
+    "final_url": "https://www.tn.gov/environment/contacts/field-offices.html",
+    "bytes": 48471,
+    "sha256": "e80a3200d0d5f1daa041345a77ae62ab5026841c9697e27cda7d633f0d613ead",
+    "text_path": "R05.txt"
+  },
+  {
+    "id": "R06",
+    "requested_url": "https://www.tn.gov/environment/program-areas/solid-waste/sw.html",
+    "retrieved_at": "2026-10-04T17:59:28.912406+00:00",
+    "status": 200,
+    "final_url": "https://www.tn.gov/environment/program-areas/solid-waste/sw.html",
+    "bytes": 65899,
+    "sha256": "d5e54b8b0fe5c8fd79f3c2a2b08178d1b840ec36e7b8ded29bb64ddec5906f7f",
+    "text_path": "R06.txt"
+  },
+  {
+    "id": "R07",
+    "requested_url": "https://www.ctas.tennessee.edu/eli/minimum-service-levels",
+    "retrieved_at": "2026-10-04T17:59:29.015209+00:00",
+    "status": 200,
+    "final_url": "https://www.ctas.tennessee.edu/eli/minimum-service-levels",
+    "bytes": 64023,
+    "sha256": "a569e7c6fc40f97eefc56d8ff1b5550195cf856782fc75a105b5cbdbcc00f2d8",
+    "text_path": "R07.txt"
+  },
+  {
+    "id": "R08",
+    "requested_url": "https://www.law.cornell.edu/regulations/tennessee/Tenn-Comp-R-Regs-0400-11-01-.10",
+    "retrieved_at": "2026-10-04T17:59:29.067331+00:00",
+    "status": 200,
+    "final_url": "https://www.law.cornell.edu/regulations/tennessee/Tenn-Comp-R-Regs-0400-11-01-.10",
+    "bytes": 42356,
+    "sha256": "5cf4286e696b230d88d9b7a78914e64b732367440ff2095a819a58d7e9cc1fdd",
+    "text_path": "R08.txt"
+  },
+  {
+    "id": "R09",
+    "requested_url": "https://comptroller.tn.gov/office-functions/open-records-counsel/open-meetings/frequently-asked-questions/tennessee-public-records-act-faqs.html",
+    "retrieved_at": "2026-10-04T17:59:29.071712+00:00",
+    "status": 200,
+    "final_url": "https://comptroller.tn.gov/office-functions/open-records-counsel/open-meetings/frequently-asked-questions/tennessee-public-records-act-faqs.html",
+    "bytes": 57788,
+    "sha256": "9877c4fb417acaef355d0e38bf40ee6dcf2f408f541a4c8a7a6c86f63898e9de",
+    "text_path": "R09.txt"
+  },
+  {
+    "id": "R10",
+    "requested_url": "https://www.ctas.tennessee.edu/reference/environmental",
+    "retrieved_at": "2026-10-04T17:59:29.093794+00:00",
+    "status": 200,
+    "final_url": "https://www.ctas.tennessee.edu/reference/environmental",
+    "bytes": 95813,
+    "sha256": "eb8be851fff666f47ac130c7e96dce00505ec74bec57f500cc55a34672555e1b",
+    "text_path": "R10.txt"
+  },
+  {
+    "id": "R11",
+    "requested_url": "https://www.tn.gov/environment/program-areas/solid-waste/materials-management/hhw-program.html",
+    "retrieved_at": "2026-10-04T18:00:04.331892+00:00",
+    "status": 200,
+    "final_url": "https://www.tn.gov/environment/program-areas/solid-waste/materials-management/hhw-program.html",
+    "bytes": 111807,
+    "sha256": "b3da0c76502138e573d43c454da91a6a8b5777907829860dfd77e826f2cbd832",
+    "text_path": "R11.txt"
+  },
+  {
+    "id": "R12",
+    "requested_url": "https://www.tn.gov/environment/program-areas/solid-waste/sw/permit-docs.html",
+    "retrieved_at": "2026-10-04T18:00:04.332029+00:00",
+    "status": 200,
+    "final_url": "https://www.tn.gov/environment/program-areas/solid-waste/sw/permit-docs.html",
+    "bytes": 114025,
+    "sha256": "050b66d1a43f1ee527d52ddf8a62caa7eebeec8cbda8222121457147ae07d545",
+    "text_path": "R12.txt"
+  },
+  {
+    "id": "R13",
+    "requested_url": "https://publications.tnsosfiles.com/rules/0400/0400-11/0400-11.htm",
+    "retrieved_at": "2026-10-04T18:00:04.332162+00:00",
+    "status": 403,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "R14",
+    "requested_url": "https://www.rd.usda.gov/programs-services/water-environmental-programs/rural-decentralized-water-systems-grant-program-11",
+    "retrieved_at": "2026-10-04T18:00:04.332283+00:00",
+    "status": 403,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "R15",
+    "requested_url": "https://www.tn.gov/content/dam/tn/environment/water/drinking-water-unit/wr_wq_dw_certified-commercial-labs.pdf",
+    "retrieved_at": "2026-10-04T18:00:04.332353+00:00",
+    "status": 200,
+    "final_url": "https://www.tn.gov/content/dam/tn/environment/water/drinking-water-unit/wr_wq_dw_certified-commercial-labs.pdf",
+    "bytes": 1134971,
+    "sha256": "440296b3ec0fc657293d7c01d9e1dfb96829e1e0ae36443077ee9bdadf338a3d",
+    "text_path": "R15.txt"
+  },
+  {
+    "id": "R17",
+    "requested_url": "https://law.justia.com/codes/tennessee/title-68/environmental-protection/chapter-211/part-8/section-68-211-851",
+    "retrieved_at": "2026-10-04T18:03:46.344888+00:00",
+    "status": null,
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+  },
+  {
+    "id": "R18",
+    "retry_of": "R13",
+    "requested_url": "https://publications.tnsosfiles.com/rules/0400/0400-11/0400-11.htm",
+    "retrieved_at": "2026-10-04T18:04:11.921258+00:00",
+    "status": 403,
+    "final_url": "https://publications.tnsosfiles.com/rules/0400/0400-11/0400-11.htm",
+    "curl_exit": 0,
+    "error": null,
+    "bytes": 919,
+    "sha256": "87a78b19d01dd301c36f9713ad691844ca15113298101ff2027cbe5c9a9efa14",
+    "text_path": "R18.txt"
+  },
+  {
+    "id": "R19",
+    "retry_of": "R17",
+    "requested_url": "https://law.justia.com/codes/tennessee/title-68/environmental-protection/chapter-211/part-8/section-68-211-851",
+    "retrieved_at": "2026-10-04T18:04:12.092430+00:00",
+    "status": 403,
+    "final_url": "https://law.justia.com/codes/tennessee/title-68/environmental-protection/chapter-211/part-8/section-68-211-851",
+    "curl_exit": 0,
+    "error": null,
+    "bytes": 5751,
+    "sha256": "3ed51652a3354a8c2ad247389d800f16656592eca73e1090fccb37c592f1acd4",
+    "text_path": "R19.txt"
+  },
+  {
+    "id": "R20",
+    "retry_of": "R04",
+    "requested_url": "https://www.rcap.org/programs/private-wells",
+    "retrieved_at": "2026-10-04T18:04:12.292436+00:00",
+    "status": 403,
+    "final_url": "https://www.rcap.org/programs/private-wells",
+    "curl_exit": 0,
+    "error": null,
+    "bytes": 4547,
+    "sha256": "7bccfe31085be15aae3b8e1ff97ffc421631d73080c709eab26d088d78718b78",
+    "text_path": "R20.txt"
+  },
+  {
+    "id": "R21",
+    "retry_of": "R14",
+    "requested_url": "https://www.rd.usda.gov/programs-services/water-environmental-programs/rural-decentralized-water-systems-grant-program-11",
+    "retrieved_at": "2026-10-04T18:04:12.407108+00:00",
+    "status": 403,
+    "final_url": "https://www.rd.usda.gov/programs-services/water-environmental-programs/rural-decentralized-water-systems-grant-program-11",
+    "curl_exit": 0,
+    "error": null,
+    "bytes": 514,
+    "sha256": "9e2b22868d190201b5844bc62b36bf86d117c72eedfb9c337cf2f6d34885715a",
+    "text_path": "R21.txt"
+  }
+]

@@ -1,0 +1,1269 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head> 
+    <meta charset="utf-8" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y7Q4ZNEXT7"></script>
+<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "G-Y7Q4ZNEXT7", {"groups":"default","page_placeholder":"PLACEHOLDER_page_location","allow_ad_personalization_signals":false});</script>
+<meta name="description" content="Minimum Service Levels, https://www.ctas.tennessee.edu/eli/minimum-service-levels, CTAS-534, p1: , , Minimum Service Levels, ," />
+<link rel="canonical" href="https://www.ctas.tennessee.edu/eli/minimum-service-levels" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>header .site-branding-logo{max-width:280px!important;}header.header-default .header-main-inner .header-inner{padding-left:280px!important;} header.header-default .header-main-inner .branding{width:280px!important;}</style>
+<link rel="icon" href="/sites/default/files/favicon_0.ico" type="image/vnd.microsoft.icon" />
+<link rel="prev" href="/eli/operational-requirements" />
+<link rel="up" href="/eli/local-solid-waste-management-planning" />
+<link rel="next" href="/eli/problem-wastes" />
+
+    <title>Minimum Service Levels | UT County Technical Assistance Service</title>
+    <link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/core.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/controlgroup.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/checkboxradio.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/resizable.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/button.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/dialog.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/misc/components/progress.module.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/misc/components/ajax-progress.module.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/align.module.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/fieldgroup.module.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/container-inline.module.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/clearfix.module.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/details.module.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/hidden.module.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/item-list.module.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/js.module.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/nowrap.module.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/position-container.module.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/reset-appearance.module.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/resize.module.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-counter.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-counters.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-general-info.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tablesort.module.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/modules/ckeditor5/css/ckeditor5.dialog.fix.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/theme.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/modules/contrib/better_exposed_filters/css/better_exposed_filters.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/modules/custom/book_search/css/book-style.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/modules/contrib/ckeditor_accordion/css/accordion.frontend.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/modules/contrib/extlink/css/extlink.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/modules/contrib/gva_blockbuilder/assets/css/frontend.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/modules/custom/gavias_pagebuilder/assets/frontend/css/frontend.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/modules/custom/gavias_sliderlayer/vendor/revolution/css/settings.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/modules/contrib/printable/css/entity-links.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" defer async data-test="map-link" />
+<link rel="stylesheet" media="all" href="/themes/daudo_subtheme/css/style.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/themes/daudo_subtheme/css/custom.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/themes/gavias_daudo/css/bootstrap.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/themes/gavias_daudo/css/template.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css?family=Hind:wght@400;500;600;700&amp;display=swap" />
+<link rel="stylesheet" media="all" href="/themes/gavias_daudo/css/font-awesome/css/all.min.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/themes/gavias_daudo/css/icon/flaticon.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/themes/gavias_daudo/css/animate.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/themes/gavias_daudo/vendor/owl-carousel/assets/owl.carousel.min.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/themes/gavias_daudo/vendor/owl-carousel/assets/owl.theme.default.min.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/themes/gavias_daudo/vendor/prettyphoto/css/prettyPhoto.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/themes/gavias_daudo/vendor/ytplayer/css/jquery.mb.YTPlayer.min.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/themes/gavias_daudo/vendor/magnific/magnific-popup.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/themes/gavias_daudo/vendor/slick/slick.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/themes/gavias_daudo/css/update.css?tmdqk2" />
+
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/534","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJx9UW2ywyAIvJDVIzkYiWVCJCOkbW7_bCfT5uV9_IJdWMEloRm2iI9FFHMciTvUULBiA3ZJZIqK0IZreOZ6UdsY3TBhJpMWYRikZZIa3pkfm1TDml2GNUvUNdkVZwyFJQG_XqBaHD6sxynkti7Afodu7GK4o0pXHHKvt_JfzeuVZlfgRqAxsQxTWokztvAL50EVTT-b7j2vhcMReJ2o-owjrGyntu_f2WsLFDxNPlB_DVamXmXYPqoD9VMlUhgjVODNaOj3OhFu3uKq_bAVnsajxSPhlkbdvMQYsBrZdnk6r043NZxDAkV3xzRKm8MefSZgKV8EvN0a","theme":"daudo_subtheme","theme_token":null},"ajaxTrustedUrl":{"\/search-eli":true,"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true},"google_analytics":{"account":"G-Y7Q4ZNEXT7","trackOutbound":true,"trackMailto":true,"trackTel":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":true},"multiselect":{"widths":"250"},"my_user_name":{"username":"anonymous"},"webform":{"dialog":{"options":{"narrow":{"title":"Narrow","width":600},"normal":{"title":"Normal","width":800},"wide":{"title":"Wide","width":1000}},"entity_type":"node","entity_id":"534"}},"data":{"extlink":{"extTarget":true,"extTargetAppendNewWindowDisplay":true,"extTargetAppendNewWindowLabel":"(opens in a new window)","extTargetNoOverride":false,"extNofollow":true,"extTitleNoOverride":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"0","extLabel":"(link is external)","extImgClass":false,"extSubdomains":true,"extExclude":"","extInclude":"","extCssExclude":"","extCssInclude":"","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","extHideIcons":false,"mailtoClass":"0","telClass":"","mailtoLabel":"(link sends email)","telLabel":"(link is a phone number)","extUseFontAwesome":false,"extIconPlacement":"before","extPreventOrphan":false,"extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","extAdditionalLinkClasses":"","extAdditionalMailtoClasses":"","extAdditionalTelClasses":"","extFaTelClasses":"fa fa-phone","allowedDomains":[],"extExcludeNoreferrer":""}},"ckeditorAccordion":{"accordionStyle":{"collapseAll":1,"keepRowsOpen":0,"animateAccordionOpenAndClose":1,"openTabsWithHash":1,"allowHtmlInTitles":0}},"gavias_blockbuilder":{"url_edit":"\/admin\/structure\/gavias_blockbuilder\/edit\/-----"},"user":{"uid":0,"permissionsHash":"79cf0b8a03eaee04ff0a8711bcbd9227aa0d633dac26086875a1c57fd20fa74a"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.7.1"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=10.6.18"></script>
+<script src="/core/misc/drupal.js?v=10.6.18"></script>
+<script src="/core/misc/drupal.init.js?v=10.6.18"></script>
+<script src="/themes/daudo_subtheme/js/main.js?v=10.6.18"></script>
+<script src="https://use.fontawesome.com/releases/v5.13.1/js/all.js" defer crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/releases/v5.13.1/js/v4-shims.js" defer crossorigin="anonymous"></script>
+<script src="/themes/gavias_daudo/vendor/jquery-migrate.min.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/js/bootstrap.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/js/imagesloader.min.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/vendor/jquery.easing.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/vendor/jquery.appear.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/vendor/jquery.easypiechart.min.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/vendor/owl-carousel/owl.carousel.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/vendor/waypoint.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/vendor/count-to.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/vendor/masonry.pkgd.min.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/vendor/isotope.pkgd.min.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/vendor/aos.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/vendor/prettyphoto/js/jquery.prettyPhoto.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/vendor/ytplayer/js/jquery.mb.YTPlayer.min.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/vendor/jquery.typer/src/jquery.typer.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/vendor/magnific/jquery.magnific-popup.min.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/vendor/quotes_rotator/js/modernizr.custom.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/vendor/quotes_rotator/js/jquery.cbpQTRotator.min.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/vendor/jquery.nicescroll.min.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/vendor/slick/slick.min.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/js/main.js?v=10.6.18"></script>
+<script src="/modules/custom/gavias_sliderlayer/vendor/revolution/js/jquery.themepunch.tools.min.js?v=1.x"></script>
+<script src="/modules/custom/gavias_sliderlayer/vendor/revolution/js/jquery.themepunch.revolution.min.js?v=1.x"></script>
+<script src="/modules/custom/gavias_sliderlayer/vendor/revolution/js/extensions/revolution.extension.actions.min.js?v=1.x"></script>
+<script src="/modules/custom/gavias_sliderlayer/vendor/revolution/js/extensions/revolution.extension.carousel.min.js?v=1.x"></script>
+<script src="/modules/custom/gavias_sliderlayer/vendor/revolution/js/extensions/revolution.extension.kenburn.min.js?v=1.x"></script>
+<script src="/modules/custom/gavias_sliderlayer/vendor/revolution/js/extensions/revolution.extension.layeranimation.min.js?v=1.x"></script>
+<script src="/modules/custom/gavias_sliderlayer/vendor/revolution/js/extensions/revolution.extension.migration.min.js?v=1.x"></script>
+<script src="/modules/custom/gavias_sliderlayer/vendor/revolution/js/extensions/revolution.extension.navigation.min.js?v=1.x"></script>
+<script src="/modules/custom/gavias_sliderlayer/vendor/revolution/js/extensions/revolution.extension.parallax.min.js?v=1.x"></script>
+<script src="/modules/custom/gavias_sliderlayer/vendor/revolution/js/extensions/revolution.extension.slideanims.min.js?v=1.x"></script>
+<script src="/modules/custom/gavias_sliderlayer/vendor/revolution/js/extensions/revolution.extension.video.min.js?v=1.x"></script>
+
+
+    
+
+          <style type="text/css">
+        .area.slideshow_content .block {margin-bottom: 30px;}a[href="/training/coop2026"],a[href="/training/nss2026"] {display: block;padding: 4px 8px !important;margin: -4px -8px !important;}a[href="/training/coop2026"] {background: rgba(28, 33, 51,.10);}a[href="/training/nss2026"] {background: rgba(160,175,40,.30);}
+      </style>
+    
+          <style class="customize"></style>
+    
+  </head>
+
+  
+  <body class="gavias-pagebuilder layout-no-sidebars wide path-node node--type-book">
+
+    <a href="#main-content" class="visually-hidden focusable">
+      Skip to main content
+    </a>
+
+      
+
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="gva-body-wrapper">
+	<div class="body-page gva-body-page">
+	   <header id="header" class="header-2">
+  
+    <div class="topbar">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="topbar-content-inner clearfix"> 
+            <div class="topbar-content">  <div>
+    <div id="block-daudo-subtheme-topbarleft" class="block block-block-content block-block-contenta59e2ce4-274a-4791-bee8-6733b7343507 no-title">
+  
+    
+      <div class="content block-content">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><ul><li><a href="https://www.ips.tennessee.edu" target="_blank">University of Tennessee Institute for Public Service</a></li></ul></div>
+      
+    </div>
+  </div>
+<div class="search-api-page-block-form-search-all search-api-page-block-form search-form search-block-form container-inline search-ips block block-search-api-page block-search-api-page-form-block no-title" data-drupal-selector="search-api-page-block-form-search-all" id="block-searchapipagesearchblockform-3">
+  
+    
+      <div class="content block-content">
+      <form action="/eli/minimum-service-levels" method="post" id="search-api-page-block-form-search-all" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-search form-item-keys js-form-item-keys form-no-label">
+      <label for="edit-keys" class="visually-hidden">Search</label>
+        <input title="Enter the terms you wish to search for." placeholder="Search" data-drupal-selector="edit-keys" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" class="form-search" />
+
+        </div>
+<input autocomplete="off" data-drupal-selector="form-bt6caoylegivtwqc61-dgkm9q1npzbiq-zudtw9nrwo" type="hidden" name="form_build_id" value="form-bt6CaoYlEGivtWqc61-dgkm9q1npZBiq_zuDtw9NRWo" />
+<input data-drupal-selector="edit-search-api-page-block-form-search-all" type="hidden" name="form_id" value="search_api_page_block_form_search_all" />
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input class="search-form__submit button js-form-submit form-submit" data-drupal-selector="edit-submit" type="submit" id="edit-submit" name="op" value="Search" />
+</div>
+
+</form>
+
+    </div>
+  </div>
+
+  </div>
+</div>
+                      </div>  
+        </div>
+      </div>
+    </div>
+  </div>
+  
+      
+
+  <div class="main-menu ">
+    <div class="container header-content-layout">
+      <div class="header-main-inner p-relative">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12 p-static">
+            <div class="area-main-menu">
+              <div class="area-inner">
+                                  <div>
+    
+      <a href="/" title="Home" rel="home" class="site-branding-logo">
+        
+        <img class="logo-site" src="/sites/default/files/CTAS_stacked_logo-rgb_0.png" alt="Home" />
+        
+    </a>
+    
+  </div>
+
+                
+                <div class="gva-offcanvas-mobile">
+                  <div class="close-offcanvas hidden"><i class="fa fa-times"></i></div>
+                                      <div>
+    <nav aria-labelledby="block-daudo-subtheme-mainmenu-menu" id="block-daudo-subtheme-mainmenu" class="block block-menu navigation menu--main">
+          
+  
+  <h2  class="visually-hidden block-title block-title" id="block-daudo-subtheme-mainmenu-menu"><span>Main menu</span></h2>
+  
+  <div class="block-content">
+                 
+<div align="center" class="gva-navigation">
+
+              <ul  class="clearfix gva_menu gva_menu_main">
+      
+                              
+      
+      <li  class="menu-item menu-item--expanded">
+        <a rel="nofollow noindex"  data-link_id="link-1383105721" href="/about-us">          ABOUT<span class="icaret nav-plus fas fa-chevron-down"></span>        </a>
+          
+                      <ul class="menu sub-menu">
+                              
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-289391835" href="/ctas-history">          History        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-1705772480" href="/our-services">          Services        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-342454324" href="/service-area-maps">          Service Area Maps        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-1207741334" href="/staff">          Staff        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-1272141352" href="/ctas-recruitment">          Work for CTAS        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-1023904480" href="https://www.ctas.tennessee.edu/county-employment">          County Employment        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-64035632" href="/strategic-plan">          Strategic Plan        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-729061391" href="/associations">          Association Partners        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-653587746" href="/about-maryann">          About Mary Ann, the e-Li Chatbot        </a>
+          
+              </li>
+        </ul>
+        </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-47358627" href="/county-directory">          DIRECTORY        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item menu-item--expanded">
+        <a rel="nofollow noindex"  data-link_id="link-1093207701" href="/eli">          E-LI<span class="icaret nav-plus fas fa-chevron-down"></span>        </a>
+          
+                      <ul class="menu sub-menu">
+                              
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-723286711" href="/node/66338/printable/pdf?pdfGetId=1740">          County Government Overview        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-1039490921" href="/eli/accountingbudgetfinance">          Accounting/Budget/Finance        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-1263211618" href="/eli/county-offices">          County Offices        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-723845549" href="/eli/county-operations">          County Operations        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-1155336252" href="/eli/elections">          Elections        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-2142797767" href="/eli/open-government">          Open Government        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-366886133" href="/eli/personnelhr">          Personnel/HR        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-171253650" href="/eli/public-safety">          Public Safety        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-1685388544" href="/eli/purchasing">          Purchasing        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-893431198" href="/eli/records-management">          Records Management        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-792679954" href="/eli/revenue">          Revenue        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-127091326" href="/eli/structure-county-government">          Structure of County Government        </a>
+          
+              </li>
+        </ul>
+        </li>
+                          
+      
+      <li  class="menu-item menu-item--expanded">
+        <a rel="nofollow noindex"  data-link_id="link-1697032695" href="/training">          TRAINING<span class="icaret nav-plus fas fa-chevron-down"></span>        </a>
+          
+                      <ul class="menu sub-menu">
+                              
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-1689168010" href="/training/coop2026">          County Officials Orientation Program 2026 (COOP)        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-1616090956" href="/training/nss2026">          New Sheriffs School        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-457797467" href="https://www.ctas.tennessee.edu/form/training-requests">          Training Requests        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-691144571" href="https://www.ctas.tennessee.edu/form/kate-profile-update-requests">          k@te Profile Updates        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-29182873" href="/training/coctp">          County Officials Certificate Training Program (COCTP)        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-125359712" href="/training/ccfo">          Certified County Finance Officer (CCFO)        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-1630996095" href="/training/commissioner-training">          County Commissioner Required Training        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-72215064" href="/training/ceoc">          County Elected Officials Certificate (CEOC)        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-125536182" href="/training/capc">          County Administrative Professional Certificate (CAPC)        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-1317104576" href="/training/catc">          Cybersecurity Awareness Training Certificate (CATC)        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-1607261586" href="/training/bcf">          Basic County Finance Certificate (BCF)        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-92937718" href="/training/swcp">          Solid Waste Certificate Program (SWCP)        </a>
+          
+              </li>
+        </ul>
+        </li>
+                          
+      
+      <li  class="menu-item menu-item--expanded">
+        <a rel="nofollow noindex"  data-link_id="link-906712015" href="/reference">          REFERENCE<span class="icaret nav-plus fas fa-chevron-down"></span>        </a>
+          
+                      <ul class="menu sub-menu">
+                              
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-1772319537" href="/reference/county-operations">          County Operations        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-449182108" href="/reference/environmental">          Environmental        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-522720561" href="/reference/financial">          Financial        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-1616288973" href="/reference/legal">          Legal        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-1963158238" href="/reference/public-safety">          Public Safety        </a>
+          
+              </li>
+        </ul>
+        </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-1742468823" href="/news">          NEWS        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-1043701948" href="/links-interest">          LINKS        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item helpbutton">
+        <a rel="nofollow noindex"  class="webform-dialog webform-dialog-narrow"  data-link_id="link-426840675" href="/form/leave-us-a-message">          Help        </a>
+          
+              </li>
+        </ul>
+  
+
+</div>
+
+
+        </div>  
+</nav>
+
+  </div>
+
+                  
+                    
+                                    <div class="after-offcanvas hidden">
+                    
+                  </div>
+                                  </div>
+                
+                <div id="menu-bar" class="menu-bar menu-bar-mobile d-lg-none d-xl-none">
+                  <span class="one"></span>
+                  <span class="two"></span>
+                  <span class="three"></span>
+                </div>
+                
+                                <div class="gva-search-region search-region">
+                  <span class="icon"><i class="fas fa-search"></i></span>
+                  <div class="search-content">  
+                      <div>
+    <div class="views-exposed-form bef-exposed-form block block-views block-views-exposed-filter-blockhistorical-info-search-page-3 no-title" data-drupal-selector="views-exposed-form-historical-info-search-page-3" id="block-daudo-subtheme-exposedformhistorical-info-searchpage-3">
+  
+    
+      <div class="content block-content">
+      <form action="/search-eli" method="get" id="views-exposed-form-historical-info-search-page-3" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-textfield form-item-combine js-form-item-combine">
+      <label for="edit-combine">Search e-Li</label>
+        <input data-drupal-selector="edit-combine" type="text" id="edit-combine" name="combine" value="" size="30" maxlength="128" class="form-text" />
+
+        </div>
+<div class="js-form-item form-item js-form-type-select form-item-field-eli-category-target-id js-form-item-field-eli-category-target-id">
+      <label for="edit-field-eli-category-target-id">e-Li Category</label>
+        <select data-drupal-selector="edit-field-eli-category-target-id" id="edit-field-eli-category-target-id" name="field_eli_category_target_id" class="form-select"><option value="All" selected="selected">- Any -</option><option value="2462">Accounting/Budget/Finance</option><option value="2463">County Offices</option><option value="2464">County Operations</option><option value="2465">Elections</option><option value="2466">Open Government</option><option value="2467">Personnel/HR</option><option value="2468">Public Safety</option><option value="2469">Purchasing</option><option value="2470">Records Management</option><option value="2471">Revenue</option><option value="2472">Structure of County Government</option></select>
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions--2"><input data-drupal-selector="edit-submit-historical-info-search" type="submit" id="edit-submit-historical-info-search" value="Apply" class="button js-form-submit form-submit" />
+</div>
+
+
+</form>
+
+    </div>
+  </div>
+
+  </div>
+
+                  </div>  
+                </div>
+                                
+                  
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+
+
+		
+	   		
+		<div role="main" class="main main-page">
+		
+			<div class="clearfix"></div>
+							<div class="slideshow_content area">
+					  <div>
+    <div id="block-daudo-subtheme-eliheadernodes" class="header-container imgbg-type-header block block-block-content block-block-content9a0dfc6c-c7c2-4749-a712-50997d199cf1 no-title">
+  
+    
+      <div class="content block-content">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="gbb-row-wrapper section row-first-level header-container imgbg-type-header gbb-row bg-size-cover" style="margin-bottom:30px; background-image:url('https://www.ctas.tennessee.edu/sites/default/files/2024-02/e-li.png'); background-repeat:no-repeat; background-position:center center">
+		  			    	<div class="bb-inner default">  
+		      	<div class="bb-container container">
+			        	<div class="row row-wrapper">
+							
+		<div class="gsc-column col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+	      <div class="column-inner bg-size-cover">
+	         <div class="column-content-inner">
+	           
+         <div class="widget gsc-heading  align-left style-2 " style="max-width: 800px;">
+            
+            <div class="heading-content clearfix">
+                              <h1 class="title fweight-600 text-white">
+                  <span>e-Li: Electronic Library</span>
+               </h1>                           </div>
+            
+            
+         </div>
+         <div class="clearfix"></div>
+         	         </div>  
+	      </div>
+        
+	    </div>
+	   	     	 			</div>
+    				</div>
+  				</div>  
+  				</div></div>
+      
+    </div>
+  </div>
+
+  </div>
+
+				</div>
+				
+
+							<div class="help gav-help-region">
+					<div class="container">
+						<div class="content-inner">
+							  <div>
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+						</div>
+					</div>
+				</div>
+						
+			<div class="clearfix"></div>
+							<div class="before_content area">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12">
+								  <div>
+    
+
+<div class="breadcrumb-content-inner">
+  <div class="gva-breadcrumb-content">
+    <div id="block-daudo-subtheme-breadcrumbs-2" class="text-dark block gva-block-breadcrumb block-system block-system-breadcrumb-block no-title">
+      <div class="breadcrumb-style gva-parallax-background" style="">
+          <div class="breadcrumb-content-main"><br>
+            
+                          <div class="">
+                <div class="content block-content"><div class="breadcrumb-links">
+  <div class="content-inner">
+          <nav class="breadcrumb " aria-labelledby="system-breadcrumb">
+        <ol>
+            
+                                  <li>
+                              <a href="/">Home</a>
+                                            <span class=""> - </span>
+                
+            </li>
+                                  <li>
+                              <a href="/eli">eLi</a>
+                                            <span class=""> - </span>
+                
+            </li>
+                                  <li>
+                              <a href="/eli/county-operations">County Operations</a>
+                                            <span class=""> - </span>
+                
+            </li>
+                                  <li>
+                              <a href="/eli/environment">Environment</a>
+                                            <span class=""> - </span>
+                
+            </li>
+                                  <li>
+                              <a href="/eli/solid-waste-management-collection-and-disposal">Solid Waste Management, Collection and Disposal</a>
+                                            <span class=""> - </span>
+                
+            </li>
+                                  <li>
+                              <a href="/eli/local-solid-waste-management-planning">Local Solid Waste Management Planning</a>
+                                            <span class=""> - </span>
+                
+            </li>
+                                  <li>
+                              
+                              
+            </li>
+                                  <li>
+                              Minimum Service Levels
+                              
+            </li>
+                    <li></li>
+        </ol>
+      </nav>
+      </div> 
+</div>  </div>
+              </div>  
+                      </div> 
+         
+      </div> 
+    </div>  
+  </div>  
+</div>  
+
+<div class="views-exposed-form bef-exposed-form block block-views block-views-exposed-filter-blockhistorical-info-search-page-3 no-title" data-drupal-selector="views-exposed-form-historical-info-search-page-3" id="block-daudo-subtheme-exposedformhistorical-info-searchpage-3-2">
+  
+    
+      <div class="content block-content">
+      <form action="/search-eli" method="get" id="views-exposed-form-historical-info-search-page-3" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-textfield form-item-combine js-form-item-combine">
+      <label for="edit-combine--2">Search e-Li</label>
+        <input data-drupal-selector="edit-combine" type="text" id="edit-combine--2" name="combine" value="" size="30" maxlength="128" class="form-text" />
+
+        </div>
+<div class="js-form-item form-item js-form-type-select form-item-field-eli-category-target-id js-form-item-field-eli-category-target-id">
+      <label for="edit-field-eli-category-target-id--2">e-Li Category</label>
+        <select data-drupal-selector="edit-field-eli-category-target-id" id="edit-field-eli-category-target-id--2" name="field_eli_category_target_id" class="form-select"><option value="All" selected="selected">- Any -</option><option value="2462">Accounting/Budget/Finance</option><option value="2463">County Offices</option><option value="2464">County Operations</option><option value="2465">Elections</option><option value="2466">Open Government</option><option value="2467">Personnel/HR</option><option value="2468">Public Safety</option><option value="2469">Purchasing</option><option value="2470">Records Management</option><option value="2471">Revenue</option><option value="2472">Structure of County Government</option></select>
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions--3"><input data-drupal-selector="edit-submit-historical-info-search-2" type="submit" id="edit-submit-historical-info-search--2" value="Apply" class="button js-form-submit form-submit" />
+</div>
+
+
+</form>
+
+    </div>
+  </div>
+<div id="block-daudo-subtheme-pagetitle" class="block block-core block-page-title-block no-title">
+  
+    
+      <div class="content block-content">
+      
+  <h1 class="page-title">
+<span>Minimum Service Levels</span>
+</h1>
+
+
+    </div>
+  </div>
+
+  </div>
+
+								</div>
+						</div>
+					</div>
+				</div>
+						
+			<div class="clearfix"></div>
+			
+			<div id="content" class="content content-full">
+				<div class="container container-bg">
+					<div class="content-main-inner">
+	<div class="row">
+		
+					
+			 		
+														
+       
+
+		<div id="page-main-content" class="main-content col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12 order-xl-2 order-lg-2 order-md-1 order-sm-1 order-xs-1 sb-l ">
+
+			<div class="main-content-inner">
+				
+				
+									<div class="content-main">
+						  <div>
+    <div id="block-daudo-subtheme-mainpagecontent" class="block block-system block-system-main-block no-title">
+  
+    
+      <div class="content block-content">
+      <script language="javascript" type="text/javascript">
+<!--
+function popitup(url) {
+	newwindow=window.open(url,'name','height=600,width=600');
+	if (window.focus) {newwindow.focus()}
+	return false;
+} </script>
+
+<article data-history-node-id="534" class="node node--type-book node--view-mode-full clearfix">
+  <header>
+  
+    
+            
+      </header>
+    
+ <div class="print-itemss-printer">
+     <div class="clearfix block block-print" id="block-print-print-links">
+<span class="print_html"><a id="printeLi" rel="nofollow noindex" onclick="window.open(this.href); return false" class="print-page" title="Display a printer-friendly version of this page." href="/node/534/printable/print"><img title="Printer-friendly version" alt="Printer-friendly version" src="/themes/daudo_subtheme/images/print_icon.gif" class="print-icon print-icon-margin">Printer-friendly version</a></span><span class="print_pdf"><a id="printpdfeLi" rel="nofollow noindex" onclick="window.open(this.href); return false" class="print-pdf" title="Display a PDF version of this page." href="/node/534/printable/pdf"><img title="PDF version" alt="PDF version" src="/themes/daudo_subtheme/images/pdf_icon.gif" class="print-icon print-icon-margin">PDF version</a></span>
+</div> </div>
+  
+                                                          <div class="annotelink"><font size="3">Reference Number: CTAS-534 </font><br><br></div>
+                   				   
+  <div class="node__content clearfix">
+    
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>Each county must see that there is at least one solid waste collection and disposal system for the needs of county residents; at a minimum there must be one or more convenience centers, unless a higher level of service, such as household garbage pickup, is provided. &nbsp;The service is to be coordinated with those available from municipalities within the county and may be supplied directly by the county, by contract, or through a solid waste authority.&nbsp; The convenience centers must also comply with regulations developed by the Department of Environment and Conservation. &nbsp;T.C.A. &sect;&nbsp;68-211-851.</p></div>
+        <nav role="navigation" aria-labelledby="book-label-155">
+    
+          <h2>Book traversal links for Minimum Service Levels</h2>
+      <ul>
+              <li>
+          <a href="/eli/operational-requirements" rel="prev" title="Go to previous page"><b>‹</b> Operational Requirements</a>
+        </li>
+                    <li>
+          <a href="/eli/local-solid-waste-management-planning" title="Go to parent page">Up</a>
+        </li>
+                    <li>
+          <a href="/eli/problem-wastes" rel="next" title="Go to next page">Problem Wastes <b>›</b></a>
+        </li>
+          </ul>
+      </nav>
+<div class="node_view"><ul class="pre_links"><li class="print"><a href="/node/534/printable/print" target="_blank">Print</a></li><li class="pdf"><a href="/node/534/printable/pdf" target="_blank">PDF</a></li></ul></div><div class="gavias-builder--content"></div>
+  </div>
+</article>
+
+    </div>
+  </div>
+
+  </div>
+
+					</div>
+				
+							</div>
+
+		</div>
+
+		<!-- Sidebar Left -->
+								 		
+			
+			<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 order-xl-1 order-lg-1 order-md-2 order-sm-2 order-xs-2 sidebar sidebar-left">
+				<div class="sidebar-inner">
+					  <div>
+    <div class="book-form bookparentblocks block block-book-search block-parent-book-block no-title" data-drupal-selector="book-form" id="block-daudo-subtheme-parentbooks">
+  
+    
+      <div class="content block-content">
+      <form action="/eli/minimum-service-levels" method="post" id="book-form" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-select form-item-top-books js-form-item-top-books">
+      <label for="edit-top-books" class="js-form-required form-required"></label>
+        <select data-drupal-selector="edit-top-books" id="edit-top-books" name="Top_books" class="form-select required" required="required" aria-required="true"><option value="103087">-Select a Topic-</option><option value="156">Accounting/Budget/Finance</option><option value="150">County Offices</option><option value="155">County Operations</option><option value="200">Elections</option><option value="2419">Open Government</option><option value="157">Personnel/HR</option><option value="158">Public Safety</option><option value="159">Purchasing</option><option value="197">Records Management</option><option value="199">Revenue</option><option value="198">Structure of County Government</option></select>
+        </div>
+<img src="/modules/custom/book_search/images/loader.gif"><div class="child-books"> </div><input autocomplete="off" data-drupal-selector="form-gaq-sbfgo9qr8gtll7mbbw1ni3fd4m-trngjybyla8s" type="hidden" name="form_build_id" value="form-Gaq-SbfgO9QR8gtLL7MBbW1ni3fD4m_tRNGjybyLa8s" />
+<input data-drupal-selector="edit-book-form" type="hidden" name="form_id" value="book_form" />
+
+</form>
+
+    </div>
+  </div>
+
+  </div>
+
+				</div>
+			</div>
+				<!-- End Sidebar Left -->
+
+		<!-- Sidebar Right -->
+				<!-- End Sidebar Right -->
+		
+	</div>
+</div>
+				</div>
+			</div>
+
+			
+						
+		</div>
+	</div>
+
+	
+<footer id="footer" class="footer">
+  <div class="footer-inner">
+    
+         
+     <div class="footer-center">
+        <div class="container">      
+           <div class="row">
+                              <div class="footer-first col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 footer-column">
+                    <div>
+    <div id="block-daudo-subtheme-contactus" class="block block-block-content block-block-content11a9c3cb-c3a9-4392-a6c0-3aea43eea254">
+  
+      <h2 class="block-title" ><span>Contact Us</span></h2>
+    
+      <div class="content block-content">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><ul class="menu"><li>University of Tennessee County Technical</li><li>Assistance Service (CTAS)</li><li>226 Anne Dallas Dudley Boulevard, Suite 400</li><li>Nashville, Tennessee 37219</li><li>Phone: 615.532.3555</li><li>Fax: 615.532.3555</li><li><a href="http://www.ctas.tennessee.edu/">www.ctas.tennessee.edu</a></li></ul></div>
+      
+    </div>
+  </div>
+
+  </div>
+
+                </div> 
+              
+                             <div class="footer-second col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 footer-column">
+                    <div>
+    <div id="block-daudo-subtheme-ctasleftfooterblock" class="block block-block-content block-block-content5f2d2add-18de-405e-a049-3d75fbdc6ca3">
+  
+      <h2 class="block-title" ><span>Quick Links</span></h2>
+    
+      <div class="content block-content">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><ul class="menu"><li><a href="/our-services">Services Provided by CTAS</a></li><li><a href="/staff">CTAS&nbsp;Staff</a></li><li><a href="https://www.ctas.tennessee.edu/service-area-maps">Service Area Maps</a></li><li><a href="/strategic-plan" target="_blank">Strategic Plan</a></li><li><a href="/ctas-recruitment">CTAS Recruitment</a></li><li><a href="https://www.ips.tennessee.edu/public-service-internships" target="_blank" rel="noopener">IPS Internships</a></li><li><a href="/county-employment">County Employment</a></li><li><a href="/contact-ctas">Contact Us</a></li></ul></div>
+      
+    </div>
+  </div>
+
+  </div>
+
+                </div> 
+              
+                              <div class="footer-third col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 footer-column">
+                    <div>
+    <div id="block-daudo-subtheme-ipsagencies" class="block block-block-content block-block-content75022cdd-3027-46da-ae43-d55d7a754629">
+  
+      <h2 class="block-title" ><span>IPS Agencies</span></h2>
+    
+      <div class="content block-content">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><ul class="menu"><li><a href="https://www.cis.tennessee.edu" target="_blank">Center for Industrial Services (CIS)</a></li><li><a href="https://www.ips.tennessee.edu/agencies#CLP">Center for Local Planning (CLP)</a></li><li><a href="https://www.ctas.tennessee.edu">County Technical Assistance Service (CTAS)</a></li><li><a href="https://www.leic.tennessee.edu" target="_blank">Law Enforcement Innovation Center (LEIC)</a></li><li><a href="https://www.mtas.tennessee.edu" target="_blank">Municipal Technical Assistance Service (MTAS)</a></li><li><a href="https://leadership.tennessee.edu/" target="_blank">Naifeh Center for Effective Leadership (NCEL)</a></li><li><a href="https://smart.ips.tennessee.edu/">Substance Misuse and Addiction Resource for Tennessee (SMART)</a></li><li><a href="https://tfli.org/">Tennessee Language Center (TLC)</a></li></ul><p><a href="https://audit.tennessee.edu/report-concerns/" target="_self"><img src="/sites/default/files/CTAS/compliance-hotline-button.png" data-entity-uuid data-entity-type alt="CTAS Compliance Hotline" width="200" height="46" loading="lazy"></a></p></div>
+      
+    </div>
+  </div>
+
+  </div>
+
+                </div> 
+              
+                         </div>   
+        </div>
+    </div>  
+
+         <div class="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div class="after-footer clearfix area">
+                    <div>
+    <div id="block-daudo-subtheme-elivirtualassistant" class="block block-block-content block-block-content733d6ea2-3c00-40d3-b21a-c726ff67b602 no-title">
+  
+    
+      <div class="content block-content">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><script>
+// Helper function: set a cookie for 365 days
+function setCookie(name, value, days) {
+  const date = new Date();
+  date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+  const expires = "expires=" + date.toUTCString();
+  document.cookie = name + "=" + value + "; " + expires + "; path=/;";
+}
+</script><script>
+/**
+ * Get a cookie from the browser by name
+ */
+function getCookie(name) {
+  const decodedCookie = decodeURIComponent(document.cookie);
+  const cookieArr = decodedCookie.split(';');
+  for (let i = 0; i < cookieArr.length; i++) {
+    let c = cookieArr[i].trim();
+    if (c.indexOf(name + "=") === 0) {
+      return c.substring(name.length + 1);
+    }
+  }
+  return "";
+}
+</script><script>
+const FormExtension = {
+  name: 'Forms',
+  type: 'response',
+  match: ({ trace }) =>
+    trace.type === 'Custom_Form' || trace.payload?.name === 'Custom_Form',
+
+  render: ({ trace, element }) => {
+    const cookieValue = getCookie('vf_va_entity');
+    const emailCookie = getCookie('vf_va_email');
+
+    const formContainer = document.createElement('form');
+    formContainer.innerHTML = `
+      <style>
+        body {
+          font-family: Arial, sans-serif;
+          padding: 20px;
+        }
+        header {
+          margin-bottom: 20px;
+        }
+        header p {
+          font-size: 1em;
+          color: #555;
+          margin-top: 5px;
+        }
+        label {
+          font-size: 0.8em;
+          color: #888;
+        }
+        input[type="text"],
+        input[type="email"] {
+          width: 100%;
+          border: none;
+          border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+          background: transparent;
+          margin: 5px 0;
+          outline: none;
+          padding: 8px 0;
+        }
+        .invalid {
+          border-color: red;
+        }
+        .submit {
+          background-color: #005295;
+          border: none;
+          color: white;
+          padding: 10px;
+          border-radius: 5px;
+          width: 100%;
+          cursor: pointer;
+          margin-top: 15px;
+          font-size: 16px;
+          font-weight: bold;
+          text-align: center;
+          transition: background-color 0.3s ease;
+        }
+      </style>
+
+      <label for="county"><b>COUNTY</b> (your employer)</label>
+      <input type="text" list="tn-counties" class="county" name="county" placeholder="type your county" autocomplete="on">
+      <datalist id="tn-counties">
+        <option value="Anderson"><option value="Bedford"><option value="Benton"><option value="Bledsoe">
+        <option value="Blount"><option value="Bradley"><option value="Campbell"><option value="Cannon">
+        <option value="Carroll"><option value="Carter"><option value="Cheatham"><option value="Chester">
+        <option value="Claiborne"><option value="Clay"><option value="Cocke"><option value="Coffee">
+        <option value="Crockett"><option value="Cumberland"><option value="Davidson"><option value="Decatur">
+        <option value="DeKalb"><option value="Dickson"><option value="Dyer"><option value="Fayette">
+        <option value="Fentress"><option value="Franklin"><option value="Gibson"><option value="Giles">
+        <option value="Grainger"><option value="Greene"><option value="Grundy"><option value="Hamblen">
+        <option value="Hamilton"><option value="Hancock"><option value="Hardeman"><option value="Hardin">
+        <option value="Hawkins"><option value="Haywood"><option value="Henderson"><option value="Henry">
+        <option value="Hickman"><option value="Houston"><option value="Humphreys"><option value="Jackson">
+        <option value="Jefferson"><option value="Johnson"><option value="Knox"><option value="Lake">
+        <option value="Lauderdale"><option value="Lawrence"><option value="Lewis"><option value="Lincoln">
+        <option value="Loudon"><option value="McMinn"><option value="McNairy"><option value="Macon">
+        <option value="Madison"><option value="Marion"><option value="Marshall"><option value="Maury">
+        <option value="Meigs"><option value="Monroe"><option value="Montgomery"><option value="Moore">
+        <option value="Morgan"><option value="Obion"><option value="Overton"><option value="Perry">
+        <option value="Pickett"><option value="Polk"><option value="Putnam"><option value="Rhea">
+        <option value="Roane"><option value="Robertson"><option value="Rutherford"><option value="Scott">
+        <option value="Sequatchie"><option value="Sevier"><option value="Shelby"><option value="Smith">
+        <option value="Statewide"><option value="Stewart"><option value="Sullivan"><option value="Sumner">
+        <option value="Tipton"><option value="Trousdale"><option value="Unicoi"><option value="Union">
+        <option value="Van Buren"><option value="Warren"><option value="Washington"><option value="Wayne">
+        <option value="Weakley"><option value="White"><option value="Williamson"><option value="Wilson">
+      </datalist><br>
+
+      <label for="email"><b>EMAIL</b> (your business email)</label>
+      <input type="email" name="email" class="email" placeholder="type your email" autocomplete="on"><br>
+
+      <input type="submit" class="submit" value="Press here to continue">
+    `;
+
+    const validCounties = [...formContainer.querySelectorAll('#tn-counties option')].map(opt => opt.value);
+    const countyInput = formContainer.querySelector('.county');
+    const emailInput = formContainer.querySelector('.email');
+
+    if (cookieValue) countyInput.value = cookieValue;
+    if (emailCookie) emailInput.value = emailCookie;
+
+    countyInput.addEventListener('input', function () {
+      countyInput.setCustomValidity("");
+      countyInput.classList.remove('invalid');
+    });
+
+    emailInput.addEventListener('input', function () {
+      emailInput.setCustomValidity("");
+      emailInput.classList.remove('invalid');
+    });
+
+    formContainer.addEventListener('submit', function (event) {
+      event.preventDefault();
+      let isValid = true;
+
+      // --- COUNTY VALIDATION ---
+      const userInput = countyInput.value.trim().toLowerCase();
+      const correctCounty = validCounties.find(county => county.toLowerCase() === userInput);
+      countyInput.setCustomValidity("");
+      countyInput.classList.remove('invalid');
+
+      if (!userInput || !correctCounty) {
+        countyInput.setCustomValidity("Valid County Required");
+        countyInput.reportValidity();
+        countyInput.classList.add('invalid');
+        isValid = false;
+      } else {
+        countyInput.value = correctCounty;
+      }
+
+      // --- EMAIL VALIDATION ---
+      emailInput.setCustomValidity("");
+      emailInput.classList.remove('invalid');
+      const emailValue = emailInput.value.trim();
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+      if (!emailValue) {
+        emailInput.setCustomValidity("Email is required");
+        emailInput.reportValidity();
+        isValid = false;
+      } else if (!emailRegex.test(emailValue)) {
+        emailInput.setCustomValidity("Type a valid email address");
+        emailInput.reportValidity();
+        isValid = false;
+      }
+
+      if (!isValid) return;
+
+      // Set cookies
+      setCookie('vf_va_entity', correctCounty, 365);
+      setCookie('vf_va_email', emailValue, 365);
+
+      // Remove the submit button
+      formContainer.querySelector('.submit').remove();
+
+      // Continue flow
+      window.voiceflow.chat.interact({
+        type: 'complete',
+        payload: { entity: correctCounty, user_email: emailValue },
+      });
+    });
+
+    element.appendChild(formContainer);
+  },
+};
+</script><script type="text/javascript">
+(function(d, t) {
+  var username = drupalSettings.my_user_name?.username || 'anonymous';
+  var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+  v.onload = function() {
+    window.voiceflow.chat.load({
+      verify: { projectID: '67fa948a5c02abbb3caf8288' },
+      url: 'https://general-runtime.voiceflow.com',
+      versionID: 'production',
+      userID: username,
+      assistant: {
+        stylesheet: "/themes/daudo_subtheme/css/voiceflow.css",
+        extensions: [FormExtension],
+        persistence: 'memory'
+      }
+    });
+  }
+  v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs";
+  v.type = "text/javascript";
+  s.parentNode.insertBefore(v, s);
+})(document, 'script');
+</script></div>
+      
+    </div>
+  </div>
+
+  </div>
+
+              </div>
+            </div>
+          </div>     
+        </div>   
+      </div> 
+    
+  </div>   
+
+      <div class="copyright">
+      <div class="container">
+        <div class="copyright-inner">
+              <div>
+    <div id="block-daudo-subtheme-copyright" class="block block-block-content block-block-content963a5d72-55d4-4021-8498-04423a8bb7a2 no-title">
+  
+    
+      <div class="content block-content">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="row">
+    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-6 col-xs-12">
+        <ul>
+            <li><a href="/site-map">Site Map</a></li>
+            <li><a href="/disclaimer">Disclaimer</a></li>
+            <li><a href="/indicia">Indicia</a></li>
+            <li><a href="/privacy-statement">Privacy</a></li>
+            <li><a href="/accessibility">Accessibility</a></li>
+            <li><a href="/eeo">EEO/AA Statement/Non-Discrimination Statement</a></li>
+        </ul>
+    </div>
+    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div class="social-copyright">
+            <div class="socials">
+                <a href="https://www.facebook.com/utctas"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/company/utctas"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.youtube.com/@utctas"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-6 col-xs-12">
+        <ul>
+            <li><a href="https://staff.ctas.tennessee.edu/D2I/D2I.htm">D2I</a></li>
+            <li><a href="/user">Contractor Login</a></li>
+            <li><a href="/portal">Staff Portal</a></li>
+        </ul>
+    </div></div>
+      
+    </div>
+  </div>
+
+  </div>
+
+        </div>   
+      </div>   
+    </div>
+  
+</footer>
+</div>
+
+
+  </div>
+
+    
+    <script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/version-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/data-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/disable-selection-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/jquery-patch-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/scroll-parent-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/unique-id-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/focusable-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/keycode-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/plugin-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widget-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/labels-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/controlgroup-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/form-reset-mixin-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/mouse-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/checkboxradio-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/draggable-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/resizable-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/button-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/dialog-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/tabbable/index.umd.min.js?v=6.3.0"></script>
+<script src="/core/assets/vendor/tua-body-scroll-lock/tua-bsl.umd.min.js?v=10.6.18"></script>
+<script src="/modules/contrib/better_exposed_filters/js/better_exposed_filters.js?tmdqk2"></script>
+<script src="/modules/custom/book_search/js/add.js?tmdqk2"></script>
+<script src="/modules/contrib/ckeditor_accordion/js/accordion.frontend.min.js?tmdqk2"></script>
+<script src="/modules/contrib/extlink/js/extlink.js?tmdqk2"></script>
+<script src="/modules/contrib/gva_blockbuilder/vendor/skrollr.min.js?v=1.x"></script>
+<script src="/modules/contrib/gva_blockbuilder/vendor/main.js?v=1.x"></script>
+<script src="/modules/custom/gavias_pagebuilder/vendor/skrollr.min.js?v=1.x"></script>
+<script src="/modules/custom/gavias_pagebuilder/vendor/main.js?v=1.x"></script>
+<script src="/modules/contrib/google_analytics/js/google_analytics.js?v=10.6.18"></script>
+<script src="/modules/custom/my_user_name/js/my_user_name.js?v=1.x"></script>
+<script src="/core/misc/progress.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/loadjs/loadjs.min.js?v=4.3.0"></script>
+<script src="/core/misc/debounce.js?v=10.6.18"></script>
+<script src="/core/misc/announce.js?v=10.6.18"></script>
+<script src="/core/misc/message.js?v=10.6.18"></script>
+<script src="/core/misc/ajax.js?v=10.6.18"></script>
+<script src="/core/misc/displace.js?v=10.6.18"></script>
+<script src="/core/misc/jquery.tabbable.shim.js?v=10.6.18"></script>
+<script src="/core/misc/position.js?v=10.6.18"></script>
+<script src="/core/misc/dialog/dialog-deprecation.js?v=10.6.18"></script>
+<script src="/core/misc/dialog/dialog.js?v=10.6.18"></script>
+<script src="/core/misc/dialog/dialog.position.js?v=10.6.18"></script>
+<script src="/core/misc/dialog/dialog.jquery-ui.js?v=10.6.18"></script>
+<script src="/core/modules/ckeditor5/js/ckeditor5.dialog.fix.js?v=10.6.18"></script>
+<script src="/core/misc/dialog/dialog.ajax.js?v=10.6.18"></script>
+<script src="/modules/contrib/webform/js/webform.drupal.dialog.js?tmdqk2"></script>
+<script src="/modules/contrib/webform/js/webform.dialog.js?tmdqk2"></script>
+
+    
+        <div id="gva-overlay"></div>
+  </body>
+</html>

@@ -1,0 +1,189 @@
+[
+  {
+    "id": "S01",
+    "requested_url": "https://tnwaste.org/",
+    "retrieved_at_utc": "2026-10-04T16:36:53.857753+00:00",
+    "status": 200,
+    "final_url": "https://tnwaste.org/",
+    "sha256": "bf03d473c0a83e38c0272b2214ee424beadf389ab9864132a617436e854e65dc",
+    "bytes": 121396,
+    "content_type": "text/html; charset=utf-8",
+    "redirects": []
+  },
+  {
+    "id": "S02",
+    "requested_url": "https://tnwaste.org/dossier/",
+    "retrieved_at_utc": "2026-10-04T16:36:53.860047+00:00",
+    "status": 200,
+    "final_url": "https://tnwaste.org/dossier/",
+    "sha256": "faf5630a1ba6ac3e213fc2298879487ab92157ad6155773776dd83a0007da6f7",
+    "bytes": 63440,
+    "content_type": "text/html; charset=utf-8",
+    "redirects": []
+  },
+  {
+    "id": "S03",
+    "requested_url": "https://www.tn.gov/environment/program-areas/rem-remediation/tnclean.html",
+    "retrieved_at_utc": "2026-10-04T16:36:53.860246+00:00",
+    "status": 200,
+    "final_url": "https://www.tn.gov/environment/program-areas/rem-remediation/tnclean.html",
+    "sha256": "b8129e8da031161504a464fdd90837c55835c04cd5a98f3b38cb1acd77233687",
+    "bytes": 163870,
+    "content_type": "text/html;charset=utf-8",
+    "redirects": []
+  },
+  {
+    "id": "S04",
+    "requested_url": "https://www.murfreesborotn.gov/2745/Landfill-Information",
+    "retrieved_at_utc": "2026-10-04T16:36:53.860395+00:00",
+    "status": 200,
+    "final_url": "https://www.murfreesborotn.gov/2745/Landfill-Information",
+    "sha256": "a310f61c7cff7b18027af6fee37e3c8ba120bf2d64b59c7ccabbd56cd0547719",
+    "bytes": 128894,
+    "content_type": "text/html; charset=utf-8",
+    "redirects": []
+  },
+  {
+    "id": "S05",
+    "requested_url": "https://www.tn.gov/environment/program-areas/solid-waste/materials-management/2025-2035-swm-plan.html",
+    "retrieved_at_utc": "2026-10-04T16:36:53.860493+00:00",
+    "status": 200,
+    "final_url": "https://www.tn.gov/environment/program-areas/solid-waste/materials-management/2025-2035-swm-plan.html",
+    "sha256": "43f2bc57b39b7a03d1cbbb1e3f5c5f5ab9b853f55c4394d50f68429f40e6aa3b",
+    "bytes": 57507,
+    "content_type": "text/html;charset=utf-8",
+    "redirects": []
+  },
+  {
+    "id": "S06",
+    "requested_url": "https://www.tn.gov/environment/program-areas/solid-waste.html",
+    "retrieved_at_utc": "2026-10-04T16:36:54.075600+00:00",
+    "status": 200,
+    "final_url": "https://www.tn.gov/environment/program-areas/solid-waste.html",
+    "sha256": "1c178c180f556f78da01375150a62fe06ae07d985a370b6db270e7a9f62e56dc",
+    "bytes": 59916,
+    "content_type": "text/html;charset=utf-8",
+    "redirects": []
+  },
+  {
+    "id": "S07",
+    "requested_url": "https://www.rd.usda.gov/programs-services/water-environmental-programs/solid-waste-management-grants/tn",
+    "retrieved_at_utc": "2026-10-04T16:36:54.076374+00:00",
+    "status": 403,
+    "final_url": "https://www.rd.usda.gov/programs-services/water-environmental-programs/solid-waste-management-grants/tn",
+    "sha256": "3b5bff6cc64865e8a8187482032879e1b6398849e9433a7852816f2dfaf8ba1c",
+    "bytes": 488,
+    "content_type": "text/html",
+    "redirects": []
+  },
+  {
+    "id": "S08",
+    "requested_url": "https://newschannel9.com/news/local/his-nose-started-bleeding-athens-residents-say-landfill-odor-is-making-them-sick",
+    "retrieved_at_utc": "2026-10-04T16:36:54.095580+00:00",
+    "status": 200,
+    "final_url": "https://newschannel9.com/news/local/his-nose-started-bleeding-athens-residents-say-landfill-odor-is-making-them-sick",
+    "sha256": "539b86a69a30457a0c2aad905f7338622fcac675bce1d54ba8de10bda996ff2e",
+    "bytes": 298333,
+    "content_type": "text/html; charset=utf-8",
+    "redirects": []
+  },
+  {
+    "id": "S09",
+    "requested_url": "https://www.ctas.tennessee.edu/news/tennessee-opens-5m-solid-waste-and-recycling-grants-2026",
+    "retrieved_at_utc": "2026-10-04T16:36:54.097582+00:00",
+    "status": 200,
+    "final_url": "https://www.ctas.tennessee.edu/news/tennessee-opens-5m-solid-waste-and-recycling-grants-2026",
+    "sha256": "0fcad236eaa7b4b5faaf6ab726e9929d92ea755f17f02e40e423731b554c2ca5",
+    "bytes": 47176,
+    "content_type": "text/html; charset=UTF-8",
+    "redirects": []
+  },
+  {
+    "id": "S10",
+    "requested_url": "https://www.mitchellwilliamslaw.com/getpdf.aspx?blog=14246",
+    "retrieved_at_utc": "2026-10-04T16:36:54.208906+00:00",
+    "status": 200,
+    "final_url": "https://www.mitchellwilliamslaw.com/getpdf.aspx?blog=14246",
+    "sha256": "7a039de9085ebe71ccf21740cec2ce45f9bd2a4b43ce8632604a79f2da855862",
+    "bytes": 1759703,
+    "content_type": "application/pdf",
+    "redirects": []
+  },
+  {
+    "id": "S11",
+    "requested_url": "https://tennesseelookout.com/2023/09/01/appeals-court-rules-against-waste-management-inc-in-nashville-landfill-expansion",
+    "retrieved_at_utc": "2026-10-04T16:36:54.220538+00:00",
+    "status": 403,
+    "final_url": "https://tennesseelookout.com/2023/09/01/appeals-court-rules-against-waste-management-inc-in-nashville-landfill-expansion",
+    "sha256": "e720a7a626b7bde14ac40ea3559daed0343d6e0edadff392a74bb6540056c01a",
+    "bytes": 5812,
+    "content_type": "text/html; charset=UTF-8",
+    "redirects": []
+  },
+  {
+    "id": "S12",
+    "requested_url": "https://www.tn.gov/environment/program-areas/solid-waste/materials-management/grants-administration.html",
+    "retrieved_at_utc": "2026-10-04T16:38:36.871714+00:00",
+    "error": "('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))"
+  },
+  {
+    "id": "S13",
+    "requested_url": "https://www.tn.gov/environment/program-areas/solid-waste/sw/eplex-landfill.html",
+    "retrieved_at_utc": "2026-10-04T16:38:36.872188+00:00",
+    "status": 200,
+    "final_url": "https://www.tn.gov/environment/program-areas/solid-waste/sw/eplex-landfill.html",
+    "sha256": "a1b091f5125fa76b3fe378d4b071e2253ea89cff0f426201260b371034850a0c",
+    "bytes": 61214,
+    "content_type": "text/html;charset=utf-8",
+    "redirects": []
+  },
+  {
+    "id": "S14",
+    "requested_url": "https://cumulis.epa.gov/supercpad/SiteProfiles/index.cfm?fuseaction=second.schedule&id=0403886",
+    "retrieved_at_utc": "2026-10-04T16:38:36.873042+00:00",
+    "status": 200,
+    "final_url": "https://cumulis.epa.gov/supercpad/SiteProfiles/index.cfm?fuseaction=second.schedule&id=0403886",
+    "sha256": "7dec05f85d835a2f62f16cb60a9dc58fd271e7ddf1a9e83900c8e6d9d354a08c",
+    "bytes": 34193,
+    "content_type": "text/html;charset=UTF-8",
+    "redirects": []
+  },
+  {
+    "id": "S15",
+    "requested_url": "https://www.atsdr.cdc.gov/HAC/pha/HardemanCountyLandfillUpdate/HardemanCountyLandfillUpdateHC%209-28-07.pdf",
+    "retrieved_at_utc": "2026-10-04T16:38:36.873957+00:00",
+    "status": 200,
+    "final_url": "https://www.atsdr.cdc.gov/HAC/pha/HardemanCountyLandfillUpdate/HardemanCountyLandfillUpdateHC%209-28-07.pdf",
+    "sha256": "91a76a1d7461fbc224328f6cd3e22e15c588ee25cfcac93541bf25bc7c10bc11",
+    "bytes": 98398,
+    "content_type": "application/pdf",
+    "redirects": []
+  },
+  {
+    "id": "S16",
+    "requested_url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100GFWK.TXT",
+    "retrieved_at_utc": "2026-10-04T16:38:36.874328+00:00",
+    "status": 200,
+    "final_url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100GFWK.TXT",
+    "sha256": "da9ad7129734f54e3be09c6c0cd66f5c448c984f50e8f073828d43e8f0261719",
+    "bytes": 150262,
+    "content_type": "text/html; charset=ISO-8859-1",
+    "redirects": []
+  },
+  {
+    "id": "S17",
+    "requested_url": "https://www.tn.gov/environment/program-areas/solid-waste/materials-management/grants-administration.html",
+    "retrieved_at_utc": "2026-10-04T16:41:56.787813+00:00",
+    "error": "('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))"
+  },
+  {
+    "id": "S18",
+    "requested_url": "https://www.tn.gov/environment/program-areas/solid-waste/materials-management/grants-administration.html",
+    "status": 200,
+    "final_url": "https://www.tn.gov/environment/program-areas/solid-waste/materials-management/grants-administration.html",
+    "retrieved_at_utc": "2026-10-04T16:43:31.394984+00:00",
+    "sha256": "4bbcee7ee540ce92d3625165e9dda61bf50f978991e6c4546f80120ffe608e05",
+    "bytes": 59040,
+    "method": "curl; actual stdout recorded in session"
+  }
+]

@@ -1,0 +1,376 @@
+{
+  "schema_version": 2,
+  "name": "TN Waste Watch goal system",
+  "source": "STATEWIDE-RESEARCH-BRIEF.md",
+  "north_star": "Help underserved Tennessee communities obtain trustworthy waste-management evidence, usable disposal access, and independently verified corrective improvements.",
+  "overall_status": "in_progress",
+  "authorization": {
+    "local_goal_system": true,
+    "recurring_jobs": false,
+    "public_publish": false,
+    "external_outreach": false,
+    "paid_services": false,
+    "sampling": false
+  },
+  "policy": {
+    "statuses": [
+      "ready",
+      "in_progress",
+      "pending",
+      "blocked",
+      "verified_complete"
+    ],
+    "completion": "All acceptance criteria have attributable evidence and independent verification. No percentage based on tasks or documents.",
+    "work_in_progress": "One pilot delivery slice at a time; at most one independent review alongside it. Ownership is not executor liveness.",
+    "review": "On a meaningful evidence or decision change, reconcile the current gate; no recurring job has been activated.",
+    "stagnation": "After two attempts without gate advancement, change approach; after three, record a separate blocker with owner and clearing condition.",
+    "priority": "Need and unresolved concerns first; feasibility breaks ties; evidence abundance is not need. Missing data does not imply safety.",
+    "next_slice_note": "These IDs define one integrated pilot-preparation slice, not six concurrent jobs; select county via G2, then localize resource cards."
+  },
+  "baseline": {
+    "facility_starters": [
+      "waynesboro",
+      "velsicol-hardeman",
+      "meadow-branch",
+      "ews-camden"
+    ],
+    "publication_ready_new_dossiers": 0,
+    "new_dossiers_live": 0,
+    "new_imagery_acquired": 0,
+    "outreach_sent": 0,
+    "verified_environmental_outcomes": null,
+    "note": "Research setup exists. Outcomes have not been established; none claimed."
+  },
+  "goals": [
+    {
+      "id": "G1",
+      "title": "Trustworthy evidence",
+      "status": "ready",
+      "depends_on": [],
+      "owner": "Research owner: this Hermes session; independent reviewer unassigned",
+      "live_task": null,
+      "next_action": "Create claim-level ledger for the first candidate and recover its original/current records.",
+      "acceptance": [
+        "Every publishable factual claim has an actual HTTP receipt, source hash, exact quotation/page and event/source/retrieval dates.",
+        "Identity, historical/current/corrected/alleged/disputed status, counterevidence and unknowns are explicit.",
+        "Independent review checks the actual sources; failed retrievals retain actual status or network error."
+      ],
+      "evidence": [],
+      "blocker": null
+    },
+    {
+      "id": "G2",
+      "title": "Rural-first prioritization",
+      "status": "ready",
+      "depends_on": [],
+      "owner": "Research owner: this Hermes session",
+      "live_task": null,
+      "next_action": "Compare affected communities for the four candidates and include a discovery slot for a poorly documented community.",
+      "acceptance": [
+        "Record community boundaries, rural/underserved evidence, disposal distance/cost/hours, well-dependence evidence and local records capacity; missing values remain unknown.",
+        "Choose the pilot with a written rationale based on need, unresolved concerns and feasibility—not media attention or number of documents.",
+        "Maintain separate urgency/discovery and substantiated/publication queues; document why candidates were deferred."
+      ],
+      "evidence": [],
+      "blocker": null
+    },
+    {
+      "id": "G3",
+      "title": "First accountability-and-access pilot",
+      "status": "pending",
+      "depends_on": [
+        "G1",
+        "G2",
+        "G9",
+        "G10",
+        "G11"
+      ],
+      "owner": "Research owner: this Hermes session; technical reviewer unassigned",
+      "live_task": null,
+      "next_action": "Select one candidate; pair its dossier with a verified county disposal/service-accountability card and water-testing/referral card.",
+      "acceptance": [
+        "One dossier passes claim, identity, current-status/unknown, privacy and appropriate technical/legal review gates.",
+        "Paired brief verifies service hours, fees, eligibility, accepted materials, destination and last-check dates using actual sources.",
+        "Maps and imagery use verified boundaries/capture dates/resolution; no imagery-based contamination or health inference. If imagery is unavailable, disclose it and publish no fabricated timeline.",
+        "Action panel identifies the responsible authority and source-backed next action; unresolved records gaps remain visible.",
+        "G9–G11 county cards pass their source, practical access, privacy and legal-currentness gates; statewide referral links alone do not satisfy the pilot."
+      ],
+      "evidence": [],
+      "blocker": null
+    },
+    {
+      "id": "G4",
+      "title": "Safe resident assistance",
+      "status": "blocked",
+      "depends_on": [],
+      "owner": "Accountable operator unassigned; Michael must designate operator",
+      "live_task": null,
+      "next_action": "Define recipient, staffing, consent, retention/deletion and urgent-concern referral before testing intake.",
+      "acceptance": [
+        "Named operator accepts responsibility and response capacity is accurately described.",
+        "Approved test demonstrates real downstream receipt; alerts and contributions are tested separately.",
+        "Privacy/consent, access restrictions, deletion, offline alternative and urgent-concern routing are documented and tested.",
+        "No public household/well identifiers or medical details; no promise of moderation or subscription without a working path."
+      ],
+      "evidence": [],
+      "blocker": "Named operator and approved intake-test scope required."
+    },
+    {
+      "id": "G5",
+      "title": "Reliable statewide website",
+      "status": "blocked",
+      "depends_on": [
+        "G3"
+      ],
+      "owner": "Implementation owner unassigned; research session prepares acceptance",
+      "live_task": null,
+      "next_action": "Prepare a visual/content contract; obtain publishing approval before changing the live site.",
+      "acceptance": [
+        "Preserve Matlock dossier and reconcile imagery-date wording against provenance.",
+        "Provide statewide index with limited-coverage label, evidence status, verified update date, printable/low-bandwidth text and correction log.",
+        "All existing dossier harnesses plus new link, mobile, accessibility and claim checks pass from a pristine candidate export.",
+        "Git/review gates pass and approved release is independently read back live; a local page is not a deployed release.",
+        "Community help surfaces G9–G12 resources with source dates, uncertainty, offline options and existing-duty versus proposed-policy labels; no unverified county service promise."
+      ],
+      "evidence": [],
+      "blocker": "Pilot acceptance, implementation ownership and explicit publishing approval required."
+    },
+    {
+      "id": "G6",
+      "title": "Feasible waste-practice improvements",
+      "status": "pending",
+      "depends_on": [
+        "G2",
+        "G3",
+        "G12"
+      ],
+      "owner": "Research owner: this Hermes session; local implementation partner unassigned",
+      "live_task": null,
+      "next_action": "Evaluate one access improvement against costs, legal destination, affordability and burden-shift risks.",
+      "acceptance": [
+        "Compare feasible alternatives including no-change baseline, operating cost, transport, acceptance rules and downstream destination.",
+        "Verify funding availability/eligibility against the administering system; conflicts remain unconfirmed.",
+        "Any implemented pilot has separately approved owner/funding, baseline and before/after service or waste measurement.",
+        "No unsafe self-sampling, burning, trespass or handling unknown waste is recommended."
+      ],
+      "evidence": [],
+      "blocker": null
+    },
+    {
+      "id": "G7",
+      "title": "Verified environmental and community outcomes",
+      "status": "pending",
+      "depends_on": [
+        "G3"
+      ],
+      "owner": "Measurement owner: this Hermes session; action owners recorded individually",
+      "live_task": null,
+      "next_action": "Create outcome entries as actions arise; define baseline and follow-up before claiming improvement.",
+      "acceptance": [
+        "Corrective action is credited only with completion evidence and later effectiveness verification; sampling alone is not improvement.",
+        "Access change reports actual hours/fees/geography before and after; waste diversion reports baseline, units, period and destination without double counting.",
+        "Record the site contribution separately from causation and include adverse effects/burden shifts.",
+        "Zero or unknown outcomes are reported honestly; page views and dossier counts are delivery measures, not environmental outcomes."
+      ],
+      "evidence": [],
+      "blocker": null
+    },
+    {
+      "id": "G8",
+      "title": "Transferable Tennessee playbook",
+      "status": "pending",
+      "depends_on": [
+        "G3",
+        "G7"
+      ],
+      "owner": "Research owner: this Hermes session",
+      "live_task": null,
+      "next_action": "Extract a reusable method only after the pilot has usable evidence and follow-up.",
+      "acceptance": [
+        "Reusable claim/dossier/access templates include provenance, privacy and current-status gates.",
+        "A second independently selected community can use the method without copying unsupported first-site conclusions.",
+        "Document what worked, what did not and limits of transfer; broader publication requires approval."
+      ],
+      "evidence": [],
+      "blocker": null
+    },
+    {
+      "id": "G9",
+      "title": "Reachable private-well testing and follow-up",
+      "status": "in_progress",
+      "depends_on": [],
+      "owner": "TN Waste Watch research session; local partner/reviewer unassigned",
+      "live_task": null,
+      "next_action": "For the selected community verify two feasible laboratory/referral routes, exact analytes, household acceptance, full cost, sample delivery and qualified interpretation.",
+      "acceptance": [
+        "County water card verifies two feasible testing/referral routes, with certified analytes and expiration checks, household acceptance, practical sample delivery/holding times, full household price and necessary assistance. Unknown cost or access may remain in research but cannot pass completion. A single-route exception needs explicit operator approval and a documented barrier/contingency plan.",
+        "Affordability or partner pickup proposal names an eligible provider, real capacity, separate approved funding and collection workplan; no assumed free testing.",
+        "Qualified adviser selects any site-specific panel; private household data stays protected; abnormal results have a verified public-health referral.",
+        "Independent reviewer checks card against archived sources; a test, referral or normal limited panel is not credited as reduced exposure.",
+        "County water card includes a verified public-health/urgent referral and EPA-backed immediate-testing triggers and flooded-well precautions, without DIY treatment instructions."
+      ],
+      "evidence": [
+        "RURAL-COMMUNITY-RESOURCES.md",
+        "community-resources/resource-register.json"
+      ],
+      "resource_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R15"
+      ],
+      "blocker": null,
+      "qualification": "Statewide pathways researched; county service availability and outcomes not verified."
+    },
+    {
+      "id": "G10",
+      "title": "Usable rural disposal and difficult-waste access",
+      "status": "in_progress",
+      "depends_on": [],
+      "owner": "TN Waste Watch research session; local partner/reviewer unassigned",
+      "live_task": null,
+      "next_action": "Build one county card for ordinary trash, bulky waste, tires, electronics/paint and HHW; verify providers and barriers before recommending travel.",
+      "acceptance": [
+        "County card verifies operator/location, hours, fees/waivers, eligibility, accepted materials and exclusions, appointment requirements, lawful destination and source dates.",
+        "Assess travel, no-vehicle, disability and work-hour barriers; printable/offline route is usable without a smartphone.",
+        "Compare at least one targeted access improvement with no-change baseline, staffing/recurring cost and burden-shift risks.",
+        "Any implemented improvement requires separately approved partner/funding and independently verified service before/after; no statewide event page treated as local availability.",
+        "Investigate the Agricultural Pesticide Waste Collection Program and the separate priced/appointment-based VSQG pathway as discovery leads; verify current provider, eligibility, material restrictions, charges and appointments before recommending either."
+      ],
+      "evidence": [
+        "RURAL-COMMUNITY-RESOURCES.md",
+        "community-resources/resource-register.json"
+      ],
+      "resource_ids": [
+        "R11",
+        "R06"
+      ],
+      "blocker": null,
+      "qualification": "Statewide pathways researched; county service availability and outcomes not verified.",
+      "discovery_lead_ids": [
+        "L-FARM",
+        "L-VSQG"
+      ]
+    },
+    {
+      "id": "G11",
+      "title": "Community service obligations and accountable complaint routes",
+      "status": "in_progress",
+      "depends_on": [],
+      "owner": "TN Waste Watch research session; local partner/reviewer unassigned",
+      "live_task": null,
+      "next_action": "Authenticate current controlling law and the pilot county service plan; prepare unsent records, complaint and county-service request templates.",
+      "acceptance": [
+        "Authenticate current statute/rule, local jurisdiction and alternatives before alleging noncompliance; separate minimum duties from proposed stronger service.",
+        "Unsent records packet names verified custodian, specific existing records, dates, residency/fee rules and response tracking; no guarantee of seven-day delivery.",
+        "Complaint pathway distinguishes dumping, roadside litter, facility conditions and private-property exceptions; preserve safe lawful observation and privacy.",
+        "County commission/board proposal identifies authority, requested improvement, recurring funding, affordability, responsible owner and follow-up; local legal review precedes ordinance or citizen-suit guidance.",
+        "Permit participation uses the actual notice and its deadline/contact/accommodations; completed remedy and effectiveness checked separately from acknowledgment or vote."
+      ],
+      "evidence": [
+        "RURAL-COMMUNITY-RESOURCES.md",
+        "community-resources/resource-register.json"
+      ],
+      "resource_ids": [
+        "R05",
+        "R06",
+        "R07",
+        "R08",
+        "R09",
+        "R12"
+      ],
+      "blocker": null,
+      "qualification": "Statewide pathways researched; county service availability and outcomes not verified."
+    },
+    {
+      "id": "G12",
+      "title": "Affordable community assistance and sustainable funding",
+      "status": "in_progress",
+      "depends_on": [],
+      "owner": "TN Waste Watch research session; local partner/reviewer unassigned",
+      "live_task": null,
+      "next_action": "Qualify existing funding leads and recover blocked RCAP/USDA pages; verify household versus local-government eligibility and recurring costs.",
+      "acceptance": [
+        "For every recommended program obtain current administering-source eligibility, geographic coverage, price/assistance terms, application window, match and operational capacity.",
+        "Testing/transport assistance and waste-service funding remain separate; a nonprofit grant is not represented as a direct household grant.",
+        "Operating costs and low-income protections accompany any mandatory-collection proposal; no burden shift or unfunded mandate advertised as a solution.",
+        "Blocked or expired programs remain explicitly unconfirmed; outreach, applications, paid services and funding commitments require separate approval."
+      ],
+      "evidence": [
+        "RURAL-COMMUNITY-RESOURCES.md",
+        "community-resources/resource-register.json"
+      ],
+      "resource_ids": [],
+      "blocker": null,
+      "qualification": "Statewide pathways researched; county service availability and outcomes not verified."
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Publication-ready accountability-and-access pilot",
+      "target": "One paired pilot before expanding",
+      "current": 0
+    },
+    {
+      "name": "Publishable factual claims with source evidence",
+      "target": "Every claim",
+      "current": null
+    },
+    {
+      "name": "Communities lacking abundant records included in discovery",
+      "target": "At least one discovery slot in pilot selection",
+      "current": null
+    },
+    {
+      "name": "Verified corrective/access/waste outcomes",
+      "target": "Establish baseline, then set intervention-specific target",
+      "current": null
+    }
+  ],
+  "next_delivery_slice": [
+    "G1",
+    "G2",
+    "G9",
+    "G10",
+    "G11",
+    "G12"
+  ],
+  "references": [
+    "WORK-REGISTER.md",
+    "investigation-register.json",
+    "http-receipts.json",
+    "citation-ledger.json",
+    "RURAL-COMMUNITY-RESOURCES.md",
+    "community-resources/resource-register.json",
+    "community-resources/http-receipts.json",
+    "community-resources/citation-ledger.json",
+    "COUNTY-RESOURCE-TOOLKIT.md"
+  ],
+  "community_resource_register": "community-resources/resource-register.json",
+  "blocker_tasks": [
+    {
+      "id": "B-LEGAL-CURRENT",
+      "goal": "G11",
+      "status": "blocked",
+      "owner": "research session",
+      "issue": "Official current rule retrieval HTTP 403; statutory comparison TLS failure then 403. Secondary sources are not an authenticated controlling-law review.",
+      "clearing_condition": "Obtain authentic current statute/rule through accessible official copy and qualified county-applicability review before legal assertions."
+    },
+    {
+      "id": "B-ASSISTANCE",
+      "goal": "G12",
+      "status": "blocked",
+      "owner": "research session",
+      "issue": "RCAP private-well and USDA decentralized-water pages returned HTTP 403, including retries.",
+      "clearing_condition": "Retrieve accessible administering source or separately approved provider confirmation of current availability/eligibility/cost."
+    },
+    {
+      "id": "B-COUNTY-CARDS",
+      "goal": "G3",
+      "status": "pending",
+      "owner": "research session",
+      "issue": "Pilot community not yet selected; no county testing or disposal card certified.",
+      "clearing_condition": "G2 pilot selection followed by source-backed provider/cost/hours/material verification for G9–G11."
+    }
+  ]
+}

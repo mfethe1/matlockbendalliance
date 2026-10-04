@@ -1,0 +1,1609 @@
+<!doctype html>
+<html class="no-js tn-html" lang="en">
+    <head>
+        <title>Solid Waste Program</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        
+        
+            <meta name="description" content="The Solid Waste Program ensures safe and sanitary processing and disposal of solid waste in Tennessee by regulating material recovery facilities, transfer stations, and municipal, corporate, private, and industrial landfills, farming wastes, and construction and demolition waste, some of which are subject to EPA RCRA Subtitle D.  The Solid Waste Program operates under the authority of the Solid Waste Management Act of 1991"/>
+        
+        
+            <meta name="url" content="https://www.tn.gov/environment/program-areas/solid-waste/sw.html"/>
+        
+        
+            <meta name="lastModified" content="23 Sep 2026 11:13:29 CDT"/>
+        
+        
+        
+            <meta name="pageDepartment" content="environment"/>
+        
+        
+            <meta name="pageDivision" content="program-areas"/>
+        
+        
+        
+        
+        
+            <meta name="pagePath" content="/content/tn/environment/program-areas/solid-waste/sw"/>
+        
+        
+
+        
+
+        
+            <meta property="og:title" content="Solid Waste Program"/>
+        
+        
+            <meta property="og:description" content="The Solid Waste Program ensures safe and sanitary processing and disposal of solid waste in Tennessee by regulating material recovery facilities, transfer stations, and municipal, corporate, private, and industrial landfills, farming wastes, and construction and demolition waste, some of which are subject to EPA RCRA Subtitle D.  The Solid Waste Program operates under the authority of the Solid Waste Management Act of 1991"/>
+        
+        
+            <meta property="og:url" content="https://www.tn.gov/environment/program-areas/solid-waste/sw.html"/>
+        
+        
+
+            <meta name="twitter:card" content="summary_large_image"/>
+        
+            <meta name="twitter:title" content="Solid Waste Program"/>
+        
+        
+            <meta name="twitter:description" content="The Solid Waste Program ensures safe and sanitary processing and disposal of solid waste in Tennessee by regulating material recovery facilities, transfer stations, and municipal, corporate, private, and industrial landfills, farming wastes, and construction and demolition waste, some of which are subject to EPA RCRA Subtitle D.  The Solid Waste Program operates under the authority of the Solid Waste Management Act of 1991"/>
+        
+        
+            <meta name="twitter:url" content="https://www.tn.gov/environment/program-areas/solid-waste/sw.html"/>
+        
+        
+
+        
+
+        <link rel="shortcut icon" href="/etc/clientlibs/tncore/main/img/favicon.ico"/>
+
+        <link rel="canonical" href="https://www.tn.gov/environment/program-areas/solid-waste/sw.html"/>
+
+        <!-- DTM Analytics Datalayer -->
+
+        <script>
+
+
+            var digitalData = {
+                page: {
+                    pageInfo: {
+                        pageName: "environment:program-areas:solid-waste:sw",
+                        securePage: "false",
+                        sysEnv: "Desktop",
+                        deptName: "environment",
+                        siteSection: "program-areas",
+                        siteSubSection: "solid-waste",
+                        pageType:"",
+                        rsidValue: "oirtn"
+
+                    }
+                }
+            };
+        </script>
+
+        <script src="//assets.adobedtm.com/f213d7ed4603/b5fbb0638724/launch-5b3fa8e23e9e.min.js" async></script>
+
+        
+        
+    
+<link rel="stylesheet" href="/etc/clientlibs/tncore/main.min.f53b1cb66edbbb1f9264be1e283b69a9.css" type="text/css">
+
+
+
+        
+            
+    
+<link rel="stylesheet" href="/etc/clientlibs/tn-sites/tngov.min.a18e62a3f815b11550a3feee90159096.css" type="text/css">
+
+
+
+        
+
+        
+
+        
+
+
+
+
+
+
+
+
+        
+
+        
+    </head>
+    <body class="tngov  " data-selectors='[]' data-template="leftNav">
+        <a class="visually-hidden-focusable skip-to-main" href="#main">Skip to Main Content</a>
+
+        <noindex>
+            <div>
+
+    
+
+</div>
+            <div><header id="header">
+	
+		<div>
+
+
+
+
+    
+        
+        
+        <div class="newpar new section">
+
+</div>
+
+    
+        
+        
+        <div class="par iparys_inherited">
+
+    
+    
+    
+    
+        
+        
+        <div class="tn-headercoveo">
+    <div class="container">
+        <div class="row center-block top-nav">
+            <div class="col-auto me-auto">
+                <a class="logo" id="header-logo" href="https://www.tn.gov/" data-logo="state-government" style="background-image: url('/etc/clientlibs/tncore/main/img/logos/tn-logo.png')" aria-label="View home page">
+                </a>
+            </div>
+            <div class="col-auto">
+                <a class="search-all icon-home-1 text-right" href="https://www.tn.gov/">Go to TN.gov</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row center-block agency">
+        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 columns title">
+            <a href="https://www.tn.gov/environment.html">
+                <img src="/content/dam/headers/environment.png" alt="Tennessee State Government, Environment and Conservation logo" id="entity-name" data-pin-nopin="true"/>
+            </a>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 columns text-right">
+            <div class="tn-headersearchcoveo">
+
+<div>
+
+<script type="module" src="https://static.cloud.coveo.com/atomic/v2.42/atomic.esm.js">
+</script>
+<script type="module">
+
+import {loadContextActions, buildTab} from 'https://static.cloud.coveo.com/atomic/v2.42/headless/headless.esm.js';
+
+(async () => {
+
+    const searchHubStripped = "TNGov".trim();
+    const context = {};
+    context.userdiv = "";
+    context.userdept = "environment";
+
+    await customElements.whenDefined('atomic-search-interface');
+    const searchInterface = document.querySelector('#searchbox');
+    searchInterface.setAttribute('search-hub', searchHubStripped);
+
+    //Adding for Context to be used for Query Suggestions
+    const preProcessQuerySuggestionsRequest = (request) => {
+        if (context.userdiv) {
+            const body = JSON.parse(request.body);
+            body.mlParameters = {
+                filters: {
+                    c_context_userdept: context.userdept,
+                    c_context_userdiv: context.userdiv
+                }
+            };
+            request.body = JSON.stringify(body);
+        } else if (context.userdept) {
+            const body = JSON.parse(request.body);
+            body.mlParameters = {
+                filters: {
+                    c_context_userdept: context.userdept
+                }
+            };
+            request.body = JSON.stringify(body);
+        }
+        return request;
+    };
+
+    const orgId = "tennesseestategovernmentproduction6po4m5b2".trim();
+
+    await searchInterface.initialize({
+        accessToken: "eyJhbGciOiJIUzI1NiJ9.eyJzZWFyY2hIdWIiOiJUTkdvdiIsInY4Ijp0cnVlLCJ0b2tlbklkIjoidGk1cHo1emRjbmMzbjJqYW5pY3I0aDJldHUiLCJvcmdhbml6YXRpb24iOiJ0ZW5uZXNzZWVzdGF0ZWdvdmVybm1lbnRwcm9kdWN0aW9uNnBvNG01YjIiLCJ1c2VySWRzIjpbeyJ0eXBlIjoiVXNlciIsIm5hbWUiOiJhbm9ueW1vdXNfdXNlckBhbm9ueW1vdXMuY292ZW8uY29tIiwicHJvdmlkZXIiOiJFbWFpbCBTZWN1cml0eSBQcm92aWRlciJ9XSwicm9sZXMiOlsicXVlcnlFeGVjdXRvciJdLCJpc3MiOiJTZWFyY2hBcGkiLCJleHAiOjE3OTExOTU3MjQsImlhdCI6MTc5MTEwOTMyNH0.aKgLQ7d-Swu8kvQeVb2MF5d24rxUFe_OaopY06RtYV8".trim(),
+        organizationId: orgId,
+        organizationEndpoints: await searchInterface.getOrganizationEndpoints(orgId),
+        renewAccessToken: function() {
+            location.reload();
+        },
+        preprocessRequest: (request) => {
+            if (request.url.indexOf('querySuggest') >= 0) {
+                return preProcessQuerySuggestionsRequest(request);
+            }
+            return request;
+        }
+    });
+
+    searchInterface.i18n.addResourceBundle('en', 'translation', {
+        search: "Search Environment".trim(),
+    });
+
+    const engine = searchInterface.engine;
+    engine.dispatch(loadContextActions(engine).setContext(context));
+})();
+</script>
+
+<atomic-search-interface id="searchbox">
+  <atomic-search-box clear-filters="false" redirection-url="/environment/search-results.html" .trim()>
+
+    <atomic-search-box-recent-queries max-with-query="0" max-without-query="4">
+    </atomic-search-box-recent-queries>
+
+    <atomic-search-box-query-suggestions>
+    </atomic-search-box-query-suggestions>
+
+  </atomic-search-box>
+</atomic-search-interface>
+</div>
+
+</div>
+        </div>
+    </div>
+
+    <div class="backdrop" style="background-image:url(/content/dam/headers/test.jpg)"></div>
+    
+
+</div>
+
+    
+
+</div>
+
+    
+
+</div>
+	
+
+	<div class="tn-topnav" aria-label="Navigation Menu"><nav id="nav" role="navigation" aria-label="Main">
+    <div class="row center-block">
+        <div class="col-lg-12">
+            <div class="logo-small tn-logo">
+                <a href="https://www.tn.gov/" aria-label="Go to TN.gov" class="focus-visible-style">
+                    <span class="visually-hidden">Go to TN.gov</span>
+                </a>
+            </div>
+
+            <div class="mobile-show icon-menu mobile-menu focus-visible-style" role="button" tabindex="0" aria-label="Open navigation menu">
+                Section
+            </div>
+            <ul class="inline-list nav-items">
+                <li>
+                    <a href="https://www.tn.gov/environment.html" class="icon-home" aria-label="Go to TN.gov">
+                        <span class="visually-hidden">Go to Environment &amp; Conservation (TDEC)</span>
+                    </a>
+                </li>
+                
+                
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/program-areas.html">Program Areas
+                        <span role="button" tabindex="0" aria-label="Program Areas submenu" aria-expanded="false" aria-controls="dropdown-1" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="Program Areas submenu" aria-expanded="false" aria-controls="dropdown-1" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-1">
+                        <li><a href="/environment/program-areas/recycling-markets.html">Recycling Markets</a></li>
+                    
+                        <li><a href="/environment/program-areas/air-pollution-control.html">Air</a></li>
+                    
+                        <li><a href="/environment/program-areas/archaeology.html">Archaeology</a></li>
+                    
+                        <li><a href="/environment/program-areas/conservation.html">Bureau of Conservation</a></li>
+                    
+                        <li><a href="/environment/program-areas/energy.html">Energy</a></li>
+                    
+                        <li><a href="/environment/program-areas/stewardship.html">Environmental Stewardship</a></li>
+                    
+                        <li><a href="/environment/program-areas/geology.html">Tennessee Geological Survey</a></li>
+                    
+                        <li><a href="/environment/program-areas/mineral-geologic-resources.html">Mineral &amp; Geologic Resources</a></li>
+                    
+                        <li><a href="/environment/program-areas/na-natural-areas.html">Natural Areas</a></li>
+                    
+                        <li><a href="/environment/program-areas/outdoor-recreation.html">Outdoor Recreation</a></li>
+                    
+                        <li><a href="/environment/program-areas/policy-planning.html">Policy &amp; Planning</a></li>
+                    
+                        <li><a href="/environment/program-areas/radiological-health.html">Radiological Health</a></li>
+                    
+                        <li><a href="/environment/program-areas/rem-remediation.html">Remediation Branch</a></li>
+                    
+                        <li><a href="/environment/program-areas/small-business-environmental-assistance.html">Small Business Environmental Assistance</a></li>
+                    
+                        <li><a href="/environment/program-areas/solid-waste.html">Waste Management Branch</a></li>
+                    
+                        <li><a href="/environment/program-areas/underground-storage-tanks.html">Underground Storage Tanks</a></li>
+                    
+                        <li><a href="/environment/program-areas/wr-water-resources.html">Water </a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/permits.html">Permitting
+                        <span role="button" tabindex="0" aria-label="Permitting submenu" aria-expanded="false" aria-controls="dropdown-2" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="Permitting submenu" aria-expanded="false" aria-controls="dropdown-2" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-2">
+                        <li><a href="/environment/permits/air.html">Air Permits</a></li>
+                    
+                        <li><a href="/environment/permits/archaeology.html">Archaeology Permit</a></li>
+                    
+                        <li><a href="/environment/permits/mineral-geologic.html">Mineral &amp; Geologic Resources Permits</a></li>
+                    
+                        <li><a href="/environment/permits/natural-areas.html">Natural Areas License and Permits</a></li>
+                    
+                        <li><a href="/environment/permits/radiological-health.html">Radiological Health Licenses and Registrations</a></li>
+                    
+                        <li><a href="/environment/permits/waste.html">Waste Permits</a></li>
+                    
+                        <li><a href="/environment/permits/water.html">Water Permits</a></li>
+                    
+                        <li><a href="/environment/permits/other.html">Other Permits</a></li>
+                    
+                        <li><a href="/environment/permits/efficiency-reports.html">Efficiency Reports</a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/ppo.html">Public Participation
+                        <span role="button" tabindex="0" aria-label="Public Participation submenu" aria-expanded="false" aria-controls="dropdown-3" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="Public Participation submenu" aria-expanded="false" aria-controls="dropdown-3" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-3">
+                        <li><a href="/environment/ppo/air.html">Air Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/energy.html">Energy Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/dmgr.html">Mineral &amp; Geologic Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/natural-areas.html">Natural Areas Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/radiation.html">Radiation Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/remediation.html">Remediation Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/parks.html">TN State Parks Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/ust.html">UST Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/waste.html">Waste Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/water.html">Water Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/general.html">TDEC General Notices</a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/about-tdec.html">About
+                        <span role="button" tabindex="0" aria-label="About submenu" aria-expanded="false" aria-controls="dropdown-4" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="About submenu" aria-expanded="false" aria-controls="dropdown-4" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-4">
+                        <li><a href="/environment/about-tdec/communications.html">Communications</a></li>
+                    
+                        <li><a href="/environment/about-tdec/leadership.html">Leadership</a></li>
+                    
+                        <li><a href="/environment/about-tdec/stakeholder.html">Stakeholder Engagement</a></li>
+                    
+                        <li><a href="/environment/about-tdec/external-affairs.html">External Affairs</a></li>
+                    
+                        <li><a href="/environment/about-tdec/boards-and-commissions.html">Boards &amp; Commissions</a></li>
+                    
+                        <li><a href="/environment/about-tdec/financial-assurance.html">Financial Assurance</a></li>
+                    
+                        <li><a href="/environment/about-tdec/grants.html">Grants</a></li>
+                    
+                        <li><a href="/environment/about-tdec/policies.html">Department Policies</a></li>
+                    
+                        <li><a href="/environment/about-tdec/vendor-opportunities.html">Vendor Opportunities</a></li>
+                    
+                        <li><a href="/environment/about-tdec/employment-and-internships.html">Employment &amp; Internships</a></li>
+                    
+                        <li><a href="/environment/about-tdec/tdec-annual-reports.html">TDEC Annual Reports</a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/contacts.html">Contact
+                        <span role="button" tabindex="0" aria-label="Contact submenu" aria-expanded="false" aria-controls="dropdown-5" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="Contact submenu" aria-expanded="false" aria-controls="dropdown-5" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-5">
+                        <li><a href="/environment/contacts/field-offices.html">Field Offices</a></li>
+                    
+                        <li><a href="/environment/contacts/ask-tdec-questions.html">Ask TDEC Questions</a></li>
+                    
+                        <li><a href="/environment/contacts/public-records-request.html">Public Records Request</a></li>
+                    
+                        <li><a href="/environment/contacts/customer-service-survey.html">Customer Service Survey</a></li>
+                    
+                        <li><a href="/environment/contacts/language-assistance.html">Language Assistance</a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                
+                <li>
+                    <a href="/environment/calendar-of-events.html">Calendar of Events</a>
+                </li>
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/arp.html">American Rescue Plan (ARP)
+                        <span role="button" tabindex="0" aria-label="American Rescue Plan (ARP) submenu" aria-expanded="false" aria-controls="dropdown-7" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="American Rescue Plan (ARP) submenu" aria-expanded="false" aria-controls="dropdown-7" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-7">
+                        <li><a href="/environment/arp/arp-success-stories.html">Success Stories</a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                
+                <li>
+                    <a href="/environment/news.html">TDEC Newsroom</a>
+                </li>
+            </ul>
+            <div class="right primary-print">
+                <a href="javascript:window.print();" class="icon-print" aria-label="Print This Page">
+                    <span class="visually-hidden">Print This Page</span>
+                </a>
+            </div>
+            <div class="right secondary-print">
+                <a href="javascript:window.print();" class="icon-print" aria-label="Print This Page">
+                    <span class="visually-hidden">Print This Page</span>
+                </a>
+            </div>
+            <div class="right secondary-search">
+                <a class="icon-search" href="javascript:;">
+                    <span class="visually-hidden">Go to Search</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="config hidden" data-config='{&#34;closeMenuText&#34;:&#34;Close Menu&#34;,&#34;menuText&#34;:&#34;Section&#34;}'></div>
+</nav>
+</div>
+</header></div>
+            <section aria-label="Alerts">
+    
+        
+
+        
+            
+            <div class="tn-alerts">
+    
+    
+        
+    
+    
+    <div class="entity-alert text-center" role="status">
+        <a href="/environment.html">
+            <span class="icon-info"></span>
+            We are reorganizing pages for a better experience. We appreciate your patience!
+        </a>
+    </div>
+
+    
+    
+
+</div>
+
+        
+    
+</section>
+
+            
+        </noindex>
+
+        <div id="main" tabindex="-1" role="main">
+    <div class="row center-block leftnav-template">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div class="template-left-nav tn-leftnav">            
+                
+    <nav class="side expander" aria-label="Left Navigation">
+        <div class="border-red title">
+            <a href="/environment/program-areas/solid-waste.html">Waste Management Branch</a>
+        </div>
+
+        <ul class="block-list">
+            
+                <li class="active">
+                    <a href="/environment/program-areas/solid-waste/sw.html" class="title-link">Solid Waste Program</a>
+
+                    
+                        <button class="btn dropdown-toggle " type="button" data-bs-toggle="collapse" data-bs-target="#leftnav-collapse-0" aria-label="Solid Waste Program submenu navigation" aria-expanded="true" aria-controls="leftnav-collapse-0">
+                        </button>
+
+                        <ul class="collapse show" id="leftnav-collapse-0">
+                            <li>
+                                <a href="/environment/program-areas/solid-waste/sw/loct.html">Landfill Operators Certification Training (LOCT)</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/solid-waste/sw/eplex-landfill.html">Former Blaylock &amp; Brown Construction, Inc. Landfill</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/solid-waste/sw/permit-docs.html">Pending and Final Permit Documents for Review</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/solid-waste/sw/spils.html">Statewide Petroleum Incident Logging System (SPILS)</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/solid-waste/sw/engineering-rpt.html">Engineering Report</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/solid-waste/sw/wth.html">Waste Tire Hauler Program</a>
+                            </li>
+                        </ul>
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/solid-waste/hw.html" class="title-link">Hazardous Waste Management</a>
+
+                    
+                        <button class="btn dropdown-toggle collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#leftnav-collapse-1" aria-label="Hazardous Waste Management submenu navigation" aria-expanded="false" aria-controls="leftnav-collapse-1">
+                        </button>
+
+                        <ul class="collapse " id="leftnav-collapse-1">
+                            <li>
+                                <a href="/environment/program-areas/solid-waste/hw/universal-waste.html">Universal Waste</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/solid-waste/hw/healthcare-facility.html">Healthcare Facility Hazardous Waste</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/solid-waste/hw/medical-waste.html">Medical Waste</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/solid-waste/hw/waas.html">Waste Activity Audit Section</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/solid-waste/hw/rcra-corrective-action.html">RCRA Corrective Action</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/solid-waste/hw/hsm-recycling-legitimacy.html">HSM Recycling Legitimacy</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/solid-waste/hw/mercury-product-disposal-control-act.html">Mercury Product Disposal Control Act</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/solid-waste/hw/hw-legislative-reports.html">Hazardous Waste Legislative Reports</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/solid-waste/hw/hw-determination-matrix.html">Hazardous Waste Determination Matrix</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/solid-waste/hw/pending-permit-docs.html">Hazardous Waste Pending Permit Documents</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/solid-waste/hw/tsd-facilities.html">Treatment, Storage and Disposal (TSD) Facilities</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/solid-waste/hw/vape-disposal.html">Vape Disposal</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/solid-waste/hw/excel.html">Excel TSD of Tennessee, LLC (ETSD)</a>
+                            </li>
+                        </ul>
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/solid-waste/materials-management.html" class="title-link">Materials Management Program</a>
+
+                    
+                        <button class="btn dropdown-toggle collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#leftnav-collapse-2" aria-label="Materials Management Program submenu navigation" aria-expanded="false" aria-controls="leftnav-collapse-2">
+                        </button>
+
+                        <ul class="collapse " id="leftnav-collapse-2">
+                            <li>
+                                <a href="/environment/program-areas/solid-waste/materials-management/annual-progress-report.html">Annual Progress Report</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/solid-waste/materials-management/recovered-materials.html">Recovered Materials</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/solid-waste/materials-management/grants-administration.html">Grants Administration</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/solid-waste/materials-management/hhw-program.html">Household Hazardous Waste Program (HHW)</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/solid-waste/materials-management/waste-tire.html">Waste Tire Program</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/solid-waste/materials-management/organics.html">Organics</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/solid-waste/materials-management/2015-2025-swm-plan.html">2015-2025 Solid Waste Management Plan</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/solid-waste/materials-management/2025-2035-swm-plan.html">2025-2035 Solid Waste Management Plan </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/solid-waste/materials-management/disaster-debris-management.html">Debris Management</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/solid-waste/materials-management/bopae.html">Household Batteries, Oil, Paint, Antifreeze, and Electronics (BOPAE)</a>
+                            </li>
+                        </ul>
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/solid-waste/toxic-substances.html" class="title-link">Toxic Substances</a>
+
+                    
+                        <button class="btn dropdown-toggle collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#leftnav-collapse-3" aria-label="Toxic Substances submenu navigation" aria-expanded="false" aria-controls="leftnav-collapse-3">
+                        </button>
+
+                        <ul class="collapse " id="leftnav-collapse-3">
+                            <li>
+                                <a href="/environment/program-areas/solid-waste/toxic-substances/lead-hazard.html">Lead Hazard Reduction Program</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/solid-waste/toxic-substances/asbestos.html">Asbestos Program</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/solid-waste/toxic-substances/polychlorinated-biphenyls-program.html">Polychlorinated Biphenyls Program</a>
+                            </li>
+                        </ul>
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/solid-waste/regs.html" class="title-link">Waste Management Section Regulations, Rules, and Policies</a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/solid-waste/waste-permits.html" class="title-link">Waste Permits</a>
+
+                    
+                </li>
+            
+        </ul>
+    </nav>
+
+
+            </div>
+        </div>
+
+        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 content">
+            <article>
+                <div class="tn-pagetitle show" aria-hidden="false">
+    <h1>Solid Waste Program</h1>
+    
+
+</div>
+
+                <div>
+
+
+
+
+    
+    
+    <div class="tn-cta parbase">
+    <a href="/environment/program-areas/solid-waste.html" class="text-button icon-right-1" alt="Waste Management Branch Main Page">Waste Management Branch Main Page</a>
+
+
+</div>
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p>The Solid Waste Program ensures safe and sanitary management of solid waste in Tennessee by regulating solid waste disposal facilities, composting facilities, transfer stations, processing facilities, convenience centers, and other solid waste-related activities throughout the state. The Solid Waste Program operates under the authority of the Solid Waste Disposal Act (<span class="icon-link-ext"></span><a href="https://www.lexisnexis.com/hottopics/tncode/" target="_blank" rel="noopener noreferrer">T.C.A. §68-211-101 et seq.</a>).</p>
+<p>If you are an applicant or if you live in an area where a landfill or solid waste facility is being proposed or modified, you may find information on the project in the <span class="icon-link-ext"></span><a title="Link to Dataviewer" href="https://dataviewers.tdec.tn.gov/dataviewers/f?p&#61;19035:34001::::::" target="_blank" rel="noopener noreferrer">Dataviewer</a> or on our <span class="icon-link-ext"></span><a title="Link to Public Participation Opportunities" href="/content/tn/environment/ppo/waste.html">Public Participation Opportunities</a> page. To search for information in the Dataviewer, select the “Permit” tab. Additional instructions for refining your search are found at the top of the Dataviewer page.</p>
+
+    
+    
+
+</div>
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <h2>Permits, Registrations, and Approvals</h2>
+<p><a title="Link " href="/content/tn/environment/permits/waste/landfill-permit.html"><span class="icon-link-ext"></span>Landfill Permits</a></p>
+<p><a title="Link to Landfill Permit Modifications" href="/content/tn/environment/permits/waste/permit-modifications.html"><span class="icon-link-ext"></span>Landfill Permit Modifications</a></p>
+<p><a title="Link to Solid Waste Management Permit-By-Rule" href="/content/tn/environment/permits/waste/solid-waste-management-permit-by-rule.html"><span class="icon-link-ext"></span>Solid Waste Management Permit-By-Rule</a></p>
+<p><a title="Link to Notification for Recovered Materials Processing Facilities " href="/content/tn/environment/permits/waste/rmpf.html"><span class="icon-link-ext"></span>Notification for Recovered Materials Processing Facilities </a></p>
+<p><a title="Link to Special Waste Approval" href="/content/tn/environment/permits/waste/special-waste-approval.html"><span class="icon-link-ext"></span>Special Waste Approval</a></p>
+
+    
+    
+
+</div>
+
+
+    
+    
+    <div class="tn-horizontalrulev2 separator">
+<div id="tn-horizontalrulev2-72727c3053" class="cmp-separator">
+    <hr class="cmp-separator__horizontal-rule"/>
+</div></div>
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <h2>Illegal Dumping</h2>
+<p>Dumping of solid wastes without a permit is illegal under the Solid Waste Act, unless a private landowner is managing their own waste on their property. Often, illegal dumping cases go undetected unless they are reported by the public. If you see a solid waste dump, please contact your <span class="icon-link-ext"></span><a href="/content/tn/environment/contacts/field-offices.html" title="Environmental Field Offices">local Environmental Field Office</a> or your local public works or codes department if you live within an urban area.</p>
+<p>Litter and roadside dumping are addressed under the TN Litter Law and should be reported to local authorities or the Tennessee Highway Patrol- litter control program.</p>
+
+    
+    
+
+</div>
+
+
+    
+    
+    <div class="tn-horizontalrulev2 separator">
+<div id="tn-horizontalrulev2-fbac05722e" class="cmp-separator">
+    <hr class="cmp-separator__horizontal-rule"/>
+</div></div>
+
+
+    
+    
+    <div class="columnctrl tn-columnctrl colctrl"><div>
+    <div class="no-theme-chosen bgimg background-image-repeat" style="background-image: url();">
+        <div class="tn-col-ctrl container">
+            
+            <div class="row parsys_column tn-3cols">
+                
+                
+                    <div class="parsys_column column-1">
+                        <div>
+
+
+
+
+    
+    
+    <div role="group" class="tn-contenttile" aria-label="Content Tile Link">
+    <a href="/environment/program-areas/solid-waste/sw/loct.html" title="Landfill Operators Certification Training (LOCT)" aria-label="Landfill Operators Certification Training (LOCT)">
+        <div class="imagecube" style="background-image: url('/content/dam/tn/environment/remediation/images/tn/rem_empty-block.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg');" aria-label="Landfill Operators Certification Training (LOCT)">
+            <h3 class="title border-red">
+                Landfill Operators Certification Training (LOCT)
+            </h3>
+        </div>
+    </a>
+    <p>TDEC&#39;s Landfill Operator Certification Program for municipal/Class 1 landfill operators.<br />
+</p>
+
+    
+
+</div>
+
+
+</div>
+                    </div>
+                
+                    <div class="parsys_column column-2">
+                        <div>
+
+
+
+
+    
+    
+    <div role="group" class="tn-contenttile" aria-label="Content Tile Link">
+    <a href="/environment/program-areas/solid-waste/sw/eplex-landfill.html" title="Former Blaylock &amp; Brown Construction, Inc. Landfill" aria-label="Former Blaylock &amp; Brown Construction, Inc. Landfill">
+        <div class="imagecube" style="background-image: url('/content/dam/tn/environment/remediation/images/tn/rem_empty-block.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg');" aria-label="Former Blaylock &amp; Brown Construction, Inc. Landfill">
+            <h3 class="title border-red">
+                Former Blaylock &amp; Brown Construction, Inc. Landfill
+            </h3>
+        </div>
+    </a>
+    <p>TDEC took over operations at the former Blaylock and Brown (EPLEX) Class III Landfill in Shelby County.<br />
+</p>
+
+    
+
+</div>
+
+
+</div>
+                    </div>
+                
+                    <div class="parsys_column column-3">
+                        <div>
+
+
+
+
+    
+    
+    <div role="group" class="tn-contenttile" aria-label="Content Tile Link">
+    <a href="/environment/program-areas/solid-waste/sw/permit-docs.html" title="Pending and Final Permit Documents for Review" aria-label="Pending and Final Permit Documents for Review">
+        <div class="imagecube" style="background-image: url('/content/dam/tn/environment/remediation/images/tn/rem_empty-block.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg');" aria-label="Pending and Final Permit Documents for Review">
+            <h3 class="title border-red">
+                Pending and Final Permit Documents for Review
+            </h3>
+        </div>
+    </a>
+    <p>Pending and final permit documents for non-hazardous waste facilities.<br />
+</p>
+
+    
+
+</div>
+
+
+</div>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+    
+    
+    <div class="columnctrl tn-columnctrl colctrl"><div>
+    <div class="no-theme-chosen bgimg background-image-repeat" style="background-image: url();">
+        <div class="tn-col-ctrl container">
+            
+            <div class="row parsys_column tn-3cols">
+                
+                
+                    <div class="parsys_column column-1">
+                        <div>
+
+
+
+
+    
+    
+    <div role="group" class="tn-contenttile" aria-label="Content Tile Link">
+    <a href="/environment/program-areas/solid-waste/sw/spils.html" title="Statewide Petroleum Incident Logging System (SPILS)" aria-label="Statewide Petroleum Incident Logging System (SPILS)">
+        <div class="imagecube" style="background-image: url('/content/dam/tn/environment/remediation/images/tn/rem_empty-block.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg');" aria-label="Statewide Petroleum Incident Logging System (SPILS)">
+            <h3 class="title border-red">
+                Statewide Petroleum Incident Logging System (SPILS)
+            </h3>
+        </div>
+    </a>
+    <p>TDEC&#39;s SPILS program tracks incidents where petroleum products are released along our roads.<br />
+</p>
+
+    
+
+</div>
+
+
+</div>
+                    </div>
+                
+                    <div class="parsys_column column-2">
+                        <div>
+
+
+
+
+    
+    
+    <div role="group" class="tn-contenttile" aria-label="Content Tile Link">
+    <a href="/environment/program-areas/solid-waste/sw/wth.html" title="Waste Tire Hauler Program" aria-label="Waste Tire Hauler Program">
+        <div class="imagecube" style="background-image: url('/content/dam/tn/environment/remediation/images/tn/rem_empty-block.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg');" aria-label="Waste Tire Hauler Program">
+            <h3 class="title border-red">
+                Waste Tire Hauler Program
+            </h3>
+        </div>
+    </a>
+    <p>The Waste Tire Hauler (WTH) Program requires anyone that commercially hauls waste tires to register with TDEC and comply with tracking and reporting requirements.</p>
+
+    
+
+</div>
+
+
+</div>
+                    </div>
+                
+                    <div class="parsys_column column-3">
+                        <div>
+
+
+
+
+    
+    
+    <div role="group" class="tn-contenttile" aria-label="Content Tile Link">
+    <a href="/content/tn/environment/permits/waste/redirect---solid-waste-regulations" target="_blank">
+        <div class="imagecube" style="background-image: url('/content/dam/tn/environment/remediation/images/tn/rem_empty-block.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg');">
+            <h3 class="title border-red">
+                
+            </h3>
+        </div>
+    </a>
+    <p>The solid waste regulations are viewable on the Secretary of State&#39;s website.</p>
+
+    
+
+</div>
+
+
+</div>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+    
+    
+    <div class="columnctrl tn-columnctrl colctrl"><div>
+    <div class=" bgimg background-image-repeat" style="background-image: url();">
+        <div class="tn-col-ctrl container">
+            
+            <div class="row parsys_column tn-2cols">
+                
+                
+                    <div class="parsys_column column-1">
+                        <div>
+
+
+
+
+    
+    
+    <div class="tn-simpletable parbase"><table width="100%" cellspacing="0" cellpadding="1" border="0"><tbody><tr><th><strong>Contact</strong></th></tr><tr><td><strong>Solid Waste Program</strong><br />
+Front Desk<br />
+615-532-0780<br />
+<a title="Email Solid Waste" href="https://web.archive.org/web/20250901235814/mailto:Solid.Waste&#64;tn.gov"><span class="icon-mail"></span>Solid.Waste&#64;tn.gov</a><br />
+</td></tr></tbody></table>
+
+</div>
+
+
+</div>
+                    </div>
+                
+                    <div class="parsys_column column-2">
+                        <div>
+
+
+
+
+    
+    
+    <div class="tn-relatedcontent"><div class="panel">
+    <div class="title">Related Links</div>
+    <ul class="block-list">
+        
+            <li>
+                <a href="/tdot/local-programs-community-investments/community-investments-office/highway-beautification-office.html">Highway Beautification Office</a>
+            </li>
+        
+        
+            <li>
+                <a href="https://nobodytrashestennessee.com/" target="_blank">Nobody Trashes Tennessee</a>
+            </li>
+        
+    </ul>
+</div>
+</div>
+
+
+</div>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+</div>
+
+                <div class="tn-lastupdated">
+    <div role="region" aria-label="Page Last Updated Section">
+        <p class="text-right"><span class="fst-italic">This Page Last Updated: September 23, 2026 at 11:13 AM</span></p>
+    </div>
+</div>
+            </article>
+        </div>
+    </div>
+</div>
+
+        <div class="tn-backtotop"><a href="#header-logo" class="page-top icon-up" aria-label="Go back to the top of the page"></a></div>
+
+        
+
+        
+
+        <noindex>
+            <div>
+    <div>
+
+
+
+
+    
+        
+        
+        <div class="newpar new section">
+
+</div>
+
+    
+        
+        
+        <div class="par iparys_inherited">
+
+    
+    
+    
+    
+
+</div>
+
+    
+
+</div>
+    <footer>
+        <div>
+
+
+
+
+    
+        
+        
+        <div class="newpar new section">
+
+</div>
+
+    
+        
+        
+        <div class="par iparys_inherited">
+
+    
+    
+    
+    
+        
+        
+        <div class="tn-socialmediafooter"><div class="tn-socialmediabarfooter" role="navigation" aria-label="Social Media Links">
+    <div class="social">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 columns">
+                <ul class="inline-list">
+                    <li>
+                        <div class="title">Social Media</div>
+                    </li>
+                    
+                        
+                            <li><a href="https://www.facebook.com/TNEnvironment" class="icon-facebook" target="_blank"><span>facebook</span></a></li>
+                        
+                    
+                        
+                    
+                        
+                            <li><a href="https://www.youtube.com/user/TNEnvironment" class="icon-youtube" target="_blank"><span>youtube</span></a></li>
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                            <li><a href="https://www.linkedin.com/company/tennessee-department-of-environment-and-conservation/" class="icon-linkedin" target="_blank"><span>linkedin</span></a></li>
+                        
+                    
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</div></div>
+
+    
+        
+        
+        <div class="secondaryfooter tn-secondaryfooter"><section id="agency-footer">
+    <div class="row">
+        
+            <div class="col-md-15 col-sm-15 columns">
+                <div class="title border-darkblue" id="agency-footer-col-0">
+                    Programs
+                </div>
+                <button data-bs-toggle="collapse" data-bs-target="#footer-list-0" class="menu-expand-anchor" type="button" aria-expanded="false" aria-controls="collapseExample" aria-label="Programs Submenu">
+                    <span class="icon-angle-down menu-expand"></span>
+                </button>
+                <ul class="block-list" aria-labelledby="agency-footer-col-0" id="footer-list-0">
+                   <li>
+                       <a href="/environment/air.html" aria-label="Air" title="Air">Air</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/stewardship.html" aria-label="Environmental Stewardship" title="Environmental Stewardship">Environmental Stewardship</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/program-areas/solid-waste.html" aria-label="Solid Waste" title="Solid Waste">Solid Waste</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/ust.html" aria-label="Underground Storage Tanks" title="Underground Storage Tanks">Underground Storage Tanks</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/program-areas/wr-water-resources.html" aria-label="Water" title="Water">Water</a>
+                   </li>
+                </ul>
+            </div>
+        
+            <div class="col-md-15 col-sm-15 columns">
+                <div class="title border-darkblue" id="agency-footer-col-1">
+                    Resources
+                </div>
+                <button data-bs-toggle="collapse" data-bs-target="#footer-list-1" class="menu-expand-anchor" type="button" aria-expanded="false" aria-controls="collapseExample" aria-label="Resources Submenu">
+                    <span class="icon-angle-down menu-expand"></span>
+                </button>
+                <ul class="block-list" aria-labelledby="agency-footer-col-1" id="footer-list-1">
+                   <li>
+                       <a href="/environment/accessibility.html" target="_blank" aria-label="Accessibility" title="Accessibility">Accessibility</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/about-tdec/tdec-dataviewers.html" aria-label="Dataviewers" title="Dataviewers">Dataviewers</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/about-tdec/employment-and-internships.html" aria-label="Employment and Internships" title="Employment and Internships">Employment and Internships</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/about-tdec/enforcement-orders.html" aria-label="Enforcement Orders" title="Enforcement Orders">Enforcement Orders</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/about-tdec/grants.html" aria-label="Grants" title="Grants">Grants</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/nondiscrimination.html" aria-label="Non-Discrimination" title="Non-Discrimination">Non-Discrimination</a>
+                   </li>
+                </ul>
+            </div>
+        
+            <div class="col-md-15 col-sm-15 columns">
+                <div class="title border-darkblue" id="agency-footer-col-2">
+                    Featured Links
+                </div>
+                <button data-bs-toggle="collapse" data-bs-target="#footer-list-2" class="menu-expand-anchor" type="button" aria-expanded="false" aria-controls="collapseExample" aria-label="Featured Links Submenu">
+                    <span class="icon-angle-down menu-expand"></span>
+                </button>
+                <ul class="block-list" aria-labelledby="agency-footer-col-2" id="footer-list-2">
+                   <li>
+                       <a href="/environment/about-tdec/tdec-annual-reports.html" aria-label="TDEC Annual Reports" title="TDEC Annual Reports">TDEC Annual Reports</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/contacts/field-offices.html" aria-label="Field Offices" title="Field Offices">Field Offices</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/natural-areas.html" aria-label="Natural Areas" title="Natural Areas">Natural Areas</a>
+                   </li>
+                
+                   <li>
+                       <a href="https://tnstateparks.com/" target="_blank" aria-label="State Parks" title="State Parks">State Parks</a>
+                   </li>
+                
+                   <li>
+                       <a href="https://tnstateparks.com/conservationist" target="_blank" aria-label="The Tennessee Conservationist" title="The Tennessee Conservationist">The Tennessee Conservationist</a>
+                   </li>
+                </ul>
+            </div>
+        
+            <div class="col-md-15 col-sm-15 columns">
+                <div class="title border-darkblue" id="agency-footer-col-3">
+                    Partner Links
+                </div>
+                <button data-bs-toggle="collapse" data-bs-target="#footer-list-3" class="menu-expand-anchor" type="button" aria-expanded="false" aria-controls="collapseExample" aria-label="Partner Links Submenu">
+                    <span class="icon-angle-down menu-expand"></span>
+                </button>
+                <ul class="block-list" aria-labelledby="agency-footer-col-3" id="footer-list-3">
+                   <li>
+                       <a href="/historicalcommission.html" target="_blank" aria-label="TN Historical Commission" title="TN Historical Commission">TN Historical Commission</a>
+                   </li>
+                
+                   <li>
+                       <a href="https://www.tnvacation.com/green" target="_blank" aria-label="Sustainable Tourism" title="Sustainable Tourism">Sustainable Tourism</a>
+                   </li>
+                
+                   <li>
+                       <a href="https://www.collegefortn.org/tnpromise/" target="_blank" aria-label="TN Promise" title="TN Promise">TN Promise</a>
+                   </li>
+                
+                   <li>
+                       <a href="https://www.epa.gov/" target="_blank" aria-label="U.S. EPA" title="U.S. EPA">U.S. EPA</a>
+                   </li>
+                </ul>
+            </div>
+        
+        
+        <div class="col-md-15 col-sm-15 columns last">
+            <div class="contact">
+                
+                    <strong>
+                        Department of Environment &amp; Conservation<br/>
+                    </strong>
+                    
+                        David W. Salyers, P.E., P.G.<br/>
+                    
+                    <br/>
+                
+                
+                    <address>
+                        Davy Crockett Tower<br/>
+                        500 James Robertson Parkway<br/>
+                        Nashville, TN 37243<br/>
+
+                        (888) 891-TDEC (8332)<br/>
+                        
+                        
+                    </address>
+                
+                
+                    <a href="/environment/contacts/ask-tdec-questions.html" aria-label="Email Questions to TDEC" title="Email Questions to TDEC">
+                        Email Questions to TDEC
+                    </a>
+                
+            </div>
+            <div>
+                
+                    
+                    
+
+                    <img src="/etc/clientlibs/tncore/main/img/tn-seal.png" alt=""/>
+                
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+
+    
+
+</div>
+
+    
+
+</div>
+        <div>
+
+
+
+
+    
+        
+        
+        <div class="newpar new section">
+
+</div>
+
+    
+        
+        
+        <div class="par iparys_inherited">
+
+    
+    
+    
+    
+        
+        
+        <div class="tn-footer parbase"> <section id="footer">
+    <div id="footer-top">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 columns">
+                <ul class="inline-list">
+                    <li>
+                        <a href="/about-tn/flag-status.html" class="icon-flag" data-resource-path="/_jcr_content/footer/tn_footer" aria-label="Flag Status" title="Flag Status">Flag Status
+                        </a>
+                    </li>
+
+                    <li id="footer-livechat" class="offline">
+                        <a href="#" class="icon-chat" onclick="openFooterChat()" aria-label="Open Chat" title="Open Chat">
+                            Chat
+                        </a>
+
+                        <div class="livechat">
+                            <script>
+                                function openFooterChat() {
+                                    window.open(
+                                        "https://help.tn.gov/sn_customerservice_tn_chat_selector.do",
+                                        "popup",
+                                        "width=900, height=600"
+                                    );
+                                };
+                            </script>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 columns text-right">
+                <ul class="inline-list">
+                    <li>
+                        <a href="/help.html" class="icon-help-circled" aria-label="Help" title="Help">
+                            Help
+                        </a>
+                    </li>
+
+                    <li id="footer-translate">
+                        <a href="#" aria-label="Translate" aria-controls="#translate-box" aria-expanded="false" title="Translate" class="icon-book">
+                            Translate
+                        </a>
+                        <div class="drop right" id="translate-box">
+                            <div class="box">
+                                <div id="google_translate_element"></div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li id="footer-fontsize">
+                        <a href="#" aria-label="Font Size" aria-controls="#font-size-box" aria-expanded="false" title="Font Size" class="icon-font">
+                            Font Size
+                        </a>
+
+                        <div class="drop right" id="font-size-box">
+                            <div class="box">
+                                <ul class="inline-list">
+                                    <li>
+                                        <button class="button" aria-label="Decrease font size" aria-current="false" data-font-size="small">a-</button>
+                                    </li>
+                                    <li>
+                                        <button class="button active" aria-label="Reset font size" aria-current="true" data-font-size="normal">Normal</button>
+                                    </li>
+                                    <li>
+                                        <button class="button" aria-label="Increase font size" aria-current="false" data-font-size="large">A+</button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <span class="starball">
+            <img src="/etc/clientlibs/tncore/main/img/footer-starball.png" alt="" width="100%"/>
+        </span>
+    </div>
+
+    <div id="footer-bottom">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 columns">
+                <ul class="inline-list">
+                    <li>
+                         <a href="https://www.tn.gov/state-services.html" class="first" aria-label="TN.gov Services" title="TN.gov Services">
+                             TN.gov Services
+                         </a>
+                    
+                         <a href="https://www.tn.gov/directory.html" aria-label="TN.gov Directory" title="TN.gov Directory">
+                             TN.gov Directory
+                         </a>
+                    
+                         <a href="https://www.tn.gov/transparenttn.html" aria-label="Transparent TN" title="Transparent TN">
+                             Transparent TN
+                         </a>
+                    
+                         <a href="https://www.tn.gov/web-policies/privacy-statement.html" aria-label="Web Policies" title="Web Policies">
+                             Web Policies
+                         </a>
+                    
+                         <a href="https://www.tn.gov/mytn.html" aria-label="Mobile App" title="Mobile App">
+                             Mobile App
+                         </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 columns text-right">
+                <ul class="inline-list">
+                    <li>
+                        <a href="https://www.tn.gov/about-tn/state-symbols.html" aria-label="About Tennessee" title="About Tennessee">
+                            About Tennessee
+                        </a>
+                    
+                        <a href="https://www.tn.gov/hr/title-vi/title-vi-disclaimer.html" target="_blank" aria-label="Title VI" title="Title VI">
+                            Title VI
+                        </a>
+                    
+                        <a href="https://www.tn.gov/web-policies/accessibility.html" aria-label="Accessibility" title="Accessibility">
+                            Accessibility
+                        </a>
+                    
+                        <a href="https://www.tn.gov/help.html" aria-label="Help &amp; Contact" title="Help &amp; Contact">
+                            Help &amp; Contact
+                        </a>
+                    
+                        <a href="https://www.tn.gov/survey.html" aria-label="Survey" title="Survey">
+                            Survey
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="modal-footer"></div>
+</div>
+
+    
+        
+        
+        <div class="tn-freestyledialog">
+    <script>!function(s,a,e,v,n,t,z){if(s.saq)return;n=s.saq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!s._saq)s._saq=n;n.push=n;n.loaded=!0;n.version='1.0';n.queue=[];t=a.createElement(e);t.async=!0;t.src=v;z=a.getElementsByTagName(e)[0];z.parentNode.insertBefore(t,z)}(window,document,'script','https://tags.srv.stackadapt.com/events.js');saq('ts', '4xBwuaJ6r7lc5Mwk742YVA');</script>
+
+
+
+<!--BEGIN QUALTRICS WEBSITE FEEDBACK SNIPPET-->
+
+<script type='text/javascript'>
+
+(function(){var g=function(g){
+
+this.go=function(){var a=document.createElement("script");a.type="text/javascript";a.src=g;document.body&&document.body.appendChild(a)};
+
+this.start=function(){var t=this;"complete"!==document.readyState?window.addEventListener?window.addEventListener("load",function(){t.go()},!1):window.attachEvent&&window.attachEvent("onload",function(){t.go()}):t.go()};};
+
+try{(new g("https://znwbewebwkp6zwxpl-tngov.gov1.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_WBewebwKP6ZwxpL")).start()}catch(i){}})();
+
+</script><div id='ZN_WBewebwKP6ZwxpL'><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div>
+
+<!--END WEBSITE FEEDBACK SNIPPET-->
+
+</div>
+
+    
+
+</div>
+
+    
+
+</div>
+    </footer>
+
+</div>
+            
+
+    
+<script src="/etc/clientlibs/tncore/main.min.5f18b486157a56c1f7aa6b7a8f0feef8.js"></script>
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+        </noindex>
+
+        <div id="overlay"></div>
+
+<!-- Begin Dynamic Modal for Videos -->
+<div class="tn-videoModal modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <a href="#" data-bs-dismiss="modal" class="close-video icon-cancel text-button">Close</a>
+                <div class="videoWrapper">
+                    <iframe title="Video"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Dynamic Modal for Videos -->
+
+    </body>
+</html>
