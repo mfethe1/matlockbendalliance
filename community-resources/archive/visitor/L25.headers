@@ -1,0 +1,15 @@
+HTTP/2 200 
+content-type: text/html; charset=UTF-8
+date: Mon, 05 Oct 2026 17:38:06 GMT
+expires: Mon, 05 Oct 2026 17:38:11 GMT
+strict-transport-security: max-age=63072000; includeSubDomains
+server: nginx
+p3p: CP="CURa ADMa DEVa PSAo PSDo OUR BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
+set-cookie: PHPSESSID=f1d1b2b0b50e58a0e67a20f0047ce1eb; path=/forms/; secure; HttpOnly
+cache-control: public, max-age=5
+cache-control: public
+x-cache: Miss from cloudfront
+via: 1.1 f3ddd213646d09b117984d7e06c63a24.cloudfront.net (CloudFront)
+x-amz-cf-pop: ATL59-P18
+x-amz-cf-id: SrsKo8ewjry8GQCJbyPruQP3Msehz2Vf6Y3nAiUjkwR1ks6zHnIbIA==
+

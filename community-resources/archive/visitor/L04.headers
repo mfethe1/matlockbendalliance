@@ -1,0 +1,71 @@
+HTTP/2 301 
+date: Mon, 05 Oct 2026 17:35:08 GMT
+content-type: text/html; charset=UTF-8
+location: https://loudoncounty-tn.gov/public-records-requests/
+cf-ray: a45e2e5c2d696b96-ATL
+cf-cache-status: DYNAMIC
+cache-control: public, max-age=0, s-maxage=900
+server: cloudflare
+strict-transport-security: max-age=63072000
+cache-tag: 097dbf65-41d0-47b1-9ea5-522a6ad62398,b274bf63463d3759b9f8749e2c210c121049a59660f3c093ced6fd4c85a6ea94
+ki-cf-cache-status: SAVING
+x-edge-location-klb: 1
+access-control-allow-headers: Content-Type, Authorization
+access-control-allow-methods: GET,POST
+content-security-policy: upgrade-insecure-requests;
+cross-origin-opener-policy: unsafe-none
+cross-origin-resource-policy: cross-origin
+ki-cache-tag: 097dbf65-41d0-47b1-9ea5-522a6ad62398,b274bf63463d3759b9f8749e2c210c121049a59660f3c093ced6fd4c85a6ea94
+ki-cache-type: None
+ki-edge: v=28.5.0;mv=99.9.9
+ki-origin: g1p
+no-vary-search: params=("PageSpeed")
+permissions-policy: accelerometer=(), autoplay=(), camera=(), cross-origin-isolated=(), display-capture=(self), encrypted-media=(), fullscreen=*, geolocation=(self), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=*, picture-in-picture=*, publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=*, usb=(), xr-spatial-tracking=(), gamepad=(), serial=()
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-kinsta-cache: HIT
+x-permitted-cross-domain-policies: none
+x-redirect-by: WordPress
+set-cookie: __cf_bm=Yu_kWL_Mb4vEFRwDLxgEAzuYXA4eAPf9UWjbPQtZ7RE-1791221708.181301-1.0.1.1-l1upMAyY9nJMYvTWn7t6kRZiGF1jwPj2RgqLdq3DC8c7XVxpM01yLTPWRoT0GlPdKVPrSoz4ApHnPHF.A3MHdDsHckUD0CX8AheuKBvAJSShajZ8w9gVjgY_7g5Fgt40; HttpOnly; SameSite=None; Secure; Path=/; Domain=loudoncounty-tn.gov; Expires=Mon, 05 Oct 2026 18:05:08 GMT
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=pPIupZbvHZjfjMX4tBX3qSVuSqthzmi8O2R9kIlejkw0Oj7hV%2Fj8ojrwbgYKFSpAq8vOtcmSxEf8v21%2B7hJm1oDYNuBH%2BVcSpajWzwsRE6n1880KiuCtEsTOrOPLBIzz0JjlG%2Fk%3D"}]}
+nel: {"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}
+alt-svc: h3=":443"; ma=86400
+
+HTTP/2 200 
+date: Mon, 05 Oct 2026 17:35:08 GMT
+content-type: text/html; charset=UTF-8
+cf-ray: a45e2e5d28fa6b96-ATL
+cf-cache-status: DYNAMIC
+cache-control: public, max-age=0, s-maxage=86400
+nel: {"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}
+link: <https://loudoncounty-tn.gov/wp-json/>; rel="https://api.w.org/", <https://loudoncounty-tn.gov/wp-json/wp/v2/pages/2185>; rel="alternate"; title="JSON"; type="application/json", <https://loudoncounty-tn.gov/?p=2185>; rel=shortlink
+server: cloudflare
+strict-transport-security: max-age=63072000
+vary: Accept-Encoding
+cache-tag: 097dbf65-41d0-47b1-9ea5-522a6ad62398,80c06595cb578d5b66a5a3d805d0e1eb379fc5d78d609e90bc3e100cbc4b7f63
+ki-cf-cache-status: SAVING
+x-edge-location-klb: 1
+access-control-allow-headers: Content-Type, Authorization
+access-control-allow-methods: GET,POST
+content-security-policy: upgrade-insecure-requests;
+cross-origin-opener-policy: unsafe-none
+cross-origin-resource-policy: cross-origin
+ki-cache-tag: 097dbf65-41d0-47b1-9ea5-522a6ad62398,80c06595cb578d5b66a5a3d805d0e1eb379fc5d78d609e90bc3e100cbc4b7f63
+ki-cache-type: None
+ki-edge: v=28.5.0;mv=99.9.9
+ki-origin: g1p
+no-vary-search: params=("PageSpeed")
+permissions-policy: accelerometer=(), autoplay=(), camera=(), cross-origin-isolated=(), display-capture=(self), encrypted-media=(), fullscreen=*, geolocation=(self), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=*, picture-in-picture=*, publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=*, usb=(), xr-spatial-tracking=(), gamepad=(), serial=()
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-kinsta-cache: HIT
+x-permitted-cross-domain-policies: none
+x-tec-api-origin: https://loudoncounty-tn.gov
+x-tec-api-root: https://loudoncounty-tn.gov/wp-json/tribe/events/v1/
+x-tec-api-version: v1
+set-cookie: __cf_bm=J.yajOovnZFva4aVkG_o3E_9kSZqKY7YHeDeWYcXRTY-1791221708.3482518-1.0.1.1-EH2pUCVH6Y8Ss3BBIyI4zqsS8vI_bhbiXAElbvUvxKk2F9wqaLDITNrfpZi4E22YiX7Srlqev_tjk96pjBwosToWpoqBsWXdSRCYp1k.tHKN2rIGwkqEjbc9cmIewmru; HttpOnly; SameSite=None; Secure; Path=/; Domain=loudoncounty-tn.gov; Expires=Mon, 05 Oct 2026 18:05:08 GMT
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=GOfQsrv3Smpe8adM13R0oFoagr5YZ5OFXs0UozdJW%2FMtvAQHrEkIRTuHyG8T5JHzqRYMuQIYiDU%2FFKhDud3o%2FbLStItg4%2BE4DbEUlj3eQAWtP%2BFD0xvPK5pMUJzVJlcNggjWqBg%3D"}]}
+alt-svc: h3=":443"; ma=86400
+

@@ -1,0 +1,2338 @@
+<!doctype html>
+<html class="no-js tn-html" lang="en">
+    <head>
+        <title>Tennessee Household Hazardous Waste Program (HHW)</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        
+        
+            <meta name="description" content="Program information page for Tennessee Household Hazardous Waste collection."/>
+        
+        
+            <meta name="url" content="https://www.tn.gov/environment/program-areas/solid-waste/materials-management/hhw-program.html"/>
+        
+        
+            <meta name="lastModified" content="22 Sep 2026 12:30:40 CDT"/>
+        
+        
+        
+            <meta name="pageDepartment" content="environment"/>
+        
+        
+            <meta name="pageDivision" content="program-areas"/>
+        
+        
+        
+        
+        
+            <meta name="pagePath" content="/content/tn/environment/program-areas/solid-waste/materials-management/hhw-program"/>
+        
+        
+
+        
+
+        
+            <meta property="og:title" content="Tennessee Household Hazardous Waste Program (HHW)"/>
+        
+        
+            <meta property="og:description" content="Program information page for Tennessee Household Hazardous Waste collection."/>
+        
+        
+            <meta property="og:url" content="https://www.tn.gov/environment/program-areas/solid-waste/materials-management/hhw-program.html"/>
+        
+        
+
+            <meta name="twitter:card" content="summary_large_image"/>
+        
+            <meta name="twitter:title" content="Tennessee Household Hazardous Waste Program (HHW)"/>
+        
+        
+            <meta name="twitter:description" content="Program information page for Tennessee Household Hazardous Waste collection."/>
+        
+        
+            <meta name="twitter:url" content="https://www.tn.gov/environment/program-areas/solid-waste/materials-management/hhw-program.html"/>
+        
+        
+
+        
+
+        <link rel="shortcut icon" href="/etc/clientlibs/tncore/main/img/favicon.ico"/>
+
+        <link rel="canonical" href="https://www.tn.gov/environment/program-areas/solid-waste/materials-management/hhw-program.html"/>
+
+        <!-- DTM Analytics Datalayer -->
+
+        <script>
+
+
+            var digitalData = {
+                page: {
+                    pageInfo: {
+                        pageName: "environment:program-areas:solid-waste:materials-management:hhw-program",
+                        securePage: "false",
+                        sysEnv: "Desktop",
+                        deptName: "environment",
+                        siteSection: "program-areas",
+                        siteSubSection: "solid-waste",
+                        pageType:"",
+                        rsidValue: "oirtn"
+
+                    }
+                }
+            };
+        </script>
+
+        <script src="//assets.adobedtm.com/f213d7ed4603/b5fbb0638724/launch-5b3fa8e23e9e.min.js" async></script>
+
+        
+        
+    
+<link rel="stylesheet" href="/etc/clientlibs/tncore/main.min.f53b1cb66edbbb1f9264be1e283b69a9.css" type="text/css">
+
+
+
+        
+            
+    
+<link rel="stylesheet" href="/etc/clientlibs/tn-sites/tngov.min.a18e62a3f815b11550a3feee90159096.css" type="text/css">
+
+
+
+        
+
+        
+
+        
+
+
+
+
+
+
+
+
+        
+
+        
+    </head>
+    <body class="tngov  " data-selectors='[]' data-template="leftNav">
+        <a class="visually-hidden-focusable skip-to-main" href="#main">Skip to Main Content</a>
+
+        <noindex>
+            <div>
+
+    
+
+</div>
+            <div><header id="header">
+	
+		<div>
+
+
+
+
+    
+        
+        
+        <div class="newpar new section">
+
+</div>
+
+    
+        
+        
+        <div class="par iparys_inherited">
+
+    
+    
+    
+    
+        
+        
+        <div class="tn-headercoveo">
+    <div class="container">
+        <div class="row center-block top-nav">
+            <div class="col-auto me-auto">
+                <a class="logo" id="header-logo" href="https://www.tn.gov/" data-logo="state-government" style="background-image: url('/etc/clientlibs/tncore/main/img/logos/tn-logo.png')" aria-label="View home page">
+                </a>
+            </div>
+            <div class="col-auto">
+                <a class="search-all icon-home-1 text-right" href="https://www.tn.gov/">Go to TN.gov</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row center-block agency">
+        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 columns title">
+            <a href="https://www.tn.gov/environment.html">
+                <img src="/content/dam/headers/environment.png" alt="Tennessee State Government, Environment and Conservation logo" id="entity-name" data-pin-nopin="true"/>
+            </a>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 columns text-right">
+            <div class="tn-headersearchcoveo">
+
+<div>
+
+<script type="module" src="https://static.cloud.coveo.com/atomic/v2.42/atomic.esm.js">
+</script>
+<script type="module">
+
+import {loadContextActions, buildTab} from 'https://static.cloud.coveo.com/atomic/v2.42/headless/headless.esm.js';
+
+(async () => {
+
+    const searchHubStripped = "TNGov".trim();
+    const context = {};
+    context.userdiv = "";
+    context.userdept = "environment";
+
+    await customElements.whenDefined('atomic-search-interface');
+    const searchInterface = document.querySelector('#searchbox');
+    searchInterface.setAttribute('search-hub', searchHubStripped);
+
+    //Adding for Context to be used for Query Suggestions
+    const preProcessQuerySuggestionsRequest = (request) => {
+        if (context.userdiv) {
+            const body = JSON.parse(request.body);
+            body.mlParameters = {
+                filters: {
+                    c_context_userdept: context.userdept,
+                    c_context_userdiv: context.userdiv
+                }
+            };
+            request.body = JSON.stringify(body);
+        } else if (context.userdept) {
+            const body = JSON.parse(request.body);
+            body.mlParameters = {
+                filters: {
+                    c_context_userdept: context.userdept
+                }
+            };
+            request.body = JSON.stringify(body);
+        }
+        return request;
+    };
+
+    const orgId = "tennesseestategovernmentproduction6po4m5b2".trim();
+
+    await searchInterface.initialize({
+        accessToken: "eyJhbGciOiJIUzI1NiJ9.eyJzZWFyY2hIdWIiOiJUTkdvdiIsInY4Ijp0cnVlLCJ0b2tlbklkIjoidDVsM3p4bXRkMnZ0b2F2ZGtkYmhjYXNseGUiLCJvcmdhbml6YXRpb24iOiJ0ZW5uZXNzZWVzdGF0ZWdvdmVybm1lbnRwcm9kdWN0aW9uNnBvNG01YjIiLCJ1c2VySWRzIjpbeyJ0eXBlIjoiVXNlciIsIm5hbWUiOiJhbm9ueW1vdXNfdXNlckBhbm9ueW1vdXMuY292ZW8uY29tIiwicHJvdmlkZXIiOiJFbWFpbCBTZWN1cml0eSBQcm92aWRlciJ9XSwicm9sZXMiOlsicXVlcnlFeGVjdXRvciJdLCJpc3MiOiJTZWFyY2hBcGkiLCJleHAiOjE3OTEyOTY1NjUsImlhdCI6MTc5MTIxMDE2NX0.ZC4xvxP67pXpiGe30xTExQxUmTrKKZNHwUs9FHtfPlw".trim(),
+        organizationId: orgId,
+        organizationEndpoints: await searchInterface.getOrganizationEndpoints(orgId),
+        renewAccessToken: function() {
+            location.reload();
+        },
+        preprocessRequest: (request) => {
+            if (request.url.indexOf('querySuggest') >= 0) {
+                return preProcessQuerySuggestionsRequest(request);
+            }
+            return request;
+        }
+    });
+
+    searchInterface.i18n.addResourceBundle('en', 'translation', {
+        search: "Search Environment".trim(),
+    });
+
+    const engine = searchInterface.engine;
+    engine.dispatch(loadContextActions(engine).setContext(context));
+})();
+</script>
+
+<atomic-search-interface id="searchbox">
+  <atomic-search-box clear-filters="false" redirection-url="/environment/search-results.html" .trim()>
+
+    <atomic-search-box-recent-queries max-with-query="0" max-without-query="4">
+    </atomic-search-box-recent-queries>
+
+    <atomic-search-box-query-suggestions>
+    </atomic-search-box-query-suggestions>
+
+  </atomic-search-box>
+</atomic-search-interface>
+</div>
+
+</div>
+        </div>
+    </div>
+
+    <div class="backdrop" style="background-image:url(/content/dam/headers/test.jpg)"></div>
+    
+
+</div>
+
+    
+
+</div>
+
+    
+
+</div>
+	
+
+	<div class="tn-topnav" aria-label="Navigation Menu"><nav id="nav" role="navigation" aria-label="Main">
+    <div class="row center-block">
+        <div class="col-lg-12">
+            <div class="logo-small tn-logo">
+                <a href="https://www.tn.gov/" aria-label="Go to TN.gov" class="focus-visible-style">
+                    <span class="visually-hidden">Go to TN.gov</span>
+                </a>
+            </div>
+
+            <div class="mobile-show icon-menu mobile-menu focus-visible-style" role="button" tabindex="0" aria-label="Open navigation menu">
+                Section
+            </div>
+            <ul class="inline-list nav-items">
+                <li>
+                    <a href="https://www.tn.gov/environment.html" class="icon-home" aria-label="Go to TN.gov">
+                        <span class="visually-hidden">Go to Environment &amp; Conservation (TDEC)</span>
+                    </a>
+                </li>
+                
+                
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/program-areas.html">Program Areas
+                        <span role="button" tabindex="0" aria-label="Program Areas submenu" aria-expanded="false" aria-controls="dropdown-1" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="Program Areas submenu" aria-expanded="false" aria-controls="dropdown-1" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-1">
+                        <li><a href="/environment/program-areas/recycling-markets.html">Recycling Markets</a></li>
+                    
+                        <li><a href="/environment/program-areas/air-pollution-control.html">Air</a></li>
+                    
+                        <li><a href="/environment/program-areas/archaeology.html">Archaeology</a></li>
+                    
+                        <li><a href="/environment/program-areas/conservation.html">Bureau of Conservation</a></li>
+                    
+                        <li><a href="/environment/program-areas/energy.html">Energy</a></li>
+                    
+                        <li><a href="/environment/program-areas/stewardship.html">Environmental Stewardship</a></li>
+                    
+                        <li><a href="/environment/program-areas/geology.html">Tennessee Geological Survey</a></li>
+                    
+                        <li><a href="/environment/program-areas/mineral-geologic-resources.html">Mineral &amp; Geologic Resources</a></li>
+                    
+                        <li><a href="/environment/program-areas/na-natural-areas.html">Natural Areas</a></li>
+                    
+                        <li><a href="/environment/program-areas/outdoor-recreation.html">Outdoor Recreation</a></li>
+                    
+                        <li><a href="/environment/program-areas/policy-planning.html">Policy &amp; Planning</a></li>
+                    
+                        <li><a href="/environment/program-areas/radiological-health.html">Radiological Health</a></li>
+                    
+                        <li><a href="/environment/program-areas/rem-remediation.html">Remediation Branch</a></li>
+                    
+                        <li><a href="/environment/program-areas/small-business-environmental-assistance.html">Small Business Environmental Assistance</a></li>
+                    
+                        <li><a href="/environment/program-areas/solid-waste.html">Waste Management Branch</a></li>
+                    
+                        <li><a href="/environment/program-areas/underground-storage-tanks.html">Underground Storage Tanks</a></li>
+                    
+                        <li><a href="/environment/program-areas/wr-water-resources.html">Water </a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/permits.html">Permitting
+                        <span role="button" tabindex="0" aria-label="Permitting submenu" aria-expanded="false" aria-controls="dropdown-2" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="Permitting submenu" aria-expanded="false" aria-controls="dropdown-2" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-2">
+                        <li><a href="/environment/permits/air.html">Air Permits</a></li>
+                    
+                        <li><a href="/environment/permits/archaeology.html">Archaeology Permit</a></li>
+                    
+                        <li><a href="/environment/permits/mineral-geologic.html">Mineral &amp; Geologic Resources Permits</a></li>
+                    
+                        <li><a href="/environment/permits/natural-areas.html">Natural Areas License and Permits</a></li>
+                    
+                        <li><a href="/environment/permits/radiological-health.html">Radiological Health Licenses and Registrations</a></li>
+                    
+                        <li><a href="/environment/permits/waste.html">Waste Permits</a></li>
+                    
+                        <li><a href="/environment/permits/water.html">Water Permits</a></li>
+                    
+                        <li><a href="/environment/permits/other.html">Other Permits</a></li>
+                    
+                        <li><a href="/environment/permits/efficiency-reports.html">Efficiency Reports</a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/ppo.html">Public Participation
+                        <span role="button" tabindex="0" aria-label="Public Participation submenu" aria-expanded="false" aria-controls="dropdown-3" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="Public Participation submenu" aria-expanded="false" aria-controls="dropdown-3" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-3">
+                        <li><a href="/environment/ppo/air.html">Air Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/energy.html">Energy Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/dmgr.html">Mineral &amp; Geologic Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/natural-areas.html">Natural Areas Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/radiation.html">Radiation Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/remediation.html">Remediation Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/parks.html">TN State Parks Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/ust.html">UST Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/waste.html">Waste Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/water.html">Water Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/general.html">TDEC General Notices</a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/about-tdec.html">About
+                        <span role="button" tabindex="0" aria-label="About submenu" aria-expanded="false" aria-controls="dropdown-4" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="About submenu" aria-expanded="false" aria-controls="dropdown-4" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-4">
+                        <li><a href="/environment/about-tdec/communications.html">Communications</a></li>
+                    
+                        <li><a href="/environment/about-tdec/leadership.html">Leadership</a></li>
+                    
+                        <li><a href="/environment/about-tdec/stakeholder.html">Stakeholder Engagement</a></li>
+                    
+                        <li><a href="/environment/about-tdec/external-affairs.html">External Affairs</a></li>
+                    
+                        <li><a href="/environment/about-tdec/boards-and-commissions.html">Boards &amp; Commissions</a></li>
+                    
+                        <li><a href="/environment/about-tdec/financial-assurance.html">Financial Assurance</a></li>
+                    
+                        <li><a href="/environment/about-tdec/grants.html">Grants</a></li>
+                    
+                        <li><a href="/environment/about-tdec/policies.html">Department Policies</a></li>
+                    
+                        <li><a href="/environment/about-tdec/vendor-opportunities.html">Vendor Opportunities</a></li>
+                    
+                        <li><a href="/environment/about-tdec/employment-and-internships.html">Employment &amp; Internships</a></li>
+                    
+                        <li><a href="/environment/about-tdec/tdec-annual-reports.html">TDEC Annual Reports</a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/contacts.html">Contact
+                        <span role="button" tabindex="0" aria-label="Contact submenu" aria-expanded="false" aria-controls="dropdown-5" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="Contact submenu" aria-expanded="false" aria-controls="dropdown-5" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-5">
+                        <li><a href="/environment/contacts/field-offices.html">Field Offices</a></li>
+                    
+                        <li><a href="/environment/contacts/ask-tdec-questions.html">Ask TDEC Questions</a></li>
+                    
+                        <li><a href="/environment/contacts/public-records-request.html">Public Records Request</a></li>
+                    
+                        <li><a href="/environment/contacts/customer-service-survey.html">Customer Service Survey</a></li>
+                    
+                        <li><a href="/environment/contacts/language-assistance.html">Language Assistance</a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                
+                <li>
+                    <a href="/environment/calendar-of-events.html">Calendar of Events</a>
+                </li>
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/arp.html">American Rescue Plan (ARP)
+                        <span role="button" tabindex="0" aria-label="American Rescue Plan (ARP) submenu" aria-expanded="false" aria-controls="dropdown-7" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="American Rescue Plan (ARP) submenu" aria-expanded="false" aria-controls="dropdown-7" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-7">
+                        <li><a href="/environment/arp/arp-success-stories.html">Success Stories</a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                
+                <li>
+                    <a href="/environment/news.html">TDEC Newsroom</a>
+                </li>
+            </ul>
+            <div class="right primary-print">
+                <a href="javascript:window.print();" class="icon-print" aria-label="Print This Page">
+                    <span class="visually-hidden">Print This Page</span>
+                </a>
+            </div>
+            <div class="right secondary-print">
+                <a href="javascript:window.print();" class="icon-print" aria-label="Print This Page">
+                    <span class="visually-hidden">Print This Page</span>
+                </a>
+            </div>
+            <div class="right secondary-search">
+                <a class="icon-search" href="javascript:;">
+                    <span class="visually-hidden">Go to Search</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="config hidden" data-config='{&#34;closeMenuText&#34;:&#34;Close Menu&#34;,&#34;menuText&#34;:&#34;Section&#34;}'></div>
+</nav>
+</div>
+</header></div>
+            <section aria-label="Alerts">
+    
+        
+
+        
+            
+            <div class="tn-alerts">
+    
+    
+        
+    
+    
+    <div class="entity-alert text-center" role="status">
+        <a href="/environment.html">
+            <span class="icon-info"></span>
+            We are reorganizing pages for a better experience. We appreciate your patience!
+        </a>
+    </div>
+
+    
+    
+
+</div>
+
+        
+    
+</section>
+
+            
+        </noindex>
+
+        <div id="main" tabindex="-1" role="main">
+    <div class="row center-block leftnav-template">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div class="template-left-nav tn-leftnav">            
+                
+    <nav class="side expander" aria-label="Left Navigation">
+        <div class="border-red title">
+            <a href="/environment/program-areas/solid-waste/materials-management/hhw-program.html">Household Hazardous Waste Program (HHW)</a>
+        </div>
+
+        
+    </nav>
+
+
+            </div>
+        </div>
+
+        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 content">
+            <article>
+                <div class="tn-pagetitle show" aria-hidden="false">
+    <h1>Household Hazardous Waste Program (HHW)</h1>
+    
+
+</div>
+
+                <div>
+
+
+
+
+    
+    
+    <div class="tn-cta parbase">
+    <a href="/environment/program-areas/solid-waste.html" class="text-button icon-right-1" alt="Materials Management Program Main Page">Materials Management Program Main Page</a>
+
+
+</div>
+
+
+    
+    
+    <div class="tn-cta parbase">
+    <a href="/environment/program-areas/solid-waste.html" class="text-button icon-right-1" alt="Waste Management Branch Main Page">Waste Management Branch Main Page</a>
+
+
+</div>
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <h2>What is HHW?</h2>
+<p>Household Hazardous Waste (HHW) is any unwanted or spent household product that can easily catch fire (flammable), eat away at or irritate living tissue (corrosive), react violently with water or other chemicals (reactive), or be poisonous to humans and animals (toxic). Usable household products may exhibit hazardous properties, but until they become waste, they are not appropriate for the mobile household hazardous waste program. Before attending a mobile collection event, please review the lists below of acceptable and unacceptable items.</p>
+<p>Tennessee&#39;s Mobile Collection Service has been in operation since 1993 and is open to the citizens of Tennessee. The program is limited to households. Businesses, institutions, and agri-business operations should contact a permitted <span class="icon-file-pdf"></span><a href="/content/dam/tn/environment/solid-waste/documents/hazardous-waste/waas/remediated/hw-active-transporters/sw-hw-active-transporters.pdf" title="hazardous waste transporter">hazardous waste transporter</a><span style=""> for proper disposal. Agri-businesses may, however, dispose of their pesticides through the <span class="icon-link-ext"></span></span><a href="/content/tn/agriculture/businesses/pesticides/ag-businesses-pesticide-collection.html" title="Agricultural Pesticide Waste Collection Program">Agricultural Pesticide Waste Collection Program</a><span style="">.</span></p>
+<p>Since the program began there have been over 1300 one-day collections. Over 358,000 Tennessee families have brought in over 23 million pounds of household hazardous waste for proper disposal. The program is funded by a $0.95 per ton surcharge on waste entering landfills. Providing household hazardous waste collection to the citizens of Tennessee is an important and worthwhile cause. Proper disposal of HHW helps to protect the environment and sanitation workers and can reduce the toxicity of landfill leachate. Additionally, it provides an opportunity for citizens to rid their homes of potentially dangerous chemicals.</p>
+<p>The average home in Tennessee produces 20 pounds of household hazardous waste yearly. Typical items disposed of include cleaning fluids, pesticides, mercury thermometers and thermostats, swimming pool chemicals, paint thinner, and automotive fluids. Some items that are accepted but may be recycled locally and on a year-round basis are used oil, rechargeable batteries, used antifreeze, propane cylinders, and <span class="icon-link-ext"></span><a href="http://earth911.com/recycling-guide/how-to-recycle-cfls/" target="_blank" title="Link to Earth911 CFL Recycling Locator" rel="noopener noreferrer">compact fluorescent bulbs</a>. Many of these items are commodities and may generate revenue for the local collection site. Regardless, local collection sites are more convenient for the customer, and they help to save the state tens of thousands of dollars annually.</p>
+<p>You may be surprised at how easy it is to clean without these hazardous chemicals. <span class="icon-file-pdf"></span><a href="/content/dam/tn/environment/solid-waste/documents/materials-management/remediated/sw_mm_diy-green-cleaning.pdf" title="PDF of List of do-it-yourself green cleaning solutions" target="_blank" rel="noopener noreferrer">Here is a list of do-it-yourself green cleaning solutions</a>, many of which are as simple as vinegar and lemon!</p>
+
+    
+    
+
+</div>
+
+
+    
+    
+    <div class="tn-image image parbase">
+<div class="text-center" id="cq-image-jsp-/content/tn/environment/program-areas/solid-waste/materials-management/hhw-program/jcr:content/content/tn_image_copy"><img src="/environment/program-areas/solid-waste/materials-management/hhw-program/_jcr_content/content/tn_image_copy.img.jpg/1768495807677.jpg" alt="2025 Household Hazardous Waste Events" title="2025 Household Hazardous Waste Events" class="cq-dd-image"></div>
+
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/tn\/environment\/program\u002Dareas\/solid\u002Dwaste\/materials\u002Dmanagement\/hhw\u002Dprogram\/jcr:content\/content\/tn_image_copy");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/tn/environment/solid-waste/images/mm/hhw-program/2026-map-hhw-events.jpg", imageTitle: "2025 Household Hazardous Waste Events" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "tncore\/components\/content\/tn\u002Dimage"})');
+        }
+        
+    })();
+</script>
+
+
+</div>
+
+
+    
+    
+    <div class="containers tn-tabs parbase">
+    
+
+    
+        
+
+        
+
+        
+            <div class="responsive-tabs-container tabs-left">
+                <ul class="nav nav-tabs tab-options nav-justified flex-column" id="159978a3e55346dbbf1801aff9cffcdc" role="tablist" aria-label="Tab List">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="tab-159978a3e55346dbbf1801aff9cffcdc-0" data-bs-toggle="tab" data-bs-target="#tabpanel-159978a3e55346dbbf1801aff9cffcdc-0" type="button" role="tab" aria-controls="tabpanel-159978a3e55346dbbf1801aff9cffcdc-0" aria-selected="true">
+                            HHW Collection Events
+                        </button>
+                    </li>
+                
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link " id="tab-159978a3e55346dbbf1801aff9cffcdc-1" data-bs-toggle="tab" data-bs-target="#tabpanel-159978a3e55346dbbf1801aff9cffcdc-1" type="button" role="tab" aria-controls="tabpanel-159978a3e55346dbbf1801aff9cffcdc-1" aria-selected="false">
+                            HHW Collection Facilities
+                        </button>
+                    </li>
+                
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link " id="tab-159978a3e55346dbbf1801aff9cffcdc-2" data-bs-toggle="tab" data-bs-target="#tabpanel-159978a3e55346dbbf1801aff9cffcdc-2" type="button" role="tab" aria-controls="tabpanel-159978a3e55346dbbf1801aff9cffcdc-2" aria-selected="false">
+                            Items Accepted
+                        </button>
+                    </li>
+                
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link " id="tab-159978a3e55346dbbf1801aff9cffcdc-3" data-bs-toggle="tab" data-bs-target="#tabpanel-159978a3e55346dbbf1801aff9cffcdc-3" type="button" role="tab" aria-controls="tabpanel-159978a3e55346dbbf1801aff9cffcdc-3" aria-selected="false">
+                            Items Not Accepted
+                        </button>
+                    </li>
+                
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link " id="tab-159978a3e55346dbbf1801aff9cffcdc-4" data-bs-toggle="tab" data-bs-target="#tabpanel-159978a3e55346dbbf1801aff9cffcdc-4" type="button" role="tab" aria-controls="tabpanel-159978a3e55346dbbf1801aff9cffcdc-4" aria-selected="false">
+                            Organizing and Hosting an HHW Event
+                        </button>
+                    </li>
+                
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link " id="tab-159978a3e55346dbbf1801aff9cffcdc-5" data-bs-toggle="tab" data-bs-target="#tabpanel-159978a3e55346dbbf1801aff9cffcdc-5" type="button" role="tab" aria-controls="tabpanel-159978a3e55346dbbf1801aff9cffcdc-5" aria-selected="false">
+                            Year-Round Collection of HHW and BOPAE
+                        </button>
+                    </li>
+                
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link " id="tab-159978a3e55346dbbf1801aff9cffcdc-6" data-bs-toggle="tab" data-bs-target="#tabpanel-159978a3e55346dbbf1801aff9cffcdc-6" type="button" role="tab" aria-controls="tabpanel-159978a3e55346dbbf1801aff9cffcdc-6" aria-selected="false">
+                            Minimum Requirements for a HHW Event
+                        </button>
+                    </li>
+                
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link " id="tab-159978a3e55346dbbf1801aff9cffcdc-7" data-bs-toggle="tab" data-bs-target="#tabpanel-159978a3e55346dbbf1801aff9cffcdc-7" type="button" role="tab" aria-controls="tabpanel-159978a3e55346dbbf1801aff9cffcdc-7" aria-selected="false">
+                            New Developments with HHW Program
+                        </button>
+                    </li>
+                
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link " id="tab-159978a3e55346dbbf1801aff9cffcdc-8" data-bs-toggle="tab" data-bs-target="#tabpanel-159978a3e55346dbbf1801aff9cffcdc-8" type="button" role="tab" aria-controls="tabpanel-159978a3e55346dbbf1801aff9cffcdc-8" aria-selected="false">
+                            Very Small Quantity Generators
+                        </button>
+                    </li>
+                </ul>
+
+                <div class="tab-content top">
+                    <div class="tab-pane fade active show" id="tabpanel-159978a3e55346dbbf1801aff9cffcdc-0" role="tabpanel" aria-labelledby="tab-159978a3e55346dbbf1801aff9cffcdc-0" tabindex="0">
+                        <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <h2>HHW Collection Events </h2>
+<p>Any Tennessee citizen can participate in the Mobile Household Hazardous Waste Collection Service. Collections only occur in the fall and spring to avoid extreme weather. The process is very simple. Check the<span class="icon-file-pdf"></span> <a title="PDF of collection schedule" href="/content/dam/tn/environment/solid-waste/documents/materials-management/remediated/mm-hhw-collections/2026-hhw-events.pdf">collection schedule</a> to determine a convenient event for you. The schedule is posted in January each year. You can also <span class="icon-link-ext"></span><a href="https://app.e2ma.net/app2/audience/signup/1835961/1721366/" title="Link to subscribe to the newsletter">subscribe to our newsletter</a> to receive collection event reminders for your county.</p>
+<p>Check our list of acceptable and unacceptable items to determine what you can bring. On the day of the event, load the unwanted materials into your trunk or the back of your truck. For safety, don&#39;t mix materials, keep them in their original containers, double-package any leaking containers, and place any breakable containers in a box, cushioned with newspaper. When you get to the event, you will be surveyed to find out in what county you live and how many households you are bringing waste from.</p>
+<p>Only households may use the service to dispose of hazardous wastes. No commercial, institutional, or agri-business waste will be accepted. The Tennessee Department of Agriculture runs an <span class="icon-link-ext"></span><a href="/content/tn/agriculture/businesses/pesticides/ag-businesses-pesticide-collection.html" title="Tn Dept of Agriculture Pesticide Waste Collection">Agricultural Pesticide Waste Collection Program</a> that will accept pesticides from farmers. Additionally, NO explosive, ordnance, ammunition, radioactives, or medical waste will be accepted. <span class="icon-link-ext"></span><a title="Link to Smoke detector recycling" href="https://greencitizen.com/blog/recycle-smoke-detectors/">Smoke detectors are not accepted, but may be recycled elsewhere</a>.</p>
+<p>Tennessee&#39;s Mobile Collection Service has been in operation since 1993. Since then, there have been over 1,500 one-day collections. Over 383,000 Tennessee families have brought in over 25 million pounds of household hazardous waste for proper disposal. The program is funded by a $0.90 per ton surcharge on waste entering landfills.</p>
+<h3>Participation</h3>
+<ul><li>Any Tennessee resident can participate in the Mobile Household Hazardous Waste (HHW) Collection Service.</li><li>Only households may use the service to dispose of hazardous wastes.</li><li>No commercial, institutional, or agri-business waste will be accepted.</li></ul>
+<h3>Event Scheduling</h3>
+<p>Mobile Household Hazardous Waste (HHW) Collections only occur in the fall and spring to avoid extreme weather. The process is very simple. The spring schedule is posted by February, and the fall schedule is posted by August. On the day of the event, load the unwanted materials into your trunk or the back of your truck. For safety, don&#39;t mix materials; keep them in their original containers; double-package any leaking containers; and place any breakable containers in a box cushioned with newspaper. When you get to the event, you will be surveyed to find out in what county you live and how many households you are bringing waste from.</p>
+<h3>Safe Transportation of HHW to the Event</h3>
+<p>When transporting materials to the site, place containers in sturdy boxes lined with newspaper to prevent spills and cross-contamination in the trunk of a car or back of a truck. Be sure to keep materials away from children and pets. Materials should be kept in the original container whenever possible. If not, place the waste in a plastic jug with a secure lid and label its contents.</p>
+
+    
+    
+
+</div>
+
+
+    
+    
+    <div class="tn-simpletable parbase"><table width="100%" cellspacing="0" cellpadding="1" border="0"><tbody><tr><th colspan="2" style="	text-align: center;
+">Household Hazardous Waste (HHW) Collection - Event Schedule</th></tr><tr><td><strong>Dates</strong></td><td><strong>Events</strong></td></tr><tr><td>2026</td><td><a title="PDF of 2026 Mobile Collection Schedule" href="/content/dam/tn/environment/solid-waste/documents/materials-management/remediated/mm-hhw-collections/2026-hhw-events.pdf" target="_blank" rel="noopener noreferrer"><span class="icon-file-pdf"></span>Mobile Collection Schedule</a></td></tr></tbody></table>
+
+</div>
+
+
+</div>
+                    </div>
+                
+                    <div class="tab-pane fade " id="tabpanel-159978a3e55346dbbf1801aff9cffcdc-1" role="tabpanel" aria-labelledby="tab-159978a3e55346dbbf1801aff9cffcdc-1" tabindex="0">
+                        <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <h2>HHW Collection Facilities</h2>
+<p>If you are a resident of <span class="icon-link-ext"></span><a></a><a href="http://www.knoxvilletn.gov/cms/one.aspx?portalId&#61;109562&amp;pageId&#61;200247" title="City of Knoxville">Knox</a>, <span class="icon-link-ext"></span><a href="http://www.chattanooga.gov/public-works/city-wide-services/household-hazardous-waste" title="Chattanooga Household Hazardous Waste Program">Hamilton</a>, <span class="icon-link-ext"></span><a href="https://www.nashville.gov/departments/waste-services/convenience-centers/household-hazardous-waste" title="Metro Nashville Household Hazardous Waste">Davidson</a>, <span class="icon-link-ext"></span><a title="Putnam County Household Hazardous Waste Facility" href="https://putnamcountytn.gov/solid-waste-and-recycling">Putnam</a>, or <span class="icon-link-ext"></span><a href="http://www.shelbycountytn.gov/index.aspx?NID&#61;439" title="Memphis area Household Hazardous Waste Program">Shelby</a> Counties, you may take your HHW to the permanent collection site located in your county. Additionally, seven temporary HHW containers have been strategically placed across the state for year-round disposal opportunities for all Tennessee residents.</p>
+
+    
+    
+
+</div>
+
+
+</div>
+                    </div>
+                
+                    <div class="tab-pane fade " id="tabpanel-159978a3e55346dbbf1801aff9cffcdc-2" role="tabpanel" aria-labelledby="tab-159978a3e55346dbbf1801aff9cffcdc-2" tabindex="0">
+                        <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <h2><em><a class="anchor"></a>Acceptable Items</em></h2>
+<h3>Automotive and Marine Products</h3>
+<ul><li>Fuel and oil additives</li><li>Grease and rust solvents, naval jelly</li><li>Carburetor and fuel injector cleaners</li><li>Starter fluids</li><li>Body putty</li><li>Antifreeze / coolant</li><li>Gasoline</li></ul>
+<h3>Home Maintenance / Improvement Products</h3>
+<ul><li>Used strippers and thinners</li><li>Adhesives</li><li>Driveway sealant</li><li>Roofing tar</li><li>Wallpaper remover</li></ul>
+<h3>Home Lawn and Garden Products</h3>
+<ul><li>Pesticides</li><li>Fertilizers</li><li>Wood preservatives</li></ul>
+<h3>Miscellaneous</h3>
+<ul><li>Pool chemicals</li><li>Photo processing chemicals</li><li>Medicines / drugs</li><li>Aerosols / compressed gas</li><li>Mercury thermostats and thermometers</li><li>Fluorescent tubes</li><li>Compact fluorescent bulbs</li><li>Needles and sharps (in a puncture-proof container)</li></ul>
+
+    
+    
+
+</div>
+
+
+</div>
+                    </div>
+                
+                    <div class="tab-pane fade " id="tabpanel-159978a3e55346dbbf1801aff9cffcdc-3" role="tabpanel" aria-labelledby="tab-159978a3e55346dbbf1801aff9cffcdc-3" tabindex="0">
+                        <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <h2>Items No Longer Accepted at Mobile HHW Collections</h2>
+<p>Items no longer accepted at the mobile HHW collections are alkaline batteries, paint, and electronics. Alkaline batteries sold after May 13, 1996, have no mercury added and may be discarded in the regular trash. Nickel-cadmium (Ni-Cd), nickel metal hydride (Ni-MH), lithium ion (Li-Ion), and small sealed lead-acid (Pb) batteries. Other items not accepted at the mobile HHW collections include ammunition, explosives, medical waste, radioactive material, and any items from a school, commercial business, or agri-business. <span class="icon-link-ext"></span><a title="Link to Smoke detector recycling" href="https://greencitizen.com/blog/recycle-smoke-detectors/">Smoke detectors are not accepted, but may be recycled elsewhere.</a></p>
+<h3><em><a class="anchor"></a>Unacceptable Items</em></h3>
+<h4>Medical / Biological</h4>
+<ul><li>Infectious wastes</li><li>Dead animals</li><li>Any waste from a doctor&#39;s office, clinic, or veterinarian&#39;s office</li></ul>
+<h4>Explosives / Ammunition</h4>
+<ul><li>Fireworks</li><li>Military ordnance</li><li>Gun powder</li><li>Ammunition</li></ul>
+<h4>Radioactive</h4>
+<ul><li>Smoke detectors</li><li>Radium paint</li></ul>
+<h4>Business / Institutional Waste</h4>
+<ul><li>No businesses, large or small</li><li>No colleges or universities</li><li>No schools</li><li>No hospitals</li><li>No home improvement or painting contractors</li><li>No agribusiness</li></ul>
+<h4>Miscellaneous</h4>
+<ul><li>Empty containers of any kind</li><li>Automotive gas tanks</li><li>Alkaline batteries - may be thrown away in the trash</li><li>Electronics – contact your local Solid Waste Department for guidance</li><li>Paint – contact your local Solid Waste Department for guidance</li></ul>
+
+    
+    
+
+</div>
+
+
+    
+    
+    <div class="containers tn-accordion parbase">
+    <div class="accordion" id="accordion-b7d5f4545b494a348ab858c6a8d7aa0b">
+        
+
+        
+            
+
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-b7d5f4545b494a348ab858c6a8d7aa0b-0" aria-controls="collapse-b7d5f4545b494a348ab858c6a8d7aa0b-0" aria-expanded="false">
+                                    How do I identify a potentially dangerous product?
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-b7d5f4545b494a348ab858c6a8d7aa0b-0" class="accordion-collapse collapse" data-bs-parent="#accordion-b7d5f4545b494a348ab858c6a8d7aa0b">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <h2>A product is considered hazardous if it is:</h2>
+<ul><li><strong>Flammable: </strong>capable of catching fire easily,</li><li><strong>Corrosive</strong>: capable of irritating or eating away at living tissue,</li><li><strong>Reactive</strong>: reacts violently with air, water, or other chemicals, or</li><li><strong>Toxic</strong>: poisonous to living organisms.</li></ul>
+
+    
+    
+
+</div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-b7d5f4545b494a348ab858c6a8d7aa0b-1" aria-controls="collapse-b7d5f4545b494a348ab858c6a8d7aa0b-1" aria-expanded="false">
+                                    What types of products might have hazardous characteristics?
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-b7d5f4545b494a348ab858c6a8d7aa0b-1" class="accordion-collapse collapse" data-bs-parent="#accordion-b7d5f4545b494a348ab858c6a8d7aa0b">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p>Examples of flammable products include many solvent-based materials such as varnish strippers, enamel paints, and driveway sealants.</p>
+<p>Some household items that may be corrosive include acidic or caustic cleaners such as toilet bowl cleaner, oven cleaner, and drain opener as well as batteries, especially car batteries.</p>
+<p>Reactive type chemicals can include strong peroxides, ammonia, chlorine-based products, and mothballs.</p>
+<p>Toxic materials include antifreeze, pesticides, and windshield washer fluid.</p>
+
+    
+    
+
+</div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-b7d5f4545b494a348ab858c6a8d7aa0b-2" aria-controls="collapse-b7d5f4545b494a348ab858c6a8d7aa0b-2" aria-expanded="false">
+                                    Is there a good way to spot potentially dangerous products?
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-b7d5f4545b494a348ab858c6a8d7aa0b-2" class="accordion-collapse collapse" data-bs-parent="#accordion-b7d5f4545b494a348ab858c6a8d7aa0b">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p>The most effective way to spot potentially dangerous household chemicals is to read the label. Manufacturers are required by law to inform consumers of any possible risks to human health. Additionally, information concerning potential risks to the environment is also included.</p>
+<h2>Signal words to look for:</h2>
+<ul><li><strong>CAUTION</strong>- the product is mildly toxic (1 oz. to 1 pt. is the fatal dose) or a possible skin irritant.</li><li><strong>WARNING</strong>- the product is moderately toxic (1 tsp. to 1 tbsp. is the fatal dose) or can cause skin injury with prolonged contact with skin or has a moderate chance of catching fire or reacting with another chemical.</li><li><strong>DANGER</strong>- the product is highly flammable, explosive, and/or reactive or is capable of causing injury on contact with eyes or skin.</li><li><strong>POISON</strong>- the product is extremely toxic (a taste to 1 tsp. is the fatal dose).</li></ul>
+
+    
+    
+
+</div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-b7d5f4545b494a348ab858c6a8d7aa0b-3" aria-controls="collapse-b7d5f4545b494a348ab858c6a8d7aa0b-3" aria-expanded="false">
+                                    How dangerous is it to have hazardous chemicals in my house?
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-b7d5f4545b494a348ab858c6a8d7aa0b-3" class="accordion-collapse collapse" data-bs-parent="#accordion-b7d5f4545b494a348ab858c6a8d7aa0b">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p>Most modern products if stored properly and used according to directions should not put you, your family, your pets, or the environment at risk. You should use extreme caution when using a very old product because consumer safety standards were much less stringent in the past. For example, liquid mercury was once used as medicine. Additionally, many products change after being exposed to hot and cold as well as humidity. The best idea for antiquated products is to bring them to a household hazardous waste collection event.</p>
+<h2>Some things you can do to prevent products from harming anyone:</h2>
+<ul><li>Use a product only for its intended purpose.</li><li>Keep products in their original containers.</li><li>Keep all pertinent information regarding use, storage, and disposal.</li><li>Follow all safety precautions.</li><li>Keep container tightly sealed and in a secure location.</li><li>Never mix products.</li></ul>
+
+    
+    
+
+</div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-b7d5f4545b494a348ab858c6a8d7aa0b-4" aria-controls="collapse-b7d5f4545b494a348ab858c6a8d7aa0b-4" aria-expanded="false">
+                                    What can I do to shop smarter?
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-b7d5f4545b494a348ab858c6a8d7aa0b-4" class="accordion-collapse collapse" data-bs-parent="#accordion-b7d5f4545b494a348ab858c6a8d7aa0b">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <h2>When buying household products in the future there are some important considerations:</h2>
+<ul><li>Buy only what you need.</li><li>Buy a non-hazardous or the least hazardous product for the job, i.e., choose a product with a &#34;caution&#34; label over one with a &#34;warning&#34; label.</li><li>Buy multi-use products instead of highly specialized items that might go unused for months.</li><li>Buy pesticides and similar items that have a localized application, e.g. roach bait discs instead of fumigants.</li></ul>
+
+    
+    
+
+</div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-b7d5f4545b494a348ab858c6a8d7aa0b-5" aria-controls="collapse-b7d5f4545b494a348ab858c6a8d7aa0b-5" aria-expanded="false">
+                                    Is there a way to safely dispose of dangerous household chemicals?
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-b7d5f4545b494a348ab858c6a8d7aa0b-5" class="accordion-collapse collapse" data-bs-parent="#accordion-b7d5f4545b494a348ab858c6a8d7aa0b">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <h2>There are several safe and easy ways to dispose of many of your unwanted items.</h2>
+<ul><li><strong>Used oil, oil filters, anti-freeze, and automotive batteries</strong></li><li><strong>Latex paint </strong>should be used up, given away, or dried up and disposed of in your regular garbage. Use kitty litter, sawdust, or shredded paper to speed the drying process.</li><li><strong>Oil-based paint</strong> should be used up, given away, or carried to the county paint collection facility (if available).</li><li><strong>Computers and televisions</strong> can often be recycled locally through your local solid waste department or through a private recycler. Check the phone book for electronic recyclers.</li><li><strong>Batteries - Alkaline batteries</strong> may be disposed of with your regular garbage.<br />
+    <strong>Rechargeable batteries and cell phones</strong> can be recycled. Find a collection site near you by visiting the <span class="icon-link-ext"></span><a href="http://www.call2recycle.org/">Call2Recycle</a> website. Also, several home improvement stores take <strong>power tool batteries</strong>. <strong>Lead acid batteries</strong> can be recycled locally through your solid waste department or at many automotive retail stores (ie, AutoZone, Advance Auto Parts, Napa).</li><li><strong>Ink jet cartridges</strong> can be recycled at most office supply stores and post offices.</li><li><strong>Regular household cleaners</strong> should be used up or can be washed down the drain. If you are on a septic tank, you may want to only pour out small amounts at a time.</li><li><strong>Propane cylinders</strong> can be recycled locally through your solid waste department.</li><li><strong>Smoke detectors</strong> should be returned to the manufacturer. Look for the address on the device.</li><li><strong>Explosives and ammunition</strong> should be safely disposed of by contacting your local police and fire departments.</li><li><strong>Needles and sharps</strong> should be placed inside a sturdy plastic container with a screw on lid (such as a laundry detergent or fabric softener bottle) and disposed of in your regular garbage. Bend the tip of the needle to prevent puncture.</li></ul>
+<p>All other products should be safely stored and brought to any <span class="icon-link-ext"></span><a href="https://www.tn.gov/content/tn/environment/program-areas/solid-waste/materials-management/hhw-program/hhw-event-schedule.html">Household Hazardous Waste Mobile Collection event</a> in the state or to one of the <span class="icon-link-ext"></span><a title="Link to HHW Temporary Containers page" href="/content/tn/environment/program-areas/solid-waste/materials-management/hhw-program/hhw-temporary-containers.html">Temporary HHW Containers</a>. If you are a resident of <span class="icon-link-ext"></span><a href="http://www.knoxvilletn.gov/cms/one.aspx?portalId&#61;109562&amp;pageId&#61;200247" title="City of Knoxville" target="_blank" rel="noopener noreferrer">Knox</a>, <span class="icon-link-ext"></span><a href="http://www.chattanooga.gov/public-works/city-wide-services/household-hazardous-waste" title="Chattanooga Household Hazardous Waste Program" target="_blank" rel="noopener noreferrer">Hamilton</a>, <span class="icon-link-ext"></span><a title="Link to Davidson County webpage" href="https://www.nashville.gov/departments/waste-services/convenience-centers/household-hazardous-waste" target="_blank" rel="noopener noreferrer">Davidson</a>, <span class="icon-link-ext"></span><u><a title="Link to Putnam County webpage" href="https://putnamcountytn.gov/solid-waste-and-recycling" target="_blank" rel="noopener noreferrer">Putnam</a><a title="Link to Putnam County page" href="https://putnamcountytn.gov/solid-waste-and-recycling"></a><a title="Link to Putnam County page" href="https://putnamcountytn.gov/solid-waste-and-recycling"></a><a title="Link to Putnam County website" href="https://putnamcountytn.gov/solid-waste-and-recycling" target="_blank" rel="noopener noreferrer"></a></u>, or <span class="icon-link-ext"></span><a href="http://www.shelbycountytn.gov/index.aspx?NID&#61;439" title="Memphis area Household Hazardous Waste Program">Shelby</a> Counties, you may take your HHW to the permanent collection site located in your county.</p>
+
+    
+    
+
+</div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-b7d5f4545b494a348ab858c6a8d7aa0b-6" aria-controls="collapse-b7d5f4545b494a348ab858c6a8d7aa0b-6" aria-expanded="false">
+                                    What does the law say about household hazardous waste?
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-b7d5f4545b494a348ab858c6a8d7aa0b-6" class="accordion-collapse collapse" data-bs-parent="#accordion-b7d5f4545b494a348ab858c6a8d7aa0b">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p>The Tennessee General Assembly passed the Solid Waste Management Act of 1991 (<span class="icon-link-ext"></span><a href="http://www.lexisnexis.com/hottopics/tncode/" target="_blank" rel="noopener noreferrer">T.C.A. §68-211-829</a><span style="">), and </span><span class="icon-link-ext"></span><a href="http://www.lexisnexis.com/hottopics/tncode/" target="_blank" rel="noopener noreferrer">T.C.A. §68-211-828</a><span style=""> also provides for Competitive grants for the collection of household hazardous waste at permanent sites.</span></p>
+
+    
+    
+
+</div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+
+            
+        
+    </div>
+
+</div>
+
+
+</div>
+                    </div>
+                
+                    <div class="tab-pane fade " id="tabpanel-159978a3e55346dbbf1801aff9cffcdc-4" role="tabpanel" aria-labelledby="tab-159978a3e55346dbbf1801aff9cffcdc-4" tabindex="0">
+                        <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <h2><span style="	letter-spacing: -0.075em;
+">Organizing and Hosting HHW Collection Events </span></h2>
+<p>HHW collection events only occur in the spring and fall to avoid extreme conditions. Spring events begin in late March and end in early June. Fall events begin on the Saturday after Labor Day and end in early November. HHW events do not occur on Easter or Memorial Day weekend. Request for service may be sent up to a year in advance, but must be received by December 1st of the previous year.  </p>
+<p>The State pays the contractor a minimum set-up fee each time the HHW Collection Service is mobilized, regardless of participation at the event. In order to provide the most cost-efficient service, the events should be well utilized. A collection event cannot be successful without advertising. </p>
+
+    
+    
+
+</div>
+
+
+</div>
+                    </div>
+                
+                    <div class="tab-pane fade " id="tabpanel-159978a3e55346dbbf1801aff9cffcdc-5" role="tabpanel" aria-labelledby="tab-159978a3e55346dbbf1801aff9cffcdc-5" tabindex="0">
+                        <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <h2>Year-Round Collection of HHW and BOPAE</h2>
+<p>Solid Waste Management encourages counties to educate their citizens year-round concerning the proper use and disposal of HHW. Counties should use all available means to communicate the characteristics of HHW, the consequences of improper disposal, and the basic concept of reducing, reusing, and recycling HHW whenever possible.</p>
+<p>By following certain guidelines, many HHW items (i.e. propane tanks, computers and televisions, paint, batteries, used oil, antifreeze, fluorescent lamps, <span class="icon-link-ext"></span><a title="Thermostat Recycling Corporation" href="https://www.thermostat-recycle.org/">mercury thermostats</a>, and oil filters) can be safely collected by existing solid waste staff on a year-round basis. This higher level of service to local residents can reduce mobile collection costs, prevent landfilling of waste, and improve water quality. The Division of Solid Waste Management established <span class="icon-file-pdf"></span><a title="Household Paint Management Guidance" href="/content/dam/tn/environment/solid-waste/documents/materials-management/remediated/sw_paintguidance.pdf">Household Paint Management Guidance and Policy</a> for counties involved in household paint collection and handling.</p>
+
+    
+    
+
+</div>
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <address><strong><u><a title="Giles County" href="https://gilescountytn.gov/waste/" target="_blank" rel="noopener noreferrer">Giles County THHWC / Ag Center Convenience Center<span class="icon-link"></span></a><br />
+ </u></strong>2030 Elkton Pike<br />
+Pulaski, TN<br />
+<span class="icon-mobile"></span>931-424-7035<br />
+Hours: 7 am to 5 pm Mon, Wed, Fri | 7 am to 12 pm Sat<br />
+ </address>
+<address><strong><u><a title="Chester County" href="https://chestercountytn.org/solid_waste_household.html" target="_blank" rel="noopener noreferrer">Chester County THHWC<span class="icon-link"></span></a><br />
+ </u></strong>315 Talley Store Road<br />
+Henderson, TN<br />
+<span class="icon-mobile"></span>731-989-9855<br />
+Hours: 7:30 am to 4 pm Tues &amp; Thurs<br />
+<br />
+</address>
+<address><strong><u>Grainger County THHWC<span class="icon-link"></span><br />
+ </u></strong>2458 Narrow Valley Road<br />
+Rutledge, TN 37861<br />
+<span class="icon-mobile"></span>865-828-4881<br />
+Hours: 8 am to 4 pm Mon, Tues, Thurs, Fri, Sat<br />
+ </address>
+<address><strong><u><a title="Link to City of Athens Recycling Center Page" href="https://cityofathenstn.com/recycling-center/" target="_blank" rel="noopener noreferrer">McMinn County / Athens City Recycle Center</a><span class="icon-link"></span><br />
+ </u></strong>118 Rocky Mount Road<br />
+Athens, TN<br />
+<span class="icon-mobile"></span>423-744-2749  |  <span class="icon-mobile"></span>423-744-2745<br />
+Hours: 7 am to 3 pm Mon, Fri | 11 am to 6 pm Tues, Wed, Thurs | 8 am to 12 pm Sat<br />
+<br />
+</address>
+<address><strong><u><a title="Blount County" href="https://www.blounttn.org/1282/Recycling" target="_blank" rel="noopener noreferrer">Blount County Recycling Center THHWC<span class="icon-link"></span></a><br />
+ </u></strong>331 Levi Street (off of McArthur Rd)<br />
+Maryville, TN<br />
+<span class="icon-mobile"></span>865-268-3238 or <span class="icon-mobile"></span>865-982-4652<br />
+Hours: 8 am to 4:30 pm Tues, Thurs, Sat<br />
+<br />
+</address>
+<address><strong><u><a title="Loudon County " href="https://www.loudoncounty-tn.gov/government/ConvenienceCenters.php" target="_blank" rel="noopener noreferrer">Loudon County THHWC / Loudon Convenience Center<span class="icon-link"></span></a><br />
+ </u></strong>300 Rock Quarry Road<br />
+Loudon, TN 37774<br />
+<span class="icon-mobile"></span>865-458-8536<br />
+Hours: 9 am to 4 pm Sat<br />
+ </address>
+<address><a title="Sevier County THHWC" href="https://www.seviersolidwaste.com/hhw#:~:text&#61;HHW%20is%20collected%20at%20the,waste%20will%20not%20be%20accepted" target="_blank" rel="noopener noreferrer"><strong>Sevier County THHWC / Centerview Convenience Center<span class="icon-link"></span></strong></a><br />
+943 Centerview Road<br />
+Sevierville, TN 37862<br />
+<span class="icon-mobile"></span>865-774-6677<br />
+Hours: Mon-Fri, 6:30 AM – 3:00 PM; Sat, 7:00 AM – 12:00 PM<br />
+<br />
+</address>
+
+    
+    
+
+</div>
+
+
+</div>
+                    </div>
+                
+                    <div class="tab-pane fade " id="tabpanel-159978a3e55346dbbf1801aff9cffcdc-6" role="tabpanel" aria-labelledby="tab-159978a3e55346dbbf1801aff9cffcdc-6" tabindex="0">
+                        <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <h2>Minimum Requirements to Qualify for an HHW Collection Event</h2>
+<p>The HHW Program has established criteria for scheduling HHW events. The following provides an overview of the minimum requirements to qualify for an HHW Collection event. These requirements are established to eliminate the collection of BOPAE materials at mobile events and provide funding for the disposal of the most hazardous materials found in households. A county shall provide regular or year-round services directly or by contract if adequate sites are not otherwise available in the county for the use of the residents of the county.</p>
+<ul><li><strong>Alkaline Batteries:</strong> The County may recycle alkaline batteries or educate the public that alkaline batteries no longer contain mercury and therefore may be disposed of in their garbage.</li><li><strong>Rechargeable Batteries</strong> (Ni-Cd, Ni-MH, Li-Ion, Ni-Zn, small sealed lead acid): The County shall provide year-round collection and recycling of rechargeable batteries.<span class="icon-link-ext"></span> <a href="http://www.call2recycle.org/site-participation-inquiry/">Call2Recycle</a> offers a collection program for a fee.</li><li><strong>Lead Acid Batteries:</strong> Per T.C.A. 68-211-866, “each county shall provide directly, by contract or through a solid waste authority at least one (1) site to receive and store waste tires, used automotive oils and fluids, and lead-acid batteries, if adequate sites are not otherwise available in the county for the use of the residents of the county.”  Lead-acid batteries have value, and most counties contract with a local battery recycler.</li><li><strong>All other batteries shall be managed by the State HHW Contractor at mobile HHW collections.</strong></li><li><strong>Used Automotive Oil:</strong> Per T.C.A. 68-211-866, “each county shall provide directly, by contract or through a solid waste authority at least one (1) site to receive and store waste tires, used automotive oils and fluids, and lead-acid batteries, if adequate sites are not otherwise available in the county for the use of the residents of the county.” Well-managed used oil collection generates revenue from used oil transporters or provides cost avoidance when collected by the county and burned in used oil heaters.</li><li><strong>Used Antifreeze:</strong> Per T.C.A. 68-211-866, “each county shall provide directly, by contract or through a solid waste authority at least one (1) site to receive and store waste tires, used automotive oils and fluids, and lead-acid batteries, if adequate sites are not otherwise available in the county for the use of the residents of the county.” Most used oil transporters provide antifreeze collection at no cost in order to get the used oil also. Otherwise, antifreeze collection and recycling averages a cost of $35-50 per 55-gallon drum.</li><li><strong>Paint:</strong> The County shall provide regular collections of oil-based paint. Oil-based paint shall be collected at a fixed location and disposed of by the State HHW contractor in scheduled milk run pick-ups. The county may collect and manage the latex paint by recycling or solidification, as approved by the Department’s Division of Solid Waste Management Environmental Field Office. Refer to the Household Paint Management Guidance and Policy for details.</li><li><strong>Electronics:</strong> The County shall provide scheduled collections of household electronic scrap for recycling. The equipment to be collected shall include central processing units (CPUs), laptops, cathode ray tubes (CRTs), televisions, flat-screen monitors, peripherals, printers, scanners/copiers, fax machines, cell phones, and personal digital assistants.</li></ul>
+
+    
+    
+
+</div>
+
+
+</div>
+                    </div>
+                
+                    <div class="tab-pane fade " id="tabpanel-159978a3e55346dbbf1801aff9cffcdc-7" role="tabpanel" aria-labelledby="tab-159978a3e55346dbbf1801aff9cffcdc-7" tabindex="0">
+                        <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p>In an effort to provide mobile collection service to a greater number of counties and to capture the most hazardous household chemicals throughout the State, the <strong>HHW Program will no longer accept paint or electronics at the mobile collection events</strong><span style="">. Local governments will be expected to provide regular collection of batteries, oil, paint, antifreeze, and electronics (BOPAE) to be considered for future HHW service. The minimum requirements to be considered to receive mobile HHW collection service are detailed in the following section.</span></p>
+<p>The State’s contractor will collect oil-based paint only at fixed locations (i.e., convenience centers, recycling centers, etc.). They will continue to provide storage containers, box liners, and milk run pickup service. This service will continue to be provided at no cost to the County. Refer to the <span class="icon-file-pdf"></span><a href="/content/dam/tn/environment/solid-waste/documents/materials-management/remediated/sw_paintguidance.pdf" title="Household Paint Management Guidance and Policy">Household Paint Management Guidance and Policy</a> for details.</p>
+<p>In the Fiscal Year 2010, paint and electronics combined represented a statewide average of 74% by weight and 35% by costs of materials collected and managed at mobile HHW events. This volume of the material requires the mobilization of increased staffing by the contractor and the county, heavy equipment, and additional supplies and resources to adequately manage these wastes at mobile collection events. Experience indicates that when these two minimally hazardous waste streams are diverted away from the mobile collection events, participation and idle times in long lines decrease tremendously. Reduced participation and shorter traffic lines allow for smaller HHW event sites. We suggest hosting events at solid waste convenience centers or recycling centers where BOPAE is currently managed by the county.</p>
+<p>The Household Hazardous Waste Program staff is available to discuss options that can best meet the needs of each County. Learn more about the <span class="icon-file-pdf"></span><a href="/content/dam/tn/environment/solid-waste/documents/materials-management/remediated/sw_bopae_guide.pdf" title="year-round collection of BOPAE and hosting successful BOPAE Collection Events">year-round collection of BOPAE and hosting successful BOPAE Collection Events</a>. If you would like to participate and need technical assistance in launching a local BOPAE program, please contact Robert Wadley by email or at 615-741-4907.</p>
+
+    
+    
+
+</div>
+
+
+</div>
+                    </div>
+                
+                    <div class="tab-pane fade " id="tabpanel-159978a3e55346dbbf1801aff9cffcdc-8" role="tabpanel" aria-labelledby="tab-159978a3e55346dbbf1801aff9cffcdc-8" tabindex="0">
+                        <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <h2>VSQG - Schedule an Appointment for a Collection Near You</h2>
+<p>Very Small Quantity Generators, who generate less than 220 pounds of hazardous waste per month and have in storage less than 2,200 pounds, are now eligible to participate in the mobile HHW/VSQG Collection Events. To request a price quote and schedule an appointment, please contact Clean Harbors Environmental Services at 615-643-3170 with a waste inventory. Most VSQG collection appointments will be scheduled immediately following the HHW event ending time.</p>
+
+    
+    
+
+</div>
+
+
+    
+    
+    <div class="containers tn-accordion parbase">
+    <div class="accordion" id="accordion-2bc8cf4c49014e14a0720968ae4b1c4b">
+        
+
+        
+            
+
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2bc8cf4c49014e14a0720968ae4b1c4b-0" aria-controls="collapse-2bc8cf4c49014e14a0720968ae4b1c4b-0" aria-expanded="false">
+                                    What is a VSQG Program?
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-2bc8cf4c49014e14a0720968ae4b1c4b-0" class="accordion-collapse collapse" data-bs-parent="#accordion-2bc8cf4c49014e14a0720968ae4b1c4b">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p>Businesses that generate no more than 220 pounds of hazardous waste or 2.2 pounds of acutely hazardous waste per month are &#34;Very Small Quantity Generators&#34; or VSQGs. These guidelines are set out in the Code of Federal Regulations 40 CFR 265.201.</p>
+<p>Typical VSQG businesses include:</p>
+<ul><li>Automotive repair/painting  </li><li>Dentists</li><li>Print shops</li><li>Beauty Salon</li><li>Dry cleaners</li><li>Property managers</li><li>Construction</li><li>Painters</li><li>Public Storage</li></ul>
+<p>The VSQG program in the TDEC-supported Household Hazardous Waste (HHW) Program allows qualifying generators to transport their hazardous wastes to any one of the mobile collection events scheduled throughout the State, or they can work directly with a hazardous waste disposal company for the proper management options.</p>
+
+    
+    
+
+</div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2bc8cf4c49014e14a0720968ae4b1c4b-1" aria-controls="collapse-2bc8cf4c49014e14a0720968ae4b1c4b-1" aria-expanded="false">
+                                    Typical Hazardous Wastes Include:
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-2bc8cf4c49014e14a0720968ae4b1c4b-1" class="accordion-collapse collapse" data-bs-parent="#accordion-2bc8cf4c49014e14a0720968ae4b1c4b">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <ul><li>Aerosols Mercury Pesticides</li><li>Batteries Cleaners Electronics</li><li>Gasoline/fuels, Motor oil/auto fluids, Oil Filters</li><li>Paint-related material</li><li>Photo Chemicals, Propane cylinders, Solvents</li><li>Thinners/varnish</li></ul>
+
+    
+    
+
+</div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2bc8cf4c49014e14a0720968ae4b1c4b-2" aria-controls="collapse-2bc8cf4c49014e14a0720968ae4b1c4b-2" aria-expanded="false">
+                                    Acutely Hazardous Wastes Include:
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-2bc8cf4c49014e14a0720968ae4b1c4b-2" class="accordion-collapse collapse" data-bs-parent="#accordion-2bc8cf4c49014e14a0720968ae4b1c4b">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <ul><li>Arsenic compounds</li><li>Cyanide compounds</li></ul>
+<p><a href="https://ehs.princeton.edu/sites/g/files/toruqf5671/files/P%20Listed%20Acutely%20Hazardous%20Wastes.pdf"><span class="icon-link-ext"></span>Full Acutely Hazardous Waste &#34;P&#34; List</a></p>
+
+    
+    
+
+</div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2bc8cf4c49014e14a0720968ae4b1c4b-3" aria-controls="collapse-2bc8cf4c49014e14a0720968ae4b1c4b-3" aria-expanded="false">
+                                    Unacceptable Wastes
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-2bc8cf4c49014e14a0720968ae4b1c4b-3" class="accordion-collapse collapse" data-bs-parent="#accordion-2bc8cf4c49014e14a0720968ae4b1c4b">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p>This program will not accept radioactive, biological, medical, or ammunition or explosive wastes.</p>
+
+    
+    
+
+</div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2bc8cf4c49014e14a0720968ae4b1c4b-4" aria-controls="collapse-2bc8cf4c49014e14a0720968ae4b1c4b-4" aria-expanded="false">
+                                    Schedule an Appointment For a Collection Near You
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-2bc8cf4c49014e14a0720968ae4b1c4b-4" class="accordion-collapse collapse" data-bs-parent="#accordion-2bc8cf4c49014e14a0720968ae4b1c4b">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p>To request a price quote and schedule an appointment, contact Clean Harbors Environmental Services at <span class="icon-mail"></span><a href="mailto:TNCESQG&#64;cleanharbors.com">TNCESQG&#64;cleanharbors.com</a><span style=""> or </span><span class="icon-mobile"></span><span style="">615-643-3170 with a waste inventory. Most VSQG collection appointments will be scheduled immediately following the HHW event ending time.</span></p>
+
+    
+    
+
+</div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2bc8cf4c49014e14a0720968ae4b1c4b-5" aria-controls="collapse-2bc8cf4c49014e14a0720968ae4b1c4b-5" aria-expanded="false">
+                                    What Documentation Is Required?
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-2bc8cf4c49014e14a0720968ae4b1c4b-5" class="accordion-collapse collapse" data-bs-parent="#accordion-2bc8cf4c49014e14a0720968ae4b1c4b">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <h2>Businesses will be required to provide the following information prior to scheduling an appointment.</h2>
+<p>• Name<br />
+• Address<br />
+• Contact person<br />
+• Phone number of the company.<br />
+• Estimate of volume and type of waste generated per month.<br />
+• Complete waste inventory being transported to the event.</p>
+
+    
+    
+
+</div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2bc8cf4c49014e14a0720968ae4b1c4b-6" aria-controls="collapse-2bc8cf4c49014e14a0720968ae4b1c4b-6" aria-expanded="false">
+                                    How Much Will It Cost?
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-2bc8cf4c49014e14a0720968ae4b1c4b-6" class="accordion-collapse collapse" data-bs-parent="#accordion-2bc8cf4c49014e14a0720968ae4b1c4b">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p>Disposal pricing is based on the type of material and is generally charged on a per-pound basis. A trained chemist will review your waste inventory and provide an estimated cost for disposal when your appointment is scheduled. All waste will be weighed upon delivery.</p>
+<p>Payment by check or credit card is due upon delivery.</p>
+
+    
+    
+
+</div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2bc8cf4c49014e14a0720968ae4b1c4b-7" aria-controls="collapse-2bc8cf4c49014e14a0720968ae4b1c4b-7" aria-expanded="false">
+                                    Packaging &amp; Transportation Instructions
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-2bc8cf4c49014e14a0720968ae4b1c4b-7" class="accordion-collapse collapse" data-bs-parent="#accordion-2bc8cf4c49014e14a0720968ae4b1c4b">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p>Leave waste in the original container if possible. Never commingle or consolidate waste items. Keep labels intact when possible. Provide MSDS or laboratory analysis, when available, with your waste inventory. Never transport damaged or leaking containers. <span style="	font-family: &#34;Open Sans&#34; , sans-serif;
+	color: rgb(50,50,50);
+">For safety, place all wastes in a trunk, pickup bed, or other ventilated area that is separate from passengers.</span></p>
+
+    
+    
+
+</div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+
+            
+        
+    </div>
+
+</div>
+
+
+</div>
+                    </div>
+                </div>
+            </div>
+        
+
+        <div style="clear:both;"></div>
+    
+
+</div>
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <h2><a id="archive" class="anchor"></a>Archive</h2>
+<p>This section contains presentations, reports, and other documents related to this project that were created and posted prior to the April 24, 2026, start date for the Title II Section 508, requiring government agencies to have all web content ADA-compliant, and are, as such, identified as archived. </p>
+
+    
+    
+
+</div>
+
+
+    
+    
+    <div class="tn-relatedcontent"><div class="panel">
+    <div class="title">Archived Documents</div>
+    <ul class="block-list">
+        
+        
+            <li>
+                <a href="/content/dam/tn/environment/solid-waste/archive/mm/sw_mm_spring-2025-hhw-mobile-collection-analysis.pdf" target="_blank">Spring 2025 HHW Collections Analysis</a>
+            </li>
+        
+            <li>
+                <a href="/content/dam/tn/environment/solid-waste/archive/mm/sw_mm_fall-2024_mobile-hhw-collection-analysis.pdf" target="_blank">Fall 2024 HHW Collections Analysis</a>
+            </li>
+        
+            <li>
+                <a href="/content/dam/tn/environment/solid-waste/archive/mm/sw_mm_spring-2024_mobile-hhw-analysis-report.pdf" target="_blank">Spring 2024 HHW Collections Analysis</a>
+            </li>
+        
+    </ul>
+</div>
+</div>
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <h2>Contacts</h2>
+
+    
+    
+
+</div>
+
+
+    
+    
+    <div class="columnctrl tn-columnctrl colctrl"><div>
+    <div class=" bgimg background-image-repeat" style="background-image: url();">
+        <div class="tn-col-ctrl container">
+            
+            <div class="row parsys_column tn-2cols">
+                
+                
+                    <div class="parsys_column column-1">
+                        <div>
+
+
+
+
+    
+    
+    <div class="tn-panel"><div class="panel">
+    <div>
+
+
+
+
+    
+    
+    <div class="tn-textandimage textimage parbase">
+
+
+
+<div class="textimage-top" style="float: initial;">
+<div  id="cq-image-jsp-/content/tn/environment/program-areas/solid-waste/materials-management/hhw-program/jcr:content/content/tn_columnctrl/column_parsys0/tn_panel_copy_copy/content/tn_textandimage_copy/image"><img src="/environment/program-areas/solid-waste/materials-management/hhw-program/_jcr_content/content/tn_columnctrl/column_parsys0/tn_panel_copy_copy/content/tn_textandimage_copy/image.img.jpg/1790097739414.jpg" alt="" title="Caleb Powell" class="cq-dd-image"></div>
+
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/tn\/environment\/program\u002Dareas\/solid\u002Dwaste\/materials\u002Dmanagement\/hhw\u002Dprogram\/jcr:content\/content\/tn_columnctrl\/column_parsys0\/tn_panel_copy_copy\/content\/tn_textandimage_copy\/image");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/tn/environment/stewardship/office-communications/opsp_staff-photos_2023/oes_staff-photos_kelsey-davis.jpg", imageTitle: "Caleb Powell" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "tncore\/components\/content\/tn\u002Dimage"})');
+        }
+        
+    })();
+</script>
+
+
+</div>
+<div class="textimage-text">
+    
+        <p><b>Kelsey Davis<br />
+ </b>Community Program Manager<br />
+Office of Environmental Stewardship </p>
+<p>615-532-0079<br />
+<a title="email Kelsey Davis" href="mailto:kelsey.davis&#64;tn.gov" target="_blank" rel="noopener noreferrer">kelsey.davis&#64;tn.gov</a></p>
+
+    
+    
+
+</div>
+
+
+<div class="clear"></div></div>
+
+
+</div>
+</div>
+</div>
+
+
+</div>
+                    </div>
+                
+                    <div class="parsys_column column-2">
+                        <div>
+
+
+
+
+    
+    
+    <div class="tn-panel"><div class="panel">
+    <div>
+
+
+
+
+    
+    
+    <div class="tn-textandimage textimage parbase">
+
+
+
+<div class="textimage-top" style="float: initial;">
+<div  id="cq-image-jsp-/content/tn/environment/program-areas/solid-waste/materials-management/hhw-program/jcr:content/content/tn_columnctrl/column_parsys1/tn_panel_copy_copy/content/tn_textandimage_copy/image"><img src="/environment/program-areas/solid-waste/materials-management/hhw-program/_jcr_content/content/tn_columnctrl/column_parsys1/tn_panel_copy_copy/content/tn_textandimage_copy/image.img.png/1790097776344.png" alt="" title="Caleb Powell" class="cq-dd-image"></div>
+
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/tn\/environment\/program\u002Dareas\/solid\u002Dwaste\/materials\u002Dmanagement\/hhw\u002Dprogram\/jcr:content\/content\/tn_columnctrl\/column_parsys1\/tn_panel_copy_copy\/content\/tn_textandimage_copy\/image");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/tn/environment/stewardship/office-communications/opsp_staff-photos_2023/oes_staff-photos_paul-pleiman.png", imageTitle: "Caleb Powell" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "tncore\/components\/content\/tn\u002Dimage"})');
+        }
+        
+    })();
+</script>
+
+
+</div>
+<div class="textimage-text">
+    
+        <p><b>Paul Pleiman<br />
+ </b>Environmental Consultant<br />
+ Office of Environmental Stewardship </p>
+<p>615-829-3698<br />
+<a title="email Paul Pleiman" href="mailto:paul.pleiman&#64;tn.gov" target="_blank" rel="noopener noreferrer">paul.pleiman&#64;tn.gov</a></p>
+
+    
+    
+
+</div>
+
+
+<div class="clear"></div></div>
+
+
+</div>
+</div>
+</div>
+
+
+</div>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+</div>
+
+                <div class="tn-lastupdated">
+    <div role="region" aria-label="Page Last Updated Section">
+        <p class="text-right"><span class="fst-italic">This Page Last Updated: September 22, 2026 at 12:30 PM</span></p>
+    </div>
+</div>
+            </article>
+        </div>
+    </div>
+</div>
+
+        <div class="tn-backtotop"><a href="#header-logo" class="page-top icon-up" aria-label="Go back to the top of the page"></a></div>
+
+        
+
+        
+
+        <noindex>
+            <div>
+    <div>
+
+
+
+
+    
+        
+        
+        <div class="newpar new section">
+
+</div>
+
+    
+        
+        
+        <div class="par iparys_inherited">
+
+    
+    
+    
+    
+
+</div>
+
+    
+
+</div>
+    <footer>
+        <div>
+
+
+
+
+    
+        
+        
+        <div class="newpar new section">
+
+</div>
+
+    
+        
+        
+        <div class="par iparys_inherited">
+
+    
+    
+    
+    
+        
+        
+        <div class="tn-socialmediafooter"><div class="tn-socialmediabarfooter" role="navigation" aria-label="Social Media Links">
+    <div class="social">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 columns">
+                <ul class="inline-list">
+                    <li>
+                        <div class="title">Social Media</div>
+                    </li>
+                    
+                        
+                            <li><a href="https://www.facebook.com/TNEnvironment" class="icon-facebook" target="_blank"><span>facebook</span></a></li>
+                        
+                    
+                        
+                    
+                        
+                            <li><a href="https://www.youtube.com/user/TNEnvironment" class="icon-youtube" target="_blank"><span>youtube</span></a></li>
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                            <li><a href="https://www.linkedin.com/company/tennessee-department-of-environment-and-conservation/" class="icon-linkedin" target="_blank"><span>linkedin</span></a></li>
+                        
+                    
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</div></div>
+
+    
+        
+        
+        <div class="secondaryfooter tn-secondaryfooter"><section id="agency-footer">
+    <div class="row">
+        
+            <div class="col-md-15 col-sm-15 columns">
+                <div class="title border-darkblue" id="agency-footer-col-0">
+                    Programs
+                </div>
+                <button data-bs-toggle="collapse" data-bs-target="#footer-list-0" class="menu-expand-anchor" type="button" aria-expanded="false" aria-controls="collapseExample" aria-label="Programs Submenu">
+                    <span class="icon-angle-down menu-expand"></span>
+                </button>
+                <ul class="block-list" aria-labelledby="agency-footer-col-0" id="footer-list-0">
+                   <li>
+                       <a href="/environment/air.html" aria-label="Air" title="Air">Air</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/stewardship.html" aria-label="Environmental Stewardship" title="Environmental Stewardship">Environmental Stewardship</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/program-areas/solid-waste.html" aria-label="Solid Waste" title="Solid Waste">Solid Waste</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/ust.html" aria-label="Underground Storage Tanks" title="Underground Storage Tanks">Underground Storage Tanks</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/program-areas/wr-water-resources.html" aria-label="Water" title="Water">Water</a>
+                   </li>
+                </ul>
+            </div>
+        
+            <div class="col-md-15 col-sm-15 columns">
+                <div class="title border-darkblue" id="agency-footer-col-1">
+                    Resources
+                </div>
+                <button data-bs-toggle="collapse" data-bs-target="#footer-list-1" class="menu-expand-anchor" type="button" aria-expanded="false" aria-controls="collapseExample" aria-label="Resources Submenu">
+                    <span class="icon-angle-down menu-expand"></span>
+                </button>
+                <ul class="block-list" aria-labelledby="agency-footer-col-1" id="footer-list-1">
+                   <li>
+                       <a href="/environment/accessibility.html" target="_blank" aria-label="Accessibility" title="Accessibility">Accessibility</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/about-tdec/tdec-dataviewers.html" aria-label="Dataviewers" title="Dataviewers">Dataviewers</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/about-tdec/employment-and-internships.html" aria-label="Employment and Internships" title="Employment and Internships">Employment and Internships</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/about-tdec/enforcement-orders.html" aria-label="Enforcement Orders" title="Enforcement Orders">Enforcement Orders</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/about-tdec/grants.html" aria-label="Grants" title="Grants">Grants</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/nondiscrimination.html" aria-label="Non-Discrimination" title="Non-Discrimination">Non-Discrimination</a>
+                   </li>
+                </ul>
+            </div>
+        
+            <div class="col-md-15 col-sm-15 columns">
+                <div class="title border-darkblue" id="agency-footer-col-2">
+                    Featured Links
+                </div>
+                <button data-bs-toggle="collapse" data-bs-target="#footer-list-2" class="menu-expand-anchor" type="button" aria-expanded="false" aria-controls="collapseExample" aria-label="Featured Links Submenu">
+                    <span class="icon-angle-down menu-expand"></span>
+                </button>
+                <ul class="block-list" aria-labelledby="agency-footer-col-2" id="footer-list-2">
+                   <li>
+                       <a href="/environment/about-tdec/tdec-annual-reports.html" aria-label="TDEC Annual Reports" title="TDEC Annual Reports">TDEC Annual Reports</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/contacts/field-offices.html" aria-label="Field Offices" title="Field Offices">Field Offices</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/natural-areas.html" aria-label="Natural Areas" title="Natural Areas">Natural Areas</a>
+                   </li>
+                
+                   <li>
+                       <a href="https://tnstateparks.com/" target="_blank" aria-label="State Parks" title="State Parks">State Parks</a>
+                   </li>
+                
+                   <li>
+                       <a href="https://tnstateparks.com/conservationist" target="_blank" aria-label="The Tennessee Conservationist" title="The Tennessee Conservationist">The Tennessee Conservationist</a>
+                   </li>
+                </ul>
+            </div>
+        
+            <div class="col-md-15 col-sm-15 columns">
+                <div class="title border-darkblue" id="agency-footer-col-3">
+                    Partner Links
+                </div>
+                <button data-bs-toggle="collapse" data-bs-target="#footer-list-3" class="menu-expand-anchor" type="button" aria-expanded="false" aria-controls="collapseExample" aria-label="Partner Links Submenu">
+                    <span class="icon-angle-down menu-expand"></span>
+                </button>
+                <ul class="block-list" aria-labelledby="agency-footer-col-3" id="footer-list-3">
+                   <li>
+                       <a href="/historicalcommission.html" target="_blank" aria-label="TN Historical Commission" title="TN Historical Commission">TN Historical Commission</a>
+                   </li>
+                
+                   <li>
+                       <a href="https://www.tnvacation.com/green" target="_blank" aria-label="Sustainable Tourism" title="Sustainable Tourism">Sustainable Tourism</a>
+                   </li>
+                
+                   <li>
+                       <a href="https://www.collegefortn.org/tnpromise/" target="_blank" aria-label="TN Promise" title="TN Promise">TN Promise</a>
+                   </li>
+                
+                   <li>
+                       <a href="https://www.epa.gov/" target="_blank" aria-label="U.S. EPA" title="U.S. EPA">U.S. EPA</a>
+                   </li>
+                </ul>
+            </div>
+        
+        
+        <div class="col-md-15 col-sm-15 columns last">
+            <div class="contact">
+                
+                    <strong>
+                        Department of Environment &amp; Conservation<br/>
+                    </strong>
+                    
+                        David W. Salyers, P.E., P.G.<br/>
+                    
+                    <br/>
+                
+                
+                    <address>
+                        Davy Crockett Tower<br/>
+                        500 James Robertson Parkway<br/>
+                        Nashville, TN 37243<br/>
+
+                        (888) 891-TDEC (8332)<br/>
+                        
+                        
+                    </address>
+                
+                
+                    <a href="/environment/contacts/ask-tdec-questions.html" aria-label="Email Questions to TDEC" title="Email Questions to TDEC">
+                        Email Questions to TDEC
+                    </a>
+                
+            </div>
+            <div>
+                
+                    
+                    
+
+                    <img src="/etc/clientlibs/tncore/main/img/tn-seal.png" alt=""/>
+                
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+
+    
+
+</div>
+
+    
+
+</div>
+        <div>
+
+
+
+
+    
+        
+        
+        <div class="newpar new section">
+
+</div>
+
+    
+        
+        
+        <div class="par iparys_inherited">
+
+    
+    
+    
+    
+        
+        
+        <div class="tn-footer parbase"> <section id="footer">
+    <div id="footer-top">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 columns">
+                <ul class="inline-list">
+                    <li>
+                        <a href="/about-tn/flag-status.html" class="icon-flag" data-resource-path="/_jcr_content/footer/tn_footer" aria-label="Flag Status" title="Flag Status">Flag Status
+                        </a>
+                    </li>
+
+                    <li id="footer-livechat" class="offline">
+                        <a href="#" class="icon-chat" onclick="openFooterChat()" aria-label="Open Chat" title="Open Chat">
+                            Chat
+                        </a>
+
+                        <div class="livechat">
+                            <script>
+                                function openFooterChat() {
+                                    window.open(
+                                        "https://help.tn.gov/sn_customerservice_tn_chat_selector.do",
+                                        "popup",
+                                        "width=900, height=600"
+                                    );
+                                };
+                            </script>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 columns text-right">
+                <ul class="inline-list">
+                    <li>
+                        <a href="/help.html" class="icon-help-circled" aria-label="Help" title="Help">
+                            Help
+                        </a>
+                    </li>
+
+                    <li id="footer-translate">
+                        <a href="#" aria-label="Translate" aria-controls="#translate-box" aria-expanded="false" title="Translate" class="icon-book">
+                            Translate
+                        </a>
+                        <div class="drop right" id="translate-box">
+                            <div class="box">
+                                <div id="google_translate_element"></div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li id="footer-fontsize">
+                        <a href="#" aria-label="Font Size" aria-controls="#font-size-box" aria-expanded="false" title="Font Size" class="icon-font">
+                            Font Size
+                        </a>
+
+                        <div class="drop right" id="font-size-box">
+                            <div class="box">
+                                <ul class="inline-list">
+                                    <li>
+                                        <button class="button" aria-label="Decrease font size" aria-current="false" data-font-size="small">a-</button>
+                                    </li>
+                                    <li>
+                                        <button class="button active" aria-label="Reset font size" aria-current="true" data-font-size="normal">Normal</button>
+                                    </li>
+                                    <li>
+                                        <button class="button" aria-label="Increase font size" aria-current="false" data-font-size="large">A+</button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <span class="starball">
+            <img src="/etc/clientlibs/tncore/main/img/footer-starball.png" alt="" width="100%"/>
+        </span>
+    </div>
+
+    <div id="footer-bottom">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 columns">
+                <ul class="inline-list">
+                    <li>
+                         <a href="https://www.tn.gov/state-services.html" class="first" aria-label="TN.gov Services" title="TN.gov Services">
+                             TN.gov Services
+                         </a>
+                    
+                         <a href="https://www.tn.gov/directory.html" aria-label="TN.gov Directory" title="TN.gov Directory">
+                             TN.gov Directory
+                         </a>
+                    
+                         <a href="https://www.tn.gov/transparenttn.html" aria-label="Transparent TN" title="Transparent TN">
+                             Transparent TN
+                         </a>
+                    
+                         <a href="https://www.tn.gov/web-policies/privacy-statement.html" aria-label="Web Policies" title="Web Policies">
+                             Web Policies
+                         </a>
+                    
+                         <a href="https://www.tn.gov/mytn.html" aria-label="Mobile App" title="Mobile App">
+                             Mobile App
+                         </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 columns text-right">
+                <ul class="inline-list">
+                    <li>
+                        <a href="https://www.tn.gov/about-tn/state-symbols.html" aria-label="About Tennessee" title="About Tennessee">
+                            About Tennessee
+                        </a>
+                    
+                        <a href="https://www.tn.gov/hr/title-vi/title-vi-disclaimer.html" target="_blank" aria-label="Title VI" title="Title VI">
+                            Title VI
+                        </a>
+                    
+                        <a href="https://www.tn.gov/web-policies/accessibility.html" aria-label="Accessibility" title="Accessibility">
+                            Accessibility
+                        </a>
+                    
+                        <a href="https://www.tn.gov/help.html" aria-label="Help &amp; Contact" title="Help &amp; Contact">
+                            Help &amp; Contact
+                        </a>
+                    
+                        <a href="https://www.tn.gov/survey.html" aria-label="Survey" title="Survey">
+                            Survey
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="modal-footer"></div>
+</div>
+
+    
+        
+        
+        <div class="tn-freestyledialog">
+    <script>!function(s,a,e,v,n,t,z){if(s.saq)return;n=s.saq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!s._saq)s._saq=n;n.push=n;n.loaded=!0;n.version='1.0';n.queue=[];t=a.createElement(e);t.async=!0;t.src=v;z=a.getElementsByTagName(e)[0];z.parentNode.insertBefore(t,z)}(window,document,'script','https://tags.srv.stackadapt.com/events.js');saq('ts', '4xBwuaJ6r7lc5Mwk742YVA');</script>
+
+
+
+<!--BEGIN QUALTRICS WEBSITE FEEDBACK SNIPPET-->
+
+<script type='text/javascript'>
+
+(function(){var g=function(g){
+
+this.go=function(){var a=document.createElement("script");a.type="text/javascript";a.src=g;document.body&&document.body.appendChild(a)};
+
+this.start=function(){var t=this;"complete"!==document.readyState?window.addEventListener?window.addEventListener("load",function(){t.go()},!1):window.attachEvent&&window.attachEvent("onload",function(){t.go()}):t.go()};};
+
+try{(new g("https://znwbewebwkp6zwxpl-tngov.gov1.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_WBewebwKP6ZwxpL")).start()}catch(i){}})();
+
+</script><div id='ZN_WBewebwKP6ZwxpL'><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div>
+
+<!--END WEBSITE FEEDBACK SNIPPET-->
+
+</div>
+
+    
+
+</div>
+
+    
+
+</div>
+    </footer>
+
+</div>
+            
+
+    
+<script src="/etc/clientlibs/tncore/main.min.5f18b486157a56c1f7aa6b7a8f0feef8.js"></script>
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+        </noindex>
+
+        <div id="overlay"></div>
+
+<!-- Begin Dynamic Modal for Videos -->
+<div class="tn-videoModal modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <a href="#" data-bs-dismiss="modal" class="close-video icon-cancel text-button">Close</a>
+                <div class="videoWrapper">
+                    <iframe title="Video"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Dynamic Modal for Videos -->
+
+    </body>
+</html>

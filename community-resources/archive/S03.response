@@ -1,0 +1,3529 @@
+<!doctype html>
+<html class="no-js tn-html" lang="en">
+    <head>
+        <title>Tennessee Clean (TN Clean)</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        
+        
+            <meta name="description" content="TN Clean is a state-funded initiative managed by the Division of Remediation to remediate non-NPL sites on the Tennessee GASB 49 list."/>
+        
+        
+            <meta name="url" content="https://www.tn.gov/environment/program-areas/rem-remediation/tnclean.html"/>
+        
+        
+            <meta name="lastModified" content="1 Jul 2026 14:31:12 CDT"/>
+        
+        
+        
+            <meta name="pageDepartment" content="environment"/>
+        
+        
+            <meta name="pageDivision" content="program-areas"/>
+        
+        
+        
+        
+        
+            <meta name="pagePath" content="/content/tn/environment/program-areas/rem-remediation/tnclean"/>
+        
+        
+
+        
+
+        
+            <meta property="og:title" content="Tennessee Clean (TN Clean)"/>
+        
+        
+            <meta property="og:description" content="TN Clean is a state-funded initiative managed by the Division of Remediation to remediate non-NPL sites on the Tennessee GASB 49 list."/>
+        
+        
+            <meta property="og:url" content="https://www.tn.gov/environment/program-areas/rem-remediation/tnclean.html"/>
+        
+        
+
+            <meta name="twitter:card" content="summary_large_image"/>
+        
+            <meta name="twitter:title" content="Tennessee Clean (TN Clean)"/>
+        
+        
+            <meta name="twitter:description" content="TN Clean is a state-funded initiative managed by the Division of Remediation to remediate non-NPL sites on the Tennessee GASB 49 list."/>
+        
+        
+            <meta name="twitter:url" content="https://www.tn.gov/environment/program-areas/rem-remediation/tnclean.html"/>
+        
+        
+
+        
+
+        <link rel="shortcut icon" href="/etc/clientlibs/tncore/main/img/favicon.ico"/>
+
+        <link rel="canonical" href="https://www.tn.gov/environment/program-areas/rem-remediation/tnclean.html"/>
+
+        <!-- DTM Analytics Datalayer -->
+
+        <script>
+
+
+            var digitalData = {
+                page: {
+                    pageInfo: {
+                        pageName: "environment:program-areas:rem-remediation:tnclean",
+                        securePage: "false",
+                        sysEnv: "Desktop",
+                        deptName: "environment",
+                        siteSection: "program-areas",
+                        siteSubSection: "rem-remediation",
+                        pageType:"",
+                        rsidValue: "oirtn"
+
+                    }
+                }
+            };
+        </script>
+
+        <script src="//assets.adobedtm.com/f213d7ed4603/b5fbb0638724/launch-5b3fa8e23e9e.min.js" async></script>
+
+        
+        
+    
+<link rel="stylesheet" href="/etc/clientlibs/tncore/main.min.f53b1cb66edbbb1f9264be1e283b69a9.css" type="text/css">
+
+
+
+        
+            
+    
+<link rel="stylesheet" href="/etc/clientlibs/tn-sites/tngov.min.a18e62a3f815b11550a3feee90159096.css" type="text/css">
+
+
+
+        
+
+        
+
+        
+
+
+
+
+
+
+
+
+        
+
+        
+    </head>
+    <body class="tngov  " data-selectors='[]' data-template="leftNav">
+        <a class="visually-hidden-focusable skip-to-main" href="#main">Skip to Main Content</a>
+
+        <noindex>
+            <div>
+
+    
+
+</div>
+            <div><header id="header">
+	
+		<div>
+
+
+
+
+    
+        
+        
+        <div class="newpar new section">
+
+</div>
+
+    
+        
+        
+        <div class="par iparys_inherited">
+
+    
+    
+    
+    
+        
+        
+        <div class="tn-headercoveo">
+    <div class="container">
+        <div class="row center-block top-nav">
+            <div class="col-auto me-auto">
+                <a class="logo" id="header-logo" href="https://www.tn.gov/" data-logo="state-government" style="background-image: url('/etc/clientlibs/tncore/main/img/logos/tn-logo.png')" aria-label="View home page">
+                </a>
+            </div>
+            <div class="col-auto">
+                <a class="search-all icon-home-1 text-right" href="https://www.tn.gov/">Go to TN.gov</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row center-block agency">
+        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 columns title">
+            <a href="https://www.tn.gov/environment.html">
+                <img src="/content/dam/headers/environment.png" alt="Tennessee State Government, Environment and Conservation logo" id="entity-name" data-pin-nopin="true"/>
+            </a>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 columns text-right">
+            <div class="tn-headersearchcoveo">
+
+<div>
+
+<script type="module" src="https://static.cloud.coveo.com/atomic/v2.42/atomic.esm.js">
+</script>
+<script type="module">
+
+import {loadContextActions, buildTab} from 'https://static.cloud.coveo.com/atomic/v2.42/headless/headless.esm.js';
+
+(async () => {
+
+    const searchHubStripped = "TNGov".trim();
+    const context = {};
+    context.userdiv = "";
+    context.userdept = "environment";
+
+    await customElements.whenDefined('atomic-search-interface');
+    const searchInterface = document.querySelector('#searchbox');
+    searchInterface.setAttribute('search-hub', searchHubStripped);
+
+    //Adding for Context to be used for Query Suggestions
+    const preProcessQuerySuggestionsRequest = (request) => {
+        if (context.userdiv) {
+            const body = JSON.parse(request.body);
+            body.mlParameters = {
+                filters: {
+                    c_context_userdept: context.userdept,
+                    c_context_userdiv: context.userdiv
+                }
+            };
+            request.body = JSON.stringify(body);
+        } else if (context.userdept) {
+            const body = JSON.parse(request.body);
+            body.mlParameters = {
+                filters: {
+                    c_context_userdept: context.userdept
+                }
+            };
+            request.body = JSON.stringify(body);
+        }
+        return request;
+    };
+
+    const orgId = "tennesseestategovernmentproduction6po4m5b2".trim();
+
+    await searchInterface.initialize({
+        accessToken: "eyJhbGciOiJIUzI1NiJ9.eyJzZWFyY2hIdWIiOiJUTkdvdiIsInY4Ijp0cnVlLCJ0b2tlbklkIjoidXdzZDRqeXltYWVnYXh2ZTJoY2RvcGNsdXkiLCJvcmdhbml6YXRpb24iOiJ0ZW5uZXNzZWVzdGF0ZWdvdmVybm1lbnRwcm9kdWN0aW9uNnBvNG01YjIiLCJ1c2VySWRzIjpbeyJ0eXBlIjoiVXNlciIsIm5hbWUiOiJhbm9ueW1vdXNfdXNlckBhbm9ueW1vdXMuY292ZW8uY29tIiwicHJvdmlkZXIiOiJFbWFpbCBTZWN1cml0eSBQcm92aWRlciJ9XSwicm9sZXMiOlsicXVlcnlFeGVjdXRvciJdLCJpc3MiOiJTZWFyY2hBcGkiLCJleHAiOjE3OTExOTU3MzEsImlhdCI6MTc5MTEwOTMzMX0.muBgEKpmeNMB-dq6FQPjjBt8z2dXwQByGAKU2w0bkrE".trim(),
+        organizationId: orgId,
+        organizationEndpoints: await searchInterface.getOrganizationEndpoints(orgId),
+        renewAccessToken: function() {
+            location.reload();
+        },
+        preprocessRequest: (request) => {
+            if (request.url.indexOf('querySuggest') >= 0) {
+                return preProcessQuerySuggestionsRequest(request);
+            }
+            return request;
+        }
+    });
+
+    searchInterface.i18n.addResourceBundle('en', 'translation', {
+        search: "Search Environment".trim(),
+    });
+
+    const engine = searchInterface.engine;
+    engine.dispatch(loadContextActions(engine).setContext(context));
+})();
+</script>
+
+<atomic-search-interface id="searchbox">
+  <atomic-search-box clear-filters="false" redirection-url="/environment/search-results.html" .trim()>
+
+    <atomic-search-box-recent-queries max-with-query="0" max-without-query="4">
+    </atomic-search-box-recent-queries>
+
+    <atomic-search-box-query-suggestions>
+    </atomic-search-box-query-suggestions>
+
+  </atomic-search-box>
+</atomic-search-interface>
+</div>
+
+</div>
+        </div>
+    </div>
+
+    <div class="backdrop" style="background-image:url(/content/dam/headers/test.jpg)"></div>
+    
+
+</div>
+
+    
+
+</div>
+
+    
+
+</div>
+	
+
+	<div class="tn-topnav" aria-label="Navigation Menu"><nav id="nav" role="navigation" aria-label="Main">
+    <div class="row center-block">
+        <div class="col-lg-12">
+            <div class="logo-small tn-logo">
+                <a href="https://www.tn.gov/" aria-label="Go to TN.gov" class="focus-visible-style">
+                    <span class="visually-hidden">Go to TN.gov</span>
+                </a>
+            </div>
+
+            <div class="mobile-show icon-menu mobile-menu focus-visible-style" role="button" tabindex="0" aria-label="Open navigation menu">
+                Section
+            </div>
+            <ul class="inline-list nav-items">
+                <li>
+                    <a href="https://www.tn.gov/environment.html" class="icon-home" aria-label="Go to TN.gov">
+                        <span class="visually-hidden">Go to Environment &amp; Conservation (TDEC)</span>
+                    </a>
+                </li>
+                
+                
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/program-areas.html">Program Areas
+                        <span role="button" tabindex="0" aria-label="Program Areas submenu" aria-expanded="false" aria-controls="dropdown-1" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="Program Areas submenu" aria-expanded="false" aria-controls="dropdown-1" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-1">
+                        <li><a href="/environment/program-areas/recycling-markets.html">Recycling Markets</a></li>
+                    
+                        <li><a href="/environment/program-areas/air-pollution-control.html">Air</a></li>
+                    
+                        <li><a href="/environment/program-areas/archaeology.html">Archaeology</a></li>
+                    
+                        <li><a href="/environment/program-areas/conservation.html">Bureau of Conservation</a></li>
+                    
+                        <li><a href="/environment/program-areas/energy.html">Energy</a></li>
+                    
+                        <li><a href="/environment/program-areas/stewardship.html">Environmental Stewardship</a></li>
+                    
+                        <li><a href="/environment/program-areas/geology.html">Tennessee Geological Survey</a></li>
+                    
+                        <li><a href="/environment/program-areas/mineral-geologic-resources.html">Mineral &amp; Geologic Resources</a></li>
+                    
+                        <li><a href="/environment/program-areas/na-natural-areas.html">Natural Areas</a></li>
+                    
+                        <li><a href="/environment/program-areas/outdoor-recreation.html">Outdoor Recreation</a></li>
+                    
+                        <li><a href="/environment/program-areas/policy-planning.html">Policy &amp; Planning</a></li>
+                    
+                        <li><a href="/environment/program-areas/radiological-health.html">Radiological Health</a></li>
+                    
+                        <li><a href="/environment/program-areas/rem-remediation.html">Remediation Branch</a></li>
+                    
+                        <li><a href="/environment/program-areas/small-business-environmental-assistance.html">Small Business Environmental Assistance</a></li>
+                    
+                        <li><a href="/environment/program-areas/solid-waste.html">Waste Management Branch</a></li>
+                    
+                        <li><a href="/environment/program-areas/underground-storage-tanks.html">Underground Storage Tanks</a></li>
+                    
+                        <li><a href="/environment/program-areas/wr-water-resources.html">Water </a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/permits.html">Permitting
+                        <span role="button" tabindex="0" aria-label="Permitting submenu" aria-expanded="false" aria-controls="dropdown-2" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="Permitting submenu" aria-expanded="false" aria-controls="dropdown-2" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-2">
+                        <li><a href="/environment/permits/air.html">Air Permits</a></li>
+                    
+                        <li><a href="/environment/permits/archaeology.html">Archaeology Permit</a></li>
+                    
+                        <li><a href="/environment/permits/mineral-geologic.html">Mineral &amp; Geologic Resources Permits</a></li>
+                    
+                        <li><a href="/environment/permits/natural-areas.html">Natural Areas License and Permits</a></li>
+                    
+                        <li><a href="/environment/permits/radiological-health.html">Radiological Health Licenses and Registrations</a></li>
+                    
+                        <li><a href="/environment/permits/waste.html">Waste Permits</a></li>
+                    
+                        <li><a href="/environment/permits/water.html">Water Permits</a></li>
+                    
+                        <li><a href="/environment/permits/other.html">Other Permits</a></li>
+                    
+                        <li><a href="/environment/permits/efficiency-reports.html">Efficiency Reports</a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/ppo.html">Public Participation
+                        <span role="button" tabindex="0" aria-label="Public Participation submenu" aria-expanded="false" aria-controls="dropdown-3" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="Public Participation submenu" aria-expanded="false" aria-controls="dropdown-3" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-3">
+                        <li><a href="/environment/ppo/air.html">Air Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/energy.html">Energy Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/dmgr.html">Mineral &amp; Geologic Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/natural-areas.html">Natural Areas Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/radiation.html">Radiation Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/remediation.html">Remediation Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/parks.html">TN State Parks Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/ust.html">UST Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/waste.html">Waste Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/water.html">Water Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/general.html">TDEC General Notices</a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/about-tdec.html">About
+                        <span role="button" tabindex="0" aria-label="About submenu" aria-expanded="false" aria-controls="dropdown-4" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="About submenu" aria-expanded="false" aria-controls="dropdown-4" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-4">
+                        <li><a href="/environment/about-tdec/communications.html">Communications</a></li>
+                    
+                        <li><a href="/environment/about-tdec/leadership.html">Leadership</a></li>
+                    
+                        <li><a href="/environment/about-tdec/stakeholder.html">Stakeholder Engagement</a></li>
+                    
+                        <li><a href="/environment/about-tdec/external-affairs.html">External Affairs</a></li>
+                    
+                        <li><a href="/environment/about-tdec/boards-and-commissions.html">Boards &amp; Commissions</a></li>
+                    
+                        <li><a href="/environment/about-tdec/financial-assurance.html">Financial Assurance</a></li>
+                    
+                        <li><a href="/environment/about-tdec/grants.html">Grants</a></li>
+                    
+                        <li><a href="/environment/about-tdec/policies.html">Department Policies</a></li>
+                    
+                        <li><a href="/environment/about-tdec/vendor-opportunities.html">Vendor Opportunities</a></li>
+                    
+                        <li><a href="/environment/about-tdec/employment-and-internships.html">Employment &amp; Internships</a></li>
+                    
+                        <li><a href="/environment/about-tdec/tdec-annual-reports.html">TDEC Annual Reports</a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/contacts.html">Contact
+                        <span role="button" tabindex="0" aria-label="Contact submenu" aria-expanded="false" aria-controls="dropdown-5" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="Contact submenu" aria-expanded="false" aria-controls="dropdown-5" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-5">
+                        <li><a href="/environment/contacts/field-offices.html">Field Offices</a></li>
+                    
+                        <li><a href="/environment/contacts/ask-tdec-questions.html">Ask TDEC Questions</a></li>
+                    
+                        <li><a href="/environment/contacts/public-records-request.html">Public Records Request</a></li>
+                    
+                        <li><a href="/environment/contacts/customer-service-survey.html">Customer Service Survey</a></li>
+                    
+                        <li><a href="/environment/contacts/language-assistance.html">Language Assistance</a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                
+                <li>
+                    <a href="/environment/calendar-of-events.html">Calendar of Events</a>
+                </li>
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/arp.html">American Rescue Plan (ARP)
+                        <span role="button" tabindex="0" aria-label="American Rescue Plan (ARP) submenu" aria-expanded="false" aria-controls="dropdown-7" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="American Rescue Plan (ARP) submenu" aria-expanded="false" aria-controls="dropdown-7" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-7">
+                        <li><a href="/environment/arp/arp-success-stories.html">Success Stories</a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                
+                <li>
+                    <a href="/environment/news.html">TDEC Newsroom</a>
+                </li>
+            </ul>
+            <div class="right primary-print">
+                <a href="javascript:window.print();" class="icon-print" aria-label="Print This Page">
+                    <span class="visually-hidden">Print This Page</span>
+                </a>
+            </div>
+            <div class="right secondary-print">
+                <a href="javascript:window.print();" class="icon-print" aria-label="Print This Page">
+                    <span class="visually-hidden">Print This Page</span>
+                </a>
+            </div>
+            <div class="right secondary-search">
+                <a class="icon-search" href="javascript:;">
+                    <span class="visually-hidden">Go to Search</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="config hidden" data-config='{&#34;closeMenuText&#34;:&#34;Close Menu&#34;,&#34;menuText&#34;:&#34;Section&#34;}'></div>
+</nav>
+</div>
+</header></div>
+            <section aria-label="Alerts">
+    
+        
+
+        
+            
+            <div class="tn-alerts">
+    
+    
+        
+    
+    
+    <div class="entity-alert text-center" role="status">
+        <a href="/environment.html">
+            <span class="icon-info"></span>
+            We are reorganizing pages for a better experience. We appreciate your patience!
+        </a>
+    </div>
+
+    
+    
+
+</div>
+
+        
+    
+</section>
+
+            
+        </noindex>
+
+        <div id="main" tabindex="-1" role="main">
+    <div class="row center-block leftnav-template">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div class="template-left-nav tn-leftnav">            
+                
+    <nav class="side expander" aria-label="Left Navigation">
+        <div class="border-red title">
+            <a href="/environment/program-areas/rem-remediation.html">Remediation Branch</a>
+        </div>
+
+        <ul class="block-list">
+            
+                <li>
+                    <a href="/environment/program-areas/rem-remediation/orr.html" class="title-link">Oak Ridge Reservation (ORR)</a>
+
+                    
+                        <button class="btn dropdown-toggle collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#leftnav-collapse-0" aria-label="Oak Ridge Reservation (ORR) submenu navigation" aria-expanded="false" aria-controls="leftnav-collapse-0">
+                        </button>
+
+                        <ul class="collapse " id="leftnav-collapse-0">
+                            <li>
+                                <a href="/environment/program-areas/rem-remediation/orr/facts.html">Facts</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/rem-remediation/orr/emdf.html">Environmental Management Disposal Facility</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/rem-remediation/orr/reports.html">Environmental Monitoring</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/rem-remediation/orr/community.html">How can I get involved?</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/rem-remediation/orr/nrdar.html">Natural Resources Damage Assessment and Restoration (NRDAR)</a>
+                            </li>
+                        </ul>
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/rem-remediation/grants-resources.html" class="title-link">Brownfield Grants and Resources</a>
+
+                    
+                        <button class="btn dropdown-toggle collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#leftnav-collapse-1" aria-label="Brownfield Grants and Resources submenu navigation" aria-expanded="false" aria-controls="leftnav-collapse-1">
+                        </button>
+
+                        <ul class="collapse " id="leftnav-collapse-1">
+                            <li>
+                                <a href="/environment/program-areas/rem-remediation/grants-resources/federal-brownfields-grant-assistance.html">Brownfields Federal Grant Assistance</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/rem-remediation/grants-resources/bf-resources.html">Brownfield Resources</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/rem-remediation/grants-resources/brag.html">Brownfield Redevelopment Area Grant (BRAG)</a>
+                            </li>
+                        </ul>
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/rem-remediation/voap.html" class="title-link">Brownfield VOAP</a>
+
+                    
+                        <button class="btn dropdown-toggle collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#leftnav-collapse-2" aria-label="Brownfield VOAP submenu navigation" aria-expanded="false" aria-controls="leftnav-collapse-2">
+                        </button>
+
+                        <ul class="collapse " id="leftnav-collapse-2">
+                            <li>
+                                <a href="/environment/program-areas/rem-remediation/voap/is-property-contaminated.html">Is My Property Contaminated?</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/rem-remediation/voap/who-participate.html">Who can participate in VOAP?</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/rem-remediation/voap/address-project-voap.html">Addressing a Project Under VOAP</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/rem-remediation/voap/resources.html">Resources</a>
+                            </li>
+                        </ul>
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/rem-remediation/meth.html" class="title-link">Meth Contamination</a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/rem-remediation/drycleaning.html" class="title-link">Drycleaning</a>
+
+                    
+                        <button class="btn dropdown-toggle collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#leftnav-collapse-4" aria-label="Drycleaning submenu navigation" aria-expanded="false" aria-controls="leftnav-collapse-4">
+                        </button>
+
+                        <ul class="collapse " id="leftnav-collapse-4">
+                            <li>
+                                <a href="/environment/program-areas/rem-remediation/drycleaning/active-drycleaners.html">Active Drycleaners</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/rem-remediation/drycleaning/drycleaner-cleanup.html">Cleanup of Contaminated Drycleaner Sites</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/rem-remediation/drycleaning/solvent-suppliers.html">Drycleaning Solvent Suppliers</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/rem-remediation/drycleaning/dcac.html">Drycleaner Approved Contractors</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/rem-remediation/drycleaning/dcerp-fees-forms.html">Current Fees and Forms for Drycleaners</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/rem-remediation/drycleaning/dcerp-bmp.html">Best Management Practices</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/rem-remediation/drycleaning/back-to-drycleaners.html">&lt; Back to Drycleaners</a>
+                            </li>
+                        </ul>
+                    
+                </li>
+            
+                <li class="active">
+                    <a href="/environment/program-areas/rem-remediation/tnclean.html" class="title-link">Tennessee Clean</a>
+
+                    
+                        <button class="btn dropdown-toggle " type="button" data-bs-toggle="collapse" data-bs-target="#leftnav-collapse-5" aria-label="Tennessee Clean submenu navigation" aria-expanded="true" aria-controls="leftnav-collapse-5">
+                        </button>
+
+                        <ul class="collapse show" id="leftnav-collapse-5">
+                            <li>
+                                <a href="/environment/program-areas/rem-remediation/tnclean/story-map.html">TN Clean Overview Story Map</a>
+                            </li>
+                        </ul>
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/rem-remediation/hwraf.html" class="title-link">Hazardous Waste Remedial Action Fees</a>
+
+                    
+                        <button class="btn dropdown-toggle collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#leftnav-collapse-6" aria-label="Hazardous Waste Remedial Action Fees submenu navigation" aria-expanded="false" aria-controls="leftnav-collapse-6">
+                        </button>
+
+                        <ul class="collapse " id="leftnav-collapse-6">
+                            <li>
+                                <a href="/environment/program-areas/rem-remediation/hwraf/hwraf-video.html">Filling out form RF-FDS</a>
+                            </li>
+                        </ul>
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/rem-remediation/success-stories.html" class="title-link">Success Stories</a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/rem-remediation/ongoing-projects.html" class="title-link">Ongoing Projects</a>
+
+                    
+                        <button class="btn dropdown-toggle collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#leftnav-collapse-8" aria-label="Ongoing Projects submenu navigation" aria-expanded="false" aria-controls="leftnav-collapse-8">
+                        </button>
+
+                        <ul class="collapse " id="leftnav-collapse-8">
+                            <li>
+                                <a href="/environment/program-areas/rem-remediation/ongoing-projects/list-of-inactive-hazardous-substance-sites.html">Inactive Hazardous Substance Sites (Promulgated List)</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/rem-remediation/ongoing-projects/emdf-redirect.html">Proposed Oak Ridge EMDF</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/rem-remediation/ongoing-projects/monsanto.html">Former Monsanto Chemical</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/rem-remediation/ongoing-projects/defense-depot-memphis.html">Defense Depot Memphis</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/environment/program-areas/rem-remediation/ongoing-projects/copper-basin.html">Copper Basin</a>
+                            </li>
+                        </ul>
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/rem-remediation/laws-rules.html" class="title-link">Laws, Rules, &amp; Guidance</a>
+
+                    
+                        <button class="btn dropdown-toggle collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#leftnav-collapse-9" aria-label="Laws, Rules, &amp; Guidance submenu navigation" aria-expanded="false" aria-controls="leftnav-collapse-9">
+                        </button>
+
+                        <ul class="collapse " id="leftnav-collapse-9">
+                            <li>
+                                <a href="/environment/program-areas/rem-remediation/laws-rules/dor-screening-levels.html">Screening Levels</a>
+                            </li>
+                        </ul>
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/rem-remediation/remediation-notices-hearings.html" class="title-link">Remediation Notices &amp; Hearings</a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/rem-remediation/dor-site-viewers.html" class="title-link">Record Requests and Data Viewers</a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/program-areas/rem-remediation/contact-dor.html" class="title-link">Contact DOR</a>
+
+                    
+                </li>
+            
+        </ul>
+    </nav>
+
+
+            </div>
+        </div>
+
+        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 content">
+            <article>
+                <div class="tn-pagetitle show" aria-hidden="false">
+    <h1>Tennessee Clean</h1>
+    
+
+</div>
+
+                <div>
+
+
+
+
+    
+    
+    <div class="tn-basicslider parbase">
+    
+    <div class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item item active" role="group" aria-label="Teaser">
+                <a href="https://arcg.is/1yb8au0" target="_blank">
+                    <img class="photo" src="/content/dam/tn/environment/remediation/images/tn-clean/waynesboro-images/rem_tnclean-waynesboro2_09-11-2023.PNG/_jcr_content/renditions/cq5dam.web.1280.1280.png" alt="Tennessee Clean"/>
+                    <div class="description">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="text">
+                                    <div class="title">Tennessee Clean</div>
+                                    <p>Learn more about the Tennessee Clean sites</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+    
+    
+    <div class="tn-panel"><div class="panel">
+    <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <h2>A new name for our Division!</h2>
+<p><br />
+The <a title="Division of Remediation Home Page" href="/content/tn/environment/program-areas/rem-remediation.html">Division of Remediation</a> and the <a title="Solid Waste Home Page" href="/content/tn/environment/program-areas/solid-waste.html">Division of Solid Waste Management</a> have merged to form the Division of Land Protection (DLP). This change reflects TDEC’s lifecycle approach to environmental protection—preventing contamination releases where possible, promoting waste minimization and material reuse, and restoring properties when contamination occurs.</p>
+<p>As we make this transition, you may still see references to the “Division of Remediation” or the “Division of Land Protection - Remediation Branch.” Our website will also be updated in the coming months. Although our name is changing, our commitment to protecting human health and the environment remains the same.</p>
+
+    
+    
+
+</div>
+
+
+</div>
+</div>
+</div>
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p>Tennessee Clean (TN Clean) is a program to revitalize some of Tennessee’s most downtrodden and polluted sites. The sites on the TN Clean list were former industrial facilities such as dry cleaners, metals smelters, automobile recyclers, assembly plants, and more that were polluted by industry. The State is obligated to fund investigation and cleanup of existing pollution on these sites which could be impacting human health, the environment, and their communities’ economic growth potential. Many of these sites have languished for years and remain unsuitable for redevelopment.</p>
+<p>The State of Tennessee has inherited responsibility for these sites, though, until recently, many had no remaining funding to clean them up. In 2022, Governor Bill Lee and the Legislature began to set aside funding for the State to investigate and remediate these sites. Investment through TN Clean will improve Tennessee’s environment, support economic growth, and promote community vitality and sustainability by unlocking acres for redevelopment and opportunity that had been previously considered unusable.</p>
+<p>Most TN Clean sites are managed by TDEC’s Division of Land Protection - Remediation Branch, though several sites belong to the Division of Solid Waste Management, and one site falls under the jurisdiction of the Division of Radiological Heath.  </p>
+<p>Explore the tabs below to see each division&#39;s TN Clean sites or click the button below to explore the ArcGIS StoryMap describing the TN Clean program.</p>
+<p> </p>
+
+    
+    
+
+</div>
+
+
+    
+    
+    <div class="tn-linkbuttons"><div>
+	
+        <div>
+            
+            
+                <a href="https://arcg.is/1yb8au0" target="_blank" class="button red">Explore the TN Clean Sites</a>
+            
+        </div>
+	
+</div></div>
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <h2>Current TN Clean Sites</h2>
+
+    
+    
+
+</div>
+
+
+    
+    
+    <div class="containers tn-tabs parbase">
+    
+
+    
+        
+
+        
+
+        
+            <div class="responsive-tabs-container tabs-left">
+                <ul class="nav nav-tabs tab-options nav-justified flex-column" id="57a41338d0cc408b99d1ca06cdfa3eed" role="tablist" aria-label="Tab List">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="tab-57a41338d0cc408b99d1ca06cdfa3eed-0" data-bs-toggle="tab" data-bs-target="#tabpanel-57a41338d0cc408b99d1ca06cdfa3eed-0" type="button" role="tab" aria-controls="tabpanel-57a41338d0cc408b99d1ca06cdfa3eed-0" aria-selected="true">
+                            East TN Sites
+                        </button>
+                    </li>
+                
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link " id="tab-57a41338d0cc408b99d1ca06cdfa3eed-1" data-bs-toggle="tab" data-bs-target="#tabpanel-57a41338d0cc408b99d1ca06cdfa3eed-1" type="button" role="tab" aria-controls="tabpanel-57a41338d0cc408b99d1ca06cdfa3eed-1" aria-selected="false">
+                            Middle TN Sites
+                        </button>
+                    </li>
+                
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link " id="tab-57a41338d0cc408b99d1ca06cdfa3eed-2" data-bs-toggle="tab" data-bs-target="#tabpanel-57a41338d0cc408b99d1ca06cdfa3eed-2" type="button" role="tab" aria-controls="tabpanel-57a41338d0cc408b99d1ca06cdfa3eed-2" aria-selected="false">
+                            West TN Sites 
+                        </button>
+                    </li>
+                </ul>
+
+                <div class="tab-content top">
+                    <div class="tab-pane fade active show" id="tabpanel-57a41338d0cc408b99d1ca06cdfa3eed-0" role="tabpanel" aria-labelledby="tab-57a41338d0cc408b99d1ca06cdfa3eed-0" tabindex="0">
+                        <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <h2>Division of Land Protection - Remediation Branch</h2>
+
+    
+    
+
+</div>
+
+
+    
+    
+    <div class="containers tn-accordion parbase">
+    <div class="accordion" id="accordion-4f557cc2346444b393eae9c9f5ab5dcd">
+        
+
+        
+            
+
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4f557cc2346444b393eae9c9f5ab5dcd-0" aria-controls="collapse-4f557cc2346444b393eae9c9f5ab5dcd-0" aria-expanded="false">
+                                    Atomic City Auto (Oak Ridge, Anderson County)
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-4f557cc2346444b393eae9c9f5ab5dcd-0" class="accordion-collapse collapse" data-bs-parent="#accordion-4f557cc2346444b393eae9c9f5ab5dcd">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-textandimage textimage parbase">
+
+
+
+<div class="textimage-left" style="float: left;">
+<div  id="cq-image-jsp-/content/tn/environment/program-areas/rem-remediation/tnclean/jcr:content/content/tn_tabs_copy/parsys_east_tn_sites/tn_accordion/parsys_atomic_city_autooakridgeandersoncounty/tn_textandimage/image"><a href="/content/dam/tn/environment/remediation/images/tn-clean/atomic-city-images/rem_tnclean-atomic-city-b25-box_01-26-2004.PNG"><img src="/environment/program-areas/rem-remediation/tnclean/_jcr_content/content/tn_tabs_copy/parsys_east_tn_sites/tn_accordion/parsys_atomic_city_autooakridgeandersoncounty/tn_textandimage/image.img.png/1747686104233.png" alt="A B-25 box containing radioactive material removed from the Atomic City site sits in a dirt plane along with rusty equipment, dead trees, piles of dirt and cylinders, and construction supplies. " title="A B-25 box containing radioactive material on the Atomic City Auto Parts site. " class="cq-dd-image"></a></div>
+
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/tn\/environment\/program\u002Dareas\/rem\u002Dremediation\/tnclean\/jcr:content\/content\/tn_tabs_copy\/parsys_east_tn_sites\/tn_accordion\/parsys_atomic_city_autooakridgeandersoncounty\/tn_textandimage\/image");
+        var imageEvars = '{ imageLink: "/content/dam/tn/environment/remediation/images/tn-clean/atomic-city-images/rem_tnclean-atomic-city-b25-box_01-26-2004.PNG", imageAsset: "/content/dam/tn/environment/remediation/images/tn-clean/atomic-city-images/rem_tnclean-atomic-city-b25-box_01-26-2004.PNG", imageTitle: "A B\u002D25 box containing radioactive material on the Atomic City Auto Parts site. " }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "tncore\/components\/content\/tn\u002Dimage"})');
+        }
+        
+    })();
+</script>
+
+
+</div>
+<div class="textimage-text">
+    
+        <p>The Atomic City Auto Parts site was a former automobile junkyard and scrap metal recycling facility located in Oak Ridge. DoR used a state remediation contractor to complete an interim removal action in 2003-2004 as part of a negotiated agreement with US Department of Energy (DOE), who was the responsible party. Contaminated soil and debris was excavated and removed for offsite. TDEC conducted a cleanup of this site that was completed in 2005. Based upon a review of TDEC&#39;s confirmatory sampling conducted after cleanup was completed, the DOE believes that TDEC &#39;s cleanup objectives for the site have been met and TDEC concurred in a letter to DOE in October 2021. The only remaining actions for this site are development of a Risk Assessment (assigned to DOE), development of a Record of Decision, recording of a Notice of Land Use Restriction (NLUR) and the delisting process.  No further remediation is required.</p>
+
+    
+    
+
+</div>
+
+
+<div class="clear"></div></div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4f557cc2346444b393eae9c9f5ab5dcd-1" aria-controls="collapse-4f557cc2346444b393eae9c9f5ab5dcd-1" aria-expanded="false">
+                                    Former Mark IV Electro-Voice (Newport, Cocke County)
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-4f557cc2346444b393eae9c9f5ab5dcd-1" class="accordion-collapse collapse" data-bs-parent="#accordion-4f557cc2346444b393eae9c9f5ab5dcd">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-textandimage textimage parbase">
+
+
+
+<div class="textimage-top" style="float: initial;">
+<div  id="cq-image-jsp-/content/tn/environment/program-areas/rem-remediation/tnclean/jcr:content/content/tn_tabs_copy/parsys_east_tn_sites/tn_accordion/parsys_former_mark_iv_electro-voicenewportcockecounty/tn_textandimage/image"><a href="/content/dam/tn/environment/remediation/images/tn-clean/mark-iv-images/rem_tnclean-mark-iv-warehouse-floor_09-11-2023.PNG"><img src="/environment/program-areas/rem-remediation/tnclean/_jcr_content/content/tn_tabs_copy/parsys_east_tn_sites/tn_accordion/parsys_former_mark_iv_electro-voicenewportcockecounty/tn_textandimage/image.img.png/1703103316313.png" alt="Stored goods in the Mark IV warehouse" title="Stored goods in the Mark IV warehouse" class="cq-dd-image"></a></div>
+
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/tn\/environment\/program\u002Dareas\/rem\u002Dremediation\/tnclean\/jcr:content\/content\/tn_tabs_copy\/parsys_east_tn_sites\/tn_accordion\/parsys_former_mark_iv_electro\u002Dvoicenewportcockecounty\/tn_textandimage\/image");
+        var imageEvars = '{ imageLink: "/content/dam/tn/environment/remediation/images/tn-clean/mark-iv-images/rem_tnclean-mark-iv-warehouse-floor_09-11-2023.PNG", imageAsset: "/content/dam/tn/environment/remediation/images/tn-clean/mark-iv-images/rem_tnclean-mark-iv-warehouse-floor_09-11-2023.PNG", imageTitle: "Stored goods in the Mark IV warehouse" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "tncore\/components\/content\/tn\u002Dimage"})');
+        }
+        
+    })();
+</script>
+
+
+</div>
+<div class="textimage-text">
+    
+        <p>This property was an audio speaker assembly plant for the company Electro-Voice, previously owned by Mark IV Industries. The assembly plant was in operation from the mid 1960s until 2001. This former industrial site has been monitored since 2001 for chlorinated solvent chemicals that leaked from an underground storage tank. Groundwater, soil, and air on this property have been sampled for these cleaning chemicals to ensure that the concentrations are low enough to be safe for workers on the site now and in the future.  Groundwater contamination is currently present in three monitoring wells at the property.</p>
+
+    
+    
+
+</div>
+
+
+<div class="clear"></div></div>
+
+
+    
+    
+    <div class="tn-linkbuttons"><div>
+	
+        <div>
+            
+            
+                <a href="https://arcg.is/1S4zD50" target="_blank" class="button red">Explore the Mark IV StoryMap</a>
+            
+        </div>
+	
+</div></div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4f557cc2346444b393eae9c9f5ab5dcd-2" aria-controls="collapse-4f557cc2346444b393eae9c9f5ab5dcd-2" aria-expanded="false">
+                                    Wall Tube &amp; Metal (Newport, Cocke County) 
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-4f557cc2346444b393eae9c9f5ab5dcd-2" class="accordion-collapse collapse" data-bs-parent="#accordion-4f557cc2346444b393eae9c9f5ab5dcd">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-textandimage textimage parbase">
+
+
+
+<div class="textimage-left" style="float: left;">
+<div  id="cq-image-jsp-/content/tn/environment/program-areas/rem-remediation/tnclean/jcr:content/content/tn_tabs_copy/parsys_east_tn_sites/tn_accordion/parsys_wall_tube_metal_newportcockecounty/tn_textandimage/image"><a href="/content/dam/tn/environment/remediation/images/tn-clean/wall-tube-metals-images/rem_tnclean-wall-tube-excavation_09-26-2023.PNG"><img src="/environment/program-areas/rem-remediation/tnclean/_jcr_content/content/tn_tabs_copy/parsys_east_tn_sites/tn_accordion/parsys_wall_tube_metal_newportcockecounty/tn_textandimage/image.img.png/1703102779872.png" alt="An excavator bulldozer rests the digging arm on a crushed rusty metal drum containing a strange greenish oxide in a large dirt pit." title="Excavator digs out a crushed drum containing unknown materials on the Wall Tube &amp; Metals site." class="cq-dd-image"></a></div>
+
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/tn\/environment\/program\u002Dareas\/rem\u002Dremediation\/tnclean\/jcr:content\/content\/tn_tabs_copy\/parsys_east_tn_sites\/tn_accordion\/parsys_wall_tube_metal_newportcockecounty\/tn_textandimage\/image");
+        var imageEvars = '{ imageLink: "/content/dam/tn/environment/remediation/images/tn-clean/wall-tube-metals-images/rem_tnclean-wall-tube-excavation_09-26-2023.PNG", imageAsset: "/content/dam/tn/environment/remediation/images/tn-clean/wall-tube-metals-images/rem_tnclean-wall-tube-excavation_09-26-2023.PNG", imageTitle: "Excavator digs out a crushed drum containing unknown materials on the Wall Tube \x26 Metals site." }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "tncore\/components\/content\/tn\u002Dimage"})');
+        }
+        
+    })();
+</script>
+
+
+</div>
+<div class="textimage-text">
+    
+        <p>Wall Tube &amp; Metal Products operated at the site from 1956 to 1983, manufacturing steel tubing and conducting metal plating and fabrication activities for industrial and commercial applications. Since 1983, multiple manufacturers have operated at the site. The property encompasses approximately 16 acres and is currently used for furniture manufacturing.</p>
+<p>Previous and ongoing investigations have identified chlorinated solvents as a primary chemical of concern. Chlorinated solvents have been detected in groundwater at the site, with detections also identified historically in off-site surface water downgradient from the site.</p>
+<p>In 1985, waste materials associated with prior operations were removed. A TDEC report issued in 1986 identified metal plating sludge, paint sludge, and chlorinated solvents as contaminants of concern at the site. During the late 1980s and early 1990s, TDEC and the U.S. Environmental Protection Agency evaluated the nature and extent of contamination and developed remedial plans.</p>
+<p>In 1997, the Tennessee Department of Remediation removed 350 cubic yards of contaminated soil from the facility. A site investigation conducted in 2005 found that chlorinated solvent contamination remained present in groundwater and indicated the potential for off-site migration.</p>
+<p>Recent groundwater investigations conducted since 2023 indicate that chlorinated solvent contamination in groundwater has the potential to be migrating off-site. Ongoing groundwater, soil gas, and indoor air investigations are being conducted to further define the extent of contamination and refine understanding of site conditions.</p>
+
+    
+    
+
+</div>
+
+
+<div class="clear"></div></div>
+
+
+    
+    
+    <div class="tn-linkbuttons"><div>
+	
+        <div>
+            
+            
+                <a href="https://arcg.is/1L9C511" target="_blank" class="button red">Explore the Wall Tube &amp; Metal StoryMap</a>
+            
+        </div>
+	
+</div></div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4f557cc2346444b393eae9c9f5ab5dcd-3" aria-controls="collapse-4f557cc2346444b393eae9c9f5ab5dcd-3" aria-expanded="false">
+                                    Velsicol Residue Hill (Chattanooga, Hamilton County)
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-4f557cc2346444b393eae9c9f5ab5dcd-3" class="accordion-collapse collapse" data-bs-parent="#accordion-4f557cc2346444b393eae9c9f5ab5dcd">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-textandimage textimage parbase">
+
+
+
+<div class="textimage-left" style="float: left;">
+<div  id="cq-image-jsp-/content/tn/environment/program-areas/rem-remediation/tnclean/jcr:content/content/tn_tabs_copy/parsys_east_tn_sites/tn_accordion/parsys_velsicol_residuehillchattanoogahamiltoncounty/tn_textandimage/image"><a href="/content/dam/tn/environment/remediation/images/tn-clean/velsicol-rh-images/rem_tnclean-velsicol-sampling_09-11-2023.jpg"><img src="/environment/program-areas/rem-remediation/tnclean/_jcr_content/content/tn_tabs_copy/parsys_east_tn_sites/tn_accordion/parsys_velsicol_residuehillchattanoogahamiltoncounty/tn_textandimage/image.img.png/1711989911523.png" alt="Velsicol Residue Hill field work " title="Velsicol Residue Hill field work " class="cq-dd-image"></a></div>
+
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/tn\/environment\/program\u002Dareas\/rem\u002Dremediation\/tnclean\/jcr:content\/content\/tn_tabs_copy\/parsys_east_tn_sites\/tn_accordion\/parsys_velsicol_residuehillchattanoogahamiltoncounty\/tn_textandimage\/image");
+        var imageEvars = '{ imageLink: "/content/dam/tn/environment/remediation/images/tn-clean/velsicol-rh-images/rem_tnclean-velsicol-sampling_09-11-2023.jpg", imageAsset: "/content/dam/tn/environment/remediation/images/tn-clean/velsicol-rh-images/rem_tnclean-velsicol-mw_09-11-2023.jpg", imageTitle: "Velsicol Residue Hill field work " }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "tncore\/components\/content\/tn\u002Dimage"})');
+        }
+        
+    })();
+</script>
+
+
+</div>
+<div class="textimage-text">
+    
+        <p><a name="_Hlk146696045" id="_Hlk146696045" class="anchor"></a>Between 1963 and 1974, Velsicol Chemical Plant disposed of herbicide and pesticide residues in drums on a neighboring property, now known as “Residue Hill”. They also used settling ponds on the hill to remove some chemicals from wastewater. Open pits used for waste disposal were covered by a clay cap in 1973, when site investigations showed contamination in groundwater and soil at the site. The EPA removed some of the waste in the 1970s before an 18-acre cap was installed over the landfill to prevent contamination in surface waters and air pathways. Groundwater has been monitored since 1980. A thorough assessment of groundwater and soil has been launched in 2023 to identify current concentrations of herbicides and pesticides and their chemical byproducts. Benzoic acid was identified as the largest contributor of contamination, along with lower concentrations of VOCs and pesticides.</p>
+
+    
+    
+
+</div>
+
+
+<div class="clear"></div></div>
+
+
+    
+    
+    <div class="tn-linkbuttons"><div>
+	
+        <div>
+            
+            
+                <a href="https://arcg.is/0XTPTG" target="_blank" class="button red">Explore the Velsicol Residue Hill StoryMap</a>
+            
+        </div>
+	
+</div></div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4f557cc2346444b393eae9c9f5ab5dcd-4" aria-controls="collapse-4f557cc2346444b393eae9c9f5ab5dcd-4" aria-expanded="false">
+                                    Morningside Chemical (Chattanooga, Hamilton County)
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-4f557cc2346444b393eae9c9f5ab5dcd-4" class="accordion-collapse collapse" data-bs-parent="#accordion-4f557cc2346444b393eae9c9f5ab5dcd">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-textandimage textimage parbase">
+
+
+
+<div class="textimage-left" style="float: left;">
+<div  id="cq-image-jsp-/content/tn/environment/program-areas/rem-remediation/tnclean/jcr:content/content/tn_tabs_copy/parsys_east_tn_sites/tn_accordion/parsys_morningside_chemicalchattanoogahamiltoncounty/tn_textandimage/image"><a href="/content/dam/tn/environment/remediation/images/tn-clean/morningside-images/rem_tnclean-morningside-drums_09-28-2023.PNG"><img src="/environment/program-areas/rem-remediation/tnclean/_jcr_content/content/tn_tabs_copy/parsys_east_tn_sites/tn_accordion/parsys_morningside_chemicalchattanoogahamiltoncounty/tn_textandimage/image.img.png/1703103085689.png" alt="Leaking drums in the Morningside Chemical facility. A wooden pallet is leaned against a dozen drums, mostly gray and rusted with a blue drum labelled &#34;Raytex Chemical&#34; in the foreground that appears to be leaking a white oxide material all over the concrete floor. " title="Leaking drums in the former Morningside Chemical facility" class="cq-dd-image"></a></div>
+
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/tn\/environment\/program\u002Dareas\/rem\u002Dremediation\/tnclean\/jcr:content\/content\/tn_tabs_copy\/parsys_east_tn_sites\/tn_accordion\/parsys_morningside_chemicalchattanoogahamiltoncounty\/tn_textandimage\/image");
+        var imageEvars = '{ imageLink: "/content/dam/tn/environment/remediation/images/tn-clean/morningside-images/rem_tnclean-morningside-drums_09-28-2023.PNG", imageAsset: "/content/dam/tn/environment/remediation/images/tn-clean/morningside-images/rem_tnclean-morningside-drums_09-28-2023.PNG", imageTitle: "Leaking drums in the former Morningside Chemical facility" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "tncore\/components\/content\/tn\u002Dimage"})');
+        }
+        
+    })();
+</script>
+
+
+</div>
+<div class="textimage-text">
+    
+        <p>Morningside Chemical manufactured dyestuffs for the carpet industry from 1978 until 1983, when the property changed hands. Morningside bought the 1.5-acre property in 1976, after a fire at the site had put its previous owners (Vol State Chemical Company) out of business. The fire in 1976 damaged several tons of industrial chemicals owned by Vol State Chemical, the previous owners of the property, which were then buried illegally in trenches on the property. In 1985, The TN Department of Health and Environment (predecessor of TDEC) received an anonymous complaint alleging that hazardous chemicals were illegally disposed of and stored in the facility’s basement. Upon inspection, it was discovered that 170 drums had been placed in the basement after the 1976 fire leveled the warehouse, and up to 40,000 gallons of contaminated water filled the basement. In 1993, 625 drums containing acids, bases, and dyes were found in a different warehouse on the site, at which point the US EPA conducted an emergency removal of the waste. The most recent sampling event in 2003 indicated that groundwater is impacted by metals, volatile organic compounds (VOCs), and semi-volatile organic compounds. TDEC is investigating the site today to evaluate current levels of contamination to inform potential remedial action.</p>
+
+    
+    
+
+</div>
+
+
+<div class="clear"></div></div>
+
+
+    
+    
+    <div class="tn-linkbuttons"><div>
+	
+        <div>
+            
+            
+                <a href="https://arcg.is/1WTLuy1" target="_blank" class="button red">Explore the Morningside Chemical StoryMap</a>
+            
+        </div>
+	
+</div></div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4f557cc2346444b393eae9c9f5ab5dcd-5" aria-controls="collapse-4f557cc2346444b393eae9c9f5ab5dcd-5" aria-expanded="false">
+                                    Red Ridge Landfill (Sweetwater, Monroe County) 
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-4f557cc2346444b393eae9c9f5ab5dcd-5" class="accordion-collapse collapse" data-bs-parent="#accordion-4f557cc2346444b393eae9c9f5ab5dcd">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-textandimage textimage parbase">
+
+
+
+<div class="textimage-left" style="float: left;">
+<div  id="cq-image-jsp-/content/tn/environment/program-areas/rem-remediation/tnclean/jcr:content/content/tn_tabs_copy/parsys_east_tn_sites/tn_accordion/parsys_red_ridge_landfillsweetwatermonroecounty/tn_textandimage/image"><a href="/content/dam/tn/environment/remediation/images/tn-clean/red-ridge-images/rem_tnclean-red-ridge-landfill_09-29-2023.jpg"><img src="/environment/program-areas/rem-remediation/tnclean/_jcr_content/content/tn_tabs_copy/parsys_east_tn_sites/tn_accordion/parsys_red_ridge_landfillsweetwatermonroecounty/tn_textandimage/image.img.png/1703102314900.png" alt="Trash and miscellany fill an open pit in the ground. An uprooted tree stump sits on its side in the foreground with trash embedded in the dirt-caked roots. A tractor plows over the trash pile in the background. " title="Exposed contents of the municipal and industrial Red Ridge landfill before cap was installed. " class="cq-dd-image"></a></div>
+
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/tn\/environment\/program\u002Dareas\/rem\u002Dremediation\/tnclean\/jcr:content\/content\/tn_tabs_copy\/parsys_east_tn_sites\/tn_accordion\/parsys_red_ridge_landfillsweetwatermonroecounty\/tn_textandimage\/image");
+        var imageEvars = '{ imageLink: "/content/dam/tn/environment/remediation/images/tn-clean/red-ridge-images/rem_tnclean-red-ridge-landfill_09-29-2023.jpg", imageAsset: "/content/dam/tn/environment/remediation/images/tn-clean/red-ridge-images/rem_tnclean-red-ridge-landfill_09-29-2023.jpg", imageTitle: "Exposed contents of the municipal and industrial Red Ridge landfill before cap was installed. " }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "tncore\/components\/content\/tn\u002Dimage"})');
+        }
+        
+    })();
+</script>
+
+
+</div>
+<div class="textimage-text">
+    
+        <p>This 39-acre site contains a former landfill that contains municipal and industrial waste. The landfill operated from 1971 until 1979, when it was improperly capped and closed. Portions of the landfill were sold as residential properties. In 1988, well water in private drinking wells was sampled and organic contaminants were detected. The US EPA found that local groundwater, soil, sediment, and surface water were all contaminated with organic and inorganic compounds from the landfill. The landfill sits on a limestone ridge, providing karst transport of contaminants into groundwater. In 2002, the landfill was properly capped and gas vents were installed. Today, TN Clean is taking financial responsibility for the site to continue annual inspections and other routine maintenance.  No remediation is required.</p>
+
+    
+    
+
+</div>
+
+
+<div class="clear"></div></div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4f557cc2346444b393eae9c9f5ab5dcd-6" aria-controls="collapse-4f557cc2346444b393eae9c9f5ab5dcd-6" aria-expanded="false">
+                                    Rockwood Iron &amp; Metal (Rockwood, Roane County)
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-4f557cc2346444b393eae9c9f5ab5dcd-6" class="accordion-collapse collapse" data-bs-parent="#accordion-4f557cc2346444b393eae9c9f5ab5dcd">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-textandimage textimage parbase">
+
+
+
+<div class="textimage-left" style="float: left;">
+<div  id="cq-image-jsp-/content/tn/environment/program-areas/rem-remediation/tnclean/jcr:content/content/tn_tabs_copy/parsys_east_tn_sites/tn_accordion/parsys_rockwood_iron_metalrockwoodroanecounty/tn_textandimage/image"><a href="/content/dam/tn/environment/remediation/images/tn-clean/rockwood-images/rem_tnclean-rockwood-pile_09-29-2023.jpg"><img src="/environment/program-areas/rem-remediation/tnclean/_jcr_content/content/tn_tabs_copy/parsys_east_tn_sites/tn_accordion/parsys_rockwood_iron_metalrockwoodroanecounty/tn_textandimage/image.img.png/1703102360214.png" alt="An uncovered debris pile of automobile shredding residue containing dirt, tires, shards of metal, and seat fluff; surrounded by trees and grass." title="Rockwood Iron &amp; Metals automobile shredding residue debris pile." class="cq-dd-image"></a></div>
+
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/tn\/environment\/program\u002Dareas\/rem\u002Dremediation\/tnclean\/jcr:content\/content\/tn_tabs_copy\/parsys_east_tn_sites\/tn_accordion\/parsys_rockwood_iron_metalrockwoodroanecounty\/tn_textandimage\/image");
+        var imageEvars = '{ imageLink: "/content/dam/tn/environment/remediation/images/tn-clean/rockwood-images/rem_tnclean-rockwood-pile_09-29-2023.jpg", imageAsset: "/content/dam/tn/environment/remediation/images/tn-clean/rockwood-images/rem_tnclean-rockwood-pile_09-29-2023.jpg", imageTitle: "Rockwood Iron \x26 Metals automobile shredding residue debris pile." }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "tncore\/components\/content\/tn\u002Dimage"})');
+        }
+        
+    })();
+</script>
+
+
+</div>
+<div class="textimage-text">
+    
+        <p>This site’s industrial history dates back to 1897, when Roane Iron Company produced iron products there. Various industrial operations have taken place on the site, including coal mining, coke fuel production, pig iron production, and automobile shredding. Automobile shredding – the shredding of seats, carpets, and other soft car parts – took place on the site from 1974 to 1987. These shredding operations left piles of automobile shredder residue containing plastics, rubber, wood, fabric, glass, metal fragments, and contaminants such as metals, PAHs, and PCBs on the site. From 2001-2004, TDEC devised and implemented a plan to consolidate and cap the residue into three piles and to install a leachate treatment system. The site has been inspected regularly inspected since 2004 and operation, monitoring, and maintenance of the landfill has continued since then. This remedial action was paid for by the responsible party until they filed for bankruptcy in 2016, and the State picked up the liability for the site. TDEC is currently reassessing the site with TN Clean funds and continuing operation and maintenance activities. </p>
+
+    
+    
+
+</div>
+
+
+<div class="clear"></div></div>
+
+
+    
+    
+    <div class="tn-linkbuttons"><div>
+	
+        <div>
+            
+            
+                <a href="https://arcg.is/0Pn9Gu" target="_blank" class="button red">Explore the Rockwood Iron &amp; Metal StoryMap</a>
+            
+        </div>
+	
+</div></div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4f557cc2346444b393eae9c9f5ab5dcd-7" aria-controls="collapse-4f557cc2346444b393eae9c9f5ab5dcd-7" aria-expanded="false">
+                                    Joyner Scrap Yard (Kingston, Roane County)
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-4f557cc2346444b393eae9c9f5ab5dcd-7" class="accordion-collapse collapse" data-bs-parent="#accordion-4f557cc2346444b393eae9c9f5ab5dcd">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-textandimage textimage parbase">
+
+
+
+<div class="textimage-left" style="float: left;">
+<div  id="cq-image-jsp-/content/tn/environment/program-areas/rem-remediation/tnclean/jcr:content/content/tn_tabs_copy/parsys_east_tn_sites/tn_accordion/parsys_joyner_scrap_yardkingstonroanecounty/tn_textandimage/image"><a href="/content/dam/tn/environment/remediation/images/tn-clean/joyner-images/rem_tnclean-joyner-scraps_09-28-2023.PNG"><img src="/environment/program-areas/rem-remediation/tnclean/_jcr_content/content/tn_tabs_copy/parsys_east_tn_sites/tn_accordion/parsys_joyner_scrap_yardkingstonroanecounty/tn_textandimage/image.img.png/1703103406287.png" alt="Joyner scrap yard including heaps of miscellany on the bare ground. Items include rusted metal parts, large boxes,  and indistinguishable materials." title="Joyner Scrap Yard contents before radiological contamination removal. " class="cq-dd-image"></a></div>
+
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/tn\/environment\/program\u002Dareas\/rem\u002Dremediation\/tnclean\/jcr:content\/content\/tn_tabs_copy\/parsys_east_tn_sites\/tn_accordion\/parsys_joyner_scrap_yardkingstonroanecounty\/tn_textandimage\/image");
+        var imageEvars = '{ imageLink: "/content/dam/tn/environment/remediation/images/tn-clean/joyner-images/rem_tnclean-joyner-scraps_09-28-2023.PNG", imageAsset: "/content/dam/tn/environment/remediation/images/tn-clean/joyner-images/rem_tnclean-joyner-scraps_09-28-2023.PNG", imageTitle: "Joyner Scrap Yard contents before radiological contamination removal. " }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "tncore\/components\/content\/tn\u002Dimage"})');
+        }
+        
+    })();
+</script>
+
+
+</div>
+<div class="textimage-text">
+    
+        <p>The Joyner Scrap Yard operated on this property in Kingston from purchase in 1967 until 1988. Mr. Joyner purchased scrap and surplus items from the US Department of Energy (DoE) and resold them to the public, leaving behind metals, PCBs, and radiological contamination on the site property. From 1997-1999, TDEC surveyed and removed all radiologically contaminated items from the site, and removed chemically hazardous materials in 2000. It is believed that all radioactive items and containers of hazardous chemicals have been removed from the property, but an investigation in 2001 concluded that soils and groundwater were still significantly contaminated and warrant further investigation and possible remedial action to fully restore the site. Today, TDEC is reinvestigating monitoring wells on the site to assess groundwater contamination and conducting soil sampling to assess remaining contamination in the soil so that remedial strategies can be deployed to restore this site to full productive use. </p>
+
+    
+    
+
+</div>
+
+
+<div class="clear"></div></div>
+
+
+    
+    
+    <div class="tn-linkbuttons"><div>
+	
+        <div>
+            
+            
+                <a href="https://arcg.is/1DSXfj" target="_blank" class="button red">Explore the Joyner Scrap Yard StoryMap</a>
+            
+        </div>
+	
+</div></div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4f557cc2346444b393eae9c9f5ab5dcd-8" aria-controls="collapse-4f557cc2346444b393eae9c9f5ab5dcd-8" aria-expanded="false">
+                                    Roscoe Fields Site (Knoxville, Knox County)
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-4f557cc2346444b393eae9c9f5ab5dcd-8" class="accordion-collapse collapse" data-bs-parent="#accordion-4f557cc2346444b393eae9c9f5ab5dcd">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-textandimage textimage parbase">
+
+
+
+<div class="textimage-left" style="float: left;">
+<div  id="cq-image-jsp-/content/tn/environment/program-areas/rem-remediation/tnclean/jcr:content/content/tn_tabs_copy/parsys_east_tn_sites/tn_accordion/parsys_roscoe_fields_siteknoxvilleknoxcounty/tn_textandimage/image"><a href="/content/dam/tn/environment/remediation/images/tn-clean/roscoe-images/rem_tnclean-roscoe-drums_09-29-2023.jpg"><img src="/environment/program-areas/rem-remediation/tnclean/_jcr_content/content/tn_tabs_copy/parsys_east_tn_sites/tn_accordion/parsys_roscoe_fields_siteknoxvilleknoxcounty/tn_textandimage/image.img.png/1703102447766.png" alt="Cleanup of dozens of green and brown steel drums is conducted by workers in white haz-mat suits.  " title="EPA cleanup of hazardous waste in drums stored at the Roscoe Fields site." class="cq-dd-image"></a></div>
+
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/tn\/environment\/program\u002Dareas\/rem\u002Dremediation\/tnclean\/jcr:content\/content\/tn_tabs_copy\/parsys_east_tn_sites\/tn_accordion\/parsys_roscoe_fields_siteknoxvilleknoxcounty\/tn_textandimage\/image");
+        var imageEvars = '{ imageLink: "/content/dam/tn/environment/remediation/images/tn-clean/roscoe-images/rem_tnclean-roscoe-drums_09-29-2023.jpg", imageAsset: "/content/dam/tn/environment/remediation/images/tn-clean/roscoe-images/rem_tnclean-roscoe-drums_09-29-2023.jpg", imageTitle: "EPA cleanup of hazardous waste in drums stored at the Roscoe Fields site." }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "tncore\/components\/content\/tn\u002Dimage"})');
+        }
+        
+    })();
+</script>
+
+
+</div>
+<div class="textimage-text">
+    
+        <p>In 1994, TDEC responded to a report that abandoned drums had been discovered on a property owned by Mr. Roscoe Fields. Upon inspection, the drums appeared to have been purchased by the Department of Energy (DOE) in the 1970s from their Oak Ridge facility. A radiological survey indicated that several drums had radiation readings above background levels, and an emergency removal was conducted. During this removal, 239 drums, 390,780 pounds of contaminated soil beneath the drums, and miscellaneous scrap material from the DOE were characterized and disposed of. Contaminants detected in the waste included metals, VOCs, PCBs, cyanide, and radioactive isotopes of uranium. Today, TDEC is reexamining the site to assess the current state of contamination of groundwater. </p>
+
+    
+    
+
+</div>
+
+
+<div class="clear"></div></div>
+
+
+    
+    
+    <div class="tn-linkbuttons"><div>
+	
+        <div>
+            
+            
+                <a href="https://arcg.is/0L1iaK" target="_blank" class="button red">Explore the Roscoe Fields StoryMap</a>
+            
+        </div>
+	
+</div></div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4f557cc2346444b393eae9c9f5ab5dcd-9" aria-controls="collapse-4f557cc2346444b393eae9c9f5ab5dcd-9" aria-expanded="false">
+                                    Dixie Barrel &amp; Drum (Knoxville, Knox County)
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-4f557cc2346444b393eae9c9f5ab5dcd-9" class="accordion-collapse collapse" data-bs-parent="#accordion-4f557cc2346444b393eae9c9f5ab5dcd">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-textandimage textimage parbase">
+
+
+
+<div class="textimage-left" style="float: left;">
+<div  id="cq-image-jsp-/content/tn/environment/program-areas/rem-remediation/tnclean/jcr:content/content/tn_tabs_copy/parsys_east_tn_sites/tn_accordion/parsys_dixie_barrel_drumknoxvilleknoxcounty/tn_textandimage/image"><a href="/content/dam/tn/environment/remediation/images/tn-clean/dixie-images/rem_tnclean-dixie-drum-conveyor_09-29-2023.PNG"><img src="/environment/program-areas/rem-remediation/tnclean/_jcr_content/content/tn_tabs_copy/parsys_east_tn_sites/tn_accordion/parsys_dixie_barrel_drumknoxvilleknoxcounty/tn_textandimage/image.img.png/1703104106302.png" alt="An old photo of the paint-stained conveyor belt inside the Dixie Barrel &amp; Drum facility. Cleaned and restored drums sit on shelves and the floor in the background, and puddles on the concrete slab floor reflect rusty iron beams supporting the building. " title="Dixie Barrel and Drum facility before demolition." class="cq-dd-image"></a></div>
+
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/tn\/environment\/program\u002Dareas\/rem\u002Dremediation\/tnclean\/jcr:content\/content\/tn_tabs_copy\/parsys_east_tn_sites\/tn_accordion\/parsys_dixie_barrel_drumknoxvilleknoxcounty\/tn_textandimage\/image");
+        var imageEvars = '{ imageLink: "/content/dam/tn/environment/remediation/images/tn-clean/dixie-images/rem_tnclean-dixie-drum-conveyor_09-29-2023.PNG", imageAsset: "/content/dam/tn/environment/remediation/images/tn-clean/dixie-images/rem_tnclean-dixie-drum-conveyor_09-29-2023.PNG", imageTitle: "Dixie Barrel and Drum facility before demolition." }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "tncore\/components\/content\/tn\u002Dimage"})');
+        }
+        
+    })();
+</script>
+
+
+</div>
+<div class="textimage-text">
+    
+        <p>From 1971 to 2002, the Dixie Barrel &amp; Drum Co, Inc., operated a plastic and steel drum recycling and reconditioning facility. Permitted to accept drums containing on more than 1 inch of product remaining, drum material would be emptied into on-site storage tanks before the drums would be cleaned and restored through chemical processes. In 1980, testing of waste material indicated the presence of pesticides, heavy metals in the sludge, and the facility was subjected to hazardous waste regulations by TDEC. In 2002, the facility filed for bankruptcy and was abandoned. The Division of Land Protection (formerly the Division of Remediation) inspected the facility in 2003 and found large quantities of potentially hazardous substances. Drums were stored next to incompatible chemicals, evaluating the risk of fire and explosion, and the spillage collection system had been leaking oil into the concrete block walls of the building. The division referred the site to the EPA’s Emergency Response and Removal Branch (ERRB). The ERRB removed approximately 1500 drums, a waste pile of scrap metal and crushed drums, above ground storage tanks, and 592 tons of contaminated soil from the site in 2005. The main building was demolished in 2010. There is no work left to be done with the TN Clean funds.  </p>
+
+    
+    
+
+</div>
+
+
+<div class="clear"></div></div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+
+            
+        
+    </div>
+
+</div>
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <h2>Division of Land Protection - Waste Management Branch</h2>
+
+    
+    
+
+</div>
+
+
+    
+    
+    <div class="containers tn-accordion parbase">
+    <div class="accordion" id="accordion-7dd8da7c91d24988bf8ca104241a6552">
+        
+
+        
+            
+
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-7dd8da7c91d24988bf8ca104241a6552-0" aria-controls="collapse-7dd8da7c91d24988bf8ca104241a6552-0" aria-expanded="false">
+                                    Liberty Fibers Corporation (Morristown, Hamblen County)
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-7dd8da7c91d24988bf8ca104241a6552-0" class="accordion-collapse collapse" data-bs-parent="#accordion-7dd8da7c91d24988bf8ca104241a6552">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-textandimage textimage parbase">
+
+
+
+
+<div class="textimage-text">
+    
+        <p>Learn more about the <a title="Division of Solid Waste Management" href="/content/tn/environment/program-areas/solid-waste.html" target="_blank" rel="noopener noreferrer">Division of Land Protection - Waste Management Branch</a>.<br />
+</p>
+
+    
+    
+
+</div>
+
+
+<div class="clear"></div></div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-7dd8da7c91d24988bf8ca104241a6552-1" aria-controls="collapse-7dd8da7c91d24988bf8ca104241a6552-1" aria-expanded="false">
+                                    Wheland Foundry St. Elmo Landfill (Chattanooga, Hamilton County)
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-7dd8da7c91d24988bf8ca104241a6552-1" class="accordion-collapse collapse" data-bs-parent="#accordion-7dd8da7c91d24988bf8ca104241a6552">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-textandimage textimage parbase">
+
+
+
+
+<div class="textimage-text">
+    
+        <p>Learn more about the <a title="Division of Solid Waste Management" href="/content/tn/environment/program-areas/solid-waste.html" target="_blank" rel="noopener noreferrer">Division of Land Protection - Waste Management Branch</a>.<br />
+</p>
+
+    
+    
+
+</div>
+
+
+<div class="clear"></div></div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-7dd8da7c91d24988bf8ca104241a6552-2" aria-controls="collapse-7dd8da7c91d24988bf8ca104241a6552-2" aria-expanded="false">
+                                    DP Holdings (Blountville, Sullivan County)
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-7dd8da7c91d24988bf8ca104241a6552-2" class="accordion-collapse collapse" data-bs-parent="#accordion-7dd8da7c91d24988bf8ca104241a6552">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-textandimage textimage parbase">
+
+
+
+
+<div class="textimage-text">
+    
+        <p>Learn more about the <a title="Division of Solid Waste Management" href="/content/tn/environment/program-areas/solid-waste.html" target="_blank" rel="noopener noreferrer">Division of Land Protection - Waste Management Branch</a>.<br />
+</p>
+
+    
+    
+
+</div>
+
+
+<div class="clear"></div></div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-7dd8da7c91d24988bf8ca104241a6552-3" aria-controls="collapse-7dd8da7c91d24988bf8ca104241a6552-3" aria-expanded="false">
+                                    Sullivan County Landfill, Inc. (Blountville, Sullivan County)
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-7dd8da7c91d24988bf8ca104241a6552-3" class="accordion-collapse collapse" data-bs-parent="#accordion-7dd8da7c91d24988bf8ca104241a6552">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-textandimage textimage parbase">
+
+
+
+
+<div class="textimage-text">
+    
+        <p>Learn more about the <a title="Division of Solid Waste Management" href="/content/tn/environment/program-areas/solid-waste.html" target="_blank" rel="noopener noreferrer">Division of Land Protection - Waste Management Branch</a>.<br />
+</p>
+
+    
+    
+
+</div>
+
+
+<div class="clear"></div></div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+
+            
+        
+    </div>
+
+</div>
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <h2>Division of Radiological Health</h2>
+
+    
+    
+
+</div>
+
+
+    
+    
+    <div class="containers tn-accordion parbase">
+    <div class="accordion" id="accordion-852ca078934c4f369a38ddabf65cd8cd">
+        
+
+        
+            
+
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-852ca078934c4f369a38ddabf65cd8cd-0" aria-controls="collapse-852ca078934c4f369a38ddabf65cd8cd-0" aria-expanded="false">
+                                    Former American Nuclear Corporation (Oak Ridge, Anderson County)
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-852ca078934c4f369a38ddabf65cd8cd-0" class="accordion-collapse collapse" data-bs-parent="#accordion-852ca078934c4f369a38ddabf65cd8cd">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-textandimage textimage parbase">
+
+
+
+<div class="textimage-left" style="float: left;">
+<div  id="cq-image-jsp-/content/tn/environment/program-areas/rem-remediation/tnclean/jcr:content/content/tn_tabs_copy/parsys_east_tn_sites/tn_accordion_1203266884/parsys_former_american_nuclearcorporationoakridgeandersoncounty/tn_textandimage_copy/image"><a href="/content/dam/tn/environment/remediation/images/tn-clean/anc-images/rem_tnclean-anc_04-19-2023.JPG"><img src="/environment/program-areas/rem-remediation/tnclean/_jcr_content/content/tn_tabs_copy/parsys_east_tn_sites/tn_accordion_1203266884/parsys_former_american_nuclearcorporationoakridgeandersoncounty/tn_textandimage_copy/image.img.png/1755616982912.png" alt="anc-2023" title="anc-2023" class="cq-dd-image"></a></div>
+
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/tn\/environment\/program\u002Dareas\/rem\u002Dremediation\/tnclean\/jcr:content\/content\/tn_tabs_copy\/parsys_east_tn_sites\/tn_accordion_1203266884\/parsys_former_american_nuclearcorporationoakridgeandersoncounty\/tn_textandimage_copy\/image");
+        var imageEvars = '{ imageLink: "/content/dam/tn/environment/remediation/images/tn-clean/anc-images/rem_tnclean-anc_04-19-2023.JPG", imageAsset: "/content/dam/tn/environment/remediation/images/tn-clean/anc-images/rem_tnclean-anc_04-19-2023.JPG", imageTitle: "anc\u002D2023" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "tncore\/components\/content\/tn\u002Dimage"})');
+        }
+        
+    })();
+</script>
+
+
+</div>
+<div class="textimage-text">
+    
+        <p>The American Nuclear Corporation site, located in Clinton, TN, began operation in 1962. The facility was licensed by the Atomic Energy Commission to manufacture radiological sources for medical institutions. By 1972, after several years of operational issues and contamination events, the State took possession of the site in the mid to late 1980’s to prevent further misuse of the property.</p>
+<p>Since 1993, Environmental Monitoring personnel with the Tennessee Division of Radiological Health (DRH) have monitored the site for any changes in detectable radioactivity or movement of radionuclides on or off the site due to environmental factors. During monthly visits to the site, survey readings are collected inside and outside the perimeter fence. During this monthly survey, a water sample is also collected from spring that leaves the ANC property. TDEC contacted EPA for assistance remediating the site in 2023 and remediation of the site was officially completed in 2025.</p>
+<p>Learn more about the <a title="Division of Radiological Health" href="/content/tn/environment/radiation.html" target="_blank" rel="noopener noreferrer">Division of Radiological Health</a>.<br />
+</p>
+
+    
+    
+
+</div>
+
+
+<div class="clear"></div></div>
+
+
+    
+    
+    <div class="tn-linkbuttons"><div>
+	
+        <div>
+            
+            
+                <a href="https://arcg.is/1i0rSj1" target="_blank" class="button red">Explore the American Nuclear StoryMap</a>
+            
+        </div>
+	
+</div></div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+
+            
+        
+    </div>
+
+</div>
+
+
+</div>
+                    </div>
+                
+                    <div class="tab-pane fade " id="tabpanel-57a41338d0cc408b99d1ca06cdfa3eed-1" role="tabpanel" aria-labelledby="tab-57a41338d0cc408b99d1ca06cdfa3eed-1" tabindex="0">
+                        <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <h2>Division of Remediation</h2>
+
+    
+    
+
+</div>
+
+
+    
+    
+    <div class="containers tn-accordion parbase">
+    <div class="accordion" id="accordion-f754ebc8c4e04c8394e99f80e99bdfef">
+        
+
+        
+            
+
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-f754ebc8c4e04c8394e99f80e99bdfef-0" aria-controls="collapse-f754ebc8c4e04c8394e99f80e99bdfef-0" aria-expanded="false">
+                                    Murray Ohio Plant (Lawrenceburg, Lawrence County)
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-f754ebc8c4e04c8394e99f80e99bdfef-0" class="accordion-collapse collapse" data-bs-parent="#accordion-f754ebc8c4e04c8394e99f80e99bdfef">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-textandimage textimage parbase">
+
+
+
+<div class="textimage-left" style="float: left;">
+<div  id="cq-image-jsp-/content/tn/environment/program-areas/rem-remediation/tnclean/jcr:content/content/tn_tabs_copy/parsys_middle_tn_sites/tn_accordion/parsys_murray_ohio_plantlawrenceburglawrencecounty/tn_textandimage/image"><a href="/content/dam/tn/environment/remediation/images/tn-clean/murray-images/rem_tnclean-murray-truck_09-20-2023.jpg"><img src="/environment/program-areas/rem-remediation/tnclean/_jcr_content/content/tn_tabs_copy/parsys_middle_tn_sites/tn_accordion/parsys_murray_ohio_plantlawrenceburglawrencecounty/tn_textandimage/image.img.jpg/1705424646938.jpg" alt="A grassy parking lot with an old truck with faded and bleached decal reading &#34;The official manufacturer of bicycles for the 1984 Olympics: Murray: producer in two major product lines: bicycles and powermowers.&#34; " title="Murray Ohio dilapidated shipping container at the facility." class="cq-dd-image"></a></div>
+
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/tn\/environment\/program\u002Dareas\/rem\u002Dremediation\/tnclean\/jcr:content\/content\/tn_tabs_copy\/parsys_middle_tn_sites\/tn_accordion\/parsys_murray_ohio_plantlawrenceburglawrencecounty\/tn_textandimage\/image");
+        var imageEvars = '{ imageLink: "/content/dam/tn/environment/remediation/images/tn-clean/murray-images/rem_tnclean-murray-truck_09-20-2023.jpg", imageAsset: "/content/dam/tn/environment/remediation/images/tn-clean/murray-images/rem_tnclean-murray-truck_09-20-2023.jpg", imageTitle: "Murray Ohio dilapidated shipping container at the facility." }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "tncore\/components\/content\/tn\u002Dimage"})');
+        }
+        
+    })();
+</script>
+
+
+</div>
+<div class="textimage-text">
+    
+        <p><a name="_Hlk146696208" id="_Hlk146696208" class="anchor"></a>The Old Murray Ohio plant in Lawrenceburg, TN was a producer of bicycle parts and lawn mowers from its construction in 1956 until closure in 2005. An environmental assessment in 2006 found contamination in groundwater. A variety of contaminant types were identified, including metals, VOCs, chlorinated solvents, and petroleum products. The facility stored its hazardous waste in drums on site; some contamination may have been contributed through leakage of these drums or through their production and use during manufacturing. Although limited assessment has been performed, the site will require a complete site characterization to determine the nature and extent of contamination. </p>
+
+    
+    
+
+</div>
+
+
+<div class="clear"></div></div>
+
+
+    
+    
+    <div class="tn-linkbuttons"><div>
+	
+        <div>
+            
+            
+                <a href="https://arcg.is/1XavWO" target="_blank" class="button red">Explore the Murray Ohio StoryMap</a>
+            
+        </div>
+	
+</div></div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-f754ebc8c4e04c8394e99f80e99bdfef-1" aria-controls="collapse-f754ebc8c4e04c8394e99f80e99bdfef-1" aria-expanded="false">
+                                    Old Waynesboro City Dump (Waynesboro, Wayne County)
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-f754ebc8c4e04c8394e99f80e99bdfef-1" class="accordion-collapse collapse" data-bs-parent="#accordion-f754ebc8c4e04c8394e99f80e99bdfef">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-textandimage textimage parbase">
+
+
+
+<div class="textimage-left" style="float: left;">
+<div  id="cq-image-jsp-/content/tn/environment/program-areas/rem-remediation/tnclean/jcr:content/content/tn_tabs_copy/parsys_middle_tn_sites/tn_accordion/parsys_old_waynesboro_citydumpwaynesborowaynecounty/tn_textandimage/image"><a href="/content/dam/tn/environment/remediation/images/tn-clean/waynesboro-images/rem_tnclean-waynesboro_09-11-2023.PNG"><img src="/environment/program-areas/rem-remediation/tnclean/_jcr_content/content/tn_tabs_copy/parsys_middle_tn_sites/tn_accordion/parsys_old_waynesboro_citydumpwaynesborowaynecounty/tn_textandimage/image.img.png/1703102889046.png" alt="Fifteen rusted drums found at the waynesboro dump. " title="Drums found at the Waynesboro Dump" class="cq-dd-image"></a></div>
+
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/tn\/environment\/program\u002Dareas\/rem\u002Dremediation\/tnclean\/jcr:content\/content\/tn_tabs_copy\/parsys_middle_tn_sites\/tn_accordion\/parsys_old_waynesboro_citydumpwaynesborowaynecounty\/tn_textandimage\/image");
+        var imageEvars = '{ imageLink: "/content/dam/tn/environment/remediation/images/tn-clean/waynesboro-images/rem_tnclean-waynesboro_09-11-2023.PNG", imageAsset: "/content/dam/tn/environment/remediation/images/tn-clean/waynesboro-images/rem_tnclean-waynesboro_09-11-2023.PNG", imageTitle: "Drums found at the Waynesboro Dump" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "tncore\/components\/content\/tn\u002Dimage"})');
+        }
+        
+    })();
+</script>
+
+
+</div>
+<div class="textimage-text">
+    
+        <p>In the 1960s and 1970s, this landfill accepted household and industrial wastes, the latter containing PCB, VOCs, and chlorinated solvent contaminants. Water quality issues arose in the 1970s, and the landfill was covered with a 2-foot clay cap in 1982. Concrete drainage channels and a clay-lined settling pond were installed to divert stormwater and collect potential leachate. In 2010, TDEC sampled the adjacent Beech Creek, drinking water wells, sediment, and surface water wells; PCBs were identified in Beech Creek sediment and floodplain soil. Soil and sediment containing elevated levels of PCBs was removed in 2015-2016. TDEC is reinvestigating the site to determine current groundwater conditions and characterize seeps that may be present at the base of the dump. </p>
+
+    
+    
+
+</div>
+
+
+<div class="clear"></div></div>
+
+
+    
+    
+    <div class="tn-linkbuttons"><div>
+	
+        <div>
+            
+            
+                <a href="https://arcg.is/0a19ia" target="_blank" class="button red">Explore the Old Waynesboro Dump StoryMap</a>
+            
+        </div>
+	
+</div></div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+
+            
+        
+    </div>
+
+</div>
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <h2>Division of Solid Waste Management</h2>
+
+    
+    
+
+</div>
+
+
+    
+    
+    <div class="containers tn-accordion parbase">
+    <div class="accordion" id="accordion-85d4916d46254cedbffa36090360078c">
+        
+
+        
+            
+
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-85d4916d46254cedbffa36090360078c-0" aria-controls="collapse-85d4916d46254cedbffa36090360078c-0" aria-expanded="false">
+                                    Dana Corporation (Hohenwald, Lewis County)
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-85d4916d46254cedbffa36090360078c-0" class="accordion-collapse collapse" data-bs-parent="#accordion-85d4916d46254cedbffa36090360078c">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-textandimage textimage parbase">
+
+
+
+
+<div class="textimage-text">
+    
+        <p>Learn more about the <a title="Division of Solid Waste Management" href="/content/tn/environment/program-areas/solid-waste.html" target="_blank" rel="noopener noreferrer">Division of Solid Waste Management</a>.<br />
+</p>
+
+    
+    
+
+</div>
+
+
+<div class="clear"></div></div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-85d4916d46254cedbffa36090360078c-1" aria-controls="collapse-85d4916d46254cedbffa36090360078c-1" aria-expanded="false">
+                                    Duromatic (Campaign, Warren County)
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-85d4916d46254cedbffa36090360078c-1" class="accordion-collapse collapse" data-bs-parent="#accordion-85d4916d46254cedbffa36090360078c">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-textandimage textimage parbase">
+
+
+
+
+<div class="textimage-text">
+    
+        <p>Learn more about the <a title="Division of Solid Waste Management" href="/content/tn/environment/program-areas/solid-waste.html" target="_blank" rel="noopener noreferrer">Division of Solid Waste Management</a>.<br />
+</p>
+
+    
+    
+
+</div>
+
+
+<div class="clear"></div></div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+
+            
+        
+    </div>
+
+</div>
+
+
+</div>
+                    </div>
+                
+                    <div class="tab-pane fade " id="tabpanel-57a41338d0cc408b99d1ca06cdfa3eed-2" role="tabpanel" aria-labelledby="tab-57a41338d0cc408b99d1ca06cdfa3eed-2" tabindex="0">
+                        <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <h2>Division of Remediation</h2>
+
+    
+    
+
+</div>
+
+
+    
+    
+    <div class="containers tn-accordion parbase">
+    <div class="accordion" id="accordion-d6bddbd504294558af873cda8b602133">
+        
+
+        
+            
+
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-d6bddbd504294558af873cda8b602133-0" aria-controls="collapse-d6bddbd504294558af873cda8b602133-0" aria-expanded="false">
+                                    Boone Dry Cleaners (Jackson, Madison County) 
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-d6bddbd504294558af873cda8b602133-0" class="accordion-collapse collapse" data-bs-parent="#accordion-d6bddbd504294558af873cda8b602133">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-image image parbase">
+<div  id="cq-image-jsp-/content/tn/environment/program-areas/rem-remediation/tnclean/jcr:content/content/tn_tabs_copy/parsys_west_tn_sites_/tn_accordion/parsys_boone_dry_cleanersjacksonmadisoncounty/tn_image"><a href="/content/dam/tn/environment/remediation/images/tn-clean/boone-images/rem_tnclean-boone.png"><img src="/environment/program-areas/rem-remediation/tnclean/_jcr_content/content/tn_tabs_copy/parsys_west_tn_sites_/tn_accordion/parsys_boone_dry_cleanersjacksonmadisoncounty/tn_image.img.png/1710265000692.png" alt="A black and white photo of Boone Dry Cleaners taken sometime between 1944-1977." title="A photo of Boone Dry Cleaners taken sometime between 1944-1977. " class="cq-dd-image"></a></div>
+
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/tn\/environment\/program\u002Dareas\/rem\u002Dremediation\/tnclean\/jcr:content\/content\/tn_tabs_copy\/parsys_west_tn_sites_\/tn_accordion\/parsys_boone_dry_cleanersjacksonmadisoncounty\/tn_image");
+        var imageEvars = '{ imageLink: "/content/dam/tn/environment/remediation/images/tn-clean/boone-images/rem_tnclean-boone.png", imageAsset: "/content/dam/tn/environment/remediation/images/tn-clean/boone-images/rem_tnclean-boone.png", imageTitle: "A photo of Boone Dry Cleaners taken sometime between 1944\u002D1977. " }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "tncore\/components\/content\/tn\u002Dimage"})');
+        }
+        
+    })();
+</script>
+
+
+</div>
+
+
+    
+    
+    <div class="tn-textandimage textimage parbase">
+
+
+
+
+<div class="textimage-text">
+    
+        <p>A drycleaner operated at the site from 1945-1977. In 1992, the site’s soil and groundwater were found to be contaminated with several chlorinated chemical that had leaked from an underground storage tank. The site has been monitored and tested since 1997 to define the contaminated area. Contamination was found to have spread beyond the site boundaries into neighboring properties.  Several Injections of maple syrup, soybean oil, and simple green emulsion into injection wells in the ground began in 2002 to encourage biological activity at the site. This continued for about a year. A source area approximately 22 feet by 22 feet and about 12 feet deep was discovered where the building used to sit. Later in 2004, about 215 cubic feet of contaminated soil was removed. Sodium lactate was added to the bottom of the pit to sustain biological activity; the pit was then refilled with clean gravel and soil. Since 2004, about every 6 months sodium lactate is added to the onsite injection wells. The onsite wells are sampled to evaluate the effectiveness of the injections. Although concentrations in groundwater have decreased due to the various injection activities, significant contamination remains. </p>
+
+    
+    
+
+</div>
+
+
+<div class="clear"></div></div>
+
+
+    
+    
+    <div class="tn-linkbuttons"><div>
+	
+        <div>
+            
+            
+                <a href="https://arcg.is/Sv8uz0" target="_blank" class="button red">Explore the Boone Dry Cleaners StoryMap</a>
+            
+        </div>
+	
+</div></div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-d6bddbd504294558af873cda8b602133-1" aria-controls="collapse-d6bddbd504294558af873cda8b602133-1" aria-expanded="false">
+                                    Creotox (Memphis, Shelby County)
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-d6bddbd504294558af873cda8b602133-1" class="accordion-collapse collapse" data-bs-parent="#accordion-d6bddbd504294558af873cda8b602133">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-textandimage textimage parbase">
+
+
+
+<div class="textimage-left" style="float: left;">
+<div  id="cq-image-jsp-/content/tn/environment/program-areas/rem-remediation/tnclean/jcr:content/content/tn_tabs_copy/parsys_west_tn_sites_/tn_accordion/parsys_creotox_memphis_shelbycounty/tn_textandimage/image"><a href="/content/dam/tn/environment/remediation/images/tn-clean/creotox-images/rem_tnclean-creotox-drums_09-21-2023.PNG"><img src="/environment/program-areas/rem-remediation/tnclean/_jcr_content/content/tn_tabs_copy/parsys_west_tn_sites_/tn_accordion/parsys_creotox_memphis_shelbycounty/tn_textandimage/image.img.png/1710265294424.png" alt="Twelve rusted drums storing unlabelled waste in an overgrown, fenced-in lot, featuring vines, leafless trees, and dead leaves on the forest floor. " title="Drums at the Creotox site are surrounded by trees and dead leaves on the fenced property. " class="cq-dd-image"></a></div>
+
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/tn\/environment\/program\u002Dareas\/rem\u002Dremediation\/tnclean\/jcr:content\/content\/tn_tabs_copy\/parsys_west_tn_sites_\/tn_accordion\/parsys_creotox_memphis_shelbycounty\/tn_textandimage\/image");
+        var imageEvars = '{ imageLink: "/content/dam/tn/environment/remediation/images/tn-clean/creotox-images/rem_tnclean-creotox-drums_09-21-2023.PNG", imageAsset: "/content/dam/tn/environment/remediation/images/tn-clean/creotox-images/rem_tnclean-creotox-drums_09-21-2023.PNG", imageTitle: "Drums at the Creotox site are surrounded by trees and dead leaves on the fenced property. " }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "tncore\/components\/content\/tn\u002Dimage"})');
+        }
+        
+    })();
+</script>
+
+
+</div>
+<div class="textimage-text">
+    
+        <p>The Creotox Chemical Company was a pesticide blending facility from approximately 1946 to 1991. The TDEC Division of Solid Waste Management conducted an inspection of the property in 1985 which indicated there was some spillage of pesticide chemicals around the facility. Drums containing hazardous substances were found in the facility in 1995, and subsequently removed after soil testing showed contamination in a nearby drainage ditch. The EPA conducted an emergency removal of 45 cubic yards of hazardous debris, 3 drums of hazardous liquids and solids, 3 drums of non-hazardous solids, and 2,117 tons of contaminated soils, which was completed in 1997. Soil and groundwater were tested again in 2003 and once more in 2007. The presence of contaminants in groundwater have been decreasing, though there is some evidence of contaminants move downgradient with groundwater flow. TDEC has conducted significant remedial work on this site in the past, and it is almost ready to be made available for reuse.</p>
+
+    
+    
+
+</div>
+
+
+<div class="clear"></div></div>
+
+
+    
+    
+    <div class="tn-linkbuttons"><div>
+	
+        <div>
+            
+            
+                <a href="https://arcg.is/1jObaD0" target="_blank" class="button red">Explore the Creotox StoryMap</a>
+            
+        </div>
+	
+</div></div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-d6bddbd504294558af873cda8b602133-2" aria-controls="collapse-d6bddbd504294558af873cda8b602133-2" aria-expanded="false">
+                                    Chromasco (Memphis, Shelby County)
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-d6bddbd504294558af873cda8b602133-2" class="accordion-collapse collapse" data-bs-parent="#accordion-d6bddbd504294558af873cda8b602133">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-textandimage textimage parbase">
+
+
+
+<div class="textimage-left" style="float: left;">
+<div  id="cq-image-jsp-/content/tn/environment/program-areas/rem-remediation/tnclean/jcr:content/content/tn_tabs_copy/parsys_west_tn_sites_/tn_accordion/parsys_chromasco_memphisshelbycounty/tn_textandimage/image"><a href="/content/dam/tn/environment/remediation/images/tn-clean/chromasco-images/rem_tnclean-chromasco-facility_09-11-2023.PNG"><img src="/environment/program-areas/rem-remediation/tnclean/_jcr_content/content/tn_tabs_copy/parsys_west_tn_sites_/tn_accordion/parsys_chromasco_memphisshelbycounty/tn_textandimage/image.img.png/1703104440737.png" alt="The since-dempolished Chromasco facility furnace building featuring rusty roof and iron scaffolding below an ominous smokestack on a yellow-grassy concrete slab.." title="Chromasco furnace building smokestacks" class="cq-dd-image"></a></div>
+
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/tn\/environment\/program\u002Dareas\/rem\u002Dremediation\/tnclean\/jcr:content\/content\/tn_tabs_copy\/parsys_west_tn_sites_\/tn_accordion\/parsys_chromasco_memphisshelbycounty\/tn_textandimage\/image");
+        var imageEvars = '{ imageLink: "/content/dam/tn/environment/remediation/images/tn-clean/chromasco-images/rem_tnclean-chromasco-facility_09-11-2023.PNG", imageAsset: "/content/dam/tn/environment/remediation/images/tn-clean/chromasco-images/rem_tnclean-chromasco-facility_09-11-2023.PNG", imageTitle: "Chromasco furnace building smokestacks" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "tncore\/components\/content\/tn\u002Dimage"})');
+        }
+        
+    })();
+</script>
+
+
+</div>
+<div class="textimage-text">
+    
+        <p>The Chromium Mining and Smelting Corporation (Chromasco) smelted metals in Memphis from the early 1950s until 1984. This 92-acre site has been monitored since the 1980s for metals, notably chromium and arsenic, in groundwater, soil, sediment, and surface waters. Contaminated sediment, soil, and drums containing waste were excavated and removed from the site in 2000, but recent sampling indicated that there is still some remaining contamination. The site is currently being evaluated to assess the protectiveness of prior site remedial activities and institutional controls.</p>
+
+    
+    
+
+</div>
+
+
+<div class="clear"></div></div>
+
+
+    
+    
+    <div class="tn-linkbuttons"><div>
+	
+        <div>
+            
+            
+                <a href="https://arcg.is/PabLz" target="_blank" class="button red">Explore the Chromasco StoryMap</a>
+            
+        </div>
+	
+</div></div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-d6bddbd504294558af873cda8b602133-3" aria-controls="collapse-d6bddbd504294558af873cda8b602133-3" aria-expanded="false">
+                                    John Little Drum (Memphis, Shelby County)
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-d6bddbd504294558af873cda8b602133-3" class="accordion-collapse collapse" data-bs-parent="#accordion-d6bddbd504294558af873cda8b602133">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-textandimage textimage parbase">
+
+
+
+<div class="textimage-left" style="float: left;">
+<div  id="cq-image-jsp-/content/tn/environment/program-areas/rem-remediation/tnclean/jcr:content/content/tn_tabs_copy/parsys_west_tn_sites_/tn_accordion/parsys_john_little_drummemphisshelbycounty/tn_textandimage/image"><a href="/content/dam/tn/environment/remediation/images/tn-clean/john-little-images/rem_tnclean-john-little-facade_10-04-2023.PNG"><img src="/environment/program-areas/rem-remediation/tnclean/_jcr_content/content/tn_tabs_copy/parsys_west_tn_sites_/tn_accordion/parsys_john_little_drummemphisshelbycounty/tn_textandimage/image.img.png/1703103575127.png" alt="Building facade of the John Little Drum site featuring the National Paper and Chemical Company logo in the window. " title="Building facade of the John Little Drum site." class="cq-dd-image"></a></div>
+
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/tn\/environment\/program\u002Dareas\/rem\u002Dremediation\/tnclean\/jcr:content\/content\/tn_tabs_copy\/parsys_west_tn_sites_\/tn_accordion\/parsys_john_little_drummemphisshelbycounty\/tn_textandimage\/image");
+        var imageEvars = '{ imageLink: "/content/dam/tn/environment/remediation/images/tn-clean/john-little-images/rem_tnclean-john-little-facade_10-04-2023.PNG", imageAsset: "/content/dam/tn/environment/remediation/images/tn-clean/john-little-images/rem_tnclean-john-little-facade_10-04-2023.PNG", imageTitle: "Building facade of the John Little Drum site." }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "tncore\/components\/content\/tn\u002Dimage"})');
+        }
+        
+    })();
+</script>
+
+
+</div>
+<div class="textimage-text">
+    
+        <p>The National Paper and Chemical company operated in Memphis from 1946 until the mid-1970s. After the company closed, the operator, John Little, stored more than twenty-five 55-gallon drums and numerous smaller containers of dry-cleaning chemicals and a large quantity of paper products in a vacant building on the property. Vandalism and lack of maintenance led to disarray and chemical spills in the building in the mid-1980s. In 1986, TDEC and the Memphis Fire Department inspected the facility after receiving a complaint about the stored drums and conducted an emergency removal in 1987, and the building was subsequently demolished. Investigations of the soil and groundwater in the 1990s indicated elevated levels of chlorinated dry cleaning chemicals and daughter products. Neighboring properties also showed elevated levels of these chemicals in the soil and soil vapor. TDEC is currently working to identify and remove source material in the soil and potentially groundwater to remediate the site.  </p>
+
+    
+    
+
+</div>
+
+
+<div class="clear"></div></div>
+
+
+    
+    
+    <div class="tn-linkbuttons"><div>
+	
+        <div>
+            
+            
+                <a href="https://arcg.is/1CWLHb" target="_blank" class="button red">Explore the John Little Drum StoryMap</a>
+            
+        </div>
+	
+</div></div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-d6bddbd504294558af873cda8b602133-4" aria-controls="collapse-d6bddbd504294558af873cda8b602133-4" aria-expanded="false">
+                                    Henry County Boneyard (Paris, Henry County)
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-d6bddbd504294558af873cda8b602133-4" class="accordion-collapse collapse" data-bs-parent="#accordion-d6bddbd504294558af873cda8b602133">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-textandimage textimage parbase">
+
+
+
+<div class="textimage-left" style="float: left;">
+<div  id="cq-image-jsp-/content/tn/environment/program-areas/rem-remediation/tnclean/jcr:content/content/tn_tabs_copy/parsys_west_tn_sites_/tn_accordion/parsys_henry_county_boneyardparishenrycounty/tn_textandimage/image"><a href="/content/dam/tn/environment/remediation/images/tn-clean/hc-boneyard-images/rem_tnclean-boneyard-driveway_09-11-2023.PNG"><img src="/environment/program-areas/rem-remediation/tnclean/_jcr_content/content/tn_tabs_copy/parsys_west_tn_sites_/tn_accordion/parsys_henry_county_boneyardparishenrycounty/tn_textandimage/image.img.png/1703103695047.png" alt="Dirt road entryway to the Henry County Boneyard site featuring pine trees, dead grass, and an open chain link gate with yellow &#34;no tresspassing&#34; sign. " title="Henry County Boneyard front gates" class="cq-dd-image"></a></div>
+
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/tn\/environment\/program\u002Dareas\/rem\u002Dremediation\/tnclean\/jcr:content\/content\/tn_tabs_copy\/parsys_west_tn_sites_\/tn_accordion\/parsys_henry_county_boneyardparishenrycounty\/tn_textandimage\/image");
+        var imageEvars = '{ imageLink: "/content/dam/tn/environment/remediation/images/tn-clean/hc-boneyard-images/rem_tnclean-boneyard-driveway_09-11-2023.PNG", imageAsset: "/content/dam/tn/environment/remediation/images/tn-clean/hc-boneyard-images/rem_tnclean-boneyard-driveway_09-11-2023.PNG", imageTitle: "Henry County Boneyard front gates" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "tncore\/components\/content\/tn\u002Dimage"})');
+        }
+        
+    })();
+</script>
+
+
+</div>
+<div class="textimage-text">
+    
+        <p>This 15-acre area was used as a gravel excavation pit until it was abandoned. Thereafter it was used to store old highway equipment. In the mid-1970s, several 55-gallon drums containing paint wastes were buried illegally at the site and began leaking. The site was investigated by the former Tennessee Department of Health and Environment in 1982. The Boneyard was promulgated as a State Superfund site in 1987. After this designation, the TDoR tested the soil and groundwater at the Boneyard throughout the 1990s. Approximately 4800 cubic yards of contaminated soil, drums, and debris were removed in 1994 and replaced with clean soil. The site is currently being monitored to assess the migration of these chemicals in the groundwater to neighboring properties. </p>
+
+    
+    
+
+</div>
+
+
+<div class="clear"></div></div>
+
+
+    
+    
+    <div class="tn-linkbuttons"><div>
+	
+        <div>
+            
+            
+                <a href="https://arcg.is/DiXbj" target="_blank" class="button red">Explore the Henry County Boneyard StoryMap</a>
+            
+        </div>
+	
+</div></div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-d6bddbd504294558af873cda8b602133-5" aria-controls="collapse-d6bddbd504294558af873cda8b602133-5" aria-expanded="false">
+                                    Fiberfine (Memphis, Shelby County)
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-d6bddbd504294558af873cda8b602133-5" class="accordion-collapse collapse" data-bs-parent="#accordion-d6bddbd504294558af873cda8b602133">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-textandimage textimage parbase">
+
+
+
+<div class="textimage-left" style="float: left;">
+<div  id="cq-image-jsp-/content/tn/environment/program-areas/rem-remediation/tnclean/jcr:content/content/tn_tabs_copy/parsys_west_tn_sites_/tn_accordion/parsys_fiberfine_memphisshelbycounty/tn_textandimage/image"><a href="/content/dam/tn/environment/remediation/images/tn-clean/fiberfine-images/rem_tnclean-fiberfine-junk-yard_09-12-2023.PNG"><img src="/environment/program-areas/rem-remediation/tnclean/_jcr_content/content/tn_tabs_copy/parsys_west_tn_sites_/tn_accordion/parsys_fiberfine_memphisshelbycounty/tn_textandimage/image.img.png/1721663289890.png" alt="Auto salvage yard on the Fiberfine site. A gray, lumpy, topographically uneven gravel yard hosts sagging cars. A white 1980s Chevy truck in the background with its hood parked. Old tires spill out of a red truckbed in the foreground." title="fiberfine auto yard " class="cq-dd-image"></a></div>
+
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/tn\/environment\/program\u002Dareas\/rem\u002Dremediation\/tnclean\/jcr:content\/content\/tn_tabs_copy\/parsys_west_tn_sites_\/tn_accordion\/parsys_fiberfine_memphisshelbycounty\/tn_textandimage\/image");
+        var imageEvars = '{ imageLink: "/content/dam/tn/environment/remediation/images/tn-clean/fiberfine-images/rem_tnclean-fiberfine-junk-yard_09-12-2023.PNG", imageAsset: "/content/dam/tn/environment/remediation/images/tn-clean/fiberfine-images/rem_tnclean-fiberfine-junk-yard_09-12-2023.PNG", imageTitle: "fiberfine auto yard " }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "tncore\/components\/content\/tn\u002Dimage"})');
+        }
+        
+    })();
+</script>
+
+
+</div>
+<div class="textimage-text">
+    
+        <p>Fiberfine is the site of an inactive rock wool manufacturing plant. Rock wool is made by melting rock and spinning it into fibers, which also produces slag wool as waste. The slag, which contains lead and other heavy metals, was disposed of in a pile on site along with contaminated soil and sediment. When the factory was demolished in 1994, some of the slag was pushed into a nearby wetland area, causing contamination. The EPA excavated 5,000 cubic yards of waste slag and 16,000 yards of contaminated soil and disposed of them in a properly capped pile. Further sampling of site soils and groundwater is required to verify proper/current characterization of site impacts and if contaminant migration has occurred.   </p>
+
+    
+    
+
+</div>
+
+
+<div class="clear"></div></div>
+
+
+    
+    
+    <div class="tn-linkbuttons"><div>
+	
+        <div>
+            
+            
+                <a href="https://arcg.is/0mPvGS" target="_blank" class="button red">Explore the Fiberfine StoryMap</a>
+            
+        </div>
+	
+</div></div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-d6bddbd504294558af873cda8b602133-6" aria-controls="collapse-d6bddbd504294558af873cda8b602133-6" aria-expanded="false">
+                                    Chapman Chemical (Memphis, Shelby County)
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-d6bddbd504294558af873cda8b602133-6" class="accordion-collapse collapse" data-bs-parent="#accordion-d6bddbd504294558af873cda8b602133">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-textandimage textimage parbase">
+
+
+
+<div class="textimage-left" style="float: left;">
+<div  id="cq-image-jsp-/content/tn/environment/program-areas/rem-remediation/tnclean/jcr:content/content/tn_tabs_copy/parsys_west_tn_sites_/tn_accordion/parsys_chapman_chemicalmemphisshelbycounty/tn_textandimage/image"><a href="/content/dam/tn/environment/remediation/images/tn-clean/champan-images/rem_tnclean-chapman-salt-pond_10-05-2023.PNG"><img src="/environment/program-areas/rem-remediation/tnclean/_jcr_content/content/tn_tabs_copy/parsys_west_tn_sites_/tn_accordion/parsys_chapman_chemicalmemphisshelbycounty/tn_textandimage/image.img.png/1703104492987.png" alt="1991 sampling event of a salt pond at the Chapman Chemical site." title="Salt pond sampling at the Chapman Chemical site. " class="cq-dd-image"></a></div>
+
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/tn\/environment\/program\u002Dareas\/rem\u002Dremediation\/tnclean\/jcr:content\/content\/tn_tabs_copy\/parsys_west_tn_sites_\/tn_accordion\/parsys_chapman_chemicalmemphisshelbycounty\/tn_textandimage\/image");
+        var imageEvars = '{ imageLink: "/content/dam/tn/environment/remediation/images/tn-clean/champan-images/rem_tnclean-chapman-salt-pond_10-05-2023.PNG", imageAsset: "/content/dam/tn/environment/remediation/images/tn-clean/champan-images/rem_tnclean-chapman-salt-pond_10-05-2023.PNG", imageTitle: "Salt pond sampling at the Chapman Chemical site. " }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "tncore\/components\/content\/tn\u002Dimage"})');
+        }
+        
+    })();
+</script>
+
+
+</div>
+<div class="textimage-text">
+    
+        <p>Chapman Chemical began producing wood preservatives and agricultural chemicals in 1941. Through the production of an herbicide, a sodium chloride byproduct containing arsenic and pesticides was stored in a 0.5-acre salt pond on the property. The property was sold to Valley Products, Inc., in 1994 and was subsequently investigated for contamination. The pond was filled in with clean dirt and covered with gravel and asphalt in 2000. The site has not been sampled since 2000, so TDEC is reinvestigating the site today to determine the efficacy of the asphalt cap to stop transport of contaminants. </p>
+
+    
+    
+
+</div>
+
+
+<div class="clear"></div></div>
+
+
+    
+    
+    <div class="tn-linkbuttons"><div>
+	
+        <div>
+            
+            
+                <a href="https://arcg.is/0P9KPD" target="_blank" class="button red">Explore the Chapman Chemical StoryMap</a>
+            
+        </div>
+	
+</div></div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+
+            
+        
+    </div>
+
+</div>
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <h2>Division of Solid Waste Management</h2>
+
+    
+    
+
+</div>
+
+
+    
+    
+    <div class="containers tn-accordion parbase">
+    <div class="accordion" id="accordion-2aff31c42f3a4993b59989ede3b4430a">
+        
+
+        
+            
+
+            
+                <div class="accordion-item">
+                    
+
+                    
+                        <div class="accordion-heading">
+                            <span class="accordion-title">
+                                <button class="accordion-button icon-angle-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2aff31c42f3a4993b59989ede3b4430a-0" aria-controls="collapse-2aff31c42f3a4993b59989ede3b4430a-0" aria-expanded="false">
+                                    Former EWS Landfill (Camden, Benton County)
+                                </button>
+                            </span>
+                        </div>
+
+                        <div id="collapse-2aff31c42f3a4993b59989ede3b4430a-0" class="accordion-collapse collapse" data-bs-parent="#accordion-2aff31c42f3a4993b59989ede3b4430a">
+                            <div class="accordion-body panel-body" tabindex="0">
+                                <div>
+
+
+
+
+    
+    
+    <div class="tn-textandimage textimage parbase">
+
+
+
+
+<div class="textimage-text">
+    
+        <p>Learn more about the <a title="Division of Solid Waste Management" href="/content/tn/environment/program-areas/solid-waste.html" target="_blank" rel="noopener noreferrer">Division of Solid Waste Management</a>.<br />
+</p>
+
+    
+    
+
+</div>
+
+
+<div class="clear"></div></div>
+
+
+</div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+
+            
+        
+    </div>
+
+</div>
+
+
+</div>
+                    </div>
+                </div>
+            </div>
+        
+
+        <div style="clear:both;"></div>
+    
+
+</div>
+
+
+</div>
+
+                
+            </article>
+        </div>
+    </div>
+</div>
+
+        <div class="tn-backtotop"><a href="#header-logo" class="page-top icon-up" aria-label="Go back to the top of the page"></a></div>
+
+        
+
+        
+
+        <noindex>
+            <div>
+    <div>
+
+
+
+
+    
+        
+        
+        <div class="newpar new section">
+
+</div>
+
+    
+        
+        
+        <div class="par iparys_inherited">
+
+    
+    
+    
+    
+
+</div>
+
+    
+
+</div>
+    <footer>
+        <div>
+
+
+
+
+    
+        
+        
+        <div class="newpar new section">
+
+</div>
+
+    
+        
+        
+        <div class="par iparys_inherited">
+
+    
+    
+    
+    
+        
+        
+        <div class="tn-socialmediafooter"><div class="tn-socialmediabarfooter" role="navigation" aria-label="Social Media Links">
+    <div class="social">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 columns">
+                <ul class="inline-list">
+                    <li>
+                        <div class="title">Social Media</div>
+                    </li>
+                    
+                        
+                            <li><a href="https://www.facebook.com/TNEnvironment" class="icon-facebook" target="_blank"><span>facebook</span></a></li>
+                        
+                    
+                        
+                    
+                        
+                            <li><a href="https://www.youtube.com/user/TNEnvironment" class="icon-youtube" target="_blank"><span>youtube</span></a></li>
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                            <li><a href="https://www.linkedin.com/company/tennessee-department-of-environment-and-conservation/" class="icon-linkedin" target="_blank"><span>linkedin</span></a></li>
+                        
+                    
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</div></div>
+
+    
+        
+        
+        <div class="secondaryfooter tn-secondaryfooter"><section id="agency-footer">
+    <div class="row">
+        
+            <div class="col-md-15 col-sm-15 columns">
+                <div class="title border-darkblue" id="agency-footer-col-0">
+                    Programs
+                </div>
+                <button data-bs-toggle="collapse" data-bs-target="#footer-list-0" class="menu-expand-anchor" type="button" aria-expanded="false" aria-controls="collapseExample" aria-label="Programs Submenu">
+                    <span class="icon-angle-down menu-expand"></span>
+                </button>
+                <ul class="block-list" aria-labelledby="agency-footer-col-0" id="footer-list-0">
+                   <li>
+                       <a href="/environment/air.html" aria-label="Air" title="Air">Air</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/stewardship.html" aria-label="Environmental Stewardship" title="Environmental Stewardship">Environmental Stewardship</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/program-areas/solid-waste.html" aria-label="Solid Waste" title="Solid Waste">Solid Waste</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/ust.html" aria-label="Underground Storage Tanks" title="Underground Storage Tanks">Underground Storage Tanks</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/program-areas/wr-water-resources.html" aria-label="Water" title="Water">Water</a>
+                   </li>
+                </ul>
+            </div>
+        
+            <div class="col-md-15 col-sm-15 columns">
+                <div class="title border-darkblue" id="agency-footer-col-1">
+                    Resources
+                </div>
+                <button data-bs-toggle="collapse" data-bs-target="#footer-list-1" class="menu-expand-anchor" type="button" aria-expanded="false" aria-controls="collapseExample" aria-label="Resources Submenu">
+                    <span class="icon-angle-down menu-expand"></span>
+                </button>
+                <ul class="block-list" aria-labelledby="agency-footer-col-1" id="footer-list-1">
+                   <li>
+                       <a href="/environment/accessibility.html" target="_blank" aria-label="Accessibility" title="Accessibility">Accessibility</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/about-tdec/tdec-dataviewers.html" aria-label="Dataviewers" title="Dataviewers">Dataviewers</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/about-tdec/employment-and-internships.html" aria-label="Employment and Internships" title="Employment and Internships">Employment and Internships</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/about-tdec/enforcement-orders.html" aria-label="Enforcement Orders" title="Enforcement Orders">Enforcement Orders</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/about-tdec/grants.html" aria-label="Grants" title="Grants">Grants</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/nondiscrimination.html" aria-label="Non-Discrimination" title="Non-Discrimination">Non-Discrimination</a>
+                   </li>
+                </ul>
+            </div>
+        
+            <div class="col-md-15 col-sm-15 columns">
+                <div class="title border-darkblue" id="agency-footer-col-2">
+                    Featured Links
+                </div>
+                <button data-bs-toggle="collapse" data-bs-target="#footer-list-2" class="menu-expand-anchor" type="button" aria-expanded="false" aria-controls="collapseExample" aria-label="Featured Links Submenu">
+                    <span class="icon-angle-down menu-expand"></span>
+                </button>
+                <ul class="block-list" aria-labelledby="agency-footer-col-2" id="footer-list-2">
+                   <li>
+                       <a href="/environment/about-tdec/tdec-annual-reports.html" aria-label="TDEC Annual Reports" title="TDEC Annual Reports">TDEC Annual Reports</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/contacts/field-offices.html" aria-label="Field Offices" title="Field Offices">Field Offices</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/natural-areas.html" aria-label="Natural Areas" title="Natural Areas">Natural Areas</a>
+                   </li>
+                
+                   <li>
+                       <a href="https://tnstateparks.com/" target="_blank" aria-label="State Parks" title="State Parks">State Parks</a>
+                   </li>
+                
+                   <li>
+                       <a href="https://tnstateparks.com/conservationist" target="_blank" aria-label="The Tennessee Conservationist" title="The Tennessee Conservationist">The Tennessee Conservationist</a>
+                   </li>
+                </ul>
+            </div>
+        
+            <div class="col-md-15 col-sm-15 columns">
+                <div class="title border-darkblue" id="agency-footer-col-3">
+                    Partner Links
+                </div>
+                <button data-bs-toggle="collapse" data-bs-target="#footer-list-3" class="menu-expand-anchor" type="button" aria-expanded="false" aria-controls="collapseExample" aria-label="Partner Links Submenu">
+                    <span class="icon-angle-down menu-expand"></span>
+                </button>
+                <ul class="block-list" aria-labelledby="agency-footer-col-3" id="footer-list-3">
+                   <li>
+                       <a href="/historicalcommission.html" target="_blank" aria-label="TN Historical Commission" title="TN Historical Commission">TN Historical Commission</a>
+                   </li>
+                
+                   <li>
+                       <a href="https://www.tnvacation.com/green" target="_blank" aria-label="Sustainable Tourism" title="Sustainable Tourism">Sustainable Tourism</a>
+                   </li>
+                
+                   <li>
+                       <a href="https://www.collegefortn.org/tnpromise/" target="_blank" aria-label="TN Promise" title="TN Promise">TN Promise</a>
+                   </li>
+                
+                   <li>
+                       <a href="https://www.epa.gov/" target="_blank" aria-label="U.S. EPA" title="U.S. EPA">U.S. EPA</a>
+                   </li>
+                </ul>
+            </div>
+        
+        
+        <div class="col-md-15 col-sm-15 columns last">
+            <div class="contact">
+                
+                    <strong>
+                        Department of Environment &amp; Conservation<br/>
+                    </strong>
+                    
+                        David W. Salyers, P.E., P.G.<br/>
+                    
+                    <br/>
+                
+                
+                    <address>
+                        Davy Crockett Tower<br/>
+                        500 James Robertson Parkway<br/>
+                        Nashville, TN 37243<br/>
+
+                        (888) 891-TDEC (8332)<br/>
+                        
+                        
+                    </address>
+                
+                
+                    <a href="/environment/contacts/ask-tdec-questions.html" aria-label="Email Questions to TDEC" title="Email Questions to TDEC">
+                        Email Questions to TDEC
+                    </a>
+                
+            </div>
+            <div>
+                
+                    
+                    
+
+                    <img src="/etc/clientlibs/tncore/main/img/tn-seal.png" alt=""/>
+                
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+
+    
+
+</div>
+
+    
+
+</div>
+        <div>
+
+
+
+
+    
+        
+        
+        <div class="newpar new section">
+
+</div>
+
+    
+        
+        
+        <div class="par iparys_inherited">
+
+    
+    
+    
+    
+        
+        
+        <div class="tn-footer parbase"> <section id="footer">
+    <div id="footer-top">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 columns">
+                <ul class="inline-list">
+                    <li>
+                        <a href="/about-tn/flag-status.html" class="icon-flag" data-resource-path="/_jcr_content/footer/tn_footer" aria-label="Flag Status" title="Flag Status">Flag Status
+                        </a>
+                    </li>
+
+                    <li id="footer-livechat" class="offline">
+                        <a href="#" class="icon-chat" onclick="openFooterChat()" aria-label="Open Chat" title="Open Chat">
+                            Chat
+                        </a>
+
+                        <div class="livechat">
+                            <script>
+                                function openFooterChat() {
+                                    window.open(
+                                        "https://help.tn.gov/sn_customerservice_tn_chat_selector.do",
+                                        "popup",
+                                        "width=900, height=600"
+                                    );
+                                };
+                            </script>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 columns text-right">
+                <ul class="inline-list">
+                    <li>
+                        <a href="/help.html" class="icon-help-circled" aria-label="Help" title="Help">
+                            Help
+                        </a>
+                    </li>
+
+                    <li id="footer-translate">
+                        <a href="#" aria-label="Translate" aria-controls="#translate-box" aria-expanded="false" title="Translate" class="icon-book">
+                            Translate
+                        </a>
+                        <div class="drop right" id="translate-box">
+                            <div class="box">
+                                <div id="google_translate_element"></div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li id="footer-fontsize">
+                        <a href="#" aria-label="Font Size" aria-controls="#font-size-box" aria-expanded="false" title="Font Size" class="icon-font">
+                            Font Size
+                        </a>
+
+                        <div class="drop right" id="font-size-box">
+                            <div class="box">
+                                <ul class="inline-list">
+                                    <li>
+                                        <button class="button" aria-label="Decrease font size" aria-current="false" data-font-size="small">a-</button>
+                                    </li>
+                                    <li>
+                                        <button class="button active" aria-label="Reset font size" aria-current="true" data-font-size="normal">Normal</button>
+                                    </li>
+                                    <li>
+                                        <button class="button" aria-label="Increase font size" aria-current="false" data-font-size="large">A+</button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <span class="starball">
+            <img src="/etc/clientlibs/tncore/main/img/footer-starball.png" alt="" width="100%"/>
+        </span>
+    </div>
+
+    <div id="footer-bottom">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 columns">
+                <ul class="inline-list">
+                    <li>
+                         <a href="https://www.tn.gov/state-services.html" class="first" aria-label="TN.gov Services" title="TN.gov Services">
+                             TN.gov Services
+                         </a>
+                    
+                         <a href="https://www.tn.gov/directory.html" aria-label="TN.gov Directory" title="TN.gov Directory">
+                             TN.gov Directory
+                         </a>
+                    
+                         <a href="https://www.tn.gov/transparenttn.html" aria-label="Transparent TN" title="Transparent TN">
+                             Transparent TN
+                         </a>
+                    
+                         <a href="https://www.tn.gov/web-policies/privacy-statement.html" aria-label="Web Policies" title="Web Policies">
+                             Web Policies
+                         </a>
+                    
+                         <a href="https://www.tn.gov/mytn.html" aria-label="Mobile App" title="Mobile App">
+                             Mobile App
+                         </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 columns text-right">
+                <ul class="inline-list">
+                    <li>
+                        <a href="https://www.tn.gov/about-tn/state-symbols.html" aria-label="About Tennessee" title="About Tennessee">
+                            About Tennessee
+                        </a>
+                    
+                        <a href="https://www.tn.gov/hr/title-vi/title-vi-disclaimer.html" target="_blank" aria-label="Title VI" title="Title VI">
+                            Title VI
+                        </a>
+                    
+                        <a href="https://www.tn.gov/web-policies/accessibility.html" aria-label="Accessibility" title="Accessibility">
+                            Accessibility
+                        </a>
+                    
+                        <a href="https://www.tn.gov/help.html" aria-label="Help &amp; Contact" title="Help &amp; Contact">
+                            Help &amp; Contact
+                        </a>
+                    
+                        <a href="https://www.tn.gov/survey.html" aria-label="Survey" title="Survey">
+                            Survey
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="modal-footer"></div>
+</div>
+
+    
+        
+        
+        <div class="tn-freestyledialog">
+    <script>!function(s,a,e,v,n,t,z){if(s.saq)return;n=s.saq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!s._saq)s._saq=n;n.push=n;n.loaded=!0;n.version='1.0';n.queue=[];t=a.createElement(e);t.async=!0;t.src=v;z=a.getElementsByTagName(e)[0];z.parentNode.insertBefore(t,z)}(window,document,'script','https://tags.srv.stackadapt.com/events.js');saq('ts', '4xBwuaJ6r7lc5Mwk742YVA');</script>
+
+
+
+<!--BEGIN QUALTRICS WEBSITE FEEDBACK SNIPPET-->
+
+<script type='text/javascript'>
+
+(function(){var g=function(g){
+
+this.go=function(){var a=document.createElement("script");a.type="text/javascript";a.src=g;document.body&&document.body.appendChild(a)};
+
+this.start=function(){var t=this;"complete"!==document.readyState?window.addEventListener?window.addEventListener("load",function(){t.go()},!1):window.attachEvent&&window.attachEvent("onload",function(){t.go()}):t.go()};};
+
+try{(new g("https://znwbewebwkp6zwxpl-tngov.gov1.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_WBewebwKP6ZwxpL")).start()}catch(i){}})();
+
+</script><div id='ZN_WBewebwKP6ZwxpL'><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div>
+
+<!--END WEBSITE FEEDBACK SNIPPET-->
+
+</div>
+
+    
+
+</div>
+
+    
+
+</div>
+    </footer>
+
+</div>
+            
+
+    
+<script src="/etc/clientlibs/tncore/main.min.5f18b486157a56c1f7aa6b7a8f0feef8.js"></script>
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+        </noindex>
+
+        <div id="overlay"></div>
+
+<!-- Begin Dynamic Modal for Videos -->
+<div class="tn-videoModal modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <a href="#" data-bs-dismiss="modal" class="close-video icon-cancel text-button">Close</a>
+                <div class="videoWrapper">
+                    <iframe title="Video"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Dynamic Modal for Videos -->
+
+    </body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "id": "L25",
+  "requested_url": "https://stateoftennessee.formstack.com/forms/public_records_request",
+  "retrieved_at": "2026-10-05T17:38:06.297103+00:00",
+  "status": 200,
+  "final_url": "https://stateoftennessee.formstack.com/forms/public_records_request",
+  "redirect_count": 0,
+  "curl_exit": 0,
+  "error": null,
+  "bytes": 97187,
+  "sha256": "c72c09b9202dc48b5fa252b15547dfe69f2fc6bf9f8ccada5b6715e50a52fde5",
+  "content_type": "text/html; charset=UTF-8",
+  "source_date": null,
+  "event_date": null,
+  "quotations": [
+    "Public Records Request (RDA SW35)",
+    "The agency can request proof of Tennessee citizenship before records are released."
+  ],
+  "scope": "Retrieved wording only; not independent acceptance or live capacity.",
+  "links": [
+    "#",
+    "https://tn.gov",
+    "https://help.tn.gov/tn",
+    "#footer"
+  ],
+  "claim_scope": "Official TDEC-linked records form: embedded form configuration only, no submission tested",
+  "extraction_method": "Embedded formResponse JSON strings, not executed"
+}

@@ -1,0 +1,862 @@
+ 
+<!-- fbx_circuits.cfm -->
+ 
+<!-- fbx_settings.cfm -->
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7 no-js" lang="en" dir="ltr"><![endif]-->
+<!--[if lt IE 7]><html class="lt-ie9 lt-ie8 lt-ie7 no-js" lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8 no-js" lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9 no-js" lang="en" dir="ltr"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)]><!--><html class="no-js not-oldie" lang="en" dir="ltr"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="true" />
+  <link rel="shortcut icon" href="https://www.epa.gov/sites/all/themes/epa/favicon.ico" type="image/vnd.microsoft.icon" />
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="MobileOptimized" content="width" />
+  <meta http-equiv="cleartype" content="on" />
+  <meta http-equiv="ImageToolbar" content="false" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="version" content="20161218" />
+<!--googleon: all-->
+  <meta name="DC.description" content="EPA's Superfund Site Information for VELSICOL CHEMICAL CORP. (HARDEMAN COUNTY)">
+  <meta name="DC.title" content="VELSICOL CHEMICAL CORP. (HARDEMAN COUNTY) Site Profile">
+  <title>VELSICOL CHEMICAL CORP. (HARDEMAN COUNTY) | Superfund Site Profile | Superfund Site Information | US EPA</title><br />
+<!--googleoff: snippet-->
+  <meta name="keywords" content="Superfund, Superfund Site, Superfund Site Profile, Superfund Site Infomation" />
+  <link rel="shortlink" href="https://cumulis.epa.gov/supercpad" />
+  <link rel="canonical" href="https://cumulis.epa.gov/supercpad/CurSites/srchsites.cfm" />
+  <meta name="DC.creator" content="US EPA, OSRTI" />
+  <meta name="DC.language" content="en" />
+  <meta content="Superfund Site Information" about="Cursites/srchsites.cfm" property="dc:title" />
+  <meta name="DC.Subject.epachannel" content="Learn the Issues" />
+  <meta name="DC.type" content="Overviews and Factsheets" />
+  <meta name="DC.date.created" content="2013-02-12" />
+  <meta name="DC.date.modified" content="2017-10-20" />
+<!--googleon: all-->
+<link type="text/css" rel="stylesheet" href="https://www.epa.gov/sites/all/libraries/template2/s.css" media="all" />
+  <!--[if lt IE 9]><link type="text/css" rel="stylesheet" href="https://www.epa.gov/sites/all/themes/epa/css/ie.css" media="all" /><![endif]-->
+  <link rel="alternate" type="application/atom+xml" title="EPA.gov All Press Releases" href="https://www.epa.gov/newsreleases/search/rss" />
+  <link rel="alternate" type="application/atom+xml" title="EPA.gov Headquarters Press Releases" href="https://www.epa.gov/newsreleases/search/rss/field_press_office/headquarters" />
+  <link rel="alternate" type="application/atom+xml" title="Greenversations, EPA's Blog" href="https://blog.epa.gov/blog/feed/" />
+  <!--[if lt IE 9]><script src="https://www.epa.gov/sites/all/themes/epa/js/html5.js"></script><![endif]-->
+  
+  <link rel="stylesheet" type="text/css" href="../CurSites/css/sspp.css" media="screen" />
+  
+
+<script language="JavaScript">
+	function PopupGlossary2(AnchorName){
+		var siteID=0;
+		window.open("../SiteProfiles/index.cfm?fuseaction=modules.glossary&id=" + siteID + "#" + AnchorName,"Glossary", "toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=700,height=400");
+	}
+	
+	function SetActiveTab(mytab) {
+		alert(mytab);
+		doocument.write("");	
+	}
+</script>
+<style type="text/css">
+    @media print {
+		    .myprint {display: inline-block; page-break-inside: avoid; page-break-before: avoid;}
+	}  
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    th, td {
+        padding: 6px;
+        text-align: left;    
+    }
+    th {
+        background-color:#E6EEF6;
+    }
+	
+    table.tablesorter thead tr .header {
+        margin: 0px;
+		padding: 5px;
+        text-align: left;
+        background-repeat: no-repeat;
+        background-position: center right;
+    }
+	table.tablesorter th.header  {
+        background-image: url('../cursites/images/sort_both.png');
+    }
+	table.tablesorter th.headerSortUp {
+        background-image: url("../cursites/images/sort_desc.png");
+    }
+    table.tablesorter th.headerSortDown {
+        background-image: url("../cursites/images/sort_asc.png");
+    }    
+
+  </style>
+
+
+
+
+<title>Superfund Information Systems: Site Profile</title>
+
+
+
+
+</head>
+
+
+<body class="node-type-page one-sidebar sidebar-first microsite">
+  <!-- Google Tag Manager -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-L8ZB" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-L8ZB');</script>
+  <!-- End Google Tag Manager -->
+  <div class="skip-links"><a href="#main-content" class="skip-link element-invisible element-focusable">Jump to main content</a></div>
+  
+
+  
+  <header class="masthead clearfix" role="banner">
+    <img class="site-logo" src="https://www.epa.gov/sites/all/themes/epa/logo.png" alt="" />
+    <hgroup class="site-name-and-slogan">
+      <h1 class="site-name"><a href="https://www.epa.gov/" title="Go to the home page" rel="home"><span>US EPA</span></a></h1>
+      <div class="site-slogan">United States Environmental Protection Agency</div>
+    </hgroup>
+    <form class="epa-search" method="get" action="https://search.epa.gov/epasearch/epasearch">
+      <label class="element-hidden" for="search-box">Search</label>
+      <input class="form-text" placeholder="Search EPA.gov" name="querytext" id="search-box" value=""/>
+      <button class="epa-search-button" id="search-button" type="submit" title="Search">Search</button>
+	  <input type="hidden" name="areaname" value="Superfund Site Profile" />
+      <input type="hidden" name="areacontacts" value="" />
+      <input type="hidden" name="areasearchurl" value="" />
+      <input type="hidden" name="typeofsearch" value="epa" />
+      <input type="hidden" name="result_template" value="2col.ftl" />
+    </form>
+  </header>
+
+<section id="main-content" class="main-content clearfix myprint" role="main" lang="en">
+    <h2 class="microsite-name">Superfund Site:</h2>
+	<div class="region-preface clearfix">
+      <div id="block-pane-epa-web-area-connect" class="block block-pane contextual-links-region">
+        <ul class="menu utility-menu">
+			<li class="menu-item"><a href="https://www.epa.gov/superfund/forms/contact-us-about-superfund" class="menu-link contact-us">Contact Us</a></li>
+		</ul>
+      </div>
+    </div>
+<!--googleon: all-->
+
+	<div class="main-column clearfix">
+	<h2 class="page-title" style="margin-top:-1em;padding-top:0px;">VELSICOL CHEMICAL CORP. (HARDEMAN COUNTY)<br>TOONE, TN</h2>
+
+
+
+<a name="pagecontents"></a>
+
+	
+
+	 
+<!-- qry_ssppTopics.cfm -->
+
+<!-- qry_siteInfoMain.cfm -->
+ 
+<!-- fbx_circuits.cfm -->
+ 
+<!-- fbx_settings.cfm -->
+
+	<!-- siteprofiles/inputfilter.cfm -->
+<div class="panel-pane pane-node-content" >
+<div class="pane-content">
+<div class="node node-page clearfix view-mode-full"> 
+
+<a name="content"></a>
+<a name="pagetop"></a>
+
+<h2 class="page-title">Cleanup Progress</h2>
+	
+		<div class="panel-pane pane-epa-core-html-pane box special right">
+			<div class="pane-content" style="width:300px;">
+				<p><a href="Mailto:Miller.Angela@epa.gov?subject=Add me to the VELSICOL CHEMICAL CORP. (HARDEMAN COUNTY) Superfund site mailing list">Sign up</a> for this Superfund site’s mailing list</p>
+			</div>
+		</div>	
+		
+
+	<h4>On this page:</h4>
+	<ul>
+		<li><a href="#Milestone">Site Milestones</a></li>
+		
+		<li><a href="#Schedule">Cleanup Schedule by Operable Unit</a></li>
+		
+	</ul>		
+
+	Cleaning up Superfund sites is a complex, multi-phase process. Learn more:
+	<ul>
+		<li><a href="https://www.epa.gov/superfund/superfund-cleanup-process">Superfund Cleanup Process</a></li>
+		<li style="white-space:nowrap;"><a href="http://semspub.epa.gov/src/document/HQ/175197">A community guide to EPA's Superfund program (PDF)</a><span class="fileinfo">(12 pp, 454 KB)</span></li>
+	</ul>
+		
+<hr/>				
+
+<a name="Milestone"></a>
+<h3 class="pane-title">Site Milestones</h3>
+<table id="tablesorter" class="tablesorter" width="100%">
+	<thead>
+		<tr>
+		<th width="68%">Milestone</th>
+		<th width="32%">Date(s)</th>
+		</tr>
+	</thead>
+	<tbody>
+	
+		<tr>
+			<td valign="top">Initial Assessment Completed</td>
+			<td valign="top" style="word-break:break-all;">01/01/1984</td>
+		</tr>
+	
+		<tr>
+			<td valign="top">Proposed to the National Priorities List</td>
+			<td valign="top" style="word-break:break-all;">12/30/1982</td>
+		</tr>
+	
+		<tr>
+			<td valign="top">Finalized on the National Priorities List</td>
+			<td valign="top" style="word-break:break-all;">09/08/1983</td>
+		</tr>
+	
+		<tr>
+			<td valign="top">Remedial Investigation Started</td>
+			<td valign="top" style="word-break:break-all;">02/17/1989</td>
+		</tr>
+	
+		<tr>
+			<td valign="top">Remedy Selected</td>
+			<td valign="top" style="word-break:break-all;">06/27/1991</td>
+		</tr>
+	
+		<tr>
+			<td valign="top">Final Remedy Selected</td>
+			<td valign="top" style="word-break:break-all;">09/26/1995</td>
+		</tr>
+	
+		<tr>
+			<td valign="top">Remedial Action Started</td>
+			<td valign="top" style="word-break:break-all;">05/26/1995</td>
+		</tr>
+	
+		<tr>
+			<td valign="top">Construction Completed</td>
+			<td valign="top" style="word-break:break-all;">08/13/1998</td>
+		</tr>
+	
+		<tr>
+			<td valign="top">Deleted from National Priorities List</td>
+			<td valign="top" style="word-break:break-all;">Not Yet Achieved</td>
+		</tr>
+	
+		<tr>
+			<td valign="top">Most Recent Five-Year Review</td>
+			<td valign="top" style="word-break:break-all;">06/21/2021</td>
+		</tr>
+	
+		<tr>
+			<td valign="top">Achieved Sitewide Ready for Anticipated Reuse</td>
+			<td valign="top" style="word-break:break-all;">Not Yet Achieved</td>
+		</tr>
+	
+	</tbody>
+</table>
+<p class="pagetop"><a href="#main-content">Top of Page</a></p><hr/>
+
+
+
+
+<a name="Schedule"></a>
+
+<h3 class="pane-title"><a id="cleanup-area" name="cleanup-area"></a>Cleanup Schedule by Operable Unit</h3>
+
+<p>During cleanup, a site can be divided into a number of distinct areas depending on its complexity. These areas, called operable units (OUs), may address geographic areas, specific problems, or areas where a specific action is required. Examples of typical operable units include construction of a groundwater pump and treatment system or construction of a cap over a landfill.
+
+
+	<div><label for="ou-jump-link">Select an operable unit.
+	After making a selection, press go to filter the table by operable unit.
+	</label></div>
+
+	<select class="form-select" id="ou-jump-link">
+			<option value="">All Project AreasOUs</option>
+		
+			<option value="00">OU 00 - SITEWIDE</option>
+		
+			<option value="01">OU 01 - VELSICOL/HARDEMAN GROUNDWATER</option>
+		
+			<option value="02">OU 02 - VELSICOL/HARDEMAN SOURCE</option>
+		
+	</select>
+	<input class="form-submit" id="ou-open-link" type="submit" value="Go" />
+
+<TABLE id="datatable-ous">
+  <THEAD>
+  <TR>
+    <TH>Milestone</TH>
+    <TH>OU</TH>
+    <TH>Start Date</TH>
+    <TH>Completion Date</TH>
+    <TH>OU ID</TH>
+  </TR>
+  </THEAD>
+  <TBODY>
+  
+	<TR>
+		<td>Administrative Order of Consent   <small><i>(EPA Performed)</i></small></td> 
+		<td>OU 00 - SITEWIDE</td>
+		<td></td>
+		<td>02/17/1989</td>
+		<td>00</td>
+	</TR>
+  
+	<TR>
+		<td>Administrative Order of Consent   <small><i>(EPA Performed)</i></small></td> 
+		<td>OU 00 - SITEWIDE</td>
+		<td></td>
+		<td>09/20/2000</td>
+		<td>00</td>
+	</TR>
+  
+	<TR>
+		<td>Administrative Order of Consent   <small><i>(EPA Performed)</i></small></td> 
+		<td>OU 00 - SITEWIDE</td>
+		<td></td>
+		<td>04/12/2002</td>
+		<td>00</td>
+	</TR>
+  
+	<TR>
+		<td>Administrative Order of Consent   <small><i>(EPA Performed)</i></small></td> 
+		<td>OU 00 - SITEWIDE</td>
+		<td></td>
+		<td>04/25/2005</td>
+		<td>00</td>
+	</TR>
+  
+	<TR>
+		<td>Unilateral Administrative Order   <small><i>(EPA Performed)</i></small></td> 
+		<td>OU 00 - SITEWIDE</td>
+		<td></td>
+		<td>11/05/1991</td>
+		<td>00</td>
+	</TR>
+  
+	<TR>
+		<td>Unilateral Administrative Order   <small><i>(EPA Performed)</i></small></td> 
+		<td>OU 00 - SITEWIDE</td>
+		<td></td>
+		<td>12/22/1995</td>
+		<td>00</td>
+	</TR>
+  
+	<TR>
+		<td>Operation and Maintenance   <small><i>(EPA Oversight)</i></small></td> 
+		<td>OU 00 - SITEWIDE</td>
+		<td>08/13/1998</td>
+		<td></td>
+		<td>00</td>
+	</TR>
+  
+	<TR>
+		<td>Five-Year Review   <small><i>(EPA Performed)</i></small></td> 
+		<td>OU 00 - SITEWIDE</td>
+		<td></td>
+		<td>09/28/2000</td>
+		<td>00</td>
+	</TR>
+  
+	<TR>
+		<td>Five-Year Review   <small><i>(EPA Performed)</i></small></td> 
+		<td>OU 00 - SITEWIDE</td>
+		<td></td>
+		<td>04/18/2006</td>
+		<td>00</td>
+	</TR>
+  
+	<TR>
+		<td>Five-Year Review   <small><i>(EPA Performed)</i></small></td> 
+		<td>OU 00 - SITEWIDE</td>
+		<td></td>
+		<td>04/13/2011</td>
+		<td>00</td>
+	</TR>
+  
+	<TR>
+		<td>Five-Year Review   <small><i>(EPA Performed)</i></small></td> 
+		<td>OU 00 - SITEWIDE</td>
+		<td></td>
+		<td>03/31/2016</td>
+		<td>00</td>
+	</TR>
+  
+	<TR>
+		<td>Five-Year Review   <small><i>(EPA Performed)</i></small></td> 
+		<td>OU 00 - SITEWIDE</td>
+		<td></td>
+		<td>06/21/2021</td>
+		<td>00</td>
+	</TR>
+  
+	<TR>
+		<td>Five-Year Review   <small><i>(EPA Performed)</i></small></td> 
+		<td>OU 00 - SITEWIDE</td>
+		<td></td>
+		<td>Estimated Jun - Aug 2026</td>
+		<td>00</td>
+	</TR>
+  
+	<TR>
+		<td>Combined Remedial Investigation/Feasibility Study   <small><i>(EPA Oversight)</i></small></td> 
+		<td>OU 01 - VELSICOL/HARDEMAN GROUNDWATER</td>
+		<td>02/17/1989</td>
+		<td>06/27/1991</td>
+		<td>01</td>
+	</TR>
+  
+	<TR>
+		<td>Combined Remedial Investigation/Feasibility Study   <small><i>(EPA Performed)</i></small></td> 
+		<td>OU 01 - VELSICOL/HARDEMAN GROUNDWATER</td>
+		<td>02/02/2026</td>
+		<td>Estimated Dec 2027 - Feb 2028</td>
+		<td>01</td>
+	</TR>
+  
+	<TR>
+		<td>Record of Decision   <small><i>(EPA Performed)</i></small></td> 
+		<td>OU 01 - VELSICOL/HARDEMAN GROUNDWATER</td>
+		<td></td>
+		<td>06/27/1991</td>
+		<td>01</td>
+	</TR>
+  
+	<TR>
+		<td>Record of Decision Amendment   <small><i></i></small></td> 
+		<td>OU 01 - VELSICOL/HARDEMAN GROUNDWATER</td>
+		<td></td>
+		<td>Estimated Dec 2027 - Feb 2028</td>
+		<td>01</td>
+	</TR>
+  
+	<TR>
+		<td>Remedial Design   <small><i>(EPA Oversight)</i></small></td> 
+		<td>OU 01 - VELSICOL/HARDEMAN GROUNDWATER</td>
+		<td>11/27/1991</td>
+		<td>05/26/1995</td>
+		<td>01</td>
+	</TR>
+  
+	<TR>
+		<td>Remedial Design   <small><i></i></small></td> 
+		<td>OU 01 - VELSICOL/HARDEMAN GROUNDWATER</td>
+		<td>Estimated Sep - Nov 2028</td>
+		<td>Estimated Sep - Nov 2029</td>
+		<td>01</td>
+	</TR>
+  
+	<TR>
+		<td>Remedial Action   <small><i>(EPA Oversight)</i></small></td> 
+		<td>OU 01 - VELSICOL/HARDEMAN GROUNDWATER</td>
+		<td>05/26/1995</td>
+		<td>11/14/2003</td>
+		<td>01</td>
+	</TR>
+  
+	<TR>
+		<td>Operation and Maintenance   <small><i>(EPA Oversight)</i></small></td> 
+		<td>OU 01 - VELSICOL/HARDEMAN GROUNDWATER</td>
+		<td>12/02/1997</td>
+		<td>08/13/1998</td>
+		<td>01</td>
+	</TR>
+  
+	<TR>
+		<td>Combined Remedial Investigation/Feasibility Study   <small><i>(EPA Oversight)</i></small></td> 
+		<td>OU 02 - VELSICOL/HARDEMAN SOURCE</td>
+		<td>11/04/1991</td>
+		<td>09/26/1995</td>
+		<td>02</td>
+	</TR>
+  
+	<TR>
+		<td>Record of Decision   <small><i>(EPA Performed)</i></small></td> 
+		<td>OU 02 - VELSICOL/HARDEMAN SOURCE</td>
+		<td></td>
+		<td>09/26/1995</td>
+		<td>02</td>
+	</TR>
+  
+	<TR>
+		<td>Record of Decision Amendment   <small><i>(EPA Performed)</i></small></td> 
+		<td>OU 02 - VELSICOL/HARDEMAN SOURCE</td>
+		<td></td>
+		<td>09/27/2012</td>
+		<td>02</td>
+	</TR>
+  
+	<TR>
+		<td>Remedial Design   <small><i>(EPA Oversight)</i></small></td> 
+		<td>OU 02 - VELSICOL/HARDEMAN SOURCE</td>
+		<td>01/16/1996</td>
+		<td>04/25/1997</td>
+		<td>02</td>
+	</TR>
+  
+	<TR>
+		<td>Remedial Design   <small><i>(EPA Oversight)</i></small></td> 
+		<td>OU 02 - VELSICOL/HARDEMAN SOURCE</td>
+		<td>09/27/2012</td>
+		<td>03/05/2015</td>
+		<td>02</td>
+	</TR>
+  
+	<TR>
+		<td>Remedial Design   <small><i>(EPA Oversight)</i></small></td> 
+		<td>OU 02 - VELSICOL/HARDEMAN SOURCE</td>
+		<td>09/27/2012</td>
+		<td>06/08/2015</td>
+		<td>02</td>
+	</TR>
+  
+	<TR>
+		<td>Remedial Action   <small><i>(EPA Oversight)</i></small></td> 
+		<td>OU 02 - VELSICOL/HARDEMAN SOURCE</td>
+		<td>04/25/1997</td>
+		<td>09/24/2014*</td>
+		<td>02</td>
+	</TR>
+  
+	<TR>
+		<td>Remedial Action   <small><i>(EPA Performed)</i></small></td> 
+		<td>OU 02 - VELSICOL/HARDEMAN SOURCE</td>
+		<td>09/24/2014</td>
+		<td>12/15/2016</td>
+		<td>02</td>
+	</TR>
+  
+	<TR>
+		<td>Remedial Action   <small><i>(EPA Performed)</i></small></td> 
+		<td>OU 02 - VELSICOL/HARDEMAN SOURCE</td>
+		<td>02/09/2017</td>
+		<td></td>
+		<td>02</td>
+	</TR>
+  
+	<TR>
+		<td>Remedial Action   <small><i>(EPA Performed)</i></small></td> 
+		<td>OU 02 - VELSICOL/HARDEMAN SOURCE</td>
+		<td>05/26/2023</td>
+		<td></td>
+		<td>02</td>
+	</TR>
+  
+	<TR>
+		<td>Operation and Maintenance   <small><i>(EPA Oversight)</i></small></td> 
+		<td>OU 02 - VELSICOL/HARDEMAN SOURCE</td>
+		<td>10/22/1997</td>
+		<td>08/13/1998</td>
+		<td>02</td>
+	</TR>
+  
+  </tbody>
+</table>
+
+
+<br/>
+
+<p>*NOTE: This date may not reflect the actual start or actual completion of the milestone.  Either the lead for this activity changed, the project was phased, or the project did not fit the normal definitions of activities tracked in this table.
+</p> 
+<p>
+	NOTE: Dates and estimated dates will not display for all milestones. Estimated dates only display for milestones planned within the next three fiscal years. Estimated dates and start dates will not display for the following enforcement milestones: Administrative Order of Consent, Consent Decree and Unilateral Administrative Order. Start dates will not display for the following document milestones: Five-Year Review, Record of Decision, Record of Decision Amendment, Explanation of Significant Differences and Partial NPL Deletion.
+</p>
+<p>
+	DISCLAIMER: The data on this page are derived from the Superfund Enterprise Management System and are solely for informational purposes. The data cannot be relied upon to create any substantive or procedural rights or requirements enforceable by any party in litigation with any member of the public, states, tribes, the United States or any federal agency. EPA reserves the right to change these data at any time without public notice.
+</p>
+<p class="pagetop"><a href="#main-content">Top of Page</a></p>
+
+    <script type="text/javascript" src="../cursites/js/jquery-1.9.1.js"></script>
+    <script src="https://www.epa.gov/sites/all/libraries/template2/js.js"></script>
+    <script src="https://www.epa.gov/sites/all/modules/custom/epa_core/js/alert.js"></script>
+    <!--[if lt IE 9]><script src="https://www.epa.gov/sites/all/themes/epa/js/ie.js"></script><![endif]-->
+	<link rel="stylesheet" type="text/css" href="https://www.epa.gov/sites/all/libraries/js/datatables/media/css/jquery.dataTables.min.css">
+	<link rel="stylesheet" type="text/css" href="https://www3.epa.gov/region1/js/datatables/responsive.dataTables.min.css">
+	<script type="text/javascript" charset="utf8" src="https://www.epa.gov/sites/all/libraries/js/datatables/media/js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" charset="utf8" src="https://www.epa.gov/sites/all/libraries/js/datatables/extras/Responsive/js/dataTables.responsive.min.js"></script>
+	<script type="text/javascript" charset="utf8" src="https://www.epa.gov/epafiles/js/third-party/jquery.tablesorter.min.js"></script>
+
+<style>
+    #datatable-ous { width: 100% !important;} /* set widths to 100% */
+    #datatable-ous tr.child .colTHSearch  {display:none; } /* hide repeating column search inputs which appear when sized down 2 portrait on mobile */
+    #datatable-ous tr.child .dtr-data { display:block; } /* keep responsive child headings and text on separate lines */    
+	#datatable-ous_filter label { float:left; font-size:.9em; display:inline-block; } 
+	/*#ClearSearchBtn { padding-top:3px; padding-left:5px; float:right; cursor:pointer; }*/
+	#datatable-ous-search-input, #datatable-ous input[type=text] { border: 1px solid #cccccc; font-size:.9em; color:#808080; }
+	#datatable-ous-search-input { width: 160px;}
+	#datatable-ous-search-input:focus, #datatable-ous input[type=text]:focus { background-color:#ecedff; }
+	#datatable-ous-search-input::-ms-clear, #datatable-ous input[type=text]::-ms-clear { display: none;} /* hide x/clear button in IE10+ for text inputs */
+	#datatable-ous tr.odd:hover, #datatable-ous tr.even:hover { background-color: #ecedff !important; }
+	@media screen and (max-width: 640px) { 
+		#datatable-ous_length, 
+		#datatable-ous_filter { width: 100%; text-align:center; } 
+		#doc-datatable_filter label { float:none; padding-top:10px; } 
+		/*#ClearSearchBtn { position: absolute; margin-top:9px; } */
+	}
+	tr.group,
+	tr.group:hover {
+	    background-color: #ddd !important;
+	}
+</style>
+
+<script>
+	$(document).ready(function() {
+	// call the tablesorter plugin for milestone table
+	    //$("#tablesorter").tablesorter({
+	        // sort on the first column and order descending (1)
+	    //    sortList: [[0,0]]
+	    //});
+    
+    // call DataTable plugin for datatable-ous
+    	var table = $('#datatable-ous').DataTable({
+        "columnDefs": [
+            //{ "visible": false, "targets": 2 },
+            //{ "visible": false, "targets": 3 },
+            { "visible": false, "targets": 1 },
+            { "visible": false, "targets": 4 }
+        ],
+        "paging": false,
+        "order": [[ 1, 'asc' ]],
+        "displayLength": 25,
+        "drawCallback": function ( settings ) {
+            var api = this.api();
+            var rows = api.rows( {page:'current'} ).nodes();
+            var last=null;
+ 
+            api.column(1, {page:'current'} ).data().each( function ( group, i ) {
+                if ( last !== group ) {
+                    $(rows).eq( i ).before(
+                        '<tr class="group"><td colspan="3">'+group+'</td></tr>'
+                    ); 
+                    last = group;
+                }
+            });
+        }
+    });
+    
+    $('.dataTables_filter input').attr("placeholder", "Search All Columns");
+
+    // toggle placeholder text on focus/blur
+		$('input,textarea').focus(function () {
+			$(this).data('placeholder', $(this).attr('placeholder'))
+			.attr('placeholder', '');
+		}).blur(function () {
+			$(this).attr('placeholder', $(this).data('placeholder'));
+		});
+		
+    // clear all search inputs 
+		/*var clearSearch = $('<img title="Clear All Search Filters" alt="Clear All Search Filters" src="https://www.epa.gov/sites/production/files/styles/large/public/2013-06/close_button.png" id="ClearSearchBtn" />');
+		$(clearSearch).click(function () {
+			$('#datatable-ous input[type=text]').val('');
+			table
+			 .search('')
+			 .columns().search('')
+			 .draw();
+		});	*/		
+		// add clear search button to primary search/filter field
+		//$(clearSearch).appendTo('.dataTables_filter');
+			
+    // Order by the grouping
+    $('#datatable-ou tbody').on( 'click', 'tr.group', function () {
+        var currentOrder = table.order()[0];
+        if ( currentOrder[0] === 1 && currentOrder[1] === 'asc' ) {
+            table.order( [ 1, 'desc' ] ).draw();
+        }
+        else {
+            table.order( [ 1, 'asc' ] ).draw();
+        }
+    });
+ 
+ 	//filter datatable when ou dropdown values are selected
+ 	$("#ou-open-link").click(function () {
+		var filterTable = $('#datatable-ous').dataTable();
+		var ou_go_to_url = $("#ou-jump-link").find(":selected").val();
+		var scrollToElement = $("#cleanup-area");
+		$(window).scrollTop( scrollToElement.offset().top);
+		if (ou_go_to_url !== "") {
+		     filterTable.fnFilter("^" + ou_go_to_url + "$", 4, true, false ); //redirect
+		   } else {   
+		     filterTable.fnFilter(ou_go_to_url, 4 ); //redirect
+		}
+		});
+	});
+</script>   
+
+	
+  	</div>
+	</div>
+</div>
+    <div id="block-epa-og-footer" class="block block-epa-og">
+        <p class="web-area-footer" style="text-align:center;font-size:1.3em;">
+		<a href="https://www.epa.gov/superfund">Superfund Home</a> | <a href="../cursites/srchsites.cfm">Superfund Site Search</a> | <a href="https://www.epa.gov/superfund/superfund-glossary">Superfund Glossary</a>
+		</p>
+    </div>
+  </div>
+<!--googleoff: all-->
+ 
+<!-- qry_ssppTopics.cfm -->
+ 
+<!-- qry_mapGraphic.cfm -->
+
+<!-- qry_ssppImages.cfm -->
+
+
+  <div class="region-sidebar-first region-sidebar">
+	<div id="block-og-menu-og-single-menu-block" class="block block-og-menu  block-og-menu-og-single-menu-block">
+    <h2 class="element-invisible">Superfund</h2>
+    <ul class="menu accordion">
+		<li class="menu-item" style="border-style: none none solid none;border-width:1.5px;"><a href="https://www.epa.gov/superfund" title="Main page for Superfund content" class="menu-node-unpublished menu-link">Superfund Home</a></li>
+		<li class="menu-item"><a id="sitehome" href="../cursites/csitinfo.cfm?id=0403886" class="menu-node-unpublished  menu-link">This Site's Home Page</a>
+	
+		<li class="menu-item"><a id="contacts" href="../SiteProfiles/index.cfm?fuseaction=second.contacts&id=0403886" class="menu-node-unpublished menu-link">Site Contacts</a></li>
+	
+		<li class="menu-item"><a id="cleanup" class="menu-node-unpublished menu-link" href="../SiteProfiles/index.cfm?fuseaction=second.cleanup&id=0403886" title="Click to expand menu" onClick="javascript: document.getElementsByClassName('active-trail')[1].className='';">Cleanup Activities</a>
+			
+			
+			<ul class="menu">
+			
+				<li class="menu-item"><a id="ou" href="../SiteProfiles/index.cfm?fuseaction=second.ous&id=0403886" class="menu-node-unpublished menu-link">Operable Units</a></li>
+				
+				<li class="menu-item"><a id="schedule" href="../SiteProfiles/index.cfm?fuseaction=second.schedule&id=0403886" class="menu-node-unpublished menu-link">Cleanup Progress</a></li>
+			
+			</ul>
+			
+		</li>
+	
+		<li class="menu-item"><a id="healthenv" href="../SiteProfiles/index.cfm?fuseaction=second.Healthenv&id=0403886" class="menu-node-unpublished menu-link">Health &amp; Environment</a></li>
+		
+		<li class="menu-item"><a id="stayup" href="../SiteProfiles/index.cfm?fuseaction=second.Stayup&id=0403886" class="menu-node-unpublished menu-link">Stay Updated, Get Involved</a></li>
+	
+		<li class="menu-item"><a id="redevelop" href="../SiteProfiles/index.cfm?fuseaction=second.redevelop&id=0403886" class="menu-node-unpublished menu-link">Redevelopment</a></li>
+	
+		<li class="menu-item"><a id="docdata" href="../SiteProfiles/index.cfm?fuseaction=second.docdata&id=0403886" class="menu-node-unpublished menu-link">Site Documents &amp; Data</a></li>
+	
+		<li class="menu-item"><a id="viewmap" href="https://map22.epa.gov/cimc/superfundZoom&params=0403886&15" class="menu-node-unpublished menu-link" target="_blank">View Site on Map</a></li>
+	
+	</ul>
+	</div>
+  </div>
+
+
+
+<script language="JavaScript">
+	//alert("schedule");
+	$(".menu-link").removeClass("active");
+	$("#schedule").addClass("active");
+	if ("schedule" == 'ars' || "schedule" == 'scs')
+		$("#docdata").addClass("active");
+	//alert(document.getElementById("schedule").className);
+	//$("#follow").click(function() {
+		//$(".menu-link").removeClass("active");
+		//this.addClass("active");
+	//});
+
+</script>
+
+</section>
+
+<nav class="nav simple-nav simple-main-nav" role="navigation">
+    <div class="nav__inner">
+      <h2 class="element-invisible">Main menu</h2>
+      <ul class="menu" role="menu">
+        <li class="menu-item" id="menu-learn" role="presentation"><a href="https://www.epa.gov/environmental-topics" title="Learn about Environmental Topics that EPA covers." class="menu-link" role="menuitem">Environmental Topics</a></li>
+        <li class="menu-item" id="menu-lawsregs" role="presentation"><a href="https://www.epa.gov/laws-regulations" title="Laws written by Congress provide the authority for EPA to write regulations. Regulations explain the technical, operational, and legal details necessary to implement laws." class="menu-link" role="menuitem">Laws &amp; Regulations</a></li>
+        <li class="menu-item" id="menu-about" role="presentation"><a href="https://www.epa.gov/aboutepa" title="Learn more about: our mission and what we do, how we are organized, and our history." class="menu-link" role="menuitem">About EPA</a></li>
+      </ul>
+    </div>
+</nav>
+<footer class="main-footer clearfix" role="contentinfo">
+    <div class="main-footer__inner">
+      <div class="region-footer">
+        <div class="block block-pane block-pane-epa-global-footer">
+          <div class="row cols-3">
+            <div class="col size-1of3">
+              <div class="col__title">Discover.</div>
+              <ul class="menu">
+                <li><a href="https://www.epa.gov/accessibility/epa-accessibility-statement">Accessibility Statement</a></li>
+                <li><a href="https://www.epa.gov/planandbudget">Budget &amp; Performance</a></li>
+                <li><a href="https://www.epa.gov/contracts">Contracting</a></li>
+                <li><a href="https://www.epa.gov/utilities/wwwepagov-snapshots">EPA www Web Snapshot</a></li>
+                <li><a href="https://www.epa.gov/grants">Grants</a></li>
+                <li><a href="https://www.epa.gov/ocr/whistleblower-protections-epa-and-how-they-relate-non-disclosure-agreements-signed-epa">No FEAR Act Data</a></li>
+                <li><a href="https://www.epa.gov/web-policies-and-procedures/plain-writing">Plain Writing</a></li>
+                <li><a href="https://www.epa.gov/privacy">Privacy</a></li>
+                <li><a href="https://www.epa.gov/privacy/privacy-and-security-notice">Privacy and Security Notice</a></li>
+              </ul>
+            </div>
+            <div class="col size-1of3">
+              <div class="col__title">Connect.</div>
+              <ul class="menu">
+                <li><a href="https://www.epa.gov/data">Data</a></li>
+                <li><a href="https://www.epaoig.gov/">Inspector General</a></li>
+                <li><a href="https://www.epa.gov/careers">Jobs</a></li>
+                <li><a href="https://www.epa.gov/newsroom">Newsroom</a></li>
+                <li><a href="https://www.regulations.gov/">Regulations.gov</a></li>
+                <li><a href="https://www.epa.gov/newsroom/email-subscriptions-epa-news-releases">Subscribe</a></li>
+                <li><a href="https://www.usa.gov/">USA.gov</a></li>
+                <li><a href="https://www.whitehouse.gov/">White House</a></li>
+              </ul>
+            </div>
+            <div class="col size-1of3">
+              <div class="col__title">Ask.</div>
+              <ul class="menu">
+                <li><a href="https://www.epa.gov/home/forms/contact-us">Contact EPA</a></li>
+                <li><a href="https://www.epa.gov/web-policies-and-procedures/epa-disclaimers">EPA Disclaimers</a></li>
+                <li><a href="https://www.epa.gov/aboutepa/epa-hotlines">Hotlines</a></li>
+                <li><a href="https://www.epa.gov/foia">FOIA Requests</a></li>
+                <li><a href="https://www.epa.gov/home/frequent-questions-specific-epa-programstopics">Frequent Questions</a></li>
+              </ul>
+              <div class="col__title">Follow.</div>
+              <ul class="social-menu">
+                <li><a class="menu-link social-facebook" href="https://www.facebook.com/EPA">Facebook</a></li>
+                <li><a href="https://x.com/epa"><img src="../CurSites/images/xlogo.png" alt="X"></a></li>
+                <li><a class="menu-link social-youtube" href="https://www.youtube.com/user/USEPAgov">YouTube</a></li>
+                <li><a class="menu-link social-flickr" href="https://www.flickr.com/photos/usepagov">Flickr</a></li>
+                <li><a class="menu-link social-instagram" href="https://instagram.com/epagov">Instagram</a></li>
+              </ul>
+              <p class="last-updated" id="date">
+				<script type="text/javascript">
+	        	//Date last modified per database
+	 			
+	       	    	document.getElementById("date").innerHTML = 'October 4, 2026';
+				
+				
+	        	</script>
+			  </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://www.epa.gov/sites/all/libraries/template2/jquery.js"></script>
+  <script src="https://www.epa.gov/sites/all/libraries/template2/js.js"></script>
+  <script src="https://www.epa.gov/sites/all/modules/custom/epa_core/js/alert.js"></script>
+  <!--[if lt IE 9]><script src="https://www.epa.gov/sites/all/themes/epa/js/ie.js"></script><![endif]-->
+  <!-- REMOVE if not using -->
+  <script src="https://www.epa.gov/epafiles/js/third-party/jquery.tablesorter.min.js"></script>
+
+
+
+
+
+
+</body>
+</html>
+<script type="text/javascript">
+	jQuery("img").removeAttr("style");
+	//jQuery('span').attr('style','');
+	jQuery("span").removeAttr("style");
+	jQuery("font").removeAttr("size");
+	jQuery("font").removeAttr("face");
+	//jQuery("span").remove();
+	//jQuery("body").html($("body").html().replace(/¿/g,''));
+	//$('#mcontact').addClass('active-trail');
+	//$('#mcontacta').addClass('active');
+</script> 

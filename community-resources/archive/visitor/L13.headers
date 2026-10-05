@@ -1,0 +1,35 @@
+HTTP/2 200 
+date: Mon, 05 Oct 2026 17:36:10 GMT
+content-type: text/html; charset=utf-8
+x-download-options: noopen
+cf-cache-status: DYNAMIC
+set-cookie: localization=US; path=/; expires=Tue, 05 Oct 2027 17:36:10 GMT; SameSite=Lax
+set-cookie: _shopify_essential=:AaENIyerAAEAmXN4TtEHu-zhKyuz-z1RjlFSQ9HZCqD0F4Sz_M5PxME0fArra2mw0oXRlCWu4BPHlkYR_oPNb5qt8DU:; Max-Age=31536000; Path=/; HttpOnly; Secure; Priority=High; SameSite=Lax
+set-cookie: _shopify_analytics=:AaENIyf6AAEAtVuFDGVMnixW7Z0rQ6kiLFBQ-4fJYiWo0uaSTmXCMgmdPCW9uv0jzXYDtNdUWHTrD9qGjhiiXPhX3Wc:; Max-Age=31536000; Path=/; HttpOnly; Secure; Priority=High; SameSite=Lax
+set-cookie: _shopify_marketing=:AaENIyf6AAEAEx2dBEttOaiQX_7iFqvA_Iu1G0w112GCB4GyHt_8FTJC6uBJ8iOzp_wgTyhvZwrVtRdFUubY-My_ns0:; Max-Age=31536000; Path=/; HttpOnly; Secure; Priority=High; SameSite=Lax
+link: <https://cdn.shopify.com>; rel="preconnect", <https://cdn.shopify.com>; rel="preconnect"; crossorigin, <https://fonts.googleapis.com>; rel="preconnect", <https://cdnjs.cloudflare.com>; rel="preconnect", <https://ajax.googleapis.com>; rel="preconnect", <//watercheck.com/cdn/shop/t/38/assets/theme.scss.css?v=52964006408205471501704295633>; as="style"; rel="preload", <//fonts.googleapis.com/css?family=Montserrat:400,700>; as="style"; rel="preload", <//fonts.googleapis.com/css?family=Oswald:400>; as="style"; rel="preload", <//watercheck.com/cdn/shop/t/38/assets/vendor.js?v=136118274122071307521685122764>; as="script"; rel="preload", <//watercheck.com/cdn/shop/t/38/assets/theme.js?v=165992025665896154931685122764>; as="script"; rel="preload", <//cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js>; as="script"; rel="preload", <//watercheck.com/cdn/shop/t/38/assets/globo.formbuilder.css?v=163444510838697616571685122764>; as="style"; rel="preload", <//watercheck.com/cdn/shop/t/38/assets/normalize.css?v=30634477188870043581685122764>; as="style"; rel="preload", <//watercheck.com/cdn/shop/t/38/assets/components.css?v=89371507317463156171685122764>; as="style"; rel="preload", <//watercheck.com/cdn/shop/t/38/assets/ntl-main.css?v=22524095942988980751732028912>; as="style"; rel="preload", </.well-known/ucp>; rel="ucp"; version="2026-08-25"
+x-permitted-cross-domain-policies: none
+etag: W/"page_cache:23525289:PageDetailsController:52e8650bcdd29d62226d129b7c1a5255:192ca93f5b67d8c15dde53552eb5626c"
+nel: {"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}
+shopify-complexity-score: 0
+shopify-complexity-score-v2: 94
+x-frame-options: DENY
+content-security-policy: block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;
+access-control-allow-origin: *
+strict-transport-security: max-age=7889238
+vary: Accept
+vary: accept-encoding
+cdn-cache-control: no-cache, no-store
+content-language: en-US
+accept-ch: Sec-CH-Viewport-Width
+powered-by: Shopify
+server-timing: processing;dur=101;desc="gc:1", db;dur=41, db_async;dur=13.935, render;dur=8, asn;desc="30600", edge;desc="ATL", country;desc="US", theme;desc="122659340354", pageType;desc="page", servedBy;desc="pg7m", requestID;desc="a1e49fba-5752-4f34-9766-77d94b84f23c-1791221770", _y;desc="f154f536-46fc-498e-91fe-e44f0ed06fb6", _s;desc="4ea842eb-c5f6-4804-a2ce-c39eec232156", _cmp;desc="3.AMPS_USIN_f_f_qBuRdRv4TzmCnO2wHybgIw", _cta;desc="1", _ye;desc="1822779370", _se;desc="1791223570", compressionLevel;desc="5", compressionTime;dur=3.374
+x-dc: gcp-us-east1,gcp-us-east1,gcp-us-east1
+x-xss-protection: 1; mode=block
+alt-svc: h3=":443"; ma=86400
+server: cloudflare
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=7AT4c2OoKoJEI8j5EWMtGxAHYSJzFQ8l1ZBVHKlajMcz2%2FXBJpz8SnEsuwGYnnZH3b32sUeBhElQOUHn6o%2BVs2PfXTFil6RgCT4uB6eMpzOxZRkDhi95Dzk1I376nj5a"}]}
+x-content-type-options: nosniff
+x-request-id: a1e49fba-5752-4f34-9766-77d94b84f23c-1791221770
+cf-ray: a45e2fdf0dfd483f-ATL
+

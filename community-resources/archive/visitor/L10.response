@@ -1,0 +1,1324 @@
+<!doctype html>
+<html class="no-js tn-html" lang="en">
+    <head>
+        <title>Knoxville Tennessee Environmental Field Office</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        
+        
+            <meta name="description" content="Knoxville Environmental Field Office, Tennessee Department of Environment and Conservation, Conservation, Environment, TDEC
+"/>
+        
+        
+            <meta name="url" content="https://www.tn.gov/environment/contacts/field-offices/knoxville.html"/>
+        
+        
+            <meta name="lastModified" content="2 Oct 2026 16:30:42 CDT"/>
+        
+        
+        
+            <meta name="pageDepartment" content="environment"/>
+        
+        
+            <meta name="pageDivision" content="contacts"/>
+        
+        
+        
+        
+        
+            <meta name="pagePath" content="/content/tn/environment/contacts/field-offices/knoxville"/>
+        
+        
+
+        
+
+        
+            <meta property="og:title" content="Knoxville Tennessee Environmental Field Office"/>
+        
+        
+            <meta property="og:description" content="Knoxville Environmental Field Office, Tennessee Department of Environment and Conservation, Conservation, Environment, TDEC
+"/>
+        
+        
+            <meta property="og:url" content="https://www.tn.gov/environment/contacts/field-offices/knoxville.html"/>
+        
+        
+
+            <meta name="twitter:card" content="summary_large_image"/>
+        
+            <meta name="twitter:title" content="Knoxville Tennessee Environmental Field Office"/>
+        
+        
+            <meta name="twitter:description" content="Knoxville Environmental Field Office, Tennessee Department of Environment and Conservation, Conservation, Environment, TDEC
+"/>
+        
+        
+            <meta name="twitter:url" content="https://www.tn.gov/environment/contacts/field-offices/knoxville.html"/>
+        
+        
+
+        
+
+        <link rel="shortcut icon" href="/etc/clientlibs/tncore/main/img/favicon.ico"/>
+
+        <link rel="canonical" href="https://www.tn.gov/environment/contacts/field-offices/knoxville.html"/>
+
+        <!-- DTM Analytics Datalayer -->
+
+        <script>
+
+
+            var digitalData = {
+                page: {
+                    pageInfo: {
+                        pageName: "environment:contacts:field-offices:knoxville",
+                        securePage: "false",
+                        sysEnv: "Desktop",
+                        deptName: "environment",
+                        siteSection: "contacts",
+                        siteSubSection: "field-offices",
+                        pageType:"",
+                        rsidValue: "oirtn"
+
+                    }
+                }
+            };
+        </script>
+
+        <script src="//assets.adobedtm.com/f213d7ed4603/b5fbb0638724/launch-5b3fa8e23e9e.min.js" async></script>
+
+        
+        
+    
+<link rel="stylesheet" href="/etc/clientlibs/tncore/main.min.f53b1cb66edbbb1f9264be1e283b69a9.css" type="text/css">
+
+
+
+        
+            
+    
+<link rel="stylesheet" href="/etc/clientlibs/tn-sites/tngov.min.a18e62a3f815b11550a3feee90159096.css" type="text/css">
+
+
+
+        
+
+        
+
+        
+
+
+
+
+
+
+
+
+        
+
+        
+    </head>
+    <body class="tngov  " data-selectors='[]' data-template="leftNav">
+        <a class="visually-hidden-focusable skip-to-main" href="#main">Skip to Main Content</a>
+
+        <noindex>
+            <div>
+
+    
+
+</div>
+            <div><header id="header">
+	
+		<div>
+
+
+
+
+    
+        
+        
+        <div class="newpar new section">
+
+</div>
+
+    
+        
+        
+        <div class="par iparys_inherited">
+
+    
+    
+    
+    
+        
+        
+        <div class="tn-headercoveo">
+    <div class="container">
+        <div class="row center-block top-nav">
+            <div class="col-auto me-auto">
+                <a class="logo" id="header-logo" href="https://www.tn.gov/" data-logo="state-government" style="background-image: url('/etc/clientlibs/tncore/main/img/logos/tn-logo.png')" aria-label="View home page">
+                </a>
+            </div>
+            <div class="col-auto">
+                <a class="search-all icon-home-1 text-right" href="https://www.tn.gov/">Go to TN.gov</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row center-block agency">
+        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 columns title">
+            <a href="https://www.tn.gov/environment.html">
+                <img src="/content/dam/headers/environment.png" alt="Tennessee State Government, Environment and Conservation logo" id="entity-name" data-pin-nopin="true"/>
+            </a>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 columns text-right">
+            <div class="tn-headersearchcoveo">
+
+<div>
+
+<script type="module" src="https://static.cloud.coveo.com/atomic/v2.42/atomic.esm.js">
+</script>
+<script type="module">
+
+import {loadContextActions, buildTab} from 'https://static.cloud.coveo.com/atomic/v2.42/headless/headless.esm.js';
+
+(async () => {
+
+    const searchHubStripped = "TNGov".trim();
+    const context = {};
+    context.userdiv = "";
+    context.userdept = "environment";
+
+    await customElements.whenDefined('atomic-search-interface');
+    const searchInterface = document.querySelector('#searchbox');
+    searchInterface.setAttribute('search-hub', searchHubStripped);
+
+    //Adding for Context to be used for Query Suggestions
+    const preProcessQuerySuggestionsRequest = (request) => {
+        if (context.userdiv) {
+            const body = JSON.parse(request.body);
+            body.mlParameters = {
+                filters: {
+                    c_context_userdept: context.userdept,
+                    c_context_userdiv: context.userdiv
+                }
+            };
+            request.body = JSON.stringify(body);
+        } else if (context.userdept) {
+            const body = JSON.parse(request.body);
+            body.mlParameters = {
+                filters: {
+                    c_context_userdept: context.userdept
+                }
+            };
+            request.body = JSON.stringify(body);
+        }
+        return request;
+    };
+
+    const orgId = "tennesseestategovernmentproduction6po4m5b2".trim();
+
+    await searchInterface.initialize({
+        accessToken: "eyJhbGciOiJIUzI1NiJ9.eyJzZWFyY2hIdWIiOiJUTkdvdiIsInY4Ijp0cnVlLCJ0b2tlbklkIjoidHlyMm93ZWJoNWRjaWVpY2M2eTJiMjJiNHkiLCJvcmdhbml6YXRpb24iOiJ0ZW5uZXNzZWVzdGF0ZWdvdmVybm1lbnRwcm9kdWN0aW9uNnBvNG01YjIiLCJ1c2VySWRzIjpbeyJ0eXBlIjoiVXNlciIsIm5hbWUiOiJhbm9ueW1vdXNfdXNlckBhbm9ueW1vdXMuY292ZW8uY29tIiwicHJvdmlkZXIiOiJFbWFpbCBTZWN1cml0eSBQcm92aWRlciJ9XSwicm9sZXMiOlsicXVlcnlFeGVjdXRvciJdLCJpc3MiOiJTZWFyY2hBcGkiLCJleHAiOjE3OTEyOTY1OTMsImlhdCI6MTc5MTIxMDE5M30.Zx8gWULm5XKjfabF2P8kmZPocPMq2PPBh-YNXkcRyKQ".trim(),
+        organizationId: orgId,
+        organizationEndpoints: await searchInterface.getOrganizationEndpoints(orgId),
+        renewAccessToken: function() {
+            location.reload();
+        },
+        preprocessRequest: (request) => {
+            if (request.url.indexOf('querySuggest') >= 0) {
+                return preProcessQuerySuggestionsRequest(request);
+            }
+            return request;
+        }
+    });
+
+    searchInterface.i18n.addResourceBundle('en', 'translation', {
+        search: "Search Environment".trim(),
+    });
+
+    const engine = searchInterface.engine;
+    engine.dispatch(loadContextActions(engine).setContext(context));
+})();
+</script>
+
+<atomic-search-interface id="searchbox">
+  <atomic-search-box clear-filters="false" redirection-url="/environment/search-results.html" .trim()>
+
+    <atomic-search-box-recent-queries max-with-query="0" max-without-query="4">
+    </atomic-search-box-recent-queries>
+
+    <atomic-search-box-query-suggestions>
+    </atomic-search-box-query-suggestions>
+
+  </atomic-search-box>
+</atomic-search-interface>
+</div>
+
+</div>
+        </div>
+    </div>
+
+    <div class="backdrop" style="background-image:url(/content/dam/headers/test.jpg)"></div>
+    
+
+</div>
+
+    
+
+</div>
+
+    
+
+</div>
+	
+
+	<div class="tn-topnav" aria-label="Navigation Menu"><nav id="nav" role="navigation" aria-label="Main">
+    <div class="row center-block">
+        <div class="col-lg-12">
+            <div class="logo-small tn-logo">
+                <a href="https://www.tn.gov/" aria-label="Go to TN.gov" class="focus-visible-style">
+                    <span class="visually-hidden">Go to TN.gov</span>
+                </a>
+            </div>
+
+            <div class="mobile-show icon-menu mobile-menu focus-visible-style" role="button" tabindex="0" aria-label="Open navigation menu">
+                Section
+            </div>
+            <ul class="inline-list nav-items">
+                <li>
+                    <a href="https://www.tn.gov/environment.html" class="icon-home" aria-label="Go to TN.gov">
+                        <span class="visually-hidden">Go to Environment &amp; Conservation (TDEC)</span>
+                    </a>
+                </li>
+                
+                
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/program-areas.html">Program Areas
+                        <span role="button" tabindex="0" aria-label="Program Areas submenu" aria-expanded="false" aria-controls="dropdown-1" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="Program Areas submenu" aria-expanded="false" aria-controls="dropdown-1" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-1">
+                        <li><a href="/environment/program-areas/recycling-markets.html">Recycling Markets</a></li>
+                    
+                        <li><a href="/environment/program-areas/air-pollution-control.html">Air</a></li>
+                    
+                        <li><a href="/environment/program-areas/archaeology.html">Archaeology</a></li>
+                    
+                        <li><a href="/environment/program-areas/conservation.html">Bureau of Conservation</a></li>
+                    
+                        <li><a href="/environment/program-areas/energy.html">Energy</a></li>
+                    
+                        <li><a href="/environment/program-areas/stewardship.html">Environmental Stewardship</a></li>
+                    
+                        <li><a href="/environment/program-areas/geology.html">Tennessee Geological Survey</a></li>
+                    
+                        <li><a href="/environment/program-areas/mineral-geologic-resources.html">Mineral &amp; Geologic Resources</a></li>
+                    
+                        <li><a href="/environment/program-areas/na-natural-areas.html">Natural Areas</a></li>
+                    
+                        <li><a href="/environment/program-areas/outdoor-recreation.html">Outdoor Recreation</a></li>
+                    
+                        <li><a href="/environment/program-areas/policy-planning.html">Policy &amp; Planning</a></li>
+                    
+                        <li><a href="/environment/program-areas/radiological-health.html">Radiological Health</a></li>
+                    
+                        <li><a href="/environment/program-areas/rem-remediation.html">Remediation Branch</a></li>
+                    
+                        <li><a href="/environment/program-areas/small-business-environmental-assistance.html">Small Business Environmental Assistance</a></li>
+                    
+                        <li><a href="/environment/program-areas/solid-waste.html">Waste Management Branch</a></li>
+                    
+                        <li><a href="/environment/program-areas/underground-storage-tanks.html">Underground Storage Tanks</a></li>
+                    
+                        <li><a href="/environment/program-areas/wr-water-resources.html">Water </a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/permits.html">Permitting
+                        <span role="button" tabindex="0" aria-label="Permitting submenu" aria-expanded="false" aria-controls="dropdown-2" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="Permitting submenu" aria-expanded="false" aria-controls="dropdown-2" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-2">
+                        <li><a href="/environment/permits/air.html">Air Permits</a></li>
+                    
+                        <li><a href="/environment/permits/archaeology.html">Archaeology Permit</a></li>
+                    
+                        <li><a href="/environment/permits/mineral-geologic.html">Mineral &amp; Geologic Resources Permits</a></li>
+                    
+                        <li><a href="/environment/permits/natural-areas.html">Natural Areas License and Permits</a></li>
+                    
+                        <li><a href="/environment/permits/radiological-health.html">Radiological Health Licenses and Registrations</a></li>
+                    
+                        <li><a href="/environment/permits/waste.html">Waste Permits</a></li>
+                    
+                        <li><a href="/environment/permits/water.html">Water Permits</a></li>
+                    
+                        <li><a href="/environment/permits/other.html">Other Permits</a></li>
+                    
+                        <li><a href="/environment/permits/efficiency-reports.html">Efficiency Reports</a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/ppo.html">Public Participation
+                        <span role="button" tabindex="0" aria-label="Public Participation submenu" aria-expanded="false" aria-controls="dropdown-3" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="Public Participation submenu" aria-expanded="false" aria-controls="dropdown-3" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-3">
+                        <li><a href="/environment/ppo/air.html">Air Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/energy.html">Energy Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/dmgr.html">Mineral &amp; Geologic Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/natural-areas.html">Natural Areas Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/radiation.html">Radiation Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/remediation.html">Remediation Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/parks.html">TN State Parks Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/ust.html">UST Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/waste.html">Waste Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/water.html">Water Notices &amp; Hearings</a></li>
+                    
+                        <li><a href="/environment/ppo/general.html">TDEC General Notices</a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/about-tdec.html">About
+                        <span role="button" tabindex="0" aria-label="About submenu" aria-expanded="false" aria-controls="dropdown-4" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="About submenu" aria-expanded="false" aria-controls="dropdown-4" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-4">
+                        <li><a href="/environment/about-tdec/communications.html">Communications</a></li>
+                    
+                        <li><a href="/environment/about-tdec/leadership.html">Leadership</a></li>
+                    
+                        <li><a href="/environment/about-tdec/stakeholder.html">Stakeholder Engagement</a></li>
+                    
+                        <li><a href="/environment/about-tdec/external-affairs.html">External Affairs</a></li>
+                    
+                        <li><a href="/environment/about-tdec/boards-and-commissions.html">Boards &amp; Commissions</a></li>
+                    
+                        <li><a href="/environment/about-tdec/financial-assurance.html">Financial Assurance</a></li>
+                    
+                        <li><a href="/environment/about-tdec/grants.html">Grants</a></li>
+                    
+                        <li><a href="/environment/about-tdec/policies.html">Department Policies</a></li>
+                    
+                        <li><a href="/environment/about-tdec/vendor-opportunities.html">Vendor Opportunities</a></li>
+                    
+                        <li><a href="/environment/about-tdec/employment-and-internships.html">Employment &amp; Internships</a></li>
+                    
+                        <li><a href="/environment/about-tdec/tdec-annual-reports.html">TDEC Annual Reports</a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/contacts.html">Contact
+                        <span role="button" tabindex="0" aria-label="Contact submenu" aria-expanded="false" aria-controls="dropdown-5" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="Contact submenu" aria-expanded="false" aria-controls="dropdown-5" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-5">
+                        <li><a href="/environment/contacts/field-offices.html">Field Offices</a></li>
+                    
+                        <li><a href="/environment/contacts/ask-tdec-questions.html">Ask TDEC Questions</a></li>
+                    
+                        <li><a href="/environment/contacts/public-records-request.html">Public Records Request</a></li>
+                    
+                        <li><a href="/environment/contacts/customer-service-survey.html">Customer Service Survey</a></li>
+                    
+                        <li><a href="/environment/contacts/language-assistance.html">Language Assistance</a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                
+                <li>
+                    <a href="/environment/calendar-of-events.html">Calendar of Events</a>
+                </li>
+            
+                
+                <li class="dropdown">
+                    <a href="/environment/arp.html">American Rescue Plan (ARP)
+                        <span role="button" tabindex="0" aria-label="American Rescue Plan (ARP) submenu" aria-expanded="false" aria-controls="dropdown-7" class="focus-visible-style desktop-dropdown-icon"></span>
+                    </a>
+                    <span role="button" tabindex="0" aria-label="American Rescue Plan (ARP) submenu" aria-expanded="false" aria-controls="dropdown-7" class="focus-visible-style mobile-dropdown-icon menu-expand"></span>
+
+                    <ul id="dropdown-7">
+                        <li><a href="/environment/arp/arp-success-stories.html">Success Stories</a></li>
+                    </ul>
+                </li>
+                
+            
+                
+                
+                <li>
+                    <a href="/environment/news.html">TDEC Newsroom</a>
+                </li>
+            </ul>
+            <div class="right primary-print">
+                <a href="javascript:window.print();" class="icon-print" aria-label="Print This Page">
+                    <span class="visually-hidden">Print This Page</span>
+                </a>
+            </div>
+            <div class="right secondary-print">
+                <a href="javascript:window.print();" class="icon-print" aria-label="Print This Page">
+                    <span class="visually-hidden">Print This Page</span>
+                </a>
+            </div>
+            <div class="right secondary-search">
+                <a class="icon-search" href="javascript:;">
+                    <span class="visually-hidden">Go to Search</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="config hidden" data-config='{&#34;closeMenuText&#34;:&#34;Close Menu&#34;,&#34;menuText&#34;:&#34;Section&#34;}'></div>
+</nav>
+</div>
+</header></div>
+            <section aria-label="Alerts">
+    
+        
+
+        
+            
+            <div class="tn-alerts">
+    
+    
+        
+    
+    
+    <div class="entity-alert text-center" role="status">
+        <a href="/environment.html">
+            <span class="icon-info"></span>
+            We are reorganizing pages for a better experience. We appreciate your patience!
+        </a>
+    </div>
+
+    
+    
+
+</div>
+
+        
+    
+</section>
+
+            
+        </noindex>
+
+        <div id="main" tabindex="-1" role="main">
+    <div class="row center-block leftnav-template">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div class="template-left-nav tn-leftnav">            
+                
+    <nav class="side expander" aria-label="Left Navigation">
+        <div class="border-red title">
+            <a href="/environment/contacts/field-offices.html">Field Offices</a>
+        </div>
+
+        <ul class="block-list">
+            
+                <li>
+                    <a href="/environment/contacts/field-offices/chattanooga.html" class="title-link">Chattanooga</a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/contacts/field-offices/columbia.html" class="title-link">Columbia</a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/contacts/field-offices/cookeville.html" class="title-link">Cookeville</a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/contacts/field-offices/jackson.html" class="title-link">Jackson</a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/contacts/field-offices/johnson.html" class="title-link">Johnson City</a>
+
+                    
+                </li>
+            
+                <li class="active">
+                    <a href="/environment/contacts/field-offices/knoxville.html" class="title-link">Knoxville</a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/contacts/field-offices/memphis.html" class="title-link">Memphis</a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/contacts/field-offices/nashville.html" class="title-link">Nashville</a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/environment/contacts/field-offices/efo-map.html" class="title-link">Field Office Map</a>
+
+                    
+                </li>
+            
+        </ul>
+    </nav>
+
+
+            </div>
+        </div>
+
+        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 content">
+            <article>
+                <div class="tn-pagetitle show" aria-hidden="false">
+    <h1>Knoxville Environmental Field Office</h1>
+    
+
+</div>
+
+                <div>
+
+
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <p>3711 Middlebrook Pike, Suite 101, Knoxville, TN 37921 | Phone: (865) 594-6035 | FAX: (865) 594-6105</p>
+
+    
+    
+
+</div>
+
+
+    
+    
+    <div class="tn-basicslider parbase">
+    
+    <div class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item item active" role="group" aria-label="Teaser">
+                
+                    <img class="photo" src="/content/dam/tn/environment/field-offices/knoxville/knox_field_office.png/_jcr_content/renditions/cq5dam.web.1280.1280.png" alt="Knoxville Environmental Field Office"/>
+                    
+                
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+    
+    
+    <div class="tn-rte">
+    
+        <h2><span style="	letter-spacing: -0.075em;
+">Counties Served</span><br />
+</h2>
+<p>Anderson, Blount, Campbell, Claiborne, Cocke, Grainger, Hamblen, Jefferson, Knox, Loudon, Monroe, Morgan, Roane, Scott, Sevier, Union</p>
+<p><strong>Interested in TDEC News affecting the Knoxville Region? </strong> ​<span class="icon-link-ext"></span><a href="https://app.e2ma.net/app2/audience/signup/1729195/1718855.12892743/" target="_blank" title="Sign up for TDEC&#39;s Knoxville Regional e-newsletter" rel="noopener noreferrer">Sign up for TDEC&#39;s Knoxville Regional e-newsletter</a></p>
+<p>If you are uncertain who to contact, please call our main line at <span class="icon-mobile"></span><strong><a title="Call the Knoxville Environmental Field Office" href="tel:8655946035">(865) 594-6035</a></strong> and the receptionist will direct your call.<br />
+</p>
+<h2>External Affairs</h2>
+<p>The Office of External Affairs serves as TDEC’s primary point of contact for the general public and stakeholders in a respective region and serves as the public outreach arm for the Commissioner’s Office.</p>
+<p style="	margin-left: 40.0px;
+"><strong>Regional Director</strong><br />
+James Tinch<br />
+(865) 314-1539<br />
+<a title="Email James Tinch" href="mailto:James.Tinch&#64;tn.gov" target="_blank" rel="noopener noreferrer"><span class="icon-mail"></span>James.Tinch&#64;tn.gov</a></p>
+<h2>Administrative Services</h2>
+<p>Administrative staff supports all divisions within the Knoxville Field Office, and also provides space and facilities management and inner-office human resource needs.</p>
+<p>The administrative staff is also responsible for coordinating all Freedom of Information Act (FOIA), public records requests.  If you are unable to locate the information you are looking for listed under a specific division below or from an online data viewer or database, you may submit an information request for any division using either of the following links:</p>
+<ul><li><a href="/content/tn/environment/ask-tdec-form.html" target="_blank" title="Submit an Ask TDEC information request" rel="noopener noreferrer"><u><span class="icon-link-ext"></span>Submit an Ask TDEC information request</u></a></li><li><a href="/content/tn/environment/contacts/public-records-request.html" target="_blank" title="Submit a Public Records Request" rel="noopener noreferrer"><u><span class="icon-link-ext"></span>Submit a Public Records Request</u></a><em><u></u></em></li></ul>
+<p style="	margin-left: 40.0px;
+"><strong>Manager:</strong><br />
+Katie DuBrutz <br />
+(865) 594-5616<br />
+<a title="Email Katie DuBrutz" href="mailto:Kathryn.DuBrutz&#64;tn.gov" target="_blank" rel="noopener noreferrer"><span class="icon-mail"></span>Kathryn.DuBrutz&#64;tn.gov</a><br />
+</p>
+<h2>Air Pollution Control</h2>
+<p>The <a title="Division of Air Pollution Control" href="/content/tn/environment/program-areas/air-pollution-control.html">Division of Air Pollution Control</a> maintains the purity of the air resources of the State of Tennessee. They establish emissions standards and procedure requirements to monitor industries in the State through permits and serve as the administrative agency of the Tennessee Air Pollution Control Board and address issues of open burning.</p>
+<ul><li><a title="Air Pollution Permit Database" href="https://dataviewers.tdec.tn.gov/pls/enf_reports/f?p&#61;19031:34001:0:" target="_blank" rel="noopener noreferrer"><span class="icon-link-ext"></span>View the Air Pollution Permit Database</a> - <em>Data Viewer Note: </em>Internet Explorer is no longer supported for our Data Viewer applications. Please use one of the following browsers: Chrome, Fire Fox or Edge.</li><li><a title="Visit the Knox County Air Quality Management Division Website" href="https://www.knoxcounty.org/airquality/" target="_blank" rel="noopener noreferrer"><span class="icon-link-ext"></span>Visit the Knox County Air Quality Management Division Website</a> or call 865-215-5900 - Knox County’s Air Quality Management Division is primarily responsible for air pollution and quality issues within the county, including burn permits. Questions or concerns regarding Knox County should be addressed to this division.</li><li><a style="	background-color: rgb(255,255,255);
+"></a><u><a title="Burn Safe TN Website" href="/content/tn/tnwildlandfire/prevention/safe-debris-burning.html" target="_blank" rel="noopener noreferrer"><span class="icon-link-ext"></span>Visit the Burn Safe TN Website for Burn Permits</a></u> - For burn permits please contact the Tennessee Department of Agriculture, Burn Safe TN or call the phone number for the correct county. </li></ul>
+<p style="	margin-left: 40.0px;
+">Air Pollution Control Field Office general email<br />
+<a title="Email APC Knoxville EFO" href="mailto:APC.KnoxEFO&#64;tn.gov" target="_blank" rel="noopener noreferrer"><span class="icon-mail"></span>APC.KnoxEFO&#64;tn.gov</a><br />
+</p>
+<p style="	margin-left: 40.0px;
+"><strong>Manager:</strong><br />
+Jarrett Rudd<br />
+(865) 323-3676<br />
+<a title="Email Jarrett Rudd" href="mailto:Jarrett.L.Rudd&#64;tn.gov" target="_blank" rel="noopener noreferrer"><span class="icon-mail"></span>Jarrett.L.Rudd&#64;tn.gov</a></p>
+<h2>Mineral &amp; Geologic Resources</h2>
+<p>The <a title="DMGR Website" href="https://www.tn.gov/environment/mineral-geologic.html">Division of Mineral and Geologic Resources</a> is responsible for ensuring the environmentally sound management, protection and documentation of the state’s mineral, land and energy resources for all Tennesseans and future generations. DMGR is the regulatory authority for Mining and Oil &amp; Gas within the state. In addition, DMGR houses the Abandoned Mine Land Program and the Tennessee Geological Survey. </p>
+<p><a title="Link to the Division of Mineral and Geologic Resources (DMGR) Dataviewer" href="https://dataviewers.tdec.tn.gov/dataviewers/r/tdec_reports/f11776/permit-search" target="_blank" rel="noopener noreferrer"><span class="icon-link-ext"></span>View the Mineral &amp; Geologic Resources Dataviewer</a></p>
+<p style="	margin-left: 40.0px;
+"><strong>Managers:<br />
+ </strong>Abandoned Mine Land Program / Land Reclamation:<br />
+Trevor Martin<br />
+(865) 207-8995<br />
+<a title="email Trevor Martin" href="mailto:Trevor.Martin&#64;tn.gov"><span class="icon-mail"></span>Trevor.Martin&#64;tn.gov</a></p>
+<p style="	margin-left: 40.0px;
+">Geological Survey:<br />
+Peter Lemiszki<br />
+(865) 594-5596<br />
+<a title="email Peter Leminski" href="mailto:Peter.Lemiszki&#64;tn.gov"><span class="icon-mail"></span>Peter.Lemiszki&#64;tn.gov</a></p>
+<p style="	margin-left: 40.0px;
+">Mining:<br />
+Daniel Lawrence<br />
+(865) 803-1206<br />
+<a title="email Daniel Lawrence" href="mailto:Daniel.Lawrence&#64;tn.gov"><span class="icon-mail"></span>Daniel.Lawrence&#64;tn.gov</a></p>
+<p style="	margin-left: 40.0px;
+">Oil &amp; Gas:<br />
+George Stephens<br />
+(865) 221-3214<br />
+<a title="email George Stephens" href="mailto:George.Stephens&#64;tn.gov"><span class="icon-mail"></span>George.Stephens&#64;tn.gov</a></p>
+<h2>Division of Natural Areas</h2>
+<p>The <a title="Division of Natural Areas" href="/content/tn/environment/natural-areas.html">Division of Natural Areas</a> manages designated state natural areas across Tennessee, issues permits for ginseng dealers and certifies wild ginseng root for export, maintains a database on the distribution and ecology of rare plants, animals, and ecological communities across Tennessee, assists the public and businesses with rare species reviews for site developments, oversees applications for those desiring to sell or export Tennessee listed endangered plant species, and issues permits for the collection of biological or geological materials, air or water samples, or installation of research equipment on State Parks or Designated State Natural Areas.</p>
+<p style="	margin-left: 40.0px;
+"><strong>East Regional Stewardship Ecologist:</strong><br />
+Russell Fulcher<br />
+(865) 361-0142<br />
+<a title="Email Russell Fulcher" href="mailto:Russell.L.Fulcher&#64;tn.gov" target="_blank" rel="noopener noreferrer"><span class="icon-mail"></span>Russell.L.Fulcher&#64;tn.gov</a></p>
+<ul><li><a title="Division of Natural Areas Contacts" href="/content/tn/environment/natural-areas/contact.html" target="_blank" rel="noopener noreferrer"><span class="icon-link-ext"></span>Division of Natural Areas Contacts</a></li></ul>
+<h2>Office of Outdoor Recreation</h2>
+<p>The <a title="Office of Outdoor Recreation" href="/content/tn/environment/outdoorrec.html">Office of Outdoor Recreation</a> provides parks and recreation grants, parks and recreation planning, and parks and recreation technical assistance to governments in Tennessee. The grant programs also support and protect the natural and cultural resources of our state park system and provide funding for community park development, trails development and land acquisition. The division also houses the state’s Greenways and Trails program, which encourages Tennessee communities to save special green spaces.</p>
+<p style="	margin-left: 40.0px;
+"><strong>Assistant Director - Recreation Services:</strong><br />
+April Johnson <br />
+(865) 292-5656<br />
+<a href="mailto:April.Johnson&#64;tn.gov" title="Email April Johnson" target="_blank" rel="noopener noreferrer"><span class="icon-mail"></span>April.Johnson&#64;tn.gov</a></p>
+<p style="	margin-left: 40.0px;
+"><strong>East TN Recreation Consultant:</strong><br />
+Kirsten Navoni<br />
+(423) 290-6047<br />
+<a title="Email Kirsten Navoni" href="mailto:Kirsten.Navoni&#64;tn.gov" target="_blank" rel="noopener noreferrer"><span class="icon-mail"></span>Kirsten.Navoni&#64;tn.gov</a></p>
+<h2>Radiological Health, X-Ray and Radioactive Material Inspections</h2>
+<p>The <a title="Division of Radiological Health" href="/content/tn/environment/radiation.html">Division of Radiological Health</a> is responsible for protecting Tennesseans and the environment from the hazards associated with ionizing radiation. They regulate the use and possession of radioactive materials and radiation producing machines, and respond to accidents involving radiation.</p>
+<p style="	margin-left: 40.0px;
+"><strong>Manager:</strong><br />
+Becki Harisis<br />
+(615) 981-4662<br />
+<a title="Email Becki Harisis" href="mailto:Becki.Harisis&#64;tn.gov" target="_blank" rel="noopener noreferrer"><span class="icon-mail"></span>Becki.Harisis&#64;tn.gov</a></p>
+<h2><span style="	letter-spacing: -0.075em;
+">Remediation, Hazardous Substance Site &amp; Brownfields Cleanup</span><br />
+</h2>
+<p>The <a title="Division of Remediation" href="/content/tn/environment/program-areas/rem-remediation.html">Division of Remediation</a> identifies and investigates hazardous substance sites, then uses practical and effective remedies to stabilize, remediate, contain, monitor, and maintain these sites, minimizing threats to public health, safety, and the environment. The division oversees work at a wide range of sites, which include National Priority List (NPL) Superfund sites, state inactive hazardous substance sites, brownfields, dry cleaners, and properties where methamphetamine was illegally manufactured.</p>
+<h3>Meth Contamination</h3>
+<p>The abuse and manufacture of illegal methamphetamine continues to be a statewide epidemic with law enforcement agencies encountering thousands of Clandestine Methamphetamine Laboratories (CML) in single-family homes, rental properties, hotel and motel rooms, automobiles and other vehicles. No matter where these laboratories are created or used, they all leave behind hazardous residue, which poses a threat to human health. In many cases, this methamphetamine residue renders a property &#39;Unsafe for Human Use&#39;.</p>
+<ul><li><a href="http://www.lexisnexis.com/hottopics/tncode/" target="_blank" title="Tennessee Code Annotated 68-212 Part 5" rel="noopener noreferrer"><span class="icon-link-ext"></span>Tennessee Code Annotated 68-212 Part 5</a> allows the Tennessee Department of Environment &amp; Conservation (TDEC) to develop <a href="/content/dam/tn/environment/remediation/archive/meth/rem_meth-rule-0400-15-02.pdf" target="_blank" title="Meth Rule 0400-15-02" rel="noopener noreferrer">Meth Rule 0400-15-02</a> to determine when a property is &#39;Safe for Human Use&#39; again following contamination by methamphetamine.</li></ul>
+<p style="	margin-left: 40.0px;
+"><strong>Manager:</strong><br />
+Chrissy McNaughton <br />
+(865) 863-0270<br />
+<a title="Email Christina McNaughton" href="mailto:Christina.McNaughton&#64;tn.gov" target="_blank" rel="noopener noreferrer"><span class="icon-mail"></span>Christina.McNaughton&#64;tn.gov</a></p>
+<h2>Solid (Trash) &amp; Hazardous Wastes</h2>
+<p>The <a title="Link to Division of Solid Waste Management" href="https://www.tn.gov/content/tn/environment/program-areas/sw-solid-waste.html">Division of Solid Waste Management</a> protects, improves, and promotes health and environmental quality thorough the responsive, effective oversight of waste management activities and the beneficial use of recovered materials. The division has several programs that deal with different kinds of waste, from solid to hazardous and from recyclables to food. <br />
+</p>
+<ul><li><a href="https://dataviewers.tdec.tn.gov/pls/enf_reports/f?p&#61;19035:34001:0:::::" title="View the Solid Waste Management Database" target="_blank" rel="noopener noreferrer"><span class="icon-link-ext"></span>View the Solid Waste Management Database</a> - <em>Data Viewer Note: </em>Internet Explorer is no longer supported for our Data Viewer applications. Please use one of the following browsers: Chrome, Fire Fox or Edge.</li></ul>
+<p style="	margin-left: 40.0px;
+"><strong>Manager:</strong><br />
+Harry McCann <br />
+(423) 293-8049<br />
+<a title="Email Harry McCann" href="mailto:Harry.McCann&#64;tn.gov" target="_blank" rel="noopener noreferrer"><span class="icon-mail"></span>Harry.McCann&#64;tn.gov</a></p>
+<h2>Petroleum Underground Storage Tank Facilities (e.g. Gas Stations)</h2>
+<p>The Division of Underground Storage Tanks protects human health and the environment by preventing future petroleum underground storage tank releases and remediating existing petroleum underground storage tank contamination from regulated tanks. The division also monitors and requires that citizens who have stored petroleum in regulated underground storage tanks, or who bring a new underground storage tank into use, notify the division.</p>
+<p style="	margin-left: 40.0px;
+"><strong>Manager:</strong><br />
+Holly Marlowe <br />
+(865) 320-6168<br />
+<a title="Email Holly Marlowe" href="mailto:Holly.Marlowe&#64;tn.gov" target="_blank" rel="noopener noreferrer"><span class="icon-mail"></span>Holly.Marlowe&#64;tn.gov</a></p>
+<h2>Division of Water Resources</h2>
+<p>The <a title="Link to the Division of Water Resources" href="/content/tn/environment/program-areas/wr-water-resources-home.html">Division of Water Resources</a> (DWR) manages, protects, and enhances the quality of the state’s water resources through voluntary, regulatory, and educational programs. The Division is divided into smaller sections by water resource topical area. <em>If you need assistance, please call our <strong>main line phone number <span class="icon-mobile"></span><a title="Call the Knoxville Environmental Field Office" href="tel:8655946035">(865) 594-6035</a></strong> and the receptionist will transfer you to the appropriate person.</em></p>
+<p style="	margin-left: 40.0px;
+"><strong>Manager:</strong><br />
+Shari Winburn <br />
+(423) 736-2906<br />
+<a title="E-Mail Division of Water Resources in Knoxville" href="mailto:shari.winburn&#64;tn.gov"><span class="icon-mail"></span>Shari.Winburn&#64;tn.gov</a></p>
+<h3>DWR Helpful Links: </h3>
+<ul><li><a title="DWR Organizational Chart &amp; Contact Information" href="/content/dam/tn/environment/water/wr-org-chart.pdf"><span class="icon-file-pdf">DWR Organizational Chart &amp; Contact Information</span></a></li><li><a title="Link to the Division of Water Resources Permitting Program" href="/content/tn/environment/permits/water1.html"><span class="icon-link-ext">Water Permitting</span></a></li><li><a title="Link to Septic Related Services" href="/content/tn/environment/permits/water/septic-systems-permits.html"><span class="icon-link-ext">Septic Related Services</span></a><ul><li><a title="Contacts for Septic Related Inquiries" href="/content/tn/environment/permits/water/septic-systems-permits/ssp/wr-sds-contacts-by-region.html" target="_blank" rel="noopener noreferrer"><span class="icon-link-ext"></span>Contacts for Septic Related Inquiries<strong><br />
+ </strong></a><span class="icon-info"></span>To speak with someone in the Knoxville Environmental Field Office regarding <strong>septic related inquiries or need assistance with forms</strong>, please call <span class="icon-mobile"></span><a title="Knoxville Field Office - septic related inquiries or assistance with forms" href="tel:8655946035">(865) 594-6035</a>.</li></ul>
+</li><li><a title="Link to Division of Water Resrouces Data and Map Viewers" href="/content/tn/environment/program-areas/wr-water-resources/water-quality/water-resources-data-map-viewers.html"><span class="icon-link-ext">Data &amp; Map Viewers</span></a></li></ul>
+
+    
+    
+
+</div>
+
+
+</div>
+
+                <div class="tn-lastupdated">
+    <div role="region" aria-label="Page Last Updated Section">
+        <p class="text-right"><span class="fst-italic">This Page Last Updated: October 2, 2026 at 4:30 PM</span></p>
+    </div>
+</div>
+            </article>
+        </div>
+    </div>
+</div>
+
+        <div class="tn-backtotop"><a href="#header-logo" class="page-top icon-up" aria-label="Go back to the top of the page"></a></div>
+
+        
+
+        
+
+        <noindex>
+            <div>
+    <div>
+
+
+
+
+    
+        
+        
+        <div class="newpar new section">
+
+</div>
+
+    
+        
+        
+        <div class="par iparys_inherited">
+
+    
+    
+    
+    
+
+</div>
+
+    
+
+</div>
+    <footer>
+        <div>
+
+
+
+
+    
+        
+        
+        <div class="newpar new section">
+
+</div>
+
+    
+        
+        
+        <div class="par iparys_inherited">
+
+    
+    
+    
+    
+        
+        
+        <div class="tn-socialmediafooter"><div class="tn-socialmediabarfooter" role="navigation" aria-label="Social Media Links">
+    <div class="social">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 columns">
+                <ul class="inline-list">
+                    <li>
+                        <div class="title">Social Media</div>
+                    </li>
+                    
+                        
+                            <li><a href="https://www.facebook.com/TNEnvironment" class="icon-facebook" target="_blank"><span>facebook</span></a></li>
+                        
+                    
+                        
+                    
+                        
+                            <li><a href="https://www.youtube.com/user/TNEnvironment" class="icon-youtube" target="_blank"><span>youtube</span></a></li>
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                            <li><a href="https://www.linkedin.com/company/tennessee-department-of-environment-and-conservation/" class="icon-linkedin" target="_blank"><span>linkedin</span></a></li>
+                        
+                    
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</div></div>
+
+    
+        
+        
+        <div class="secondaryfooter tn-secondaryfooter"><section id="agency-footer">
+    <div class="row">
+        
+            <div class="col-md-15 col-sm-15 columns">
+                <div class="title border-darkblue" id="agency-footer-col-0">
+                    Programs
+                </div>
+                <button data-bs-toggle="collapse" data-bs-target="#footer-list-0" class="menu-expand-anchor" type="button" aria-expanded="false" aria-controls="collapseExample" aria-label="Programs Submenu">
+                    <span class="icon-angle-down menu-expand"></span>
+                </button>
+                <ul class="block-list" aria-labelledby="agency-footer-col-0" id="footer-list-0">
+                   <li>
+                       <a href="/environment/air.html" aria-label="Air" title="Air">Air</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/stewardship.html" aria-label="Environmental Stewardship" title="Environmental Stewardship">Environmental Stewardship</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/program-areas/solid-waste.html" aria-label="Solid Waste" title="Solid Waste">Solid Waste</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/ust.html" aria-label="Underground Storage Tanks" title="Underground Storage Tanks">Underground Storage Tanks</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/program-areas/wr-water-resources.html" aria-label="Water" title="Water">Water</a>
+                   </li>
+                </ul>
+            </div>
+        
+            <div class="col-md-15 col-sm-15 columns">
+                <div class="title border-darkblue" id="agency-footer-col-1">
+                    Resources
+                </div>
+                <button data-bs-toggle="collapse" data-bs-target="#footer-list-1" class="menu-expand-anchor" type="button" aria-expanded="false" aria-controls="collapseExample" aria-label="Resources Submenu">
+                    <span class="icon-angle-down menu-expand"></span>
+                </button>
+                <ul class="block-list" aria-labelledby="agency-footer-col-1" id="footer-list-1">
+                   <li>
+                       <a href="/environment/accessibility.html" target="_blank" aria-label="Accessibility" title="Accessibility">Accessibility</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/about-tdec/tdec-dataviewers.html" aria-label="Dataviewers" title="Dataviewers">Dataviewers</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/about-tdec/employment-and-internships.html" aria-label="Employment and Internships" title="Employment and Internships">Employment and Internships</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/about-tdec/enforcement-orders.html" aria-label="Enforcement Orders" title="Enforcement Orders">Enforcement Orders</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/about-tdec/grants.html" aria-label="Grants" title="Grants">Grants</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/nondiscrimination.html" aria-label="Non-Discrimination" title="Non-Discrimination">Non-Discrimination</a>
+                   </li>
+                </ul>
+            </div>
+        
+            <div class="col-md-15 col-sm-15 columns">
+                <div class="title border-darkblue" id="agency-footer-col-2">
+                    Featured Links
+                </div>
+                <button data-bs-toggle="collapse" data-bs-target="#footer-list-2" class="menu-expand-anchor" type="button" aria-expanded="false" aria-controls="collapseExample" aria-label="Featured Links Submenu">
+                    <span class="icon-angle-down menu-expand"></span>
+                </button>
+                <ul class="block-list" aria-labelledby="agency-footer-col-2" id="footer-list-2">
+                   <li>
+                       <a href="/environment/about-tdec/tdec-annual-reports.html" aria-label="TDEC Annual Reports" title="TDEC Annual Reports">TDEC Annual Reports</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/contacts/field-offices.html" aria-label="Field Offices" title="Field Offices">Field Offices</a>
+                   </li>
+                
+                   <li>
+                       <a href="/environment/natural-areas.html" aria-label="Natural Areas" title="Natural Areas">Natural Areas</a>
+                   </li>
+                
+                   <li>
+                       <a href="https://tnstateparks.com/" target="_blank" aria-label="State Parks" title="State Parks">State Parks</a>
+                   </li>
+                
+                   <li>
+                       <a href="https://tnstateparks.com/conservationist" target="_blank" aria-label="The Tennessee Conservationist" title="The Tennessee Conservationist">The Tennessee Conservationist</a>
+                   </li>
+                </ul>
+            </div>
+        
+            <div class="col-md-15 col-sm-15 columns">
+                <div class="title border-darkblue" id="agency-footer-col-3">
+                    Partner Links
+                </div>
+                <button data-bs-toggle="collapse" data-bs-target="#footer-list-3" class="menu-expand-anchor" type="button" aria-expanded="false" aria-controls="collapseExample" aria-label="Partner Links Submenu">
+                    <span class="icon-angle-down menu-expand"></span>
+                </button>
+                <ul class="block-list" aria-labelledby="agency-footer-col-3" id="footer-list-3">
+                   <li>
+                       <a href="/historicalcommission.html" target="_blank" aria-label="TN Historical Commission" title="TN Historical Commission">TN Historical Commission</a>
+                   </li>
+                
+                   <li>
+                       <a href="https://www.tnvacation.com/green" target="_blank" aria-label="Sustainable Tourism" title="Sustainable Tourism">Sustainable Tourism</a>
+                   </li>
+                
+                   <li>
+                       <a href="https://www.collegefortn.org/tnpromise/" target="_blank" aria-label="TN Promise" title="TN Promise">TN Promise</a>
+                   </li>
+                
+                   <li>
+                       <a href="https://www.epa.gov/" target="_blank" aria-label="U.S. EPA" title="U.S. EPA">U.S. EPA</a>
+                   </li>
+                </ul>
+            </div>
+        
+        
+        <div class="col-md-15 col-sm-15 columns last">
+            <div class="contact">
+                
+                    <strong>
+                        Department of Environment &amp; Conservation<br/>
+                    </strong>
+                    
+                        David W. Salyers, P.E., P.G.<br/>
+                    
+                    <br/>
+                
+                
+                    <address>
+                        Davy Crockett Tower<br/>
+                        500 James Robertson Parkway<br/>
+                        Nashville, TN 37243<br/>
+
+                        (888) 891-TDEC (8332)<br/>
+                        
+                        
+                    </address>
+                
+                
+                    <a href="/environment/contacts/ask-tdec-questions.html" aria-label="Email Questions to TDEC" title="Email Questions to TDEC">
+                        Email Questions to TDEC
+                    </a>
+                
+            </div>
+            <div>
+                
+                    
+                    
+
+                    <img src="/etc/clientlibs/tncore/main/img/tn-seal.png" alt=""/>
+                
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+
+    
+
+</div>
+
+    
+
+</div>
+        <div>
+
+
+
+
+    
+        
+        
+        <div class="newpar new section">
+
+</div>
+
+    
+        
+        
+        <div class="par iparys_inherited">
+
+    
+    
+    
+    
+        
+        
+        <div class="tn-footer parbase"> <section id="footer">
+    <div id="footer-top">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 columns">
+                <ul class="inline-list">
+                    <li>
+                        <a href="/about-tn/flag-status.html" class="icon-flag" data-resource-path="/_jcr_content/footer/tn_footer" aria-label="Flag Status" title="Flag Status">Flag Status
+                        </a>
+                    </li>
+
+                    <li id="footer-livechat" class="offline">
+                        <a href="#" class="icon-chat" onclick="openFooterChat()" aria-label="Open Chat" title="Open Chat">
+                            Chat
+                        </a>
+
+                        <div class="livechat">
+                            <script>
+                                function openFooterChat() {
+                                    window.open(
+                                        "https://help.tn.gov/sn_customerservice_tn_chat_selector.do",
+                                        "popup",
+                                        "width=900, height=600"
+                                    );
+                                };
+                            </script>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 columns text-right">
+                <ul class="inline-list">
+                    <li>
+                        <a href="/help.html" class="icon-help-circled" aria-label="Help" title="Help">
+                            Help
+                        </a>
+                    </li>
+
+                    <li id="footer-translate">
+                        <a href="#" aria-label="Translate" aria-controls="#translate-box" aria-expanded="false" title="Translate" class="icon-book">
+                            Translate
+                        </a>
+                        <div class="drop right" id="translate-box">
+                            <div class="box">
+                                <div id="google_translate_element"></div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li id="footer-fontsize">
+                        <a href="#" aria-label="Font Size" aria-controls="#font-size-box" aria-expanded="false" title="Font Size" class="icon-font">
+                            Font Size
+                        </a>
+
+                        <div class="drop right" id="font-size-box">
+                            <div class="box">
+                                <ul class="inline-list">
+                                    <li>
+                                        <button class="button" aria-label="Decrease font size" aria-current="false" data-font-size="small">a-</button>
+                                    </li>
+                                    <li>
+                                        <button class="button active" aria-label="Reset font size" aria-current="true" data-font-size="normal">Normal</button>
+                                    </li>
+                                    <li>
+                                        <button class="button" aria-label="Increase font size" aria-current="false" data-font-size="large">A+</button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <span class="starball">
+            <img src="/etc/clientlibs/tncore/main/img/footer-starball.png" alt="" width="100%"/>
+        </span>
+    </div>
+
+    <div id="footer-bottom">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 columns">
+                <ul class="inline-list">
+                    <li>
+                         <a href="https://www.tn.gov/state-services.html" class="first" aria-label="TN.gov Services" title="TN.gov Services">
+                             TN.gov Services
+                         </a>
+                    
+                         <a href="https://www.tn.gov/directory.html" aria-label="TN.gov Directory" title="TN.gov Directory">
+                             TN.gov Directory
+                         </a>
+                    
+                         <a href="https://www.tn.gov/transparenttn.html" aria-label="Transparent TN" title="Transparent TN">
+                             Transparent TN
+                         </a>
+                    
+                         <a href="https://www.tn.gov/web-policies/privacy-statement.html" aria-label="Web Policies" title="Web Policies">
+                             Web Policies
+                         </a>
+                    
+                         <a href="https://www.tn.gov/mytn.html" aria-label="Mobile App" title="Mobile App">
+                             Mobile App
+                         </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 columns text-right">
+                <ul class="inline-list">
+                    <li>
+                        <a href="https://www.tn.gov/about-tn/state-symbols.html" aria-label="About Tennessee" title="About Tennessee">
+                            About Tennessee
+                        </a>
+                    
+                        <a href="https://www.tn.gov/hr/title-vi/title-vi-disclaimer.html" target="_blank" aria-label="Title VI" title="Title VI">
+                            Title VI
+                        </a>
+                    
+                        <a href="https://www.tn.gov/web-policies/accessibility.html" aria-label="Accessibility" title="Accessibility">
+                            Accessibility
+                        </a>
+                    
+                        <a href="https://www.tn.gov/help.html" aria-label="Help &amp; Contact" title="Help &amp; Contact">
+                            Help &amp; Contact
+                        </a>
+                    
+                        <a href="https://www.tn.gov/survey.html" aria-label="Survey" title="Survey">
+                            Survey
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="modal-footer"></div>
+</div>
+
+    
+        
+        
+        <div class="tn-freestyledialog">
+    <script>!function(s,a,e,v,n,t,z){if(s.saq)return;n=s.saq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!s._saq)s._saq=n;n.push=n;n.loaded=!0;n.version='1.0';n.queue=[];t=a.createElement(e);t.async=!0;t.src=v;z=a.getElementsByTagName(e)[0];z.parentNode.insertBefore(t,z)}(window,document,'script','https://tags.srv.stackadapt.com/events.js');saq('ts', '4xBwuaJ6r7lc5Mwk742YVA');</script>
+
+
+
+<!--BEGIN QUALTRICS WEBSITE FEEDBACK SNIPPET-->
+
+<script type='text/javascript'>
+
+(function(){var g=function(g){
+
+this.go=function(){var a=document.createElement("script");a.type="text/javascript";a.src=g;document.body&&document.body.appendChild(a)};
+
+this.start=function(){var t=this;"complete"!==document.readyState?window.addEventListener?window.addEventListener("load",function(){t.go()},!1):window.attachEvent&&window.attachEvent("onload",function(){t.go()}):t.go()};};
+
+try{(new g("https://znwbewebwkp6zwxpl-tngov.gov1.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_WBewebwKP6ZwxpL")).start()}catch(i){}})();
+
+</script><div id='ZN_WBewebwKP6ZwxpL'><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div>
+
+<!--END WEBSITE FEEDBACK SNIPPET-->
+
+</div>
+
+    
+
+</div>
+
+    
+
+</div>
+    </footer>
+
+</div>
+            
+
+    
+<script src="/etc/clientlibs/tncore/main.min.5f18b486157a56c1f7aa6b7a8f0feef8.js"></script>
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+        </noindex>
+
+        <div id="overlay"></div>
+
+<!-- Begin Dynamic Modal for Videos -->
+<div class="tn-videoModal modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <a href="#" data-bs-dismiss="modal" class="close-video icon-cancel text-button">Close</a>
+                <div class="videoWrapper">
+                    <iframe title="Video"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Dynamic Modal for Videos -->
+
+    </body>
+</html>

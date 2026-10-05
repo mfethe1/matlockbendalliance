@@ -1,0 +1,275 @@
+{
+  "schema_version": 1,
+  "coverage": "Loudon County primary disposal; statewide/provider referrals clearly separate",
+  "verification_status": "published_source_wording_archived_not_provider_confirmed",
+  "evidence_register": "archive/visitor/receipts.json",
+  "resources": [
+    {
+      "id": "loudon-center",
+      "visitor_path": "community-resources/index.html#loudon-center",
+      "coverage": "Loudon County",
+      "kind": "disposal",
+      "source_ids": [
+        "L01"
+      ],
+      "visitor_routes": [
+        "tel:+18654588536",
+        "https://loudoncounty-tn.gov/convenience-centers/"
+      ],
+      "unresolved": [
+        "fees",
+        "residency proof",
+        "quantity limits",
+        "HHW item confirmation"
+      ],
+      "verification": "published wording only; service not delivered or provider-confirmed"
+    },
+    {
+      "id": "lenoir-center",
+      "visitor_path": "community-resources/index.html#lenoir-center",
+      "coverage": "Loudon County",
+      "kind": "disposal",
+      "source_ids": [
+        "L01"
+      ],
+      "visitor_routes": [
+        "tel:+18659887558",
+        "https://loudoncounty-tn.gov/convenience-centers/"
+      ],
+      "unresolved": [
+        "fees",
+        "residency proof",
+        "quantity limits"
+      ],
+      "verification": "published wording only; service not delivered or provider-confirmed"
+    },
+    {
+      "id": "greenback-center",
+      "visitor_path": "community-resources/index.html#greenback-center",
+      "coverage": "Loudon County",
+      "kind": "disposal",
+      "source_ids": [
+        "L01"
+      ],
+      "visitor_routes": [
+        "tel:+18658562010",
+        "https://loudoncounty-tn.gov/convenience-centers/"
+      ],
+      "unresolved": [
+        "fees",
+        "residency proof",
+        "quantity limits"
+      ],
+      "verification": "published wording only; service not delivered or provider-confirmed"
+    },
+    {
+      "id": "state-hhw",
+      "visitor_path": "community-resources/index.html#state-hhw",
+      "coverage": "Tennessee referral, not local event verification",
+      "kind": "disposal",
+      "source_ids": [
+        "L18",
+        "L32",
+        "L33"
+      ],
+      "visitor_routes": [
+        "https://www.tn.gov/environment/program-areas/solid-waste/materials-management/hhw-program.html",
+        "tel:+18888918332"
+      ],
+      "unresolved": [
+        "event date/address/hours",
+        "fees",
+        "appointments; linked schedule returned 404"
+      ],
+      "verification": "published wording only; service not delivered or provider-confirmed"
+    },
+    {
+      "id": "watercheck",
+      "visitor_path": "community-resources/index.html#watercheck",
+      "coverage": "Household mail-in, Tennessee shipping area",
+      "kind": "testing",
+      "source_ids": [
+        "L05",
+        "L13",
+        "L14",
+        "L21",
+        "L22"
+      ],
+      "visitor_routes": [
+        "https://watercheck.com/products/standard-well-water-test",
+        "tel:+18004583330",
+        "https://watercheck.com/pages/sampling-instructions",
+        "https://watercheck.com/pages/certifications"
+      ],
+      "unresolved": [
+        "return shipping cost",
+        "independent current TN lab/method/analyte approval"
+      ],
+      "verification": "published wording only; service not delivered or provider-confirmed"
+    },
+    {
+      "id": "tapscore",
+      "visitor_path": "community-resources/index.html#tapscore",
+      "coverage": "Household mail-in, private/shared wells",
+      "kind": "testing",
+      "source_ids": [
+        "L06",
+        "L15",
+        "L16"
+      ],
+      "visitor_routes": [
+        "https://mytapscore.com/products/essential-well-water-test",
+        "https://mytapscore.com/pages/support",
+        "https://mytapscore.com/pages/certified-and-regulatory-compliance-testing"
+      ],
+      "unresolved": [
+        "numeric holding time",
+        "assigned receiving lab/address",
+        "independent current TN lab/method/analyte approval"
+      ],
+      "verification": "published wording only; service not delivered or provider-confirmed"
+    },
+    {
+      "id": "county-report",
+      "visitor_path": "community-resources/index.html#county-report",
+      "coverage": "Loudon County general routing, not enforcement intake",
+      "kind": "complaint",
+      "source_ids": [
+        "L35"
+      ],
+      "visitor_routes": [
+        "https://loudoncounty-tn.gov/contact/",
+        "tel:+18654584664",
+        "mailto:contact_county@loudoncounty-tn.gov"
+      ],
+      "unresolved": [
+        "specialized complaint receiver",
+        "cleanup capacity"
+      ],
+      "verification": "published wording only; service not delivered or provider-confirmed"
+    },
+    {
+      "id": "litter-report",
+      "visitor_path": "community-resources/index.html#litter-report",
+      "coverage": "Tennessee vehicle litter reminder, not cleanup",
+      "kind": "complaint",
+      "source_ids": [
+        "L24",
+        "L34"
+      ],
+      "visitor_routes": [
+        "tel:+18778548837",
+        "https://nobodytrashestennessee.com/litter-hotline/"
+      ],
+      "unresolved": [
+        "online form not usable in retrieved content"
+      ],
+      "verification": "published wording only; service not delivered or provider-confirmed"
+    },
+    {
+      "id": "tdec-report",
+      "visitor_path": "community-resources/index.html#tdec-report",
+      "coverage": "Loudon County within Knoxville office jurisdiction",
+      "kind": "complaint",
+      "source_ids": [
+        "L10",
+        "L28",
+        "L29"
+      ],
+      "visitor_routes": [
+        "tel:+18655946035",
+        "https://www.tn.gov/environment/contacts/field-offices/knoxville.html",
+        "https://www.tn.gov/environment/contacts/ask-tdec-questions.html",
+        "https://www.tn.gov/environment/program-areas/wr-water-resources/water-quality/citizen-water-quality-complaints.html"
+      ],
+      "unresolved": [
+        "office hours",
+        "formal legal-filing route",
+        "private-well investigation/testing availability"
+      ],
+      "verification": "published wording only; service not delivered or provider-confirmed"
+    },
+    {
+      "id": "county-records",
+      "visitor_path": "community-resources/index.html#county-records",
+      "coverage": "Loudon County current records page and Mayor policy",
+      "kind": "records",
+      "source_ids": [
+        "L04",
+        "L19"
+      ],
+      "visitor_routes": [
+        "https://loudoncounty-tn.gov/public-records-requests/",
+        "mailto:publicrecordsrequests@loudoncounty-tn.gov",
+        "tel:+18654584664"
+      ],
+      "unresolved": [
+        "mail address/custodian conflict",
+        "copy fees",
+        "rules for other county offices"
+      ],
+      "verification": "published wording only; service not delivered or provider-confirmed"
+    },
+    {
+      "id": "state-records",
+      "visitor_path": "community-resources/index.html#state-records",
+      "coverage": "TDEC-held records, statewide agency",
+      "kind": "records",
+      "source_ids": [
+        "L02",
+        "L25"
+      ],
+      "visitor_routes": [
+        "https://www.tn.gov/environment/contacts/public-records-request.html",
+        "https://stateoftennessee.formstack.com/forms/public_records_request",
+        "tel:+18888918332"
+      ],
+      "unresolved": [
+        "copy fees",
+        "agency response; nothing submitted"
+      ],
+      "verification": "published wording only; service not delivered or provider-confirmed"
+    },
+    {
+      "id": "cu-assessment",
+      "visitor_path": "community-resources/index.html#cu-assessment",
+      "coverage": "Rural Tennessee homeowners; provider confirmation required",
+      "kind": "assistance",
+      "source_ids": [
+        "L12",
+        "L23"
+      ],
+      "visitor_routes": [
+        "https://communitiesu.org/rural-water-and-wastewater/private-well-and-septic/",
+        "tel:+18659958168",
+        "mailto:brett.capps@communitiesu.org"
+      ],
+      "unresolved": [
+        "appointment capacity",
+        "analyte panel",
+        "lab identity/current approval"
+      ],
+      "verification": "published wording only; service not delivered or provider-confirmed"
+    },
+    {
+      "id": "cu-loan",
+      "visitor_path": "community-resources/index.html#cu-loan",
+      "coverage": "Rural Tennessee eligible owner-occupants/homebuyers",
+      "kind": "assistance",
+      "source_ids": [
+        "L12"
+      ],
+      "visitor_routes": [
+        "https://communitiesu.org/lending/well-septic-loans/",
+        "tel:+19564768833",
+        "tel:+14794432700"
+      ],
+      "unresolved": [
+        "income-table effective year/current limit",
+        "fees/collateral",
+        "underwriting/funding availability"
+      ],
+      "verification": "published wording only; service not delivered or provider-confirmed"
+    }
+  ]
+}

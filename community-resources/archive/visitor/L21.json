@@ -1,0 +1,23 @@
+{
+  "id": "L21",
+  "requested_url": "https://cdn.shopify.com/s/files/1/2352/5289/files/WaterCheck_Standard_Deluxe_SAMPLING_INSTRUCTIONS_2021.pdf?v=1758914302",
+  "retrieved_at": "2026-10-05T17:38:06.227909+00:00",
+  "status": 200,
+  "final_url": "https://cdn.shopify.com/s/files/1/2352/5289/files/WaterCheck_Standard_Deluxe_SAMPLING_INSTRUCTIONS_2021.pdf?v=1758914302",
+  "redirect_count": 0,
+  "curl_exit": 0,
+  "error": null,
+  "bytes": 1594561,
+  "sha256": "8c9045835fbe71d1966399a202ab7e6146efe8b922bb7078046b3bf5665a3171",
+  "content_type": "application/pdf",
+  "source_date": null,
+  "event_date": null,
+  "quotations": [
+    "Ypsilanti, MI 48197",
+    "24 hours",
+    "Do not collect and/or ship your samples on a Friday, Saturday, Sunday, or the day before a National Holiday."
+  ],
+  "scope": "Retrieved wording only; not independent acceptance or live capacity.",
+  "claim_scope": "NTL official instruction PDF: text layers overlap during extraction; page 1 visually checked; current kit takes precedence",
+  "extraction_method": "pdftotext -layout; L21 timing visually read on rendered page 1, layered extraction is lossy; L22 scanned/unreadable without OCR"
+}

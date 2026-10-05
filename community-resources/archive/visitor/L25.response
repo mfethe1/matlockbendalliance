@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  
+  <script nonce="f57b400a377efb9dbb2e185735d8fe1ac46f810a1ec3e74bdf2fc2134320185f">
+  document.addEventListener("DOMContentLoaded", function() {
+    // Try to find the form title on the page
+    var formTitleElement = document.querySelector('.fsSectionHeading'); // or 'h2.fsTitle'
+    if (formTitleElement) {
+      document.title = formTitleElement.textContent.trim();
+    } else {
+        document.title = "State of Tennessee";
+    }
+  });
+</script>
+
+  <title></title>
+ 
+  <link rel="icon" type="image/x-icon" href="//www.formstack.com/images/favicon/favicon.ico" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+   <style>
+   /* remove inbedded form header/footer*/ 
+     body:not(.fsBody) .tnfs-header, 
+     body:not(.fsBody) .tnfs-topnav,
+     body:not(.fsBody) .tnfs-footer,
+     html.wf-active body.fsBody .tnfs-header,
+     html.wf-active body.fsBody .tnfs-topnav,
+     html.wf-active body.fsBody .tnfs-footer,
+     div.tn-formstack .tnfs-header,
+     div.tn-formstack .tnfs-topnav,
+     div.tn-formstack .tnfs-footer,
+     html.tn-html #fs-footer,
+     html.tn-html #overlay {display:none;}
+
+     
+     html.tn-html input[type="radio"], 
+     html.tn-html input[type="checkbox"] {margin: 0px 7px 0px 0px;}
+     /*html.tn-html ul { margin-left: 20px;}*/
+     html.tn-html #fs-main  h2{
+         font-style: normal !important;
+         font-weight: 400 !important; 
+         font-family: "Open Sans", "Helvetica Neue", Arial, "Lucida Grande", Tahoma, Verdana, sans-serif !important;}
+   </style>
+   
+   
+<script nonce="f57b400a377efb9dbb2e185735d8fe1ac46f810a1ec3e74bdf2fc2134320185f" type="text/javascript">
+    _NBSettings = {
+        apiKey: 'public_ab544ed72084a9b781e6d3bcff6fd361'
+    };
+</script>
+<script nonce="f57b400a377efb9dbb2e185735d8fe1ac46f810a1ec3e74bdf2fc2134320185f" type="text/javascript" src="https://cdn.neverbounce.com/widget/dist/NeverBounce.js"></script>
+
+</head>
+        
+<body id="fsbody" class="fsBody body-hosted-form">
+   
+        <header id="fs-header">
+             <div class="tnfs-header">
+            <div class="row center-block top-nav">
+                <a class="logo tn-logo" href="#" data-logo="state-government">
+                    <div>Home</div>
+                </a>
+               
+            </div>
+            <div class="row center-block agency">
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 columns title">
+                    <a href="https://tn.gov">
+                        <img src="https://tn.gov/etc/clientlibs/tncore/main/img/logos/state-government.png" alt="  State of Tennessee" id="entity-name" data-pin-nopin="true"></a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 columns text-right">
+                    <!-- Begin Search Component -->
+                   
+                    <!-- END Search Component -->
+                </div>
+            </div>
+            <div class="backdrop" style="background-image:url('https://www.tn.gov/content/dam/headers/test.jpg')"></div>
+         </div>
+        </header>
+   
+     <!-- Begin TopNav -->
+    <div class="tnfs-topnav">
+        <nav id="fs-nav">
+            <div class="row center-block">
+                
+            </div>
+        </nav>
+    </div>
+    <!-- End TopNav -->
+
+    <!-- Begin Basic Template Content -->
+<style type="text/css">
+  html, body#fsbody {
+  max-width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+html[data-font-size="normal"]{zoom: normal;}
+html[data-font-size="small"]{zoom: 75%}
+html[data-font-size="large"]{zoom: 1.2;}
+
+@-moz-document url-prefix() {
+ 
+#fsform-container[data-font-size="normal"]{font-size-adjust: initial;}
+#fsform-container[data-font-size="small"]{font-size-adjust: 0.3;}
+#fsform-container[data-font-size="large"]{font-size-adjust: 1;}
+
+div[id^='fsForm-'].fsBody[data-font-size="normal"]{font-size-adjust: initial;}
+div[id^='fsForm-'].fsBody[data-font-size="small"]{font-size-adjust: 0.35;}
+div[id^='fsForm-'].fsBody[data-font-size="large"]{font-size-adjust: 1;}
+
+div[id^='fsForm-'].fsBody[data-font-size="normal"] button {font-size-adjust: initial;}
+div[id^='fsForm-'].fsBody[data-font-size="small"] button {font-size-adjust: 0.35;}
+div[id^='fsForm-'].fsBody[data-font-size="large"] button {font-size-adjust: 1;} 
+    
+}
+
+body#fsbody {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: -0.025rem;
+  color: #131e29;
+  background: #f9f9f9 url("https://www.tn.gov/etc/clientlibs/tncore/main/img/star-ball-bg.png") no-repeat 101% 75px;
+  background-attachment: fixed;
+}
+body#fsbody .row {
+  max-width: 1100px;
+  width: auto;
+  margin: 0 auto;
+}
+
+ #fs-header .tn-header{
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: -0.025rem;
+  color: white;
+  background: #1b365d;
+  position: relative;
+  z-index: 2000;
+  background-color: #445c7c;
+}
+
+ #fs-header .tnfs-header {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: -0.025rem;
+  color: white;
+  background: #445c7c;
+  position: relative;
+  z-index: 2000;
+}
+#fs-header .tnfs-header  a{
+  text-decoration: none;
+}
+#fs-header .tnfs-header  a:link,
+#fs-header .tnfs-header  a:visited{
+  color: white;
+}
+#fs-header .tnfs-header  a[data-logo] {
+  overflow: hidden;
+}
+#fs-header .tnfs-header  a[data-logo] img {
+  display: none;
+}
+#fs-header .tnfs-header  a[data-logo] span,
+#fs-header .tnfs-header  a[data-logo] small{
+  display: none;
+}
+#fs-header .tnfs-header  a[data-logo] .active-svg img {
+  display: block;
+}
+#fs-header .tnfs-header  a[data-logo] .active-text span,
+#fs-header .tnfs-header  a[data-logo] .active-text small {
+  display: block;
+}
+#fs-header .tnfs-header  .top-nav{
+  position: relative;
+}
+#fs-header .tnfs-header  .top-nav a.logo {
+  background-repeat: no-repeat;
+  background-position: 50% bottom;
+  background-size: 100% !important;
+  width: 80px;
+  height: 90px;
+  margin-left: 15px;
+  z-index: 500;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  display: block;
+}
+#fs-header .tnfs-header  .top-nav a.logo.tn-logo {
+  background-image: url("https://www.tn.gov/etc/clientlibs/tncore/main/img/logos/tn-logo.svg");
+}
+#fs-header .tnfs-header  .top-nav a.logo.star-logo {
+  background-image: url("https://www.tn.gov/etc/clientlibs/tncore/main/css/img/logos/star-logo.svg");
+}
+#fs-header .tnfs-header  .top-nav a.logo.tbi-logo {
+  background-image: url("https://www.tn.gov/etc/clientlibs/tncore/main/css/img/logos/tbi.png");
+}
+#fs-header .tnfs-header  .top-nav a.logo.no-logo {
+  width: 0px;
+  padding: 0;
+  margin: 0;
+}
+#fs-header .tnfs-header  .top-nav a.logo div {
+  text-indent: -9999px;
+}
+#fs-header .tnfs-header  .top-nav a.search-all {
+  font-size: 0.875rem;
+  color: white;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  letter-spacing: -0.05rem;
+  position: absolute;
+  z-index: 500;
+  top: 0;
+  right: 0;
+  margin-right: 1.5625rem;
+  padding: 10px 0;
+  margin-top: 5px;
+  display: inline-block;
+}
+#fs-header .tnfs-header  .top-nav a.search-all:hover {
+  color: white;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+#fs-header .tnfs-header .top-nav a.search-all:before {
+  color: white;
+}
+#fs-header .tnfs-header .backdrop,
+#fs-header .tnfs-header .backdrop-color {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% top;
+}
+ #fs-header .tnfs-header .backdrop-color {
+  opacity: 0.5;
+}
+ #fs-header .tnfs-header .backdrop {
+  opacity: 0.15;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=15)";
+  filter: alpha(opacity=15);
+  -webkit-filter: grayscale(1);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: gray;
+  filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='0'><filter id='greyscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0' /></filter></svg>#greyscale");
+  filter: grayscale(100%);
+}
+ #fs-header .tnfs-header .state-of-tn,
+#fs-header .tnfs-header .agency {
+  position: relative;
+  z-index: 5;
+}
+#fs-header .tnfs-header .state-of-tn {
+  color: #cdd1d3;
+  height: 135px;
+  background: url("https://www.tn.gov/etc/clientlibs/tncore/main/img/gradient-top.png") repeat-x;
+  overflow: hidden;
+}
+#fs-header .tnfs-header .state-of-tn .title {
+  font-size: 1.175rem;
+  letter-spacing: -0.025rem;
+  padding: 15px 15px 15px 65px;
+  background: url("https://www.tn.gov/etc/clientlibs/tncore/main/css/img/header/tngov-logo.png") no-repeat left top;
+  display: inline-block;
+}
+
+ #fs-header .tnfs-header .agency {
+  padding-top: 20px;
+}
+ #fs-header .tnfs-header .agency .title {
+  padding-left: 105px;
+  letter-spacing: -0.05rem;
+}
+ #fs-header .tnfs-header .agency .title img {
+  max-width: 300px;
+}
+ #fs-header .tnfs-header .agency .title small {
+  font-family: 'Permian Slab', serif;
+  font-size: 1.125rem;
+  display: block;
+  padding-left: 3px;
+  letter-spacing: -0.05rem;
+  margin-top: 20px;
+}
+#fs-header .tnfs-header  .agency .title span {
+  font-size: 2.5rem;
+  letter-spacing: -0.075rem;
+  margin-bottom: 10px;
+  display: inline-block;
+  line-height: 0.8em;
+  font-weight: 300;
+}
+@media only screen and (min-width: 40em) {
+  #fs-header .tnfs-header  {
+    min-height: 115px;
+  }
+  #fs-header .tnfs-header  .title img {
+    margin-top: 10px;
+    max-height: 75px;
+  }
+}
+@media only screen and (max-width: 40em) {
+  #fs-header .tnfs-header  {
+    min-height: 0;
+  }
+  #fs-header .tnfs-header  .columns {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  #fs-header .tnfs-header  .state-of-tn {
+    height: 65px;
+    background-position: left bottom;
+  }
+  #fs-header .tnfs-header  .state-of-tn .title{
+    text-indent: -9999px;
+  }
+  #fs-header .tnfs-header  .top-nav a.logo {
+    width: 60px;
+    height: 70px;
+    margin-left: 1rem;
+  }
+  #fs-header .tnfs-header  .top-nav a.search-all {
+    margin: 0 1em 0 0;
+    padding: 5px 0;
+    font-size: 0.675rem;
+  }
+  #fs-header .tnfs-header  .agency {
+    padding-top: 12px;
+  }
+  #fs-header .tnfs-header  .agency .title {
+    padding-left: 85px;
+    min-height: 69px;
+  }
+  #fs-header .tnfs-header  .agency .title img {
+    max-width: 100%;
+  }
+  #fs-header .tnfs-header  .agency .title span {
+    margin-bottom: 0;
+    font-size: 1.6rem;
+  }
+  #fs-header .tnfs-header  .agency .title small {
+    padding-left: 0;
+  }
+}
+
+.tnfs-topnav #fs-nav a {
+  text-decoration: none;
+}
+.tnfs-topnav #fs-nav .logo-small a,
+.tn-topnav .nav-items,
+.tnfs-topnav #fs-nav li {
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+}
+.tnfs-topnav #fs-nav {
+  background: white;
+  border-bottom: 2px #eee solid;
+  position: relative;
+  z-index: 9500;
+  min-height: 35px;
+}
+@media only screen and (min-width: 40em) {
+  .tnfs-topnav #fs-nav {
+    position: relative;
+    z-index: 1000;
+  }
+}
+@media only screen and (max-width: 40em) {
+  .tnfs-topnav #fs-nav:not(.fixed) {
+    z-index: 1000;
+  }
+}
+
+
+div[id^='fsForm-'].fsBody {
+  max-width: 100%;
+  position: relative;
+  flex: 1 0 auto;
+}
+
+html:not(.aem-AuthorLayer-Edit):not(.aem-AuthorLayer-Preview) div[id^='fsForm-'].fsBody {
+    min-height: calc( -250px + 100vh);
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  html:not(.tn-html) {
+    min-height: 100%;
+  }
+  body.fsbody {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  html:not(.tn-html) div[id^='fsForm-'].fsBody {
+    flex: 1 0 0;
+  }
+}
+
+/* to stop the form from an inner scroll */
+
+.fsBody{
+    /*background: #f9f9f9 url("https://www.tn.gov/etc/clientlibs/tncore/main/img/star-ball-bg.png") no-repeat 101% 75px;*/
+ /* background-attachment: fixed;*/
+ background-color: transparent;
+    height: auto;
+    min-height:auto;
+    overflow: visible;
+}
+/*--*/
+[data-testid="welcome-message-container"]{
+    overflow: visible; 
+}
+
+[class*="InnerFormBody"], 
+[data-testid="survey-header"],
+[class*="StyledSurveyQuestion"]{
+    background-color: transparent;
+}
+
+.fsForm{
+    background-color: transparent;
+}
+
+.fsborderradius .fsBody .fsSectionHeader {
+  margin: 10px;
+}
+
+.fsborderradius .fsBody .fsForm, .fsborderradius .fsBody .fsSectionHeader {
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+.fsBody .fsSectionHeader {
+  padding: 20px 15px 15px;
+  background-color: #ccc;
+  clear: left;
+}
+.fsBody .fsSectionHeader h2, .fsSectionText  {
+    color: #000;
+}
+.fsSupporting {
+   color: #949494 !important;
+}
+
+.fsSubmitButton {
+    background: #1b365d;
+    font-size: 1rem;
+}
+
+div[id^='fsForm-'].fsBody form  {
+    width: 100%;
+    max-width: 1100px;
+}
+div[id^='fsForm-'].fsBody textarea[readonly=""]{
+    color: #000 !important;
+}
+div[id^='fsForm-'].fsBody form input, 
+div[id^='fsForm-'].fsBody form input::before, 
+div[id^='fsForm-'].fsBody form .fsSubFieldGroup label,
+div[id^='fsForm-'].fsBody form select,
+div[id^='fsForm-'].fsBody form input.MuiOutlinedInput-input{
+    border-color: #949494 !important;
+}
+
+div[id^='fsForm-'].fsBody form .fsFieldZip {
+    margin-top: 8px;
+    flex-basis: 40%;
+}
+.fsRequiredMarker{
+    color: #D63246; /*#780000;*/
+    padding-left: 2px;
+}
+
+.fsSubField label,
+.fsSupporting,
+button[class^='StyledSignatureClearButton-'] {
+    color: #65707B !important;
+}
+
+
+@media (max-width: 40em), not all, (device-height: 1024px) and (device-width: 768px) and (orientation: landscape) {
+  .fsSubField  {
+    width: 100%;
+    flex-basis: auto !important;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+   .cXSsCi {
+        display: block;
+    }
+}
+
+
+.tnfs-footer .col-lg-6,
+.tnfs-footer .col-sm-6, 
+.tnfs-footer .col-md-6 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+    width: 50%;
+    float: left;
+}
+
+.tnfs-footer  #footer .text-right {
+  text-align: right;
+}
+
+
+.tnfs-footer #footer {
+  clear: both !important;
+}
+.tnfs-footer #footer #footer-bottom {
+  font-size: 0.75rem;
+  background: #1b365d;
+  letter-spacing: -0.05rem;
+  position: relative;
+  min-height: 50px;
+  z-index: 1400;
+}
+.tnfs-footer #footer #footer-bottom * {
+  color: white;
+}
+.tnfs-footer #footer #footer-bottom a {
+  font-size: 0.825rem;
+  display: inline-block;
+  /*padding: 15px 5px;*/
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: -0.025rem;
+  text-decoration: none;
+}
+.tnfs-footer #footer #footer-bottom a:hover {
+  color: #ffa799;
+}
+.tnfs-footer #footer #footer-bottom .customer-service {
+  display: block;
+  margin: -30px 0;
+  border: 0;
+}
+.tnfs-footer #footer #footer-top {
+  background: white;
+  color: #131e29;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 1500;
+  min-height: 50px;
+}
+.tnfs-footer #footer #footer-top .columns > ul > li {
+  margin: 0 15px;
+}
+.tnfs-footer #footer #footer-top .columns > ul > li:first-child {
+  margin-left: 0;
+}
+.tnfs-footer #footer #footer-top .columns > ul > li:last-child {
+  margin-right: 0;
+}
+.tnfs-footer #footer #footer-top .columns > ul > li > a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: -0.05em;
+  display: inline-block;
+  padding: 17px 0 15px;
+  color: #414042;
+  margin-top: -5px;
+}
+.tnfs-footer #footer #footer-top .columns > ul > li > a span.material-icons{
+ font-size: 1.2rem;
+}
+.tnfs-footer #footer #footer-top .columns > ul > li:hover > a,
+.tnfs-footer #footer #footer-top .columns > ul > li.active > a,
+.tnfs-footer #footer #footer-top .columns > ul > li:hover span.status,
+.tnfs-footer #footer #footer-top .columns > ul > li.active span.status {
+  color: #a7a9ac;
+}
+.tnfs-footer #footer #footer-top a span.status {
+  font-family: 'Permian Slab', serif;
+  letter-spacing: -0.075em;
+  color: #3d3e40;
+}
+.tnfs-footer #footer #footer-top select {
+  display: block;
+}
+.tnfs-footer #fs-footer #fs-footer-top a:before {
+  color: #a7a9ac;
+  margin-left: 0;
+}
+.tnfs-footer #footer #footer-top .starball {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 50%;
+  margin-left: -35px;
+  bottom: -30px;
+}
+.tnfs-footer #footer #footer-top li {
+  position: relative;
+}
+
+
+.tnfs-footer  #footer #footer-top ul.inline-list {
+  margin: 0;
+  padding: 0;
+}
+.tnfs-footer  #footer #footer-top ul.inline-list li {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  padding-top: 0 !important;
+  display: inline-block;
+}
+
+.tnfs-footer  #footer #footer-top ul.inline-list li:before {
+  content: '';
+  display: none;
+}
+
+.tnfs-footer #footer #footer-top li#footer-translate .drop {
+        min-width: 175px;
+    }
+.tnfs-footer #footer #footer-top li#footer-translate .drop .skiptranslate select {
+        margin: 0 0 5px;
+    }
+.tnfs-footer #footer #footer-top li#footer-translate .drop .skiptranslate a {
+        font-size: 0.75rem;
+        padding: 0;
+    }
+
+.tnfs-footer #footer #footer-top li .drop {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  min-width: 150px;
+  margin-bottom: 52px;
+  text-align: center;
+}
+.tnfs-footer #footer #footer-top li .drop .box {
+  padding: 15px;
+  text-align: left;
+  margin: 0 0 12px 0;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  background: white !important;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+.tnfs-footer footer#footer #footer-top li .drop .box:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 10px 10px 0;
+  border-color: #FFFFFF transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  bottom: 2px;
+  left: 50%;
+  margin-left: -5px;
+}
+.tnfs-footer footer#footer #footer-top li .drop .box .button[data-font-size="small"], 
+.tnfs-footer footer#footer #footer-top li .drop .box .button[data-font-size="large"],
+.tnfs-footer footer#footer #footer-top li .drop .box .button[data-font-size="normal"]{
+    margin-bottom: 3px;
+  border: 0;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none !important;
+  letter-spacing: -0.05rem;
+  background: #1b365d;
+  padding: 8px 12px;
+  display: inline-block;
+  border-radius: 2px;
+  color: white;
+}
+
+.tnfs-footer footer#footer #footer-top li .drop .box .button[data-font-size="normal"] {
+    background: #a7190c;
+}
+
+.tnfs-footer#footer-top li .drop.right {
+  right: 0;
+  left: auto;
+  
+}
+
+#footer-fontsize-fs .box ul.inline-list li {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    padding-bottom: 0px !important;
+}
+.tnfs-footer#footer-top li .drop.right:after {
+  right: 25px;
+  left: auto;
+}
+.tnfs-footer #footer-top li.active .drop {
+  display: block;
+}
+
+
+.tnfs-footer  #footer #footer-top li#footer-fontsize-fs .drop {
+  min-width: 200px;
+}
+.tnfs-footer  #footer #footer-top li#footer-fontsize-fs .drop .box {
+  text-align: center;
+}
+.tnfs-footer  #footer #footer-top li#footer-fontsize-fs .drop a.button {
+  font-size: 15px;
+}
+
+
+@media only screen and (max-width: 40em) {
+  .tnfs-footer #footer .columns > ul > li > a {
+    padding: 2px 5px;
+  }
+  .tnfs-footer #footer .customer-service {
+    margin: -28px 0 -5px 0;
+  }
+  .tnfs-footer #footer #footer-top {
+    padding: 10px 0 30px;
+  }
+  .tnfs-footer #footer #footer-top .columns > ul > li > a {
+    padding: 10px 0 5px;
+  }
+  .tnfs-footer #footer #footer-top .starball {
+    width: 40px;
+    height: 40px;
+    margin-left: -20px;
+    bottom: -10px;
+  }
+  .tnfs-footer #footer #footer-top.overlay-active {
+    background: #d1d3d4;
+  }
+  .tnfs-footer #fs-footer #fs-footer-top li .drop {
+    margin-bottom: 27px !important;
+  }
+  
+  .tnfs-footer #footer #footer-bottom {
+    padding: 30px;
+    text-align: left;
+  }
+  .tnfs-footer #footer #footer-bottom a {
+    padding: 5px;
+  }
+  .tnfs-footer #footer-top .columns,
+  .tnfs-footer #footer .columns {
+    padding: 0 5px;
+    text-align: center;
+  }
+  .tnfs-footer #footer-top .columns > ul > li,
+  .tnfs-footer #footer .columns > ul > li {
+    margin: 0 5px !important;
+  }
+  .tnfs-footer #footer-top .columns > ul > li > a,
+  .tnfs-footer #footer .columns > ul > li > a {
+    padding: 10px 0;
+    font-size: 1em;
+  }
+}
+/* -------------------------------
+Part of the flexbox fix ie11 so that the footerbar is sticy with the bottom of the browser but does not impeed on the page content.
+footer was creating an issue where it wanted to push the page content down the bottom of the browser when footer links were highlighted. The code below stops that by turning the nav into a flexbox footer nav -  ONLY FOR IE11.
+------------------------------- */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .tn-footer.tnfs-footer #footer #footer-top ul {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    list-style: none;
+  }
+  .tn-footer.tnfs-footer #footer #footer-top ul > li {
+    flex: 0 1 auto;
+    position: relative;
+  }
+  .tn-footer.tnfs-footer #footer #footer-top ul > li > a {
+    align-items: flex-start;
+    display: flex !important;
+  }
+  .tn-footer.tnfs-footer #footer #footer-bottom ul {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    list-style: none;
+  }
+  .tn-footer.tnfs-footer #footer #footer-bottom ul > li {
+    flex: 0 1 auto;
+    position: relative;
+  }
+ .tn-footer.tnfs-footer #footer #footer-bottom a {
+    display: inline-flex !important;
+    margin-bottom: -10px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .tnfs-footer .col-lg-6 {
+    width: 50%;
+  }
+}
+@media (min-width: 1200px) {
+  .tnfs-footer .col-lg-6 {
+    float: left;
+  }
+}
+
+#overlay {
+    opacity: 0;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -100;
+}
+
+body.overlay-active #overlay.active {
+    display: block;
+    z-index: 900;
+    opacity: 1;
+}
+
+
+html.aem-AuthorLayer-Edit [data-testid="welcome-message-container"],
+html.aem-AuthorLayer-Preview [data-testid="welcome-message-container"] {
+   position: relative !important;
+   z-index: 1 !important;
+   display: block;
+   
+}
+
+.tn-html label .fsLabel, 
+.tn-html label.fsOptionLabel,
+.tn-html label[class^="StyledLabel-"]{
+    font-weight: normal;
+}
+
+
+@media print {
+  body {
+    font: 13pt Georgia, "Times New Roman", Times, serif;
+    background: #fff !important;
+    color: #000;
+    line-height: 1.4;
+  }
+
+  @page {
+    margin: 1in;
+  }
+
+  h1, h2, h3 {
+    page-break-after: avoid;
+    page-break-inside: avoid;
+  }
+
+  a[href]:after {
+    content: " (" attr(href) ")";
+    font-size: 10pt;
+  }
+
+  nav, footer, .no-print, .form-navigation, .form-buttons {
+    display: none !important;
+  }
+
+  img {
+    max-width: 100%;
+    page-break-inside: avoid;
+  }
+
+  .form-container {
+    width: 100% !important;
+    margin: 0;
+    float: none;
+  }
+  
+  
+.fsForm {
+    background: #fff;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+  }
+
+  .fsSectionHeading,
+  .fsSectionText,
+  .fsLabel,
+  .fsSupporting {
+    color: #000;
+    font-size: 12pt;
+  }
+  
+  
+.fsSubmit,
+  .fsPreviousButton,
+  .fsNextButton,
+  .tnfs-header,
+  .tnfs-footer {
+    display: none !important;
+  }
+
+  #fsHeaderimage,
+  #fsFooterimage{
+    display: block;
+    max-width: 100%;
+    margin-bottom: 1em;
+  }
+  
+  
+#fsHeaderimage, #fsFooterimage {
+    display: block !important;
+  }
+  
+ /* Neverbounce fix */ 
+
+.grecaptcha-badge {
+    display: none !important;
+}
+
+}
+
+
+</style>
+<div id="fsform-container-2787863" class="fsform-container" data-formid="2787863"></div>
+<script type="text/javascript" src="https://static.formstack.com/forms/forms-renderer/builds/public/form_a504b18b37.js"></script>
+<script type="text/javascript" nonce="f57b400a377efb9dbb2e185735d8fe1ac46f810a1ec3e74bdf2fc2134320185f">
+  FSForm.render({"fullscreen":true,"id":2787863,"loggingConfig":{"disabled":false,"sessionSampleRate":5},"shouldAutofocusForm":true,"target":"fsform-container-2787863","viewKey":"PxgoJ2v2Hg"},
+    {
+      formResponse: {"error":null,"form":{"analytics":{"baseUrl":"https:\/\/stateoftennessee.formstack.com\/forms-analytics","isEnabled":true,"viewMethod":"hosted"},"id":"2787863","isEncrypted":false,"language":"en","meta":{"ctaParams":"utm_source=formstack&utm_medium=product&utm_campaign=build+your+own","ctaType":"s-prod-form","extra":{"columns":1,"customIdentifier":null,"discountCode":null,"fileUploadsPerSubmission":20,"invisibleCaptcha":true,"invisibleCaptchaPublicKey":"6LeINU0bAAAAAFIQNz4Bc_d7mbDzeBMENU3LBZN_","kioskMode":false,"labelPosition":"top","oneQuestion":false,"progressIndicator":false,"promptForLocation":false,"saveAndResume":false,"shareButtons":null,"showReferralBadge":false,"showSecurityLogo":false,"skipValidationBetweenPages":false},"fileUploadActionsDto":{"baseUrl":"https:\/\/stateoftennessee.formstack.com","getUploadUrlAction":"\/live-form\/fileUpload\/getUploadUrls"},"hasEncryptionPassword":false,"hiddenSubmitFields":[{"key":"displayTime","value":"2026-10-05T13:38:06-04:00"}],"isWorkflowForm":false,"isWorkspaceSubmission":null,"optimizeFormPerformance":false,"redirectUrl":null,"shouldTrackPartialSubmission":null,"stylesheets":null,"submitButtonTitle":null,"timezone":"US\/Eastern","welcomeMessage":null},"name":"Public Records Request (RDA SW35)","password":null,"paymentIntegrations":[],"plugins":[],"portal":null,"publicFileUrl":"https:\/\/static.formstack.com\/forms\/forms-renderer","sections":[{"calculation":null,"defaultValue":null,"fieldTypeAttributes":{"dtoType":"FieldAttributesSectionDto","content":"","heading":"","labelPosition":"","languageFormat":"","numColumns":0,"usePageBreak":false},"fields":[],"general":{"autofill":null,"columnSpan":0,"hidden":false,"hideLabel":false,"id":"0","internalLabel":null,"isRootSection":true,"label":"","language":null,"options":[],"parentTableMetadata":null,"readOnly":false,"required":false,"searchConfig":null,"section":"","shouldForceSkipValidation":null,"supportingText":null,"type":"section","unique":false,"useCallout":null},"logic":null,"secureSettings":null},{"calculation":null,"defaultValue":null,"fieldTypeAttributes":{"dtoType":"FieldAttributesSectionDto","content":"<p><span style=\"font-size: 14px;\">The Tennessee Public Records Act (TPRA) grants Tennessee citizens the right to access records made or received pursuant to law or ordinance or in connection with the transaction of official business by any governmental entity that exist at the time of the request. The TPRA does not require records custodians to compile information or create or recreate records that do not exist.<\/span><\/p><p><span style=\"font-size: 14px;\">Please check&nbsp;<\/span><span style=\"color: rgb(44, 130, 201);\"><a href=\"https:\/\/www.tn.gov\/environment\/about-tdec\/tdec-dataviewers.html\" rel=\"noopener noreferrer\" target=\"_blank\"><span style=\"font-size: 14px;\">TDEC's online dataviewers<\/span><\/a><\/span><span style=\"font-size: 14px;\">&nbsp;before submitting a request as new documents are uploaded daily. Also, many&nbsp;<\/span><span style=\"color: rgb(44, 130, 201);\"><a href=\"https:\/\/tdec.tn.gov\/filenetsearch\" rel=\"noopener noreferrer\" target=\"_blank\"><span style=\"font-size: 14px;\">septic tank records are now available online<\/span><\/a><\/span><span style=\"font-size: 14px;\">&nbsp;through a new search page.&nbsp;<\/span><\/p>","heading":"Public Records Request","labelPosition":"","languageFormat":"default","numColumns":"0","usePageBreak":false},"fields":[{"calculation":null,"defaultValue":{"dtoType":"DefaultValueNameDto","first":"","initial":"","last":"","middle":"","prefix":"","suffix":""},"fieldTypeAttributes":{"dtoType":"FieldAttributesNameDto","charactersWide":30,"middleInitialRequired":true,"middleNameRequired":true,"prefixRequired":true,"suffixRequired":true,"useMiddleInitial":false,"useMiddleName":false,"usePrefix":false,"useSuffix":false},"fields":null,"general":{"autofill":null,"columnSpan":"1","hidden":false,"hideLabel":false,"id":"55540608","internalLabel":null,"isRootSection":false,"label":"Requestor's Name","language":"en","options":[],"parentTableMetadata":null,"readOnly":false,"required":true,"searchConfig":{"canSearchOptions":false,"useRemoteSearch":false},"section":"55540593","shouldForceSkipValidation":false,"supportingText":null,"type":"name","unique":false,"useCallout":false},"logic":null,"secureSettings":null},{"calculation":null,"defaultValue":{"dtoType":"DefaultValueStringDto","confirmValue":"","value":""},"fieldTypeAttributes":{"dtoType":"FieldAttributesPhoneDto","charactersWide":30,"countryFormat":"US","defaultValue":"","phoneFormat":"national","placeholderText":""},"fields":null,"general":{"autofill":null,"columnSpan":"1","hidden":false,"hideLabel":false,"id":"57642219","internalLabel":null,"isRootSection":false,"label":"Phone","language":"en","options":[],"parentTableMetadata":null,"readOnly":false,"required":true,"searchConfig":{"canSearchOptions":false,"useRemoteSearch":false},"section":"55540593","shouldForceSkipValidation":false,"supportingText":null,"type":"phone","unique":false,"useCallout":false},"logic":null,"secureSettings":null},{"calculation":null,"defaultValue":{"dtoType":"DefaultValueStringDto","confirmValue":"","value":""},"fieldTypeAttributes":{"dtoType":"FieldAttributesEmailDto","charactersWide":50,"confirmationText":"","defaultValue":"","maxLength":0,"placeholderText":"","useConfirmation":true},"fields":null,"general":{"autofill":null,"columnSpan":"1","hidden":false,"hideLabel":false,"id":"55540612","internalLabel":null,"isRootSection":false,"label":"Requestor's E-mail","language":"en","options":[],"parentTableMetadata":null,"readOnly":false,"required":true,"searchConfig":{"canSearchOptions":false,"useRemoteSearch":false},"section":"55540593","shouldForceSkipValidation":false,"supportingText":null,"type":"email","unique":false,"useCallout":false},"logic":null,"secureSettings":null},{"calculation":{"calculationAllowNegatives":"","calculationCategory":"text","calculationOperator":"","calculationUnits":"","fieldOneCalculation":"","fieldTwoCalculation":"","rules":[]},"defaultValue":{"dtoType":"DefaultValueRadioDto","otherValue":"","value":""},"fieldTypeAttributes":{"dtoType":"FieldAttributesRadioDto","defaultValue":"","hideRadioButtons":false,"imageDimensions":"customDimensions","imageHeight":100,"imageLabelAlignment":"bottom","imageWidth":100,"lockImageRatio":true,"lockImageRatioOption":"fitProportionally","optionLayout":"vertical","optionPartToStore":"value","useImages":false,"useLabelsAndValues":false,"useOtherOption":false,"useRandomOption":false},"fields":null,"general":{"autofill":null,"columnSpan":"1","hidden":false,"hideLabel":false,"id":"105613095","internalLabel":null,"isRootSection":false,"label":"Is this request for information related to anticipated or existing litigation?","language":"en","options":[{"label":"Yes","value":"Yes","imageUrl":null},{"label":"No","value":"No","imageUrl":null},{"label":"Maybe","value":"Maybe","imageUrl":""}],"parentTableMetadata":null,"readOnly":false,"required":true,"searchConfig":{"canSearchOptions":false,"useRemoteSearch":false},"section":"55540593","shouldForceSkipValidation":false,"supportingText":null,"type":"radio","unique":false,"useCallout":false},"logic":null,"secureSettings":null},{"calculation":{"calculationAllowNegatives":"","calculationCategory":"text","calculationOperator":"","calculationUnits":"","fieldOneCalculation":"","fieldTwoCalculation":"","rules":[]},"defaultValue":{"dtoType":"DefaultValueRadioDto","otherValue":"","value":""},"fieldTypeAttributes":{"dtoType":"FieldAttributesRadioDto","defaultValue":"","hideRadioButtons":false,"imageDimensions":"customDimensions","imageHeight":100,"imageLabelAlignment":"bottom","imageWidth":100,"lockImageRatio":true,"lockImageRatioOption":"fitProportionally","optionLayout":"vertical","optionPartToStore":"value","useImages":false,"useLabelsAndValues":false,"useOtherOption":false,"useRandomOption":false},"fields":null,"general":{"autofill":null,"columnSpan":"1","hidden":false,"hideLabel":false,"id":"55540617","internalLabel":null,"isRootSection":false,"label":"Is the requestor a Tennessee citizen?","language":"en","options":[{"label":"Yes","value":"Yes"},{"label":"No","value":"No"}],"parentTableMetadata":null,"readOnly":false,"required":true,"searchConfig":{"canSearchOptions":false,"useRemoteSearch":false},"section":"55540593","shouldForceSkipValidation":false,"supportingText":"The agency can request proof of Tennessee citizenship before records are released.","type":"radio","unique":false,"useCallout":false},"logic":null,"secureSettings":null},{"calculation":{"calculationAllowNegatives":"","calculationCategory":"text","calculationOperator":"","calculationUnits":"","fieldOneCalculation":"","fieldTwoCalculation":"","rules":[]},"defaultValue":{"dtoType":"DefaultValueRadioDto","otherValue":"","value":""},"fieldTypeAttributes":{"dtoType":"FieldAttributesRadioDto","defaultValue":"","hideRadioButtons":false,"imageDimensions":"customDimensions","imageHeight":100,"imageLabelAlignment":"bottom","imageWidth":100,"lockImageRatio":true,"lockImageRatioOption":"fitProportionally","optionLayout":"vertical","optionPartToStore":"value","useImages":false,"useLabelsAndValues":false,"useOtherOption":false,"useRandomOption":false},"fields":null,"general":{"autofill":null,"columnSpan":"1","hidden":false,"hideLabel":false,"id":"55540708","internalLabel":null,"isRootSection":false,"label":"Request:","language":"en","options":[{"label":"Records Inspection","value":"Records Inspection"},{"label":"Copy\/Duplicate","value":"Copy\/Duplicate"}],"parentTableMetadata":null,"readOnly":false,"required":false,"searchConfig":{"canSearchOptions":false,"useRemoteSearch":false},"section":"55540593","shouldForceSkipValidation":false,"supportingText":null,"type":"radio","unique":false,"useCallout":false},"logic":null,"secureSettings":null},{"calculation":{"calculationAllowNegatives":"","calculationCategory":"text","calculationOperator":"","calculationUnits":"","fieldOneCalculation":"","fieldTwoCalculation":"","rules":[]},"defaultValue":{"dtoType":"DefaultValueRadioDto","otherValue":"","value":""},"fieldTypeAttributes":{"dtoType":"FieldAttributesRadioDto","defaultValue":"","hideRadioButtons":false,"imageDimensions":"customDimensions","imageHeight":100,"imageLabelAlignment":"bottom","imageWidth":100,"lockImageRatio":true,"lockImageRatioOption":"fitProportionally","optionLayout":"vertical","optionPartToStore":"value","useImages":false,"useLabelsAndValues":false,"useOtherOption":false,"useRandomOption":false},"fields":null,"general":{"autofill":null,"columnSpan":"1","hidden":false,"hideLabel":false,"id":"55540761","internalLabel":null,"isRootSection":false,"label":"If costs for copies are assessed, the requestor has a right to receive an estimate. Do you wish to waive your right to an estimate and agree to pay copying and production costs in an amount not to exceed the amount entered by the requestor below?","language":"en","options":[{"label":"Yes","value":"Yes"},{"label":"No","value":"No"}],"parentTableMetadata":null,"readOnly":false,"required":false,"searchConfig":{"canSearchOptions":false,"useRemoteSearch":false},"section":"55540593","shouldForceSkipValidation":false,"supportingText":null,"type":"radio","unique":false,"useCallout":false},"logic":null,"secureSettings":null},{"calculation":null,"defaultValue":{"dtoType":"DefaultValueStringDto","confirmValue":"","value":""},"fieldTypeAttributes":{"dtoType":"FieldAttributesSignatureDto","allowTypedSignature":false},"fields":null,"general":{"autofill":null,"columnSpan":"1","hidden":false,"hideLabel":false,"id":"55540886","internalLabel":null,"isRootSection":false,"label":"If yes, then initial below","language":"en","options":[],"parentTableMetadata":null,"readOnly":false,"required":false,"searchConfig":{"canSearchOptions":false,"useRemoteSearch":false},"section":"55540593","shouldForceSkipValidation":false,"supportingText":"Use your mouse or finger to draw your initials above","type":"signature","unique":false,"useCallout":false},"logic":{"action":"Show","fields":[{"comparisonOperator":"==","fieldId":"55540761","value":"Yes"}],"operator":"AND","workflowSteps":[]},"secureSettings":null},{"calculation":{"calculationAllowNegatives":0,"calculationCategory":"text","calculationOperator":"","calculationUnits":"","fieldOneCalculation":0,"fieldTwoCalculation":0,"rules":[]},"defaultValue":{"dtoType":"DefaultValueStringDto","confirmValue":"","value":""},"fieldTypeAttributes":{"dtoType":"FieldAttributesNumberDto","calculationAllowNegatives":0,"calculationCategory":"text","calculationOperator":"","calculationUnits":"","charactersWide":5,"currency":null,"currencyFormat":"","defaultValue":"","fieldOneCalculation":0,"fieldTwoCalculation":0,"maxValue":null,"minValue":null,"numberOfDecimals":0,"placeholderText":"$100.00","useSlider":false},"fields":null,"general":{"autofill":null,"columnSpan":"1","hidden":false,"hideLabel":false,"id":"55540879","internalLabel":null,"isRootSection":false,"label":"Dollar amount to not exceed","language":"en","options":[],"parentTableMetadata":null,"readOnly":false,"required":false,"searchConfig":{"canSearchOptions":false,"useRemoteSearch":false},"section":"55540593","shouldForceSkipValidation":false,"supportingText":null,"type":"number","unique":false,"useCallout":false},"logic":{"action":"Show","fields":[{"comparisonOperator":"==","fieldId":"55540761","value":"Yes"}],"operator":"AND","workflowSteps":[]},"secureSettings":null},{"calculation":{"calculationAllowNegatives":"","calculationCategory":"text","calculationOperator":"","calculationUnits":"","fieldOneCalculation":"","fieldTwoCalculation":"","rules":[]},"defaultValue":{"dtoType":"DefaultValueRadioDto","otherValue":"","value":""},"fieldTypeAttributes":{"dtoType":"FieldAttributesRadioDto","defaultValue":"","hideRadioButtons":false,"imageDimensions":"customDimensions","imageHeight":100,"imageLabelAlignment":"bottom","imageWidth":100,"lockImageRatio":true,"lockImageRatioOption":"fitProportionally","optionLayout":"vertical","optionPartToStore":"value","useImages":false,"useLabelsAndValues":false,"useOtherOption":false,"useRandomOption":false},"fields":null,"general":{"autofill":null,"columnSpan":"1","hidden":false,"hideLabel":false,"id":"155349895","internalLabel":null,"isRootSection":false,"label":"Per division policy, anything more than 3 requests per month may incur additional costs.","language":"en","options":[{"label":"Affirm","value":"Affirm","imageUrl":null}],"parentTableMetadata":null,"readOnly":false,"required":true,"searchConfig":{"canSearchOptions":false,"useRemoteSearch":false},"section":"55540593","shouldForceSkipValidation":false,"supportingText":null,"type":"radio","unique":false,"useCallout":false},"logic":null,"secureSettings":null},{"calculation":{"calculationAllowNegatives":"","calculationCategory":"text","calculationOperator":"","calculationUnits":"","fieldOneCalculation":"","fieldTwoCalculation":"","rules":[]},"defaultValue":{"dtoType":"DefaultValueRadioDto","otherValue":"","value":""},"fieldTypeAttributes":{"dtoType":"FieldAttributesRadioDto","defaultValue":"","hideRadioButtons":false,"imageDimensions":"customDimensions","imageHeight":100,"imageLabelAlignment":"bottom","imageWidth":100,"lockImageRatio":true,"lockImageRatioOption":"fitProportionally","optionLayout":"vertical","optionPartToStore":"value","useImages":false,"useLabelsAndValues":false,"useOtherOption":true,"useRandomOption":false},"fields":null,"general":{"autofill":null,"columnSpan":"1","hidden":false,"hideLabel":false,"id":"55540899","internalLabel":null,"isRootSection":false,"label":"Delivery Preference:","language":"en","options":[{"label":"On-Site Pick Up","value":"On-Site Pick Up"},{"label":"Electronic","value":"Electronic"},{"label":"USPS First-Class Mail","value":"USPS First-Class Mail"}],"parentTableMetadata":null,"readOnly":false,"required":false,"searchConfig":{"canSearchOptions":false,"useRemoteSearch":false},"section":"55540593","shouldForceSkipValidation":false,"supportingText":null,"type":"radio","unique":false,"useCallout":false},"logic":null,"secureSettings":null},{"calculation":{"calculationAllowNegatives":"","calculationCategory":"text","calculationOperator":"","calculationUnits":"","fieldOneCalculation":0,"fieldTwoCalculation":0,"rules":[]},"defaultValue":{"dtoType":"DefaultValueDatetimeDto","useCurrentBrowserTime":false,"value":""},"fieldTypeAttributes":{"dtoType":"FieldAttributesDatetimeDto","calculationCategory":"text","calculationOperator":"","calculationUnits":"","dateFormat":"MMM dd, yyyy","dateViews":["month","day","year"],"defaultValue":{"ampm":"","datetime":"","day":"","default":"","hour":"","minute":"","month":"","second":"","year":""},"displayOption":"calendar","fieldOneCalculation":0,"fieldTwoCalculation":0,"isAmPm":false,"maxDate":"2026-10-05T23:59:59","minDate":"1996-10-05T00:00:00","timeFormat":"","timeSteps":{"hours":1,"minutes":1,"seconds":1},"timeViews":[],"yearMinus":30,"yearPlus":0},"fields":null,"general":{"autofill":null,"columnSpan":"1","hidden":false,"hideLabel":false,"id":"129123989","internalLabel":"from-date","isRootSection":false,"label":"Select the FROM timeframe date or SPECIFIC DATE for the record(s) sought.","language":"en","options":[],"parentTableMetadata":null,"readOnly":false,"required":true,"searchConfig":{"canSearchOptions":false,"useRemoteSearch":false},"section":"55540593","shouldForceSkipValidation":false,"supportingText":"FROM or SPECIFIC DATE","type":"datetime","unique":false,"useCallout":false},"logic":null,"secureSettings":null},{"calculation":{"calculationAllowNegatives":"","calculationCategory":"text","calculationOperator":"","calculationUnits":"","fieldOneCalculation":0,"fieldTwoCalculation":0,"rules":[]},"defaultValue":{"dtoType":"DefaultValueDatetimeDto","useCurrentBrowserTime":false,"value":""},"fieldTypeAttributes":{"dtoType":"FieldAttributesDatetimeDto","calculationCategory":"text","calculationOperator":"","calculationUnits":"","dateFormat":"MMM dd, yyyy","dateViews":["month","day","year"],"defaultValue":{"ampm":"","datetime":"","day":"","default":"","hour":"","minute":"","month":"","second":"","year":""},"displayOption":"calendar","fieldOneCalculation":0,"fieldTwoCalculation":0,"isAmPm":false,"maxDate":"2026-10-05T23:59:59","minDate":"2021-10-05T00:00:00","timeFormat":"","timeSteps":{"hours":1,"minutes":1,"seconds":1},"timeViews":[],"yearMinus":5,"yearPlus":0},"fields":null,"general":{"autofill":null,"columnSpan":"1","hidden":false,"hideLabel":false,"id":"129124171","internalLabel":"to-date","isRootSection":false,"label":"Select the TO timeframe date, if needed.","language":"en","options":[],"parentTableMetadata":null,"readOnly":false,"required":false,"searchConfig":{"canSearchOptions":false,"useRemoteSearch":false},"section":"55540593","shouldForceSkipValidation":false,"supportingText":"Timeframe TO","type":"datetime","unique":false,"useCallout":false},"logic":null,"secureSettings":null},{"calculation":null,"defaultValue":{"dtoType":"DefaultValueStringDto","confirmValue":"","value":""},"fieldTypeAttributes":{"dtoType":"FieldAttributesTextareaDto","columnCount":50,"defaultValue":"","maxLength":0,"minLength":0,"placeholderText":"","rowCount":10},"fields":null,"general":{"autofill":null,"columnSpan":"1","hidden":false,"hideLabel":false,"id":"55540917","internalLabel":null,"isRootSection":false,"label":"What type of record are you requesting? You may enter up to 7 sites in each individual request for records.","language":"en","options":[],"parentTableMetadata":null,"readOnly":false,"required":false,"searchConfig":{"canSearchOptions":false,"useRemoteSearch":false},"section":"55540593","shouldForceSkipValidation":false,"supportingText":null,"type":"textarea","unique":false,"useCallout":false},"logic":null,"secureSettings":null},{"calculation":{"calculationAllowNegatives":"","calculationCategory":"text","calculationOperator":"","calculationUnits":"","fieldOneCalculation":"","fieldTwoCalculation":"","rules":[]},"defaultValue":{"dtoType":"DefaultValueRadioDto","otherValue":"","value":""},"fieldTypeAttributes":{"dtoType":"FieldAttributesRadioDto","defaultValue":"","hideRadioButtons":false,"imageDimensions":"customDimensions","imageHeight":100,"imageLabelAlignment":"bottom","imageWidth":100,"lockImageRatio":true,"lockImageRatioOption":"fitProportionally","optionLayout":"vertical","optionPartToStore":"value","useImages":false,"useLabelsAndValues":false,"useOtherOption":false,"useRandomOption":false},"fields":null,"general":{"autofill":null,"columnSpan":"1","hidden":false,"hideLabel":false,"id":"129047702","internalLabel":null,"isRootSection":false,"label":"Environmental Site Assessment","language":"en","options":[{"label":"Yes","value":"Yes","imageUrl":null},{"label":"No","value":"No","imageUrl":null}],"parentTableMetadata":null,"readOnly":false,"required":false,"searchConfig":{"canSearchOptions":false,"useRemoteSearch":false},"section":"55540593","shouldForceSkipValidation":false,"supportingText":null,"type":"radio","unique":false,"useCallout":false},"logic":null,"secureSettings":null},{"calculation":null,"defaultValue":{"dtoType":"DefaultValueStringDto","confirmValue":"","value":""},"fieldTypeAttributes":{"dtoType":"FieldAttributesTextareaDto","columnCount":50,"defaultValue":"","maxLength":0,"minLength":0,"placeholderText":"City, County, West, Middle, East or ALL for Non-Specific Locations","rowCount":1},"fields":null,"general":{"autofill":null,"columnSpan":"1","hidden":false,"hideLabel":false,"id":"129047433","internalLabel":null,"isRootSection":false,"label":"Location (City)","language":"en","options":[],"parentTableMetadata":null,"readOnly":false,"required":true,"searchConfig":{"canSearchOptions":false,"useRemoteSearch":false},"section":"55540593","shouldForceSkipValidation":false,"supportingText":null,"type":"textarea","unique":false,"useCallout":false},"logic":null,"secureSettings":null},{"calculation":null,"defaultValue":{"dtoType":"DefaultValueStringDto","confirmValue":"","value":""},"fieldTypeAttributes":{"dtoType":"FieldAttributesTextareaDto","columnCount":50,"defaultValue":"","maxLength":0,"minLength":0,"placeholderText":"","rowCount":1},"fields":null,"general":{"autofill":null,"columnSpan":"1","hidden":false,"hideLabel":false,"id":"129047564","internalLabel":null,"isRootSection":false,"label":"Site ID","language":"en","options":[],"parentTableMetadata":null,"readOnly":false,"required":false,"searchConfig":{"canSearchOptions":false,"useRemoteSearch":false},"section":"55540593","shouldForceSkipValidation":false,"supportingText":null,"type":"textarea","unique":false,"useCallout":false},"logic":null,"secureSettings":null},{"calculation":null,"defaultValue":{"dtoType":"DefaultValueStringDto","confirmValue":"","value":""},"fieldTypeAttributes":{"dtoType":"FieldAttributesTextareaDto","columnCount":50,"defaultValue":"","maxLength":0,"minLength":0,"placeholderText":"","rowCount":10},"fields":null,"general":{"autofill":null,"columnSpan":"1","hidden":false,"hideLabel":false,"id":"129047476","internalLabel":null,"isRootSection":false,"label":"What subject matter or key words are related to the records being requested?","language":"en","options":[],"parentTableMetadata":null,"readOnly":false,"required":false,"searchConfig":{"canSearchOptions":false,"useRemoteSearch":false},"section":"55540593","shouldForceSkipValidation":false,"supportingText":null,"type":"textarea","unique":false,"useCallout":false},"logic":null,"secureSettings":null},{"calculation":{"calculationAllowNegatives":"","calculationCategory":"text","calculationOperator":"","calculationUnits":"","fieldOneCalculation":"","fieldTwoCalculation":"","rules":[]},"defaultValue":{"dtoType":"DefaultValueCheckboxDto","otherValue":null,"useOtherValue":false,"value":[]},"fieldTypeAttributes":{"dtoType":"FieldAttributesCheckboxDto","hideOptionButton":true,"imageDimensions":"customDimensions","imageHeight":100,"imageLabelAlignment":"bottom","imageWidth":100,"lockImageRatio":true,"lockImageRatioOption":"fitProportionally","optionLayout":"vertical","optionPartToStore":"value","useCheckAll":false,"useImages":false,"useLabelsAndValues":false,"useOtherOption":false,"useRandomOption":false},"fields":null,"general":{"autofill":null,"columnSpan":"1","hidden":false,"hideLabel":false,"id":"133850337","internalLabel":null,"isRootSection":false,"label":"Do you know what Division this needs to go to?","language":"en","options":[{"label":"Air Pollution Control;","value":"Air Pollution Control;","imageUrl":null},{"label":"Radiological Health","value":"Radiological Health","imageUrl":""},{"label":"Remediation;","value":"Remediation;","imageUrl":null},{"label":"Solid Waste Management;","value":"Solid Waste Management;","imageUrl":null},{"label":"Underground Storage Tanks;","value":"Underground Storage Tanks;","imageUrl":""},{"label":"Water Resources;","value":"Water Resources;","imageUrl":""},{"label":"I don't know;","value":"I don't know;","imageUrl":""}],"parentTableMetadata":null,"readOnly":false,"required":false,"searchConfig":{"canSearchOptions":false,"useRemoteSearch":false},"section":"55540593","shouldForceSkipValidation":false,"supportingText":null,"type":"checkbox","unique":false,"useCallout":false},"logic":null,"secureSettings":null},{"calculation":{"calculationAllowNegatives":"","calculationCategory":"text","calculationOperator":"","calculationUnits":"","fieldOneCalculation":"","fieldTwoCalculation":"","rules":[]},"defaultValue":{"dtoType":"DefaultValueStringDto","confirmValue":"","value":""},"fieldTypeAttributes":{"dtoType":"FieldAttributesSelectDto","defaultValue":"","optionCount":1,"optionLayout":"vertical","optionPartToStore":"value","useLabelsAndValues":false,"useOtherOption":false,"useRandomOption":false,"useSearchableOptions":null},"fields":null,"general":{"autofill":null,"columnSpan":"1","hidden":false,"hideLabel":false,"id":"62113101","internalLabel":null,"isRootSection":false,"label":"If site specific, choose the county.","language":"en","options":[{"label":"","value":""},{"label":"Anderson County","value":"Anderson County","imageUrl":null},{"label":"Bedford County","value":"Bedford County","imageUrl":null},{"label":"Benton County","value":"Benton County","imageUrl":null},{"label":"Bledsoe County","value":"Bledsoe County","imageUrl":null},{"label":"Blount County","value":"Blount County","imageUrl":null},{"label":"Bradley County","value":"Bradley County","imageUrl":null},{"label":"Campbell County","value":"Campbell County","imageUrl":null},{"label":"Cannon County","value":"Cannon County","imageUrl":null},{"label":"Carroll County","value":"Carroll County","imageUrl":null},{"label":"Carter County","value":"Carter County","imageUrl":null},{"label":"Cheatham County","value":"Cheatham County","imageUrl":null},{"label":"Chester County","value":"Chester County","imageUrl":null},{"label":"Claiborne County","value":"Claiborne County","imageUrl":null},{"label":"Clay County","value":"Clay County","imageUrl":null},{"label":"Cocke County","value":"Cocke County","imageUrl":null},{"label":"Coffee County","value":"Coffee County","imageUrl":null},{"label":"Crockett County","value":"Crockett County","imageUrl":null},{"label":"Cumberland County","value":"Cumberland County","imageUrl":null},{"label":"Davidson County","value":"Davidson County","imageUrl":null},{"label":"Decatur County","value":"Decatur County","imageUrl":null},{"label":"DeKalb County","value":"DeKalb County","imageUrl":null},{"label":"Dickson County","value":"Dickson County","imageUrl":null},{"label":"Dyer County","value":"Dyer County","imageUrl":null},{"label":"Fayette County","value":"Fayette County","imageUrl":null},{"label":"Fentress County","value":"Fentress County","imageUrl":null},{"label":"Franklin County","value":"Franklin County","imageUrl":null},{"label":"Gibson County","value":"Gibson County","imageUrl":null},{"label":"Giles County","value":"Giles County","imageUrl":null},{"label":"Grainger County","value":"Grainger County","imageUrl":null},{"label":"Greene County","value":"Greene County","imageUrl":null},{"label":"Grundy County","value":"Grundy County","imageUrl":null},{"label":"Hamblen County","value":"Hamblen County","imageUrl":null},{"label":"Hamilton County","value":"Hamilton County","imageUrl":null},{"label":"Hancock County","value":"Hancock County","imageUrl":null},{"label":"Hardeman County","value":"Hardeman County","imageUrl":null},{"label":"Hardin County","value":"Hardin County","imageUrl":null},{"label":"Hawkins County","value":"Hawkins County","imageUrl":null},{"label":"Haywood County","value":"Haywood County","imageUrl":null},{"label":"Henderson County","value":"Henderson County","imageUrl":null},{"label":"Henry County","value":"Henry County","imageUrl":null},{"label":"Hickman County","value":"Hickman County","imageUrl":null},{"label":"Houston County","value":"Houston County","imageUrl":null},{"label":"Humphreys County","value":"Humphreys County","imageUrl":null},{"label":"Jackson County","value":"Jackson County","imageUrl":null},{"label":"Jefferson County","value":"Jefferson County","imageUrl":null},{"label":"Johnson County","value":"Johnson County","imageUrl":null},{"label":"Knox County","value":"Knox County","imageUrl":null},{"label":"Lake County","value":"Lake County","imageUrl":null},{"label":"Lauderdale County","value":"Lauderdale County","imageUrl":null},{"label":"Lawrence County","value":"Lawrence County","imageUrl":null},{"label":"Lewis County","value":"Lewis County","imageUrl":null},{"label":"Lincoln County","value":"Lincoln County","imageUrl":null},{"label":"Loudon County","value":"Loudon County","imageUrl":null},{"label":"Macon County","value":"Macon County","imageUrl":null},{"label":"Madison County","value":"Madison County","imageUrl":null},{"label":"Marion County","value":"Marion County","imageUrl":null},{"label":"Marshall County","value":"Marshall County","imageUrl":null},{"label":"Maury County","value":"Maury County","imageUrl":null},{"label":"McMinn County","value":"McMinn County","imageUrl":null},{"label":"McNairy County","value":"McNairy County","imageUrl":null},{"label":"Meigs County","value":"Meigs County","imageUrl":null},{"label":"Monroe County","value":"Monroe County","imageUrl":null},{"label":"Montgomery County","value":"Montgomery County","imageUrl":null},{"label":"Moore County","value":"Moore County","imageUrl":null},{"label":"Morgan County","value":"Morgan County","imageUrl":null},{"label":"Obion County","value":"Obion County","imageUrl":null},{"label":"Overton County","value":"Overton County","imageUrl":null},{"label":"Perry County","value":"Perry County","imageUrl":null},{"label":"Pickett County","value":"Pickett County","imageUrl":null},{"label":"Polk County","value":"Polk County","imageUrl":null},{"label":"Putnam County","value":"Putnam County","imageUrl":null},{"label":"Rhea County","value":"Rhea County","imageUrl":null},{"label":"Roane County","value":"Roane County","imageUrl":null},{"label":"Robertson County","value":"Robertson County","imageUrl":null},{"label":"Rutherford County","value":"Rutherford County","imageUrl":null},{"label":"Scott County","value":"Scott County","imageUrl":null},{"label":"Sequatchie County","value":"Sequatchie County","imageUrl":null},{"label":"Sevier County","value":"Sevier County","imageUrl":null},{"label":"Shelby County","value":"Shelby County","imageUrl":null},{"label":"Smith County","value":"Smith County","imageUrl":null},{"label":"Stewart County","value":"Stewart County","imageUrl":null},{"label":"Sullivan County","value":"Sullivan County","imageUrl":null},{"label":"Sumner County","value":"Sumner County","imageUrl":null},{"label":"Tipton County","value":"Tipton County","imageUrl":null},{"label":"Trousdale County","value":"Trousdale County","imageUrl":null},{"label":"Unicoi County","value":"Unicoi County","imageUrl":null},{"label":"Union County","value":"Union County","imageUrl":null},{"label":"Van Buren County","value":"Van Buren County","imageUrl":null},{"label":"Warren County","value":"Warren County","imageUrl":null},{"label":"Washington County","value":"Washington County","imageUrl":null},{"label":"Wayne County","value":"Wayne County","imageUrl":null},{"label":"Weakley County","value":"Weakley County","imageUrl":null},{"label":"White County","value":"White County","imageUrl":null},{"label":"Williamson County","value":"Williamson County","imageUrl":null},{"label":"Wilson County","value":"Wilson County","imageUrl":""}],"parentTableMetadata":null,"readOnly":false,"required":true,"searchConfig":{"canSearchOptions":false,"useRemoteSearch":false},"section":"55540593","shouldForceSkipValidation":false,"supportingText":null,"type":"select","unique":false,"useCallout":false},"logic":null,"secureSettings":null},{"calculation":null,"defaultValue":{"dtoType":"DefaultValueFileDto","files":[],"value":""},"fieldTypeAttributes":{"dtoType":"FieldAttributesFileDto","allowMultipleFiles":false,"fileLimit":1,"formDataKey":"field66357214-upload[]","maxFileSizeBytes":10485760,"maxFileSizeLabel":"10 MB","minFileSizeBytes":1,"minFileSizeLabel":"0 MB","shouldUseAsyncUploads":true,"type":"jpg,jpeg,gif,png,bmp,tif,psd,pdf,doc,docx,xls,xlsx,txt,mp3,mp4,aac,wav,au,wmv,avi,mpg,mpeg,zip,gz,rar,z,tgz,tar,sitx"},"fields":null,"general":{"autofill":null,"columnSpan":"1","hidden":false,"hideLabel":false,"id":"66357214","internalLabel":null,"isRootSection":false,"label":"If needed, upload any supporting documents or maps. ","language":"en","options":[],"parentTableMetadata":null,"readOnly":false,"required":false,"searchConfig":{"canSearchOptions":false,"useRemoteSearch":false},"section":"55540593","shouldForceSkipValidation":false,"supportingText":null,"type":"file","unique":false,"useCallout":false},"logic":null,"secureSettings":null},{"calculation":null,"defaultValue":{"dtoType":"DefaultValueStringDto","confirmValue":"","value":""},"fieldTypeAttributes":{"dtoType":"FieldAttributesSignatureDto","allowTypedSignature":true},"fields":null,"general":{"autofill":null,"columnSpan":"1","hidden":false,"hideLabel":false,"id":"55540941","internalLabel":null,"isRootSection":false,"label":"Signature of Requestor","language":"en","options":[],"parentTableMetadata":null,"readOnly":false,"required":false,"searchConfig":{"canSearchOptions":false,"useRemoteSearch":false},"section":"55540593","shouldForceSkipValidation":false,"supportingText":"Use your mouse or finger to draw your signature above","type":"signature","unique":false,"useCallout":false},"logic":null,"secureSettings":null},{"calculation":{"calculationAllowNegatives":"","calculationCategory":"text","calculationOperator":"","calculationUnits":"","fieldOneCalculation":0,"fieldTwoCalculation":0,"rules":[]},"defaultValue":{"dtoType":"DefaultValueDatetimeDto","useCurrentBrowserTime":true,"value":"2026-10-05 13:38:06"},"fieldTypeAttributes":{"dtoType":"FieldAttributesDatetimeDto","calculationCategory":"text","calculationOperator":"","calculationUnits":"","dateFormat":"MMM dd, yyyy","dateViews":["month","day","year"],"defaultValue":{"ampm":"","datetime":"","day":"","default":"NOW","hour":"","minute":"","month":"","second":"","year":""},"displayOption":"calendar","fieldOneCalculation":0,"fieldTwoCalculation":0,"isAmPm":true,"maxDate":"2031-10-05T23:59:59","minDate":"2026-10-05T00:00:00","timeFormat":"hh:mm aaa","timeSteps":{"hours":1,"minutes":1,"seconds":1},"timeViews":["hours","minutes"],"yearMinus":0,"yearPlus":5},"fields":null,"general":{"autofill":null,"columnSpan":"1","hidden":false,"hideLabel":false,"id":"55540960","internalLabel":"date-time","isRootSection":false,"label":"Date\/Time","language":"en","options":[],"parentTableMetadata":null,"readOnly":false,"required":false,"searchConfig":{"canSearchOptions":false,"useRemoteSearch":false},"section":"55540593","shouldForceSkipValidation":false,"supportingText":null,"type":"datetime","unique":false,"useCallout":false},"logic":null,"secureSettings":null},{"calculation":null,"defaultValue":null,"fieldTypeAttributes":{"dtoType":"FieldAttributesEmbedRichTextDto","content":"<p style=\"text-align: center;\"><span style=\"color: rgb(184, 49, 47); font-size: 18px;\">Please allow up to 7 business days to receive a reply. Duplicate requests will only delay the process.<\/span><\/p>","shouldProcessSubstitutionTokens":false},"fields":null,"general":{"autofill":null,"columnSpan":"1","hidden":false,"hideLabel":false,"id":"134185634","internalLabel":null,"isRootSection":false,"label":"","language":"en","options":[],"parentTableMetadata":null,"readOnly":false,"required":false,"searchConfig":{"canSearchOptions":false,"useRemoteSearch":false},"section":"55540593","shouldForceSkipValidation":false,"supportingText":null,"type":"richtext","unique":false,"useCallout":false},"logic":null,"secureSettings":null}],"general":{"autofill":null,"columnSpan":"1","hidden":false,"hideLabel":false,"id":"55540593","internalLabel":null,"isRootSection":false,"label":"","language":"en","options":[],"parentTableMetadata":null,"readOnly":false,"required":false,"searchConfig":{"canSearchOptions":false,"useRemoteSearch":false},"section":"","shouldForceSkipValidation":false,"supportingText":null,"type":"section","unique":false,"useCallout":false},"logic":null,"secureSettings":null}],"shouldDisableSubmission":null,"submitUrl":"https:\/\/stateoftennessee.formstack.com\/forms\/index.php","theme":{"backgroundImage":"","backgroundImageRepeat":"repeat","bodyBgColor":"#F7F8F8","buttonBgColor":"#1b365d","buttonBorder":"0px","buttonBorderColor":"transparent","buttonColor":"#ffffff","buttonFontSize":"13px","buttonFontStyle":"semi-bold","buttonFontVariant":"","buttonFontWeight":"400","buttonPaddingLeftRight":"25px","buttonPaddingTopBottom":"15px","buttonRoundedCorners":"3px","colorMain":"#414141","customCss":"html, body#fsbody {\r\n  max-width: 100%;\r\n  margin: 0 !important;\r\n  padding: 0 !important;\r\n  display: flex;\r\n  flex-direction: column;\r\n  height: 100%;\r\n}\r\n\r\nhtml[data-font-size=\"normal\"]{zoom: normal;}\r\nhtml[data-font-size=\"small\"]{zoom: 75%}\r\nhtml[data-font-size=\"large\"]{zoom: 1.2;}\r\n\r\n@-moz-document url-prefix() {\r\n \r\n#fsform-container[data-font-size=\"normal\"]{font-size-adjust: initial;}\r\n#fsform-container[data-font-size=\"small\"]{font-size-adjust: 0.3;}\r\n#fsform-container[data-font-size=\"large\"]{font-size-adjust: 1;}\r\n\r\ndiv[id^='fsForm-'].fsBody[data-font-size=\"normal\"]{font-size-adjust: initial;}\r\ndiv[id^='fsForm-'].fsBody[data-font-size=\"small\"]{font-size-adjust: 0.35;}\r\ndiv[id^='fsForm-'].fsBody[data-font-size=\"large\"]{font-size-adjust: 1;}\r\n\r\ndiv[id^='fsForm-'].fsBody[data-font-size=\"normal\"] button {font-size-adjust: initial;}\r\ndiv[id^='fsForm-'].fsBody[data-font-size=\"small\"] button {font-size-adjust: 0.35;}\r\ndiv[id^='fsForm-'].fsBody[data-font-size=\"large\"] button {font-size-adjust: 1;} \r\n    \r\n}\r\n\r\nbody#fsbody {\r\n  font-family: 'Open Sans', sans-serif;\r\n  letter-spacing: -0.025rem;\r\n  color: #131e29;\r\n  background: #f9f9f9 url(\"https:\/\/www.tn.gov\/etc\/clientlibs\/tncore\/main\/img\/star-ball-bg.png\") no-repeat 101% 75px;\r\n  background-attachment: fixed;\r\n}\r\nbody#fsbody .row {\r\n  max-width: 1100px;\r\n  width: auto;\r\n  margin: 0 auto;\r\n}\r\n\r\n #fs-header .tn-header{\r\n  font-family: 'Open Sans', sans-serif;\r\n  letter-spacing: -0.025rem;\r\n  color: white;\r\n  background: #1b365d;\r\n  position: relative;\r\n  z-index: 2000;\r\n  background-color: #445c7c;\r\n}\r\n\r\n #fs-header .tnfs-header {\r\n  font-family: 'Open Sans', sans-serif;\r\n  letter-spacing: -0.025rem;\r\n  color: white;\r\n  background: #445c7c;\r\n  position: relative;\r\n  z-index: 2000;\r\n}\r\n#fs-header .tnfs-header  a{\r\n  text-decoration: none;\r\n}\r\n#fs-header .tnfs-header  a:link,\r\n#fs-header .tnfs-header  a:visited{\r\n  color: white;\r\n}\r\n#fs-header .tnfs-header  a[data-logo] {\r\n  overflow: hidden;\r\n}\r\n#fs-header .tnfs-header  a[data-logo] img {\r\n  display: none;\r\n}\r\n#fs-header .tnfs-header  a[data-logo] span,\r\n#fs-header .tnfs-header  a[data-logo] small{\r\n  display: none;\r\n}\r\n#fs-header .tnfs-header  a[data-logo] .active-svg img {\r\n  display: block;\r\n}\r\n#fs-header .tnfs-header  a[data-logo] .active-text span,\r\n#fs-header .tnfs-header  a[data-logo] .active-text small {\r\n  display: block;\r\n}\r\n#fs-header .tnfs-header  .top-nav{\r\n  position: relative;\r\n}\r\n#fs-header .tnfs-header  .top-nav a.logo {\r\n  background-repeat: no-repeat;\r\n  background-position: 50% bottom;\r\n  background-size: 100% !important;\r\n  width: 80px;\r\n  height: 90px;\r\n  margin-left: 15px;\r\n  z-index: 500;\r\n  position: absolute;\r\n  top: 10px;\r\n  left: 0;\r\n  display: block;\r\n}\r\n#fs-header .tnfs-header  .top-nav a.logo.tn-logo {\r\n  background-image: url(\"https:\/\/www.tn.gov\/etc\/clientlibs\/tncore\/main\/img\/logos\/tn-logo.svg\");\r\n}\r\n#fs-header .tnfs-header  .top-nav a.logo.star-logo {\r\n  background-image: url(\"https:\/\/www.tn.gov\/etc\/clientlibs\/tncore\/main\/css\/img\/logos\/star-logo.svg\");\r\n}\r\n#fs-header .tnfs-header  .top-nav a.logo.tbi-logo {\r\n  background-image: url(\"https:\/\/www.tn.gov\/etc\/clientlibs\/tncore\/main\/css\/img\/logos\/tbi.png\");\r\n}\r\n#fs-header .tnfs-header  .top-nav a.logo.no-logo {\r\n  width: 0px;\r\n  padding: 0;\r\n  margin: 0;\r\n}\r\n#fs-header .tnfs-header  .top-nav a.logo div {\r\n  text-indent: -9999px;\r\n}\r\n#fs-header .tnfs-header  .top-nav a.search-all {\r\n  font-size: 0.875rem;\r\n  color: white;\r\n  opacity: 0.6;\r\n  filter: alpha(opacity=60);\r\n  letter-spacing: -0.05rem;\r\n  position: absolute;\r\n  z-index: 500;\r\n  top: 0;\r\n  right: 0;\r\n  margin-right: 1.5625rem;\r\n  padding: 10px 0;\r\n  margin-top: 5px;\r\n  display: inline-block;\r\n}\r\n#fs-header .tnfs-header  .top-nav a.search-all:hover {\r\n  color: white;\r\n  opacity: 1;\r\n  filter: alpha(opacity=100);\r\n}\r\n#fs-header .tnfs-header .top-nav a.search-all:before {\r\n  color: white;\r\n}\r\n#fs-header .tnfs-header .backdrop,\r\n#fs-header .tnfs-header .backdrop-color {\r\n  width: 100%;\r\n  height: 100%;\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  z-index: 1;\r\n  background-size: cover;\r\n  background-repeat: no-repeat;\r\n  background-position: 50% top;\r\n}\r\n #fs-header .tnfs-header .backdrop-color {\r\n  opacity: 0.5;\r\n}\r\n #fs-header .tnfs-header .backdrop {\r\n  opacity: 0.15;\r\n  -ms-filter: \"progid:DXImageTransform.Microsoft.Alpha(Opacity=15)\";\r\n  filter: alpha(opacity=15);\r\n  -webkit-filter: grayscale(1);\r\n  -webkit-filter: grayscale(100%);\r\n  -moz-filter: grayscale(100%);\r\n  filter: gray;\r\n  filter: url(\"data:image\/svg+xml;utf8,<svg version='1.1' xmlns='http:\/\/www.w3.org\/2000\/svg' height='0'><filter id='greyscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0' \/><\/filter><\/svg>#greyscale\");\r\n  filter: grayscale(100%);\r\n}\r\n #fs-header .tnfs-header .state-of-tn,\r\n#fs-header .tnfs-header .agency {\r\n  position: relative;\r\n  z-index: 5;\r\n}\r\n#fs-header .tnfs-header .state-of-tn {\r\n  color: #cdd1d3;\r\n  height: 135px;\r\n  background: url(\"https:\/\/www.tn.gov\/etc\/clientlibs\/tncore\/main\/img\/gradient-top.png\") repeat-x;\r\n  overflow: hidden;\r\n}\r\n#fs-header .tnfs-header .state-of-tn .title {\r\n  font-size: 1.175rem;\r\n  letter-spacing: -0.025rem;\r\n  padding: 15px 15px 15px 65px;\r\n  background: url(\"https:\/\/www.tn.gov\/etc\/clientlibs\/tncore\/main\/css\/img\/header\/tngov-logo.png\") no-repeat left top;\r\n  display: inline-block;\r\n}\r\n\r\n #fs-header .tnfs-header .agency {\r\n  padding-top: 20px;\r\n}\r\n #fs-header .tnfs-header .agency .title {\r\n  padding-left: 105px;\r\n  letter-spacing: -0.05rem;\r\n}\r\n #fs-header .tnfs-header .agency .title img {\r\n  max-width: 300px;\r\n}\r\n #fs-header .tnfs-header .agency .title small {\r\n  font-family: 'Permian Slab', serif;\r\n  font-size: 1.125rem;\r\n  display: block;\r\n  padding-left: 3px;\r\n  letter-spacing: -0.05rem;\r\n  margin-top: 20px;\r\n}\r\n#fs-header .tnfs-header  .agency .title span {\r\n  font-size: 2.5rem;\r\n  letter-spacing: -0.075rem;\r\n  margin-bottom: 10px;\r\n  display: inline-block;\r\n  line-height: 0.8em;\r\n  font-weight: 300;\r\n}\r\n@media only screen and (min-width: 40em) {\r\n  #fs-header .tnfs-header  {\r\n    min-height: 115px;\r\n  }\r\n  #fs-header .tnfs-header  .title img {\r\n    margin-top: 10px;\r\n    max-height: 75px;\r\n  }\r\n}\r\n@media only screen and (max-width: 40em) {\r\n  #fs-header .tnfs-header  {\r\n    min-height: 0;\r\n  }\r\n  #fs-header .tnfs-header  .columns {\r\n    padding-left: 1rem;\r\n    padding-right: 1rem;\r\n  }\r\n  #fs-header .tnfs-header  .state-of-tn {\r\n    height: 65px;\r\n    background-position: left bottom;\r\n  }\r\n  #fs-header .tnfs-header  .state-of-tn .title{\r\n    text-indent: -9999px;\r\n  }\r\n  #fs-header .tnfs-header  .top-nav a.logo {\r\n    width: 60px;\r\n    height: 70px;\r\n    margin-left: 1rem;\r\n  }\r\n  #fs-header .tnfs-header  .top-nav a.search-all {\r\n    margin: 0 1em 0 0;\r\n    padding: 5px 0;\r\n    font-size: 0.675rem;\r\n  }\r\n  #fs-header .tnfs-header  .agency {\r\n    padding-top: 12px;\r\n  }\r\n  #fs-header .tnfs-header  .agency .title {\r\n    padding-left: 85px;\r\n    min-height: 69px;\r\n  }\r\n  #fs-header .tnfs-header  .agency .title img {\r\n    max-width: 100%;\r\n  }\r\n  #fs-header .tnfs-header  .agency .title span {\r\n    margin-bottom: 0;\r\n    font-size: 1.6rem;\r\n  }\r\n  #fs-header .tnfs-header  .agency .title small {\r\n    padding-left: 0;\r\n  }\r\n}\r\n\r\n.tnfs-topnav #fs-nav a {\r\n  text-decoration: none;\r\n}\r\n.tnfs-topnav #fs-nav .logo-small a,\r\n.tn-topnav .nav-items,\r\n.tnfs-topnav #fs-nav li {\r\n  transition: all 0.2s ease;\r\n  -webkit-transition: all 0.2s ease;\r\n  -moz-transition: all 0.2s ease;\r\n  -o-transition: all 0.2s ease;\r\n}\r\n.tnfs-topnav #fs-nav {\r\n  background: white;\r\n  border-bottom: 2px #eee solid;\r\n  position: relative;\r\n  z-index: 9500;\r\n  min-height: 35px;\r\n}\r\n@media only screen and (min-width: 40em) {\r\n  .tnfs-topnav #fs-nav {\r\n    position: relative;\r\n    z-index: 1000;\r\n  }\r\n}\r\n@media only screen and (max-width: 40em) {\r\n  .tnfs-topnav #fs-nav:not(.fixed) {\r\n    z-index: 1000;\r\n  }\r\n}\r\n\r\n\r\ndiv[id^='fsForm-'].fsBody {\r\n  max-width: 100%;\r\n  position: relative;\r\n  flex: 1 0 auto;\r\n}\r\n\r\nhtml:not(.aem-AuthorLayer-Edit):not(.aem-AuthorLayer-Preview) div[id^='fsForm-'].fsBody {\r\n    min-height: calc( -250px + 100vh);\r\n}\r\n\r\n@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {\r\n  html:not(.tn-html) {\r\n    min-height: 100%;\r\n  }\r\n  body.fsbody {\r\n    min-height: 100vh;\r\n    display: flex;\r\n    flex-direction: column;\r\n    margin: 0;\r\n  }\r\n  html:not(.tn-html) div[id^='fsForm-'].fsBody {\r\n    flex: 1 0 0;\r\n  }\r\n}\r\n\r\n\/* to stop the form from an inner scroll *\/\r\n\r\n.fsBody{\r\n    \/*background: #f9f9f9 url(\"https:\/\/www.tn.gov\/etc\/clientlibs\/tncore\/main\/img\/star-ball-bg.png\") no-repeat 101% 75px;*\/\r\n \/* background-attachment: fixed;*\/\r\n background-color: transparent;\r\n    height: auto;\r\n    min-height:auto;\r\n    overflow: visible;\r\n}\r\n\/*--*\/\r\n[data-testid=\"welcome-message-container\"]{\r\n    overflow: visible; \r\n}\r\n\r\n[class*=\"InnerFormBody\"], \r\n[data-testid=\"survey-header\"],\r\n[class*=\"StyledSurveyQuestion\"]{\r\n    background-color: transparent;\r\n}\r\n\r\n.fsForm{\r\n    background-color: transparent;\r\n}\r\n\r\n.fsborderradius .fsBody .fsSectionHeader {\r\n  margin: 10px;\r\n}\r\n\r\n.fsborderradius .fsBody .fsForm, .fsborderradius .fsBody .fsSectionHeader {\r\n  border-radius: 4px;\r\n  -moz-border-radius: 4px;\r\n  -webkit-border-radius: 4px;\r\n}\r\n.fsBody .fsSectionHeader {\r\n  padding: 20px 15px 15px;\r\n  background-color: #ccc;\r\n  clear: left;\r\n}\r\n.fsBody .fsSectionHeader h2, .fsSectionText  {\r\n    color: #000;\r\n}\r\n.fsSupporting {\r\n   color: #949494 !important;\r\n}\r\n\r\n.fsSubmitButton {\r\n    background: #1b365d;\r\n    font-size: 1rem;\r\n}\r\n\r\ndiv[id^='fsForm-'].fsBody form  {\r\n    width: 100%;\r\n    max-width: 1100px;\r\n}\r\ndiv[id^='fsForm-'].fsBody textarea[readonly=\"\"]{\r\n    color: #000 !important;\r\n}\r\ndiv[id^='fsForm-'].fsBody form input, \r\ndiv[id^='fsForm-'].fsBody form input::before, \r\ndiv[id^='fsForm-'].fsBody form .fsSubFieldGroup label,\r\ndiv[id^='fsForm-'].fsBody form select,\r\ndiv[id^='fsForm-'].fsBody form input.MuiOutlinedInput-input{\r\n    border-color: #949494 !important;\r\n}\r\n\r\ndiv[id^='fsForm-'].fsBody form .fsFieldZip {\r\n    margin-top: 8px;\r\n    flex-basis: 40%;\r\n}\r\n.fsRequiredMarker{\r\n    color: #D63246; \/*#780000;*\/\r\n    padding-left: 2px;\r\n}\r\n\r\n.fsSubField label,\r\n.fsSupporting,\r\nbutton[class^='StyledSignatureClearButton-'] {\r\n    color: #65707B !important;\r\n}\r\n\r\n\r\n@media (max-width: 40em), not all, (device-height: 1024px) and (device-width: 768px) and (orientation: landscape) {\r\n  .fsSubField  {\r\n    width: 100%;\r\n    flex-basis: auto !important;\r\n    padding-right: 0px;\r\n    padding-left: 0px;\r\n  }\r\n   .cXSsCi {\r\n        display: block;\r\n    }\r\n}\r\n\r\n\r\n.tnfs-footer .col-lg-6,\r\n.tnfs-footer .col-sm-6, \r\n.tnfs-footer .col-md-6 {\r\n  position: relative;\r\n  min-height: 1px;\r\n  padding-right: 15px;\r\n  padding-left: 15px;\r\n    width: 50%;\r\n    float: left;\r\n}\r\n\r\n.tnfs-footer  #footer .text-right {\r\n  text-align: right;\r\n}\r\n\r\n\r\n.tnfs-footer #footer {\r\n  clear: both !important;\r\n}\r\n.tnfs-footer #footer #footer-bottom {\r\n  font-size: 0.75rem;\r\n  background: #1b365d;\r\n  letter-spacing: -0.05rem;\r\n  position: relative;\r\n  min-height: 50px;\r\n  z-index: 1400;\r\n}\r\n.tnfs-footer #footer #footer-bottom * {\r\n  color: white;\r\n}\r\n.tnfs-footer #footer #footer-bottom a {\r\n  font-size: 0.825rem;\r\n  display: inline-block;\r\n  \/*padding: 15px 5px;*\/\r\n  font-family: 'Open Sans', sans-serif;\r\n  letter-spacing: -0.025rem;\r\n  text-decoration: none;\r\n}\r\n.tnfs-footer #footer #footer-bottom a:hover {\r\n  color: #ffa799;\r\n}\r\n.tnfs-footer #footer #footer-bottom .customer-service {\r\n  display: block;\r\n  margin: -30px 0;\r\n  border: 0;\r\n}\r\n.tnfs-footer #footer #footer-top {\r\n  background: white;\r\n  color: #131e29;\r\n  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);\r\n  position: relative;\r\n  z-index: 1500;\r\n  min-height: 50px;\r\n}\r\n.tnfs-footer #footer #footer-top .columns > ul > li {\r\n  margin: 0 15px;\r\n}\r\n.tnfs-footer #footer #footer-top .columns > ul > li:first-child {\r\n  margin-left: 0;\r\n}\r\n.tnfs-footer #footer #footer-top .columns > ul > li:last-child {\r\n  margin-right: 0;\r\n}\r\n.tnfs-footer #footer #footer-top .columns > ul > li > a {\r\n  text-decoration: none;\r\n  font-size: 1rem;\r\n  font-weight: 600;\r\n  letter-spacing: -0.05em;\r\n  display: inline-block;\r\n  padding: 17px 0 15px;\r\n  color: #414042;\r\n  margin-top: -5px;\r\n}\r\n.tnfs-footer #footer #footer-top .columns > ul > li > a span.material-icons{\r\n font-size: 1.2rem;\r\n}\r\n.tnfs-footer #footer #footer-top .columns > ul > li:hover > a,\r\n.tnfs-footer #footer #footer-top .columns > ul > li.active > a,\r\n.tnfs-footer #footer #footer-top .columns > ul > li:hover span.status,\r\n.tnfs-footer #footer #footer-top .columns > ul > li.active span.status {\r\n  color: #a7a9ac;\r\n}\r\n.tnfs-footer #footer #footer-top a span.status {\r\n  font-family: 'Permian Slab', serif;\r\n  letter-spacing: -0.075em;\r\n  color: #3d3e40;\r\n}\r\n.tnfs-footer #footer #footer-top select {\r\n  display: block;\r\n}\r\n.tnfs-footer #fs-footer #fs-footer-top a:before {\r\n  color: #a7a9ac;\r\n  margin-left: 0;\r\n}\r\n.tnfs-footer #footer #footer-top .starball {\r\n  width: 70px;\r\n  height: 70px;\r\n  position: absolute;\r\n  left: 50%;\r\n  margin-left: -35px;\r\n  bottom: -30px;\r\n}\r\n.tnfs-footer #footer #footer-top li {\r\n  position: relative;\r\n}\r\n\r\n\r\n.tnfs-footer  #footer #footer-top ul.inline-list {\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n.tnfs-footer  #footer #footer-top ul.inline-list li {\r\n  list-style: none;\r\n  margin: 0;\r\n  padding: 10px;\r\n  padding-top: 0 !important;\r\n  display: inline-block;\r\n}\r\n\r\n.tnfs-footer  #footer #footer-top ul.inline-list li:before {\r\n  content: '';\r\n  display: none;\r\n}\r\n\r\n.tnfs-footer #footer #footer-top li#footer-translate .drop {\r\n        min-width: 175px;\r\n    }\r\n.tnfs-footer #footer #footer-top li#footer-translate .drop .skiptranslate select {\r\n        margin: 0 0 5px;\r\n    }\r\n.tnfs-footer #footer #footer-top li#footer-translate .drop .skiptranslate a {\r\n        font-size: 0.75rem;\r\n        padding: 0;\r\n    }\r\n\r\n.tnfs-footer #footer #footer-top li .drop {\r\n  display: none;\r\n  position: absolute;\r\n  bottom: 0;\r\n  left: 0;\r\n  min-width: 150px;\r\n  margin-bottom: 52px;\r\n  text-align: center;\r\n}\r\n.tnfs-footer #footer #footer-top li .drop .box {\r\n  padding: 15px;\r\n  text-align: left;\r\n  margin: 0 0 12px 0;\r\n  height: 100%;\r\n  overflow: hidden;\r\n  box-sizing: border-box;\r\n  background: white !important;\r\n  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);\r\n}\r\n.tnfs-footer footer#footer #footer-top li .drop .box:after {\r\n  content: '';\r\n  position: absolute;\r\n  border-style: solid;\r\n  border-width: 10px 10px 0;\r\n  border-color: #FFFFFF transparent;\r\n  display: block;\r\n  width: 0;\r\n  z-index: 1;\r\n  bottom: 2px;\r\n  left: 50%;\r\n  margin-left: -5px;\r\n}\r\n.tnfs-footer footer#footer #footer-top li .drop .box .button[data-font-size=\"small\"], \r\n.tnfs-footer footer#footer #footer-top li .drop .box .button[data-font-size=\"large\"],\r\n.tnfs-footer footer#footer #footer-top li .drop .box .button[data-font-size=\"normal\"]{\r\n    margin-bottom: 3px;\r\n  border: 0;\r\n  cursor: pointer;\r\n  font-family: 'Open Sans', sans-serif;\r\n  font-size: 1rem;\r\n  font-weight: bold;\r\n  text-align: center;\r\n  text-decoration: none !important;\r\n  letter-spacing: -0.05rem;\r\n  background: #1b365d;\r\n  padding: 8px 12px;\r\n  display: inline-block;\r\n  border-radius: 2px;\r\n  color: white;\r\n}\r\n\r\n.tnfs-footer footer#footer #footer-top li .drop .box .button[data-font-size=\"normal\"] {\r\n    background: #a7190c;\r\n}\r\n\r\n.tnfs-footer#footer-top li .drop.right {\r\n  right: 0;\r\n  left: auto;\r\n  \r\n}\r\n\r\n#footer-fontsize-fs .box ul.inline-list li {\r\n    padding-right: 0px !important;\r\n    padding-left: 0px !important;\r\n    padding-bottom: 0px !important;\r\n}\r\n.tnfs-footer#footer-top li .drop.right:after {\r\n  right: 25px;\r\n  left: auto;\r\n}\r\n.tnfs-footer #footer-top li.active .drop {\r\n  display: block;\r\n}\r\n\r\n\r\n.tnfs-footer  #footer #footer-top li#footer-fontsize-fs .drop {\r\n  min-width: 200px;\r\n}\r\n.tnfs-footer  #footer #footer-top li#footer-fontsize-fs .drop .box {\r\n  text-align: center;\r\n}\r\n.tnfs-footer  #footer #footer-top li#footer-fontsize-fs .drop a.button {\r\n  font-size: 15px;\r\n}\r\n\r\n\r\n@media only screen and (max-width: 40em) {\r\n  .tnfs-footer #footer .columns > ul > li > a {\r\n    padding: 2px 5px;\r\n  }\r\n  .tnfs-footer #footer .customer-service {\r\n    margin: -28px 0 -5px 0;\r\n  }\r\n  .tnfs-footer #footer #footer-top {\r\n    padding: 10px 0 30px;\r\n  }\r\n  .tnfs-footer #footer #footer-top .columns > ul > li > a {\r\n    padding: 10px 0 5px;\r\n  }\r\n  .tnfs-footer #footer #footer-top .starball {\r\n    width: 40px;\r\n    height: 40px;\r\n    margin-left: -20px;\r\n    bottom: -10px;\r\n  }\r\n  .tnfs-footer #footer #footer-top.overlay-active {\r\n    background: #d1d3d4;\r\n  }\r\n  .tnfs-footer #fs-footer #fs-footer-top li .drop {\r\n    margin-bottom: 27px !important;\r\n  }\r\n  \r\n  .tnfs-footer #footer #footer-bottom {\r\n    padding: 30px;\r\n    text-align: left;\r\n  }\r\n  .tnfs-footer #footer #footer-bottom a {\r\n    padding: 5px;\r\n  }\r\n  .tnfs-footer #footer-top .columns,\r\n  .tnfs-footer #footer .columns {\r\n    padding: 0 5px;\r\n    text-align: center;\r\n  }\r\n  .tnfs-footer #footer-top .columns > ul > li,\r\n  .tnfs-footer #footer .columns > ul > li {\r\n    margin: 0 5px !important;\r\n  }\r\n  .tnfs-footer #footer-top .columns > ul > li > a,\r\n  .tnfs-footer #footer .columns > ul > li > a {\r\n    padding: 10px 0;\r\n    font-size: 1em;\r\n  }\r\n}\r\n\/* -------------------------------\r\nPart of the flexbox fix ie11 so that the footerbar is sticy with the bottom of the browser but does not impeed on the page content.\r\nfooter was creating an issue where it wanted to push the page content down the bottom of the browser when footer links were highlighted. The code below stops that by turning the nav into a flexbox footer nav -  ONLY FOR IE11.\r\n------------------------------- *\/\r\n@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {\r\n  .tn-footer.tnfs-footer #footer #footer-top ul {\r\n    flex-wrap: wrap;\r\n    justify-content: flex-start;\r\n    list-style: none;\r\n  }\r\n  .tn-footer.tnfs-footer #footer #footer-top ul > li {\r\n    flex: 0 1 auto;\r\n    position: relative;\r\n  }\r\n  .tn-footer.tnfs-footer #footer #footer-top ul > li > a {\r\n    align-items: flex-start;\r\n    display: flex !important;\r\n  }\r\n  .tn-footer.tnfs-footer #footer #footer-bottom ul {\r\n    flex-wrap: wrap;\r\n    justify-content: flex-start;\r\n    list-style: none;\r\n  }\r\n  .tn-footer.tnfs-footer #footer #footer-bottom ul > li {\r\n    flex: 0 1 auto;\r\n    position: relative;\r\n  }\r\n .tn-footer.tnfs-footer #footer #footer-bottom a {\r\n    display: inline-flex !important;\r\n    margin-bottom: -10px;\r\n  }\r\n\r\n}\r\n\r\n@media (min-width: 1200px) {\r\n  .tnfs-footer .col-lg-6 {\r\n    width: 50%;\r\n  }\r\n}\r\n@media (min-width: 1200px) {\r\n  .tnfs-footer .col-lg-6 {\r\n    float: left;\r\n  }\r\n}\r\n\r\n#overlay {\r\n    opacity: 0;\r\n    position: fixed;\r\n    background: rgba(0, 0, 0, 0.4);\r\n    width: 100%;\r\n    height: 100%;\r\n    top: 0;\r\n    left: 0;\r\n    z-index: -100;\r\n}\r\n\r\nbody.overlay-active #overlay.active {\r\n    display: block;\r\n    z-index: 900;\r\n    opacity: 1;\r\n}\r\n\r\n\r\nhtml.aem-AuthorLayer-Edit [data-testid=\"welcome-message-container\"],\r\nhtml.aem-AuthorLayer-Preview [data-testid=\"welcome-message-container\"] {\r\n   position: relative !important;\r\n   z-index: 1 !important;\r\n   display: block;\r\n   \r\n}\r\n\r\n.tn-html label .fsLabel, \r\n.tn-html label.fsOptionLabel,\r\n.tn-html label[class^=\"StyledLabel-\"]{\r\n    font-weight: normal;\r\n}\r\n\r\n\r\n@media print {\r\n  body {\r\n    font: 13pt Georgia, \"Times New Roman\", Times, serif;\r\n    background: #fff !important;\r\n    color: #000;\r\n    line-height: 1.4;\r\n  }\r\n\r\n  @page {\r\n    margin: 1in;\r\n  }\r\n\r\n  h1, h2, h3 {\r\n    page-break-after: avoid;\r\n    page-break-inside: avoid;\r\n  }\r\n\r\n  a[href]:after {\r\n    content: \" (\" attr(href) \")\";\r\n    font-size: 10pt;\r\n  }\r\n\r\n  nav, footer, .no-print, .form-navigation, .form-buttons {\r\n    display: none !important;\r\n  }\r\n\r\n  img {\r\n    max-width: 100%;\r\n    page-break-inside: avoid;\r\n  }\r\n\r\n  .form-container {\r\n    width: 100% !important;\r\n    margin: 0;\r\n    float: none;\r\n  }\r\n  \r\n  \r\n.fsForm {\r\n    background: #fff;\r\n    border: none;\r\n    box-shadow: none;\r\n    padding: 0;\r\n  }\r\n\r\n  .fsSectionHeading,\r\n  .fsSectionText,\r\n  .fsLabel,\r\n  .fsSupporting {\r\n    color: #000;\r\n    font-size: 12pt;\r\n  }\r\n  \r\n  \r\n.fsSubmit,\r\n  .fsPreviousButton,\r\n  .fsNextButton,\r\n  .tnfs-header,\r\n  .tnfs-footer {\r\n    display: none !important;\r\n  }\r\n\r\n  #fsHeaderimage,\r\n  #fsFooterimage{\r\n    display: block;\r\n    max-width: 100%;\r\n    margin-bottom: 1em;\r\n  }\r\n  \r\n  \r\n#fsHeaderimage, #fsFooterimage {\r\n    display: block !important;\r\n  }\r\n  \r\n \/* Neverbounce fix *\/ \r\n\r\n.grecaptcha-badge {\r\n    display: none !important;\r\n}\r\n\r\n}\r\n\r\n","errorBackgroundColor":"#fae9e9","errorColorPrimary":"#ff3C3C","errorColorSecondary":"#15232b","extraneousPrimaryColor":"#477d90","extraneousSecondaryColor":"#bbbbbb","extraneousTertiaryColor":"#e1e1e1","fieldBgColor":"#ffffff","fieldBorder":"1px","fieldBorderColor":"#D3DDE1","fieldColor":"#1b365d","fieldFontStyle":"normal","fieldFontVariant":"","fieldFontWeight":"400","fieldRequiredBgColor":"#ffffff","fieldRequiredBorder":"1px","fieldRequiredBorderColor":"#bbbbbb","fieldRoundedCorners":"0px","focusHighlightColor":"transparent","focusHighlightOpacity":0,"fontService":"google","fontWeights":"400,700","footerImageAlignment":"","footerImageAltText":"","footerImageHeight":"","footerImageUrl":"","footerImageWidth":"","formAlignment":"center","formBgColor":"#ffffff","formBgColorOpacity":1,"formBorder":"0px","formBorderColor":"#EDEFF0","formBorderRoundedCorners":"6px","globalFont":"Open Sans","globalFontSize":3,"globalRoundedCorners":"3px","globalSpacing":2,"headerImageAlignment":"","headerImageAltText":"","headerImageHeight":"","headerImageUrl":"","headerImageWidth":"","inputFocusHighlightColor":"#0197EC","isNoStyleStrict":false,"labelRequiredColor":"#d63246","labelRequiredFontSize":"19px","matrixLabelColumnPosition":"center","matrixLabelRowPosition":"right","placeholderTextColor":"","productPriceColor":"#477d90","ratingIconColor":"#414141","ratingIconSize":"25px","readOnlyFieldBgColor":"transparent","saveAndResumeButtonBackgroundColor":"#e1e1e1","saveAndResumeButtonTextColor":"#477d90","sectionBgColor":"transparent","sectionColor":"#595d64","sectionHeadingAlignment":"center","sectionHeadingColor":"#414141","sectionHeadingFontStyle":"normal","sectionHeadingFontVariant":"","sectionHeadingFontWeight":"400","sectionHeadingSize":"29px","sectionRoundedCorners":"3px","sizeField":"13px","sizeLabel":"19px","spacing":"10px","successBackgroundColor":"#eefaf5","successColorPrimary":"#21b573","successColorSecondary":"#eefaf5","supportingTextColor":"#9EA7AF","supportingTextFontSize":"13px","supportingTextFontStyle":"normal","supportingTextFontVariant":"","supportingTextFontWeight":"","tableCellEvenBgColor":"#e1e1e133","tableCellOddBgColor":"#bbbbbb33","transitionDuration":"0s","transitionSpacingRightLeft":"10px","transitionSpacingTopBottom":"10px"},"url":"https:\/\/stateoftennessee.formstack.com","version":"4","viewKey":"PxgoJ2v2Hg","workflows":null},"isCached":true,"success":true},
+    }
+  );
+
+    (function(){
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = 'https://fonts.googleapis.com/css?family=Open Sans:400,700';
+    document.querySelector('head').appendChild(link);
+  })();
+  </script>
+
+
+<div id="overlay" class="fs_overlay"></div>
+<div id="fs-footer" class="tn-footer tnfs-footer">
+        <footer id="footer">
+            <div id="footer-top">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 columns">
+                <p>&nbsp;</p>
+            </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 columns text-right">
+                       <ul class="inline-list">
+                            <li>
+                                <a href="https://help.tn.gov/tn" target="_blank">
+                                    <span class="material-icons" translate="no">
+                                        help
+                                    </span>
+                                        Help
+                                        </a>
+                            </li>
+                            <!-- li id="footer-translate-fs" class="has-drop">
+                               
+                                <a href="#footer" class="icon-book">
+                                   <span class="material-icons" translate="no">
+                                        library_books
+                                    </span>
+                                        Translate</a>
+                        <div class="drop right">
+                            <div class="box">
+                                <div id="fs_google_translate_element"></div>
+                            </div>
+                        </div></li -->
+                            
+                            <li id="footer-fontsize-fs" class="has-drop" name="footer">
+                                <a href="#footer" class="icon-font">
+                                    <span class="material-icons" translate="no">
+                                        format_size
+                                    </span>
+                                    Font Size
+                                </a>
+                                <div class="drop right">
+                                    <div class="box">
+                                        <ul class="inline-list">
+                                            <li><a class="button" data-font-size="small" onclick="smallFont()">a-</a></li>
+                                            <li><a class="button" data-font-size="normal" onclick="normalFont()">Normal</a></li>
+                                            <li><a class="button" data-font-size="large" onclick="largeFont()">A+</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="#" class="starball"><img src="https://tn.gov/etc/clientlibs/tncore/main/img/footer-starball.png" alt="Tristar" width="100%"></a>
+            </div>
+            <div id="footer-bottom">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 columns">
+		<a href="https://tn.gov" class="first">TN.Gov</a>
+		  </div>
+		  <div class="col-lg-6 col-md-6 col-sm-6 columns text-right">
+			
+		  </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+      <script nonce="f57b400a377efb9dbb2e185735d8fe1ac46f810a1ec3e74bdf2fc2134320185f" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script nonce="f57b400a377efb9dbb2e185735d8fe1ac46f810a1ec3e74bdf2fc2134320185f">
+   document.addEventListener("DOMContentLoaded", function () {
+    
+    if ($('html').hasClass("tn-html")) {
+    	$(function(){
+      	 		$(".tnfs-header").remove();
+    			$(".tnfs-topnav").remove();
+    			$("#fs-footer").remove();
+    			$(".fs_overlay").remove();
+    		});
+    	}
+    });
+    </script>
+   
+   <script nonce="f57b400a377efb9dbb2e185735d8fe1ac46f810a1ec3e74bdf2fc2134320185f">
+document.addEventListener("DOMContentLoaded", function () {
+     var elems = $('[class*="StyledErrorBanner"]').filter( 
+       function () {
+         if( $(this).attr("class").match(/(^|\s)StyledErrorBanner/)){
+              	$(".tnfs-header").remove();
+    			$(".tnfs-topnav").remove();
+    			$("#fs-footer").remove();
+    			$(".fs_overlay").remove();
+    			
+            };
+        } 
+        );
+});
+        </script>
+        
+        <!-- ASYNCHRONOUS Google Translate -->
+        <script nonce="f57b400a377efb9dbb2e185735d8fe1ac46f810a1ec3e74bdf2fc2134320185f" type="text/javascript">
+    /*        
+       document.addEventListener("DOMContentLoaded", function () {
+  var findTNHtml = document.querySelector('.tn-html');
+
+  // Only run Google Translate if NOT embedded on your site
+  if (findTNHtml == null) {
+
+    // Wait for Formstack to finish rendering hidden labels
+    const observer = new MutationObserver((mutations, obs) => {
+      const hasHiddenLabels = document.querySelectorAll('.fsBody label[for]').length > 0;
+
+      if (hasHiddenLabels) {
+        // Inject Google Translate script
+        window.googleTranslateElementInit = function () {
+          new google.translate.TranslateElement(
+            { pageLanguage: 'en' },
+            'fs_google_translate_element'
+          );
+        };
+
+        var googleTranslateScript = document.createElement('script');
+        googleTranslateScript.type = 'text/javascript';
+        googleTranslateScript.async = true;
+        googleTranslateScript.src = '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+
+        var footer = document.getElementById('fs-footer');
+        if (footer) {
+          footer.appendChild(googleTranslateScript);
+        }
+
+        obs.disconnect(); // Stop observing once done
+      }
+    });
+
+    observer.observe(document.body, {
+      childList: true,
+      subtree: true
+    });
+  }
+});
+*/
+        </script>  
+    <!-- End script -->
+
+<script nonce="f57b400a377efb9dbb2e185735d8fe1ac46f810a1ec3e74bdf2fc2134320185f">
+
+document.addEventListener("DOMContentLoaded", function () {
+
+if (!$('html').hasClass("tn-html")) {
+ /* Because the footer selection keeps being triggered on page load after embed */
+  $("#footer-fontsize-fs.has-drop" ).click(function() {
+     
+      $( this ).toggleClass( 'active' );
+
+      if ( $( this ).hasClass( 'active' ) ) {
+           $("#fsbody").addClass( 'overlay-active');
+            $( '.fs_overlay' ).toggleClass( 'active' );
+        $( '#footer-fontsize-fs .drop' ).show();
+         if ($('#footer-translate-fs .drop' ).css('display') == "block") {
+             $( "#footer-translate-fs.has-drop" ).removeClass( 'active' );
+             $( '#footer-translate-fs .drop' ).hide();
+             $("#fsbody").addClass( 'overlay-active');
+             $( '.fs_overlay' ).addClass( 'active' );
+         }
+      } else {
+        $( '#footer-fontsize-fs .drop' ).hide();
+         $("#fsbody").removeClass( 'overlay-active');
+          $( '.fs_overlay' ).removeClass( 'active' );
+         
+      } 
+  
+    
+    
+    });
+
+	
+	$( "#footer-translate-fs.has-drop" ).click(function() {
+      $( this ).addClass( 'active' );
+      $("#fsbody").addClass( 'overlay-active');
+      
+
+      if ( $( this ).hasClass( 'active' ) ) {
+        $( '#footer-translate-fs .drop' ).show();
+        
+        if ($('#footer-fontsize-fs .drop' ).css('display') == "block") {
+             $( "#footer-fontsize-fs.has-drop" ).removeClass( 'active' );
+             $( '#footer-fontsize-fs .drop' ).hide();
+             $("#fsbody").addClass( 'overlay-active');
+             $( '.fs_overlay' ).addClass( 'active' );
+         }
+        
+      } else {
+          $(this).hide();
+       // $( this ).removeClass( 'active' );
+        $("#fsbody").removeClass( 'overlay-active');
+        $( '#footer-translate-fs .drop' ).hide();
+        
+        
+      } 
+	 
+      
+     if ( $("#fsbody").hasClass( 'overlay-active' ) ) {
+			 $( '.fs_overlay' ).addClass( 'active' );
+		}  else {
+		 $( '#overlay' ).removeClass( 'active' );
+		}
+    });
+
+
+	 $( ".fs_overlay" ).click(function() {
+	    $( this ).toggleClass( 'active' );
+	    	
+	     if ( $( "li.has-drop" ).hasClass( 'active' ) ) {
+  			$( "li.has-drop" ).removeClass( 'active' );
+  			$( '.fs_overlay' ).removeClass( 'active' );
+  			$( '#fsbody' ).removeClass( 'overlay-active' );
+        	$( '.drop' ).hide();
+      	} 
+	});
+	
+	 $( "input[value=Start]" ).click(function() {
+	     
+	      if ( $( ".fs_overlay" ).hasClass( 'active' ) ) {
+	         $( '.fs_overlay' ).removeClass( 'active' );
+  			$( '#fsbody' ).removeClass( 'overlay-active' );
+  			
+	      }
+	 });
+	 
+}
+
+});
+
+</script>
+
+<script nonce="f57b400a377efb9dbb2e185735d8fe1ac46f810a1ec3e74bdf2fc2134320185f">
+function smallFont(){
+
+ $('html').attr('data-font-size', 'small');
+ $('div[id^=fsForm-]').attr('data-font-size', 'small');
+ $('#fs-footer').attr('data-font-size', 'small');
+ $('#fsbody').attr('data-font-size', 'small');
+
+}
+function largeFont(){
+ 
+  $('html').attr('data-font-size', 'large');
+   $('div[id^=fsForm-]').attr('data-font-size', 'large');
+   $('#fs-footer').attr('data-font-size', 'large');
+   $('#fsbody').attr('data-font-size', 'large');
+
+}
+function normalFont(){
+ 
+   $('html').attr('data-font-size', 'normal');
+   $('div[id^=fsForm-]').attr('data-font-size', 'normal');
+   $('#fs-footer').attr('data-font-size', 'normal');
+   $('#fsbody').attr('data-font-size', 'normal');
+  
+  
+}
+</script>
+    
+  
+
+</body></html>
+

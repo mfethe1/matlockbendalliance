@@ -1,0 +1,1821 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head> 
+    <meta charset="utf-8" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y7Q4ZNEXT7"></script>
+<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "G-Y7Q4ZNEXT7", {"groups":"default","page_placeholder":"PLACEHOLDER_page_location","allow_ad_personalization_signals":false});</script>
+<link rel="canonical" href="https://www.ctas.tennessee.edu/reference/environmental" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>header .site-branding-logo{max-width:280px!important;}header.header-default .header-main-inner .header-inner{padding-left:280px!important;} header.header-default .header-main-inner .branding{width:280px!important;}</style>
+<link rel="icon" href="/sites/default/files/favicon_0.ico" type="image/vnd.microsoft.icon" />
+
+    <title>Environmental Resources | UT County Technical Assistance Service</title>
+    <link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/core.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/controlgroup.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/checkboxradio.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/resizable.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/button.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/dialog.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/misc/components/progress.module.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/misc/components/ajax-progress.module.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/align.module.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/fieldgroup.module.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/container-inline.module.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/clearfix.module.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/details.module.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/hidden.module.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/item-list.module.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/js.module.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/nowrap.module.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/position-container.module.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/reset-appearance.module.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/resize.module.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-counter.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-counters.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-general-info.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tablesort.module.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/modules/ckeditor5/css/ckeditor5.dialog.fix.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/theme.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/modules/custom/book_search/css/book-style.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/modules/contrib/ckeditor_accordion/css/accordion.frontend.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/modules/contrib/extlink/css/extlink.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/modules/contrib/gva_blockbuilder/assets/css/frontend.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/modules/custom/gavias_pagebuilder/assets/frontend/css/frontend.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/modules/custom/gavias_sliderlayer/vendor/revolution/css/settings.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/modules/contrib/printable/css/entity-links.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" defer async data-test="map-link" />
+<link rel="stylesheet" media="all" href="/themes/daudo_subtheme/css/style.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/themes/daudo_subtheme/css/custom.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/themes/gavias_daudo/css/bootstrap.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/themes/gavias_daudo/css/template.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css?family=Hind:wght@400;500;600;700&amp;display=swap" />
+<link rel="stylesheet" media="all" href="/themes/gavias_daudo/css/font-awesome/css/all.min.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/themes/gavias_daudo/css/icon/flaticon.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/themes/gavias_daudo/css/animate.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/themes/gavias_daudo/vendor/owl-carousel/assets/owl.carousel.min.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/themes/gavias_daudo/vendor/owl-carousel/assets/owl.theme.default.min.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/themes/gavias_daudo/vendor/prettyphoto/css/prettyPhoto.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/themes/gavias_daudo/vendor/ytplayer/css/jquery.mb.YTPlayer.min.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/themes/gavias_daudo/vendor/magnific/magnific-popup.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/themes/gavias_daudo/vendor/slick/slick.css?tmdqk2" />
+<link rel="stylesheet" media="all" href="/themes/gavias_daudo/css/update.css?tmdqk2" />
+
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/105424","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJx9UO2SwyAIfCGrj-SgEsOESEa0Pd_-0k7mmst9_GLZZQU3iCxeEWqcXdix3rQNRhMXTNSkeohRaiIp7gvZqUppWJJJ0JN47aHNuKLLLAH49QKVbPCj7XVxqfYN2B6tmXYzPFBld5yw1Xv-T7M602oy3AnUB5a4hE6csLpfOAuq2PR96THzOtidG6sLFZtwgs7tMvb9O4e2QcbL5hP112Jl2lWG8XadqJ8ukczooQCPRlHdlTDr8F2x-gLP4LH5M2G2Snt4gdFhadTG7Zm8Gh3acHUBFM0DwyR1dUe1iYAlfwKTwNCs","theme":"daudo_subtheme","theme_token":null},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true},"google_analytics":{"account":"G-Y7Q4ZNEXT7","trackOutbound":true,"trackMailto":true,"trackTel":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":true},"multiselect":{"widths":"250"},"my_user_name":{"username":"anonymous"},"webform":{"dialog":{"options":{"narrow":{"title":"Narrow","width":600},"normal":{"title":"Normal","width":800},"wide":{"title":"Wide","width":1000}},"entity_type":"node","entity_id":"105424"}},"data":{"extlink":{"extTarget":true,"extTargetAppendNewWindowDisplay":true,"extTargetAppendNewWindowLabel":"(opens in a new window)","extTargetNoOverride":false,"extNofollow":true,"extTitleNoOverride":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"0","extLabel":"(link is external)","extImgClass":false,"extSubdomains":true,"extExclude":"","extInclude":"","extCssExclude":"","extCssInclude":"","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","extHideIcons":false,"mailtoClass":"0","telClass":"","mailtoLabel":"(link sends email)","telLabel":"(link is a phone number)","extUseFontAwesome":false,"extIconPlacement":"before","extPreventOrphan":false,"extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","extAdditionalLinkClasses":"","extAdditionalMailtoClasses":"","extAdditionalTelClasses":"","extFaTelClasses":"fa fa-phone","allowedDomains":[],"extExcludeNoreferrer":""}},"ckeditorAccordion":{"accordionStyle":{"collapseAll":1,"keepRowsOpen":0,"animateAccordionOpenAndClose":1,"openTabsWithHash":1,"allowHtmlInTitles":0}},"gavias_blockbuilder":{"url_edit":"\/admin\/structure\/gavias_blockbuilder\/edit\/-----"},"user":{"uid":0,"permissionsHash":"79cf0b8a03eaee04ff0a8711bcbd9227aa0d633dac26086875a1c57fd20fa74a"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.7.1"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=10.6.18"></script>
+<script src="/core/misc/drupal.js?v=10.6.18"></script>
+<script src="/core/misc/drupal.init.js?v=10.6.18"></script>
+<script src="/themes/daudo_subtheme/js/main.js?v=10.6.18"></script>
+<script src="https://use.fontawesome.com/releases/v5.13.1/js/all.js" defer crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/releases/v5.13.1/js/v4-shims.js" defer crossorigin="anonymous"></script>
+<script src="/themes/gavias_daudo/vendor/jquery-migrate.min.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/js/bootstrap.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/js/imagesloader.min.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/vendor/jquery.easing.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/vendor/jquery.appear.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/vendor/jquery.easypiechart.min.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/vendor/owl-carousel/owl.carousel.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/vendor/waypoint.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/vendor/count-to.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/vendor/masonry.pkgd.min.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/vendor/isotope.pkgd.min.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/vendor/aos.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/vendor/prettyphoto/js/jquery.prettyPhoto.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/vendor/ytplayer/js/jquery.mb.YTPlayer.min.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/vendor/jquery.typer/src/jquery.typer.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/vendor/magnific/jquery.magnific-popup.min.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/vendor/quotes_rotator/js/modernizr.custom.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/vendor/quotes_rotator/js/jquery.cbpQTRotator.min.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/vendor/jquery.nicescroll.min.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/vendor/slick/slick.min.js?v=10.6.18"></script>
+<script src="/themes/gavias_daudo/js/main.js?v=10.6.18"></script>
+<script src="/modules/custom/gavias_sliderlayer/vendor/revolution/js/jquery.themepunch.tools.min.js?v=1.x"></script>
+<script src="/modules/custom/gavias_sliderlayer/vendor/revolution/js/jquery.themepunch.revolution.min.js?v=1.x"></script>
+<script src="/modules/custom/gavias_sliderlayer/vendor/revolution/js/extensions/revolution.extension.actions.min.js?v=1.x"></script>
+<script src="/modules/custom/gavias_sliderlayer/vendor/revolution/js/extensions/revolution.extension.carousel.min.js?v=1.x"></script>
+<script src="/modules/custom/gavias_sliderlayer/vendor/revolution/js/extensions/revolution.extension.kenburn.min.js?v=1.x"></script>
+<script src="/modules/custom/gavias_sliderlayer/vendor/revolution/js/extensions/revolution.extension.layeranimation.min.js?v=1.x"></script>
+<script src="/modules/custom/gavias_sliderlayer/vendor/revolution/js/extensions/revolution.extension.migration.min.js?v=1.x"></script>
+<script src="/modules/custom/gavias_sliderlayer/vendor/revolution/js/extensions/revolution.extension.navigation.min.js?v=1.x"></script>
+<script src="/modules/custom/gavias_sliderlayer/vendor/revolution/js/extensions/revolution.extension.parallax.min.js?v=1.x"></script>
+<script src="/modules/custom/gavias_sliderlayer/vendor/revolution/js/extensions/revolution.extension.slideanims.min.js?v=1.x"></script>
+<script src="/modules/custom/gavias_sliderlayer/vendor/revolution/js/extensions/revolution.extension.video.min.js?v=1.x"></script>
+
+
+    
+
+          <style type="text/css">
+        .area.slideshow_content .block {margin-bottom: 30px;}a[href="/training/coop2026"],a[href="/training/nss2026"] {display: block;padding: 4px 8px !important;margin: -4px -8px !important;}a[href="/training/coop2026"] {background: rgba(28, 33, 51,.10);}a[href="/training/nss2026"] {background: rgba(160,175,40,.30);}
+      </style>
+    
+          <style class="customize"></style>
+    
+  </head>
+
+  
+  <body class="gavias-pagebuilder layout-no-sidebars wide path-node node--type-page">
+
+    <a href="#main-content" class="visually-hidden focusable">
+      Skip to main content
+    </a>
+
+      
+
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="gva-body-wrapper">
+	<div class="body-page gva-body-page">
+	   <header id="header" class="header-2">
+  
+    <div class="topbar">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="topbar-content-inner clearfix"> 
+            <div class="topbar-content">  <div>
+    <div id="block-daudo-subtheme-topbarleft" class="block block-block-content block-block-contenta59e2ce4-274a-4791-bee8-6733b7343507 no-title">
+  
+    
+      <div class="content block-content">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><ul><li><a href="https://www.ips.tennessee.edu" target="_blank">University of Tennessee Institute for Public Service</a></li></ul></div>
+      
+    </div>
+  </div>
+<div class="search-api-page-block-form-search-all search-api-page-block-form search-form search-block-form container-inline search-ips block block-search-api-page block-search-api-page-form-block no-title" data-drupal-selector="search-api-page-block-form-search-all" id="block-searchapipagesearchblockform-3">
+  
+    
+      <div class="content block-content">
+      <form action="/reference/environmental" method="post" id="search-api-page-block-form-search-all" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-search form-item-keys js-form-item-keys form-no-label">
+      <label for="edit-keys" class="visually-hidden">Search</label>
+        <input title="Enter the terms you wish to search for." placeholder="Search" data-drupal-selector="edit-keys" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" class="form-search" />
+
+        </div>
+<input autocomplete="off" data-drupal-selector="form-okmhaynnvsanxtcpgjamvaw82gfutbg-f-uhiitrbwo" type="hidden" name="form_build_id" value="form-okmhaYnNVSaNxtcPgJAmvAW82GfutBG-F_UhIItrBwo" />
+<input data-drupal-selector="edit-search-api-page-block-form-search-all" type="hidden" name="form_id" value="search_api_page_block_form_search_all" />
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input class="search-form__submit button js-form-submit form-submit" data-drupal-selector="edit-submit" type="submit" id="edit-submit" name="op" value="Search" />
+</div>
+
+</form>
+
+    </div>
+  </div>
+
+  </div>
+</div>
+                      </div>  
+        </div>
+      </div>
+    </div>
+  </div>
+  
+      
+
+  <div class="main-menu ">
+    <div class="container header-content-layout">
+      <div class="header-main-inner p-relative">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12 p-static">
+            <div class="area-main-menu">
+              <div class="area-inner">
+                                  <div>
+    
+      <a href="/" title="Home" rel="home" class="site-branding-logo">
+        
+        <img class="logo-site" src="/sites/default/files/CTAS_stacked_logo-rgb_0.png" alt="Home" />
+        
+    </a>
+    
+  </div>
+
+                
+                <div class="gva-offcanvas-mobile">
+                  <div class="close-offcanvas hidden"><i class="fa fa-times"></i></div>
+                                      <div>
+    <nav aria-labelledby="block-daudo-subtheme-mainmenu-menu" id="block-daudo-subtheme-mainmenu" class="block block-menu navigation menu--main">
+          
+  
+  <h2  class="visually-hidden block-title block-title" id="block-daudo-subtheme-mainmenu-menu"><span>Main menu</span></h2>
+  
+  <div class="block-content">
+                 
+<div align="center" class="gva-navigation">
+
+              <ul  class="clearfix gva_menu gva_menu_main">
+      
+                              
+      
+      <li  class="menu-item menu-item--expanded">
+        <a rel="nofollow noindex"  data-link_id="link-107996212" href="/about-us">          ABOUT<span class="icaret nav-plus fas fa-chevron-down"></span>        </a>
+          
+                      <ul class="menu sub-menu">
+                              
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-1631942356" href="/ctas-history">          History        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-342867421" href="/our-services">          Services        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-855446447" href="/service-area-maps">          Service Area Maps        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-1105285040" href="/staff">          Staff        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-1773718255" href="/ctas-recruitment">          Work for CTAS        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-102619449" href="https://www.ctas.tennessee.edu/county-employment">          County Employment        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-1234605208" href="/strategic-plan">          Strategic Plan        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-2027031233" href="/associations">          Association Partners        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-368913259" href="/about-maryann">          About Mary Ann, the e-Li Chatbot        </a>
+          
+              </li>
+        </ul>
+        </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-678748673" href="/county-directory">          DIRECTORY        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item menu-item--expanded">
+        <a rel="nofollow noindex"  data-link_id="link-757990538" href="/eli">          E-LI<span class="icaret nav-plus fas fa-chevron-down"></span>        </a>
+          
+                      <ul class="menu sub-menu">
+                              
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-1572841668" href="/node/66338/printable/pdf?pdfGetId=1740">          County Government Overview        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-1119014154" href="/eli/accountingbudgetfinance">          Accounting/Budget/Finance        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-1000968452" href="/eli/county-offices">          County Offices        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-1180115958" href="/eli/county-operations">          County Operations        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-794131237" href="/eli/elections">          Elections        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-1914505689" href="/eli/open-government">          Open Government        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-1702746093" href="/eli/personnelhr">          Personnel/HR        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-2061081703" href="/eli/public-safety">          Public Safety        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-1069686686" href="/eli/purchasing">          Purchasing        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-285348226" href="/eli/records-management">          Records Management        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-940076828" href="/eli/revenue">          Revenue        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-158958660" href="/eli/structure-county-government">          Structure of County Government        </a>
+          
+              </li>
+        </ul>
+        </li>
+                          
+      
+      <li  class="menu-item menu-item--expanded">
+        <a rel="nofollow noindex"  data-link_id="link-621703874" href="/training">          TRAINING<span class="icaret nav-plus fas fa-chevron-down"></span>        </a>
+          
+                      <ul class="menu sub-menu">
+                              
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-2006963558" href="/training/coop2026">          County Officials Orientation Program 2026 (COOP)        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-1591483633" href="/training/nss2026">          New Sheriffs School        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-446216885" href="https://www.ctas.tennessee.edu/form/training-requests">          Training Requests        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-1215247307" href="https://www.ctas.tennessee.edu/form/kate-profile-update-requests">          k@te Profile Updates        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-1225010689" href="/training/coctp">          County Officials Certificate Training Program (COCTP)        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-618908701" href="/training/ccfo">          Certified County Finance Officer (CCFO)        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-787193980" href="/training/commissioner-training">          County Commissioner Required Training        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-1482069818" href="/training/ceoc">          County Elected Officials Certificate (CEOC)        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-633368661" href="/training/capc">          County Administrative Professional Certificate (CAPC)        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-998934453" href="/training/catc">          Cybersecurity Awareness Training Certificate (CATC)        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-912785701" href="/training/bcf">          Basic County Finance Certificate (BCF)        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-678690033" href="/training/swcp">          Solid Waste Certificate Program (SWCP)        </a>
+          
+              </li>
+        </ul>
+        </li>
+                          
+      
+      <li  class="menu-item menu-item--expanded menu-item--active-trail">
+        <a rel="nofollow noindex"  data-link_id="link-881549139" href="/reference">          REFERENCE<span class="icaret nav-plus fas fa-chevron-down"></span>        </a>
+          
+                      <ul class="menu sub-menu">
+                              
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-431135434" href="/reference/county-operations">          County Operations        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item menu-item--active-trail">
+        <a rel="nofollow noindex"  data-link_id="link-674319443" href="/reference/environmental">          Environmental        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-175266837" href="/reference/financial">          Financial        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-388710047" href="/reference/legal">          Legal        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-1433961219" href="/reference/public-safety">          Public Safety        </a>
+          
+              </li>
+        </ul>
+        </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-1554759195" href="/news">          NEWS        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item">
+        <a rel="nofollow noindex"  data-link_id="link-46065307" href="/links-interest">          LINKS        </a>
+          
+              </li>
+                          
+      
+      <li  class="menu-item helpbutton">
+        <a rel="nofollow noindex"  class="webform-dialog webform-dialog-narrow"  data-link_id="link-1665942174" href="/form/leave-us-a-message">          Help        </a>
+          
+              </li>
+        </ul>
+  
+
+</div>
+
+
+        </div>  
+</nav>
+
+  </div>
+
+                  
+                    
+                                    <div class="after-offcanvas hidden">
+                    
+                  </div>
+                                  </div>
+                
+                <div id="menu-bar" class="menu-bar menu-bar-mobile d-lg-none d-xl-none">
+                  <span class="one"></span>
+                  <span class="two"></span>
+                  <span class="three"></span>
+                </div>
+                
+                                
+                  
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+
+
+		
+	   		
+		<div role="main" class="main main-page">
+		
+			<div class="clearfix"></div>
+							<div class="slideshow_content area">
+					  <div>
+    <div id="block-daudo-subtheme-referenceheader" class="header-container imgbg-type-header block block-block-content block-block-contentdca3c32c-16d9-433b-8ccd-5fc7c37f5cef no-title">
+  
+    
+      <div class="content block-content">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="gbb-row-wrapper section row-first-level header-container imgbg-type-header gbb-row bg-size-cover" style="margin-bottom:30px; background-image:url('/sites/default/files/2024-02/reference_materials.png'); background-repeat:no-repeat; background-position:center center">
+		  			    	<div class="bb-inner default">  
+		      	<div class="bb-container container">
+			        	<div class="row row-wrapper">
+							
+		<div class="gsc-column col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+	      <div class="column-inner bg-size-cover">
+	         <div class="column-content-inner">
+	           
+         <div class="widget gsc-heading  align-left style-2 " style="max-width: 800px;">
+            
+            <div class="heading-content clearfix">
+                              <h1 class="title fweight-600 text-white">
+                  <span>Reference Materials</span>
+               </h1>                           </div>
+            
+            
+         </div>
+         <div class="clearfix"></div>
+         	         </div>  
+	      </div>
+        
+	    </div>
+	   	     	 			</div>
+    				</div>
+  				</div>  
+  				</div></div>
+      
+    </div>
+  </div>
+
+  </div>
+
+				</div>
+				
+
+							<div class="help gav-help-region">
+					<div class="container">
+						<div class="content-inner">
+							  <div>
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+						</div>
+					</div>
+				</div>
+						
+			<div class="clearfix"></div>
+							<div class="before_content area">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12">
+								  <div>
+    
+
+<div class="breadcrumb-content-inner">
+  <div class="gva-breadcrumb-content">
+    <div id="block-daudo-subtheme-breadcrumbs-2" class="text-dark block gva-block-breadcrumb block-system block-system-breadcrumb-block no-title">
+      <div class="breadcrumb-style gva-parallax-background" style="">
+          <div class="breadcrumb-content-main"><br>
+            
+                          <div class="">
+                <div class="content block-content"><div class="breadcrumb-links">
+  <div class="content-inner">
+          <nav class="breadcrumb " aria-labelledby="system-breadcrumb">
+        <ol>
+            
+                                  <li>
+                              <a href="/">Home</a>
+                                            <span class=""> - </span>
+                
+            </li>
+                                  <li>
+                              <a href="/reference">Reference</a>
+                                            <span class=""> - </span>
+                
+            </li>
+                                  <li>
+                              
+                              
+            </li>
+                                  <li>
+                              Environmental Resources
+                              
+            </li>
+                    <li></li>
+        </ol>
+      </nav>
+      </div> 
+</div>  </div>
+              </div>  
+                      </div> 
+         
+      </div> 
+    </div>  
+  </div>  
+</div>  
+
+<div id="block-daudo-subtheme-pagetitle" class="block block-core block-page-title-block no-title">
+  
+    
+      <div class="content block-content">
+      
+  <h1 class="page-title">
+<span>Environmental Resources</span>
+</h1>
+
+
+    </div>
+  </div>
+
+  </div>
+
+								</div>
+						</div>
+					</div>
+				</div>
+						
+			<div class="clearfix"></div>
+			
+			<div id="content" class="content content-full">
+				<div class="container container-bg">
+					<div class="content-main-inner">
+	<div class="row">
+		
+				 
+
+		<div id="page-main-content" class="main-content col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 order-xl-2 order-lg-2 order-md-1 order-sm-1 order-xs-1 ">
+
+			<div class="main-content-inner">
+				
+				
+									<div class="content-main">
+						  <div>
+    <div id="block-daudo-subtheme-mainpagecontent" class="block block-system block-system-main-block no-title">
+  
+    
+      <div class="content block-content">
+      
+<article data-history-node-id="105424" class="node node--type-page node--view-mode-full clearfix">
+  <header class="header">
+    
+        
+      </header>
+  <div class="node__content clearfix">
+    <div class="node_view"><ul class="pre_links"><li class="print"><a href="/node/105424/printable/print" target="_blank">Print</a></li><li class="pdf"><a href="/node/105424/printable/pdf" target="_blank">PDF</a></li></ul></div><div class="gavias-builder--content">		  	<div class="gbb-row-wrapper section row-first-level gbb-row bg-size-cover"  style=""  data-onepage-title="Intro">
+		  			    	<div class="bb-inner default">  
+		      	<div class="bb-container container">
+			        	<div class="row row-wrapper">
+							
+		<div  class="gsc-column col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" >
+	      <div class="column-inner bg-size-cover">
+	         <div class="column-content-inner">
+	           <div class="column-content  " ><p>This page provides links to environmental agencies, data tools, mapping resources, professional organizations, and training resources commonly used by Tennessee county officials. Resources are organized by program area to support county operations, planning, environmental compliance, public works, and local decision-making.</p></div><div class="column-content  " ><hr style="border: none; border-top: 2px solid #ff8200; width: 100%;" /></div>	         </div>  
+	      </div>
+        
+	    </div>
+	   	     	 			</div>
+    				</div>
+  				</div>  
+			  				</div>  
+				  	<div class="gbb-row-wrapper section row-first-level gbb-row bg-size-cover"  style=""  data-onepage-title="Highlighted Projects">
+		  			    	<div class="bb-inner default">  
+		      	<div class="bb-container container">
+			        	<div class="row row-wrapper">
+							
+		<div  class="gsc-column col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" >
+	      <div class="column-inner bg-size-cover">
+	         <div class="column-content-inner">
+	           
+         <div class="widget gsc-heading  align-left style-1 padding-bottom-0 padding-top-0" style="max-width: 800px;" >
+            
+            <div class="heading-content clearfix">
+               <div class="sub-title fweight-500 text-gray"><span>See what we've been up to!</span></div>               <h2 class="title fweight-600 text-black">
+                  <span>Featured Projects</span>
+               </h2>                                 <div class="title-desc text-gray"><p style="caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid; margin-top: 0px; margin-bottom: 0px;">Explore selected CTAS mapping, drone, environmental, and county operations projects. These examples demonstrate how geographic information systems can support planning, infrastructure management, environmental compliance, public communication, and local decision-making.</p>
+<p>&nbsp;</p></div>
+                           </div>
+            
+            
+         </div>
+         <div class="clearfix"></div>
+         	         </div>  
+	      </div>
+        
+	    </div>
+	   
+		<div  class="gsc-column col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12" >
+	      <div class="column-inner bg-size-cover">
+	         <div class="column-content-inner">
+	           
+            
+
+                     <div class="gsc-image-content  skin-v2" >
+               <div class="image"><a target="_blank" href="https://gis.ctas.tennessee.edu/portal/apps/dashboards/0973c52c664046b7af17fee45fce2bbe?v=20260723"><img src="https://www.ctas.tennessee.edu/sites/default/files/users/user956/web%20dashboard.png" alt="Tennessee Solid Waste Facilities and Services Dashboard" /></a></div>
+               <div class="box-content">
+                  
+                                       <h4 class="title"><a target="_blank" href="https://gis.ctas.tennessee.edu/portal/apps/dashboards/0973c52c664046b7af17fee45fce2bbe?v=20260723">Tennessee Solid Waste Facilities and Services Dashboard</a></h4>
+                  
+                  <div class="desc"><p>Dashboard showing key solid waste infrastructure and reported disposal.</p></div>
+
+                                       <div class="read-more"><a class="btn-inline" target="_blank" href="https://gis.ctas.tennessee.edu/portal/apps/dashboards/0973c52c664046b7af17fee45fce2bbe?v=20260723">Explore Project</a></div>
+                                 </div>  
+            </div>
+          
+
+          
+
+         	         </div>  
+	      </div>
+        
+	    </div>
+	   
+		<div  class="gsc-column col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12" >
+	      <div class="column-inner bg-size-cover">
+	         <div class="column-content-inner">
+	           
+            
+
+                     <div class="gsc-image-content  skin-v2" >
+               <div class="image"><a target="_blank" href="https://gis.ctas.tennessee.edu/portal/apps/webappviewer/index.html?id=08e9c0163e6b403f86da34fa0e87cfb8"><img src="https://www.ctas.tennessee.edu/sites/default/files/users/user956/drone%20flying.png" alt="Greene County Asset Inventory and Facility Mapping" /></a></div>
+               <div class="box-content">
+                  
+                                       <h4 class="title"><a target="_blank" href="https://gis.ctas.tennessee.edu/portal/apps/webappviewer/index.html?id=08e9c0163e6b403f86da34fa0e87cfb8">Greene County Asset Inventory and Facility Mapping</a></h4>
+                  
+                  <div class="desc"><p>Drone application highlighting Greene County facilities.</p></div>
+
+                                       <div class="read-more"><a class="btn-inline" target="_blank" href="https://gis.ctas.tennessee.edu/portal/apps/webappviewer/index.html?id=08e9c0163e6b403f86da34fa0e87cfb8">Explore Project</a></div>
+                                 </div>  
+            </div>
+          
+
+          
+
+         	         </div>  
+	      </div>
+        
+	    </div>
+	   
+		<div  class="gsc-column col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12" >
+	      <div class="column-inner bg-size-cover">
+	         <div class="column-content-inner">
+	           
+            
+
+                     <div class="gsc-image-content  skin-v2" >
+               <div class="image"><a target="_blank" href="https://gis.ctas.tennessee.edu/portal/apps/instant/basic/index.html?appid=106447f47b1a41c1a9bddffc9e610f50"><img src="https://www.ctas.tennessee.edu/sites/default/files/users/user956/rural%20map%20illustration.png" alt="Drone Mapping for Kinser Park, Greene County" /></a></div>
+               <div class="box-content">
+                  
+                                       <h4 class="title"><a target="_blank" href="https://gis.ctas.tennessee.edu/portal/apps/instant/basic/index.html?appid=106447f47b1a41c1a9bddffc9e610f50">Drone Mapping for Kinser Park, Greene County</a></h4>
+                  
+                  <div class="desc"><p>Drone map capturing elevation contours for county site improvement plan.</p></div>
+
+                                       <div class="read-more"><a class="btn-inline" target="_blank" href="https://gis.ctas.tennessee.edu/portal/apps/instant/basic/index.html?appid=106447f47b1a41c1a9bddffc9e610f50">Explore Project</a></div>
+                                 </div>  
+            </div>
+          
+
+          
+
+         	         </div>  
+	      </div>
+        
+	    </div>
+	   
+		<div  class="gsc-column col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12" >
+	      <div class="column-inner bg-size-cover">
+	         <div class="column-content-inner">
+	           
+            
+
+                     <div class="gsc-image-content  skin-v2" >
+               <div class="image"><a target="_blank" href="https://gis.ctas.tennessee.edu/portal/apps/instant/basic/index.html?appid=dfb19ed2dea6476ab15a188ae298c3bf"><img src="https://www.ctas.tennessee.edu/sites/default/files/users/user956/drone%20flying.png" alt="Drone Mapping for Putnam County Landfill" /></a></div>
+               <div class="box-content">
+                  
+                                       <h4 class="title"><a target="_blank" href="https://gis.ctas.tennessee.edu/portal/apps/instant/basic/index.html?appid=dfb19ed2dea6476ab15a188ae298c3bf">Drone Mapping for Putnam County Landfill</a></h4>
+                  
+                  <div class="desc"><p>Baseline map showing landfill working face and active footprint.</p></div>
+
+                                       <div class="read-more"><a class="btn-inline" target="_blank" href="https://gis.ctas.tennessee.edu/portal/apps/instant/basic/index.html?appid=dfb19ed2dea6476ab15a188ae298c3bf">Explore Project</a></div>
+                                 </div>  
+            </div>
+          
+
+          
+
+         	         </div>  
+	      </div>
+        
+	    </div>
+	   
+		<div  class="gsc-column col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12" >
+	      <div class="column-inner bg-size-cover">
+	         <div class="column-content-inner">
+	           	         </div>  
+	      </div>
+        
+	    </div>
+	   
+		<div  class="gsc-column col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12" >
+	      <div class="column-inner bg-size-cover">
+	         <div class="column-content-inner">
+	           	         </div>  
+	      </div>
+        
+	    </div>
+	   
+		<div  class="gsc-column col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" >
+	      <div class="column-inner bg-size-cover">
+	         <div class="column-content-inner">
+	           <div class="column-content  " ><hr style="border: none; border-top: 2px solid #ff8200; width: 100%;" /></div>	         </div>  
+	      </div>
+        
+	    </div>
+	   	     	 			</div>
+    				</div>
+  				</div>  
+			  				</div>  
+				  	<div class="gbb-row-wrapper section row-first-level gbb-row bg-size-cover"  style=""  data-onepage-title="Most Requested Resources">
+		  			    	<div class="bb-inner default">  
+		      	<div class="bb-container container">
+			        	<div class="row row-wrapper">
+							
+		<div  class="gsc-column col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12   column-box-shadow" style="background-color:rgba(185,199,113,.10)">
+	      <div class="column-inner bg-size-cover">
+	         <div class="column-content-inner">
+	           
+         <div class="widget gsc-heading  align-left style-1 padding-bottom-0" style="max-width: 800px;" >
+            
+            <div class="heading-content clearfix">
+                              <h2 class="title fweight-600 text-black">
+                  <span>Most Requested Resources</span>
+               </h2>                           </div>
+            
+            
+         </div>
+         <div class="clearfix"></div>
+         <div class="column-content  " ><ul>
+<li><a href="https://www.tn.gov/environment.html">Tennessee Department of Environment and Conservation (TDEC)</a></li>
+<li><a href="https://www.tn.gov/environment/about-tdec/tdec-dataviewers.html">TDEC Data and Map Viewers</a></li>
+<li><a href="https://tnmap.tn.gov/">TNMap: Tennessee GIS Data Portal</a></li>
+<li><a href="https://tnmap.tn.gov/assessment/">Tennessee Property Viewer</a></li>
+<li><a href="https://www.epa.gov/">U.S. Environmental Protection Agency</a></li>
+<li><a href="https://www.fema.gov/">Federal Emergency Management Agency</a></li>
+<li style="padding-bottom: 20px;"><a href="https://www.usace.army.mil/Missions/Civil-Works/Regulatory-Program-and-Permits/">U.S. Army Corps of Engineers Regulatory Program</a></li>
+</ul></div>	         </div>  
+	      </div>
+        
+	    </div>
+	   
+		<div  class="gsc-column col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" >
+	      <div class="column-inner bg-size-cover">
+	         <div class="column-content-inner">
+	           <div class="column-content  " ><hr style="border: none; border-top: 2px solid #ff8200; width: 100%;" /></div>	         </div>  
+	      </div>
+        
+	    </div>
+	   	     	 			</div>
+    				</div>
+  				</div>  
+			  				</div>  
+				  	<div class="gbb-row-wrapper section row-first-level gbb-row bg-size-cover"  style=""  data-onepage-title="Solid Waste Management">
+		  			    	<div class="bb-inner default">  
+		      	<div class="bb-container container">
+			        	<div class="row row-wrapper">
+							
+		<div  class="gsc-column col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12" >
+	      <div class="column-inner bg-size-cover">
+	         <div class="column-content-inner">
+	           
+         <div class="widget gsc-heading  align-left style-1 padding-bottom-0" style="max-width: 800px;" >
+            
+            <div class="heading-content clearfix">
+                              <h2 class="title fweight-600 text-black">
+                  <span>Solid Waste Management</span>
+               </h2>                           </div>
+            
+            
+         </div>
+         <div class="clearfix"></div>
+         <div class="column-content  " ><p>Resources related to municipal solid waste, Class I and Class III landfills, convenience centers, transfer stations, recycling, composting, recovered materials, waste tires, household hazardous waste, permitting, and county solid waste planning.</p></div>
+         <div class="widget gsc-heading  align-left style-1 padding-bottom-0 padding-top-0" style="max-width: 800px;" >
+            
+            <div class="heading-content clearfix">
+                              <h3 class="title fsize-18 fweight-600 text-black">
+                  <span>Tennessee Solid Waste Resources</span>
+               </h3>                           </div>
+            
+            
+         </div>
+         <div class="clearfix"></div>
+         <div class="column-content  " ><ul>
+<li><a href="https://www.tn.gov/environment/program-areas/solid-waste/sw.html">TDEC Solid Waste Program</a></li>
+<li><a href="https://www.tn.gov/environment/program-areas/solid-waste.html">TDEC Waste Management Branch</a></li>
+<li><a href="https://www.tn.gov/environment/permits/waste1.html">TDEC Waste Permits</a></li>
+<li><a href="https://www.tn.gov/content/tn/environment/permits/waste/landfill-permit.html">TDEC Landfill Permit</a></li>
+<li><a href="https://www.tn.gov/content/tn/environment/permits/waste/solid-waste-management-permit-by-rule.html">TDEC Solid Waste Permit-by-Rule</a></li>
+<li><a href="https://www.tn.gov/content/tn/environment/permits/waste/rmpf.html">Recovered Materials Processing Facility Notification</a></li>
+<li><a href="https://www.tn.gov/environment/program-areas/solid-waste/regs.html">TDEC Solid Waste Rules and Regulations</a></li>
+<li><a href="https://publications.tnsosfiles.com/rules/0400/0400-12/0400-12.htm">Tennessee Solid Waste Rules Secretary of State</a></li>
+<li style="padding-bottom: 20px;"><a href="https://www.tn.gov/environment/program-areas/solid-waste/materials-management/2025-2035-swm-plan.html">2025 2035 Tennessee Solid Waste and Materials Management Plan</a></li>
+</ul></div>
+         <div class="widget gsc-heading  align-left style-1 padding-bottom-0 padding-top-0" style="max-width: 800px;" >
+            
+            <div class="heading-content clearfix">
+                              <h3 class="title fsize-18 fweight-600 text-black">
+                  <span>Federal Solid Waste Resources</span>
+               </h3>                           </div>
+            
+            
+         </div>
+         <div class="clearfix"></div>
+         <div class="column-content  " ><ul>
+<li><a href="https://www.epa.gov/smm">EPA Sustainable Materials Management</a></li>
+<li><a href="https://www.epa.gov/landfills">EPA Landfills</a></li>
+<li><a href="https://www.epa.gov/waste-reduction-model">EPA Waste Reduction Model</a></li>
+<li style="padding-bottom: 20px;"><a href="https://www.epa.gov/lmop">EPA Landfill Methane Outreach Program</a></li>
+</ul></div>
+         <div class="widget gsc-heading  align-left style-1 padding-bottom-0 padding-top-0" style="max-width: 800px;" >
+            
+            <div class="heading-content clearfix">
+                              <h3 class="title fsize-18 fweight-600 text-black">
+                  <span>Solid Waste Data & Mapping Resources</span>
+               </h3>                           </div>
+            
+            
+         </div>
+         <div class="clearfix"></div>
+         <div class="column-content  " ><ul>
+<li><a href="https://www.tn.gov/environment/about-tdec/tdec-dataviewers.html">TDEC Data and Map Viewers</a></li>
+<li><a href="https://tnmap.tn.gov/">TNMap</a></li>
+<li style="padding-bottom: 20px;"><a href="https://enviro.epa.gov/">EPA Envirofacts</a></li>
+</ul></div>	         </div>  
+	      </div>
+        
+	    </div>
+	   
+		<div  class="gsc-column col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12" >
+	      <div class="column-inner bg-size-cover">
+	         <div class="column-content-inner">
+	                       <div class="widget gsc-image text-none "  >
+               <div class="widget-content">
+                   
+                    <img src="https://www.ctas.tennessee.edu/sites/default/files/users/user956/EnvirResWeb-_0002_Solid%20Waste.jpg" alt="Aerial view of a white industrial facility with a parking lot, open grassy areas, and surrounding forest under a partly cloudy sky." style="max-width:400px" />
+                                 </div>
+            </div>    
+         	         </div>  
+	      </div>
+        
+	    </div>
+	   
+		<div  class="gsc-column col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" >
+	      <div class="column-inner bg-size-cover">
+	         <div class="column-content-inner">
+	           <div class="column-content  " ><hr style="border: none; border-top: 2px solid #ff8200; width: 100%; margin: 20px auto;" /></div>	         </div>  
+	      </div>
+        
+	    </div>
+	   	     	 			</div>
+    				</div>
+  				</div>  
+			  				</div>  
+				  	<div class="gbb-row-wrapper section row-first-level gbb-row bg-size-cover"  style=""  data-onepage-title="Stormwater & Floodplain Management">
+		  			    	<div class="bb-inner default">  
+		      	<div class="bb-container container">
+			        	<div class="row row-wrapper">
+							
+		<div  class="gsc-column col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12" >
+	      <div class="column-inner bg-size-cover">
+	         <div class="column-content-inner">
+	           
+         <div class="widget gsc-heading  align-left style-1 padding-bottom-0" style="max-width: 800px;" >
+            
+            <div class="heading-content clearfix">
+                              <h2 class="title fweight-600 text-black">
+                  <span>Stormwater & Floodplain Management</span>
+               </h2>                           </div>
+            
+            
+         </div>
+         <div class="clearfix"></div>
+         <div class="column-content  " ><p>Resources supporting stormwater management, floodplain administration, erosion prevention, drainage design, watershed protection, MS4 compliance, flood-risk review, and water quality protection.</p></div>
+         <div class="widget gsc-heading  align-left style-1 padding-bottom-0 padding-top-0" style="max-width: 800px;" >
+            
+            <div class="heading-content clearfix">
+                              <h3 class="title fsize-18 fweight-600 text-black">
+                  <span>Tennessee Stormwater & Floodplain Resources</span>
+               </h3>                           </div>
+            
+            
+         </div>
+         <div class="clearfix"></div>
+         <div class="column-content  " ><ul>
+<li><a href="https://www.tn.gov/environment/program-areas/wr-water-resources-home.html">TDEC Division of Water Resources</a></li>
+<li><a href="https://www.tn.gov/environment/permits/water1.html">TDEC Water Permits</a></li>
+<li><a href="https://www.tn.gov/content/tn/environment/permits/water/aquatic-resource-alteration-permit--arap-.html">Aquatic Resource Alteration Permit</a></li>
+<li><a href="https://www.tn.gov/content/tn/environment/permits/water/npdes-permits.html">NPDES Permits</a></li>
+<li><a href="https://www.tn.gov/environment/program-areas/wr-water-resources/water-quality/water-resources-data-map-viewers.html">TDEC Water Resources Data and Map Viewers</a></li>
+<li><a href="https://www.tn.gov/environment/about-tdec/tdec-dataviewers.html">TDEC Division of Water Resources DataViewer</a></li>
+<li><a href="https://tdec-division-of-water-tdec.hub.arcgis.com/datasets">TDEC Division of Water Resources GIS Data</a></li>
+<li><a href="https://tnpermanentstormwater.org/manual.asp">Tennessee Permanent Stormwater Management and Design Guidance Manual</a></li>
+<li style="padding-bottom: 20px;"><a href="https://www.tn.gov/tdot/state-engineering-technical-training/production-support/design-standards/drainage-manual.html">TDOT Drainage Manual</a></li>
+</ul></div>
+         <div class="widget gsc-heading  align-left style-1 padding-bottom-0 padding-top-0" style="max-width: 800px;" >
+            
+            <div class="heading-content clearfix">
+                              <h3 class="title fsize-18 fweight-600 text-black">
+                  <span>Floodplain & Flood Risk Resources</span>
+               </h3>                           </div>
+            
+            
+         </div>
+         <div class="clearfix"></div>
+         <div class="column-content  " ><ul>
+<li><a href="https://www.tn.gov/tema/nfip/technical-resources.html">TEMA NFIP Technical Resources</a></li>
+<li><a href="https://www.tn.gov/tema/nfip/statewide-floodplain-administrator-directory.html">Statewide Floodplain Administrator Directory</a></li>
+<li><a href="https://www.fema.gov/flood-maps">FEMA Flood Maps</a></li>
+<li><a href="https://msc.fema.gov/">FEMA Flood Map Service Center</a></li>
+<li><a href="https://www.fema.gov/flood-insurance">National Flood Insurance Program</a></li>
+<li style="padding-bottom: 20px;"><a href="https://www.fema.gov/flood-maps/national-flood-hazard-layer">FEMA National Flood Hazard Layer</a></li>
+</ul></div>
+         <div class="widget gsc-heading  align-left style-1 padding-bottom-0 padding-top-0" style="max-width: 800px;" >
+            
+            <div class="heading-content clearfix">
+                              <h3 class="title fsize-18 fweight-600 text-black">
+                  <span>Federal Stormwater & Floodplain Resources</span>
+               </h3>                           </div>
+            
+            
+         </div>
+         <div class="clearfix"></div>
+         <div class="column-content  " ><ul>
+<li><a href="https://www.epa.gov/npdes/stormwater-discharges-municipal-sources">EPA Stormwater Discharges from Municipal Sources</a></li>
+<li><a href="https://www.epa.gov/npdes/npdes-stormwater-program">EPA NPDES Stormwater Program</a></li>
+<li><a href="https://www.usgs.gov/mission-areas/water-resources">USGS Water Resources</a></li>
+<li><a href="https://waterdata.usgs.gov/">USGS National Water Information System</a></li>
+<li style="padding-bottom: 20px;"><a href="https://hdsc.nws.noaa.gov/pfds/">NOAA Atlas 14 Precipitation Frequency Data Server</a></li>
+</ul></div>
+         <div class="widget gsc-heading  align-left style-1 padding-bottom-0 padding-top-0" style="max-width: 800px;" >
+            
+            <div class="heading-content clearfix">
+                              <h3 class="title fsize-18 fweight-600 text-black">
+                  <span>Stormwater & Floodplain Data & Mapping Resources</span>
+               </h3>                           </div>
+            
+            
+         </div>
+         <div class="clearfix"></div>
+         <div class="column-content  " ><ul>
+<li><a href="https://msc.fema.gov/">FEMA Flood Map Service Center</a></li>
+<li><a href="https://hazards-fema.maps.arcgis.com/apps/webappviewer/index.html?id=8b0adb51996444d4879338b5529aa9cd">FEMA National Flood Hazard Layer Viewer</a></li>
+<li><a href="https://tnmap.tn.gov/">TNMap</a></li>
+<li><a href="https://apps.nationalmap.gov/viewer/">USGS National Map Viewer</a></li>
+<li style="padding-bottom: 20px;"><a href="https://waterdata.usgs.gov/">USGS Streamflow and Water Data</a></li>
+</ul></div>	         </div>  
+	      </div>
+        
+	    </div>
+	   
+		<div  class="gsc-column col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12" >
+	      <div class="column-inner bg-size-cover">
+	         <div class="column-content-inner">
+	                       <div class="widget gsc-image text-none "  >
+               <div class="widget-content">
+                   
+                    <img src="https://www.ctas.tennessee.edu/sites/default/files/users/user956/EnvirResWeb-_0001_Stormwater.jpg" alt="Yellow wildflowers growing along a grassy drainage ditch bordered by shrubs and trees." style="max-width:400px" />
+                                 </div>
+            </div>    
+         	         </div>  
+	      </div>
+        
+	    </div>
+	   
+		<div  class="gsc-column col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" >
+	      <div class="column-inner bg-size-cover">
+	         <div class="column-content-inner">
+	           <div class="column-content  " ><hr style="border: none; border-top: 2px solid #ff8200; width: 100%; margin: 20px auto;" /></div>	         </div>  
+	      </div>
+        
+	    </div>
+	   	     	 			</div>
+    				</div>
+  				</div>  
+			  				</div>  
+				  	<div class="gbb-row-wrapper section row-first-level gbb-row bg-size-cover"  style=""  data-onepage-title="Development & Environmental Review">
+		  			    	<div class="bb-inner default">  
+		      	<div class="bb-container container">
+			        	<div class="row row-wrapper">
+							
+		<div  class="gsc-column col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" >
+	      <div class="column-inner bg-size-cover">
+	         <div class="column-content-inner">
+	           
+         <div class="widget gsc-heading  align-left style-1 padding-bottom-0" style="max-width: 800px;" >
+            
+            <div class="heading-content clearfix">
+                              <h2 class="title fweight-600 text-black">
+                  <span>Development & Environmental Review</span>
+               </h2>                           </div>
+            
+            
+         </div>
+         <div class="clearfix"></div>
+         <div class="column-content  " ><p>Resources used during planning, zoning, subdivision review, site development, roadway projects, landfill siting, utility projects, environmental due diligence, and review of natural resource constraints.</p></div>
+         <div class="widget gsc-heading  align-left style-1 padding-bottom-0 padding-top-0" style="max-width: 800px;" >
+            
+            <div class="heading-content clearfix">
+                              <h3 class="title fsize-18 fweight-600 text-black">
+                  <span>Tennessee Development & Environmental Review Resources</span>
+               </h3>                           </div>
+            
+            
+         </div>
+         <div class="clearfix"></div>
+         <div class="column-content  " ><ul>
+<li><a href="https://www.tn.gov/environment/about-tdec/tdec-dataviewers.html">TDEC Data and Map Viewers</a></li>
+<li><a href="https://www.tn.gov/environment/permits.html">TDEC Permits</a></li>
+<li><a href="https://tnmap.tn.gov/">TNMap</a></li>
+<li><a href="https://tn-tnmap.opendata.arcgis.com/">State of Tennessee Open GIS Data</a></li>
+<li><a href="https://tnmap.tn.gov/assessment/">Tennessee Property Viewer</a></li>
+<li><a href="https://comptroller.tn.gov/office-functions/pa/gisredistricting/redistricting-and-land-use-maps/parcel-data.html">Tennessee Comptroller Parcel Data</a></li>
+<li style="padding-bottom: 20px;"><a href="https://www.tn.gov/tdot.html">Tennessee Department of Transportation</a></li>
+</ul></div>
+         <div class="widget gsc-heading  align-left style-1 padding-bottom-0 padding-top-0" style="max-width: 800px;" >
+            
+            <div class="heading-content clearfix">
+                              <h3 class="title fsize-18 fweight-600 text-black">
+                  <span>Natural Resource Review</span>
+               </h3>                           </div>
+            
+            
+         </div>
+         <div class="clearfix"></div>
+         <div class="column-content  " ><ul>
+<li><a href="https://websoilsurvey.nrcs.usda.gov/app/">USDA Web Soil Survey</a></li>
+<li><a href="https://www.fws.gov/program/national-wetlands-inventory/wetlands-mapper">National Wetlands Inventory Mapper</a></li>
+<li><a href="https://www.usace.army.mil/Missions/Civil-Works/Regulatory-Program-and-Permits/">U.S. Army Corps of Engineers Regulatory Program</a></li>
+<li><a href="https://www.usgs.gov/programs/national-geospatial-program/national-map">USGS National Map</a></li>
+<li style="padding-bottom: 20px;"><a href="https://apps.nationalmap.gov/downloader/">USGS National Map Downloader</a></li>
+</ul></div>
+         <div class="widget gsc-heading  align-left style-1 padding-bottom-0 padding-top-0" style="max-width: 800px;" >
+            
+            <div class="heading-content clearfix">
+                              <h3 class="title fsize-18 fweight-600 text-black">
+                  <span>Environmental Site Screening</span>
+               </h3>                           </div>
+            
+            
+         </div>
+         <div class="clearfix"></div>
+         <div class="column-content  " ><ul>
+<li><a href="https://enviro.epa.gov/">EPA Envirofacts</a></li>
+<li><a href="https://echo.epa.gov/">EPA Enforcement and Compliance History Online</a></li>
+<li><a href="https://www.epa.gov/compliance">EPA Compliance</a></li>
+<li><a href="https://www.tn.gov/environment/program-areas/rem-remediation.html">TDEC Division of Remediation</a></li>
+<li style="padding-bottom: 20px;"><a href="https://www.tn.gov/environment/ust.html">TDEC Underground Storage Tanks</a></li>
+</ul></div>
+         <div class="widget gsc-heading  align-left style-1 padding-bottom-0 padding-top-0" style="max-width: 800px;" >
+            
+            <div class="heading-content clearfix">
+                              <h3 class="title fsize-18 fweight-600 text-black">
+                  <span>Development & Environmental Review Data & Mapping Resources</span>
+               </h3>                           </div>
+            
+            
+         </div>
+         <div class="clearfix"></div>
+         <div class="column-content  " ><ul>
+<li><a href="https://tnmap.tn.gov/">TNMap</a></li>
+<li><a href="https://tn-tnmap.opendata.arcgis.com/">State of Tennessee Open GIS Data</a></li>
+<li><a href="https://tnmap.tn.gov/assessment/">Tennessee Property Viewer</a></li>
+<li><a href="https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html">U.S. Census TIGER/Line Shapefiles</a></li>
+<li><a href="https://apps.nationalmap.gov/viewer/">USGS National Map Viewer</a></li>
+<li style="padding-bottom: 20px;"><a href="https://apps.nationalmap.gov/downloader/">USGS National Map Downloader</a></li>
+</ul></div>	         </div>  
+	      </div>
+        
+	    </div>
+	   
+		<div  class="gsc-column col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" >
+	      <div class="column-inner bg-size-cover">
+	         <div class="column-content-inner">
+	           <div class="column-content  " ><hr style="border: none; border-top: 2px solid #ff8200; width: 100%; margin: 20px auto;" /></div>	         </div>  
+	      </div>
+        
+	    </div>
+	   	     	 			</div>
+    				</div>
+  				</div>  
+			  				</div>  
+				  	<div class="gbb-row-wrapper section row-first-level gbb-row bg-size-cover"  style=""  data-onepage-title="GIS Drone Mapping & Spatial Data">
+		  			    	<div class="bb-inner default">  
+		      	<div class="bb-container container">
+			        	<div class="row row-wrapper">
+							
+		<div  class="gsc-column col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12" >
+	      <div class="column-inner bg-size-cover">
+	         <div class="column-content-inner">
+	           
+         <div class="widget gsc-heading  align-left style-1 padding-bottom-0" style="max-width: 800px;" >
+            
+            <div class="heading-content clearfix">
+                              <h2 class="title fweight-600 text-black">
+                  <span>GIS/Drone Mapping & Spatial Data</span>
+               </h2>                           </div>
+            
+            
+         </div>
+         <div class="clearfix"></div>
+         <div class="column-content  " ><p>Geospatial resources supporting county mapping, environmental review, drone operations, infrastructure inventory, emergency management, public information, and site analysis.</p></div>
+         <div class="widget gsc-heading  align-left style-1 padding-bottom-0 padding-top-0" style="max-width: 800px;" >
+            
+            <div class="heading-content clearfix">
+                              <h3 class="title fsize-18 fweight-600 text-black">
+                  <span>Tennessee Mapping & Spatial Data Resources</span>
+               </h3>                           </div>
+            
+            
+         </div>
+         <div class="clearfix"></div>
+         <div class="column-content  " ><ul>
+<li><a href="https://tnmap.tn.gov/">TNMap</a></li>
+<li><a href="https://tn-tnmap.opendata.arcgis.com/">State of Tennessee Open GIS Data</a></li>
+<li><a href="https://tdec-division-of-water-tdec.hub.arcgis.com/datasets">TDEC Division of Water Resources GIS Data</a></li>
+<li style="padding-bottom: 20px;"><a href="https://comptroller.tn.gov/office-functions/pa/gisredistricting/redistricting-and-land-use-maps/parcel-data.html">Tennessee Comptroller Parcel Data</a></li>
+</ul></div>
+         <div class="widget gsc-heading  align-left style-1 padding-bottom-0 padding-top-0" style="max-width: 800px;" >
+            
+            <div class="heading-content clearfix">
+                              <h3 class="title fsize-18 fweight-600 text-black">
+                  <span>Federal Mapping & Spatial Data Resources</span>
+               </h3>                           </div>
+            
+            
+         </div>
+         <div class="clearfix"></div>
+         <div class="column-content  " ><ul>
+<li><a href="https://www.usgs.gov/programs/national-geospatial-program/national-map">USGS National Map</a></li>
+<li><a href="https://apps.nationalmap.gov/downloader/">USGS National Map Downloader</a></li>
+<li><a href="https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html">U.S. Census TIGER/Line Shapefiles</a></li>
+<li style="padding-bottom: 20px;"><a href="https://coast.noaa.gov/digitalcoast/">NOAA Digital Coast</a></li>
+</ul></div>	         </div>  
+	      </div>
+        
+	    </div>
+	   
+		<div  class="gsc-column col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12" >
+	      <div class="column-inner bg-size-cover">
+	         <div class="column-content-inner">
+	                       <div class="widget gsc-image text-none "  >
+               <div class="widget-content">
+                   
+                    <img src="https://www.ctas.tennessee.edu/sites/default/files/users/user956/EnvirResWeb-_0000_Mapping.jpg" alt="Aerial landfill map with contour lines over a dirt disposal area and surrounding vegetation." style="max-width:400px" />
+                                 </div>
+            </div>    
+         	         </div>  
+	      </div>
+        
+	    </div>
+	   
+		<div  class="gsc-column col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" >
+	      <div class="column-inner bg-size-cover">
+	         <div class="column-content-inner">
+	           <div class="column-content  " ><hr style="border: none; border-top: 2px solid #ff8200; width: 100%; margin: 20px auto;" /></div>	         </div>  
+	      </div>
+        
+	    </div>
+	   	     	 			</div>
+    				</div>
+  				</div>  
+			  				</div>  
+				  	<div class="gbb-row-wrapper section row-first-level gbb-row bg-size-cover"  style=""  data-onepage-title="Environmental Compliance">
+		  			    	<div class="bb-inner default">  
+		      	<div class="bb-container container">
+			        	<div class="row row-wrapper">
+							
+		<div  class="gsc-column col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" >
+	      <div class="column-inner bg-size-cover">
+	         <div class="column-content-inner">
+	           
+         <div class="widget gsc-heading  align-left style-1 padding-bottom-0" style="max-width: 800px;" >
+            
+            <div class="heading-content clearfix">
+                              <h2 class="title fweight-600 text-black">
+                  <span>Environmental Compliance</span>
+               </h2>                           </div>
+            
+            
+         </div>
+         <div class="clearfix"></div>
+         <div class="column-content  " ><p>Resources supporting environmental permitting, inspections, regulatory compliance, emergency response, and operational management for county facilities and infrastructure.</p></div>
+         <div class="widget gsc-heading  align-left style-1 padding-bottom-0 padding-top-0" style="max-width: 800px;" >
+            
+            <div class="heading-content clearfix">
+                              <h3 class="title fsize-18 fweight-600 text-black">
+                  <span>Tennessee Environmental Compliance Resources</span>
+               </h3>                           </div>
+            
+            
+         </div>
+         <div class="clearfix"></div>
+         <div class="column-content  " ><ul>
+<li><a href="https://www.tn.gov/environment/permits.html">TDEC Permits</a></li>
+<li><a href="https://www.tn.gov/environment/about-tdec/tdec-dataviewers.html">TDEC Data and Map Viewers</a></li>
+<li><a href="https://www.tn.gov/environment/air.html">TDEC Air Pollution Control</a></li>
+<li><a href="https://www.tn.gov/environment/ust.html">TDEC Underground Storage Tanks</a></li>
+<li><a href="https://www.tn.gov/environment/program-areas/wr-water-resources-home.html">TDEC Water Resources</a></li>
+<li><a href="https://www.tn.gov/environment/program-areas/rem-remediation.html">TDEC Division of Remediation</a></li>
+<li style="padding-bottom: 20px;"><a href="https://www.tn.gov/environment/program-areas/solid-waste/hw.html">TDEC Hazardous Waste Management</a></li>
+</ul></div>
+         <div class="widget gsc-heading  align-left style-1 padding-bottom-0 padding-top-0" style="max-width: 800px;" >
+            
+            <div class="heading-content clearfix">
+                              <h3 class="title fsize-18 fweight-600 text-black">
+                  <span>Federal Environmental Compliance Resources</span>
+               </h3>                           </div>
+            
+            
+         </div>
+         <div class="clearfix"></div>
+         <div class="column-content  " ><ul>
+<li><a href="https://www.epa.gov/">U.S. Environmental Protection Agency</a></li>
+<li><a href="https://www.epa.gov/compliance">EPA Compliance</a></li>
+<li><a href="https://www.osha.gov/">Occupational Safety and Health Administration</a></li>
+<li style="padding-bottom: 20px;"><a href="https://www.usace.army.mil/Missions/Civil-Works/Regulatory-Program-and-Permits/">U.S. Army Corps of Engineers Regulatory Program</a></li>
+</ul></div>
+         <div class="widget gsc-heading  align-left style-1 padding-bottom-0 padding-top-0" style="max-width: 800px;" >
+            
+            <div class="heading-content clearfix">
+                              <h3 class="title fsize-18 fweight-600 text-black">
+                  <span>Environmental Compliance Data & Mapping Resources</span>
+               </h3>                           </div>
+            
+            
+         </div>
+         <div class="clearfix"></div>
+         <div class="column-content  " ><ul>
+<li><a href="https://enviro.epa.gov/">EPA Envirofacts</a></li>
+<li><a href="https://echo.epa.gov/">EPA Enforcement and Compliance History Online</a></li>
+<li style="padding-bottom: 20px;"><a href="https://www.tn.gov/environment/about-tdec/tdec-dataviewers.html">TDEC Data and Map Viewers</a></li>
+</ul></div>	         </div>  
+	      </div>
+        
+	    </div>
+	   
+		<div  class="gsc-column col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" >
+	      <div class="column-inner bg-size-cover">
+	         <div class="column-content-inner">
+	           <div class="column-content  " ><hr style="border: none; border-top: 2px solid #ff8200; width: 100%; margin: 20px auto;" /></div>	         </div>  
+	      </div>
+        
+	    </div>
+	   	     	 			</div>
+    				</div>
+  				</div>  
+			  				</div>  
+				  	<div class="gbb-row-wrapper section row-first-level gbb-row bg-size-cover"  style=""  data-onepage-title="Professional Associations & Training">
+		  			    	<div class="bb-inner default">  
+		      	<div class="bb-container container">
+			        	<div class="row row-wrapper">
+							
+		<div  class="gsc-column col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" >
+	      <div class="column-inner bg-size-cover">
+	         <div class="column-content-inner">
+	           
+         <div class="widget gsc-heading  align-left style-1 padding-bottom-0" style="max-width: 800px;" >
+            
+            <div class="heading-content clearfix">
+                              <h2 class="title fweight-600 text-black">
+                  <span>Professional Associations & Training</span>
+               </h2>                           </div>
+            
+            
+         </div>
+         <div class="clearfix"></div>
+         
+         <div class="widget gsc-heading  align-left style-1 padding-bottom-0 padding-top-0" style="max-width: 800px;" >
+            
+            <div class="heading-content clearfix">
+                              <h3 class="title fsize-18 fweight-600 text-black">
+                  <span>Tennessee Organizations</span>
+               </h3>                           </div>
+            
+            
+         </div>
+         <div class="clearfix"></div>
+         <div class="column-content  " ><ul>
+<li><a href="https://www.tnstormwater.org/">Tennessee Stormwater Association</a></li>
+<li><a href="https://tnrecycles.net/">Tennessee Recycling Coalition</a></li>
+<li><a href="https://www.tnswana.com/">Tennessee Chapter Solid Waste Association of North America</a></li>
+<li><a href="https://www.tswda.org/">Tennessee Solid Waste Directors Association</a></li>
+<li><a href="https://tnafpm.clubexpress.com/">Tennessee Association of Floodplain Managers</a></li>
+<li style="padding-bottom: 20px;"><a href="https://tennessee.apwa.org/">APWA Tennessee Chapter</a></li>
+</ul></div>
+         <div class="widget gsc-heading  align-left style-1 padding-bottom-0 padding-top-0" style="max-width: 800px;" >
+            
+            <div class="heading-content clearfix">
+                              <h3 class="title fsize-18 fweight-600 text-black">
+                  <span>National Organizations</span>
+               </h3>                           </div>
+            
+            
+         </div>
+         <div class="clearfix"></div>
+         <div class="column-content  " ><ul>
+<li><a href="https://swana.org/">Solid Waste Association of North America</a></li>
+<li><a href="https://www.apwa.org/">American Public Works Association</a></li>
+<li><a href="https://www.naco.org/">National Association of Counties</a></li>
+<li><a href="https://icma.org/">International City/County Management Association</a></li>
+<li><a href="https://www.wef.org/">Water Environment Federation</a></li>
+<li style="padding-bottom: 20px;"><a href="https://www.awwa.org/">American Water Works Association</a></li>
+</ul></div>	         </div>  
+	      </div>
+        
+	    </div>
+	   	     	 			</div>
+    				</div>
+  				</div>  
+			  				</div>  
+				  	<div class="gbb-row-wrapper section row-first-level gbb-row bg-size-cover"  style=""  >
+		  			    	<div class="bb-inner ">  
+		      	<div class="bb-container container">
+			        	<div class="row row-wrapper">
+							
+		<div  class="gsc-column col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" >
+	      <div class="column-inner bg-size-cover">
+	         <div class="column-content-inner">
+	           <div class="column-content  " ><hr style="border: none; border-top: 1px solid #58595b; width: 100%; margin: 20px auto;" /></div><div class="column-content  " ><p><span style="color: #333333;"><em><span style="font-size: 10pt;"> External links are provided as a convenience to Tennessee county officials. CTAS does not control external websites and does not guarantee that linked content is complete, current, or applicable to every local situation. Counties should consult applicable laws, regulations, permits, agency staff, and county attorney guidance when making formal decisions.</span> </em></span></p></div>	         </div>  
+	      </div>
+        
+	    </div>
+	   	     	 			</div>
+    				</div>
+  				</div>  
+			  				</div>  
+				  	<div class="gbb-row-wrapper section row-first-level gbb-row bg-size-cover"  style=""  >
+		  			    	<div class="bb-inner ">  
+		      	<div class="bb-container container">
+			        	<div class="row row-wrapper">
+							
+		<div  class="gsc-column col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" >
+	      <div class="column-inner bg-size-cover">
+	         <div class="column-content-inner">
+	           <div class="column-content  " ><hr style="border: none; border-top: 2px solid #ff8200; width: 100%; margin: 20px auto;" /></div>	         </div>  
+	      </div>
+        
+	    </div>
+	   
+		<div  class="gsc-column col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" >
+	      <div class="column-inner bg-size-cover">
+	         <div class="column-content-inner">
+	           
+         <div class="widget gsc-heading  align-left style-1 " style="max-width: 800px;" >
+            
+            <div class="heading-content clearfix">
+               <div class="sub-title fweight-500 text-gray"><span>Best Practices</span></div>               <h2 class="title fweight-600 text-black">
+                  <span>Tennessee County Convenience Center Operators</span>
+               </h2>                                 <div class="title-desc lheight-16 fsize-16 text-gray"><p>This video series, produced by the Tennessee Department of Environment and Conservation, provides guidance and best practices for operators of county convenience centers. If you have any questions, please reach out to <a href="mailto:ctas.support@tennessee.edu?subject=Question%20about convenience center best practice videos">ctas.support@tennessee.edu</a>.</p></div>
+                           </div>
+            
+                           <div class="heading-action clearfix no-margin">
+                  <a href="https://www.tn.gov/environment/program-areas/sw-solid-waste.html" class="btn-theme"><span>Visit TDEC Solid Waste</span></a>
+               </div>
+            
+         </div>
+         <div class="clearfix"></div>
+         	         </div>  
+	      </div>
+        
+	    </div>
+	   
+		<div  class="gsc-column col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12" >
+	      <div class="column-inner bg-size-cover">
+	         <div class="column-content-inner">
+	                 
+        
+
+               <div class="widget gsc-video-box  clearfix style-2" >
+            <div class="video-inner">
+               <div class="image text-center">
+                                       <img src="https://www.ctas.tennessee.edu/sites/default/files/2024-02/tdec_convenience_center_ops_part_1.png" alt="Best Practices for Tennessee Convenience Center Operators - Part 1"/>
+                     
+                  <a class="popup-video gsc-video-link" href="https://www.youtube.com/watch?v=-mJv9gKLsSE"><span class="icon"><i class="fa fa-play"></i></span></a>
+               </div>
+            </div> 
+                           <div class="video-content">
+                  <div class="link-video">
+                     <a class="popup-video gsc-video-link" href="https://www.youtube.com/watch?v=-mJv9gKLsSE">
+                        Best Practices for Tennessee Convenience Center Operators - Part 1                     </a>
+                  </div> 
+                  <div class="button-review">
+                     <a href="https://www.youtube.com/watch?v=-mJv9gKLsSE">Review</a>
+                  </div>
+               </div>   
+               
+         </div>  
+       
+      
+      	         </div>  
+	      </div>
+        
+	    </div>
+	   
+		<div  class="gsc-column col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12" >
+	      <div class="column-inner bg-size-cover">
+	         <div class="column-content-inner">
+	                 
+        
+
+               <div class="widget gsc-video-box  clearfix style-2" >
+            <div class="video-inner">
+               <div class="image text-center">
+                                       <img src="https://www.ctas.tennessee.edu/sites/default/files/2024-02/tdec_convenience_center_ops_part_2.png" alt="Best Practices for Tennessee Convenience Center Operators - Part 2"/>
+                     
+                  <a class="popup-video gsc-video-link" href="https://www.youtube.com/watch?v=1o99wl0Q2Bo"><span class="icon"><i class="fa fa-play"></i></span></a>
+               </div>
+            </div> 
+                           <div class="video-content">
+                  <div class="link-video">
+                     <a class="popup-video gsc-video-link" href="https://www.youtube.com/watch?v=1o99wl0Q2Bo">
+                        Best Practices for Tennessee Convenience Center Operators - Part 2                     </a>
+                  </div> 
+                  <div class="button-review">
+                     <a href="https://www.youtube.com/watch?v=1o99wl0Q2Bo">Review</a>
+                  </div>
+               </div>   
+               
+         </div>  
+       
+      
+      	         </div>  
+	      </div>
+        
+	    </div>
+	   
+		<div  class="gsc-column col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12" >
+	      <div class="column-inner bg-size-cover">
+	         <div class="column-content-inner">
+	                 
+        
+
+               <div class="widget gsc-video-box  clearfix style-2" >
+            <div class="video-inner">
+               <div class="image text-center">
+                                       <img src="https://www.ctas.tennessee.edu/sites/default/files/2024-02/tdec_convenience_center_ops_part_3.png" alt="Best Practices for Tennessee Convenience Center Operators - Part 3"/>
+                     
+                  <a class="popup-video gsc-video-link" href="https://www.youtube.com/watch?v=GkMYtdNN7Jc"><span class="icon"><i class="fa fa-play"></i></span></a>
+               </div>
+            </div> 
+                           <div class="video-content">
+                  <div class="link-video">
+                     <a class="popup-video gsc-video-link" href="https://www.youtube.com/watch?v=GkMYtdNN7Jc">
+                        Best Practices for Tennessee Convenience Center Operators - Part 3                     </a>
+                  </div> 
+                  <div class="button-review">
+                     <a href="https://www.youtube.com/watch?v=GkMYtdNN7Jc">Review</a>
+                  </div>
+               </div>   
+               
+         </div>  
+       
+      
+      	         </div>  
+	      </div>
+        
+	    </div>
+	   	     	 			</div>
+    				</div>
+  				</div>  
+			  				</div>  
+		</div>
+  </div>
+</article>
+
+    </div>
+  </div>
+
+  </div>
+
+					</div>
+				
+							</div>
+
+		</div>
+
+		<!-- Sidebar Left -->
+				<!-- End Sidebar Left -->
+
+		<!-- Sidebar Right -->
+				<!-- End Sidebar Right -->
+		
+	</div>
+</div>
+				</div>
+			</div>
+
+			
+						
+		</div>
+	</div>
+
+	
+<footer id="footer" class="footer">
+  <div class="footer-inner">
+    
+         
+     <div class="footer-center">
+        <div class="container">      
+           <div class="row">
+                              <div class="footer-first col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 footer-column">
+                    <div>
+    <div id="block-daudo-subtheme-contactus" class="block block-block-content block-block-content11a9c3cb-c3a9-4392-a6c0-3aea43eea254">
+  
+      <h2 class="block-title" ><span>Contact Us</span></h2>
+    
+      <div class="content block-content">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><ul class="menu"><li>University of Tennessee County Technical</li><li>Assistance Service (CTAS)</li><li>226 Anne Dallas Dudley Boulevard, Suite 400</li><li>Nashville, Tennessee 37219</li><li>Phone: 615.532.3555</li><li>Fax: 615.532.3555</li><li><a href="http://www.ctas.tennessee.edu/">www.ctas.tennessee.edu</a></li></ul></div>
+      
+    </div>
+  </div>
+
+  </div>
+
+                </div> 
+              
+                             <div class="footer-second col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 footer-column">
+                    <div>
+    <div id="block-daudo-subtheme-ctasleftfooterblock" class="block block-block-content block-block-content5f2d2add-18de-405e-a049-3d75fbdc6ca3">
+  
+      <h2 class="block-title" ><span>Quick Links</span></h2>
+    
+      <div class="content block-content">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><ul class="menu"><li><a href="/our-services">Services Provided by CTAS</a></li><li><a href="/staff">CTAS&nbsp;Staff</a></li><li><a href="https://www.ctas.tennessee.edu/service-area-maps">Service Area Maps</a></li><li><a href="/strategic-plan" target="_blank">Strategic Plan</a></li><li><a href="/ctas-recruitment">CTAS Recruitment</a></li><li><a href="https://www.ips.tennessee.edu/public-service-internships" target="_blank" rel="noopener">IPS Internships</a></li><li><a href="/county-employment">County Employment</a></li><li><a href="/contact-ctas">Contact Us</a></li></ul></div>
+      
+    </div>
+  </div>
+
+  </div>
+
+                </div> 
+              
+                              <div class="footer-third col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 footer-column">
+                    <div>
+    <div id="block-daudo-subtheme-ipsagencies" class="block block-block-content block-block-content75022cdd-3027-46da-ae43-d55d7a754629">
+  
+      <h2 class="block-title" ><span>IPS Agencies</span></h2>
+    
+      <div class="content block-content">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><ul class="menu"><li><a href="https://www.cis.tennessee.edu" target="_blank">Center for Industrial Services (CIS)</a></li><li><a href="https://www.ips.tennessee.edu/agencies#CLP">Center for Local Planning (CLP)</a></li><li><a href="https://www.ctas.tennessee.edu">County Technical Assistance Service (CTAS)</a></li><li><a href="https://www.leic.tennessee.edu" target="_blank">Law Enforcement Innovation Center (LEIC)</a></li><li><a href="https://www.mtas.tennessee.edu" target="_blank">Municipal Technical Assistance Service (MTAS)</a></li><li><a href="https://leadership.tennessee.edu/" target="_blank">Naifeh Center for Effective Leadership (NCEL)</a></li><li><a href="https://smart.ips.tennessee.edu/">Substance Misuse and Addiction Resource for Tennessee (SMART)</a></li><li><a href="https://tfli.org/">Tennessee Language Center (TLC)</a></li></ul><p><a href="https://audit.tennessee.edu/report-concerns/" target="_self"><img src="/sites/default/files/CTAS/compliance-hotline-button.png" data-entity-uuid data-entity-type alt="CTAS Compliance Hotline" width="200" height="46" loading="lazy"></a></p></div>
+      
+    </div>
+  </div>
+
+  </div>
+
+                </div> 
+              
+                         </div>   
+        </div>
+    </div>  
+
+    
+  </div>   
+
+      <div class="copyright">
+      <div class="container">
+        <div class="copyright-inner">
+              <div>
+    <div id="block-daudo-subtheme-copyright" class="block block-block-content block-block-content963a5d72-55d4-4021-8498-04423a8bb7a2 no-title">
+  
+    
+      <div class="content block-content">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="row">
+    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-6 col-xs-12">
+        <ul>
+            <li><a href="/site-map">Site Map</a></li>
+            <li><a href="/disclaimer">Disclaimer</a></li>
+            <li><a href="/indicia">Indicia</a></li>
+            <li><a href="/privacy-statement">Privacy</a></li>
+            <li><a href="/accessibility">Accessibility</a></li>
+            <li><a href="/eeo">EEO/AA Statement/Non-Discrimination Statement</a></li>
+        </ul>
+    </div>
+    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div class="social-copyright">
+            <div class="socials">
+                <a href="https://www.facebook.com/utctas"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/company/utctas"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.youtube.com/@utctas"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-6 col-xs-12">
+        <ul>
+            <li><a href="https://staff.ctas.tennessee.edu/D2I/D2I.htm">D2I</a></li>
+            <li><a href="/user">Contractor Login</a></li>
+            <li><a href="/portal">Staff Portal</a></li>
+        </ul>
+    </div></div>
+      
+    </div>
+  </div>
+
+  </div>
+
+        </div>   
+      </div>   
+    </div>
+  
+</footer>
+</div>
+
+
+  </div>
+
+    
+    <script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/version-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/data-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/disable-selection-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/jquery-patch-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/scroll-parent-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/unique-id-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/focusable-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/keycode-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/plugin-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widget-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/labels-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/controlgroup-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/form-reset-mixin-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/mouse-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/checkboxradio-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/draggable-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/resizable-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/button-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/dialog-min.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/tabbable/index.umd.min.js?v=6.3.0"></script>
+<script src="/core/assets/vendor/tua-body-scroll-lock/tua-bsl.umd.min.js?v=10.6.18"></script>
+<script src="/modules/custom/book_search/js/add.js?tmdqk2"></script>
+<script src="/modules/contrib/ckeditor_accordion/js/accordion.frontend.min.js?tmdqk2"></script>
+<script src="/modules/contrib/extlink/js/extlink.js?tmdqk2"></script>
+<script src="/modules/contrib/gva_blockbuilder/vendor/skrollr.min.js?v=1.x"></script>
+<script src="/modules/contrib/gva_blockbuilder/vendor/main.js?v=1.x"></script>
+<script src="/modules/custom/gavias_pagebuilder/vendor/skrollr.min.js?v=1.x"></script>
+<script src="/modules/custom/gavias_pagebuilder/vendor/main.js?v=1.x"></script>
+<script src="/modules/contrib/google_analytics/js/google_analytics.js?v=10.6.18"></script>
+<script src="/modules/custom/my_user_name/js/my_user_name.js?v=1.x"></script>
+<script src="/core/misc/progress.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/loadjs/loadjs.min.js?v=4.3.0"></script>
+<script src="/core/misc/debounce.js?v=10.6.18"></script>
+<script src="/core/misc/announce.js?v=10.6.18"></script>
+<script src="/core/misc/message.js?v=10.6.18"></script>
+<script src="/core/misc/ajax.js?v=10.6.18"></script>
+<script src="/core/misc/displace.js?v=10.6.18"></script>
+<script src="/core/misc/jquery.tabbable.shim.js?v=10.6.18"></script>
+<script src="/core/misc/position.js?v=10.6.18"></script>
+<script src="/core/misc/dialog/dialog-deprecation.js?v=10.6.18"></script>
+<script src="/core/misc/dialog/dialog.js?v=10.6.18"></script>
+<script src="/core/misc/dialog/dialog.position.js?v=10.6.18"></script>
+<script src="/core/misc/dialog/dialog.jquery-ui.js?v=10.6.18"></script>
+<script src="/core/modules/ckeditor5/js/ckeditor5.dialog.fix.js?v=10.6.18"></script>
+<script src="/core/misc/dialog/dialog.ajax.js?v=10.6.18"></script>
+<script src="/modules/contrib/webform/js/webform.drupal.dialog.js?tmdqk2"></script>
+<script src="/modules/contrib/webform/js/webform.dialog.js?tmdqk2"></script>
+
+    
+        <div id="gva-overlay"></div>
+  </body>
+</html>
