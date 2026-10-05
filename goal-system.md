@@ -2,7 +2,7 @@
 
 **Overall: IN PROGRESS.** Source acceptance criteria below are preserved verbatim in `goal-system.json`. Evidence entries are empty until attributable independent verification is recorded. A static candidate, file, link or passing software check never establishes real-world completion. No percentage. No pilot has been selected.
 
-Software candidate: local-only. Eight executed gates passed on pristine Git tree `9af00b6fbb9398ce37746bfea069351924dc9d5f`: static, community-browser, earth-timeline, sweep, chapter2, stage-fit, flight and copy-collision. The updated register and regression checks require a fresh full run before local commit. These are software checks, not comprehensive accessibility certification, factual acceptance, deployment, county-service verification or environmental outcomes. User-authorized public release remains pending parent review/gates/live readback. External intake/outreach, paid services, sampling and recurring work: NOT AUTHORIZED.
+Release preparation: Michael authorized public publication and a one-time merge-size exception for PR #10 in Telegram thread 146207. Independent review findings were addressed. Final pristine-export software checks and live deployment readback are required before reporting a completed release. Historical test receipts below do not assert a test of this exact tree; current receipts are stored outside the source tree to avoid self-referential tree hashes. Passing software checks are not comprehensive accessibility certification, factual acceptance, county-service verification or environmental outcomes. External intake/outreach, paid services, sampling and recurring work: NOT AUTHORIZED.
 
 ## Original acceptance criteria and per-criterion gate
 
@@ -91,11 +91,11 @@ Software candidate: local-only. Eight executed gates passed on pristine Git tree
 
 See `community-resources/evidence-register.md` for failed retrievals and source limits. Loudon County practical visitor coverage is now source-backed; no G2 pilot-selection completion, independent provider confirmation, legal approval, deployed release or environmental outcome is claimed.
 
-## Visitor-answer slice — source-backed, local-only
+## Visitor-answer slice — source-backed; release verification pending
 
 - Primary county coverage is Loudon County alongside the existing Matlock dossier; statewide referrals do not imply statewide completeness or a completed G2 pilot selection.
 - Implemented: three local center cards with published addresses/hours/material rules and explicit unknown terms; two household well-testing kits with published prices/analytes and provider-specific return instructions; official agency routing/records links and phone/mail fallbacks; CU no-charge rural household assessment/testing and repayable well/septic loan routes; editable copy/print drafts that never submit.
 - Evidence: `community-resources/archive/visitor/receipts.json`, individual raw responses/headers/quotations, and `visitor-evidence.html`. Failed TLS, 403 and 404 responses are retained, not promoted to evidence for substantive claims. Scanned certificate validity is not independently established.
 - County terms, local walk-in lab acceptance, tire/mattress/bulk receiving routes, HHW event schedule, Tap Score holding time/assigned lab, CU capacity/panel/current loan limits and fees, independent TN method/analyte approval, county records mail conflicts and formal legal filing remain unresolved. Contact fallbacks are functional visitor choices, not verified receiving outcomes.
-- User authorized publication. Parent owns release after fresh eight gates, independent review, the existing under-400-line landing rule/split decision and live readback. This writer slice cannot publish. The prior test tree in JSON is historical; fresh tested-tree receipts are handed back separately to avoid self-referential tree claims.
+- User authorized publication. Parent owns release after fresh eight gates and live readback. Independent review findings were addressed; Michael authorized the one-time PR #10 merge-size exception. The prior test tree in JSON is historical; fresh tested-tree receipts are handed back separately to avoid self-referential tree claims.
 - No external request, call, application, payment, sampling, signup or recurring job occurred. Site intake remains disabled. No county service delivered or environmental goal completed. All original acceptance criteria and dependencies remain intact.

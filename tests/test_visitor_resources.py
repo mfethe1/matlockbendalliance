@@ -127,7 +127,7 @@ class VisitorResources(unittest.TestCase):
                       'unknown does not mean free or accepted',
                       'Ask TDEC cannot accept formal complaints',
                       'a loan, not a household grant',
-                      'numeric', 'independently', 'local-only'):
+                      'numeric', 'independently', 'Coverage'):
             # Numeric holding time is worded "numerical" in the card.
             self.assertIn('numerical' if limit=='numeric' else limit,text)
         self.assertIn('$34,345 as the household limit',text)

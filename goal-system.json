@@ -11,7 +11,7 @@
     "external_outreach": false,
     "paid_services": false,
     "sampling": false,
-    "release_scope": "User authorized publication; parent owns release after independent review/gates. This slice has no deployment or outreach permission."
+    "release_scope": "User authorized publication and a one-time PR #10 merge-size exception in Telegram thread 146207; parent owns gated release and live readback. No outreach permission."
   },
   "policy": {
     "statuses": [
@@ -750,7 +750,7 @@
         "G5"
       ],
       "owner": "Release approver and independent QA",
-      "clearing_condition": "User release authorization is present; still require fresh eight gates on clean export, independent review, under-400-line landing policy/split decision and live readback by parent. Slice cannot deploy."
+      "clearing_condition": "Publication and one-time PR #10 merge-size exception authorized in Telegram thread 146207; independent review findings addressed. Require final eight gates on pristine export and live deployment readback by parent."
     },
     {
       "id": "B-OUTCOMES",
@@ -764,7 +764,7 @@
     }
   ],
   "visitor_resource_slice": {
-    "status": "implemented_source_backed_pending_independent_review",
+    "status": "implemented_source_backed_review_findings_addressed_pending_release_verification",
     "county_coverage": "Loudon County (existing Matlock dossier), not G2 statewide pilot selection or statewide completeness",
     "implemented": [
       "Three county center cards and distinct HHW referral",
@@ -818,6 +818,6 @@
       "fees/collateral",
       "underwriting/funding availability"
     ],
-    "release": "local only; independent review, size/split policy and parent release gate still required"
+    "release": "PR #10 publication and one-time size exception authorized; independent review findings addressed; final pristine gates and live readback required"
   }
 }
