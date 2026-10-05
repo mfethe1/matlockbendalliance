@@ -1,0 +1,20 @@
+{
+  "id": "L20",
+  "requested_url": "https://www.rd.usda.gov/media/file/download/508-rd-fs-rhs-sfh504homerepair.pdf",
+  "retrieved_at": "2026-10-05T17:36:10.511586+00:00",
+  "status": 403,
+  "final_url": "https://www.rd.usda.gov/media/file/download/508-rd-fs-rhs-sfh504homerepair.pdf",
+  "redirect_count": 0,
+  "curl_exit": 0,
+  "error": null,
+  "bytes": 459,
+  "sha256": "37fd08d01211c919d12796fa9cca9403ba68a90950507add4f3cc456481e783f",
+  "content_type": "text/html",
+  "source_date": null,
+  "event_date": null,
+  "quotations": [],
+  "scope": "Retrieved wording only; not independent acceptance or live capacity.",
+  "links": [],
+  "claim_scope": "USDA PDF blocked: no substantive program claim accepted",
+  "extraction_method": "Python HTMLParser visible text excluding script/style"
+}

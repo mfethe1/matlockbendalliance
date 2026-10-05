@@ -1,0 +1,19 @@
+{
+  "id": "L22",
+  "requested_url": "https://cdn.shopify.com/s/files/1/2352/5289/files/TN_analytes_EXP_20260630.pdf?v=1759937313",
+  "retrieved_at": "2026-10-05T17:38:06.014745+00:00",
+  "status": 200,
+  "final_url": "https://cdn.shopify.com/s/files/1/2352/5289/files/TN_analytes_EXP_20260630.pdf?v=1759937313",
+  "redirect_count": 0,
+  "curl_exit": 0,
+  "error": null,
+  "bytes": 1072722,
+  "sha256": "cef20934b9a9e3d5ee7f3fc71f9557f115b8c775317a3ab642cc98a5deb18622",
+  "content_type": "application/pdf",
+  "source_date": null,
+  "event_date": null,
+  "quotations": [],
+  "scope": "Retrieved wording only; not independent acceptance or live capacity.",
+  "claim_scope": "Provider-linked TN certificate is scanned; no current validity claim accepted",
+  "extraction_method": "pdftotext -layout; L21 timing visually read on rendered page 1, layered extraction is lossy; L22 scanned/unreadable without OCR"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "L19",
+  "requested_url": "https://loudoncounty-tn.gov/wp-content/uploads/2025/03/20170810_PublicRecordsPolicy_Mayor.pdf",
+  "retrieved_at": "2026-10-05T17:36:10.399127+00:00",
+  "status": 200,
+  "final_url": "https://loudoncounty-tn.gov/wp-content/uploads/2025/03/20170810_PublicRecordsPolicy_Mayor.pdf",
+  "redirect_count": 0,
+  "curl_exit": 0,
+  "error": null,
+  "bytes": 54259,
+  "sha256": "9a208cf70eb1eac295e4a81003af02b4a0c0ff613e4790184fb42e73a0c5f494",
+  "content_type": "application/pdf",
+  "source_date": null,
+  "event_date": null,
+  "quotations": [
+    "Requests for copies (or inspection and copies) shall be made in writing using the attached form titled \u201cPublic Records Request Form.\u201d",
+    "publicrecordrequests@loudoncounty-tn.gov",
+    "100 River Road, Suite 103",
+    "Suite 106",
+    "Tennessee citizenship"
+  ],
+  "scope": "Retrieved wording only; not independent acceptance or live capacity.",
+  "claim_scope": "Older county Mayor policy: citizenship, form, email/suite conflicts; confirm before mail",
+  "extraction_method": "pdftotext -layout; L21 timing visually read on rendered page 1, layered extraction is lossy; L22 scanned/unreadable without OCR"
+}

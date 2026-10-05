@@ -10,7 +10,7 @@ from html.parser import HTMLParser
 from urllib.parse import urlsplit, unquote
 from urllib.request import urlopen
 ROOT = Path(__file__).resolve().parent.parent
-SURFACES = ['index.html', 'statewide/index.html', 'community-resources/index.html', 'community-resources/templates.html', 'evidence/index.html', 'goals/index.html', 'corrections/index.html', 'about/accessibility-privacy.html']
+SURFACES = ['index.html', 'statewide/index.html', 'community-resources/index.html', 'community-resources/templates.html', 'community-resources/visitor-drafts.html', 'community-resources/visitor-evidence.html', 'evidence/index.html', 'goals/index.html', 'corrections/index.html', 'about/accessibility-privacy.html']
 class Links(HTMLParser):
     def __init__(self):
         super().__init__(); self.links = []; self.ids = set()
@@ -37,7 +37,10 @@ class Candidate(unittest.TestCase):
                 else:
                     self.assertEqual(item['evidence'], [])
         self.assertEqual(got['baseline']['outreach_sent'],0)
-        self.assertFalse(got['authorization']['public_publish'])
+        self.assertTrue(got['authorization']['public_publish'])
+        for key in ('external_outreach','paid_services','sampling','recurring_jobs'):
+            self.assertFalse(got['authorization'][key])
+        self.assertIn('parent',got['authorization']['release_scope'].lower())
     def test_forms_disabled_and_chronology_correct(self):
         home=(ROOT/'index.html').read_text()
         self.assertNotIn('<form',home.lower())

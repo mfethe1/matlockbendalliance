@@ -1,0 +1,69 @@
+HTTP/2 301 
+date: Mon, 05 Oct 2026 17:38:05 GMT
+content-type: text/html; charset=UTF-8
+location: https://communitiesu.org/environmental/private-well-and-septic/
+cf-ray: a45e32b17a253e8f-ATL
+cf-cache-status: DYNAMIC
+cache-control: no-transform
+server: cloudflare
+x-content-type-options: nosniff
+x-edge-location-klb: 1
+ki-cache-type: None
+ki-edge: v=28.5.0;mv=99.9.9
+ki-origin: g1p
+x-kinsta-cache: MISS
+x-redirect-by: Yoast SEO Premium
+set-cookie: __cf_bm=7OY.TDFD6bXJUbPxwAod6d0R8bdPnCHt9ehmLn5x.Kc-1791221885.674955-1.0.1.1-84zIWlaOoyL20X9dxxS.0zlcp6bi2ret6.DRIpAeMLZxjouOou8QXaNOvjqDC_tKu8QMasQHep3IPzrRu32uvE_O7PUNW5qRbWm0sLm2bK0wXE8pkIjgciIoCRm1jpBx; HttpOnly; SameSite=None; Secure; Path=/; Domain=communitiesu.org; Expires=Mon, 05 Oct 2026 18:08:05 GMT
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=gI9nws82eT0FJV%2FyiAb%2FTi7wkI3hX6OoGvtWZkMwIbfE6%2F9LaSfaUWIewHrCKR2wbtUenE3KwhHkO2wp0b1JofLHATv5bJOGsgoUKB0Q9Nkpw7%2FT6H0H67THfkEAq%2FUnzuw%3D"}]}
+nel: {"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}
+alt-svc: h3=":443"; ma=86400
+
+HTTP/2 301 
+date: Mon, 05 Oct 2026 17:38:06 GMT
+content-type: text/html; charset=UTF-8
+location: https://communitiesu.org/rural-water-and-wastewater/private-well-and-septic/
+cf-ray: a45e32b40af23e8f-ATL
+cf-cache-status: DYNAMIC
+cache-control: max-age=3600, no-transform
+expires: Mon, 05 Oct 2026 18:38:06 GMT
+server: cloudflare
+x-content-type-options: nosniff
+x-edge-location-klb: 1
+ki-cache-type: None
+ki-edge: v=28.5.0;mv=99.9.9
+ki-origin: g1p
+x-kinsta-cache: MISS
+x-redirect-by: WPML
+set-cookie: __cf_bm=aEcE1F.JJpSRWj7.ng6XXJefOKKTXqEaGtzHVXv2.Fo-1791221886.0884724-1.0.1.1-wNhlXs96qzaQyadsVS3jo06ZtGUwruHuBT3ehjfnfVyk6gxm4jI.kOLFjLtLZarqDSnzy5sC6uwIlGTf99vYkHlLIjYjcbLSq8328QZFJ.5j6QmT.97Z49GfWHVU3a0Q; HttpOnly; SameSite=None; Secure; Path=/; Domain=communitiesu.org; Expires=Mon, 05 Oct 2026 18:08:06 GMT
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=ETJU62OAgCzU%2Bp8uwjxpsjHDxsiF64sxfXH3nJ9OucxMC%2FOYwkC0wL%2FWpLUSIRHIByioUaMidVpXK4ve09jZ6r8dGHXAX0veKmkir8lMA2b%2F74%2F%2BEmcny5s0lt6QiQcOmA4%3D"}]}
+nel: {"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}
+alt-svc: h3=":443"; ma=86400
+
+HTTP/2 200 
+date: Mon, 05 Oct 2026 17:38:06 GMT
+content-type: text/html; charset=UTF-8
+cf-ray: a45e32b859cc3e8f-ATL
+cf-cache-status: DYNAMIC
+cache-control: public, max-age=0, s-maxage=7200
+nel: {"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}
+server: cloudflare
+strict-transport-security: max-age=2592000
+vary: Accept-Encoding
+cache-tag: e10c6d86-cc8f-4de0-a36b-d4e4ceea7ea2,34a1b7e0730ea1b81c740d7ef8a05d77b23d67ebc2a6318a956fac0e32e4dea7
+ki-cf-cache-status: SAVING
+x-edge-location-klb: 1
+disabled-plugins: 0 on 2026-10-05 04:25:09
+ki-cache-tag: e10c6d86-cc8f-4de0-a36b-d4e4ceea7ea2,34a1b7e0730ea1b81c740d7ef8a05d77b23d67ebc2a6318a956fac0e32e4dea7
+ki-cache-type: None
+ki-edge: v=28.5.0;mv=99.9.9
+ki-origin: g1p
+permissions-policy: accelerometer=(self), autoplay=(self), camera=(self), encrypted-media=(self), fullscreen=(self), geolocation=(self), gyroscope=(self), magnetometer=(self), microphone=(self), midi=(self), payment=(self), usb=(self)
+referrer-policy: origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+x-kinsta-cache: HIT
+x-xss-protection: 1
+set-cookie: __cf_bm=ufA9xutpvAlm6O6Bll6lHV0hsfUZ7HjvJvTiX9oGw_Y-1791221886.7752693-1.0.1.1-LVYfR4De7K6jd0K7Xc1ckvmgo9pxBfSNYabOGoVaOLVqr9mS8PrmruXtt6Gu3igfuoI3VBcSaqcb5d.f2Jts4zzC3SEu6KAiO96cbHBE2wACmRGCmNWoP2NM0bBu3WUj; HttpOnly; SameSite=None; Secure; Path=/; Domain=communitiesu.org; Expires=Mon, 05 Oct 2026 18:08:06 GMT
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=OdTwzziMhP9KldKUDyjQNdme7%2Brd0RAP4knSSsPBDDpvE8g99ZP81k3%2FpuF%2BmcLWTHszqEvlIN0PwSa%2FEDoDqO%2BqUwF3JLO63%2BV%2FBrimjRMradbMm1XfbedoJcsWfMdNAgw%3D"}]}
+alt-svc: h3=":443"; ma=86400
+

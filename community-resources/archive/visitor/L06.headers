@@ -1,0 +1,35 @@
+HTTP/2 103 
+link: <https://cdn.shopify.com>; rel=preconnect, <https://cdn.shopify.com>; crossorigin; rel=preconnect
+
+HTTP/2 200 
+date: Mon, 05 Oct 2026 17:35:08 GMT
+content-type: text/html; charset=utf-8
+x-dc: gcp-us-east1,gcp-us-east1,gcp-us-east1
+x-download-options: noopen
+vary: Accept-Encoding, Accept
+cf-cache-status: DYNAMIC
+set-cookie: localization=US; path=/; expires=Tue, 05 Oct 2027 17:35:08 GMT; secure; SameSite=None
+set-cookie: cart_currency=USD; path=/; expires=Mon, 19 Oct 2026 17:35:08 GMT; secure; SameSite=None
+set-cookie: _shopify_essential=:AaENIjcuAAEAhxaTHCELAsaLoXA4Q-75fmGCo51MQCxBFZwT8hETz7n3PC1EXTe5iJ2zdv-LMl2quvI-iKI0RUjn-mc:; Max-Age=31536000; Path=/; HttpOnly; Secure; Priority=High; SameSite=None
+link: </cart/8211158892641:1?ucp/version=2026-08-25&context/payment/0/handler=dev.shopify.shop_pay>; rel="buy"; payment="dev.shopify.shop_pay com.google.pay dev.shopify.card", <https://cdn.shopify.com>; rel="preconnect", <https://cdn.shopify.com>; rel="preconnect"; crossorigin, </.well-known/ucp>; rel="ucp"; version="2026-08-25"
+nel: {"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}
+shopify-complexity-score: 0
+shopify-complexity-score-v2: 85
+content-security-policy: block-all-mixed-content; frame-ancestors *; upgrade-insecure-requests;
+access-control-allow-origin: *
+strict-transport-security: max-age=7889238
+cdn-cache-control: no-cache, no-store
+content-language: en-US
+accept-ch: Sec-CH-Viewport-Width
+cache-control: private, max-age=0, must-revalidate
+powered-by: Shopify
+server-timing: processing;dur=92;desc="gc:5", streaming;dur=0, db;dur=30, db_async;dur=41.0, asn;desc="30600", edge;desc="ATL", country;desc="US", theme;desc="154290946299", pageType;desc="product", servedBy;desc="clps", requestID;desc="dd0b35da-c8a1-43da-aa07-50c0fa26aa32-1791221708", _y;desc="00000000-0000-0000-5000-000000000000", _s;desc="00000000-0000-0000-5000-000000000000", _cmp;desc="3.ampS_USIN_t_t_wPSYuBtKRXCHLDm3z3c9Hg", _cta;desc="1", _ye;desc="1822779308", _se;desc="1791223508", earlyhints
+x-request-id: dd0b35da-c8a1-43da-aa07-50c0fa26aa32-1791221708
+alt-svc: h3=":443"; ma=86400
+x-xss-protection: 1; mode=block
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=whlopyrchCzOhmKMp6BKioEc5Ehhaf70OYDimT6H%2BBaV5k1%2FpTKA2q6yw7pShTjEsphPy1UjOq3N9oMOw2Mdjksa5cbRcCDGhf53RjMUYHwFMPcY3qIom3LjqIdDOmnn"}]}
+x-content-type-options: nosniff
+server: cloudflare
+x-permitted-cross-domain-policies: none
+cf-ray: a45e2e5e6d1cc63a-ATL
+

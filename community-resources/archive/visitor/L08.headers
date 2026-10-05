@@ -1,0 +1,11 @@
+HTTP/2 403 
+server: AkamaiGHost
+mime-version: 1.0
+content-type: text/html
+content-length: 514
+expires: Mon, 05 Oct 2026 17:35:08 GMT
+date: Mon, 05 Oct 2026 17:35:08 GMT
+alt-svc: h3=":443"; ma=93600
+strict-transport-security: max-age=31536000 ; includeSubDomains
+akamai-grn: 0.39ec3817.1791221708.2285c3db
+

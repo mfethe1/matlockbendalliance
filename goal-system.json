@@ -7,10 +7,11 @@
   "authorization": {
     "local_goal_system": true,
     "recurring_jobs": false,
-    "public_publish": false,
+    "public_publish": true,
     "external_outreach": false,
     "paid_services": false,
-    "sampling": false
+    "sampling": false,
+    "release_scope": "User authorized publication; parent owns release after independent review/gates. This slice has no deployment or outreach permission."
   },
   "policy": {
     "statuses": [
@@ -85,7 +86,7 @@
       "next_action": "Compare affected communities for the four candidates and include a discovery slot for a poorly documented community.",
       "acceptance": [
         "Record community boundaries, rural/underserved evidence, disposal distance/cost/hours, well-dependence evidence and local records capacity; missing values remain unknown.",
-        "Choose the pilot with a written rationale based on need, unresolved concerns and feasibility\u2014not media attention or number of documents.",
+        "Choose the pilot with a written rationale based on need, unresolved concerns and feasibility—not media attention or number of documents.",
         "Maintain separate urgency/discovery and substantiated/publication queues; document why candidates were deferred."
       ],
       "evidence": [],
@@ -97,7 +98,7 @@
           "evidence": []
         },
         {
-          "criterion": "Choose the pilot with a written rationale based on need, unresolved concerns and feasibility\u2014not media attention or number of documents.",
+          "criterion": "Choose the pilot with a written rationale based on need, unresolved concerns and feasibility—not media attention or number of documents.",
           "status": "not_met_or_not_verified",
           "evidence": []
         },
@@ -127,7 +128,7 @@
         "Paired brief verifies service hours, fees, eligibility, accepted materials, destination and last-check dates using actual sources.",
         "Maps and imagery use verified boundaries/capture dates/resolution; no imagery-based contamination or health inference. If imagery is unavailable, disclose it and publish no fabricated timeline.",
         "Action panel identifies the responsible authority and source-backed next action; unresolved records gaps remain visible.",
-        "G9\u2013G11 county cards pass their source, practical access, privacy and legal-currentness gates; statewide referral links alone do not satisfy the pilot."
+        "G9–G11 county cards pass their source, practical access, privacy and legal-currentness gates; statewide referral links alone do not satisfy the pilot."
       ],
       "evidence": [],
       "blocker": null,
@@ -153,7 +154,7 @@
           "evidence": []
         },
         {
-          "criterion": "G9\u2013G11 county cards pass their source, practical access, privacy and legal-currentness gates; statewide referral links alone do not satisfy the pilot.",
+          "criterion": "G9–G11 county cards pass their source, practical access, privacy and legal-currentness gates; statewide referral links alone do not satisfy the pilot.",
           "status": "not_met_or_not_verified",
           "evidence": []
         }
@@ -207,16 +208,16 @@
       ],
       "owner": "Implementation owner: this Hermes session; independent content reviewer assigned separately",
       "live_task": null,
-      "next_action": "Run full gates on the updated candidate, commit locally, then obtain explicit publication approval. Pilot and live-readback criteria remain blocked.",
+      "next_action": "Fresh eight gates and independent review on the visitor-resource candidate; parent decides compliant release/split and live readback. User release authorization exists; this slice remains local.",
       "acceptance": [
         "Preserve Matlock dossier and reconcile imagery-date wording against provenance.",
         "Provide statewide index with limited-coverage label, evidence status, verified update date, printable/low-bandwidth text and correction log.",
         "All existing dossier harnesses plus new link, mobile, accessibility and claim checks pass from a pristine candidate export.",
         "Git/review gates pass and approved release is independently read back live; a local page is not a deployed release.",
-        "Community help surfaces G9\u2013G12 resources with source dates, uncertainty, offline options and existing-duty versus proposed-policy labels; no unverified county service promise."
+        "Community help surfaces G9–G12 resources with source dates, uncertainty, offline options and existing-duty versus proposed-policy labels; no unverified county service promise."
       ],
       "evidence": [],
-      "blocker": "Pilot acceptance, implementation ownership and explicit publishing approval required.",
+      "blocker": "Independent review, size/split policy, pilot acceptance and live release/readback are pending; authorization alone is not deployment.",
       "criterion_verification": [
         {
           "criterion": "Preserve Matlock dossier and reconcile imagery-date wording against provenance.",
@@ -255,7 +256,7 @@
           "evidence": []
         },
         {
-          "criterion": "Community help surfaces G9\u2013G12 resources with source dates, uncertainty, offline options and existing-duty versus proposed-policy labels; no unverified county service promise.",
+          "criterion": "Community help surfaces G9–G12 resources with source dates, uncertainty, offline options and existing-duty versus proposed-policy labels; no unverified county service promise.",
           "status": "candidate_locally_implemented_unverified",
           "evidence": []
         }
@@ -434,7 +435,8 @@
           "status": "not_met_or_not_verified",
           "evidence": []
         }
-      ]
+      ],
+      "local_implementation": "community-resources/index.html and visitor-drafts.html: published source-backed routes in resource-register.json; not independent provider/service/outcome verification."
     },
     {
       "id": "G10",
@@ -491,7 +493,8 @@
           "status": "not_met_or_not_verified",
           "evidence": []
         }
-      ]
+      ],
+      "local_implementation": "community-resources/index.html and visitor-drafts.html: published source-backed routes in resource-register.json; not independent provider/service/outcome verification."
     },
     {
       "id": "G11",
@@ -548,7 +551,8 @@
           "status": "not_met_or_not_verified",
           "evidence": []
         }
-      ]
+      ],
+      "local_implementation": "community-resources/index.html and visitor-drafts.html: published source-backed routes in resource-register.json; not independent provider/service/outcome verification."
     },
     {
       "id": "G12",
@@ -592,7 +596,8 @@
           "status": "not_met_or_not_verified",
           "evidence": []
         }
-      ]
+      ],
+      "local_implementation": "community-resources/index.html and visitor-drafts.html: published source-backed routes in resource-register.json; not independent provider/service/outcome verification."
     }
   ],
   "metrics": [
@@ -651,20 +656,20 @@
       "goal": "G12",
       "status": "blocked",
       "owner": "research session",
-      "issue": "RCAP private-well and USDA decentralized-water pages returned HTTP 403, including retries.",
-      "clearing_condition": "Retrieve accessible administering source or separately approved provider confirmation of current availability/eligibility/cost."
+      "issue": "CU public sources now establish rural TN no-charge assessment and household loan routes. USDA pages remain 403. Current appointment capacity, analyte panel, loan income-table year and unpublished fees/collateral remain unconfirmed.",
+      "clearing_condition": "Confirm actual locality capacity, current income limits and full service/loan terms under separately authorized provider contact."
     },
     {
       "id": "B-COUNTY-CARDS",
       "goal": "G3",
       "status": "pending",
       "owner": "research session",
-      "issue": "Pilot community not yet selected; no county testing or disposal card certified.",
-      "clearing_condition": "G2 pilot selection followed by source-backed provider/cost/hours/material verification for G9\u2013G11."
+      "issue": "Source-backed Loudon County disposal and household mail-in options implemented; county fees/residency/limits, local walk-in lab acceptance and independent receiving/capacity verification remain unknown. This does not complete G2 pilot selection.",
+      "clearing_condition": "Provider/agency confirmation under separate outreach authorization, followed by independent county-specific acceptance review."
     }
   ],
   "local_candidate_tests": {
-    "status": "passed_on_prior_pristine_tree",
+    "status": "pending_fresh_pristine_export_for_visitor_slice",
     "tested_tree": "9af00b6fbb9398ce37746bfea069351924dc9d5f",
     "gates": [
       {
@@ -700,7 +705,7 @@
         "exit_code": 0
       }
     ],
-    "scope": "Local software only. Does not establish comprehensive accessibility, factual acceptance, deployment, county-service verification or real-world outcomes. Metadata/regression changes require a fresh full run before commit."
+    "scope": "Historical tested_tree/gates below refer to the prior export only. Fresh visitor-slice test receipts are external to the tested tree and handed back to the parent; no live verification or environmental outcome is claimed."
   },
   "blockers": [
     {
@@ -718,7 +723,7 @@
         "G12"
       ],
       "owner": "Separately authorized research owner; administering sources/providers",
-      "clearing_condition": "Confirm current official eligibility, coverage, price, application window/match, capacity and any operational funding in each chosen locality."
+      "clearing_condition": "CU source-backed routes exist, but confirm locality capacity, lab panel/current approval, loan income limit year, fees/collateral and funding before service/assistance verification. USDA retrieval remains blocked."
     },
     {
       "id": "B-COUNTY-PILOT",
@@ -745,7 +750,7 @@
         "G5"
       ],
       "owner": "Release approver and independent QA",
-      "clearing_condition": "Pass all six original dossier harnesses plus local link, mobile, accessibility, evidence gates on clean export; independent review/readback and explicit release authorization."
+      "clearing_condition": "User release authorization is present; still require fresh eight gates on clean export, independent review, under-400-line landing policy/split decision and live readback by parent. Slice cannot deploy."
     },
     {
       "id": "B-OUTCOMES",
@@ -757,5 +762,62 @@
       "owner": "Approved pilot operator and independent outcome reviewer",
       "clearing_condition": "Measure approved baseline and costs; document authorized change, completion evidence, separately timed later effectiveness, adverse effects and second independently selected transfer case."
     }
-  ]
+  ],
+  "visitor_resource_slice": {
+    "status": "implemented_source_backed_pending_independent_review",
+    "county_coverage": "Loudon County (existing Matlock dossier), not G2 statewide pilot selection or statewide completeness",
+    "implemented": [
+      "Three county center cards and distinct HHW referral",
+      "Two publicly confirmed household well kit options with published prices/analytes and delivery constraints",
+      "Official county/state routing and records links plus phone/mail fallbacks",
+      "No-charge rural household assessment/testing and repayable CU well/septic loan referral",
+      "Editable unsent copy/print drafts; site intake remains disabled"
+    ],
+    "source_evidence": "community-resources/archive/visitor/receipts.json",
+    "visitor_page": "community-resources/index.html",
+    "verified_county_services": [],
+    "limits": [
+      "Published source wording is archived; actual receiving capacity, terms and service delivery are not independently confirmed",
+      "No appointments, requests, applications, sampling, payments, signups or recurring jobs",
+      "No environmental improvement/outcome established"
+    ],
+    "provider_gaps": [
+      "fees",
+      "residency proof",
+      "quantity limits",
+      "HHW item confirmation",
+      "fees",
+      "residency proof",
+      "quantity limits",
+      "fees",
+      "residency proof",
+      "quantity limits",
+      "event date/address/hours",
+      "fees",
+      "appointments; linked schedule returned 404",
+      "return shipping cost",
+      "independent current TN lab/method/analyte approval",
+      "numeric holding time",
+      "assigned receiving lab/address",
+      "independent current TN lab/method/analyte approval",
+      "specialized complaint receiver",
+      "cleanup capacity",
+      "online form not usable in retrieved content",
+      "office hours",
+      "formal legal-filing route",
+      "private-well investigation/testing availability",
+      "mail address/custodian conflict",
+      "copy fees",
+      "rules for other county offices",
+      "copy fees",
+      "agency response; nothing submitted",
+      "appointment capacity",
+      "analyte panel",
+      "lab identity/current approval",
+      "income-table effective year/current limit",
+      "fees/collateral",
+      "underwriting/funding availability"
+    ],
+    "release": "local only; independent review, size/split policy and parent release gate still required"
+  }
 }

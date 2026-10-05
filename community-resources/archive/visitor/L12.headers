@@ -1,0 +1,56 @@
+HTTP/2 301 
+date: Mon, 05 Oct 2026 17:36:11 GMT
+content-type: text/html; charset=UTF-8
+location: https://communitiesu.org/lending/well-septic-loans/
+cf-ray: a45e2fe02ce6b574-ATL
+cf-cache-status: DYNAMIC
+cache-control: max-age=3600, no-transform
+expires: Mon, 05 Oct 2026 18:36:11 GMT
+server: cloudflare
+strict-transport-security: max-age=2592000
+x-edge-location-klb: 1
+disabled-plugins: 0 on 2026-10-05 05:36:11
+ki-cache-type: None
+ki-edge: v=28.5.0;mv=99.9.9
+ki-origin: g1p
+permissions-policy: accelerometer=(self), autoplay=(self), camera=(self), encrypted-media=(self), fullscreen=(self), geolocation=(self), gyroscope=(self), magnetometer=(self), microphone=(self), midi=(self), payment=(self), usb=(self)
+referrer-policy: origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+x-kinsta-cache: MISS
+x-redirect-by: WordPress
+x-xss-protection: 1
+set-cookie: __cf_bm=pomYTyOayWh8fddvGFjkrjvZz2UV5KxFWrh_bw.joeM-1791221770.267223-1.0.1.1-YRMU9fRzHM3gV5_kqXH.C.gUBmcJN_6Z4xnmQygQZCf_gujYuvCJCgnAKQeNhDQWHLGNUb5o35biKHgWM8CUsTReSi2no._Gr2dfEHXbenqTPRBGh7ONI.eCrMHFLAlD; HttpOnly; SameSite=None; Secure; Path=/; Domain=communitiesu.org; Expires=Mon, 05 Oct 2026 18:06:11 GMT
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Urx0POxb1SRnh8iSMwv7bM2Bbn7POXKLD%2FWZEG6hvjo%2Fvj4wbTF3a34ALt%2FAhJLPnOUeQI7xlsUK5m%2FIANBnz5oSqRHCvl%2Bu0hnbuL6Z0G4vW59BYxYbmLH2Gf2mDq88f7A%3D"}]}
+nel: {"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}
+alt-svc: h3=":443"; ma=86400
+
+HTTP/2 200 
+date: Mon, 05 Oct 2026 17:36:11 GMT
+content-type: text/html; charset=UTF-8
+cf-ray: a45e2fe57dc3b574-ATL
+cf-cache-status: HIT
+age: 4391
+cache-control: public, max-age=0, s-maxage=7200
+last-modified: Mon, 05 Oct 2026 16:22:59 GMT
+server: cloudflare
+strict-transport-security: max-age=2592000
+vary: Accept-Encoding
+ki-cf-cache-status: HIT
+x-edge-location-klb: 1
+disabled-plugins: 0 on 2026-10-05 03:55:03
+ki-cache-tag: e10c6d86-cc8f-4de0-a36b-d4e4ceea7ea2,6a7dce88dada9f09eed3f6c8cc630c6e5fbceabf37d9330c680bc313cdcb6554
+ki-cache-type: Edge
+ki-edge: v=28.5.0;mv=99.9.9
+ki-origin: g1p
+permissions-policy: accelerometer=(self), autoplay=(self), camera=(self), encrypted-media=(self), fullscreen=(self), geolocation=(self), gyroscope=(self), magnetometer=(self), microphone=(self), midi=(self), payment=(self), usb=(self)
+referrer-policy: origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+x-kinsta-cache: HIT
+x-xss-protection: 1
+set-cookie: __cf_bm=VoZqkGEcLeL8PugT4HtGsB3g1qKSXNpqW8NV.zpYN3E-1791221771.1127727-1.0.1.1-vCFObNy6I2VDGUYKPjJpEege5XGq2.DbsZIIILxTLrUiTTpk73NfZi2Y3_HaNYSxmYqfSEGjAMlgIUhVB6JeTQxGeFqwJpEHuOs1cT659vuTw7hn_1DV42YHZUyTSa3t; HttpOnly; SameSite=None; Secure; Path=/; Domain=communitiesu.org; Expires=Mon, 05 Oct 2026 18:06:11 GMT
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=wE3yabMupd%2Br3bMYs6%2BI1AH0qD6uNWInhh7%2BcP7F%2FEe2gqMTJoHOvuyY659%2FYxZzjhHODIqYP0QySneyZ%2B2X9cjGOa%2FZF4i4vMZip48LcRqrGSBYwVomTov9cI0AYRzkmwQ%3D"}]}
+nel: {"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}
+alt-svc: h3=":443"; ma=86400
+

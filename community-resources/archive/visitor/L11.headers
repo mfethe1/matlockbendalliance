@@ -1,0 +1,68 @@
+HTTP/2 301 
+date: Mon, 05 Oct 2026 17:35:09 GMT
+content-type: text/html; charset=UTF-8
+location: https://loudoncounty-tn.gov/departments/
+cf-ray: a45e2e619f5a97e6-ATL
+cf-cache-status: DYNAMIC
+server: cloudflare
+strict-transport-security: max-age=63072000
+x-edge-location-klb: 1
+access-control-allow-headers: Content-Type, Authorization
+access-control-allow-methods: GET,POST
+content-security-policy: upgrade-insecure-requests;
+cross-origin-opener-policy: unsafe-none
+cross-origin-resource-policy: cross-origin
+ki-cache-type: None
+ki-edge: v=28.5.0;mv=99.9.9
+ki-origin: g1p
+no-vary-search: params=("PageSpeed")
+permissions-policy: accelerometer=(), autoplay=(), camera=(), cross-origin-isolated=(), display-capture=(self), encrypted-media=(), fullscreen=*, geolocation=(self), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=*, picture-in-picture=*, publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=*, usb=(), xr-spatial-tracking=(), gamepad=(), serial=()
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-kinsta-cache: MISS
+x-permitted-cross-domain-policies: none
+x-redirect-by: WordPress
+set-cookie: __cf_bm=c8nMKz7NRKbFATPjz5.7RJfZl_nA5SSyBpO6FsJmcSk-1791221709.056191-1.0.1.1-bgXU3803LQ8OuXxirTugEPkMBdY07qFtY8OMdU8FUIvlnrc592wTvXjVWlwzGib3UmnjvwrqMupR0cW1Sn5iz3uvfTFqgeC6nGhjs3r9zIiLS2gLSJtzIGIPeIY0O5a5; HttpOnly; SameSite=None; Secure; Path=/; Domain=loudoncounty-tn.gov; Expires=Mon, 05 Oct 2026 18:05:09 GMT
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=a7p%2FWPJ1iLTT%2FrYB%2BKXsbw1cipc2PqExeE%2FheqY1E6Gcacr3y3KcnxfujycLUInrZLAtM9DAKW5pfSRLmaK2aXnPnChhg1ewta5%2BdZAjrbmdGYGAF8piQE8w7t0J5K6o0FB1wqA%3D"}]}
+nel: {"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}
+alt-svc: h3=":443"; ma=86400
+
+HTTP/2 200 
+date: Mon, 05 Oct 2026 17:35:09 GMT
+content-type: text/html; charset=UTF-8
+cf-ray: a45e2e658c4997e6-ATL
+cf-cache-status: HIT
+age: 2035
+cache-control: public, max-age=0, s-maxage=86400
+last-modified: Mon, 05 Oct 2026 17:01:14 GMT
+link: <https://loudoncounty-tn.gov/wp-json/>; rel="https://api.w.org/", <https://loudoncounty-tn.gov/wp-json/wp/v2/pages/2053>; rel="alternate"; title="JSON"; type="application/json", <https://loudoncounty-tn.gov/?p=2053>; rel=shortlink
+server: cloudflare
+strict-transport-security: max-age=63072000
+vary: Accept-Encoding
+ki-cf-cache-status: HIT
+x-edge-location-klb: 1
+access-control-allow-headers: Content-Type, Authorization
+access-control-allow-methods: GET,POST
+content-security-policy: upgrade-insecure-requests;
+cross-origin-opener-policy: unsafe-none
+cross-origin-resource-policy: cross-origin
+ki-cache-tag: 097dbf65-41d0-47b1-9ea5-522a6ad62398,21fab11943e32c35ae234755e43e33c71ade7ec1800f46d732038128c526f92a
+ki-cache-type: Edge
+ki-edge: v=28.5.0;mv=99.9.9
+ki-origin: g1p
+no-vary-search: params=("PageSpeed")
+permissions-policy: accelerometer=(), autoplay=(), camera=(), cross-origin-isolated=(), display-capture=(self), encrypted-media=(), fullscreen=*, geolocation=(self), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=*, picture-in-picture=*, publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=*, usb=(), xr-spatial-tracking=(), gamepad=(), serial=()
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-kinsta-cache: HIT
+x-permitted-cross-domain-policies: none
+x-tec-api-origin: https://loudoncounty-tn.gov
+x-tec-api-root: https://loudoncounty-tn.gov/wp-json/tribe/events/v1/
+x-tec-api-version: v1
+set-cookie: __cf_bm=XZ_gbFKSKfCPDIyKvyDsQmvqOS37l3jbuo3LnM3nops-1791221709.6907265-1.0.1.1-5HKxk2pKtGYvcD42Vh8Ee0PUTz_Hf7tsPrAA6RSIRzy0309f6Qg5jQm_3f93llODYrQLBM8sPvB7T8WWRCJ6h6HujOoKPn2f9p1UVS9.yYNsnxPScPQ0FD.iEyKihRls; HttpOnly; SameSite=None; Secure; Path=/; Domain=loudoncounty-tn.gov; Expires=Mon, 05 Oct 2026 18:05:09 GMT
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=pX1cw6hItLFrUi%2FTbzjkdbkqth%2FUuFav6ShgvgEd1uLJZ%2BuhssNqyi%2B5vrbTgVzP%2B%2F0Tu%2BRcf2zjhKgpcdjxC1qkBifCiQQ%2Fuh%2B5o1OBIF906Vca0Y08HPYdBGMQhunLhRMRCDE%3D"}]}
+nel: {"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}
+alt-svc: h3=":443"; ma=86400
+

@@ -1,0 +1,25 @@
+HTTP/2 200 
+date: Mon, 05 Oct 2026 17:38:05 GMT
+content-type: application/pdf
+content-length: 1594561
+access-control-allow-origin: *
+access-control-expose-headers: *
+cache-control: public, max-age=31557600
+cache-tag: segment4-55985,shop-23525289,mime-application/pdf-55985,time-bucket-20261005-55985,10adef6375d0bc2af2202e98b406d5652c3d1e72a40da11577f30de62aa7a675,host-cdn.shopify.com-55985
+link: <https://cdn.shopify.com/s/files/1/2352/5289/files/WaterCheck_Standard_Deluxe_SAMPLING_INSTRUCTIONS_2021.pdf>; rel="canonical"
+server-timing: imagery;dur=201.512, imageryFetch;dur=141.606
+timing-allow-origin: *
+x-content-type-options: nosniff
+x-robots-tag: none
+x-shopid: 23525289
+x-xss-protection: 1; mode=block
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+x-dc: gcp-us-east1,gcp-us-east1
+x-request-id: 01a10d24-eb25-7955-926d-bb62cdd88762-1791221885
+server: envoy
+nel: {"max_age":0}
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+alt-svc: h3=":443"; ma=2592000
+x-shopify-gclb-trace-timing: 1791221885.733
+via: 1.1 google
+
